@@ -32,7 +32,7 @@ TYPES = [
     ("restauracja", "Restauracja", r"restaurac|bistro|trattori|pizzeri|sushi|steak|karczm|gospod"),
 ]
 VIBES = {
-    "eleganckie": r"elegan|wykwintn|fine dining|szyk|klasa|stylow|wytworn|z klasą|piękn[ey] wnętrz",
+    "eleganckie": r"elegan|wykwintn|fine dining|szykown|wytworn|z klasą|wysok[aiey]j? klas|ekskluzyw|perfekcyjn[ae] obsług",
     "romantyczne": r"romanty|randk|we dwoje|świec|nastrojow|klimatyczn|intymn",
     "luksusowe": r"luksus|ekskluzyw|degustac|sommelier|tasting|menu degustacyjne|premium|michelin",
     "kameralne": r"kameraln|przytuln|mał[ay] lokal|niewielk|domow[ay] atmosfer|cich",
@@ -93,16 +93,23 @@ for k, d in det.items():
     else:
         typ = next((tid for tid, _, rx in TYPES if re.search(rx, base)), None) or next((tid for tid, _, rx in TYPES if re.search(rx, low(qs))), "restauracja")
     rating = d.get("rating") or 0; nrev = d.get("reviews") or 0
-    vibes = []
+    vibes, hits = [], {}
     for v, rx in VIBES.items():
-        hits = len(re.findall(rx, full))
-        if hits >= (1 if v in ("taras", "luksusowe") else 1): vibes.append(v)
-    low_end = typ == "fastfood" or bool(re.search(r"kebab|bar mleczny|zapiekank|fast food", base)) or re.search(r"kebab|bar mleczny|zapiekank|fast food|pizzeria na wynos", base)
-    if low_end: vibes = [v for v in vibes if v in ("taras",)]
-    if typ in ("pub", "klub", "kawiarnia"): vibes = [v for v in vibes if v not in ("eleganckie", "luksusowe")]
-    if "luksusowe" in vibes and "eleganckie" not in vibes: vibes.append("eleganckie")
+        hits[v] = len(re.findall(rx, full))
+        if hits[v] >= 1: vibes.append(v)
+    nongastro = bool(re.search(r"sala weselna|dom weselny|catering|hotel|centrum rozrywki|kasyno|kręgiel|sklep(?! z winem)", lc)) or (not cat and not re.search(r"restaurac", low(d["name"])))
+    if nongastro: continue
+    low_end = typ == "fastfood" or bool(re.search(r"kebab|bar mleczny|zapiekank|fast food|pizzeri|obiady domowe|stołówk", base))
+    strong = bool(re.search(r"ekskluzywn|fine dining|degustac", lc))
+    eleg_ok = strong or (typ in ("restauracja", "winiarnia") and not low_end and (hits["eleganckie"] >= 2 or (hits["eleganckie"] >= 1 and rating >= 4.5 and nrev >= 150)))
+    if not eleg_ok: vibes = [v for v in vibes if v != "eleganckie"]
+    lux_ok = strong or (eleg_ok and hits["luksusowe"] >= 1)
+    if not lux_ok: vibes = [v for v in vibes if v != "luksusowe"]
+    if low_end: vibes = [v for v in vibes if v in ("taras", "kameralne")]
+    if typ in ("pub", "klub", "kawiarnia", "bar"): vibes = [v for v in vibes if v not in ("eleganckie", "luksusowe")] if hits["eleganckie"] < 3 else vibes
     if typ == "restauracja" and rating >= 4.7 and nrev >= 300 and re.search(r"nowoczesn|autorsk|fine|europejsk|francusk|degust", base) and "eleganckie" not in vibes:
         vibes.append("eleganckie")
+    if strong and "eleganckie" not in vibes: vibes.append("eleganckie")
     occ = [o for o, rx in OCC.items() if re.search(rx, full)]
     if not low_end and ("romantyczne" in vibes or "eleganckie" in vibes) and "randka" not in occ: occ.append("randka")
     if not low_end and ("eleganckie" in vibes and "luksusowe" in vibes) and "rocznica" not in occ: occ.append("rocznica")
