@@ -49,6 +49,10 @@ W Mapach Google zdarzają się żarty (np. „Siedziba Geometry Dash” jako klu
 - Przejrzana kuchnia każdego lokalu, ok. 40 poprawek w korekty.json → "kuchnie".
 - Nowe lokale po kolejnym zbieraniu trzeba przejrzeć tak samo (plansze: /home/claude/rev w środowisku Claude'a, skrypt w historii rozmowy; łatwo odtworzyć).
 
+## Wygląd v2 (6.11 wieczór, według projektu właściciela)
+Ekran główny: wyszukiwarka, 4 duże przyciski (Kuchnie, Klimat miejsca, Okazje, Rodzaj lokalu), polecane. Okazje, Klimat i Rodzaj lokalu to listy szerokich banerów (#/okazje, #/klimat, #/lokale): grafiki 8:3 w img/banery/<grupa>-<id>.jpg (okazja-, klimat-, lokal-), a do czasu ich wstawienia stare kafelki albo ikony. Kuchnie: siatka 2 kolumn. Karta lokalu: rząd przycisków Strona, Menu, Telefon, Trasa, opis, godziny dziś, bez paska CTA.
+Nowe kategorie: klimat „nowoczesne” (ręczna lista w kuracja.json) i okazja „rodzinna” (lista ręczna + opinie o dzieciach i rodzinie, restauracje z oceną 4,4+ i ponad 150 opiniami).
+
 ## Mapa
 Zakładka Mapa: Leaflet i markercluster w vendor/leaflet (ładowane dopiero po wejściu w zakładkę). Kafelki tile.openstreetmap.org z filtrem CSS (jasny, wyciszony styl). CARTO odpadło, bo bez klucza pokazuje znak wodny „API KEY REQUIRED”. Bordowe większe punkty to lokale eleganckie. Etykieta: zdjęcie, nazwa, kuchnia, ocena, link do karty. Lokalizacja przez watchPosition; mapa centruje się na użytkowniku tylko, gdy jest w Lublinie. Mapa trzyma stan (kontener #mapwrap poza #view).
 

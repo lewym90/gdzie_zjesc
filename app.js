@@ -1,8 +1,15 @@
 "use strict";
-const APP_V = "20261106-203404";
+const APP_V = "20261106-204748";
 /* Gdzie zjeść: przeglądarka lokali. Tylko wyświetla dane z data/places.json. */
 
 const ICO = {
+  building: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><path d="M7 34V12l12-6v28M19 34V16l14 4v14M4 34h32"/><path d="M11 15h4M11 20h4M11 25h4M23 23h6M23 28h6"/></svg>',
+  rings: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="15" cy="23" r="9"/><circle cx="25" cy="23" r="9"/><path d="M12 9l3-4 3 4-3 3zM22 9l3-4 3 4-3 3z" stroke-linejoin="round"/></svg>',
+  family: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="12" cy="10" r="4"/><circle cx="28" cy="10" r="4"/><circle cx="20" cy="20" r="3"/><path d="M5 34v-9a7 7 0 0 1 14 0M21 25a7 7 0 0 1 14 0v9M15 34v-4a5 5 0 0 1 10 0v4"/></svg>',
+  calendar: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="6" y="9" width="28" height="25" rx="3"/><path d="M6 16h28M13 5v7M27 5v7M15 24l4 4 7-7"/></svg>',
+  sofa: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M9 20v-6a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4v6"/><path d="M5 22a3 3 0 0 1 6 0v3h18v-3a3 3 0 0 1 6 0v8H5z"/><path d="M8 30v4M32 30v4"/></svg>',
+  forkL: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 5v13M8 5v9a4 4 0 0 0 8 0V5M12 18v17"/><path d="M28 35V5c-3.5 2-5.5 6.5-5.5 12 0 2.5 1.2 4 3.2 4H28"/></svg>',
+  globeL: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.5 3.5 5.3 3.5 8.5s-1 6-3.5 8.5c-2.5-2.5-3.5-5.3-3.5-8.5s1-6 3.5-8.5z"/></svg>',
   cloche: '<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 23h22M3 26h26"/><path d="M6 23a10 10 0 0 1 20 0"/><circle cx="16" cy="11.2" r="1.4"/><path d="M14 4.5c1.5 1 1.5 2.4 0 3.4M18 4.5c1.5 1 1.5 2.4 0 3.4"/></svg>',
   cutlery: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v8M4.5 3v5a2.5 2.5 0 0 0 5 0V3M7 11v10"/><path d="M17 21V3c-2.2 1.3-3.5 4-3.5 7.5 0 1.6.8 2.5 2 2.5H17"/></svg>',
   sliders: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>',
@@ -44,20 +51,25 @@ const ICO = {
 const ico = (n) => ICO[n] || "";
 
 const VIBES = [
-  { id: "eleganckie", label: "Eleganckie", ico: "chandelier" },
-  { id: "romantyczne", label: "Romantyczne", ico: "rose", wine: true },
-  { id: "luksusowe", label: "Luksusowe", ico: "diamond" },
-  { id: "kameralne", label: "Kameralne", ico: "lamp" },
-  { id: "taras", label: "Z tarasem", ico: "terrace" },
+  { id: "eleganckie", label: "Eleganckie", ico: "chandelier", sub: "Klasa i wyrafinowanie", tint: "#3d3018" },
+  { id: "romantyczne", label: "Romantyczne", ico: "rose", sub: "Świece i nastrój we dwoje", tint: "#4f0e1b" },
+  { id: "luksusowe", label: "Luksusowe", ico: "diamond", sub: "Najwyższa półka", tint: "#2e2710" },
+  { id: "kameralne", label: "Kameralne", ico: "lamp", sub: "Kilka stolików, dużo spokoju", tint: "#3d2414" },
+  { id: "nowoczesne", label: "Nowoczesne", ico: "building", sub: "Design i miejski styl", tint: "#1d2428" },
+  { id: "taras", label: "Z tarasem", ico: "terrace", sub: "Kolacja pod gołym niebem", tint: "#4a2c12" },
 ];
 const OCC = [
-  { id: "randka", label: "Randka", ico: "heartL" },
-  { id: "rocznica", label: "Rocznica", ico: "glasses" },
-  { id: "urodziny", label: "Urodziny", ico: "cake" },
-  { id: "biznesowa", label: "Biznesowa", ico: "case" },
+  { id: "randka", label: "Randka", ico: "heartL", sub: "Romantyczna atmosfera", tint: "#5a0f1c" },
+  { id: "biznesowa", label: "Biznesowa", ico: "case", sub: "Profesjonalna i dyskretna", tint: "#1b2636" },
+  { id: "urodziny", label: "Urodziny", ico: "cake", sub: "Wyjątkowa oprawa", tint: "#4a2a12" },
+  { id: "rocznica", label: "Rocznica", ico: "rings", sub: "Niezapomniany wieczór", tint: "#1a1e38" },
+  { id: "rodzinna", label: "Rodzinna", ico: "family", sub: "Komfort dla całej rodziny", tint: "#3b2a16" },
 ];
+const TYPE_SUB = { restauracja: "Pełne menu i obsługa przy stole", pub: "Piwo, mecz i dobra kompania", bar: "Koktajle i nocne rozmowy", klub: "Muzyka i parkiet do rana", kawiarnia: "Kawa, desery i chwila oddechu", winiarnia: "Wino, sery i spokój", fastfood: "Burgery, kebab, coś na szybko" };
+const TYPE_TINT = { restauracja: "#2f2318", pub: "#3b2710", bar: "#0f2b2b", klub: "#2b1040", kawiarnia: "#3b2b1d", winiarnia: "#3d0f1a", fastfood: "#3d1b0a" };
+const OCC_NA = { randka: "randkę", biznesowa: "spotkanie biznesowe", urodziny: "urodziny", rocznica: "rocznicę", rodzinna: "rodzinny obiad" };
 const TYPE_ICO = { restauracja: "cloche", pub: "pint", bar: "cocktail", klub: "disco", kawiarnia: "coffee", winiarnia: "wine", fastfood: "cutlery" };
-const VIBE_ADJ = { eleganckie: "Elegancka", romantyczne: "Romantyczna", luksusowe: "Luksusowa", kameralne: "Kameralna", taras: "Z tarasem" };
+const VIBE_ADJ = { eleganckie: "Elegancka", romantyczne: "Romantyczna", luksusowe: "Luksusowa", kameralne: "Kameralna", nowoczesne: "Nowoczesna", taras: "Z tarasem" };
 const DAYS = ["poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota", "niedziela"];
 const HOME_CUISINES = ["wloska", "polska", "azjatycka", "steakhouse"];
 
@@ -168,17 +180,27 @@ function qs(o) { return "#/wyniki?" + new URLSearchParams(Object.entries(o).filt
 function viewHome() {
   const featured = DB.places.filter((p) => p.vibes.includes("eleganckie")).slice(0, 8);
   const feat = featured.length ? featured : DB.places.slice(0, 8);
+  const big = [["#/kuchnie", "forkL", "Kuchnie"], ["#/klimat", "sofa", "Klimat miejsca"], ["#/okazje", "calendar", "Okazje"], ["#/lokale", "cocktail", "Rodzaj lokalu"]];
   return `<header class="hdr"><div class="hdr-row"><div class="brand"><i>${ico("cloche")}</i><h1>Gdzie zjeść</h1></div>
     <span class="city"><i>${ico("pin")}</i>${esc(DB.meta.city || "Lublin")}</span></div>
     <form class="search" id="sform"><i>${ico("search")}</i><input id="q" type="search" enterkeyhint="search" placeholder="Szukaj restauracji, kuchni, miejsca…" autocomplete="off"></form></header>
-  <section class="sec"><div class="sec-h"><h2>Wybierz kuchnię</h2><a href="#/kuchnie">Wszystkie ›</a></div>
-    <div class="tiles">${HOME_CUISINES.map((c) => tileImg(cuisineLabel(c), qs({ cuisine: c }), cuisinePhoto(c), "kuchnia-" + c)).join("")}</div></section>
-  <section class="sec"><div class="sec-h"><h2>Klimat miejsca</h2><a href="#/filtry">Wszystkie ›</a></div>
-    <div class="tiles">${VIBES.slice(0, 4).map((v) => tileIco(v.label, qs({ vibe: v.id }), v.ico, v.wine, "klimat-" + v.id)).join("")}</div></section>
-  <section class="sec"><div class="sec-h"><h2>Okazja</h2><a href="#/filtry">Wszystkie ›</a></div>
-    <div class="tiles">${OCC.map((v) => tileIco(v.label, qs({ occ: v.id }), v.ico, false, "okazja-" + v.id)).join("")}</div></section>
-  <section class="sec"><div class="sec-h"><h2>Polecane miejsca w Lublinie</h2><a href="${qs({ vibe: "eleganckie" })}">Wszystkie ›</a></div></section>
+  <section class="sec"><div class="big4">${big.map(([h, ic, l]) => `<a class="big" href="${h}"><i>${ico(ic)}</i><span>${l}</span></a>`).join("")}</div></section>
+  <section class="sec"><div class="sec-h"><h2>Polecane w Lublinie</h2><a href="${qs({ vibe: "eleganckie" })}">Zobacz wszystkie ›</a></div></section>
   <div class="cards">${feat.map(card).join("")}</div>`;
+}
+function banner(key, title, sub, href, tint, ic) {
+  const src = (DB.meta.banners || []).includes(key) ? `img/banery/${key}.jpg` : hasTile(key) ? `img/kafle/${key}.jpg` : null;
+  return `<a class="bn" href="${href}" style="--tint:${tint}">${src ? `<img src="${src}" alt="" loading="lazy" class="${(DB.meta.banners || []).includes(key) ? "wide" : "sq"}">` : `<i class="bn-ico">${ico(ic)}</i>`}
+    <div class="bn-txt"><b>${esc(title)}</b><span>${esc(sub)}</span></div></a>`;
+}
+function viewBanners(kind) {
+  let title, items;
+  if (kind === "okazje") { title = "Okazje"; items = OCC.map((o) => banner("okazja-" + o.id, o.label, o.sub, qs({ occ: o.id }), o.tint, o.ico)); }
+  else if (kind === "klimat") { title = "Klimat miejsca"; items = VIBES.map((o) => banner("klimat-" + o.id, o.label, o.sub, qs({ vibe: o.id }), o.tint, o.ico)); }
+  else { title = "Rodzaj lokalu"; const ord = ["restauracja", "kawiarnia", "winiarnia", "bar", "pub", "klub", "fastfood"];
+    items = DB.meta.types.filter((t) => t.n).sort((a, b) => ord.indexOf(a.id) - ord.indexOf(b.id)).map((t) => banner("lokal-" + t.id, t.label, TYPE_SUB[t.id] || "", qs({ type: t.id }), TYPE_TINT[t.id] || "#2a2018", TYPE_ICO[t.id] || "cloche")); }
+  return `<div class="bar"><a class="ib" href="#/" data-back><i>${ico("back")}</i></a><h2 class="ttl">${title}</h2><span class="ib"></span></div>
+  <div class="bns">${items.join("")}</div>`;
 }
 
 const PAGE = 20;
@@ -188,20 +210,19 @@ function viewResults(params) {
   const list = filtered();
   const chips = filterChips();
   const n = Math.min(list.length, +(params.get("n") || PAGE));
-  return `<div class="bar"><a class="ib" href="#/" data-back><i>${ico("back")}</i></a><h2>Wyniki (${list.length})</h2><a class="ib" href="#/filtry"><i>${ico("sliders")}</i></a></div>
+  const ttl = chips.filter(([k]) => k !== "q" && k !== "open").map(([, l]) => l).join(" · ") || (S.q ? `„${S.q}”` : "Wszystkie miejsca");
+  return `<div class="bar"><a class="ib" href="#/" data-back><i>${ico("back")}</i></a><h2 class="rt">${esc(ttl)}</h2><a class="ib" href="#/filtry"><i>${ico("sliders")}</i></a></div>
     ${chips.length ? `<div class="chips">${chips.map(([k, l]) => `<button class="chip" data-rm="${k}">${esc(l)}<i>${ico("close")}</i></button>`).join("")}</div>` : ""}
+    <div class="count">Znaleziono ${list.length} ${plural(list.length, "miejsce", "miejsca", "miejsc")}</div>
     ${list.length ? `<div class="cards">${list.slice(0, n).map(card).join("")}</div>${n < list.length ? `<button class="more" data-more="${n + PAGE}">Pokaż więcej (${list.length - n})</button>` : ""}`
       : `<div class="empty"><i>${ico("cloche")}</i><br>Nie znalazłem lokali dla tych filtrów.<br>Usuń któryś z nich, żeby zobaczyć więcej miejsc.</div>`}`;
 }
 
 function viewCuisines() {
   const cz = DB.meta.cuisines.filter((c) => c.n > 0);
-  const ty = DB.meta.types.filter((c) => c.n > 0);
-  return `<div class="bar"><span class="ib"></span><h2>Kuchnie i lokale</h2><span class="ib"></span></div>
-  <div class="subh">Kuchnie</div><div class="grid2">${cz.map((c) => tileImg(c.label, qs({ cuisine: c.id }), cuisinePhoto(c.id), "kuchnia-" + c.id)).join("")}</div>
-  <div class="subh">Rodzaj lokalu</div><div class="grid2">${ty.map((t) => tileIco(t.label, qs({ type: t.id }), TYPE_ICO[t.id] || "cloche", false, "lokal-" + t.id)).join("")}</div>`;
+  return `<div class="bar"><a class="ib" href="#/" data-back><i>${ico("back")}</i></a><h2 class="ttl">Kuchnie</h2><span class="ib"></span></div>
+  <div class="kgrid">${cz.map((c) => tileImg(c.label, qs({ cuisine: c.id }), cuisinePhoto(c.id), "kuchnia-" + c.id)).join("")}</div>`;
 }
-
 function selBox(key, label, ic, opts, val, any = "Dowolna") {
   const cur = opts.find((o) => o[0] === val);
   return `<div class="sel"><i>${ico(ic)}</i><label>${label}:</label><b>${cur ? esc(cur[1]) : any}</b><i class="chev">${ico("chevd")}</i>
@@ -329,13 +350,31 @@ function viewDetail(id, tab) {
     <div class="dt-title"><h1>${esc(p.name)}</h1>${p.price ? `<span class="price">${esc(p.price)}</span>` : ""}</div>
     ${p.rating ? `<div class="dt-rate"><i>${ico("star")}</i><b>${fmtR(p.rating)}</b><span>(${p.reviews} ${plural(p.reviews, "opinia", "opinie", "opinii")})</span>${os === null ? "" : `<span>·</span><span style="color:${os ? "#9fd8a6" : "#e7a3a3"}">${os ? "Otwarte teraz" : "Teraz zamknięte"}</span>`}</div>` : ""}
     ${tags.length ? `<div class="dt-tags">${tags.map(esc).join(" · ")}</div>` : ""}
-    <div class="dt-addr"><div class="addr"><i>${ico("pin")}</i><span>${esc(cityAddr(p.address))}</span></div><a class="nav-btn" href="${esc(nav)}" target="_blank" rel="noopener" aria-label="Prowadź"><i>${ico("navi")}</i></a></div>
+    <div class="dt-addr"><div class="addr"><i>${ico("pin")}</i><span>${esc(cityAddr(p.address))}</span></div></div>
+    <div class="acts">
+      <a class="act ${p.www ? "" : "dis"}" href="${esc(p.www || "#")}" target="_blank" rel="noopener"><i>${ico("globeL")}</i><span>Strona</span></a>
+      <a class="act ${menuHref ? "" : "dis"}" ${menuHref === "#menu" ? 'href="#" data-tab="menu"' : `href="${esc(menuHref || "#")}" target="_blank" rel="noopener"`}><i>${ico("book")}</i><span>Menu</span></a>
+      <a class="act ${p.phone ? "" : "dis"}" href="${p.phone ? "tel:" + esc(p.phone.replace(/\s/g, "")) : "#"}"><i>${ico("phone")}</i><span>Telefon</span></a>
+      <a class="act" href="${esc(nav)}" target="_blank" rel="noopener"><i>${ico("navi")}</i><span>Trasa</span></a>
+    </div>
+    ${summary(p)}
     <div class="thumbs">${ph.slice(1, 9).map((u, i) => `<button data-vi="${i + 1}"><img src="${img(u, 360, 290)}" alt="" loading="lazy" referrerpolicy="no-referrer" class="fi"></button>`).join("")}</div>
     <div class="tabs" id="tabs">${[["info", "Informacje"], ["menu", "Menu"], ["godziny", "Godziny"], ["kontakt", "Kontakt"]].map(([k, l]) => `<button data-tab="${k}" class="${k === tab ? "on" : ""}">${l}</button>`).join("")}</div>
     <div class="pane" id="pane">${paneFor(p, tab)}</div>
-    <div class="cta"><a class="btn ol" ${menuHref === "#menu" ? 'href="#" data-tab="menu"' : `href="${esc(menuHref || "#")}" target="_blank" rel="noopener"`}><i>${ico("book")}</i>Menu</a>
-      <a class="btn fill ${p.www ? "" : "dis"}" href="${esc(p.www || "#")}" target="_blank" rel="noopener">Strona restauracji<i>${ico("ext")}</i></a></div>
   </div>`;
+}
+function summary(p) {
+  const base = p.category || typeLabel(p.type);
+  const ADJ = { eleganckie: "elegancki", romantyczne: "romantyczny", luksusowe: "luksusowy", kameralne: "kameralny", nowoczesne: "nowoczesny" };
+  const v = p.vibes.filter((x) => ADJ[x]).map((x) => ADJ[x]);
+  const occ = p.occasions.map((o) => OCC_NA[o]).filter(Boolean);
+  let t = base + "." + (v.length ? " Klimat " + (v.length > 1 ? v.slice(0, -1).join(", ") + " i " + v[v.length - 1] : v[0]) + "." : "");
+  if (p.vibes.includes("taras")) t += " Ma ogródek lub taras.";
+  if (occ.length) t += " Dobre miejsce na " + (occ.length > 1 ? occ.slice(0, -1).join(", ") + " i " + occ[occ.length - 1] : occ[0]) + ".";
+  const wd = DAYS[(new Date().getDay() + 6) % 7], h = (p.hoursText || {})[wd];
+  const os = openState(p);
+  const hours = h ? (/Zamknięte/.test(h) ? `<div class="sm-row"><i>${ico("clock")}</i><span class="cl">Dziś zamknięte</span></div>` : `<div class="sm-row"><i>${ico("clock")}</i><span class="${os ? "op" : ""}">${os ? "Otwarte dziś" : "Dziś"}:</span><span>${esc(h)}</span></div>`) : "";
+  return `<div class="sm"><p>${esc(t)}</p>${hours}${p.price ? `<div class="sm-row"><i>${ico("coins")}</i><span>Ceny w menu: ${esc(p.price)}</span></div>` : ""}</div>`;
 }
 function paneFor(p, t) { return t === "menu" ? menuPane(p) : t === "godziny" ? hoursTable(p) : t === "kontakt" ? contactPane(p) : infoPane(p); }
 
@@ -413,6 +452,7 @@ function route() {
   if (path.startsWith("/lokal/")) { html = viewDetail(decodeURIComponent(path.slice(7)), params.get("t")); detail = true; tab = null; }
   else if (path === "/wyniki") { html = viewResults(params); tab = null; }
   else if (path === "/kuchnie") { html = viewCuisines(); tab = "kuchnie"; }
+  else if (path === "/okazje" || path === "/klimat" || path === "/lokale") { html = viewBanners(path.slice(1)); tab = "home"; }
   else if (path === "/mapa") { html = ""; tab = "mapa"; }
   else if (path === "/filtry") { html = viewFilters(); tab = "filtry"; }
   else if (path === "/ulubione") { html = viewFav(); tab = "ulubione"; }
@@ -460,7 +500,7 @@ document.addEventListener("click", (e) => {
     document.querySelectorAll("#tabs button").forEach((b) => b.classList.toggle("on", b.dataset.tab === k));
     $("#pane").innerHTML = paneFor(curPlace(), k);
     if (k === "info") initMini();
-    if (tb.closest(".cta")) $("#tabs").scrollIntoView({ behavior: "smooth", block: "start" });
+    if (tb.closest(".acts")) $("#tabs").scrollIntoView({ behavior: "smooth", block: "start" });
     return;
   }
   if (t.closest("[data-share]")) {

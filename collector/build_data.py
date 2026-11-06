@@ -133,13 +133,15 @@ for k, d in det.items():
     nm = d["name"].lower()
     cur = lambda key: any(x.lower() in nm for x in KUR.get(key, []))
     strong = bool(re.search(r"ekskluzywn|fine dining", lc))
-    vibes = [v for v in ("eleganckie", "romantyczne", "luksusowe", "kameralne") if cur(v) or (strong and v in ("eleganckie", "luksusowe"))]
+    vibes = [v for v in ("eleganckie", "romantyczne", "luksusowe", "kameralne", "nowoczesne") if cur(v) or (strong and v in ("eleganckie", "luksusowe"))]
     if hits["taras"] >= 1 and not low_end: vibes.append("taras")
     occ = []
     if not low_end and ("romantyczne" in vibes or "eleganckie" in vibes): occ.append("randka")
     if "eleganckie" in vibes and ("romantyczne" in vibes or "luksusowe" in vibes): occ.append("rocznica")
     if not low_end and typ in ("restauracja", "pub", "klub", "bar") and rating >= 4.4 and nrev >= 300 and len(re.findall(OCC["urodziny"], full)) >= 1: occ.append("urodziny")
     if cur("biznesowa"): occ.append("biznesowa")
+    fam = len(re.findall(r"dzieci|dzieckiem|dziećmi|z rodziną|rodzinn[aey]j? (obiad|wyjści|spotkani|imprez)|kącik dla|plac zabaw|maluch|krzesełk|całą rodziną", low(revs)))
+    if (cur("rodzinna") or (typ == "restauracja" and not re.search(r"food truck|palarnia|ekskluzyw|kanapk", lc + " " + low(d["name"])) and fam >= 1 and rating >= 4.4 and nrev >= 150)) and "rodzinna" not in occ: occ.append("rodzinna")
     m = menus.get(k) or {}
     key = (d["name"], addr)
     if key in seen: continue
@@ -179,9 +181,11 @@ for p in places:
 places.sort(key=lambda p: -p["score"])
 TD = "/home/claude/gdzie_zjesc/img/kafle"
 tiles = sorted(f[:-4] for f in os.listdir(TD) if f.endswith(".jpg")) if os.path.isdir(TD) else []
+BD = "/home/claude/gdzie_zjesc/img/banery"
+banners = sorted(f[:-4] for f in os.listdir(BD) if f.endswith(".jpg")) if os.path.isdir(BD) else []
 splash = os.path.exists("/home/claude/gdzie_zjesc/img/start.jpg")
 meta = {
-    "city": "Lublin", "tiles": tiles, "splash": splash,
+    "city": "Lublin", "tiles": tiles, "banners": banners, "splash": splash,
     "count": len(places),
     "cuisines": [{"id": c, "label": l, "n": sum(c in p["cuisines"] for p in places)} for c, l, _ in CUISINES],
     "types": [{"id": t, "label": l, "n": sum(p["type"] == t for p in places)} for t, l, _ in TYPES],

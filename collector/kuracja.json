@@ -101,6 +101,40 @@
    "Hotel i Restauracja Piano",
    "Winestone",
    "2PIER"
+  ],
+  "nowoczesne": [
+   "Kuchnia Otwarta",
+   "Restauracja 2PIER",
+   "restauracja Otwarta Grill",
+   "NIEZNANA",
+   "Como - Kuchnia",
+   "Restauracja Grano Verde",
+   "BONA restaurant",
+   "WINESTONE",
+   "Restauracja Lublin Prusa 8",
+   "Parownia Dim Sum",
+   "Kage Ramen",
+   "Ookii Ramen",
+   "Bōru Ramen",
+   "Labour",
+   "Koralova",
+   "Yuka",
+   "El Tiempo",
+   "Restauracja Bianco",
+   "Restauracja Może",
+   "Restauracja Ansaldo"
+  ],
+  "rodzinna": [
+   "Pyzata Chata",
+   "Chata Swojsko Strawa",
+   "Karczma pod strzechą",
+   "Karczma pod Strzechą Kunickiego",
+   "Zajazd Hajduk",
+   "Gospoda Wiejska",
+   "Halka - restauracja polska",
+   "Red Rock City",
+   "Perliczka",
+   "Restauracja Staropolska"
   ]
  }
 }
