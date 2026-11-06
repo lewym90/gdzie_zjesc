@@ -45,7 +45,7 @@ viewport user-scalable=no, `touch-action: pan-x pan-y` na aplikacji, blokada ges
 Zakładka Mapa: Leaflet i markercluster w vendor/leaflet (ładowane dopiero po wejściu w zakładkę). Kafelki tile.openstreetmap.org z filtrem CSS (jasny, wyciszony styl). CARTO odpadło, bo bez klucza pokazuje znak wodny „API KEY REQUIRED”. Bordowe większe punkty to lokale eleganckie. Etykieta: zdjęcie, nazwa, kuchnia, ocena, link do karty. Lokalizacja przez watchPosition; mapa centruje się na użytkowniku tylko, gdy jest w Lublinie. Mapa trzyma stan (kontener #mapwrap poza #view).
 
 ## Aktualizacje w telefonie
-Service worker (sw.js): pliki aplikacji i data/places.json zawsze najpierw z sieci (6 s limitu, potem kopia), przy starcie i powrocie do aplikacji `reg.update()`, po zmianie wersji jedno przeładowanie. Po 10 minutach w tle aplikacja sama dociąga świeże dane. Nie trzeba podbijać numerów wersji.
+Service worker (sw.js): pliki aplikacji i data/places.json zawsze najpierw z sieci (6 s limitu, potem kopia), przy starcie i powrocie do aplikacji `reg.update()`, po zmianie wersji jedno przeładowanie. Po 10 minutach w tle aplikacja sama dociąga świeże dane. Przed każdym commitem: `python3 collector/publikuj.py` (nowy numer w app.js, sw.js, version.json). Aplikacja przy starcie i po wybudzeniu porównuje APP_V z version.json i sama się przeładowuje. Publikacja GitHub Pages trwa kilka minut.
 
 ## Grafiki właściciela
 img/start.jpg (ekran startowy) i img/kafle/*.jpg (kuchnia-…, klimat-…, okazja-…). build_data.py wpisuje listę dostępnych kafli do meta.tiles. Rodzaje lokali (lokal-…) mają ikony zamiast grafik.

@@ -1,4 +1,5 @@
 "use strict";
+const APP_V = "20261106-160728";
 /* Gdzie zjeść: przeglądarka lokali. Tylko wyświetla dane z data/places.json. */
 
 const ICO = {
@@ -488,6 +489,24 @@ if ("serviceWorker" in navigator) {
     }).catch(() => {});
   });
 }
+/* nowa wersja aplikacji: przy starcie i po powrocie z tła */
+async function checkVersion() {
+  try {
+    const r = await fetch("version.json", { cache: "no-store" });
+    const v = (await r.json()).v;
+    if (v && v !== APP_V) {
+      let tried = null; try { tried = sessionStorage.getItem("gz-reload"); } catch (e) {}
+      if (tried === v) return;
+      try { sessionStorage.setItem("gz-reload", v); } catch (e) {}
+      const reg = navigator.serviceWorker && (await navigator.serviceWorker.getRegistration());
+      if (reg) await reg.update().catch(() => {});
+      location.reload();
+    }
+  } catch (e) {}
+}
+checkVersion();
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkVersion(); });
+
 /* świeże dane po powrocie do aplikacji z tła */
 let lastLoad = Date.now();
 document.addEventListener("visibilitychange", async () => {
