@@ -384,6 +384,7 @@ function route() {
   else html = viewHome();
   view.innerHTML = html;
   view.classList.toggle("detail", detail);
+  $("#app").classList.toggle("detail", detail);
   const onMap = path === "/mapa";
   $("#mapwrap").hidden = !onMap;
   view.style.visibility = onMap ? "hidden" : "";
