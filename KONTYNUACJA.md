@@ -34,6 +34,13 @@
 ## Blokada Google
 Po ok. 700 lokalach w jedną sesję z chmury Claude'a Mapy też dały captchę. Dalsze zbieranie robić z serwera właściciela, wolno (1 okno, przerwy). Ok. 200 lokali z drugiej tury wyszukiwań czeka na szczegóły (`data/listing.json` w środowisku Claude'a).
 
+## Menu: tylko sprawdzone
+- Rozpisane menu w aplikacji tylko, gdy przejdzie menu_ok() w build_data.py (min. 8 pozycji po odsianiu śmieci typu „Zamów online”, „Cena zestawu”, oferty weselne; 90% nazw wygląda poprawnie). Inaczej zostaje link do menu.
+- PDF-y: `pdfmenu.py` czyta tekst i OCR (tesseract pol), ale wynik z wielokolumnowych kart jest za słaby, więc dla PDF-ów aplikacja pokazuje tylko przycisk z PDF-em.
+
+## Bez powiększania
+viewport user-scalable=no, `touch-action: pan-x pan-y` na aplikacji, blokada gesturestart i dwóch palców poza #map. Pole szukania ma 16 px, bo przy mniejszej czcionce iOS przybliża ekran po stuknięciu w pole.
+
 ## Mapa
 Zakładka Mapa: Leaflet i markercluster w vendor/leaflet (ładowane dopiero po wejściu w zakładkę). Kafelki tile.openstreetmap.org z filtrem CSS (jasny, wyciszony styl). CARTO odpadło, bo bez klucza pokazuje znak wodny „API KEY REQUIRED”. Bordowe większe punkty to lokale eleganckie. Etykieta: zdjęcie, nazwa, kuchnia, ocena, link do karty. Lokalizacja przez watchPosition; mapa centruje się na użytkowniku tylko, gdy jest w Lublinie. Mapa trzyma stan (kontener #mapwrap poza #view).
 

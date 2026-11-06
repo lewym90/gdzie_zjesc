@@ -64,6 +64,26 @@ def parse_hours(h):
         out[i] = rng
     return out
 
+def menu_ok(items):
+    if not items: return None
+    JUNK = r"cena|zamów|zamow|original price|current price|dostaw|wesel|przyjęci|osoby dorosłe|promocj|gratis|oferta|all day|poznaj|kawa miesiąca|koszyk|dodaj do|^zestaw z frytkami|kosztuj|regulamin|\d+\s*g\b|rezerwac|voucher|bon |ślub|propozycja|poprawiny|kawa ziarnista|zestaw startowy|^i+ –"
+    from collections import Counter
+    items = [{**it, "name": it.get("name", "").replace("\ufeff", "").strip()} for it in items]
+    nc = Counter(it.get("name", "").lower() for it in items)
+    items = [it for it in items if not re.search(JUNK, it.get("name", "").lower()) and nc[it.get("name", "").lower()] <= 2]
+    if len(items) < 8: return None
+    good = 0
+    for it in items:
+        n = it.get("name", "")
+        if (3 <= len(n) <= 60 and "(cid" not in n and not re.search(r"\d+\s*(zł|,00)|\d{2,}\s*$", n)
+                and re.match(r"[A-ZŁŚŻŹĆŃÓĘĄ0-9„\"']", n) and sum(c.isalpha() for c in n) / max(1, len(n)) > 0.7):
+            good += 1
+    if good / len(items) < 0.9: return None
+    cats = [it.get("cat") for it in items if it.get("cat")]
+    cc = Counter(cats)
+    cats_ok = 2 <= len(cc) <= 25 and all(len(c) <= 32 and n >= 2 and not c[0].islower() for c, n in cc.items())
+    return [{k: v for k, v in it.items() if k != "cat" or cats_ok} for it in items]
+
 def slug(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")[:60]
@@ -128,8 +148,10 @@ for k, d in det.items():
         "photos": d["photos"][:12],
         "reviewsText": d.get("review_texts", [])[:6],
         "gmaps": d.get("gurl"),
-        "menu": m.get("items"), "menuUrl": m.get("url") or d.get("menu_url"), "menuPdf": m.get("pdf"),
-        "price": m.get("range"),
+        "menu": None if str(m.get("zrodlo", "")).startswith("pdf") else menu_ok(m.get("items")),
+        "menuUrl": None if str(m.get("zrodlo", "")).startswith("pdf") else (m.get("url") or d.get("menu_url")),
+        "menuPdf": m.get("pdf"),
+        "price": m.get("range") if (menu_ok(m.get("items")) and not str(m.get("zrodlo", "")).startswith("pdf")) else None,
     })
 
 # ranking: bayesian score

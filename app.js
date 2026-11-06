@@ -451,6 +451,11 @@ document.addEventListener("change", (e) => {
 const prevHashStack = [];
 window.addEventListener("hashchange", () => { prevHashStack.push(location.hash); route(); });
 
+/* blokada powiększania: szczypanie i dwuklik poza mapą */
+const onMapEl = (t) => t && t.closest && t.closest("#map");
+["gesturestart", "gesturechange", "gestureend"].forEach((ev) => document.addEventListener(ev, (e) => { if (!onMapEl(e.target)) e.preventDefault(); }, { passive: false }));
+document.addEventListener("touchmove", (e) => { if (e.touches.length > 1 && !onMapEl(e.target)) e.preventDefault(); }, { passive: false });
+
 /* start */
 document.querySelectorAll("i[data-ico]").forEach((i) => (i.innerHTML = ico(i.dataset.ico)));
 (async function init() {

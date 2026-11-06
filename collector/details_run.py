@@ -22,7 +22,7 @@ async def main():
                 d["q"]=places[k]["q"]; d["gurl"]=places[k]["url"]; out[k]=d; n+=1
                 if n%10==0:
                     json.dump(out,open(O,"w"),ensure_ascii=False); print(n,len(todo),d.get("name"),len(d.get("photos",[])),flush=True)
-                await asyncio.sleep(random.uniform(1,3))
+                await asyncio.sleep(random.uniform(3,6))
         await asyncio.gather(*[worker(i) for i in range(W)])
         json.dump(out,open(O,"w"),ensure_ascii=False); await br.close()
 asyncio.run(main())

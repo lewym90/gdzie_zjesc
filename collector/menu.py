@@ -5,11 +5,9 @@ import requests
 from bs4 import BeautifulSoup
 
 D = "/home/claude/gz/data"
-det = json.load(open(f"{D}/details.json"))
 OUT = f"{D}/menu.json"
-res = json.load(open(OUT)) if os.path.exists(OUT) else {}
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36", "Accept-Language": "pl-PL,pl;q=0.9"}
-PRICE = re.compile(r"(\d{1,3}(?:[.,]\d{1,2})?)\s*(?:zł|zl|PLN|,-|,–)(?![a-ząćęłńóśźż])", re.I)
+PRICE_RX = re.compile(r"(\d{1,3}(?:[.,]\d{1,2})?)\s*(?:zł|zl|PLN|,-|,–)(?![a-ząćęłńóśźż])", re.I)
 MENU_RX = re.compile(r"menu|karta|carte|jad[łl]ospis|dania|kuchnia|oferta|cennik|napoje|drink", re.I)
 SKIP_HOST = ("facebook.com", "instagram.com", "google.", "booking.com", "tripadvisor", "linktr.ee")
 
@@ -26,7 +24,9 @@ def lines_of(html):
 
 def looks_desc(t):
     return bool(t) and (t[0].islower() or t.count(",") >= 2 or len(t) > 70)
-def items_from(lines):
+PRICE_BARE = re.compile(r"(?<![\d/.,-])(\d{1,3}(?:[.,]\d{2})?)\s*(?:zł|zl|PLN)?\s*$", re.I)
+def items_from(lines, bare=False):
+    PRICE = PRICE_BARE if bare else PRICE_RX
     items, cat, buf = [], None, []
     for l in lines:
         if len(l) > 160: buf = []; continue
@@ -97,14 +97,17 @@ def work(k, d):
         out = {"status": "strona nie działa", "err": str(e)[:80]}
     return k, out
 
-todo = {k: d for k, d in det.items() if k not in res and not d.get("err")}
-print("do sprawdzenia", len(todo), flush=True)
-with cf.ThreadPoolExecutor(12) as ex:
-    for i, (k, o) in enumerate(ex.map(lambda kv: work(*kv), todo.items())):
-        res[k] = o
-        if i % 25 == 0:
-            json.dump(res, open(OUT, "w"), ensure_ascii=False)
-            print(i, sum(1 for v in res.values() if v["status"] == "menu"), flush=True)
-json.dump(res, open(OUT, "w"), ensure_ascii=False)
-from collections import Counter
-print(Counter(v["status"] for v in res.values()))
+if __name__ == "__main__":
+    det = json.load(open(f"{D}/details.json"))
+    res = json.load(open(OUT)) if os.path.exists(OUT) else {}
+    todo = {k: d for k, d in det.items() if k not in res and not d.get("err")}
+    print("do sprawdzenia", len(todo), flush=True)
+    with cf.ThreadPoolExecutor(12) as ex:
+        for i, (k, o) in enumerate(ex.map(lambda kv: work(*kv), todo.items())):
+            res[k] = o
+            if i % 25 == 0:
+                json.dump(res, open(OUT, "w"), ensure_ascii=False)
+                print(i, sum(1 for v in res.values() if v["status"] == "menu"), flush=True)
+    json.dump(res, open(OUT, "w"), ensure_ascii=False)
+    from collections import Counter
+    print(Counter(v["status"] for v in res.values()))
