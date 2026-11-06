@@ -4,6 +4,7 @@ import json, re, os, unicodedata
 D = "/home/claude/gz/data"
 det = json.load(open(f"{D}/details.json"))
 KUR = json.load(open("/home/claude/gdzie_zjesc/collector/kuracja.json"))["listy"]
+WYK = [x.lower() for x in json.load(open("/home/claude/gdzie_zjesc/collector/wykluczone.json"))["nazwy"]]
 menus = json.load(open(f"{D}/menu.json")) if os.path.exists(f"{D}/menu.json") else {}
 
 def low(s): return (s or "").lower()
@@ -119,6 +120,11 @@ for k, d in det.items():
     hits = {v: len(re.findall(rx, full)) for v, rx in VIBES.items()}
     GASTRO = r"restaurac|kuchnia|pizz|kebab|kawiarn|\bbar|sushi|bistro|\bpub|fast food|klub|dyskotek|hamburger|lounge|piekarn|lodziarn|cukiern|stek|pierogarn|ramen|grill|herbaciarn|jadłodajn|knajp|dania|browar|winiarn|wino|fish|kanapk|kafeteria|zdrowa żywność|strefa gastronom|kurczak|hot pot|palarnia kawy|jedzenie|ryotei"
     if cat and not re.search(GASTRO, lc): continue
+    if any(x in d["name"].lower() for x in WYK): continue
+    if not d.get("rating") or (d.get("reviews") or 0) < 5: continue
+    if re.search(r"eyebrow|brwi|beauty|salon|striptiz|erotyk|go-go|sklep|piekarnia$|^piekarnia|catering dietetyczny|dieta pudełkowa", lc + " " + low(d["name"])): continue
+    if re.search(r"gdladder|youtube\.|twitch\.|tiktok\.|roblox|steamcommunity|discord\.", low(d.get("www"))): continue
+    if re.search(r"geometry dash|minecraft|fortnite|among us|click pattern|extreme demon", full): continue
     if re.search(r"obsługa ślubów|organizator|escape|centrum kultury|dom kultury|catering|mobilny bar|usługi barmańskie|klub studencki|chatka żaka|basketon|kręgiel|zdrovo|analiza składu", lc + " " + low(d["name"])): continue
     nongastro = bool(re.search(r"sala weselna|dom weselny|catering|hotel|centrum rozrywki|kasyno|kręgiel|sklep(?! z winem)", lc)) or (not cat and not re.search(r"restaurac", low(d["name"])))
     if nongastro: continue

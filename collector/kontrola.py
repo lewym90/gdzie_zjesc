@@ -13,6 +13,10 @@ for p in P:
         warn.append(f"eleganckie z niską oceną {p['rating']}: {t}")
     if p["type"] == "fastfood" and p["occasions"]:
         err.append(f"okazja przy szybkim jedzeniu: {t} {p['occasions']}")
+    if re.search(r"geometry|minecraft|fortnite|eyebrow|striptiz|siedziba", low) or re.search(r"gdladder|youtube|twitch|tiktok|roblox|discord", (p.get("www") or "").lower()):
+        err.append(f"podejrzany wpis (żart lub nie gastronomia): {t}")
+    if not p["rating"] or not p["reviews"]:
+        err.append(f"brak oceny: {t}")
     if not p["photos"]:
         err.append(f"brak zdjęć: {t}")
     if not p["address"]:
