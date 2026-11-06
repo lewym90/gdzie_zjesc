@@ -1,5 +1,6 @@
 """Ustawia nowy numer wersji w app.js, sw.js i version.json. Uruchamiać przed każdym commitem z repo."""
-import re, json, time
+import re, json, time, subprocess, sys
+subprocess.run([sys.executable, "collector/strony.py"], check=True)
 v = time.strftime("%Y%m%d-%H%M%S")
 for f in ("app.js", "sw.js"):
     s = open(f).read()

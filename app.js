@@ -1,5 +1,5 @@
 "use strict";
-const APP_V = "20261106-200254";
+const APP_V = "20261106-203404";
 /* Gdzie zjeść: przeglądarka lokali. Tylko wyświetla dane z data/places.json. */
 
 const ICO = {
@@ -135,10 +135,11 @@ function filterChips() {
 
 /* elementy */
 function card(p) {
+  if (card.n === undefined) card.n = 0;
   const ph = p.photos.slice(0, 5);
   const os = openState(p);
-  return `<article class="pc" data-id="${p.id}">
-    <div class="pc-ph"><div class="strip">${ph.map((u, i) => `<img src="${img(u, 900, 620)}" alt="" loading="${i ? "lazy" : "lazy"}" referrerpolicy="no-referrer" decoding="async">`).join("")}</div>
+  return `<article class="pc" data-id="${p.id}" style="--i:${Math.min(card.n++, 6)}">
+    <div class="pc-ph"><div class="strip">${ph.map((u, i) => `<img src="${img(u, 900, 620)}" alt="" loading="lazy" referrerpolicy="no-referrer" decoding="async" class="fi"${i ? "" : ` style="background-image:url('${img(u, 36, 24)}')"`}>`).join("")}</div>
     ${os === null ? "" : `<span class="open-badge ${os ? "y" : "n"}">${os ? "Otwarte" : "Zamknięte"}</span>`}
     <button class="fav ${FAV.has(p.id) ? "on" : ""}" data-fav="${p.id}" aria-label="Ulubione"><i>${ico("heart")}</i></button>
     ${ph.length > 1 ? `<div class="pc-dots">${ph.map((_, i) => `<b class="${i ? "" : "on"}"></b>`).join("")}</div>` : ""}
@@ -262,8 +263,40 @@ function infoPane(p) {
       ${oc ? `<div class="row"><i>${ico("heart")}</i><div><b>Na okazję:</b> ${esc(oc)}</div></div>` : ""}
       ${p.price ? `<div class="row"><i>${ico("coins")}</i><div><b>Ceny w menu:</b> ${esc(p.price)}</div></div>` : ""}
     </div>
+    ${p.lat ? `<a class="loc" href="${esc(navUrl(p))}" target="_blank" rel="noopener"><div class="loc-map" id="miniMap"></div><div class="loc-txt"><i>${ico("pin")}</i><div><b>${esc(cityAddr(p.address))}</b><span id="locDist">${distText(p) || "Dotknij, aby wyznaczyć trasę"}</span></div><i>${ico("navi")}</i></div></a>` : ""}
     ${best ? `<blockquote class="quote">${esc(sentenceCut(best, 240))}<small>Z opinii gości w Google</small></blockquote>` : ""}
     ${r.length > 1 ? `<div class="sec-h" style="margin-top:20px"><h2>Opinie gości</h2></div><div class="revs">${r.filter((t) => t !== best).slice(0, 5).map((t) => `<div class="rev">${esc(t.replace(/[.\s]*…$/, "…"))}</div>`).join("")}</div>` : ""}`;
+}
+function navUrl(p) { return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(p.name + ", " + p.address)}`; }
+function kmBetween(a, b) {
+  const R = 6371, r = Math.PI / 180, dLa = (b[0] - a[0]) * r, dLo = (b[1] - a[1]) * r;
+  const h = Math.sin(dLa / 2) ** 2 + Math.cos(a[0] * r) * Math.cos(b[0] * r) * Math.sin(dLo / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+function distText(p) {
+  if (!MEPOS || !p.lat) return "";
+  const km = kmBetween(MEPOS, [p.lat, p.lng]) * 1.3;
+  const walk = Math.round(km / 4.8 * 60), car = Math.max(3, Math.round(km / 25 * 60 + 2));
+  const d = km < 1 ? `${Math.round(km * 100) * 10} m` : `${km.toFixed(1).replace(".", ",")} km`;
+  const fmt = (m) => m >= 60 ? `${Math.floor(m / 60)} h ${m % 60} min` : `${m} min`;
+  return walk <= 45 ? `${d} · ok. ${fmt(walk)} pieszo · ${fmt(car)} autem` : `${d} · ok. ${fmt(car)} autem`;
+}
+function myPosition() {
+  if (MEPOS || !navigator.geolocation) return Promise.resolve(MEPOS);
+  return new Promise((ok) => navigator.geolocation.getCurrentPosition((pos) => { MEPOS = [pos.coords.latitude, pos.coords.longitude]; ok(MEPOS); }, () => ok(null), { maximumAge: 120000, timeout: 10000 }));
+}
+let MINI = null;
+async function initMini() {
+  const el = $("#miniMap"), p = curPlace();
+  if (!el || !p) return;
+  try { await ensureLeaflet(); } catch (e) { return; }
+  if (!document.body.contains(el)) return;
+  if (MINI) { try { MINI.remove(); } catch (e) {} }
+  const L = window.L;
+  MINI = L.map(el, { zoomControl: false, attributionControl: false, dragging: false, touchZoom: false, scrollWheelZoom: false, doubleClickZoom: false, boxZoom: false, keyboard: false, tap: false }).setView([p.lat, p.lng], 16);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, className: "gz-tiles" }).addTo(MINI);
+  L.marker([p.lat, p.lng], { icon: L.divIcon({ html: '<span class="mk el"></span>', className: "", iconSize: [22, 22] }), interactive: false }).addTo(MINI);
+  myPosition().then(() => { const d = $("#locDist"); if (d && distText(p)) d.textContent = distText(p); });
 }
 function sentenceCut(t, n) {
   t = t.replace(/…$/, "").trim();
@@ -289,7 +322,7 @@ function viewDetail(id, tab) {
   const tags = [...p.cuisines.slice(0, 2).map(cuisineLabel), ...p.vibes.filter((v) => v !== "taras").slice(0, 2).map((v) => VIBE_ADJ[v])];
   const os = openState(p);
   const menuHref = p.menu && p.menu.length ? "#menu" : p.menuUrl || p.menuPdf || p.gmaps;
-  return `<div class="dt-hero"><div class="strip" id="hstrip">${ph.map((u, i) => `<img src="${img(u, 1200, 1000)}" alt="" ${i > 1 ? 'loading="lazy"' : ""} referrerpolicy="no-referrer" data-vi="${i}">`).join("")}</div>
+  return `<div class="dt-hero"><div class="strip" id="hstrip">${ph.map((u, i) => `<img src="${img(u, 1200, 1000)}" alt="" ${i > 1 ? 'loading="lazy"' : ""} referrerpolicy="no-referrer" data-vi="${i}" class="fi" style="background-image:url('${img(u, 36, 30)}')">`).join("")}</div>
     <div class="dt-top"><a class="ib" href="#/" data-back><i>${ico("back")}</i></a><div class="r"><button class="ib ${FAV.has(p.id) ? "on" : ""}" data-fav="${p.id}"><i>${ico("heart")}</i></button><button class="ib" data-share><i>${ico("share")}</i></button></div></div>
     <span class="dt-cnt" id="hcnt">1 / ${ph.length}</span></div>
   <div class="dt-main">
@@ -297,7 +330,7 @@ function viewDetail(id, tab) {
     ${p.rating ? `<div class="dt-rate"><i>${ico("star")}</i><b>${fmtR(p.rating)}</b><span>(${p.reviews} ${plural(p.reviews, "opinia", "opinie", "opinii")})</span>${os === null ? "" : `<span>·</span><span style="color:${os ? "#9fd8a6" : "#e7a3a3"}">${os ? "Otwarte teraz" : "Teraz zamknięte"}</span>`}</div>` : ""}
     ${tags.length ? `<div class="dt-tags">${tags.map(esc).join(" · ")}</div>` : ""}
     <div class="dt-addr"><div class="addr"><i>${ico("pin")}</i><span>${esc(cityAddr(p.address))}</span></div><a class="nav-btn" href="${esc(nav)}" target="_blank" rel="noopener" aria-label="Prowadź"><i>${ico("navi")}</i></a></div>
-    <div class="thumbs">${ph.slice(1, 9).map((u, i) => `<button data-vi="${i + 1}"><img src="${img(u, 360, 290)}" alt="" loading="lazy" referrerpolicy="no-referrer"></button>`).join("")}</div>
+    <div class="thumbs">${ph.slice(1, 9).map((u, i) => `<button data-vi="${i + 1}"><img src="${img(u, 360, 290)}" alt="" loading="lazy" referrerpolicy="no-referrer" class="fi"></button>`).join("")}</div>
     <div class="tabs" id="tabs">${[["info", "Informacje"], ["menu", "Menu"], ["godziny", "Godziny"], ["kontakt", "Kontakt"]].map(([k, l]) => `<button data-tab="${k}" class="${k === tab ? "on" : ""}">${l}</button>`).join("")}</div>
     <div class="pane" id="pane">${paneFor(p, tab)}</div>
     <div class="cta"><a class="btn ol" ${menuHref === "#menu" ? 'href="#" data-tab="menu"' : `href="${esc(menuHref || "#")}" target="_blank" rel="noopener"`}><i>${ico("book")}</i>Menu</a>
@@ -370,6 +403,7 @@ function openViewer(p, i) {
 /* routing */
 let prevHash = null;
 function route() {
+  card.n = 0;
   const h = location.hash || "#/";
   const [path, query] = h.slice(1).split("?");
   const params = new URLSearchParams(query || "");
@@ -404,6 +438,9 @@ function bindView() {
     if (dots.length) st.addEventListener("scroll", () => { const k = Math.round(st.scrollLeft / st.clientWidth); dots.forEach((d, i) => d.classList.toggle("on", i === k)); }, { passive: true });
   });
   const hs = $("#hstrip");
+  if (hs && VT_I) { hs.scrollLeft = VT_I * hs.clientWidth; $("#hcnt").textContent = `${VT_I + 1} / ${hs.children.length}`; }
+  if ($("#miniMap")) initMini();
+  view.querySelectorAll("img.fi").forEach((im) => { if (im.complete && im.naturalWidth) im.classList.add("ok"); });
   if (hs) hs.addEventListener("scroll", () => { $("#hcnt").textContent = `${Math.round(hs.scrollLeft / hs.clientWidth) + 1} / ${hs.children.length}`; }, { passive: true });
 }
 function curPlace() { const m = location.hash.match(/#\/lokal\/([^?]+)/); return m && BYID[decodeURIComponent(m[1])]; }
@@ -422,18 +459,23 @@ document.addEventListener("click", (e) => {
     const k = tb.dataset.tab;
     document.querySelectorAll("#tabs button").forEach((b) => b.classList.toggle("on", b.dataset.tab === k));
     $("#pane").innerHTML = paneFor(curPlace(), k);
+    if (k === "info") initMini();
     if (tb.closest(".cta")) $("#tabs").scrollIntoView({ behavior: "smooth", block: "start" });
     return;
   }
   if (t.closest("[data-share]")) {
     const p = curPlace(); if (!p) return;
-    const url = p.www || p.gmaps;
-    if (navigator.share) navigator.share({ title: p.name, text: `${p.name}, ${cityAddr(p.address)}`, url }).catch(() => {});
+    const url = new URL("l/" + p.id + ".html", location.href.split("#")[0]).href;
+    if (navigator.share) navigator.share({ title: p.name, url }).catch(() => {});
     else { try { navigator.clipboard.writeText(url); toast("Skopiowano link"); } catch (err) {} }
     return;
   }
   const back = t.closest("[data-back]");
-  if (back) { e.preventDefault(); if (history.length > 1 && prevHashStack.length > 1) history.back(); else location.hash = "#/"; return; }
+  if (back) {
+    e.preventDefault();
+    const hs = $("#hstrip");
+    if (canVT && hs) { const k = Math.round(hs.scrollLeft / hs.clientWidth), im = hs.children[k]; VT_I = 0; if (im) { im.classList.add("vt"); im.style.viewTransitionName = "ph"; } }
+    if (history.length > 1 && prevHashStack.length > 1) history.back(); else location.hash = "#/"; return; }
   const rm = t.closest("[data-rm]");
   if (rm) {
     const k = rm.dataset.rm; const f = { ...S.filters, q: S.q };
@@ -444,19 +486,40 @@ document.addEventListener("click", (e) => {
   if (t.closest("[data-open]")) { S.filters.open = !S.filters.open; route(); return; }
   if (t.closest("[data-reset]")) { S.filters = { cuisine: null, vibe: null, occ: null, type: null, open: false }; S.q = ""; route(); return; }
   const pc = t.closest(".pc");
-  if (pc) { location.hash = "#/lokal/" + encodeURIComponent(pc.dataset.id); return; }
+  if (pc) {
+    const st = pc.querySelector(".strip");
+    VT_I = st ? Math.round(st.scrollLeft / st.clientWidth) : 0; VT_ID = pc.dataset.id;
+    if (canVT && st && st.children[VT_I]) { st.children[VT_I].classList.add("vt"); st.children[VT_I].style.viewTransitionName = "ph"; }
+    location.hash = "#/lokal/" + encodeURIComponent(pc.dataset.id); return;
+  }
 });
 document.addEventListener("change", (e) => {
   const s = e.target.closest("select[data-f]");
   if (s) { S.filters[s.dataset.f] = s.value || null; route(); }
 });
 const prevHashStack = [];
-window.addEventListener("hashchange", () => { prevHashStack.push(location.hash); route(); });
+const canVT = !!document.startViewTransition && !matchMedia("(prefers-reduced-motion: reduce)").matches;
+let VT_ID = null, VT_I = 0;
+function nameShared() {
+  document.querySelectorAll(".vt").forEach((e) => { e.classList.remove("vt"); e.style.viewTransitionName = ""; });
+  const h = location.hash;
+  let el = null;
+  if (h.startsWith("#/lokal/")) el = document.querySelector(`#hstrip img[data-vi="${VT_I}"]`);
+  else if (VT_ID) { const c = document.querySelector(`.pc[data-id="${CSS.escape(VT_ID)}"] .strip img`); el = c; }
+  if (el) { el.classList.add("vt"); el.style.viewTransitionName = "ph"; }
+}
+window.addEventListener("hashchange", () => {
+  prevHashStack.push(location.hash);
+  if (!canVT) { route(); return; }
+  document.startViewTransition(() => { card.n = 0; route(); nameShared(); });
+});
 
 /* blokada powiększania: szczypanie i dwuklik poza mapą */
 const onMapEl = (t) => t && t.closest && t.closest("#map");
 ["gesturestart", "gesturechange", "gestureend"].forEach((ev) => document.addEventListener(ev, (e) => { if (!onMapEl(e.target)) e.preventDefault(); }, { passive: false }));
 document.addEventListener("touchmove", (e) => { if (e.touches.length > 1 && !onMapEl(e.target)) e.preventDefault(); }, { passive: false });
+
+document.addEventListener("load", (e) => { const t = e.target; if (t.tagName === "IMG" && t.classList.contains("fi")) t.classList.add("ok"); }, true);
 
 /* start */
 document.querySelectorAll("i[data-ico]").forEach((i) => (i.innerHTML = ico(i.dataset.ico)));
