@@ -305,6 +305,56 @@ function viewDetail(id, tab) {
 }
 function paneFor(p, t) { return t === "menu" ? menuPane(p) : t === "godziny" ? hoursTable(p) : t === "kontakt" ? contactPane(p) : infoPane(p); }
 
+/* mapa */
+let MAP = null, ME = null, MEPOS = null, LEAF = null;
+function loadScript(src) { return new Promise((ok, bad) => { const e = document.createElement("script"); e.src = src; e.onload = ok; e.onerror = bad; document.head.appendChild(e); }); }
+function ensureLeaflet() {
+  if (!LEAF) {
+    const l = document.createElement("link"); l.rel = "stylesheet"; l.href = "vendor/leaflet/leaflet.css"; document.head.appendChild(l);
+    LEAF = loadScript("vendor/leaflet/leaflet.js").then(() => loadScript("vendor/leaflet/leaflet.markercluster.js"));
+  }
+  return LEAF;
+}
+function popHtml(p) {
+  const t = shortTags(p).join(" · ") || typeLabel(p.type);
+  return `<a class="pop" href="#/lokal/${encodeURIComponent(p.id)}"><img src="${img(p.photos[0], 200, 200)}" alt="" referrerpolicy="no-referrer"><div><b>${esc(p.name)}</b><span>${esc(t)}</span>${p.rating ? `<span><span class="st">★ ${fmtR(p.rating)}</span> (${p.reviews})${openState(p) === true ? " · otwarte" : ""}</span>` : ""}</div><i>${ico("back").replace("M15 5l-7 7 7 7", "M9 5l7 7-7 7")}</i></a>`;
+}
+async function showMap() {
+  try { await ensureLeaflet(); } catch (e) { toast("Nie udało się wczytać mapy"); return; }
+  if (MAP) { requestAnimationFrame(() => MAP.invalidateSize()); return; }
+  const L = window.L;
+  MAP = L.map("map", { zoomControl: false, attributionControl: true, tap: true }).setView([51.2475, 22.5655], 14);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19, className: "gz-tiles", attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(MAP);
+  const cl = L.markerClusterGroup({
+    maxClusterRadius: 42, showCoverageOnHover: false, spiderfyOnMaxZoom: true, disableClusteringAtZoom: 17,
+    iconCreateFunction: (c) => { const n = c.getChildCount(), s = n < 10 ? 34 : n < 50 ? 40 : 48; return L.divIcon({ html: `<div class="mk-cl" style="width:${s}px;height:${s}px">${n}</div>`, className: "", iconSize: [s, s] }); },
+  });
+  for (const p of DB.places) {
+    if (!p.lat) continue;
+    const el = p.vibes.includes("eleganckie");
+    const m = L.marker([p.lat, p.lng], { icon: L.divIcon({ html: `<span class="mk ${el ? "el" : ""}"></span>`, className: "", iconSize: el ? [22, 22] : [16, 16] }), zIndexOffset: el ? 500 : 0 });
+    m.bindPopup(() => popHtml(p), { closeButton: false, className: "gz-pop", offset: [0, -4], autoPanPadding: [20, 90] });
+    cl.addLayer(m);
+  }
+  MAP.addLayer(cl);
+  $("#mapCount").innerHTML = `<b>${DB.places.length}</b> ${plural(DB.places.length, "miejsce", "miejsca", "miejsc")} na mapie`;
+  $("#mapLoc").addEventListener("click", () => { if (MEPOS) MAP.flyTo(MEPOS, 16, { duration: 0.8 }); else locate(true); });
+  locate(false);
+}
+function locate(center) {
+  if (!navigator.geolocation) return;
+  navigator.geolocation.watchPosition((pos) => {
+    const first = !MEPOS;
+    MEPOS = [pos.coords.latitude, pos.coords.longitude];
+    if (!ME) ME = window.L.marker(MEPOS, { icon: window.L.divIcon({ html: '<div class="me"></div>', className: "", iconSize: [18, 18] }), zIndexOffset: 1000, interactive: false }).addTo(MAP);
+    else ME.setLatLng(MEPOS);
+    const inCity = MEPOS[0] > 51.13 && MEPOS[0] < 51.32 && MEPOS[1] > 22.42 && MEPOS[1] < 22.72;
+    if ((first && inCity) || center) { MAP.setView(MEPOS, 15); center = false; }
+  }, () => { if (center) toast("Brak dostępu do lokalizacji"); }, { enableHighAccuracy: true, maximumAge: 30000, timeout: 15000 });
+}
+
 /* przeglądarka zdjęć */
 function openViewer(p, i) {
   const v = $("#viewer");
@@ -328,11 +378,16 @@ function route() {
   if (path.startsWith("/lokal/")) { html = viewDetail(decodeURIComponent(path.slice(7)), params.get("t")); detail = true; tab = null; }
   else if (path === "/wyniki") { html = viewResults(params); tab = null; }
   else if (path === "/kuchnie") { html = viewCuisines(); tab = "kuchnie"; }
+  else if (path === "/mapa") { html = ""; tab = "mapa"; }
   else if (path === "/filtry") { html = viewFilters(); tab = "filtry"; }
   else if (path === "/ulubione") { html = viewFav(); tab = "ulubione"; }
   else html = viewHome();
   view.innerHTML = html;
   view.classList.toggle("detail", detail);
+  const onMap = path === "/mapa";
+  $("#mapwrap").hidden = !onMap;
+  view.style.visibility = onMap ? "hidden" : "";
+  if (onMap) showMap();
   document.querySelectorAll(".tabbar a").forEach((a) => a.classList.toggle("on", a.dataset.tab === tab));
   view.scrollTop = S.scroll[h] || 0;
   prevHash = h;

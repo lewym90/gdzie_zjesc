@@ -9,7 +9,7 @@ self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(V).then((c) => Promise.all(SHELL.map((u) => fetch(u, { cache: "no-store" }).then((r) => r.ok && c.put(u, r)).catch(() => {})))).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", (e) => {
-  e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== V && k !== IMG).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== V && k !== IMG && k !== "gz-map").map((k) => caches.delete(k)))).then(() => self.clients.claim()));
 });
 
 function networkFirst(req) {
@@ -37,6 +37,18 @@ self.addEventListener("fetch", (e) => {
           c.put(e.request, r.clone());
           c.keys().then((ks) => { if (ks.length > 800) ks.slice(0, ks.length - 800).forEach((k) => c.delete(k)); });
         }
+        return r;
+      } catch (err) { return Response.error(); }
+    }));
+    return;
+  }
+  if (u.hostname === "tile.openstreetmap.org") {
+    e.respondWith(caches.open("gz-map").then(async (c) => {
+      const hit = await c.match(e.request);
+      if (hit) return hit;
+      try {
+        const r = await fetch(e.request);
+        if (r.ok) { c.put(e.request, r.clone()); c.keys().then((ks) => { if (ks.length > 2500) ks.slice(0, ks.length - 2500).forEach((k) => c.delete(k)); }); }
         return r;
       } catch (err) { return Response.error(); }
     }));

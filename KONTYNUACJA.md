@@ -34,6 +34,9 @@
 ## Blokada Google
 Po ok. 700 lokalach w jedną sesję z chmury Claude'a Mapy też dały captchę. Dalsze zbieranie robić z serwera właściciela, wolno (1 okno, przerwy). Ok. 200 lokali z drugiej tury wyszukiwań czeka na szczegóły (`data/listing.json` w środowisku Claude'a).
 
+## Mapa
+Zakładka Mapa: Leaflet i markercluster w vendor/leaflet (ładowane dopiero po wejściu w zakładkę). Kafelki tile.openstreetmap.org z filtrem CSS (jasny, wyciszony styl). CARTO odpadło, bo bez klucza pokazuje znak wodny „API KEY REQUIRED”. Bordowe większe punkty to lokale eleganckie. Etykieta: zdjęcie, nazwa, kuchnia, ocena, link do karty. Lokalizacja przez watchPosition; mapa centruje się na użytkowniku tylko, gdy jest w Lublinie. Mapa trzyma stan (kontener #mapwrap poza #view).
+
 ## Aktualizacje w telefonie
 Service worker (sw.js): pliki aplikacji i data/places.json zawsze najpierw z sieci (6 s limitu, potem kopia), przy starcie i powrocie do aplikacji `reg.update()`, po zmianie wersji jedno przeładowanie. Po 10 minutach w tle aplikacja sama dociąga świeże dane. Nie trzeba podbijać numerów wersji.
 
