@@ -132,14 +132,17 @@ for p in places:
     r, n = p["rating"] or 0, p["reviews"] or 0
     p["score"] = round((r * n + 4.2 * 50) / (n + 50), 4)
 places.sort(key=lambda p: -p["score"])
+TD = "/home/claude/gdzie_zjesc/img/kafle"
+tiles = sorted(f[:-4] for f in os.listdir(TD) if f.endswith(".jpg")) if os.path.isdir(TD) else []
+splash = os.path.exists("/home/claude/gdzie_zjesc/img/start.jpg")
 meta = {
-    "city": "Lublin",
+    "city": "Lublin", "tiles": tiles, "splash": splash,
     "count": len(places),
     "cuisines": [{"id": c, "label": l, "n": sum(c in p["cuisines"] for p in places)} for c, l, _ in CUISINES],
     "types": [{"id": t, "label": l, "n": sum(p["type"] == t for p in places)} for t, l, _ in TYPES],
 }
-os.makedirs("/home/claude/gz/app/data", exist_ok=True)
-json.dump({"meta": meta, "places": places}, open("/home/claude/gz/app/data/places.json", "w"), ensure_ascii=False, separators=(",", ":"))
+os.makedirs("/home/claude/gdzie_zjesc/data", exist_ok=True)
+json.dump({"meta": meta, "places": places}, open("/home/claude/gdzie_zjesc/data/places.json", "w"), ensure_ascii=False, separators=(",", ":"))
 print(meta["count"], "lokali")
 print({c["id"]: c["n"] for c in meta["cuisines"]})
 print({t["id"]: t["n"] for t in meta["types"]})

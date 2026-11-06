@@ -147,10 +147,15 @@ function card(p) {
       <div class="addr"><i>${ico("pin")}</i><span>${esc(cityAddr(p.address))}</span></div>
     </div></div></article>`;
 }
-function tileImg(label, href, photo) {
-  return `<a class="tile" href="${href}"><img src="${photo ? img(photo, 300, 320) : ""}" alt="" loading="lazy" referrerpolicy="no-referrer"><span>${esc(label)}</span></a>`;
+const hasTile = (k) => (DB.meta.tiles || []).includes(k);
+function tileImg(label, href, photo, key) {
+  const src = key && hasTile(key) ? `img/kafle/${key}.jpg` : photo ? img(photo, 300, 320) : "";
+  return `<a class="tile" href="${href}"><img src="${src}" alt="" loading="lazy" referrerpolicy="no-referrer"><span>${esc(label)}</span></a>`;
 }
-function tileIco(label, href, ic, wine) { return `<a class="tile ico ${wine ? "wine" : ""}" href="${href}"><i>${ico(ic)}</i><span>${esc(label)}</span></a>`; }
+function tileIco(label, href, ic, wine, key) {
+  if (key && hasTile(key)) return tileImg(label, href, null, key);
+  return `<a class="tile ico ${wine ? "wine" : ""}" href="${href}"><i>${ico(ic)}</i><span>${esc(label)}</span></a>`;
+}
 function cuisinePhoto(id) {
   const p = DB.places.find((x) => x.cuisines[0] === id && x.reviews > 80) || DB.places.find((x) => x.cuisines.includes(id));
   return p ? p.photos[0] : null;
@@ -165,11 +170,11 @@ function viewHome() {
     <span class="city"><i>${ico("pin")}</i>${esc(DB.meta.city || "Lublin")}</span></div>
     <form class="search" id="sform"><i>${ico("search")}</i><input id="q" type="search" enterkeyhint="search" placeholder="Szukaj restauracji, kuchni, miejsca…" autocomplete="off"></form></header>
   <section class="sec"><div class="sec-h"><h2>Wybierz kuchnię</h2><a href="#/kuchnie">Wszystkie ›</a></div>
-    <div class="tiles">${HOME_CUISINES.map((c) => tileImg(cuisineLabel(c), qs({ cuisine: c }), cuisinePhoto(c))).join("")}</div></section>
+    <div class="tiles">${HOME_CUISINES.map((c) => tileImg(cuisineLabel(c), qs({ cuisine: c }), cuisinePhoto(c), "kuchnia-" + c)).join("")}</div></section>
   <section class="sec"><div class="sec-h"><h2>Klimat miejsca</h2><a href="#/filtry">Wszystkie ›</a></div>
-    <div class="tiles">${VIBES.slice(0, 4).map((v) => tileIco(v.label, qs({ vibe: v.id }), v.ico, v.wine)).join("")}</div></section>
+    <div class="tiles">${VIBES.slice(0, 4).map((v) => tileIco(v.label, qs({ vibe: v.id }), v.ico, v.wine, "klimat-" + v.id)).join("")}</div></section>
   <section class="sec"><div class="sec-h"><h2>Okazja</h2><a href="#/filtry">Wszystkie ›</a></div>
-    <div class="tiles">${OCC.map((v) => tileIco(v.label, qs({ occ: v.id }), v.ico)).join("")}</div></section>
+    <div class="tiles">${OCC.map((v) => tileIco(v.label, qs({ occ: v.id }), v.ico, false, "okazja-" + v.id)).join("")}</div></section>
   <section class="sec"><div class="sec-h"><h2>Polecane miejsca w Lublinie</h2><a href="${qs({ vibe: "eleganckie" })}">Wszystkie ›</a></div></section>
   <div class="cards">${feat.map(card).join("")}</div>`;
 }
@@ -191,8 +196,8 @@ function viewCuisines() {
   const cz = DB.meta.cuisines.filter((c) => c.n > 0);
   const ty = DB.meta.types.filter((c) => c.n > 0);
   return `<div class="bar"><span class="ib"></span><h2>Kuchnie i lokale</h2><span class="ib"></span></div>
-  <div class="subh">Kuchnie</div><div class="grid2">${cz.map((c) => tileImg(c.label, qs({ cuisine: c.id }), cuisinePhoto(c.id))).join("")}</div>
-  <div class="subh">Rodzaj lokalu</div><div class="grid2">${ty.map((t) => tileIco(t.label, qs({ type: t.id }), TYPE_ICO[t.id] || "cloche")).join("")}</div>`;
+  <div class="subh">Kuchnie</div><div class="grid2">${cz.map((c) => tileImg(c.label, qs({ cuisine: c.id }), cuisinePhoto(c.id), "kuchnia-" + c.id)).join("")}</div>
+  <div class="subh">Rodzaj lokalu</div><div class="grid2">${ty.map((t) => tileIco(t.label, qs({ type: t.id }), TYPE_ICO[t.id] || "cloche", false, "lokal-" + t.id)).join("")}</div>`;
 }
 
 function selBox(key, label, ic, opts, val) {
@@ -403,7 +408,8 @@ document.querySelectorAll("i[data-ico]").forEach((i) => (i.innerHTML = ico(i.dat
   }
   DB.places.forEach((p) => (BYID[p.id] = p));
   const hero = DB.places.find((p) => p.vibes.includes("eleganckie")) || DB.places[0];
-  if (hero) { const im = new Image(); im.referrerPolicy = "no-referrer"; im.src = img(hero.photos[0], 1000, 1600); im.onload = () => ($("#splashBg").style.backgroundImage = `url("${im.src}")`); }
+  if (DB.meta.splash) $("#splashBg").style.backgroundImage = 'url("img/start.jpg")';
+  else if (hero) { const im = new Image(); im.referrerPolicy = "no-referrer"; im.src = img(hero.photos[0], 1000, 1600); im.onload = () => ($("#splashBg").style.backgroundImage = `url("${im.src}")`); }
   prevHashStack.push(location.hash || "#/");
   route();
   setTimeout(() => $("#splash").classList.add("out"), Math.max(0, 1400 - (Date.now() - t0)));
