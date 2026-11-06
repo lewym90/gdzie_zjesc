@@ -16,7 +16,11 @@ async def run_q(ctx, q, st):
             for i in range(30):
                 await feed.evaluate("e=>e.scrollBy(0,4000)"); await pg.wait_for_timeout(1200)
                 if "Dotarłeś do końca listy" in await feed.inner_text(): break
-        for href,label in await pg.eval_on_selector_all('a[href*="/maps/place/"]',"e=>e.map(a=>[a.href,a.getAttribute('aria-label')])"):
+        found=await pg.eval_on_selector_all('a[href*="/maps/place/"]',"e=>e.map(a=>[a.href,a.getAttribute('aria-label')])")
+        if "/maps/place/" in pg.url:
+            h1=pg.locator("h1").first
+            found.append([pg.url,(await h1.inner_text()).strip() if await h1.count() else q])
+        for href,label in found:
             m=re.search(r"!1s(0x[0-9a-f]+:0x[0-9a-f]+)",href)
             if not m: continue
             k=m.group(1)
@@ -29,6 +33,8 @@ async def main():
     DC=["restauracja","pub","bar","kawiarnia","pizzeria","sushi","bistro"]
     qs=[f"{c} Lublin {d}" for c in DC for d in DIST]
     qs=[c+" Lublin" for c in CATS]+qs
+    EXTRA=["elegancka restauracja Lublin","romantyczna restauracja Lublin","fine dining Lublin","restauracja hotelowa Lublin","wine bar Lublin","kolacja degustacyjna Lublin","restauracja na randkę Lublin","Winestone Lublin","restauracja Hotel Alter Lublin","restauracja z widokiem Lublin","restauracja Stare Miasto Lublin","koktajl bar Lublin Stare Miasto"]
+    qs=EXTRA+qs
     todo=[q for q in qs if q not in st["done"]]
     lim=int(sys.argv[1]) if len(sys.argv)>1 else len(todo)
     todo=todo[:lim]

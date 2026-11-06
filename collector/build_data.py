@@ -105,6 +105,7 @@ for k, d in det.items():
         for cid, _, rx in CUISINES:
             if re.search(rx, low(qs)) and cid not in ("kawiarnia",): cz.append(cid); break
     lc = low(cat)
+    if re.search(r"mcdonald|\bkfc\b|burger king|subway|pizza hut|north fish", low(d["name"])): lc = "fast food"
     if re.search(r"klub nocny|klub muzyczny|^klub$|dyskotek", lc): typ = "klub"
     elif re.search(r"winiarn|sklep z winem|bar winny", lc): typ = "winiarnia"
     elif re.search(r"^pub|piwiarn|browar", lc): typ = "pub"
@@ -118,7 +119,7 @@ for k, d in det.items():
     hits = {v: len(re.findall(rx, full)) for v, rx in VIBES.items()}
     GASTRO = r"restaurac|kuchnia|pizz|kebab|kawiarn|\bbar|sushi|bistro|\bpub|fast food|klub|dyskotek|hamburger|lounge|piekarn|lodziarn|cukiern|stek|pierogarn|ramen|grill|herbaciarn|jadłodajn|knajp|dania|browar|winiarn|wino|fish|kanapk|kafeteria|zdrowa żywność|strefa gastronom|kurczak|hot pot|palarnia kawy|jedzenie|ryotei"
     if cat and not re.search(GASTRO, lc): continue
-    if re.search(r"obsługa ślubów|organizator|escape|centrum kultury|dom kultury|catering|mobilny bar|usługi barmańskie|klub studencki|chatka żaka|basketon|kręgiel", lc + " " + low(d["name"])): continue
+    if re.search(r"obsługa ślubów|organizator|escape|centrum kultury|dom kultury|catering|mobilny bar|usługi barmańskie|klub studencki|chatka żaka|basketon|kręgiel|zdrovo|analiza składu", lc + " " + low(d["name"])): continue
     nongastro = bool(re.search(r"sala weselna|dom weselny|catering|hotel|centrum rozrywki|kasyno|kręgiel|sklep(?! z winem)", lc)) or (not cat and not re.search(r"restaurac", low(d["name"])))
     if nongastro: continue
     low_end = typ == "fastfood" or bool(re.search(r"kebab|bar mleczny|zapiekank|fast food|pizzeri|obiad|garmaż|stołówk|jadłodajn|na wagę|na wynos", base))

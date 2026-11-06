@@ -20,7 +20,10 @@
    "RAJ UTRACONY",
    "Ansaldo",
    "Trzy Romanse",
-   "Winestone"
+   "Winestone",
+   "Alteria",
+   "The Olive",
+   "10Okien"
   ],
   "luksusowe": [
    "Kuchnia Otwarta",
@@ -54,7 +57,13 @@
    "Trzy Romanse",
    "Nocny Portier",
    "Winestone",
-   "NIEZNANA"
+   "NIEZNANA",
+   "Alteria",
+   "The Olive",
+   "10Okien",
+   "Bałagan",
+   "Padre Rum",
+   "Le Monde"
   ],
   "kameralne": [
    "Od Kuchni",
@@ -74,7 +83,9 @@
    "Kozzak",
    "Art of Poison",
    "Casa Dei Fratelli",
-   "Peccato di Gola"
+   "Peccato di Gola",
+   "Bałagan",
+   "Dom Złotnika"
   ],
   "biznesowa": [
    "Legendy Miasta",

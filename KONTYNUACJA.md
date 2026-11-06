@@ -32,7 +32,7 @@
 - Nowe lokale trzeba przejrzeć i dopisać do kuracja.json.
 
 ## Blokada Google
-Po ok. 700 lokalach w jedną sesję z chmury Claude'a Mapy też dały captchę. Dalsze zbieranie robić z serwera właściciela, wolno (1 okno, przerwy). Ok. 200 lokali z drugiej tury wyszukiwań czeka na szczegóły (`data/listing.json` w środowisku Claude'a).
+Po ok. 700 lokalach w jedną sesję z chmury Claude'a Mapy też dały captchę. Dalsze zbieranie robić z serwera właściciela, wolno (1 okno, przerwy). Druga tura i celowane wyszukiwania (elegancka, hotelowa, wine bar, Stare Miasto) dociągnięte 6.11 po zejściu blokady. Surowe dane: collector/dane/.
 
 ## Menu: tylko sprawdzone
 - Rozpisane menu w aplikacji tylko, gdy przejdzie menu_ok() w build_data.py (min. 8 pozycji po odsianiu śmieci typu „Zamów online”, „Cena zestawu”, oferty weselne; 90% nazw wygląda poprawnie). Inaczej zostaje link do menu.
