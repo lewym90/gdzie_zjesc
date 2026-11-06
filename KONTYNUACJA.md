@@ -25,6 +25,15 @@
 4. `build_data.py`: kuchnie, typ lokalu, klimat i okazja (z kategorii Google, nazwy i opinii) → `data/places.json` aplikacji.
 Ścieżki w skryptach wskazują na środowisko Claude'a (`/home/claude/gz`). Przy przenosinach na serwer trzeba je zmienić.
 
+## Klimat i okazja: tylko ręczna lista
+- Etykiety eleganckie, romantyczne, luksusowe, kameralne i okazja biznesowa nadaje wyłącznie `collector/kuracja.json` (fragmenty nazw zatwierdzone przez Claude'a po przejrzeniu lokali). Słowa z opinii o tym nie decydują, bo dawały błędy (np. „Zestawy obiadowe” jako eleganckie).
+- Automatycznie: taras (opinie: ogródek, taras), randka (romantyczne lub eleganckie), rocznica (eleganckie i romantyczne lub luksusowe), urodziny (restauracja, pub, bar lub klub z oceną 4,4+, ponad 300 opinii i wzmianką o urodzinach lub grupach).
+- `collector/kontrola.py` sprawdza katalog przed wysłaniem (tanie kategorie z etykietą elegancką, brak zdjęć, duplikaty, lokale poza Lublinem). Musi przejść bez błędów.
+- Nowe lokale trzeba przejrzeć i dopisać do kuracja.json.
+
+## Blokada Google
+Po ok. 700 lokalach w jedną sesję z chmury Claude'a Mapy też dały captchę. Dalsze zbieranie robić z serwera właściciela, wolno (1 okno, przerwy). Ok. 200 lokali z drugiej tury wyszukiwań czeka na szczegóły (`data/listing.json` w środowisku Claude'a).
+
 ## Zdjęcia
 Adresy `lh3.googleusercontent.com/...` z dopiskiem rozmiaru (`=w900-h620-k-no`). Service worker trzyma w pamięci ok. 600 ostatnio oglądanych.
 

@@ -95,7 +95,7 @@ function cuisineLabel(id) { return (DB.meta.cuisines.find((c) => c.id === id) ||
 function typeLabel(id) { return (DB.meta.types.find((c) => c.id === id) || {}).label || id; }
 function shortTags(p) {
   const t = [];
-  if (p.cuisines[0]) t.push(cuisineLabel(p.cuisines[0]).replace(" i wege", "").replace(" i turecka", "").replace(" i desery", ""));
+  if (p.cuisines[0]) t.push(cuisineLabel(p.cuisines[0]).replace(" i wege", "").replace(" i desery", ""));
   else if (p.type) t.push(typeLabel(p.type));
   const v = p.vibes.find((x) => x !== "taras");
   if (v) t.push(VIBE_ADJ[v]);
@@ -200,10 +200,10 @@ function viewCuisines() {
   <div class="subh">Rodzaj lokalu</div><div class="grid2">${ty.map((t) => tileIco(t.label, qs({ type: t.id }), TYPE_ICO[t.id] || "cloche", false, "lokal-" + t.id)).join("")}</div>`;
 }
 
-function selBox(key, label, ic, opts, val) {
+function selBox(key, label, ic, opts, val, any = "Dowolna") {
   const cur = opts.find((o) => o[0] === val);
-  return `<div class="sel"><i>${ico(ic)}</i><label>${label}:</label><b>${cur ? esc(cur[1]) : "Dowolna"}</b><i class="chev">${ico("chevd")}</i>
-    <select data-f="${key}"><option value="">Dowolna</option>${opts.map(([v, l]) => `<option value="${v}" ${v === val ? "selected" : ""}>${esc(l)}</option>`).join("")}</select></div>`;
+  return `<div class="sel"><i>${ico(ic)}</i><label>${label}:</label><b>${cur ? esc(cur[1]) : any}</b><i class="chev">${ico("chevd")}</i>
+    <select data-f="${key}"><option value="">${any}</option>${opts.map(([v, l]) => `<option value="${v}" ${v === val ? "selected" : ""}>${esc(l)}</option>`).join("")}</select></div>`;
 }
 function viewFilters() {
   const f = S.filters;
@@ -211,9 +211,9 @@ function viewFilters() {
   return `<div class="bar"><span class="ib"></span><h2>Filtry</h2><button class="ib" data-reset aria-label="Wyczyść"><i>${ico("close")}</i></button></div>
   <div class="fl">
     ${selBox("cuisine", "Kuchnia", "cloche", DB.meta.cuisines.filter((c) => c.n).map((c) => [c.id, c.label]), f.cuisine)}
-    ${selBox("vibe", "Klimat", "wine", VIBES.map((v) => [v.id, v.label]), f.vibe)}
+    ${selBox("vibe", "Klimat", "wine", VIBES.map((v) => [v.id, v.label]), f.vibe, "Dowolny")}
     ${selBox("occ", "Okazja", "heart", OCC.map((v) => [v.id, v.label]), f.occ)}
-    ${selBox("type", "Lokal", "type", DB.meta.types.filter((c) => c.n).map((c) => [c.id, c.label]), f.type)}
+    ${selBox("type", "Lokal", "type", DB.meta.types.filter((c) => c.n).map((c) => [c.id, c.label]), f.type, "Dowolny")}
     <button class="tg ${f.open ? "on" : ""}" data-open><span>Otwarte teraz</span><span class="sw"></span></button>
   </div>
   <a class="btn fill" style="margin:8px 18px 0" href="${qs({ ...f, open: f.open ? "1" : "", q: S.q })}">Pokaż ${n} ${plural(n, "miejsce", "miejsca", "miejsc")}</a>`;
@@ -262,7 +262,7 @@ function infoPane(p) {
       ${p.price ? `<div class="row"><i>${ico("coins")}</i><div><b>Ceny w menu:</b> ${esc(p.price)}</div></div>` : ""}
     </div>
     ${best ? `<blockquote class="quote">${esc(sentenceCut(best, 240))}<small>Z opinii gości w Google</small></blockquote>` : ""}
-    ${r.length > 1 ? `<div class="sec-h" style="margin-top:20px"><h2>Opinie gości</h2></div><div class="revs">${r.filter((t) => t !== best).slice(0, 5).map((t) => `<div class="rev">${esc(t)}</div>`).join("")}</div>` : ""}`;
+    ${r.length > 1 ? `<div class="sec-h" style="margin-top:20px"><h2>Opinie gości</h2></div><div class="revs">${r.filter((t) => t !== best).slice(0, 5).map((t) => `<div class="rev">${esc(t.replace(/[.\s]*…$/, "…"))}</div>`).join("")}</div>` : ""}`;
 }
 function sentenceCut(t, n) {
   t = t.replace(/…$/, "").trim();

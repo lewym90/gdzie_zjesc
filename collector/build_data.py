@@ -3,6 +3,7 @@ import json, re, os, unicodedata
 
 D = "/home/claude/gz/data"
 det = json.load(open(f"{D}/details.json"))
+KUR = json.load(open("/home/claude/gdzie_zjesc/collector/kuracja.json"))["listy"]
 menus = json.load(open(f"{D}/menu.json")) if os.path.exists(f"{D}/menu.json") else {}
 
 def low(s): return (s or "").lower()
@@ -13,11 +14,12 @@ CUISINES = [
     ("azjatycka", "Azjatycka", r"azjat|sushi|japo|chińsk|wietnam|tajsk|ramen|korea|asian|wok|pho|bao|dim sum"),
     ("steakhouse", "Steakhouse", r"stek|steak|grill|wołow|befsztyk|bbq|smokehouse"),
     ("amerykanska", "Amerykańska", r"burger|amerykań|hot dog|american"),
-    ("srodziemnomorska", "Śródziemnomorska", r"śródziem|grec|hiszpań|tapas|gruzińsk|chaczapuri|libań|bliskow"),
+    ("srodziemnomorska", "Śródziemnomorska", r"śródziem|grec|hiszpań|tapas|libań|bliskow|arabsk"),
+    ("wschodnia", "Wschodnia", r"gruzińsk|chaczapuri|kaukask|armeńsk|ormiańsk|ukraińsk|żydowsk|tatarsk|kresow|wschodni"),
     ("indyjska", "Indyjska", r"indyjsk|india|curry|tandoor"),
     ("wege", "Wegańska i wege", r"wegań|wegetar|vegan|vege|roślin"),
     ("europejska", "Europejska", r"europejsk|francusk|nowoczesn|autorsk|fusion|fine dining"),
-    ("turecka", "Kebab i turecka", r"kebab|turec|döner|doner"),
+    ("turecka", "Kebab", r"kebab|turec|döner|doner"),
     ("meksykanska", "Meksykańska", r"meksyk|taco|burrito|tex-mex"),
     ("owocemorza", "Ryby i owoce morza", r"ryb|owoce morza|seafood|krewet|ostryg"),
     ("kawiarnia", "Kawiarnia i desery", r"kawiarn|cukiern|deser|lody|kawa|café|cafe|piekarn|bubble"),
@@ -36,7 +38,7 @@ VIBES = {
     "romantyczne": r"romanty|randk|we dwoje|świec|nastrojow|klimatyczn|intymn",
     "luksusowe": r"luksus|ekskluzyw|degustac|sommelier|tasting|menu degustacyjne|premium|michelin",
     "kameralne": r"kameraln|przytuln|mał[ay] lokal|niewielk|domow[ay] atmosfer|cich",
-    "taras": r"ogród|ogródek|taras|na zewnątrz|patio|dach|rooftop|letni",
+    "taras": r"ogródek|ogródku|taras|patio|rooftop|na dachu|ogrodzie",
 }
 OCC = {
     "randka": r"randk|romanty|we dwoje|z dziewczyn|z żon|z partner|walentyn",
@@ -79,7 +81,7 @@ for k, d in det.items():
     base = low(f"{d['name']} {cat}")
     full = low(f"{d['name']} {cat} {revs}")
     cz = [cid for cid, _, rx in CUISINES if re.search(rx, base)]
-    if not cz:
+    if not cz and not cat:
         for cid, _, rx in CUISINES:
             if re.search(rx, low(qs)) and cid not in ("kawiarnia",): cz.append(cid); break
     lc = low(cat)
@@ -93,27 +95,23 @@ for k, d in det.items():
     else:
         typ = next((tid for tid, _, rx in TYPES if re.search(rx, base)), None) or next((tid for tid, _, rx in TYPES if re.search(rx, low(qs))), "restauracja")
     rating = d.get("rating") or 0; nrev = d.get("reviews") or 0
-    vibes, hits = [], {}
-    for v, rx in VIBES.items():
-        hits[v] = len(re.findall(rx, full))
-        if hits[v] >= 1: vibes.append(v)
+    hits = {v: len(re.findall(rx, full)) for v, rx in VIBES.items()}
+    GASTRO = r"restaurac|kuchnia|pizz|kebab|kawiarn|\bbar|sushi|bistro|\bpub|fast food|klub|dyskotek|hamburger|lounge|piekarn|lodziarn|cukiern|stek|pierogarn|ramen|grill|herbaciarn|jadłodajn|knajp|dania|browar|winiarn|wino|fish|kanapk|kafeteria|zdrowa żywność|strefa gastronom|kurczak|hot pot|palarnia kawy|jedzenie|ryotei"
+    if cat and not re.search(GASTRO, lc): continue
+    if re.search(r"obsługa ślubów|organizator|escape|centrum kultury|dom kultury|catering|mobilny bar|usługi barmańskie|klub studencki|chatka żaka|basketon|kręgiel", lc + " " + low(d["name"])): continue
     nongastro = bool(re.search(r"sala weselna|dom weselny|catering|hotel|centrum rozrywki|kasyno|kręgiel|sklep(?! z winem)", lc)) or (not cat and not re.search(r"restaurac", low(d["name"])))
     if nongastro: continue
-    low_end = typ == "fastfood" or bool(re.search(r"kebab|bar mleczny|zapiekank|fast food|pizzeri|obiady domowe|stołówk", base))
-    strong = bool(re.search(r"ekskluzywn|fine dining|degustac", lc))
-    eleg_ok = strong or (typ in ("restauracja", "winiarnia") and not low_end and (hits["eleganckie"] >= 2 or (hits["eleganckie"] >= 1 and rating >= 4.5 and nrev >= 150)))
-    if not eleg_ok: vibes = [v for v in vibes if v != "eleganckie"]
-    lux_ok = strong or (eleg_ok and hits["luksusowe"] >= 1)
-    if not lux_ok: vibes = [v for v in vibes if v != "luksusowe"]
-    if low_end: vibes = [v for v in vibes if v in ("taras", "kameralne")]
-    if typ in ("pub", "klub", "kawiarnia", "bar"): vibes = [v for v in vibes if v not in ("eleganckie", "luksusowe")] if hits["eleganckie"] < 3 else vibes
-    if typ == "restauracja" and rating >= 4.7 and nrev >= 300 and re.search(r"nowoczesn|autorsk|fine|europejsk|francusk|degust", base) and "eleganckie" not in vibes:
-        vibes.append("eleganckie")
-    if strong and "eleganckie" not in vibes: vibes.append("eleganckie")
-    occ = [o for o, rx in OCC.items() if re.search(rx, full)]
-    if not low_end and ("romantyczne" in vibes or "eleganckie" in vibes) and "randka" not in occ: occ.append("randka")
-    if not low_end and ("eleganckie" in vibes and "luksusowe" in vibes) and "rocznica" not in occ: occ.append("rocznica")
-    if low_end: occ = [o for o in occ if o == "urodziny"]
+    low_end = typ == "fastfood" or bool(re.search(r"kebab|bar mleczny|zapiekank|fast food|pizzeri|obiad|garmaż|stołówk|jadłodajn|na wagę|na wynos", base))
+    nm = d["name"].lower()
+    cur = lambda key: any(x.lower() in nm for x in KUR.get(key, []))
+    strong = bool(re.search(r"ekskluzywn|fine dining", lc))
+    vibes = [v for v in ("eleganckie", "romantyczne", "luksusowe", "kameralne") if cur(v) or (strong and v in ("eleganckie", "luksusowe"))]
+    if hits["taras"] >= 1 and not low_end: vibes.append("taras")
+    occ = []
+    if not low_end and ("romantyczne" in vibes or "eleganckie" in vibes): occ.append("randka")
+    if "eleganckie" in vibes and ("romantyczne" in vibes or "luksusowe" in vibes): occ.append("rocznica")
+    if not low_end and typ in ("restauracja", "pub", "klub", "bar") and rating >= 4.4 and nrev >= 300 and len(re.findall(OCC["urodziny"], full)) >= 1: occ.append("urodziny")
+    if cur("biznesowa"): occ.append("biznesowa")
     m = menus.get(k) or {}
     key = (d["name"], addr)
     if key in seen: continue

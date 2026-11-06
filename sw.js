@@ -1,5 +1,5 @@
-const V = "gz-v1";
-const SHELL = ["./", "index.html", "app.css?v=1", "app.js?v=1", "manifest.webmanifest", "img/logo.png", "img/icon-180.png", "img/icon-192.png",
+const V = "gz-v2";
+const SHELL = ["./", "index.html", "app.css?v=2", "app.js?v=2", "manifest.webmanifest", "img/logo.png", "img/icon-180.png", "img/icon-192.png",
   "fonts/cormorant-garamond-latin-600-normal.woff2", "fonts/cormorant-garamond-latin-ext-600-normal.woff2",
   "fonts/inter-latin-400-normal.woff2", "fonts/inter-latin-ext-400-normal.woff2", "fonts/inter-latin-500-normal.woff2", "fonts/inter-latin-ext-500-normal.woff2"];
 const IMG = "gz-img-v1";
