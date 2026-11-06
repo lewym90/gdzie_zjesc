@@ -44,6 +44,11 @@ viewport user-scalable=no, `touch-action: pan-x pan-y` na aplikacji, blokada ges
 ## Ochrona przed fałszywkami
 W Mapach Google zdarzają się żarty (np. „Siedziba Geometry Dash” jako klub nocny z memowymi opiniami). build_data.py odrzuca: wpisy z collector/wykluczone.json, mniej niż 5 opinii, brak oceny, strony typu gdladder/youtube/tiktok/twitch, opinie o grach (Geometry Dash, Minecraft…), salony, sklepy, piekarnie-sklepy, kluby ze striptizem. kontrola.py dodatkowo zgłasza takie wpisy jako błąd. Po każdym większym zbieraniu warto przejrzeć listę nazw.
 
+## Przegląd ręczny 6.11 (wieczór)
+- Obejrzane pierwsze zdjęcia wszystkich lokali (plansze z miniaturami). Złe okładki (kartki z telefonem, logo, baner polityczny, paragony, reklamy, ciemne nocne ujęcia) poprawione w collector/korekty.json → "zdjecia" (indeks okładki i zdjęcia do usunięcia, w kolejności z details.json).
+- Przejrzana kuchnia każdego lokalu, ok. 40 poprawek w korekty.json → "kuchnie".
+- Nowe lokale po kolejnym zbieraniu trzeba przejrzeć tak samo (plansze: /home/claude/rev w środowisku Claude'a, skrypt w historii rozmowy; łatwo odtworzyć).
+
 ## Mapa
 Zakładka Mapa: Leaflet i markercluster w vendor/leaflet (ładowane dopiero po wejściu w zakładkę). Kafelki tile.openstreetmap.org z filtrem CSS (jasny, wyciszony styl). CARTO odpadło, bo bez klucza pokazuje znak wodny „API KEY REQUIRED”. Bordowe większe punkty to lokale eleganckie. Etykieta: zdjęcie, nazwa, kuchnia, ocena, link do karty. Lokalizacja przez watchPosition; mapa centruje się na użytkowniku tylko, gdy jest w Lublinie. Mapa trzyma stan (kontener #mapwrap poza #view).
 

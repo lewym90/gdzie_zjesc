@@ -5,6 +5,7 @@ D = "/home/claude/gz/data"
 det = json.load(open(f"{D}/details.json"))
 KUR = json.load(open("/home/claude/gdzie_zjesc/collector/kuracja.json"))["listy"]
 WYK = [x.lower() for x in json.load(open("/home/claude/gdzie_zjesc/collector/wykluczone.json"))["nazwy"]]
+KOR = json.load(open("/home/claude/gdzie_zjesc/collector/korekty.json"))
 menus = json.load(open(f"{D}/menu.json")) if os.path.exists(f"{D}/menu.json") else {}
 
 def low(s): return (s or "").lower()
@@ -152,7 +153,7 @@ for k, d in det.items():
         "lat": d.get("lat"), "lng": d.get("lng"),
         "www": d.get("www"), "phone": (d.get("phone") or "").strip() or None,
         "hours": parse_hours(d.get("hours")), "hoursText": d.get("hours") or {},
-        "photos": d["photos"][:12],
+        "photos": d["photos"][:12], "_allphotos": d["photos"],
         "reviewsText": d.get("review_texts", [])[:6],
         "gmaps": d.get("gurl"),
         "menu": None if str(m.get("zrodlo", "")).startswith("pdf") else menu_ok(m.get("items")),
@@ -160,6 +161,16 @@ for k, d in det.items():
         "menuPdf": m.get("pdf"),
         "price": m.get("range") if (menu_ok(m.get("items")) and not str(m.get("zrodlo", "")).startswith("pdf")) else None,
     })
+
+# ręczne korekty po przeglądzie (kuchnie, zdjęcia)
+for p in places:
+    if p["id"] in KOR["kuchnie"]: p["cuisines"] = KOR["kuchnie"][p["id"]]
+    z = KOR["zdjecia"].get(p["id"])
+    if z:
+        ph = p["_allphotos"]; first = ph[z["pierwsze"]] if z["pierwsze"] < len(ph) else ph[0]
+        rest = [u for i, u in enumerate(ph) if i not in z["usun"] and u != first]
+        p["photos"] = [first] + rest[:11]
+for p in places: p.pop("_allphotos", None)
 
 # ranking: bayesian score
 for p in places:

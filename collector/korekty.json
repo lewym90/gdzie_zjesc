@@ -1,0 +1,219 @@
+{
+ "_opis": "Ręczne korekty po przeglądzie. zdjecia: pierwsze = indeks zdjęcia na okładkę, usun = indeksy do wyrzucenia (indeksy w oryginalnej kolejności). kuchnie: nadpisanie listy kuchni po id.",
+ "zdjecia": {
+  "smazalnia-dobrych-ryb-sola-mickiewicza-36a-7f986": {
+   "pierwsze": 4,
+   "usun": [
+    0
+   ]
+  },
+  "kebab-i-nie-tylko-8ae01": {
+   "pierwsze": 5,
+   "usun": [
+    0,
+    1
+   ]
+  },
+  "garmazerka-u-iwony-fced2": {
+   "pierwsze": 1,
+   "usun": [
+    0
+   ]
+  },
+  "prawdziwy-kebab-u-prawdziwego-polaka-1b789": {
+   "pierwsze": 1,
+   "usun": [
+    0
+   ]
+  },
+  "alshami-kebab-lublin-3ad6f": {
+   "pierwsze": 1,
+   "usun": [
+    3
+   ]
+  },
+  "bar-godny-krolik-c4463": {
+   "pierwsze": 5,
+   "usun": [
+    0
+   ]
+  },
+  "dostana-kebab-turystyczna-aa9c7": {
+   "pierwsze": 2,
+   "usun": [
+    1
+   ]
+  },
+  "pasibrzuch-de683": {
+   "pierwsze": 1,
+   "usun": [
+    3,
+    5
+   ]
+  },
+  "abc-pizza-ad9fe": {
+   "pierwsze": 1,
+   "usun": [
+    0
+   ]
+  },
+  "paradox-club-lublin-1f601": {
+   "pierwsze": 1,
+   "usun": [
+    0
+   ]
+  },
+  "kebab-i-kurczak-eee30": {
+   "pierwsze": 1,
+   "usun": []
+  },
+  "pizza-kosmos-50296": {
+   "pierwsze": 1,
+   "usun": []
+  },
+  "hot-pot-sajgon-cad5c": {
+   "pierwsze": 1,
+   "usun": [
+    0,
+    3,
+    4
+   ]
+  },
+  "habanero-kebab-883c0": {
+   "pierwsze": 5,
+   "usun": []
+  },
+  "piri-piri-kebab-lublin-96946": {
+   "pierwsze": 2,
+   "usun": []
+  },
+  "kurczak-z-rozna-madagaskar-98e66": {
+   "pierwsze": 0,
+   "usun": [
+    2
+   ]
+  },
+  "zikalafa-street-food-8b9ad": {
+   "pierwsze": 0,
+   "usun": [
+    3
+   ]
+  }
+ },
+ "kuchnie": {
+  "express-sushi-burrito-plaza-lublin-b6c00": [
+   "azjatycka"
+  ],
+  "parownia-dim-sum-bar-czechow-018ad": [
+   "azjatycka"
+  ],
+  "express-oriental-felicity-2eb40": [
+   "azjatycka"
+  ],
+  "azja-od-kuchni-a39b9": [
+   "azjatycka"
+  ],
+  "parownia-dim-sum-bar-lsm-2e644": [
+   "azjatycka"
+  ],
+  "restauracja-wietnamska-phuc-lublin-gesia-c6736": [
+   "azjatycka"
+  ],
+  "cloud-garden-shisha-kitchen-6f8dc": [
+   "azjatycka"
+  ],
+  "masala-polska-kuchnia-indyjska-e4e16": [
+   "indyjska"
+  ],
+  "magia-d-italia-gelati-caffe-lodziarnia-woska-89157": [
+   "kawiarnia"
+  ],
+  "parabuch-hot-pot-7f14f": [
+   "azjatycka"
+  ],
+  "basma-mezze-grill-62b0a": [
+   "srodziemnomorska"
+  ],
+  "kuchnia-otwarta-ec97b": [
+   "europejska"
+  ],
+  "nieznana-by-ibb-grand-hotel-lublin-b9ccf": [
+   "europejska"
+  ],
+  "tinto-wine-bar-restauracja-6362d": [
+   "europejska"
+  ],
+  "winestone-f1873": [
+   "europejska"
+  ],
+  "restauracja-the-olive-fine-jewish-food-dff32": [
+   "wschodnia"
+  ],
+  "10okien-dieci-finestre-25381": [
+   "wloska"
+  ],
+  "za-kulisami-0ecdc": [
+   "europejska"
+  ],
+  "restauracja-portofino-e5343": [
+   "wloska"
+  ],
+  "eat-go-rynek-8-3e938": [
+   "azjatycka"
+  ],
+  "hotel-restauracja-na-rogatce-1f2e7": [],
+  "bukhara-restauracja-uzbecka-d767c": [
+   "wschodnia"
+  ],
+  "pizza-pub-acerna-s-placki-ziemniaczane-autorskie-cb791": [
+   "wloska",
+   "polska"
+  ],
+  "rani-indian-restaurant-indyjska-restauracja-lublin-e3fa2": [
+   "indyjska"
+  ],
+  "ciociagotuje-pl-express-w-masami-sushi-dbec9": [
+   "polska"
+  ],
+  "trybunalska-lublin-city-pub-60d9d": [],
+  "gruzinski-smak-5524d": [
+   "wschodnia"
+  ],
+  "shamu-shamu-oriental-food-c6ce4": [
+   "azjatycka"
+  ],
+  "restauracja-orientalna-le-van-a7334": [
+   "azjatycka"
+  ],
+  "restauracja-bistro-szwejk-galeria-olimp-54f02": [
+   "europejska"
+  ],
+  "viet-home-lublin-d14af": [
+   "azjatycka"
+  ],
+  "restauracja-mcdonald-s-daae1": [
+   "amerykanska"
+  ],
+  "restauracja-mcdonald-s-dea6c": [
+   "amerykanska"
+  ],
+  "restauracja-mcdonald-s-4ea1c": [
+   "amerykanska"
+  ],
+  "kfc-lublin-plaza-1287c": [
+   "amerykanska"
+  ],
+  "kfc-lublin-statoil-tysiaclecia-b0046": [
+   "amerykanska"
+  ],
+  "lango-40205": [
+   "europejska"
+  ],
+  "lava-83c0b": [
+   "amerykanska"
+  ],
+  "restauracja-orientalna-van-le-thi-bbbc7": [
+   "azjatycka"
+  ]
+ }
+}
