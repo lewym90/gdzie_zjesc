@@ -401,17 +401,40 @@ document.querySelectorAll("i[data-ico]").forEach((i) => (i.innerHTML = ico(i.dat
 (async function init() {
   const t0 = Date.now();
   try {
-    const r = await fetch("data/places.json", { cache: "no-cache" });
+    const r = await fetch("data/places.json", { cache: "no-store" });
     DB = await r.json();
   } catch (e) {
     try { const c = await caches.match("data/places.json"); if (c) DB = await c.json(); } catch (e2) {}
   }
   DB.places.forEach((p) => (BYID[p.id] = p));
   const hero = DB.places.find((p) => p.vibes.includes("eleganckie")) || DB.places[0];
-  if (DB.meta.splash) $("#splashBg").style.backgroundImage = 'url("img/start.jpg")';
-  else if (hero) { const im = new Image(); im.referrerPolicy = "no-referrer"; im.src = img(hero.photos[0], 1000, 1600); im.onload = () => ($("#splashBg").style.backgroundImage = `url("${im.src}")`); }
+  if (!DB.meta.splash && hero) { const im = new Image(); im.referrerPolicy = "no-referrer"; im.src = img(hero.photos[0], 1000, 1600); im.onload = () => ($("#splashBg").style.backgroundImage = `url("${im.src}")`); }
   prevHashStack.push(location.hash || "#/");
   route();
   setTimeout(() => $("#splash").classList.add("out"), Math.max(0, 1400 - (Date.now() - t0)));
 })();
-if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+/* aktualizacje: przy każdym uruchomieniu i powrocie do aplikacji sprawdza nową wersję */
+if ("serviceWorker" in navigator) {
+  let reloaded = false;
+  const hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (hadController && !reloaded) { reloaded = true; location.reload(); }
+  });
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).then((reg) => {
+      reg.update().catch(() => {});
+      document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") reg.update().catch(() => {}); });
+    }).catch(() => {});
+  });
+}
+/* świeże dane po powrocie do aplikacji z tła */
+let lastLoad = Date.now();
+document.addEventListener("visibilitychange", async () => {
+  if (document.visibilityState !== "visible" || Date.now() - lastLoad < 10 * 60 * 1000) return;
+  try {
+    const r = await fetch("data/places.json", { cache: "no-store" });
+    if (!r.ok) return;
+    DB = await r.json(); BYID = {}; DB.places.forEach((p) => (BYID[p.id] = p));
+    lastLoad = Date.now(); route();
+  } catch (e) {}
+});
