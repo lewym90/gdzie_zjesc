@@ -38,7 +38,7 @@ Po ok. 700 lokalach w jedną sesję z chmury Claude'a Mapy też dały captchę. 
 Service worker (sw.js): pliki aplikacji i data/places.json zawsze najpierw z sieci (6 s limitu, potem kopia), przy starcie i powrocie do aplikacji `reg.update()`, po zmianie wersji jedno przeładowanie. Po 10 minutach w tle aplikacja sama dociąga świeże dane. Nie trzeba podbijać numerów wersji.
 
 ## Grafiki właściciela
-img/start.jpg (ekran startowy) i img/kafle/*.jpg (kuchnia-…, klimat-…, okazja-…). build_data.py wpisuje listę dostępnych kafli do meta.tiles. Brak: kuchnia-wschodnia (kategoria dodana później), lokal-… (rodzaje lokali mają ikony).
+img/start.jpg (ekran startowy) i img/kafle/*.jpg (kuchnia-…, klimat-…, okazja-…). build_data.py wpisuje listę dostępnych kafli do meta.tiles. Rodzaje lokali (lokal-…) mają ikony zamiast grafik.
 
 ## Zdjęcia
 Adresy `lh3.googleusercontent.com/...` z dopiskiem rozmiaru (`=w900-h620-k-no`). Service worker trzyma w pamięci ok. 600 ostatnio oglądanych.
