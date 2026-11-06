@@ -1,0 +1,36 @@
+# Gdzie zjeść: kontynuacja
+
+## Założenia od właściciela
+- Aplikacja tylko wyświetla lokale (nazwa, adres, zdjęcia, po dotknięciu wszystkie szczegóły i link do strony). Żadnych rezerwacji ani innych funkcji.
+- Na razie tylko Lublin. Inne miasta kiedyś, np. na wakacje.
+- Zero kosztów: bez płatnego Google API. Dane czytane z publicznych stron (Mapy Google w przeglądarce bez logowania, strony lokali).
+- Wygląd według projektu właściciela: czerń, bordo, złoto, krem. Ikona od właściciela. Bez błędów pisowni.
+- Grafiki (tła, kafelki) generuje właściciel z gotowych promptów.
+
+## Stan
+- Wersja 1: ekran startowy, Odkrywaj (kuchnie, klimat, okazja, polecane), wyniki z filtrami, szczegóły lokalu (galeria, Informacje, Menu, Godziny, Kontakt), Kuchnie, Filtry, Ulubione (zapis w telefonie).
+- Pełny ekran na iOS: `.app` jest fixed, przewija się `main`, w `index.html` jest niewidoczny `#docspacer` (ten sam sposób co w kalendarzu).
+
+## Źródła danych i co sprawdzono 6.11.2026
+- Mapy Google bez logowania działają z chmury i z serwera właściciela, ale w „ograniczonym widoku”: nie ma menu, przedziału cen ani zakładki „Informacje” (poza ułatwieniami dostępu). Są: nazwa, ocena, liczba opinii, kategoria, adres, strona, telefon, godziny, kilka opinii, ok. 10 zdjęć.
+- Wyszukiwarka Google (panel z menu i cenami) daje captchę od pierwszego zapytania, zarówno z chmury, jak i z serwera. Nie używać.
+- OpenStreetMap (Overpass) jest niedostępny z chmury Claude'a, ale powinien działać z serwera. Do uzupełnienia listy.
+- Wolt odpowiada z serwera (status 200). Jeszcze niewykorzystany jako źródło menu.
+- Menu ze stron lokali: `collector/menu.py` (zwykłe zapytania HTTP). Działa dla stron z menu w tekście. Menu w PDF i na obrazkach: tylko link (plan: Gemini z darmowym kluczem).
+
+## Zbieranie danych (collector/)
+1. `listing.py`: wyszukiwania w Mapach (kategorie i dzielnice) → `data/listing.json`.
+2. `details_run.py N`: szczegóły każdego lokalu (N równoległych okien) → `data/details.json`.
+3. `menu.py`: menu ze stron lokali → `data/menu.json`.
+4. `build_data.py`: kuchnie, typ lokalu, klimat i okazja (z kategorii Google, nazwy i opinii) → `data/places.json` aplikacji.
+Ścieżki w skryptach wskazują na środowisko Claude'a (`/home/claude/gz`). Przy przenosinach na serwer trzeba je zmienić.
+
+## Zdjęcia
+Adresy `lh3.googleusercontent.com/...` z dopiskiem rozmiaru (`=w900-h620-k-no`). Service worker trzyma w pamięci ok. 600 ostatnio oglądanych.
+
+## Do zrobienia
+- Uzupełnić listę lokali (OSM z serwera, kolejne wyszukiwania dzielnicami).
+- Menu z PDF i obrazków (Gemini), menu z Wolta.
+- Lepsze tagi klimatu i okazji (Gemini na opiniach), po rozmowie z właścicielem.
+- Grafiki właściciela: tło ekranu startowego, kafelki kuchni i klimatu.
+- Nocne odświeżanie na serwerze (wolno, żeby Google nie blokował).

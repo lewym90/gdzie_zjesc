@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gdzie zjeść</title>
+<meta name="description" content="Przewodnik po najlepszych miejscach w Lublinie">
+<meta name="theme-color" content="#0b0909">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Gdzie zjeść">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<link rel="icon" type="image/png" href="img/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="app.css?v=1">
+</head>
+<body>
+<div id="docspacer" aria-hidden="true"></div>
+<div class="app" id="app">
+  <div class="splash" id="splash">
+    <div class="splash-bg" id="splashBg"></div>
+    <div class="splash-inner">
+      <img src="img/logo.png" alt="" class="splash-logo">
+      <h1 class="splash-title">GDZIE ZJEŚĆ</h1>
+      <p class="splash-sub">ODKRYJ RESTAURACJE,<br>KTÓRE WARTO ODWIEDZIĆ</p>
+    </div>
+    <div class="splash-bar"><span></span></div>
+  </div>
+  <main id="view" class="view"></main>
+  <nav class="tabbar" id="tabbar">
+    <a href="#/" data-tab="home"><i data-ico="cloche"></i><span>Odkrywaj</span></a>
+    <a href="#/kuchnie" data-tab="kuchnie"><i data-ico="cutlery"></i><span>Kuchnie</span></a>
+    <a href="#/filtry" data-tab="filtry"><i data-ico="sliders"></i><span>Filtry</span></a>
+    <a href="#/ulubione" data-tab="ulubione"><i data-ico="heart"></i><span>Ulubione</span></a>
+  </nav>
+  <div class="viewer" id="viewer" hidden></div>
+</div>
+<script src="app.js?v=1"></script>
+</body>
+</html>
