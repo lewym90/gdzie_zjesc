@@ -56,7 +56,7 @@ def parse_hours(h):
         v = (h or {}).get(d)
         if not v: continue
         if "Zamknięte" in v: out[i] = []; continue
-        if "Całą dobę" in v or "24 godziny" in v: out[i] = [[0, 1440]]; continue
+        if re.search(r"całą dobę|24 godziny", v, re.I): out[i] = [[0, 1440]]; continue
         rng = []
         for a, b in re.findall(r"(\d{1,2}:\d{2})\s*[–-]\s*(\d{1,2}:\d{2})", v):
             f = lambda t: int(t.split(":")[0]) * 60 + int(t.split(":")[1])
@@ -131,17 +131,16 @@ for k, d in det.items():
     if nongastro: continue
     low_end = typ == "fastfood" or bool(re.search(r"kebab|bar mleczny|zapiekank|fast food|pizzeri|obiad|garmaż|stołówk|jadłodajn|na wagę|na wynos", base))
     nm = d["name"].lower()
-    cur = lambda key: any(x.lower() in nm for x in KUR.get(key, []))
+    pid = slug(d["name"]) + "-" + k.split(":")[1][-5:]
+    cur = lambda key: any((x[3:] == pid) if x.startswith("id:") else (x.lower() in nm) for x in KUR.get(key, []))
     strong = bool(re.search(r"ekskluzywn|fine dining", lc))
-    vibes = [v for v in ("eleganckie", "romantyczne", "luksusowe", "kameralne", "nowoczesne") if cur(v) or (strong and v in ("eleganckie", "luksusowe"))]
-    if hits["taras"] >= 1 and not low_end: vibes.append("taras")
+    vibes = [v for v in ("eleganckie", "romantyczne", "luksusowe", "kameralne", "nowoczesne", "taras") if cur(v) or (strong and v in ("eleganckie", "luksusowe"))]
     occ = []
     if not low_end and ("romantyczne" in vibes or "eleganckie" in vibes): occ.append("randka")
     if "eleganckie" in vibes and ("romantyczne" in vibes or "luksusowe" in vibes): occ.append("rocznica")
-    if not low_end and typ in ("restauracja", "pub", "klub", "bar") and rating >= 4.4 and nrev >= 300 and len(re.findall(OCC["urodziny"], full)) >= 1: occ.append("urodziny")
+    if cur("urodziny"): occ.append("urodziny")
     if cur("biznesowa"): occ.append("biznesowa")
-    fam = len(re.findall(r"dzieci|dzieckiem|dziećmi|z rodziną|rodzinn[aey]j? (obiad|wyjści|spotkani|imprez)|kącik dla|plac zabaw|maluch|krzesełk|całą rodziną", low(revs)))
-    if (cur("rodzinna") or (typ == "restauracja" and not re.search(r"food truck|palarnia|ekskluzyw|kanapk", lc + " " + low(d["name"])) and fam >= 1 and rating >= 4.4 and nrev >= 150)) and "rodzinna" not in occ: occ.append("rodzinna")
+    if cur("rodzinna"): occ.append("rodzinna")
     m = menus.get(k) or {}
     key = (d["name"], addr)
     if key in seen: continue

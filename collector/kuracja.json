@@ -1,5 +1,5 @@
 {
- "_opis": "Ręcznie zatwierdzone klimaty i okazje. Lokal dostaje etykietę tylko wtedy, gdy fragment jego nazwy jest na liście. Słowa z opinii o tym nie decydują.",
+ "_opis": "Ręcznie zatwierdzone etykiety: klimat (eleganckie, romantyczne, luksusowe, kameralne, nowoczesne, taras) i okazje (biznesowa, rodzinna, urodziny). Każda pozycja sprawdzona w opiniach lub zdjęciach. Randka i rocznica wynikają z klimatu. Nic nie jest nadawane automatycznie z opinii. Wpis „id:…” wskazuje jeden konkretny lokal (gdy sieć ma kilka lokali o tej samej nazwie).",
  "listy": {
   "eleganckie": [
    "Kuchnia Otwarta",
@@ -134,7 +134,63 @@
    "Halka - restauracja polska",
    "Red Rock City",
    "Perliczka",
-   "Restauracja Staropolska"
+   "Restauracja Staropolska",
+   "Stół i Wół",
+   "Restauracja Calvados",
+   "Jazzve",
+   "Restauracja Oranżeria",
+   "Bistro Przy Peronie",
+   "Restauracja Lublin Prusa 8",
+   "SAMARA oriental",
+   "PRIMITIVO LUBLIN",
+   "MoRafi",
+   "Przystań Restauracja",
+   "Restauracja Grano Verde"
+  ],
+  "taras": [
+   "Między Słowami",
+   "The White Bear Coffee",
+   "Encanto Turystyczna",
+   "restauracja UKRYTA",
+   "Anabilis",
+   "Restauracja Giuseppe",
+   "Restauracja 2PIER",
+   "Hải ANH",
+   "Małe Indie Rynek 5",
+   "Akwarela Café",
+   "BAJGLORI",
+   "Restauracja Lublin Prusa 8",
+   "Restauracja Może",
+   "Chisza nad zalewem",
+   "ZONA PIZZA",
+   "Zaczarowana Dorożka",
+   "Restauracja Staropolska",
+   "Ranch Burger",
+   "Padbar",
+   "Plac Olejny",
+   "No & Co",
+   "Restauracja Alteria",
+   "Dom Złotnika",
+   "Ostro Ristoteca",
+   "Pub u Szewca",
+   "ROZMARYN",
+   "Restauracja Na Fali",
+   "Sielsko Anielsko",
+   "Klub Astoria",
+   "Padre Rum",
+   "Kalyna",
+   "Helium Club",
+   "id:sto-i-wo-51246",
+   "id:grill-bar-7de89"
+  ],
+  "urodziny": [
+   "Popularna Lublin",
+   "Restauracja Oranżeria",
+   "Kmicic Hotel",
+   "Restauracja Portofino",
+   "Takushi Ramen",
+   "Tawerna La Traviata",
+   "Przystań Restauracja"
   ]
  }
 }
