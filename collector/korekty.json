@@ -175,7 +175,9 @@
   "ciociagotuje-pl-express-w-masami-sushi-dbec9": [
    "polska"
   ],
-  "trybunalska-lublin-city-pub-60d9d": [],
+  "trybunalska-lublin-city-pub-60d9d": [
+   "europejska"
+  ],
   "gruzinski-smak-5524d": [
    "wschodnia"
   ],
@@ -214,6 +216,139 @@
   ],
   "restauracja-orientalna-van-le-thi-bbbc7": [
    "azjatycka"
+  ],
+  "kuchnia-marche-plaza-lublin-17b5c": [
+   "polska"
+  ],
+  "mow-mi-padre-43c59": [
+   "wloska"
+  ],
+  "lepione-felicity-08836": [
+   "polska"
+  ],
+  "kumple-rogera-7d953": [
+   "amerykanska",
+   "wloska"
+  ],
+  "perowa-2c277": [
+   "polska"
+  ],
+  "encanto-turystyczna-b8f3c": [
+   "wloska",
+   "amerykanska"
+  ],
+  "od-kuchni-7b7cb": [
+   "europejska"
+  ],
+  "bar-mieszczanski-440a9": [
+   "polska"
+  ],
+  "koralova-be233": [
+   "polska",
+   "wloska"
+  ],
+  "restauracja-bursztynowa1-d1366": [
+   "amerykanska",
+   "wloska"
+  ],
+  "raj-utracony-8585d": [
+   "srodziemnomorska"
+  ],
+  "bim-14a04": [
+   "polska"
+  ],
+  "coffee-sons-rodzinna-palarnia-kawy-dfcbd": [
+   "kawiarnia"
+  ],
+  "bistro-gora-smakow-a2f5f": [
+   "polska"
+  ],
+  "restauracja-moze-8c17a": [
+   "europejska"
+  ],
+  "el-tiempo-restauracja-5a8b7": [
+   "europejska"
+  ],
+  "parmezan-bistro-lublin-restauracja-jedzenie-z-dowozem-imprez-82b3c": [
+   "wloska"
+  ],
+  "hakuna-matata-bistro-b9fe2": [
+   "polska"
+  ],
+  "zielony-wiatrak-b261a": [
+   "europejska"
+  ],
+  "hambuka-i-spoka-4402d": [
+   "amerykanska"
+  ],
+  "kanapkeria-lublin-ec256": [
+   "wloska"
+  ],
+  "bar-a-boo-cad49": [
+   "wloska"
+  ],
+  "centrum-etiuda-hotel-i-restauracja-40b55": [
+   "polska"
+  ],
+  "ostro-ristoteca-1f2fa": [
+   "wloska"
+  ],
+  "mojo-kuchnia-przyjaciele-8c158": [
+   "europejska"
+  ],
+  "restauracja-browar-lublin-50c4a": [
+   "polska"
+  ],
+  "kuznia-7ce8d": [
+   "amerykanska",
+   "wloska"
+  ],
+  "rozmaryn-restauracja-pub-6ecea": [
+   "polska"
+  ],
+  "prosto-z-mostu-a3272": [
+   "wloska"
+  ],
+  "tip-top-58db8": [
+   "polska"
+  ],
+  "bistro-caffe-d6a9b": [
+   "polska"
+  ],
+  "klub-lekarza-lublin-a07ff": [
+   "polska"
+  ],
+  "studio-dwie-kuchnie-by-yamato-8ff7e": [
+   "polska",
+   "azjatycka"
+  ],
+  "apetito-5ba84": [
+   "polska"
+  ],
+  "le-monde-3961f": [
+   "wloska"
+  ],
+  "restauracja-olimp-9ca14": [
+   "polska"
+  ],
+  "bazylia-e65bd": [
+   "polska"
+  ],
+  "gastronauci-restauracja-98ce4": [
+   "wloska",
+   "polska"
+  ],
+  "pasibrzuch-b8542": [
+   "polska"
+  ],
+  "bistro-oaza-f3a62": [
+   "polska"
+  ],
+  "avocado-bistro-caffe-6de92": [
+   "polska"
+  ],
+  "bon-apetito-plaza-lublin-4b026": [
+   "polska"
   ]
  },
  "nazwy": {
@@ -249,5 +384,12 @@
   "Trybunalska Lublin City Pub": "Trybunalska City Pub",
   "SERCE LUBLIN": "Serce",
   "Restauracja McDonald's": "McDonald's"
+ },
+ "typy": {
+  "tancereczka-bistro-f65b1": "bar",
+  "cma-bistro-shotbar-cc17e": "bar",
+  "mistral-bar-f4c39": "bar",
+  "casino-royale-lublin-befa3": "klub",
+  "kasyno-wojskowe-nr-52-12862": "klub"
  }
 }

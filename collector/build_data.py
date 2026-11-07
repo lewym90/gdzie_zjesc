@@ -174,6 +174,7 @@ for p in places:
 # ręczne korekty po przeglądzie (kuchnie, zdjęcia)
 for p in places:
     if p["id"] in KOR["kuchnie"]: p["cuisines"] = KOR["kuchnie"][p["id"]]
+    if p["id"] in KOR.get("typy", {}): p["type"] = KOR["typy"][p["id"]]
     elif not p["cuisines"] and p["type"] in ("restauracja", "fastfood") and re.search(r"garmaż|stołówk|bar mleczny|obiad|jadłodajn|domow|bufet|zestawy obiadowe|kuchnia smakosza|smaki u jadzi|placki|plackarn", low(p["name"] + " " + p["category"])): p["cuisines"] = ["polska"]
     z = KOR["zdjecia"].get(p["id"])
     if z:
