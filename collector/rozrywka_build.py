@@ -106,6 +106,25 @@ def main():
             "areaName": "Stare Miasto" if dr <= 650 else "Centrum" if dr <= 1600 else "",
             "rest": KUR.get("restauracje", {}).get(name), "reviewsText": [t for t in (d.get("review_texts") or []) if 40 < len(t) < 700][:8],
         })
+    # miejsca z Restauracji, które pasują też tutaj (np. kluby w grupie „Wieczorem”)
+    have = {p["name"].lower() for p in out}
+    occ_r = KUR.get("z_restauracji_okazje", {})
+    for grupa, spec in KUR.get("z_restauracji", {}).items():
+        for r in rest:
+            if r["name"].lower() in have: continue
+            if not (r.get("type") in spec.get("typy", []) or r["name"] in spec.get("nazwy", [])): continue
+            dr = km((r["lat"], r["lng"]), CITY["rynek"]) * 1000 if r.get("lat") else None
+            occ = [o for o, lst in occ_r.items() if "*" in lst or r["name"] in lst]
+            out.append({
+                "id": "r-" + r["id"], "name": KUR.get("nazwy", {}).get(r["name"], r["name"]), "kind": grupa, "category": KUR.get("kategorie_rest", {}).get(r["name"]) or r.get("category") or "Klub",
+                "rating": r.get("rating"), "reviews": r.get("reviews") or 0, "address": r.get("address") or "",
+                "lat": r.get("lat"), "lng": r.get("lng"), "www": r.get("www"), "phone": r.get("phone"), "gmaps": r.get("gmaps"),
+                "photos": r["photos"][:12], "desc": "", "descSrc": None, "priceText": None, "link": None, "age": None,
+                "hours": r.get("hours") or {}, "hoursText": r.get("hoursText") or {}, "indoor": True, "occ": occ, "attrs": [],
+                "dRynek": round(dr) if dr is not None else None, "areaName": ("Stare Miasto" if dr <= 650 else "Centrum" if dr <= 1600 else "") if dr is not None else "",
+                "rest": r["id"], "fromRest": True, "reviewsText": (r.get("reviewsText") or [])[:8],
+            })
+            have.add(r["name"].lower())
     out.sort(key=lambda p: -(p["rating"] or 0) * math.log10(p["reviews"] + 10))
     bdir = os.path.join(REPO, "img", "banery")
     meta = {"city": CITY["name"], "bounds": CITY["bounds"],

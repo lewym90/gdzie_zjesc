@@ -60,7 +60,8 @@ const ROZR = (function () {
     acts: (p) => [["Strona", "globeL", p.www], [p.kind === "kino" ? "Repertuar" : "Cennik", p.kind === "kino" ? "ticket" : "tag", p.link || p.www], ["Telefon", "phone", p.phone ? "tel:" + p.phone.replace(/\s/g, "") : null, false], ["Trasa", "navi", navUrl(p)]],
     sm: (p) => {
       const oc = p.occ.map((o) => ({ dzieci: "wyjście z dziećmi", randka: "randkę", znajomi: "wyjście ze znajomymi", firma: "integrację firmową", urodziny: "urodziny", deszcz: "deszczowy dzień" }[o]));
-      const lead = `${p.category || ""}${p.indoor === true ? ", pod dachem" : p.indoor === false ? ", na zewnątrz" : ""}.` + (oc.length ? ` Dobre na ${oc.length > 1 ? oc.slice(0, -1).join(", ") + " i " + oc[oc.length - 1] : oc[0]}.` : "");
+      const inout = p.kind === "wieczor" || p.kind === "kino" ? "" : p.indoor === true ? ", pod dachem" : p.indoor === false ? ", na zewnątrz" : "";
+      const lead = `${p.category || ""}${inout}.` + (oc.length ? ` Dobre na ${oc.length > 1 ? oc.slice(0, -1).join(", ") + " i " + oc[oc.length - 1] : oc[0]}.` : "");
       const h = todayText(p), os = openState(p);
       return `<p>${esc(lead)}</p>
       ${h ? `<div class="sm-row"><i>${ico("clock")}</i>${/Zamknięte/.test(h) ? `<span class="cl">Dziś zamknięte</span>` : `<span class="${os ? "op" : ""}">${os ? "Otwarte dziś" : "Dziś"}:</span><span>${esc(h)}</span>`}</div>` : ""}
@@ -78,7 +79,7 @@ const ROZR = (function () {
       ${p.age ? `<div class="row"><i>${ico("family")}</i><div><b>Wiek:</b> ${esc(p.age)}</div></div>` : ""}
       ${p.priceText ? `<div class="row"><i>${ico("coins")}</i><div><b>Ceny:</b> ${esc(p.priceText)}</div></div>` : ""}
       ${(p.attrs || []).length ? `<div class="row"><i>${ico("sparkle")}</i><div><b>Warto wiedzieć:</b> ${esc(p.attrs.join(", "))}</div></div>` : ""}
-      ${rest ? `<a class="row lnk" href="#/lokal/${encodeURIComponent(rest.id)}"><i>${ico("cloche")}</i><div><b>Jedzenie na miejscu:</b> ${esc(rest.name)} ›</div></a>` : ""}`;
+      ${rest ? `<a class="row lnk" href="#/lokal/${encodeURIComponent(rest.id)}"><i>${ico("cloche")}</i><div>${p.fromRest ? "<b>Także w Restauracjach:</b> menu, klimat i okazje" : `<b>Jedzenie na miejscu:</b> ${esc(rest.name)}`} ›</div></a>` : ""}`;
     },
   });
 })();

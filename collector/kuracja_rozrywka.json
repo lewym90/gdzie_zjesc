@@ -115,7 +115,12 @@
   "Hala Globus im. Tomasza Wójtowicza": "Hala Globus",
   "Paintball Interskills Lublin": "Paintball Interskills",
   "Paintball Laserowy Marina": "Paintball Laserowy Marina",
-  "Strefa H2O": "Strefa H2O"
+  "Strefa H2O": "Strefa H2O",
+  "SERCE LUBLIN": "Serce Lublin",
+  "Nowy Komitet - klub nocny": "Nowy Komitet",
+  "Shotbar U-Boot Lublin!": "Shotbar U-Boot",
+  "PUB pod Ziemią - Lublin": "Pub pod Ziemią",
+  "BAR KUFELEK": "Bar Kufelek"
  },
  "kategorie": {
   "Hala Globus im. Tomasza Wójtowicza": "Hala widowiskowa",
@@ -511,5 +516,56 @@
   "Słoneczny Wrotków": {
    "pierwsze": 2
   }
+ },
+ "z_restauracji": {
+  "wieczor": {
+   "typy": [
+    "klub"
+   ],
+   "nazwy": [
+    "Rock Klub Koyot",
+    "Klub Astoria",
+    "Święty Spokój Music Cafe",
+    "Kultowa Klubokawiarnia",
+    "Shotbar U-Boot Lublin!",
+    "PUB pod Ziemią - Lublin"
+   ]
+  },
+  "gry": {
+   "nazwy": [
+    "Padbar",
+    "Just Crafted"
+   ]
+  },
+  "ruch": {
+   "nazwy": [
+    "BAR KUFELEK",
+    "Tifosi Sport Pub"
+   ]
+  }
+ },
+ "z_restauracji_okazje": {
+  "znajomi": [
+   "*"
+  ],
+  "urodziny": [
+   "Klub30 Lublin",
+   "Radość",
+   "Rzut Beretem",
+   "Klub Graffiti",
+   "Unicorn Lounge&Club Lublin"
+  ]
+ },
+ "kategorie_rest": {
+  "Kultowa Klubokawiarnia": "Klubokawiarnia: koncerty i karaoke",
+  "Shotbar U-Boot Lublin!": "Bar z karaoke",
+  "PUB pod Ziemią - Lublin": "Pub: karaoke i koncerty",
+  "Padbar": "Bar z grami planszowymi",
+  "Just Crafted": "Pub: planszówki i quizy",
+  "BAR KUFELEK": "Bar z rzutkami",
+  "Tifosi Sport Pub": "Pub sportowy z bilardem",
+  "Klub Astoria": "Pub sportowy z bilardem",
+  "Święty Spokój Music Cafe": "Kawiarnia z muzyką na żywo",
+  "Rock Klub Koyot": "Pub rockowy"
  }
 }
