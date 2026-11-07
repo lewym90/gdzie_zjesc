@@ -49,7 +49,8 @@
   "Salon Gier",
   "Plac zabaw z tyrolką",
   "Bawialnia Bałagan",
-  "Plac do mini - golfa"
+  "Plac do mini - golfa",
+  "Legia Paintballowa"
  ],
  "grupa": {
   "Hala Globus im. Tomasza Wójtowicza": "kino",
@@ -177,11 +178,6 @@
   "Dzika plaża": {
    "indoor": false,
    "desc": "Dzika plaża nad Zalewem Zemborzyckim, latem miejsce na odpoczynek nad wodą."
-  },
-  "Legia Paintballowa": {
-   "indoor": false,
-   "desc": "Paintball z nowymi markerami i urozmaiconym polem, granatami dymnymi i miejscem na ognisko.",
-   "zrodlo": "opinie"
   },
   "Akademia Golfa": {
    "indoor": false,
@@ -540,7 +536,7 @@
    "zrodlo": "siec"
   },
   "Radość": {
-   "desc": "Sezonowy klub w postindustrialnej przestrzeni dawnego Browaru Perła, z ogródkiem wśród zieleni, koncertami, warsztatami i street foodem.",
+   "desc": "Klub w postindustrialnej przestrzeni dawnego Browaru Perła, z ogródkiem wśród zieleni, koncertami, imprezami i street foodem; otwarty w piątki i soboty od 20:00.",
    "zrodlo": "siec"
   },
   "Zeon Cyber Club": {
@@ -663,7 +659,6 @@
   "Klub Dom Kultury",
   "Dzika plaża",
   "Paintball Laserowy Marina",
-  "Legia Paintballowa",
   "Akademia Golfa"
  ],
  "firma": [
@@ -686,7 +681,6 @@
   "Gniazdo Żubra",
   "Master of Speed",
   "Paintball Laserowy Marina",
-  "Legia Paintballowa",
   "Akademia Golfa",
   "Supergolf"
  ],

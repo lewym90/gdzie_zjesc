@@ -118,3 +118,5 @@ Dane w `data/noclegi.json`, widoki w `nocl.js`, adresy `#/n/...` (`#/n`, `#/n/wy
 - `tagi` (kategoria → synonimy) trafiają do wyszukiwarki, np. Kręgielnia → „kręgle bowling”.
 - `wykluczone_z_restauracji`: nazwy z places.json, których nie przenosimy do Rozrywki (np. słabe oceny).
 - Telefony: build usuwa ukryty znak ikonki z Map (U+E0B0) – bez tego link „zadzwoń” był błędny.
+- Adresy i godziny: obowiązują te z Map Google (najbardziej aktualne); inne serwisy często mają stare adresy – nie poprawiamy na ich podstawie.
+- Kluby/stowarzyszenia bez stałego miejsca (np. „Legia Paintballowa” – klub fanów) wykluczamy.
