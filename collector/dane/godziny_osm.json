@@ -1,0 +1,275 @@
+{
+ "lody-domowe-u-ani-bb514": {
+  "hours": {
+   "poniedziałek": "10:00–20:00",
+   "wtorek": "10:00–20:00",
+   "środa": "10:00–20:00",
+   "czwartek": "10:00–20:00",
+   "piątek": "10:00–20:00",
+   "sobota": "10:00–20:00",
+   "niedziela": "10:00–20:00"
+  },
+  "zrodlo": "osm"
+ },
+ "pelier-bistro-3cffb": {
+  "hours": {
+   "poniedziałek": "8:00–22:00",
+   "wtorek": "8:00–22:00",
+   "środa": "8:00–22:00",
+   "czwartek": "8:00–23:00",
+   "piątek": "8:00–24:00",
+   "sobota": "9:00–24:00",
+   "niedziela": "9:00–22:00"
+  },
+  "zrodlo": "osm"
+ },
+ "pyzata-chata-dcd64": {
+  "hours": {
+   "poniedziałek": "11:00–22:00",
+   "wtorek": "11:00–22:00",
+   "środa": "11:00–22:00",
+   "czwartek": "11:00–22:00",
+   "piątek": "11:00–22:00",
+   "sobota": "11:00–22:00",
+   "niedziela": "11:00–22:00"
+  },
+  "zrodlo": "osm"
+ },
+ "sto-i-wo-3f337": {
+  "hours": {
+   "poniedziałek": "9:00–22:00",
+   "wtorek": "9:00–22:00",
+   "środa": "9:00–22:00",
+   "czwartek": "9:00–22:00",
+   "piątek": "9:00–23:00",
+   "sobota": "10:00–23:00",
+   "niedziela": "10:00–23:00"
+  },
+  "zrodlo": "osm"
+ },
+ "peccato-di-gola-c939f": {
+  "hours": {
+   "poniedziałek": "13:00–22:00",
+   "wtorek": "13:00–22:00",
+   "środa": "13:00–22:00",
+   "czwartek": "13:00–22:00",
+   "piątek": "13:00–22:00",
+   "sobota": "12:00–22:00",
+   "niedziela": "12:00–22:00"
+  },
+  "zrodlo": "osm"
+ },
+ "bistro-u-mili-e887a": {
+  "hours": {
+   "poniedziałek": "9:00–19:00",
+   "wtorek": "9:00–19:00",
+   "środa": "9:00–19:00",
+   "czwartek": "9:00–19:00",
+   "piątek": "9:00–19:00",
+   "sobota": "10:00–18:00",
+   "niedziela": "10:00–18:00"
+  },
+  "zrodlo": "osm"
+ },
+ "anabilis-a06e2": {
+  "hours": {
+   "poniedziałek": "9:00–22:00",
+   "wtorek": "9:00–22:00",
+   "środa": "9:00–22:00",
+   "czwartek": "9:00–22:00",
+   "piątek": "9:00–23:00",
+   "sobota": "10:00–23:00",
+   "niedziela": "10:00–22:00"
+  },
+  "zrodlo": "osm"
+ },
+ "pelier-sweets-48304": {
+  "hours": {
+   "poniedziałek": "8:00–22:00",
+   "wtorek": "8:00–22:00",
+   "środa": "8:00–22:00",
+   "czwartek": "8:00–23:00",
+   "piątek": "8:00–24:00",
+   "sobota": "9:00–24:00",
+   "niedziela": "9:00–22:00"
+  },
+  "zrodlo": "osm"
+ },
+ "raj-utracony-8585d": {
+  "hours": {
+   "wtorek": "10:00–22:00",
+   "środa": "10:00–22:00",
+   "czwartek": "10:00–22:00",
+   "piątek": "10:00–23:00",
+   "sobota": "10:00–23:00",
+   "niedziela": "10:00–21:00"
+  },
+  "zrodlo": "osm"
+ },
+ "pyszny-kebab-lublin-37511": {
+  "hours": {
+   "poniedziałek": "10:00–23:00",
+   "wtorek": "10:00–23:00",
+   "środa": "10:00–23:00",
+   "czwartek": "10:00–23:00",
+   "piątek": "10:00–23:00",
+   "sobota": "10:00–23:00",
+   "niedziela": "10:00–22:00"
+  },
+  "zrodlo": "osm"
+ },
+ "bistro-gora-smakow-a2f5f": {
+  "hours": {
+   "poniedziałek": "8:00–18:00",
+   "wtorek": "8:00–18:00",
+   "środa": "8:00–18:00",
+   "czwartek": "8:00–18:00",
+   "piątek": "8:00–18:00",
+   "sobota": "11:00–14:00"
+  },
+  "zrodlo": "osm"
+ },
+ "cafe-mari-113fb": {
+  "hours": {
+   "poniedziałek": "8:00–20:00",
+   "wtorek": "8:00–20:00",
+   "środa": "8:00–21:00",
+   "czwartek": "8:00–21:00",
+   "piątek": "8:00–21:00",
+   "sobota": "9:00–21:00",
+   "niedziela": "9:00–21:00"
+  },
+  "zrodlo": "osm"
+ },
+ "just-crafted-7b563": {
+  "hours": {
+   "środa": "19:00–22:00",
+   "czwartek": "19:00–22:00",
+   "piątek": "16:00–24:00",
+   "sobota": "16:00–24:00",
+   "niedziela": "16:00–22:00",
+   "poniedziałek": "Zamknięte",
+   "wtorek": "Zamknięte"
+  },
+  "zrodlo": "osm"
+ },
+ "samara-oriental-felicity-ca4ef": {
+  "hours": {
+   "poniedziałek": "9:00–21:00",
+   "wtorek": "9:00–21:00",
+   "środa": "9:00–21:00",
+   "czwartek": "9:00–21:00",
+   "piątek": "9:00–21:00",
+   "sobota": "9:00–21:00",
+   "niedziela": "9:00–20:00"
+  },
+  "zrodlo": "osm"
+ },
+ "bukhara-restauracja-uzbecka-d767c": {
+  "hours": {
+   "poniedziałek": "Zamknięte",
+   "wtorek": "10:00–20:00",
+   "środa": "10:00–20:00",
+   "czwartek": "10:00–20:00",
+   "piątek": "10:00–20:00",
+   "sobota": "10:00–20:00",
+   "niedziela": "10:00–20:00"
+  },
+  "zrodlo": "osm"
+ },
+ "sto-i-wo-51246": {
+  "hours": {
+   "poniedziałek": "12:00–24:00",
+   "wtorek": "12:00–24:00",
+   "środa": "12:00–24:00",
+   "czwartek": "12:00–24:00",
+   "piątek": "12:00–4:00",
+   "sobota": "12:00–4:00",
+   "niedziela": "12:00–24:00"
+  },
+  "zrodlo": "osm"
+ },
+ "restauracja-woska-pizzeria-atrium-7fa72": {
+  "hours": {
+   "poniedziałek": "12:00–23:00",
+   "wtorek": "12:00–23:00",
+   "środa": "12:00–23:00",
+   "czwartek": "12:00–23:00",
+   "piątek": "12:00–24:00",
+   "sobota": "12:00–24:00",
+   "niedziela": "12:00–23:00"
+  },
+  "zrodlo": "osm"
+ },
+ "encepence-pizzeria-pub-5d3be": {
+  "hours": {
+   "poniedziałek": "11:00–23:00",
+   "wtorek": "11:00–23:00",
+   "środa": "11:00–23:00",
+   "czwartek": "11:00–23:00",
+   "piątek": "11:00–24:00",
+   "sobota": "12:00–24:00",
+   "niedziela": "12:00–23:00"
+  },
+  "zrodlo": "osm"
+ },
+ "bar-mleczny-to-i-owo-ebb1c": {
+  "hours": {
+   "poniedziałek": "10:00–18:00",
+   "wtorek": "10:00–18:00",
+   "środa": "10:00–18:00",
+   "czwartek": "10:00–18:00",
+   "piątek": "10:00–18:00",
+   "sobota": "10:00–17:00"
+  },
+  "zrodlo": "osm"
+ },
+ "trybunalska-lublin-city-pub-60d9d": {
+  "hours": {
+   "poniedziałek": "7:00–23:00",
+   "wtorek": "7:00–23:00",
+   "środa": "7:00–23:00",
+   "czwartek": "7:00–23:00",
+   "niedziela": "7:00–23:00",
+   "piątek": "7:00–2:00",
+   "sobota": "7:00–2:00"
+  },
+  "zrodlo": "osm"
+ },
+ "cukiernia-raszczyk-vivo-lublin-dcacf": {
+  "hours": {
+   "poniedziałek": "9:00–21:00",
+   "wtorek": "9:00–21:00",
+   "środa": "9:00–21:00",
+   "czwartek": "9:00–21:00",
+   "piątek": "9:00–21:00",
+   "sobota": "9:00–21:00",
+   "niedziela": "9:00–20:00"
+  },
+  "zrodlo": "osm"
+ },
+ "garmazerka-smacznego-lublin-741d9": {
+  "hours": {
+   "poniedziałek": "9:30–17:30",
+   "wtorek": "9:30–17:30",
+   "środa": "9:30–17:30",
+   "czwartek": "9:30–17:30",
+   "piątek": "9:30–17:30",
+   "sobota": "Zamknięte",
+   "niedziela": "Zamknięte"
+  },
+  "zrodlo": "osm"
+ },
+ "bar-godny-krolik-c4463": {
+  "hours": {
+   "poniedziałek": "9:00–24:00",
+   "wtorek": "9:00–24:00",
+   "środa": "9:00–24:00",
+   "czwartek": "9:00–24:00",
+   "piątek": "9:00–24:00",
+   "sobota": "9:00–24:00",
+   "niedziela": "9:00–24:00"
+  },
+  "zrodlo": "osm"
+ }
+}
