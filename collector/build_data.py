@@ -6,6 +6,7 @@ det = json.load(open(f"{D}/details.json"))
 KUR = json.load(open("/home/claude/gdzie_zjesc/collector/kuracja.json"))["listy"]
 WYK = [x.lower() for x in json.load(open("/home/claude/gdzie_zjesc/collector/wykluczone.json"))["nazwy"]]
 KOR = json.load(open("/home/claude/gdzie_zjesc/collector/korekty.json"))
+GS = json.load(open(f"{D}/godziny_strony.json")) if os.path.exists(f"{D}/godziny_strony.json") else {}
 menus = json.load(open(f"{D}/menu.json")) if os.path.exists(f"{D}/menu.json") else {}
 
 def low(s): return (s or "").lower()
@@ -163,6 +164,10 @@ for k, d in det.items():
         "price": m.get("range") if (menu_ok(m.get("items")) and not str(m.get("zrodlo", "")).startswith("pdf")) else None,
     })
 
+# godziny ze stron lokali, gdy Google ich nie podaje
+for p in places:
+    if not p["hoursText"] and p["id"] in GS:
+        p["hoursText"] = GS[p["id"]]["hours"]; p["hours"] = parse_hours(p["hoursText"]); p["hoursSrc"] = "strona"
 # ręczne korekty po przeglądzie (kuchnie, zdjęcia)
 for p in places:
     if p["id"] in KOR["kuchnie"]: p["cuisines"] = KOR["kuchnie"][p["id"]]

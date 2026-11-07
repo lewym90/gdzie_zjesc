@@ -1,0 +1,404 @@
+{
+ "rezerwat-kulinarny-a73d0": {
+  "hours": {
+   "poniedziałek": "Zamknięte",
+   "wtorek": "12:00–19:00",
+   "środa": "12:00–19:00",
+   "czwartek": "12:00–19:00",
+   "piątek": "12:00–19:00",
+   "sobota": "12:00–19:00",
+   "niedziela": "Zamknięte"
+  },
+  "url": "https://www.rezerwatkulinarny.pl/"
+ },
+ "restauracja-ansaldo-smaki-najwyzszych-lotow-49ae8": {
+  "hours": {
+   "poniedziałek": "12:00–22:00",
+   "wtorek": "12:00–22:00",
+   "środa": "12:00–22:00",
+   "czwartek": "12:00–22:00",
+   "piątek": "12:00–22:00",
+   "sobota": "12:00–22:00",
+   "niedziela": "12:00–22:00"
+  },
+  "url": "https://restauracjaansaldo.pl/"
+ },
+ "koper-woski-u-braci-mazur-56e2a": {
+  "hours": {
+   "poniedziałek": "7:00–22:00",
+   "wtorek": "7:00–23:00",
+   "środa": "7:00–23:00",
+   "czwartek": "7:00–23:00",
+   "piątek": "7:00–0:00",
+   "sobota": "7:00–0:00",
+   "niedziela": "7:00–22:00"
+  },
+  "url": "https://koperwloski.pl/"
+ },
+ "perowa-2c277": {
+  "hours": {
+   "poniedziałek": "Zamknięte",
+   "wtorek": "18:00–22:00",
+   "środa": "18:00–22:00",
+   "czwartek": "18:00–22:00",
+   "sobota": "12:00–24:00",
+   "niedziela": "12:00–22:00"
+  },
+  "url": "https://perlowapijalniapiwa.pl/"
+ },
+ "abc-pizza-ad9fe": {
+  "hours": {
+   "poniedziałek": "13:00–21:00",
+   "wtorek": "13:00–21:00",
+   "środa": "13:00–21:00",
+   "czwartek": "13:00–21:00",
+   "piątek": "12:00–22:00",
+   "sobota": "12:00–22:00",
+   "niedziela": "12:00–21:00"
+  },
+  "url": "https://abcpizza.eu/kontakt/"
+ },
+ "kago-sushi-6e5b0": {
+  "hours": {
+   "poniedziałek": "12:00–22:00",
+   "wtorek": "12:00–22:00",
+   "środa": "12:00–22:00",
+   "czwartek": "12:00–22:00",
+   "piątek": "12:00–23:00",
+   "sobota": "13:00–23:00",
+   "niedziela": "13:00–22:00"
+  },
+  "url": "https://kagosushi.com/"
+ },
+ "masna-pizza-b1924": {
+  "hours": {
+   "poniedziałek": "13:00–22:30",
+   "wtorek": "13:00–22:30",
+   "środa": "13:00–22:30",
+   "czwartek": "13:00–22:30",
+   "piątek": "13:00–22:30",
+   "sobota": "13:00–22:30",
+   "niedziela": "13:00–22:30"
+  },
+  "url": "https://www.masnapizzalublin.pl/"
+ },
+ "encanto-turystyczna-b8f3c": {
+  "hours": {
+   "poniedziałek": "11:00–21:00",
+   "wtorek": "11:00–21:00",
+   "środa": "11:00–21:00",
+   "czwartek": "11:00–21:00",
+   "piątek": "11:00–22:00",
+   "sobota": "12:00–22:00",
+   "niedziela": "12:00–21:00"
+  },
+  "url": "https://encantolublin.pl/"
+ },
+ "basma-mezze-grill-62b0a": {
+  "hours": {
+   "poniedziałek": "12:00–23:00",
+   "wtorek": "12:00–23:00",
+   "środa": "12:00–23:00",
+   "czwartek": "12:00–23:00",
+   "piątek": "12:00–0:00",
+   "sobota": "10:00–0:00",
+   "niedziela": "10:00–23:00"
+  },
+  "url": "https://www.basmamezze.pl/"
+ },
+ "mandragora-zydowska-restauracja-658e9": {
+  "hours": {
+   "poniedziałek": "12:00–22:00",
+   "wtorek": "12:00–22:00",
+   "środa": "12:00–22:00",
+   "czwartek": "12:00–22:00",
+   "piątek": "12:00–22:00",
+   "sobota": "12:00–22:00",
+   "niedziela": "12:00–22:00"
+  },
+  "url": "https://mandragora.lublin.pl/"
+ },
+ "sweet-spicy-restauracja-indyjska-784fb": {
+  "hours": {
+   "poniedziałek": "13:00–21:00",
+   "wtorek": "13:00–21:00",
+   "środa": "13:00–21:00",
+   "czwartek": "13:00–21:00",
+   "piątek": "13:00–21:00",
+   "sobota": "13:00–21:00",
+   "niedziela": "13:00–21:00"
+  },
+  "url": "https://sweetspicy.pl/kontakt/"
+ },
+ "mae-indie-0ed8e": {
+  "hours": {
+   "poniedziałek": "11:00–21:30",
+   "wtorek": "11:00–21:30",
+   "środa": "11:00–21:30",
+   "czwartek": "11:00–21:30",
+   "sobota": "11:00–22:30",
+   "niedziela": "11:00–21:30"
+  },
+  "url": "https://www.maleindie.pl/"
+ },
+ "kmicic-hotel-restauracja-e70fa": {
+  "hours": {
+   "poniedziałek": "14:00–21:00",
+   "wtorek": "14:00–21:00",
+   "środa": "14:00–21:00",
+   "czwartek": "14:00–21:00",
+   "piątek": "14:00–21:00",
+   "niedziela": "12:00–22:00"
+  },
+  "url": "https://www.kmicichotel.pl/"
+ },
+ "restauracja-otwarta-grill-ffa62": {
+  "hours": {
+   "poniedziałek": "8:00–22:00",
+   "wtorek": "8:00–22:00",
+   "środa": "8:00–22:00",
+   "czwartek": "8:00–22:00",
+   "piątek": "8:00–23:00",
+   "sobota": "8:00–23:00",
+   "niedziela": "8:00–20:00"
+  },
+  "url": "https://otwarta.eu/"
+ },
+ "skadanka-restauracja-woska-lublin-dac0f": {
+  "hours": {
+   "poniedziałek": "12:00–21:00",
+   "wtorek": "12:00–21:00",
+   "środa": "12:00–21:00",
+   "czwartek": "12:00–21:00",
+   "piątek": "12:00–23:00",
+   "sobota": "12:00–23:00",
+   "niedziela": "12:00–22:00"
+  },
+  "url": "https://restauracjaskladanka.pl/"
+ },
+ "pizzeria-brooklyn-syndicate-c937d": {
+  "hours": {
+   "poniedziałek": "11:00–22:00",
+   "wtorek": "11:00–22:00",
+   "środa": "11:00–22:00",
+   "czwartek": "11:00–22:00",
+   "piątek": "11:00–23:00",
+   "sobota": "11:00–23:00",
+   "niedziela": "11:00–22:00"
+  },
+  "url": "https://www.brooklynsyndicate.pl/?utm_source=google&utm_medium=gbp&utm_content=cta"
+ },
+ "coffee-sons-rodzinna-palarnia-kawy-dfcbd": {
+  "hours": {
+   "poniedziałek": "8:00–16:00",
+   "wtorek": "8:00–16:00",
+   "środa": "8:00–16:00",
+   "czwartek": "8:00–16:00",
+   "piątek": "8:00–16:00",
+   "sobota": "9:00–13:00"
+  },
+  "url": "https://coffeeandsons.pl/"
+ },
+ "oso-sushi-restauracja-japonska-519c7": {
+  "hours": {
+   "poniedziałek": "10:00–20:30",
+   "wtorek": "10:00–20:30",
+   "środa": "10:00–20:30",
+   "czwartek": "10:00–20:30",
+   "piątek": "10:00–20:30",
+   "sobota": "10:00–20:30",
+   "niedziela": "12:00–17:30"
+  },
+  "url": "https://www.ososushiwok.pl/"
+ },
+ "kebab-pro-54adb": {
+  "hours": {
+   "poniedziałek": "11:00–21:00",
+   "wtorek": "11:00–21:00",
+   "środa": "11:00–21:00",
+   "czwartek": "11:00–21:00",
+   "piątek": "11:00–21:00",
+   "sobota": "13:00–20:00",
+   "niedziela": "Zamknięte"
+  },
+  "url": "https://www.kebabprolublin.pl/"
+ },
+ "sajgon-nadbystrzycka-5489e": {
+  "hours": {
+   "poniedziałek": "10:00–22:30",
+   "wtorek": "10:00–22:30",
+   "środa": "10:00–22:30",
+   "czwartek": "10:00–22:30",
+   "piątek": "10:00–22:30",
+   "sobota": "10:00–22:30",
+   "niedziela": "10:00–22:30"
+  },
+  "url": "http://sajgonlublin.pl/"
+ },
+ "pyza-dobra-kuchnia-9a66d": {
+  "hours": {
+   "poniedziałek": "7:00–15:00",
+   "wtorek": "7:00–15:00",
+   "środa": "7:00–15:00",
+   "czwartek": "7:00–15:00",
+   "piątek": "7:00–15:00",
+   "sobota": "9:00–14:00"
+  },
+  "url": "https://www.pyzadobrakuchnia.pl/kontakt"
+ },
+ "kebab-pro-tarasowa-8f1ce": {
+  "hours": {
+   "poniedziałek": "11:00–21:00",
+   "wtorek": "11:00–21:00",
+   "środa": "11:00–21:00",
+   "czwartek": "11:00–21:00",
+   "piątek": "11:00–21:00",
+   "sobota": "13:00–20:00",
+   "niedziela": "Zamknięte"
+  },
+  "url": "https://www.kebabprolublin.pl/"
+ },
+ "ostro-ristoteca-1f2fa": {
+  "hours": {
+   "poniedziałek": "9:00–23:00",
+   "wtorek": "9:00–23:00",
+   "środa": "9:00–1:00",
+   "czwartek": "9:00–2:00",
+   "piątek": "9:00–3:00",
+   "sobota": "9:00–4:00",
+   "niedziela": "9:00–23:00"
+  },
+  "url": "https://ristoteca.pl/"
+ },
+ "bibosz-bar-restauracja-c8dd6": {
+  "hours": {
+   "poniedziałek": "12:00–22:00",
+   "wtorek": "12:00–22:00",
+   "środa": "12:00–22:00",
+   "czwartek": "12:00–22:00",
+   "piątek": "12:00–2:00",
+   "sobota": "9:00–2:00",
+   "niedziela": "9:00–22:00"
+  },
+  "url": "https://bibosz.pl/"
+ },
+ "takami-sushi-thai-1c12d": {
+  "hours": {
+   "poniedziałek": "12:00–22:00",
+   "wtorek": "12:00–22:00",
+   "środa": "12:00–22:00",
+   "czwartek": "12:00–22:00",
+   "piątek": "12:00–22:00",
+   "sobota": "12:00–22:00",
+   "niedziela": "12:00–21:00"
+  },
+  "url": "https://www.takamisushi.com.pl/"
+ },
+ "hotel-restauracja-browar-lwow-7b3c4": {
+  "hours": {
+   "poniedziałek": "14:00–22:00",
+   "wtorek": "14:00–22:00",
+   "środa": "14:00–22:00",
+   "czwartek": "14:00–22:00",
+   "piątek": "14:00–22:00",
+   "sobota": "14:00–22:00",
+   "niedziela": "12:00–20:00"
+  },
+  "url": "https://www.hotel-lwow.pl/"
+ },
+ "pizzeria-ortigia-dd250": {
+  "hours": {
+   "poniedziałek": "11:00–20:00",
+   "wtorek": "11:00–20:00",
+   "środa": "11:00–20:00",
+   "czwartek": "11:00–20:00",
+   "piątek": "11:00–20:00",
+   "sobota": "11:00–20:00",
+   "niedziela": "11:00–20:00"
+  },
+  "url": "https://ortigia.pl/"
+ },
+ "restauracja-polska-sielsko-anielsko-stare-miasto-lublin-3e273": {
+  "hours": {
+   "poniedziałek": "10:00–22:00",
+   "wtorek": "10:00–22:00",
+   "środa": "10:00–22:00",
+   "czwartek": "10:00–22:00",
+   "piątek": "10:00–0:00",
+   "sobota": "10:00–0:00",
+   "niedziela": "10:00–22:00"
+  },
+  "url": "https://sielskoanielsko.pl:443/?lang=pl"
+ },
+ "kabaret-pizzeria-e7b5a": {
+  "hours": {
+   "poniedziałek": "13:00–22:00",
+   "wtorek": "13:00–22:00",
+   "środa": "13:00–22:00",
+   "czwartek": "13:00–22:00",
+   "piątek": "13:00–23:00",
+   "sobota": "13:00–23:00",
+   "niedziela": "13:00–21:00"
+  },
+  "url": "https://kabaretlublin.pl/kontakt/"
+ },
+ "pizza-lublin-felin-la-pizza-763ac": {
+  "hours": {
+   "poniedziałek": "12:00–21:00",
+   "wtorek": "12:00–21:00",
+   "środa": "12:00–21:00",
+   "czwartek": "12:00–21:00",
+   "piątek": "12:00–22:00",
+   "niedziela": "12:00–21:00"
+  },
+  "url": "https://la-pizza.pl/kontakt"
+ },
+ "orient-kebab-06330": {
+  "hours": {
+   "poniedziałek": "10:00–22:00",
+   "wtorek": "10:00–22:00",
+   "środa": "10:00–22:00",
+   "czwartek": "10:00–22:00",
+   "piątek": "10:00–22:00",
+   "sobota": "10:00–20:00",
+   "niedziela": "Zamknięte"
+  },
+  "url": "https://www.orientkebablublin.pl/"
+ },
+ "gastronauci-restauracja-98ce4": {
+  "hours": {
+   "poniedziałek": "15:00–24:00",
+   "wtorek": "15:00–24:00",
+   "środa": "15:00–24:00",
+   "czwartek": "11:00–24:00",
+   "piątek": "11:00–2:00",
+   "sobota": "12:00–2:00",
+   "niedziela": "12:00–24:00"
+  },
+  "url": "https://gastronaucilbn.pl/"
+ },
+ "dostana-kebab-turystyczna-aa9c7": {
+  "hours": {
+   "poniedziałek": "11:00–21:30",
+   "wtorek": "11:00–21:30",
+   "środa": "11:00–21:30",
+   "czwartek": "11:00–21:30",
+   "piątek": "11:00–21:30",
+   "sobota": "11:00–21:30",
+   "niedziela": "11:00–21:30"
+  },
+  "url": "https://www.dostanakebab.com/"
+ },
+ "angelo-bistro-pizza-restauracja-lublin-31f1d": {
+  "hours": {
+   "poniedziałek": "10:00–20:00",
+   "wtorek": "10:00–20:00",
+   "środa": "10:00–20:00",
+   "czwartek": "10:00–20:00",
+   "piątek": "10:00–22:00",
+   "sobota": "10:00–22:00",
+   "niedziela": "10:00–22:00"
+  },
+  "url": "https://www.angelopizza.org.pl/?utm_source=google&utm_medium=wizytowka"
+ }
+}
