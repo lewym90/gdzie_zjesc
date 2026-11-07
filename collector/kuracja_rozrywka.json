@@ -525,7 +525,8 @@
   },
   "Teatr Pierwszego Kontaktu": {
    "desc": "Zespół teatralny działający od 2005 r., który wyrósł z warsztatów Henryka Kowalczyka i wystawia własne spektakle, np. „Witkacy: bez końca”.",
-   "zrodlo": "siec"
+   "zrodlo": "siec",
+   "www": null
   },
   "Przystań na dachu": {
    "desc": "Klub na dachu przy Zesłańców Sybiru z drinkami i imprezami w weekendy do rana; uwaga na wymagającą selekcję przy wejściu.",
@@ -569,7 +570,8 @@
   },
   "Simracing Lublin": {
    "desc": "Symulatory wyścigowe, na których można pościgać się ze znajomymi albo spróbować driftu na znanych torach.",
-   "zrodlo": "opinie"
+   "zrodlo": "opinie",
+   "www": null
   },
   "Kino Grażyna": {
    "desc": "Kino z repertuarem dla całej rodziny, łączące nowości z ciekawszymi produkcjami; seanse odbywają się tylko w weekendy.",

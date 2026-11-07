@@ -358,8 +358,8 @@
   "Pizza Lublin LSM - Diabelska Pizzeria": "Diabelska Pizzeria",
   "Pizza Lublin Felin - La Pizza": "La Pizza · Felin",
   "ROBIMYPIZZE – Pizza Lublin": "RobimyPizze",
-  "Smażalnia Dobrych Ryb - Sola - Mickiewicza 36A": "Smażalnia Dobrych Ryb Sola · Mickiewicza",
-  "Smażalnia Dobrych Ryb - Sola - Żelazowej Woli 20": "Smażalnia Dobrych Ryb Sola · Żelazowej Woli",
+  "Smażalnia Dobrych Ryb - Sola - Mickiewicza 36A": "Smażalnia Sola · Mickiewicza",
+  "Smażalnia Dobrych Ryb - Sola - Żelazowej Woli 20": "Smażalnia Sola · Żelazowej Woli",
   "Restauracja Lublin Prusa 8 (Restaurant in Lublin)": "Restauracja Prusa 8",
   "NIEZNANA. by IBB Grand Hotel Lublin": "Nieznana by IBB Grand Hotel",
   "MY KEBAB ZEUS": "My Kebab Zeus",
@@ -383,7 +383,19 @@
   "Bistro Italia Lublin - Włoska Pizza Panini": "Bistro Italia",
   "Trybunalska Lublin City Pub": "Trybunalska City Pub",
   "SERCE LUBLIN": "Serce",
-  "Restauracja McDonald's": "McDonald's"
+  "Restauracja McDonald's": "McDonald's",
+  "SMAŻALNIA RYB \"Rybka Jak Dawniej\" / Fish & Chips / Smażona ryba, na miejscu i na wynos / tel: 815329674": "Smażalnia Ryb „Rybka Jak Dawniej”",
+  "Co słodkie, to dobre- pracownia cukiernicza, zamówienia indywidualne, torty": "Co słodkie, to dobre",
+  "Stołówka Uniwersytetu Marii Curie-Skłodowskiej \"Trójka\" & ''Bazylia\"": "Stołówka UMCS „Trójka” i „Bazylia”",
+  "CUKIERNIA Ciacho bez cukru PIEKARNIA bez glutenu": "Ciacho bez Cukru",
+  "Bistro Przy Peronie- pyszne i duże jedzenie z dowozem": "Bistro Przy Peronie",
+  "Kameralna Usługi Gastronomiczne. Restauracja Majdanek, organizacja styp.": "Restauracja Kameralna",
+  "PRIMITIVO LUBLIN Pizzeria & Restauracja Włoska": "Primitivo",
+  "MusiSushi Restauracja Japońska, sushi, ramen": "MusiSushi",
+  "Zajazd Hajduk. Restauracja. Imprezy Okolicznościowe": "Zajazd Hajduk",
+  "Moods Kebab& Restuarant dostawa darmowe wifi": "Moods Kebab & Restaurant",
+  "Restauracja & Bistro Szwejk (Galeria Olimp)": "Szwejk · Galeria Olimp",
+  "Hotel Wieniawski i Restauracja Trzy Romanse": "Trzy Romanse · Hotel Wieniawski"
  },
  "typy": {
   "tancereczka-bistro-f65b1": "bar",
@@ -391,5 +403,19 @@
   "mistral-bar-f4c39": "bar",
   "casino-royale-lublin-befa3": "klub",
   "kasyno-wojskowe-nr-52-12862": "klub"
- }
+ },
+ "www_martwe": [
+  "bistro-u-mili-e887a",
+  "andare-pizza-lublin-4010f",
+  "restauracja-arte-del-gusto-6430d",
+  "restauracja-trzy-roze-bea50",
+  "jimmy-s-restaurant-2cf00",
+  "kalyna-kuchnia-ukrainska-europejska-73043",
+  "kiedys-w-kopenhadze-d27db",
+  "garmazerka-bim-ade08",
+  "bim-14a04",
+  "hambuka-i-spoka-4402d",
+  "kebab-i-nie-tylko-8ae01",
+  "kucharski-delikatesy-kulinarne-3587e"
+ ]
 }

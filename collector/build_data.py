@@ -175,6 +175,7 @@ for p in places:
 for p in places:
     if p["id"] in KOR["kuchnie"]: p["cuisines"] = KOR["kuchnie"][p["id"]]
     if p["id"] in KOR.get("typy", {}): p["type"] = KOR["typy"][p["id"]]
+    if p["id"] in KOR.get("www_martwe", []): p["www"] = None  # strona nie istnieje (404 lub domena wygasła)
     elif not p["cuisines"] and p["type"] in ("restauracja", "fastfood") and re.search(r"garmaż|stołówk|bar mleczny|obiad|jadłodajn|domow|bufet|zestawy obiadowe|kuchnia smakosza|smaki u jadzi|placki|plackarn", low(p["name"] + " " + p["category"])): p["cuisines"] = ["polska"]
     z = KOR["zdjecia"].get(p["id"])
     if z:
@@ -190,6 +191,9 @@ for p in places:
     if n != p["name"]: p["gname"], p["name"] = p["name"], n
     if not p["category"]: p["category"] = {"pub": "Pub", "bar": "Bar"}.get(p["type"], "Restauracja")
 
+# jednolity zapis godzin: 8:00 -> 08:00, sklejone przedziały rozdzielone przecinkiem
+for p in places:
+    p["hoursText"] = {k: re.sub(r"(\d{2}:\d{2})(\d{1,2}:\d{2})", r"\1, \2", re.sub(r"(?<!\d)(\d):(\d{2})", r"0\1:\2", v)) for k, v in (p["hoursText"] or {}).items()}
 # ranking: bayesian score
 for p in places:
     r, n = p["rating"] or 0, p["reviews"] or 0

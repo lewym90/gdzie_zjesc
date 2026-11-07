@@ -91,7 +91,7 @@ def main():
         if (d.get("reviews") or 0) < 10 or not d.get("photos"): continue
         if d.get("skip"): continue
         if d.get("price") is None and not d.get("desc") and (d.get("reviews") or 0) < 30: continue
-        pid = slug(name) + "-" + gid.split(":")[1][-5:]
+        pid = slug(KUR.get("id_nazwa", {}).get(name, name)) + "-" + gid.split(":")[1][-5:]  # id bez zmian po poprawce nazwy (ulubione, ceny)
         dk = (name.lower(), round(d["lat"], 3), round(d["lng"], 3))
         if pid in seen or dk in seen: continue
         seen.add(pid); seen.add(dk)

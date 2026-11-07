@@ -10,58 +10,6 @@
   "Pokoje w Lublinie",
   "Old House Sienna 21"
  ],
- "nazwy": {
-  "Hotel Wieniawski i Restauracja Trzy Romanse": "Hotel Wieniawski",
-  "LubHotel - hotel dobrych wspomnień": "LubHotel",
-  "Hotel i Restauracja Piano": "Hotel Piano",
-  "Hotel & Restauracja NA ROGATCE": "Hotel Na Rogatce",
-  "Hotel Restauracja Browar Lwów": "Hotel Browar Lwów",
-  "Nowomiejska 17 - nowoczesne mikroapartamenty Lublin do wynajęcia": "Apartamenty Nowomiejska 17",
-  "Hotel Atelia Lublin - Centrum Konferencyjne": "Hotel Atelia",
-  "Noclegi Orla 6 & Pokoje z aneksami": "Noclegi Orla 6",
-  "Campanile PRIME - Lublin": "Campanile Prime Lublin",
-  "hostels-iroom": "Hostel iRoom",
-  "Osrodek Wypoczynkowy Forest": "Ośrodek Wypoczynkowy Forest",
-  "Centrum Etiuda, Hotel i Restauracja": "Hotel Etiuda",
-  "Focus": "Hotel Focus",
-  "Hotel Przystań,bardzo dobre jedzenie na usluge hotelowa": "Hotel Przystań",
-  "Willa Urocza 5 - Tanie Noclegi Lublin, Pokoje": "Willa Urocza 5",
-  "Pokoje Slawin - Tanie Noclegi Lublin": "Pokoje Sławin",
-  "Hostel w Lublinie, Noclegi RELAX": "Hostel Relax",
-  "NaNoc - noclegi obok lubelskich szpitali (COZL, USK1, USK4, USD, IMW). Blisko Centrum!": "NaNoc",
-  "Pokoje Gajowa - Tanie Noclegi, Hostel Lublin": "Pokoje Gajowa",
-  "KUJAWSKA ROOMS Noclegi i Pokoje do wynajęcia": "Kujawska Rooms",
-  "Mjhostel": "MJ Hostel",
-  "Tanie Noclegi Lublin - Pokoje, Noclegi Jodełka": "Noclegi Jodełka",
-  "Tanie Noclegi Lublin - Noclegi Północna": "Noclegi Północna",
-  "Noclegi-Pokoje goscinne": "Noclegi – Pokoje Gościnne",
-  "Apartamenty Kamienica Muzykow Old Town Lublin - Apartamenty na wynajem": "Apartamenty Kamienica Muzyków",
-  "Villa MERLINI apartamenty i pokoje w sercu Starego Miasta, Grodzka 19 Lublin": "Villa Merlini",
-  "Apartamenty Prusa 8B (Lublin)": "Apartamenty Prusa 8B",
-  "EASY RENT Apartments - Aperta ART": "Easy Rent Aperta Art",
-  "Apartamenty Od Kuchni. Stare Miasto": "Apartamenty Od Kuchni",
-  "K14 Rooms Lublin - Travel. Rest. Reset": "K14 Rooms",
-  "A+B Apartments Lublin – Plac Litewski Premium": "A+B Apartments Plac Litewski",
-  "Pokoje Jaśminowa - Tanie Noclegi, Hostel Lublin": "Pokoje Jaśminowa",
-  "77 krasnicka apartments": "77 Kraśnicka Apartments",
-  "Apartamenty Centrum RS SUITES LUBLIN": "RS Suites Centrum",
-  "Apartamenty &Spa RS SUITES Rybna 5": "RS Suites Rybna 5 & Spa",
-  "Your Apartment Unia ART Residence": "Unia Art Residence",
-  "Dr Mandryk HOUSE": "Dr Mandryk House",
-  "Hotel HAVANA Lublin": "Hotel Havana",
-  "B&B HOTEL Lublin Centrum": "B&B Hotel Lublin Centrum",
-  "Apartamenty ARTE": "Apartamenty Arte",
-  "Apartments Targowa 3 Lublin": "Apartments Targowa 3",
-  "Apartamenty GKM Lublin": "Apartamenty GKM",
-  "Hotel Ilan Lublin": "Hotel Ilan",
-  "Agit Hotel Congress&Spa": "Agit Hotel Congress & Spa",
-  "Hotel Forum Fitness SPA&Wellness": "Hotel Forum Fitness Spa & Wellness",
-  "Trybunalska": "Hotel Trybunalska",
-  "Kmicic Hotel & Restauracja": "Kmicic Hotel",
-  "YOUR APARTMENT UNIA ART RESIDENCE": "Unia Art Residence",
-  "Apartamenty \"Od Kuchni. Stare Miasto\"": "Apartamenty Od Kuchni",
-  "UNIA Art Residence": "Unia Art Residence"
- },
  "romantyczny": [
   "Hotel Alter",
   "Dom na Podwalu",
@@ -127,7 +75,7 @@
  ],
  "rodzina_nie": [],
  "spa_nie": [
-  "Foto Hostel Lublin"
+  "Foto Hostel"
  ],
  "restauracje": {
   "Hotel Wieniawski": "hotel-wieniawski-i-restauracja-trzy-romanse-5d994",
@@ -147,7 +95,8 @@
  },
  "uzupelnienia": {
   "Agit Hotel Congress & Spa": {
-   "desc": "Hotel z zapleczem konferencyjnym i strefą saun. Poza pokojami są apartamenty z kominkiem, jacuzzi albo prywatną sauną. Dla firm sale szkoleniowe i konferencyjne."
+   "desc": "Hotel z zapleczem konferencyjnym i strefą saun. Poza pokojami są apartamenty z kominkiem, jacuzzi albo prywatną sauną. Dla firm sale szkoleniowe i konferencyjne.",
+   "www": "https://agit.com.pl/"
   },
   "Apartament Nadbystrzycka No. 13": {
    "desc": "Apartament ok. 17 minut pieszo od Krakowskiego Przedmieścia, niedaleko Targów Lublin. Bezpłatne Wi-Fi, parking na miejscu po wcześniejszej rezerwacji.",
@@ -194,7 +143,7 @@
    ],
    "price": 250
   },
-  "Apartamenty Na Doby Lublin": {
+  "Apartamenty Na Doby": {
    "desc": "Kilkanaście nowoczesnych, klimatyzowanych apartamentów „Wild Cats” w kameralnych budynkach przy ulicy Misjonarskiej, blisko Starego Miasta."
   },
   "Apartamenty Nowomiejska 17": {
@@ -317,11 +266,11 @@
    "desc": "Sieciowy hotel przy al. Racławickich, obok Ogrodu Saskiego, z restauracją, siłownią i parkingiem; goście chwalą śniadania i obsługę.",
    "zrodlo": "opinie"
   },
-  "Foto Hostel Lublin": {
+  "Foto Hostel": {
    "desc": "Odnowiony hostel w centrum przy ul. Lipowej z dużą wspólną kuchnią i czystymi, wspólnymi łazienkami; bez śniadań, parking nie jest gwarantowany.",
    "zrodlo": "opinie"
   },
-  "Hostel Pod Basztą Lublin": {
+  "Hostel Pod Basztą": {
    "desc": "Klimatyczny hostel przy ul. Królewskiej, tuż przy Starym Mieście, z artystycznie urządzonymi wnętrzami, wyposażoną kuchnią i kilkoma łazienkami.",
    "zrodlo": "opinie"
   },
@@ -400,6 +349,9 @@
   "Fontana Boutique": {
    "desc": "Nowe apartamenty z aneksem kuchennym w odnowionej kamienicy przy ul. Kowalskiej, naprzeciw zamku; z windą, bez recepcji.",
    "zrodlo": "opinie"
+  },
+  "Pokoje Gościnne CDN": {
+   "www": null
   }
  },
  "ceny_terminy": [
@@ -431,7 +383,7 @@
     1
    ]
   },
-  "Folk Hostel Lublin": {
+  "Folk Hostel": {
    "pierwsze": 2,
    "usun": [
     0
@@ -461,8 +413,72 @@
   }
  },
  "amen_usun": {
-  "Foto Hostel Lublin": [
+  "Foto Hostel": [
    "spa"
   ]
+ },
+ "nazwy": {
+  "Hotel Wieniawski i Restauracja Trzy Romanse": "Hotel Wieniawski",
+  "LubHotel - hotel dobrych wspomnień": "LubHotel",
+  "Hotel i Restauracja Piano": "Hotel Piano",
+  "Hotel & Restauracja NA ROGATCE": "Hotel Na Rogatce",
+  "Hotel Restauracja Browar Lwów": "Hotel Browar Lwów",
+  "Nowomiejska 17 - nowoczesne mikroapartamenty Lublin do wynajęcia": "Apartamenty Nowomiejska 17",
+  "Hotel Atelia Lublin - Centrum Konferencyjne": "Hotel Atelia",
+  "Noclegi Orla 6 & Pokoje z aneksami": "Noclegi Orla 6",
+  "Campanile PRIME - Lublin": "Campanile Prime Lublin",
+  "hostels-iroom": "Hostel iRoom",
+  "Osrodek Wypoczynkowy Forest": "Ośrodek Wypoczynkowy Forest",
+  "Centrum Etiuda, Hotel i Restauracja": "Hotel Etiuda",
+  "Focus": "Hotel Focus",
+  "Hotel Przystań,bardzo dobre jedzenie na usluge hotelowa": "Hotel Przystań",
+  "Willa Urocza 5 - Tanie Noclegi Lublin, Pokoje": "Willa Urocza 5",
+  "Pokoje Slawin - Tanie Noclegi Lublin": "Pokoje Sławin",
+  "Hostel w Lublinie, Noclegi RELAX": "Hostel Relax",
+  "NaNoc - noclegi obok lubelskich szpitali (COZL, USK1, USK4, USD, IMW). Blisko Centrum!": "NaNoc",
+  "Pokoje Gajowa - Tanie Noclegi, Hostel Lublin": "Pokoje Gajowa",
+  "KUJAWSKA ROOMS Noclegi i Pokoje do wynajęcia": "Kujawska Rooms",
+  "Mjhostel": "MJ Hostel",
+  "Tanie Noclegi Lublin - Pokoje, Noclegi Jodełka": "Noclegi Jodełka",
+  "Tanie Noclegi Lublin - Noclegi Północna": "Noclegi Północna",
+  "Noclegi-Pokoje goscinne": "Noclegi – Pokoje Gościnne",
+  "Apartamenty Kamienica Muzykow Old Town Lublin - Apartamenty na wynajem": "Apartamenty Kamienica Muzyków",
+  "Villa MERLINI apartamenty i pokoje w sercu Starego Miasta, Grodzka 19 Lublin": "Villa Merlini",
+  "Apartamenty Prusa 8B (Lublin)": "Apartamenty Prusa 8B",
+  "EASY RENT Apartments - Aperta ART": "Easy Rent Aperta Art",
+  "Apartamenty Od Kuchni. Stare Miasto": "Apartamenty Od Kuchni",
+  "K14 Rooms Lublin - Travel. Rest. Reset": "K14 Rooms",
+  "A+B Apartments Lublin – Plac Litewski Premium": "A+B Apartments Plac Litewski",
+  "Pokoje Jaśminowa - Tanie Noclegi, Hostel Lublin": "Pokoje Jaśminowa",
+  "77 krasnicka apartments": "77 Kraśnicka Apartments",
+  "Apartamenty Centrum RS SUITES LUBLIN": "RS Suites Centrum",
+  "Apartamenty &Spa RS SUITES Rybna 5": "RS Suites Rybna 5 & Spa",
+  "Your Apartment Unia ART Residence": "Unia Art Residence",
+  "Dr Mandryk HOUSE": "Dr Mandryk House",
+  "Hotel HAVANA Lublin": "Hotel Havana",
+  "B&B HOTEL Lublin Centrum": "B&B Hotel Lublin Centrum",
+  "Apartamenty ARTE": "Apartamenty Arte",
+  "Apartments Targowa 3 Lublin": "Apartments Targowa 3",
+  "Apartamenty GKM Lublin": "Apartamenty GKM",
+  "Hotel Ilan Lublin": "Hotel Ilan",
+  "Agit Hotel Congress&Spa": "Agit Hotel Congress & Spa",
+  "Hotel Forum Fitness SPA&Wellness": "Hotel Forum Fitness Spa & Wellness",
+  "Trybunalska": "Hotel Trybunalska",
+  "Kmicic Hotel & Restauracja": "Kmicic Hotel",
+  "YOUR APARTMENT UNIA ART RESIDENCE": "Unia Art Residence",
+  "Apartamenty \"Od Kuchni. Stare Miasto\"": "Apartamenty Od Kuchni",
+  "UNIA Art Residence": "Unia Art Residence",
+  "Hostel Królewska Lublin": "Hostel Królewska",
+  "Folk Hostel Lublin": "Folk Hostel",
+  "Foto Hostel Lublin": "Foto Hostel",
+  "Hostel Pod Basztą Lublin": "Hostel Pod Basztą",
+  "Apartamenty Na Doby Lublin": "Apartamenty Na Doby"
+ },
+ "id_nazwa": {
+  "Hostel Królewska": "Hostel Królewska Lublin",
+  "Folk Hostel": "Folk Hostel Lublin",
+  "Foto Hostel": "Foto Hostel Lublin",
+  "Hostel Pod Basztą": "Hostel Pod Basztą Lublin",
+  "Apartamenty Na Doby": "Apartamenty Na Doby Lublin"
  }
 }

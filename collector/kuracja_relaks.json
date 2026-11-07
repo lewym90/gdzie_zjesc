@@ -83,7 +83,8 @@
    "cena": "Sauna solna infrared i łaźnia parowa 60 min – 40 zł",
    "cennik": "https://agit.com.pl/spa/",
    "godziny_uwaga": "Strefa spa dostępna też dla gości spoza hotelu – zabiegi po wcześniejszej rezerwacji.",
-   "nocleg": "agit-hotel-congress-spa-466c1"
+   "nocleg": "agit-hotel-congress-spa-466c1",
+   "www": "https://agit.com.pl/"
   },
   "0x4722574476b16293:0xc393b1bf14ed2799": {
    "nazwa": "HatiThai · Wigilijna",
@@ -753,7 +754,8 @@
    ],
    "cena": "Head Spa z suszeniem (włosy do ramion) – od 300 zł",
    "cennik": "https://auraheadspa.booksy.com/",
-   "godziny_uwaga": "Wizyty po wcześniejszej rezerwacji przez Booksy."
+   "godziny_uwaga": "Wizyty po wcześniejszej rezerwacji przez Booksy.",
+   "www": "https://auraheadspa.booksy.com/"
   },
   "0x472257e3d3397fc5:0xd5623e8432ad3141": {
    "nazwa": "Vayu Studio Masażu",
