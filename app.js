@@ -1,5 +1,5 @@
 "use strict";
-const APP_V = "20261107-091146";
+const APP_V = "20261107-094333";
 /* Gdzie zjeść: przeglądarka lokali. Tylko wyświetla dane z data/places.json. */
 
 const ICO = {
@@ -379,7 +379,41 @@ function summary(p) {
 function paneFor(p, t) { return t === "menu" ? menuPane(p) : t === "godziny" ? hoursTable(p) : t === "kontakt" ? contactPane(p) : infoPane(p); }
 
 /* mapa */
-let MAP = null, ME = null, MEPOS = null, LEAF = null;
+let MAP = null, ME = null, MEPOS = null, LEAF = null, MCL = null;
+const MMK = [];
+const MF = { cuisine: null, vibe: null, occ: null, type: null, open: false };
+function mapMatch(p) {
+  if (MF.cuisine && !p.cuisines.includes(MF.cuisine)) return false;
+  if (MF.vibe && !p.vibes.includes(MF.vibe)) return false;
+  if (MF.occ && !p.occasions.includes(MF.occ)) return false;
+  if (MF.type && p.type !== MF.type) return false;
+  if (MF.open && openState(p) !== true) return false;
+  return true;
+}
+function refreshMap() {
+  if (!MCL) return;
+  const vis = MMK.filter(([p]) => mapMatch(p));
+  MCL.clearLayers(); MCL.addLayers(vis.map(([, m]) => m));
+  const n = vis.length, act = Object.values(MF).filter(Boolean).length;
+  $("#mapCount").innerHTML = `<b>${n}</b> ${plural(n, "miejsce", "miejsca", "miejsc")}`;
+  const b = $("#mapFn"); b.hidden = !act; b.textContent = act;
+  if (act && n && n < 80) {
+    const bb = window.L.latLngBounds(vis.map(([p]) => [p.lat, p.lng]));
+    MAP.fitBounds(bb, { paddingTopLeft: [40, 80], paddingBottomRight: [40, 60], maxZoom: 16 });
+  }
+}
+function renderSheet() {
+  const grp = (key, title, opts) => `<div class="ms-g"><span class="t">${title}</span><div class="row">${opts.map(([v, l]) => `<button class="fc ${MF[key] === v ? "on" : ""}" data-mf="${key}" data-v="${v}">${esc(l)}</button>`).join("")}</div></div>`;
+  const ord = ["restauracja", "kawiarnia", "winiarnia", "bar", "pub", "klub", "fastfood"];
+  const n = MMK.filter(([p]) => mapMatch(p)).length;
+  $("#msheet").innerHTML = `<div class="ms-h"><h3>Filtry mapy</h3><button data-mfclear>Wyczyść</button></div><div class="ms-b">
+    <div class="ms-g"><div class="row"><button class="fc ${MF.open ? "on" : ""}" data-mf="open" data-v="1">Otwarte teraz</button></div></div>
+    ${grp("occ", "Okazja", OCC.map((o) => [o.id, o.label]))}
+    ${grp("cuisine", "Kuchnia", DB.meta.cuisines.filter((c) => c.n).map((c) => [c.id, c.label]))}
+    ${grp("vibe", "Klimat", VIBES.map((o) => [o.id, o.label]))}
+    ${grp("type", "Rodzaj lokalu", DB.meta.types.filter((t) => t.n).sort((a, b) => ord.indexOf(a.id) - ord.indexOf(b.id)).map((t) => [t.id, t.label]))}
+  </div><div class="ms-f"><button class="btn fill" data-mfdone>Pokaż ${n} ${plural(n, "miejsce", "miejsca", "miejsc")}</button></div>`;
+}
 function loadScript(src) { return new Promise((ok, bad) => { const e = document.createElement("script"); e.src = src; e.onload = ok; e.onerror = bad; document.head.appendChild(e); }); }
 function ensureLeaflet() {
   if (!LEAF) {
@@ -400,7 +434,7 @@ async function showMap() {
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19, className: "gz-tiles", attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   }).addTo(MAP);
-  const cl = L.markerClusterGroup({
+  MCL = L.markerClusterGroup({
     maxClusterRadius: 42, showCoverageOnHover: false, spiderfyOnMaxZoom: true, disableClusteringAtZoom: 17,
     iconCreateFunction: (c) => { const n = c.getChildCount(), s = n < 10 ? 34 : n < 50 ? 40 : 48; return L.divIcon({ html: `<div class="mk-cl" style="width:${s}px;height:${s}px">${n}</div>`, className: "", iconSize: [s, s] }); },
   });
@@ -409,10 +443,12 @@ async function showMap() {
     const el = p.vibes.includes("eleganckie");
     const m = L.marker([p.lat, p.lng], { icon: L.divIcon({ html: `<span class="mk ${el ? "el" : ""}"></span>`, className: "", iconSize: el ? [22, 22] : [16, 16] }), zIndexOffset: el ? 500 : 0 });
     m.bindPopup(() => popHtml(p), { closeButton: false, className: "gz-pop", offset: [0, -4], autoPanPadding: [20, 90] });
-    cl.addLayer(m);
+    MMK.push([p, m]);
   }
-  MAP.addLayer(cl);
-  $("#mapCount").innerHTML = `<b>${DB.places.length}</b> ${plural(DB.places.length, "miejsce", "miejsca", "miejsc")} na mapie`;
+  MAP.addLayer(MCL);
+  refreshMap();
+  MAP.on("click", () => $("#msheet").classList.remove("on"));
+  $("#mapFbtn").addEventListener("click", () => { renderSheet(); $("#msheet").classList.toggle("on"); });
   $("#mapLoc").addEventListener("click", () => { if (MEPOS) MAP.flyTo(MEPOS, 16, { duration: 0.8 }); else locate(true); });
   locate(false);
 }
@@ -488,6 +524,14 @@ function toast(t) { const d = document.createElement("div"); d.className = "toas
 
 document.addEventListener("click", (e) => {
   const t = e.target;
+  const mf = t.closest("[data-mf]");
+  if (mf) {
+    const k = mf.dataset.mf, v = mf.dataset.v;
+    if (k === "open") MF.open = !MF.open; else MF[k] = MF[k] === v ? null : v;
+    const sc = $(".ms-b") && $(".ms-b").scrollTop; refreshMap(); renderSheet(); if ($(".ms-b")) $(".ms-b").scrollTop = sc; return;
+  }
+  if (t.closest("[data-mfclear]")) { Object.keys(MF).forEach((k) => (MF[k] = k === "open" ? false : null)); refreshMap(); renderSheet(); return; }
+  if (t.closest("[data-mfdone]")) { $("#msheet").classList.remove("on"); return; }
   const fav = t.closest("[data-fav]");
   if (fav) { e.preventDefault(); e.stopPropagation(); toggleFav(fav.dataset.fav); if (location.hash.startsWith("#/ulubione")) route(); return; }
   if (t.closest("[data-vclose]")) { $("#viewer").hidden = true; $("#viewer").innerHTML = ""; return; }
