@@ -1,5 +1,5 @@
 "use strict";
-const APP_V = "20261107-094333";
+const APP_V = "20261107-155627";
 /* Gdzie zjeść: przeglądarka lokali. Tylko wyświetla dane z data/places.json. */
 
 const ICO = {
@@ -48,6 +48,7 @@ const ICO = {
   wine: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 5h14c0 9-2 14-7 14s-7-5-7-14z"/><path d="M13.5 11h13M20 19v13M14 34h12"/></svg>',
   cocktail: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8h26L20 22z"/><path d="M20 22v11M13 34h14M11 12h18"/><circle cx="29" cy="6" r="3"/></svg>',
 };
+ICO.bed = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19V6M3 15h18v4M21 15v-3a3 3 0 0 0-3-3h-7v6"/><circle cx="7" cy="11" r="2"/></svg>';
 const ico = (n) => ICO[n] || "";
 
 const VIBES = [
@@ -181,16 +182,38 @@ function viewHome() {
   const featured = DB.places.filter((p) => p.vibes.includes("eleganckie")).slice(0, 8);
   const feat = featured.length ? featured : DB.places.slice(0, 8);
   const big = [["#/kuchnie", "forkL", "Kuchnie"], ["#/klimat", "sofa", "Klimat miejsca"], ["#/okazje", "calendar", "Okazje"], ["#/lokale", "cocktail", "Rodzaj lokalu"]];
-  return `<header class="hdr"><div class="hdr-row"><div class="brand"><i>${ico("cloche")}</i><h1>Gdzie zjeść</h1></div>
+  return `<header class="hdr"><div class="hdr-row"><a class="brand home" href="#/" aria-label="Wszystkie kategorie"><b class="bk">${ico("back")}</b><img src="img/logo.png" alt=""><h1>Restauracje</h1></a>
     <span class="city"><i>${ico("pin")}</i>${esc(DB.meta.city || "Lublin")}</span></div>
     <form class="search" id="sform"><i>${ico("search")}</i><input id="q" type="search" enterkeyhint="search" placeholder="Szukaj restauracji, kuchni, miejsca…" autocomplete="off"></form></header>
   <section class="sec"><div class="big4">${big.map(([h, ic, l]) => `<a class="big" href="${h}"><i>${ico(ic)}</i><span>${l}</span></a>`).join("")}</div></section>
   <section class="sec"><div class="sec-h"><h2>Polecane w Lublinie</h2><a href="${qs({ vibe: "eleganckie" })}">Zobacz wszystkie ›</a></div></section>
   <div class="cards">${feat.map(card).join("")}</div>`;
 }
+function viewStart() {
+  const nR = DB.places.length, nN = (typeof NOCL !== "undefined" && NOCL.count()) || 0;
+  const kat = [
+    ["kat-restauracje", "Restauracje", `${nR} ${plural(nR, "miejsce", "miejsca", "miejsc")} · kuchnie, klimat, okazje`, "#/restauracje", "#4f0e1b", "cloche"],
+    ["kat-noclegi", "Noclegi", nN ? `${nN} ${plural(nN, "obiekt", "obiekty", "obiektów")} · hotele, apartamenty, pensjonaty` : "Hotele, apartamenty, pensjonaty", "#/n", "#14233b", "bed"],
+  ];
+  return `<header class="hdr"><div class="hdr-row"><div class="brand"><img src="img/logo.png" alt=""><h1>Na mieście</h1></div>
+    <span class="city"><i>${ico("pin")}</i>${esc(DB.meta.city || "Lublin")}</span></div></header>
+  <section class="sec st-lead"><h2>Czego dziś szukasz?</h2><p>Sprawdzone miejsca w jednym przewodniku.</p></section>
+  <div class="bns">${kat.map(([k, t, sub, h, tint, ic]) => banner(k, t, sub, h, tint, ic)).join("")}</div>`;
+}
+const TABS = {
+  r: [["#/restauracje", "home", "cloche", "Odkrywaj"], ["#/kuchnie", "kuchnie", "cutlery", "Kuchnie"], ["#/mapa", "mapa", "map", "Mapa"], ["#/filtry", "filtry", "sliders", "Filtry"], ["#/ulubione", "ulubione", "heart", "Ulubione"]],
+  n: [["#/n", "home", "bed", "Odkrywaj"], ["#/n/rodzaj", "rodzaj", "building", "Rodzaj"], ["#/n/mapa", "mapa", "map", "Mapa"], ["#/n/filtry", "filtry", "sliders", "Filtry"], ["#/n/ulubione", "ulubione", "heart", "Ulubione"]],
+};
+let TABCAT = null;
+function setTabbar(cat) {
+  if (cat === "start" || cat === TABCAT) return;
+  TABCAT = cat;
+  $("#tabbar").innerHTML = TABS[cat].map(([h, k, ic, l]) => `<a href="${h}" data-tab="${k}"><i>${ico(ic)}</i><span>${l}</span></a>`).join("");
+}
 function banner(key, title, sub, href, tint, ic) {
-  const src = (DB.meta.banners || []).includes(key) ? `img/banery/${key}.jpg` : hasTile(key) ? `img/kafle/${key}.jpg` : null;
-  return `<a class="bn" href="${href}" style="--tint:${tint}">${src ? `<img src="${src}" alt="" loading="lazy" class="${(DB.meta.banners || []).includes(key) ? "wide" : "sq"}">` : `<i class="bn-ico">${ico(ic)}</i>`}
+  const BN = (DB.meta.banners || []).concat(typeof NOCL !== "undefined" ? NOCL.banners() : []);
+  const src = BN.includes(key) ? `img/banery/${key}.jpg` : hasTile(key) ? `img/kafle/${key}.jpg` : null;
+  return `<a class="bn" href="${href}" style="--tint:${tint}">${src ? `<img src="${src}" alt="" loading="lazy" class="${BN.includes(key) ? "wide" : "sq"}">` : `<i class="bn-ico">${ico(ic)}</i>`}
     <div class="bn-txt"><b>${esc(title)}</b><span>${esc(sub)}</span></div></a>`;
 }
 function viewBanners(kind) {
@@ -199,7 +222,7 @@ function viewBanners(kind) {
   else if (kind === "klimat") { title = "Klimat miejsca"; items = VIBES.map((o) => banner("klimat-" + o.id, o.label, o.sub, qs({ vibe: o.id }), o.tint, o.ico)); }
   else { title = "Rodzaj lokalu"; const ord = ["restauracja", "kawiarnia", "winiarnia", "bar", "pub", "klub", "fastfood"];
     items = DB.meta.types.filter((t) => t.n).sort((a, b) => ord.indexOf(a.id) - ord.indexOf(b.id)).map((t) => banner("lokal-" + t.id, t.label, TYPE_SUB[t.id] || "", qs({ type: t.id }), TYPE_TINT[t.id] || "#2a2018", TYPE_ICO[t.id] || "cloche")); }
-  return `<div class="bar"><a class="ib" href="#/" data-back><i>${ico("back")}</i></a><h2 class="ttl">${title}</h2><span class="ib"></span></div>
+  return `<div class="bar"><a class="ib" href="#/restauracje" data-back><i>${ico("back")}</i></a><h2 class="ttl">${title}</h2><span class="ib"></span></div>
   <div class="bns">${items.join("")}</div>`;
 }
 
@@ -211,7 +234,7 @@ function viewResults(params) {
   const chips = filterChips();
   const n = Math.min(list.length, +(params.get("n") || PAGE));
   const ttl = chips.filter(([k]) => k !== "q" && k !== "open").map(([, l]) => l).join(" · ") || (S.q ? `„${S.q}”` : "Wszystkie miejsca");
-  return `<div class="bar"><a class="ib" href="#/" data-back><i>${ico("back")}</i></a><h2 class="rt">${esc(ttl)}</h2><a class="ib" href="#/filtry"><i>${ico("sliders")}</i></a></div>
+  return `<div class="bar"><a class="ib" href="#/restauracje" data-back><i>${ico("back")}</i></a><h2 class="rt">${esc(ttl)}</h2><a class="ib" href="#/filtry"><i>${ico("sliders")}</i></a></div>
     ${chips.length ? `<div class="chips">${chips.map(([k, l]) => `<button class="chip" data-rm="${k}">${esc(l)}<i>${ico("close")}</i></button>`).join("")}</div>` : ""}
     <div class="count">Znaleziono ${list.length} ${plural(list.length, "miejsce", "miejsca", "miejsc")}</div>
     ${list.length ? `<div class="cards">${list.slice(0, n).map(card).join("")}</div>${n < list.length ? `<button class="more" data-more="${n + PAGE}">Pokaż więcej (${list.length - n})</button>` : ""}`
@@ -220,7 +243,7 @@ function viewResults(params) {
 
 function viewCuisines() {
   const cz = DB.meta.cuisines.filter((c) => c.n > 0);
-  return `<div class="bar"><a class="ib" href="#/" data-back><i>${ico("back")}</i></a><h2 class="ttl">Kuchnie</h2><span class="ib"></span></div>
+  return `<div class="bar"><a class="ib" href="#/restauracje" data-back><i>${ico("back")}</i></a><h2 class="ttl">Kuchnie</h2><span class="ib"></span></div>
   <div class="kgrid">${cz.map((c) => tileImg(c.label, qs({ cuisine: c.id }), cuisinePhoto(c.id), "kuchnia-" + c.id)).join("")}</div>`;
 }
 function selBox(key, label, ic, opts, val, any = "Dowolna") {
@@ -336,7 +359,7 @@ function contactPane(p) {
 }
 function viewDetail(id, tab) {
   const p = BYID[id];
-  if (!p) return `<div class="bar"><a class="ib" href="#/" data-back><i>${ico("back")}</i></a><h2></h2><span class="ib"></span></div><div class="empty">Nie znalazłem tego lokalu.</div>`;
+  if (!p) return `<div class="bar"><a class="ib" href="#/restauracje" data-back><i>${ico("back")}</i></a><h2></h2><span class="ib"></span></div><div class="empty">Nie znalazłem tego lokalu.</div>`;
   tab = tab || "info";
   const ph = p.photos;
   const nav = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(p.name + ", " + p.address)}`;
@@ -344,7 +367,7 @@ function viewDetail(id, tab) {
   const os = openState(p);
   const menuHref = p.menu && p.menu.length ? "#menu" : p.menuUrl || p.menuPdf || p.gmaps;
   return `<div class="dt-hero"><div class="strip" id="hstrip">${ph.map((u, i) => `<img src="${img(u, 1200, 1000)}" alt="" ${i > 1 ? 'loading="lazy"' : ""} referrerpolicy="no-referrer" data-vi="${i}" class="fi" style="background-image:url('${img(u, 36, 30)}')">`).join("")}</div>
-    <div class="dt-top"><a class="ib" href="#/" data-back><i>${ico("back")}</i></a><div class="r"><button class="ib ${FAV.has(p.id) ? "on" : ""}" data-fav="${p.id}"><i>${ico("heart")}</i></button><button class="ib" data-share><i>${ico("share")}</i></button></div></div>
+    <div class="dt-top"><a class="ib" href="#/restauracje" data-back><i>${ico("back")}</i></a><div class="r"><button class="ib ${FAV.has(p.id) ? "on" : ""}" data-fav="${p.id}"><i>${ico("heart")}</i></button><button class="ib" data-share><i>${ico("share")}</i></button></div></div>
     <span class="dt-cnt" id="hcnt">1 / ${ph.length}</span></div>
   <div class="dt-main">
     <div class="dt-title"><h1>${esc(p.name)}</h1>${p.price ? `<span class="price">${esc(p.price)}</span>` : ""}</div>
@@ -484,8 +507,12 @@ function route() {
   const params = new URLSearchParams(query || "");
   const view = $("#view");
   if (prevHash) S.scroll[prevHash] = view.scrollTop;
-  let html, tab = "home", detail = false;
-  if (path.startsWith("/lokal/")) { html = viewDetail(decodeURIComponent(path.slice(7)), params.get("t")); detail = true; tab = null; }
+  let html, tab = "home", detail = false, nmap = false;
+  const cat = path === "/" || path === "" ? "start" : path === "/n" || path.startsWith("/n/") ? "n" : "r";
+  setTabbar(cat);
+  if (cat === "start") { html = viewStart(); tab = null; }
+  else if (cat === "n") { const r = NOCL.route(path, params); html = r.html; tab = r.tab; detail = r.detail; nmap = r.map; }
+  else if (path.startsWith("/lokal/")) { html = viewDetail(decodeURIComponent(path.slice(7)), params.get("t")); detail = true; tab = null; }
   else if (path === "/wyniki") { html = viewResults(params); tab = null; }
   else if (path === "/kuchnie") { html = viewCuisines(); tab = "kuchnie"; }
   else if (path === "/okazje" || path === "/klimat" || path === "/lokale") { html = viewBanners(path.slice(1)); tab = "home"; }
@@ -494,16 +521,20 @@ function route() {
   else if (path === "/ulubione") { html = viewFav(); tab = "ulubione"; }
   else html = viewHome();
   view.innerHTML = html;
+  $("#app").classList.toggle("start", cat === "start");
+  $("#app").classList.toggle("cat-n", cat === "n");
   view.classList.toggle("detail", detail);
   $("#app").classList.toggle("detail", detail);
   const onMap = path === "/mapa";
   $("#mapwrap").hidden = !onMap;
-  view.style.visibility = onMap ? "hidden" : "";
+  if (typeof NOCL !== "undefined") NOCL.mapVisible(nmap);
+  view.style.visibility = onMap || nmap ? "hidden" : "";
   if (onMap) showMap();
   document.querySelectorAll(".tabbar a").forEach((a) => a.classList.toggle("on", a.dataset.tab === tab));
   view.scrollTop = S.scroll[h] || 0;
   prevHash = h;
   bindView();
+  if (cat === "n") NOCL.bind();
 }
 function bindView() {
   const view = $("#view");
@@ -559,7 +590,7 @@ document.addEventListener("click", (e) => {
     e.preventDefault();
     const hs = $("#hstrip");
     if (canVT && hs) { const k = Math.round(hs.scrollLeft / hs.clientWidth), im = hs.children[k]; VT_I = 0; if (im) { im.classList.add("vt"); im.style.viewTransitionName = "ph"; } }
-    if (history.length > 1 && prevHashStack.length > 1) history.back(); else location.hash = "#/"; return; }
+    if (history.length > 1 && prevHashStack.length > 1) history.back(); else location.hash = location.hash.startsWith("#/n") ? "#/n" : "#/restauracje"; return; }
   const rm = t.closest("[data-rm]");
   if (rm) {
     const k = rm.dataset.rm; const f = { ...S.filters, q: S.q };
@@ -588,7 +619,7 @@ function nameShared() {
   document.querySelectorAll(".vt").forEach((e) => { e.classList.remove("vt"); e.style.viewTransitionName = ""; });
   const h = location.hash;
   let el = null;
-  if (h.startsWith("#/lokal/")) el = document.querySelector(`#hstrip img[data-vi="${VT_I}"]`);
+  if (h.startsWith("#/lokal/") || h.startsWith("#/n/obiekt/")) el = document.querySelector(`#hstrip img[data-vi="${VT_I}"]`);
   else if (VT_ID) { const c = document.querySelector(`.pc[data-id="${CSS.escape(VT_ID)}"] .strip img`); el = c; }
   if (el) { el.classList.add("vt"); el.style.viewTransitionName = "ph"; }
 }
@@ -599,7 +630,7 @@ window.addEventListener("hashchange", () => {
 });
 
 /* blokada powiększania: szczypanie i dwuklik poza mapą */
-const onMapEl = (t) => t && t.closest && t.closest("#map");
+const onMapEl = (t) => t && t.closest && t.closest("#map,#nmap");
 ["gesturestart", "gesturechange", "gestureend"].forEach((ev) => document.addEventListener(ev, (e) => { if (!onMapEl(e.target)) e.preventDefault(); }, { passive: false }));
 document.addEventListener("touchmove", (e) => { if (e.touches.length > 1 && !onMapEl(e.target)) e.preventDefault(); }, { passive: false });
 

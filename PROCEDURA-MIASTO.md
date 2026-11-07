@@ -90,3 +90,11 @@ Liczba lokali, ile ma menu i godziny, lista eleganckich i romantycznych, czego b
 
 ## 4. Inne kategorie (gdy przyjdzie czas)
 Ta sama procedura, z inną konfiguracją: mechanik (marki, usługi: klimatyzacja, hamulce, geometria, diagnostyka, opony; źródła: opisy, strony warsztatów, opinie, ręczny przegląd), kosmetyczka i fryzjer (usługi; Booksy ma cenniki i terminy), rozrywka (kino, teatr: link do repertuaru). Bez sklepów i lekarzy (brak wartości dodanej albo za duże ryzyko pomyłki).
+
+## 5. Kategoria Noclegi (zrobiona dla Lublina, listopad 2026)
+Dane w `data/noclegi.json`, widoki w `nocl.js`, adresy `#/n/...` (`#/n`, `#/n/wyniki`, `#/n/obiekt/<id>`, `#/n/rodzaj`, `#/n/cena`, `#/n/okazje`, `#/n/udogodnienia`, `#/n/mapa`, `#/n/filtry`, `#/n/ulubione`). Restauracje działają bez zmian pod `#/restauracje` i starymi adresami; ekran startowy to `#/`.
+1. `noclegi_listing.py`: zapytania „hotel / apartamenty / pensjonat / hostel / noclegi … <miasto> [dzielnica]” → `noclegi_listing.json`.
+2. `noclegi_details_run.py N` (moduł `hotel_detail.py`; adres z `?hl=pl&gl=pl`, żeby ceny były w złotych): cena za noc z datą, gwiazdki, rodzaj, zameldowanie i wymeldowanie, opis z zakładki Informacje, udogodnienia z etykiet „opcja dostępna / niedostępna”, opinie, zdjęcia.
+3. `noclegi_build.py`: rodzaj (hotel, apartament, pensjonat, hostel) z nazwy i z Google, odległość od Rynku i dworca (strefy: Stare Miasto do 650 m, Centrum do 1,6 km, blisko dworca do 900 m), mapowanie udogodnień, link do restauracji w obiekcie, odsiew (min. 10 opinii i zdjęcia).
+4. `kuracja_noclegi.json`: RĘCZNIE okazje (romantyczny, biznes, rodzina; spa z udogodnień + `spa_nie`), `nazwy` (krótkie, czyste nazwy zamiast reklamowych), `wykluczone`, `restauracje` (ręczne powiązanie z restauracją).
+5. Ceny są orientacyjne (jedna noc w terminie, który akurat pokazał Google). Data w `price_date`. Przy odświeżaniu danych zaktualizować datę.

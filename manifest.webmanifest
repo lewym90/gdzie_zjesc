@@ -1,7 +1,7 @@
 {
-  "name": "Gdzie zjeść",
-  "short_name": "Gdzie zjeść",
-  "description": "Przewodnik po najlepszych miejscach w Lublinie",
+  "name": "Na mieście",
+  "short_name": "Na mieście",
+  "description": "Przewodnik po restauracjach i noclegach",
   "lang": "pl",
   "start_url": "./",
   "scope": "./",

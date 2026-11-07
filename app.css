@@ -334,3 +334,31 @@ img.fi.ok{filter:none;transform:none}
 .ms-f{padding:10px 18px calc(12px + var(--sb));border-top:1px solid var(--line2)}
 .ms-f .btn{width:100%}
 .map-fbtn b[hidden]{display:none}
+/* Na mieście: start i kategorie */
+.brand img{width:30px;height:30px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.5)}
+.brand.home{color:inherit;text-decoration:none;gap:8px}
+.brand .bk{display:flex;width:18px;height:18px;color:var(--gold);margin-right:-2px}
+.brand .bk svg{width:18px;height:18px}
+.app.start .tabbar{transform:translateY(110%);pointer-events:none}
+.app.start .view{padding-bottom:calc(24px + var(--sb))}
+.st-lead{padding:22px 22px 8px}
+.st-lead h2{margin:0;font-family:var(--serif);font-weight:600;font-size:32px;line-height:1.1;color:var(--cream)}
+.st-lead p{margin:8px 0 0;color:var(--mute);font-size:14px}
+.app.start .bn{aspect-ratio:8/3.6}
+.price-badge{color:var(--gold2)}
+.nnote{padding:0 22px 10px;text-align:center}
+.ndesc p{margin:0 0 10px;line-height:1.6;color:#ddd2c4}
+.nstars{font-size:17px;letter-spacing:.08em}
+.row.lnk{color:inherit;text-decoration:none}
+.row.lnk b{color:var(--gold2)}
+.amen{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.am{display:flex;align-items:center;gap:10px;padding:12px;border:1px solid var(--line2);border-radius:12px;background:rgba(255,255,255,.02);font-size:13.5px;color:var(--cream)}
+.am i{flex:0 0 22px;width:22px;height:22px;color:var(--gold)}
+.nfl{padding:0 18px 8px}
+#nmap{position:absolute;inset:0}
+#nmap,#nmap *{touch-action:none}
+.mk.nmk{width:18px;height:18px;background:radial-gradient(circle at 35% 35%,#6f8fc4,#2a4677 62%,#14233b);border:2px solid #f1d48c}
+.mk-cl.ncl{background:rgba(20,35,59,.94)}
+.app.cat-n .big{background:linear-gradient(160deg,#151a24,#0d1016)}
+.app.cat-n .fc.on{background:linear-gradient(160deg,#25406b,#14233b)}
+.app.cat-n .btn.fill{background:linear-gradient(160deg,#2a4677,#14233b);box-shadow:0 6px 20px rgba(20,35,59,.5)}

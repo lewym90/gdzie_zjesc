@@ -78,3 +78,10 @@ Adresy `lh3.googleusercontent.com/...` z dopiskiem rozmiaru (`=w900-h620-k-no`).
 - Lepsze tagi klimatu i okazji (Gemini na opiniach), po rozmowie z właścicielem.
 - Grafiki właściciela: tło ekranu startowego, kafelki kuchni i klimatu.
 - Nocne odświeżanie na serwerze (wolno, żeby Google nie blokował).
+
+## Listopad 2026: „Na mieście”, kategorie, Noclegi
+- Nazwa aplikacji: „Na mieście”. Ekran startowy `#/` z kaflami kategorii (banery `img/banery/kat-restauracje.jpg`, `kat-noclegi.jpg`; bez plików pokazuje ikony).
+- Restauracje bez zmian, strona główna kategorii pod `#/restauracje`, reszta adresów jak dawniej. Powrót do startu: logo z „‹” w nagłówku.
+- Noclegi: `nocl.js` + `data/noclegi.json` (129 obiektów w Lublinie). Pasek dolny zmienia się z kategorią (`TABS` w app.js). Osobna mapa `#nmap`, osobne ulubione (`gz-fav-n`).
+- Dane: `collector/noclegi_listing.py` → `noclegi_details_run.py 4` → `noclegi_build.py` → `noclegi_kontrola.py` (0 błędów). Ręczna kuracja w `collector/kuracja_noclegi.json`.
+- Banery noclegów: `img/banery/nocleg-{hotel,apartament,pensjonat,hostel,romantyczny,biznes,rodzina,spa}.jpg`. Po dodaniu plików uruchomić `noclegi_build.py` (lista banerów trafia do meta).
