@@ -983,6 +983,223 @@
     "solo"
    ],
    "adres": "Stanisława Staszica 5, 20-081 Lublin (wejście od ul. Karmelickiej)"
+  },
+  "0x472259000d658b09:0x96c3b7167281c552": {
+   "nazwa": "Sauna Pod Lasem",
+   "rodzaj": "sauna",
+   "kategoria": "Kameralna sauna",
+   "opis": "Kameralna sauna pod lasem w okolicy Sławina, ceniona przez gości za ciszę, prywatność i naturalne otoczenie. Według opinii saunę ogrzewa się drewnem, które można samodzielnie dokładać, do schłodzenia służą zimna wanna i prysznic, a na miejscu da się też rozpalić ognisko.",
+   "zrodlo": "opinie",
+   "ma": [
+    "sauna"
+   ],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ],
+   "godziny_uwaga": "Brak stałych godzin w sieci – termin warto ustalić telefonicznie."
+  },
+  "0x47225957ebfc7a53:0x6d299186b687bbfd": {
+   "nazwa": "Safiro SPA · Focus Hotel Premium",
+   "rodzaj": "spa",
+   "kategoria": "Hotelowe spa",
+   "opis": "Safiro SPA działa w hotelu Focus Premium w Panieńszczyźnie (gmina Jastków), kilka kilometrów za Lublinem. Strefa wellness z sauną suchą i parową, dwoma jacuzzi oraz lodopadem jest dostępna na bilety godzinne. W menu spa są m.in. masaże gorącymi kamieniami, świecą i czekoladą, masaż Kobido oraz zabiegi na twarz i ciało.",
+   "zrodlo": "strona",
+   "ma": [
+    "sauna",
+    "jacuzzi",
+    "masaz",
+    "zabiegi"
+   ],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ],
+   "cena": "Strefa wellness 60 min – 35 zł",
+   "cennik": "https://u.profitroom.com/2018-focushotels-pl/uploads/wellness_premium_lublin_1.pdf",
+   "godziny": "pon–nd 12:00–22:00",
+   "godziny_uwaga": "Spa i strefa wellness dostępne także dla osób spoza hotelu (bilet 1 lub 2 godz.); zabiegi najlepiej rezerwować wcześniej.",
+   "dla": "Dzieci do 16 lat tylko pod opieką dorosłych."
+  },
+  "0x4722551968b75961:0x8a231a926108443": {
+   "nazwa": "Studio Jogi Harmonia · Świdnik",
+   "rodzaj": "joga",
+   "kategoria": "Studio jogi",
+   "opis": "Świdnicka sala studia Harmonia przy ul. Piłsudskiego. W grafiku są zajęcia hatha i vinyasa jogi, kundalini oraz rozluźniającej jogi yin (także w hamakach), a dla dzieci i nastolatków aerial silk na podwieszanych szarfach. Zapisy przez aplikację eFitness, bez długoterminowych umów; honorowane są m.in. karty Multisport.",
+   "zrodlo": "strona",
+   "ma": [],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ],
+   "cena": "Jednorazowe wejście na jogę – 45 zł",
+   "cennik": "https://harmonia-swidnik.cms.efitness.com.pl/kup-karnet",
+   "godziny_uwaga": "Zajęcia według grafiku w eFitness – miejsce trzeba zarezerwować wcześniej."
+  },
+  "0x472255a291a59665:0x1580edd5d5580def": {
+   "nazwa": "Studio Masażu eMOCje",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Kameralne studio masażu w Świdniku, prowadzone przez masażystkę i terapeutkę SPA & Wellness Adriannę Kosmalę. W ofercie są ajurwedyjskie masaże olejowe Abhyanga i Shiroabhyanga, masaż terapeutyczny, refleksologia stóp, drenaż limfatyczny, masaż twarzy oraz masaż dla kobiet w ciąży.",
+   "zrodlo": "siec",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Abhyanga – olejowy masaż całego ciała 60 min – 220 zł",
+   "cennik": "https://booksy.com/pl-pl/198827_studio-masazu-emocje-by-adrianna-kosmala_masaz_7459_swidnik",
+   "godziny_uwaga": "Wizyty po wcześniejszym umówieniu (rezerwacja przez Booksy)."
+  },
+  "0x472255082f413dcd:0xcda4a1e70a9a2b5d": {
+   "nazwa": "akcjaMASAŻ",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Gabinet masażu i terapii manualnej w Świdniku, prowadzony przez technika masażystę. Oprócz masaży leczniczych, sportowych i drenażu limfatycznego w ofercie są masaże relaksacyjne całego ciała lub pleców, także gorącą świecą i gorącymi kamieniami. Dobre miejsce dla osób z napięciami mięśni i bólem pleców.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Masaż relaksacyjny całego ciała 70 min – 165 zł",
+   "cennik": "https://akcjamasaz.pl/?page_id=10"
+  },
+  "0x4723b30100a3953f:0xdc2295b4ff982eb4": {
+   "nazwa": "Zielone SPA",
+   "rodzaj": "masaz",
+   "kategoria": "Studio masażu",
+   "opis": "Kameralne studio masażu i rehabilitacji w Łęcznej przy ul. Partyzanckiej. Oprócz masaży i zabiegów na ciało ma niewielką strefę relaksu z suchą sauną. Klienci chwalą spokojną atmosferę i indywidualne podejście obsługi.",
+   "zrodlo": "opinie",
+   "ma": [
+    "masaz",
+    "sauna",
+    "zabiegi"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "godziny_uwaga": "Godziny w różnych źródłach się różnią – przed wizytą warto zadzwonić i umówić termin."
+  },
+  "0x472259b63cbb8e15:0x46b23651c9e6c793": {
+   "nazwa": "Body Vital",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Gabinet masażu przy ul. Lwowskiej, prowadzony przez masażystę Michała Sałbuta. W ofercie są masaże relaksacyjne i lecznicze, w których łączone są różne techniki, a intensywność dopasowuje się do potrzeb klienta. Klienci zwracają uwagę na spokojną atmosferę i ulgę przy bólach pleców.",
+   "zrodlo": "opinie",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ]
+  },
+  "0x472257f4c0730845:0xe0bf5b7fc63813d8": {
+   "nazwa": "Touch Relax",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Kameralny salon masażu przy ul. Górskiej, w którym masuje pani Monika. Klienci chwalą masaże ciała dopasowane do oczekiwanej intensywności, pomoc przy spiętych plecach oraz relaksujący masaż twarzy Kobido.",
+   "zrodlo": "opinie",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "godziny_uwaga": "Wizyty po wcześniejszym umówieniu."
+  },
+  "0x4722551dc446db5d:0x319b3aa9707b96e3": {
+   "nazwa": "Tężnia solankowa w Świdniku",
+   "rodzaj": "grota",
+   "kategoria": "Tężnia solankowa",
+   "opis": "Okrągła tężnia solankowa w parku Zielony LOF przy kompleksie Park Avia w Świdniku – według bywalców solankowy aerozol czuć w środku niezależnie od kierunku wiatru. Wstęp jest bezpłatny, a wokół są ławki, alejki, plac zabaw i siłownia plenerowa. Tężnia działa sezonowo, od maja do października.",
+   "zrodlo": "opinie",
+   "ma": [
+    "tezn"
+   ],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ],
+   "godziny_uwaga": "Tężnia działa sezonowo, od maja do października; poza sezonem jest wyłączona. Wstęp bezpłatny.",
+   "bez_godzin": true
+  },
+  "0x472255e0e342d7d9:0x5353925e1f42260a": {
+   "nazwa": "Ciało Studio Masażu",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Kameralne studio masażu w Świdniku prowadzone przez Annę Kasprzak. W ofercie są masaże relaksacyjne i terapeutyczne, masaż twarzy Kobido, KobidoBody oraz masaż transbukalny. Klienci podkreślają spokojną atmosferę bez pośpiechu i podgrzewaną leżankę.",
+   "zrodlo": "opinie",
+   "ma": [
+    "masaz",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "prezent"
+   ],
+   "godziny_uwaga": "Wizyty tylko po wcześniejszej rezerwacji – przez Booksy lub telefonicznie.",
+   "cena": "Masaż relaksacyjny przód i tył 80 min – 200 zł",
+   "cennik": "https://booksy.com/pl-pl/191170_cialo-studio-masazu-anna-kasprzak_masaz_7459_swidnik"
+  },
+  "0x472261ad883e7841:0x90da8965d9a100a3": {
+   "nazwa": "Villa Aurelia SPA",
+   "rodzaj": "spa",
+   "kategoria": "Hotelowe spa",
+   "opis": "Kompleks zabiegowy Villa Aurelia i Willa Raj w centrum Nałęczowa, z sauną, jacuzzi, masażami i zabiegami na twarz i ciało, także z zakresu medycyny estetycznej. Bez noclegu można wykupić pakiet „Dzień w SPA” (399 zł) – kilka godzin relaksu z zabiegami za 300 zł, seansem w kołysce Alfa lub HydroJet oraz pokojem i szlafrokiem do dyspozycji.",
+   "zrodlo": "strona",
+   "ma": [
+    "sauna",
+    "jacuzzi",
+    "masaz",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "prezent"
+   ],
+   "cena": "Klasyczny masaż całego ciała 55 min – 249 zł",
+   "cennik": "https://villaaurelia.pl/wp-content/uploads/2025/03/Cennik-Willi-Raj-03.2025-na-strone.pdf",
+   "godziny_uwaga": "Osoby z zewnątrz w pakiecie „Dzień w SPA” lub na zabiegach, po rezerwacji. Strefa SPA pon–czw 10:00–18:00, w weekend do 19:00."
+  },
+  "0x47225707822ea449:0x605614ca9f4d0ed": {
+   "nazwa": "Gabinet Masażu Inspiracje",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Gabinet masażu przy ul. Tumidajskiego, prowadzony przez Annę Kamińską. Można tu przyjść na masaż relaksacyjny, masaż twarzy Kobido, a także na delikatny masaż dla kobiet w ciąży. Klienci chwalą uważne podejście i praktyczne wskazówki, w tym ćwiczenia do wykonywania w domu.",
+   "zrodlo": "opinie",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "dla": "Także dla kobiet w ciąży."
+  },
+  "0x472261a826498b57:0x644c26ceef014b56": {
+   "nazwa": "W Krainie Alicji",
+   "rodzaj": "spa",
+   "kategoria": "Hotelowe spa",
+   "opis": "Kameralny obiekt wellness w Nałęczowie z całorocznym, zasolonym basenem z masażerami wodnymi i leżankami z perełkami oraz łaźnią parowo-rumiankową. Bez noclegu można przyjechać na Day SPA dla dwojga: rytuał z masażem w gabinecie dla dwóch osób i ok. 3 godziny relaksu na basenie i w łaźni.",
+   "zrodlo": "strona",
+   "ma": [
+    "basen",
+    "laznia",
+    "masaz",
+    "zabiegi"
+   ],
+   "okazje": [
+    "dwoje",
+    "znajomi"
+   ],
+   "cena": "Day SPA „Po drugiej stronie lustra” dla 2 osób – 729 zł",
+   "cennik": "https://wkrainiealicji.pl/news/22/SPA-w-Naleczowie-nowy-gabinet-dla-dwojga-i-pakiety-DAY-SPA-w-Krainie-Alicji",
+   "godziny_uwaga": "Basen i łaźnia dla gości hotelu lub osób z zewnątrz w pakiecie Day SPA; zabiegi najlepiej rezerwować min. 7 dni wcześniej.",
+   "dla": "Obiekt dla dorosłych."
   }
  }
 }

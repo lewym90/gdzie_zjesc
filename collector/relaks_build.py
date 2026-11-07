@@ -54,6 +54,10 @@ def fotki(ph, z):
     rest = [u for i, u in enumerate(ph) if i not in z.get("usun", []) and u != first]
     return ([first] if first else []) + rest
 
+def miasto(adr):  # miejsca pod Lublinem: nazwa miejscowości z adresu
+    if re.search(r"\bLublin\b", adr): return ""
+    m = re.search(r"\d{2}-\d{3}\s+([^,]+)$", adr.strip())
+    return m.group(1).strip() if m else ""
 def main():
     det = json.load(open(D))
     out, brak = [], []
@@ -67,7 +71,7 @@ def main():
             www = re.sub(r"[?&](utm_[^&]*|fbclid=[^&]*)", "", www)
             if "?" not in www and "&" in www: www = www.replace("&", "?", 1)
             www = www.rstrip("?&")
-        hours = godziny(m["godziny"]) if m.get("godziny") else popraw_h(d.get("hours"))
+        hours = {} if m.get("bez_godzin") else godziny(m["godziny"]) if m.get("godziny") else popraw_h(d.get("hours"))
         out.append({
             "id": slug(name) + "-" + gid.split(":")[1][-5:], "name": name, "kind": m["rodzaj"], "category": m["kategoria"],
             "rating": d.get("rating"), "reviews": d.get("reviews") or 0,
@@ -78,7 +82,7 @@ def main():
             "priceText": re.sub(r" (zł|min)\b", "\u00a0\\1", m["cena"]) if m.get("cena") else None, "link": m.get("cennik"), "dla": m.get("dla"),
             "hours": parse_hours(hours), "hoursText": hours, "hoursNote": m.get("godziny_uwaga"),
             "ma": [x for x in MA if x in m.get("ma", [])], "occ": [o for o in OCCS if o in m.get("okazje", [])],
-            "dRynek": round(dr), "areaName": "Stare Miasto" if dr <= 650 else "Centrum" if dr <= 1600 else "",
+            "dRynek": round(dr), "areaName": miasto(m.get("adres") or d.get("address") or "") or ("Stare Miasto" if dr <= 650 else "Centrum" if dr <= 1600 else ""),
             "nocl": m.get("nocleg"), "rest": m.get("restauracja"),
             "reviewsText": [t for t in (d.get("review_texts") or []) if 40 < len(t) < 700][:8],
             "tags": " ".join([m.get("tagi", ""), TAGI_R[m["rodzaj"]]] + [TAGI_MA[x] for x in m.get("ma", []) if x in TAGI_MA]).strip(),
@@ -86,7 +90,7 @@ def main():
     out.sort(key=lambda p: -(p["rating"] or 0) * math.log10(p["reviews"] + 10))
     bdir = os.path.join(REPO, "img", "banery")
     meta = {"banners": sorted(f[:-4] for f in os.listdir(bdir) if f.endswith(".jpg") and (f.startswith("kat-") or f.startswith("relaks-"))),
-            "city": CITY["name"], "bounds": CITY["bounds"], "count": len(out)}
+            "city": CITY["name"], "bounds": [51.05, 51.45, 22.2, 22.95], "count": len(out)}
     json.dump({"meta": meta, "places": out}, open(os.path.join(REPO, "data", "relaks.json"), "w"), ensure_ascii=False, separators=(",", ":"))
     print("miejsc:", len(out), {k: sum(p["kind"] == k for p in out) for k in KINDS})
     if brak: print("BRAK DANYCH Z MAP:", brak)

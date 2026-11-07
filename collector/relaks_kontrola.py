@@ -12,7 +12,7 @@ for p in d["places"]:
     ids.add(p["id"])
     if p["kind"] not in ("spa", "masaz", "zabiegi", "sauna", "baseny", "grota", "joga"): e("zły rodzaj")
     if not p["photos"]: e("brak zdjęć")
-    if not (b[0] < p["lat"] < b[1] and b[2] < p["lng"] < b[3]): e("poza miastem")
+    if p["dRynek"] > 25000: e("dalej niż 25 km od Rynku")
     if len(p["name"]) > 40: e("za długa nazwa")
     if re.search(r" - |\||Lublin,|  ", p["name"]): e("reklamowa nazwa")
     if p["name"].isupper(): e("nazwa wielkimi literami")
