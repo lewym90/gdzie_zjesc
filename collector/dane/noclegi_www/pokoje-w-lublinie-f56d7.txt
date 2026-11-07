@@ -1,0 +1,327 @@
+=== HOME https://pokojewlublinie.pl/
+Pokoje w Lublinie
+Toggle navigation
+Nasze mieszkania
+Pokoje na wynajem
+Korzyści dla najemcy
+Zasady wynajmu
+FAQ
+Kontakt
+["Lublin, ul. Batalion\u00f3w Ch\u0142opskich 16_2",null,"Batalion\u00f3w Ch\u0142opskich 16_2","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/c5a86e83030640e3360dbab8ed3fdfee.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/9-mieszkanie+6+pokojowe+batalionow+ch%C5%82opskich+162.html","dost\u0119pny","51.253937","22.516815","Pok\u00f3j 1-osobowy  nr 4","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+1.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+2.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+3.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+4.html","dost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+5+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 6","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+6.html","niedost\u0119pny"]],"pokoj 1osobowy  nr 4","9"]
+["Lublin, ul. Biedronki 3",null,"Biedronki 3","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/9e0f9c42b3b0dde1077dfcce89e64e8e.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/43-mieszkanie+5+pokojowe+biedronki+3.html","dost\u0119pny","51.231565","22.505659899999955","Pok\u00f3j 1-osobowy  nr 5","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1 PREMIUM","https:\/\/pokojewlublinie.pl\/pokoj\/43-pokoj+1osobowy++nr+1+premium.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/43-pokoj+1osobowy++nr+2+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/43-pokoj+1osobowy++nr+3.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4 ","https:\/\/pokojewlublinie.pl\/pokoj\/43-pokoj+1osobowy++nr+4+.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5","https:\/\/pokojewlublinie.pl\/pokoj\/43-pokoj+1osobowy++nr+5.html","dost\u0119pny"]],"pokoj 1osobowy  nr 5","43"]
+["Lublin, ul. Sk\u0142odowskiej 46",null,"Sk\u0142odowskiej 46","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/24a5b24a27fd3cdac85188d3e0dbfa6e.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/54-mieszkanie+3+pokojowe+sk%C5%82odowskiej+46.html","niedost\u0119pny","51.2459905","22.5450938","Pok\u00f3j 1-osobowy Studio nr 2","multiple_rooms",[["Pok\u00f3j 1-osobowy Studio nr 1","https:\/\/pokojewlublinie.pl\/pokoj\/54-pokoj+1osobowy+studio+nr+1.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy Studio nr 2","https:\/\/pokojewlublinie.pl\/pokoj\/54-pokoj+1osobowy+studio+nr+2.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy Studio nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/54-pokoj+1osobowy+studio+nr+3.html","niedost\u0119pny"]],"pokoj 1osobowy studio nr 2","54"]
+["Lublin, ul. Koncertowa 7",null,"Koncertowa 7","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/586d8f6302e7c80b857f96d15b2017a3.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/15-mieszkanie+5+pokojowe+koncertowa+7.html","niedost\u0119pny","51.2650628","22.54232360000003","Pok\u00f3j 1-osobowy  nr 1 ","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1 ","https:\/\/pokojewlublinie.pl\/pokoj\/15-pokoj+1osobowy++nr+1+.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2 ","https:\/\/pokojewlublinie.pl\/pokoj\/15-pokoj+1osobowy++nr+2+.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/15-pokoj+1osobowy++nr+3+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4 ","https:\/\/pokojewlublinie.pl\/pokoj\/15-pokoj+1osobowy++nr+4+.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5","https:\/\/pokojewlublinie.pl\/pokoj\/15-pokoj+1osobowy++nr+5.html","niedost\u0119pny"]],"pokoj 1osobowy  nr 1 ","15"]
+["Lublin, ul. Sympatyczna 16",null,"Sympatyczna 16","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/757999b4c88bbc0e7dd172f2bf052b05.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/44-mieszkanie+5+pokojowe+sympatyczna+16.html","niedost\u0119pny","51.2289626","22.52839169999993","Pok\u00f3j 1-osobowy  nr 1 z balkonem","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/44-pokoj+1osobowy++nr+1+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2 ","https:\/\/pokojewlublinie.pl\/pokoj\/44-pokoj+1osobowy++nr+2+.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/44-pokoj+1osobowy++nr+3.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4","https:\/\/pokojewlublinie.pl\/pokoj\/44-pokoj+1osobowy++nr+4.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5 PREMIUM","https:\/\/pokojewlublinie.pl\/pokoj\/44-pokoj+1osobowy++nr+5+premium.html","niedost\u0119pny"]],"pokoj 1osobowy  nr 1 z balkonem","44"]
+["Lublin, ul. Paganiniego 12",null,"Paganiniego 12","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/36f7086c0fe0038c348bb419364e6f65.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/18-mieszkanie+6+pokojowe+paganiniego+12.html","niedost\u0119pny","51.258871","22.55134750000002","Pok\u00f3j 1-osobowy  nr 2 z balkonem","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1","https:\/\/pokojewlublinie.pl\/pokoj\/18-pokoj+1osobowy++nr+1.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/18-pokoj+1osobowy++nr+2+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/18-pokoj+1osobowy++nr+3.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4","https:\/\/pokojewlublinie.pl\/pokoj\/18-pokoj+1osobowy++nr+4.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5","https:\/\/pokojewlublinie.pl\
+
+=== PAGE https://pokojewlublinie.pl/pokoje/
+Pokoje w Lublinie
+Toggle navigation
+Nasze mieszkania
+Pokoje na wynajem
+Korzyści dla najemcy
+Zasady wynajmu
+FAQ
+Kontakt
+["Lublin, ul. Batalion\u00f3w Ch\u0142opskich 16_2",null,"Batalion\u00f3w Ch\u0142opskich 16_2","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/c5a86e83030640e3360dbab8ed3fdfee.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/9-mieszkanie+6+pokojowe+batalionow+ch%C5%82opskich+162.html","dost\u0119pny","51.253937","22.516815","Pok\u00f3j 1-osobowy  nr 4","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+1.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+2.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+3.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+4.html","dost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+5+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 6","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+6.html","niedost\u0119pny"]],"pokoj 1osobowy  nr 4","9"]
+["Lublin, ul. Biedronki 3",null,"Biedronki 3","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/9e0f9c42b3b0dde1077dfcce89e64e8e.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/43-mieszkanie+5+pokojowe+biedronki+3.html","dost\u0119pny","51.231565","22.505659899999955","Pok\u00f3j 1-osobowy  nr 5","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1 PREMIUM","https:\/\/pokojewlublinie.pl\/pokoj\/43-pokoj+1osobowy++nr+1+premium.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/43-pokoj+1osobowy++nr+2+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/43-pokoj+1osobowy++nr+3.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4 ","https:\/\/pokojewlublinie.pl\/pokoj\/43-pokoj+1osobowy++nr+4+.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5","https:\/\/pokojewlublinie.pl\/pokoj\/43-pokoj+1osobowy++nr+5.html","dost\u0119pny"]],"pokoj 1osobowy  nr 5","43"]
+["Lublin, ul. Sk\u0142odowskiej 46",null,"Sk\u0142odowskiej 46","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/24a5b24a27fd3cdac85188d3e0dbfa6e.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/54-mieszkanie+3+pokojowe+sk%C5%82odowskiej+46.html","niedost\u0119pny","51.2459905","22.5450938","Pok\u00f3j 1-osobowy Studio nr 2","multiple_rooms",[["Pok\u00f3j 1-osobowy Studio nr 1","https:\/\/pokojewlublinie.pl\/pokoj\/54-pokoj+1osobowy+studio+nr+1.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy Studio nr 2","https:\/\/pokojewlublinie.pl\/pokoj\/54-pokoj+1osobowy+studio+nr+2.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy Studio nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/54-pokoj+1osobowy+studio+nr+3.html","niedost\u0119pny"]],"pokoj 1osobowy studio nr 2","54"]
+["Lublin, ul. Koncertowa 7",null,"Koncertowa 7","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/586d8f6302e7c80b857f96d15b2017a3.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/15-mieszkanie+5+pokojowe+koncertowa+7.html","niedost\u0119pny","51.2650628","22.54232360000003","Pok\u00f3j 1-osobowy  nr 1 ","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1 ","https:\/\/pokojewlublinie.pl\/pokoj\/15-pokoj+1osobowy++nr+1+.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2 ","https:\/\/pokojewlublinie.pl\/pokoj\/15-pokoj+1osobowy++nr+2+.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/15-pokoj+1osobowy++nr+3+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4 ","https:\/\/pokojewlublinie.pl\/pokoj\/15-pokoj+1osobowy++nr+4+.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5","https:\/\/pokojewlublinie.pl\/pokoj\/15-pokoj+1osobowy++nr+5.html","niedost\u0119pny"]],"pokoj 1osobowy  nr 1 ","15"]
+["Lublin, ul. Sympatyczna 16",null,"Sympatyczna 16","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/757999b4c88bbc0e7dd172f2bf052b05.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/44-mieszkanie+5+pokojowe+sympatyczna+16.html","niedost\u0119pny","51.2289626","22.52839169999993","Pok\u00f3j 1-osobowy  nr 1 z balkonem","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/44-pokoj+1osobowy++nr+1+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2 ","https:\/\/pokojewlublinie.pl\/pokoj\/44-pokoj+1osobowy++nr+2+.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/44-pokoj+1osobowy++nr+3.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4","https:\/\/pokojewlublinie.pl\/pokoj\/44-pokoj+1osobowy++nr+4.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5 PREMIUM","https:\/\/pokojewlublinie.pl\/pokoj\/44-pokoj+1osob
+
+=== PAGE https://pokojewlublinie.pl/artykul/3-korzysci+dla+najemcy.html
+Korzyści dla najemcy - Pokoje w Lublinie
+Toggle navigation
+Nasze mieszkania
+Pokoje na wynajem
+Korzyści dla najemcy
+Zasady wynajmu
+FAQ
+Kontakt
+Korzyści dla najemcy
+Jeśli zdarzyło Ci się
+już wynajmować mieszkanie, możesz mieć już pewne doświadczenia, których każdy
+chciałby uniknąć. Podłoga przypominająca lep na muchy, tyle że w ludzkiej
+skali? Ściany żółte i spękane niczym pustynia Nevada? Kafelki odpadające na
+dźwięk kichnięcia? Meble prosto z warsztatu samochodowego? Pralka Frania?  
+U nas
+od tego odpoczniesz.
+Oferujemy Ci najwyższą
+jakość usług i najlepszy standard. Nie lubimy zaskakiwać, a obie strony powinny
+wiedzieć dokładnie czego mogą się po sobie spodziewać.
+Dlaczego nasza oferta najmu jest najlepsza? Tylko spójrz…
+» 
+Zabezpiecza Cię umowa! 
+Jesteśmy profesjonalistami i dążymy do perfekcji. Wyraża się to w 
+podstawach, o których często inni zapominają, jak szczegółowa umowa z 
+najemcą. Wiesz czego się spodziewać od nas i czego wymagamy od Ciebie. 
+Wszystko odbywa się legalnie, zgodnie z obowiązującymi przepisami prawa.
+» 
+Masz wybór! 
+Wszystkie dostępne informacje i dokładne zdjęcia pokoju i całego 
+mieszkania znajdują się na naszej stronie. Oferujemy duży wybór lokali w
+ różnych lokalizacjach. Cenimy Twój czas dając możliwość wyboru pokoju 
+przez internet.
+» 
+Pojawił się problem? Nie jesteś sam!  
+W godzinach pracy jesteśmy dostępni, by Ci pomóc. Nie musisz martwić
+ się o nieprzewidziane sytuacje, z którymi zmierzysz się sam. Stała 
+opieka techniczna oraz administracyjna to rzadkość - a dla nas to oczywistość.
+» 
+Żadnych prowizji i ukrytych opłat!  
+Nie jesteśmy biurem nieruchomości i nie zarabiamy na prowizjach. Nie
+ stosujemy ukrytych opłat i sami ich nie lubimy. Wynajmujemy własne 
+pokoje, dbamy o nie i o naszych najemców.
+» 
+Pewność i prywatność!  
+Nasze pokoje zakupione i przystosowane są pod wynajem. Masz pewność,
+ że nie będziesz musiał wyprowadzić się z dnia na dzień, bo mieszkanie 
+zostanie sprzedane. Twój pokój może być Twoją twierdzą przez kilka lat. 
+Zamykasz go na klucz i nikt nie kręci się między Twoimi rzeczami. Cenimy
+ Twoją prywatność!
+» 
+Szybki internet w cenie!  
+Wiele opłat wliczonych jest już w cenę najmu. 
+Szybki Internet w Twoim lokum to też oczywistość. Nie zrzucamy 
+odpowiedzialności za podpisywanie nowych umów na naszych klientów. 
+Wchodzisz i mieszkasz!
+» 
+Jesteś u siebie!
+Mieszkasz niezależnie. Po mieszkaniu nie kręci się właściciel 
+skręcając ogrzewanie, bądź wyłączając światło. To Ty jesteś panem 
+mieszkania. Media rozliczamy szczegółowo i czytelnie. Jeśli chcesz 
+sprawdzić rachunki - udostępniamy je do sprawdzenia.
+» 
+Wyposażenie? Masz to co potrzebne!  
+Kuchnia w każdym mieszkaniu jest w pełni wyposażona. Nie 
+potrzebujesz wyprawki bo do dyspozycji otrzymujesz pełne wyposażenie 
+naczyń i narzędzi kuchennych, w tym sprzęt AGD jak lodówka, 
+mikrofalówka, czajnik elektryczny, żelazko oraz deska do prasowania.
+Pokoje w Lublinie
+O nas
+Kontakt
+Regulamin serwisu
+Polityka prywatności
+Pokoje
+Nasze mieszkania
+Pokoje na wynajem
+FAQ
+Informacje
+Korzyści dla najemcy
+Zasady wynajmu
+Masz pytania?
+biuro@pokojewlublinie.pl
+881313631
+Formularz kontaktowy
+Copyrights © 2026 by 
+System Obsługi Najmu
+All rights reserved. Wszelkie prawa zastrzeżone.
+System Obsługi Najmu przesyła pliki cookie, by analizować ruch na tej witrynie i otrzymywać informacje o tym, jak korzystasz z tej witryny.
+OK
+Zobacz szczegóły
+
+=== PAGE https://pokojewlublinie.pl/artykul/4-zasady+wynajmu.html
+Zasady wynajmu - Pokoje w Lublinie
+Toggle navigation
+Nasze mieszkania
+Pokoje na wynajem
+Korzyści dla najemcy
+Zasady wynajmu
+FAQ
+Kontakt
+Zasady wynajmu
+Szanujemy naszych najemców i rozumiemy ich potrzeby. Określamy z góry pewne zasady wynajmu, tak by nikt nie był zaskoczony.
+ Oto nasze zasady:
+Wszystko odbywa się legalnie, na podstawie umowy i faktur.
+Określamy czas obowiązywania umowy, co daje obu stronom pewność i stabilność.
+Całość opłat przyjmujemy na konto bankowe, nikt nie pobiera od Ciebie gotówki.
+Otrzymujesz przygotowany i posprzątany pokój i w takim samym stanie chcemy go odebrać.
+Jeśli nie lubisz sprzątać- zrobimy to za Ciebie za dodatkową opłatą.
+W pokoju możesz mieszkać tylko Ty. Waletów zostawmy w talii kart.
+Opłaty
+ za media dzielimy po równo na najemców. Jeśli uważasz, że ktoś zużywa 
+więcej, a ktoś mniej to ustalcie podział między sobą bezpośrednio.
+Wandali
+ i chuliganów omijamy szerokim łukiem. Nie tolerujemy palenia 
+czegokolwiek w mieszkaniu. Ze względu na komfort mieszkania innych 
+najemców nie wpuszczamy do mieszkania zwierząt.
+Lubimy
+ spokój i porządek. W mieszkaniu obowiązuje grafik sprzątania części 
+wspólnych i klatki schodowej. Zależy nam żeby mieszkanie które 
+użytkujesz było zawsze czyste i zadbane.
+Służymy serwisem w przypadku dużych napraw. Drobne naprawy, jak wymiana żarówki zostawiamy po Twojej stronie.
+Jeśli
+ chcesz korzystać z prądożernych urządzeń, jak ogromny telewizor to daj 
+nam znać. Chcemy być w porządku w stosunku do innych najemców.
+Lubimy imprezowiczów, ale tylko tych, którzy balangują w mieście, a do domu wracają by w spokoju odpocząć.
+Jeśli
+ nadal masz jakieś pytania, to proszę skontaktuj się z nami. Odpowiemy 
+na każde z nich, rozwiejemy wątpliwości, pomożemy podjąć decyzję. 
+Zadowolenie naszych najemców to nasza satysfakcja. Sprawdź nas!
+Pokoje w Lublinie
+O nas
+Kontakt
+Regulamin serwisu
+Polityka prywatności
+Pokoje
+Nasze mieszkania
+Pokoje na wynajem
+FAQ
+Informacje
+Korzyści dla najemcy
+Zasady wynajmu
+Masz pytania?
+biuro@pokojewlublinie.pl
+881313631
+Formularz kontaktowy
+Copyrights © 2026 by 
+System Obsługi Najmu
+All rights reserved. Wszelkie prawa zastrzeżone.
+System Obsługi Najmu przesyła pliki cookie, by analizować ruch na tej witrynie i otrzymywać informacje o tym, jak korzystasz z tej witryny.
+OK
+Zobacz szczegóły
+
+=== PAGE https://pokojewlublinie.pl/faq/index
+Pokoje w Lublinie
+Toggle navigation
+Nasze mieszkania
+Pokoje na wynajem
+Korzyści dla najemcy
+Zasady wynajmu
+FAQ
+Kontakt
+FAQ - Najczęściej zadawane pytania
+Jak sprawdzić dojazd z mieszkania do mojej uczelni komunikacją miejską?
+Jak rozliczane są opłaty za media i co dokładnie rozliczacie?
+Jak sprawdzić dojazd z mieszkania do mojej uczelni komunikacją miejską?
+Najprostszym sposobem sprawdzenia jak możesz dojechać z pokoju który 
+od nas wynajmiesz na swoją uczelnię, czy w inne ważne dla Ciebie miejsce
+ jest skorzystanie ze strony 
+www.l
+ublin.jakdojade.pl
+. W prawym górnym rogu obok ikonki 
+Z
+ wpisujesz adres budynku, w którym znajduje się pokój, który chcesz wynająć. Następnie przy ikonce 
+DO
+ wpisujesz dokąd chcesz jechać np. KUL. Teraz klikasz 
+SZUKAJ
+. Na stronie odnajdziesz takie informacje, jak:
+-      czas przejazdu komunikacją miejską,
+-      ilość przystanków, które musisz przejechać,
+-      numery linii z których możesz skorzystać,
+-      nazwy przystanków, z jakich odjeżdża dany autobus i czas odjazdu.
+Na mapce jest również zaznaczony przystanek i Twoje przyszłe 
+mieszkanie. Wszystko jest podane w jasny i czytelny sposób. Po prostu 
+nie da się zgubić.
+Jak rozliczane są opłaty za media i co dokładnie rozliczacie?
+Kiedy dostaniesz od nas fakturę za wynajem,znajdzie się na niej 
+ustalona kwota wynajmu za pokój, powiększona o opłatę za media. Opłata 
+ta jest podzielona na pozycje, żebyś dokładnie wiedział za co 
+płacisz. Jedną z pozycji jest opłata za śmieci, część czynszu do spółdzielni mieszkaniowej czy zarządcy i opłata za ogrzewanie. Oddzielnie wskazana jest ciepła i zimna woda oraz prąd. 
+Wszystkie media rozliczane są według wskazań liczników. Oznacza to, że 
+co miesiąc pojawi się w mieszkaniu osoba spisująca aktualne wskazania 
+liczników. Daje to najemcy gwarancję opłaty tylko za faktycznie zużytą 
+wodę. Nie ma żadnych zaliczek czy niedopłat. Oczywiście na Twoje żądanie
+ udostępniamy rachunki od dostawców prądu czy wody, żebyś mógł  
+sprawdzić i porównać naliczane stawki. Wskazania liczników możesz 
+sprawdzić w każdym momencie, bo liczniki są umieszczone w 
+ogólnodostępnym miejscu.
+ Internet masz już w cenie za pokój, abyś nie musiał się już o to 
+martwić.
+Przydatne informacje
+Jak sprawdzić dojazd z mieszkania do mojej uczelni komunikacją miejską?
+Jak rozliczane są opłaty za media i co dokładnie rozliczacie?
+FAQ
+Masz pytanie?
+Pokoje w Lublinie
+O nas
+Kontakt
+Regulamin serwisu
+Polityka prywatności
+Pokoje
+Nasze mieszkania
+Pokoje na wynajem
+FAQ
+Informacje
+Korzyści dla najemcy
+Zasady wynajmu
+Masz pytania?
+biuro@pokojewlublinie.pl
+881313631
+Formularz kontaktowy
+Copyrights © 2026 by 
+System Obsługi Najmu
+All rights reserved. Wszelkie prawa zastrzeżone.
+System Obsługi Najmu przesyła pliki cookie, by analizować ruch na tej witrynie i otrzymywać informacje o tym, jak korzystasz z tej witryny.
+OK
+Zobacz szczegóły
+
+=== PAGE https://pokojewlublinie.pl/contact/index
+Kontakt - Pokoje w Lublinie
+Toggle navigation
+Nasze mieszkania
+Pokoje na wynajem
+Korzyści dla najemcy
+Zasady wynajmu
+FAQ
+Kontakt
+Kontakt
+Chcesz wynająć pokój?
+1
+Znajdź interesujący Cię
+ pokój w 
+naszej ofercie
+2
+Zadzwoń na numer telefonu
+ podany w ogłoszeniu
+3
+Umów się
+ na obejrzenie pokoju
+4
+WYNAJMIJ!
+Wynająłeś/aś już pokój i masz pytanie?
+Prawdopodobnie odpowiedź na Twoje pytanie znajdziesz szybko 
+							w 
+pytaniach i odpowiedziach
+. Jeśli nie zadzwoń do nas lub wyślij maila
+Obsługa najemców
+881313631
+biuro@pokojewlublinie.pl
+Pracujemy od poniedziałku do piątku w godzinach  9.00 - 17.00
+Pokoje w Lublinie
+O nas
+Kontakt
+Regulamin serwisu
+Polityka prywatności
+Pokoje
+Nasze mieszkania
+Pokoje na wynajem
+FAQ
+Informacje
+Korzyści dla najemcy
+Zasady wynajmu
+Masz pytania?
+biuro@pokojewlublinie.pl
+881313631
+Formularz kontaktowy
+Copyrights © 2026 by 
+System Obsługi Najmu
+All rights reserved. Wszelkie prawa zastrzeżone.
+System Obsługi Najmu przesyła pliki cookie, by analizować ruch na tej witrynie i otrzymywać informacje o tym, jak korzystasz z tej witryny.
+OK
+Zobacz szczegóły
+
+=== PAGE https://pokojewlublinie.pl/nieruchomosci/9-mieszkanie+6+pokojowe+batalionow+ch%C5%82opskich+162.html
+Mieszkanie 6 pokojowe, Batalionów Chłopskich 16_2 - Pokoje w Lublinie
+Toggle navigation
+Nasze mieszkania
+Pokoje na wynajem
+Korzyści dla najemcy
+Zasady wynajmu
+FAQ
+Kontakt
+["Lublin, ul. Batalion\u00f3w Ch\u0142opskich 16_2",null,"Batalion\u00f3w Ch\u0142opskich 16_2","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/c5a86e83030640e3360dbab8ed3fdfee.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/9-mieszkanie+6+pokojowe+batalionow+ch%C5%82opskich+162.html","dost\u0119pny","51.253937","22.516815","Pok\u00f3j 1-osobowy  nr 4","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+1.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+2.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+3.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+4.html","dost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+5+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 6","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+6.html","niedost\u0119pny"]],"pokoj 1osobowy  nr 4","9"]
+["Lublin, ul. Batalion\u00f3w Ch\u0142opskich 16_2",null,"Batalion\u00f3w Ch\u0142opskich 16_2","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/8d98809d1873698ee7f125d32386b4b2.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/9-mieszkanie+6+pokojowe+batalionow+ch%C5%82opskich+162.html","dost\u0119pny","51.253937","22.516815","Pok\u00f3j 1-osobowy  nr 5 z balkonem","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+1.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+2.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+3.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+4.html","dost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+5+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 6","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+6.html","niedost\u0119pny"]],"pokoj 1osobowy  nr 5 z balkonem","9"]
+["Lublin, ul. Batalion\u00f3w Ch\u0142opskich 16_2",null,"Batalion\u00f3w Ch\u0142opskich 16_2","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/5d35c6792e6132a6e562d6a4d217fb7d.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/9-mieszkanie+6+pokojowe+batalionow+ch%C5%82opskich+162.html","dost\u0119pny","51.253937","22.516815","Pok\u00f3j 1-osobowy  nr 6","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+1.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+2.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+3.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+4.html","dost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+5+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 6","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+6.html","niedost\u0119pny"]],"pokoj 1osobowy  nr 6","9"]
+["Lublin, ul. Batalion\u00f3w Ch\u0142opskich 16_2",null,"Batalion\u00f3w Ch\u0142opskich 16_2","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/5ff6a5ef80e1d8d437b5aa3c3cf89af8.jpg","https:\/\/pokojewlublinie.pl\/nieruchomosci\/9-mieszkanie+6+pokojowe+batalionow+ch%C5%82opskich+162.html","dost\u0119pny","51.253937","22.516815","Pok\u00f3j 1-osobowy  nr 1","multiple_rooms",[["Pok\u00f3j 1-osobowy  nr 1","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+1.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 2","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+2.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 3","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+3.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 4","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+4.html","dost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 5 z balkonem","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+5+z+balkonem.html","niedost\u0119pny"],["Pok\u00f3j 1-osobowy  nr 6","https:\/\/pokojewlublinie.pl\/pokoj\/9-pokoj+1osobowy++nr+6.html","niedost\u0119pny"]],"pokoj 1osobowy  nr 1","9"]
+["Lublin, ul. Batalion\u00f3w Ch\u0142opskich 16_2",null,"Batalion\u00f3w Ch\u0142opskich 16_2","Lublin","https:\/\/pokojewlublinie.pl\/portal\/files\/rooms\/images\/54073a7eaa1be079c67f293c59962c07.jpg","https:\/\/

@@ -187,8 +187,8 @@ const NOCL = (function () {
       <a class="act ${p.phone ? "" : "dis"}" href="${p.phone ? "tel:" + esc(p.phone.replace(/\s/g, "")) : "#"}"><i>${ico("phone")}</i><span>Telefon</span></a>
       <a class="act" href="${esc(nav)}" target="_blank" rel="noopener"><i>${ico("navi")}</i><span>Trasa</span></a>
     </div>
-    <div class="sm"><p>${esc(lead(p))}</p>
-      ${p.price ? `<div class="sm-row"><i>${ico("coins")}</i><span>Orientacyjnie ${zl(p.price)} za noc${ND.meta.priceDate ? ` (${esc(ND.meta.priceDate)})` : ""}</span></div>` : ""}
+    <div class="sm">${p.stars || p.areaName || p.occ.length ? `<p>${esc(lead(p))}</p>` : ""}
+      ${p.price ? `<div class="sm-row"><i>${ico("coins")}</i><span>Orientacyjnie ${zl(p.price)} za noc${p.priceSrc === "strona" ? " (cennik na stronie obiektu)" : ND.meta.priceDate ? ` (${esc(ND.meta.priceDate)})` : ""}</span></div>` : ""}
       ${p.checkin || p.checkout ? `<div class="sm-row"><i>${ico("clock")}</i><span>${[p.checkin ? "Zameldowanie od " + p.checkin : "", p.checkout ? "wymeldowanie do " + p.checkout : ""].filter(Boolean).join(", ")}</span></div>` : ""}
     </div>
     <div class="thumbs">${ph.slice(1, 9).map((u, i) => `<button data-nvi="${i + 1}"><img src="${img(u, 360, 290)}" alt="" loading="lazy" referrerpolicy="no-referrer" class="fi"></button>`).join("")}</div>
@@ -223,7 +223,7 @@ const NOCL = (function () {
     const r = p.reviewsText || [];
     const best = r.find((x) => x.length > 60 && x.length < 260) || r[0];
     const rest = p.rest && typeof BYID !== "undefined" && BYID[p.rest];
-    return `${p.desc ? `<div class="ndesc">${p.desc.split("\n").map((x) => `<p>${esc(x)}</p>`).join("")}</div>` : ""}
+    return `${p.desc ? `<div class="ndesc">${p.desc.split("\n").map((x) => `<p>${esc(x)}</p>`).join("")}${p.descSrc === "strona" ? `<p class="note">Na podstawie strony obiektu.</p>` : ""}</div>` : ""}
     <div class="rows">
       <div class="row"><i>${ico("bed")}</i><div><b>Rodzaj:</b> ${esc(kindOf(p.kind).one.toLowerCase())}${p.stars ? `, ${p.stars} ${plural(p.stars, "gwiazdka", "gwiazdki", "gwiazdek")}` : ""}</div></div>
       ${p.amen.length ? `<div class="row"><i>${ico("key")}</i><div><b>Udogodnienia:</b> ${esc(AMEN.filter((a) => p.amen.includes(a.id)).map((a) => a.label[0].toLowerCase() + a.label.slice(1)).join(", "))}</div></div>` : ""}

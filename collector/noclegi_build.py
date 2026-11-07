@@ -110,13 +110,24 @@ def main():
         if www and ("booking.com" in www or "facebook.com" in www and False): www = None
         desc = "\n".join(x for x in (d.get("desc") or []) if x)
         revs = [t for t in (d.get("review_texts") or []) if 40 < len(t) < 700]
+        priceSrc = descSrc = None
+        uz = KUR.get("uzupelnienia", {}).get(name, {})
+        if uz:
+            if "www" in uz: www = uz["www"]
+            if uz.get("desc") and not desc: desc, descSrc = uz["desc"], "strona"
+            if uz.get("price") and d.get("price") is None: d = dict(d, price=uz["price"]); priceSrc = "strona"
+            for k2 in ("checkin", "checkout"):
+                if uz.get(k2) and not d.get(k2): d = dict(d, **{k2: uz[k2]})
+            amen = sorted(set(amen) | set(uz.get("amen", [])), key=list(AMAP).index)
+            if "spa" in amen and "spa" not in occ and name not in KUR.get("spa_nie", []): occ.append("spa")
+            occ += [o for o in uz.get("occ", []) if o not in occ]
         out.append({
             "id": pid, "name": name, "kind": k, "stars": d.get("stars"),
             "rating": d.get("rating"), "reviews": d.get("reviews") or 0,
             "address": (d.get("address") or "").strip(), "lat": d["lat"], "lng": d["lng"],
             "www": www, "phone": (d.get("phone") or "").strip() or None, "gmaps": d.get("gurl"),
             "photos": d["photos"][:12], "desc": desc, "checkin": d.get("checkin"), "checkout": d.get("checkout"),
-            "price": d.get("price"), "amen": amen, "amenAll": extra, "occ": occ, "area": area, "areaName": aname,
+            "price": d.get("price"), "priceSrc": priceSrc, "descSrc": descSrc, "amen": amen, "amenAll": extra, "occ": occ, "area": area, "areaName": aname,
             "dRynek": round(dr), "rest": rid, "reviewsText": revs[:8],
         })
     out.sort(key=lambda p: -(p["rating"] or 0) * math.log10(p["reviews"] + 10))

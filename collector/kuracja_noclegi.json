@@ -121,6 +121,154 @@
   "Apartamenty Magia": "restauracja-magia-463a6",
   "Hotel Ilan": "restauracja-the-olive-fine-jewish-food-dff32",
   "Hotel Trybunalska": "trybunalska-lublin-city-pub-60d9d",
-  "Hotel Alter": "restauracja-alteria-79391"
+  "Hotel Alter": "restauracja-alteria-79391",
+  "Ciao Hotel": "bombardino-czechow-0fd15"
+ },
+ "uzupelnienia": {
+  "Agit Hotel Congress & Spa": {
+   "desc": "Hotel z zapleczem konferencyjnym i strefą saun. Poza pokojami są apartamenty z kominkiem, jacuzzi albo prywatną sauną. Dla firm sale szkoleniowe i konferencyjne."
+  },
+  "Apartament Nadbystrzycka No. 13": {
+   "desc": "Apartament ok. 17 minut pieszo od Krakowskiego Przedmieścia, niedaleko Targów Lublin. Bezpłatne Wi-Fi, parking na miejscu po wcześniejszej rezerwacji.",
+   "amen": [
+    "parking",
+    "wifi"
+   ]
+  },
+  "Apartamenty Arte": {
+   "desc": "Sieć w pełni wyposażonych apartamentów w centrum i w innych częściach Lublina, od małych studiów po mieszkania z trzema sypialniami. Każdy ma aneks kuchenny ze zmywarką i pralkę, część także bezpłatny parking i klimatyzację.",
+   "price": 200
+  },
+  "Apartamenty GKM": {
+   "desc": "Trzy apartamenty w nowoczesnym budynku przy Zamojskiej, ok. 300 m od Starego Miasta. Każdy ma łazienkę i w pełni wyposażoną kuchnię. Parking podziemny za dopłatą, bez zwierząt.",
+   "price": 280,
+   "checkin": "14:00",
+   "amen": [
+    "parking",
+    "wifi"
+   ]
+  },
+  "Apartamenty Magdalena": {
+   "desc": "Pięć apartamentów na trzecim piętrze zabytkowej kamienicy przy Rynku, część z widokiem na Trybunał Koronny, część cicha od podwórza. Każdy ma łazienkę i aneks kuchenny, zameldowanie jest samodzielne.",
+   "checkin": "16:00",
+   "checkout": "11:00",
+   "amen": [
+    "wifi"
+   ]
+  },
+  "Apartamenty Magia": {
+   "desc": "Apartamenty nad Restauracją Magia przy Rynku, urządzone w starym stylu, z widokiem na Rynek albo patio. Część ma aneks kuchenny i klimatyzację. Wi-Fi w cenie, psy mile widziane za dopłatą.",
+   "price": 240,
+   "checkin": "15:00",
+   "checkout": "12:00",
+   "amen": [
+    "zwierzeta",
+    "klima",
+    "wifi"
+   ]
+  },
+  "Apartamenty Na Deptaku": {
+   "desc": "Apartamenty przy Krakowskim Przedmieściu, ok. 200 m od Bramy Krakowskiej. Każdy ma kuchnię, bezpłatne Wi-Fi i Smart TV, wersja Deluxe ma balkon.",
+   "amen": [
+    "wifi"
+   ]
+  },
+  "Apartamenty Na Doby Lublin": {
+   "desc": "Kilkanaście nowoczesnych, klimatyzowanych apartamentów „Wild Cats” w kameralnych budynkach przy ulicy Misjonarskiej, blisko Starego Miasta."
+  },
+  "Apartamenty Nowomiejska 17": {
+   "desc": "Mikroapartamenty z aneksem kuchennym i własną łazienką, część z balkonem. Wejście bez kluczy i przyjazd o dowolnej porze bez dopłat, na krótkie i dłuższe pobyty."
+  },
+  "Apartamenty Numer 6": {
+   "desc": "Apartamenty i studia w XVI-wiecznej kamienicy na Starym Mieście, przy kościele Dominikanów. Każdy ma łazienkę i kuchnię. Przy kamienicy monitorowany parking i prywatna siłownia.",
+   "amen": [
+    "parking",
+    "fitness"
+   ]
+  },
+  "Ciao Hotel": {
+   "desc": "Kameralny hotel z 13 pokojami na piętrze nad restauracją Bombardino na Czechowie. W pokojach biurko, szybkie Wi-Fi i zestaw do kawy, pokoje Superior mają balkon."
+  },
+  "Dworek Szlachecki": {
+   "desc": "Obiekt przy Siennej, jednej z najstarszych ulic Lublina, kilka minut od Starego Miasta. Teren chroniony przez całą dobę."
+  },
+  "Hostel Relax": {
+   "desc": "Hostel w spokojnej części miasta z restauracją z kuchnią polską, na miejscu śniadania i obiady. Jest też sala konferencyjna do 50 osób.",
+   "amen": [
+    "restauracja"
+   ]
+  },
+  "Hotel Etiuda": {
+   "desc": "Centrum konferencyjno-wystawiennicze z hotelem i restauracją na Szerokim. Organizuje wesela, bankiety i szkolenia. Ogrodzony, monitorowany parking na 200 aut.",
+   "amen": [
+    "parking",
+    "restauracja"
+   ],
+   "occ": [
+    "biznes"
+   ]
+  },
+  "Hotel Przystań": {
+   "desc": "Kameralny hotel przy Restauracji Przystań, 14 pokoi w klasycznym stylu. W pokojach klimatyzacja i Wi-Fi, śniadanie i parking w cenie.",
+   "price": 290,
+   "amen": [
+    "parking",
+    "sniadanie",
+    "restauracja",
+    "klima",
+    "wifi"
+   ]
+  },
+  "K14 Rooms": {
+   "desc": "Nowoczesne pokoje bez recepcji przy dworcach PKP i PKS, przyjazd o dowolnej porze. Wspólna kuchnia z lodówką i mikrofalówką, bez kuchenki."
+  },
+  "mHostel24": {
+   "desc": "Pokoje 2-, 3- i 4-osobowe kilka minut spacerem od Starego Miasta i Placu Litewskiego. Dla gości wspólna kuchnia i jadalnia."
+  },
+  "MJ Hostel": {
+   "desc": "Hostel na pierwszym piętrze kamienicy przy 1 Maja, 400 m od dworca PKP. Pokoje wieloosobowe i dwuosobowe, część z łazienką i klimatyzacją, aneks kuchenny dla gości.",
+   "price": 150
+  },
+  "Noclegi Komfort": {
+   "desc": "Pokoje 2–5-osobowe z łazienkami w cichej okolicy przy trasie na Warszawę, niedaleko Muzeum Wsi Lubelskiej. Wspólna, w pełni wyposażona kuchnia i taras."
+  },
+  "Pokoje Jaśminowa": {
+   "desc": "Pokoje w spokojnej okolicy blisko Ogrodu Botanicznego, prowadzone przez Pokoje365. Bezpłatny internet i parking pod obiektem, faktury VAT dla firm.",
+   "amen": [
+    "parking",
+    "wifi"
+   ]
+  },
+  "RS Suites Rybna 5 & Spa": {
+   "desc": "Nowoczesne apartamenty na Starym Mieście z własną strefą spa: basen, jacuzzi i grota solna.",
+   "amen": [
+    "spa"
+   ]
+  },
+  "Willa Ostoja": {
+   "desc": "Pensjonat z 2011 roku w zacisznym Konstantynowie, pokoje 2–4-osobowe z łazienkami. Dwie kuchnie dla gości, Wi-Fi i monitorowany parking."
+  },
+  "Zeus Apartments": {
+   "desc": "Studia i pokoje 1–2-osobowe (12–42 m²) z aneksem kuchennym i łazienką, blisko uczelni i Galerii Olimp. Podziemny parking, monitoring i ochrona przez całą dobę."
+  },
+  "Hotel Logos": {
+   "checkin": "13:00",
+   "checkout": "11:00"
+  },
+  "Cent Hostel": {
+   "www": null
+  },
+  "Rodmos Hostel": {
+   "www": null
+  },
+  "Apartamenty Lubartowska Street": {
+   "www": null
+  },
+  "Kujawska Rooms": {
+   "www": null
+  },
+  "Pokoje Beskidzka": {
+   "www": null
+  }
  }
 }
