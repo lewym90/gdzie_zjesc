@@ -5,7 +5,7 @@ const NOCL = (function () {
     { id: "hotel", label: "Hotele", one: "Hotel", sub: "Recepcja, obsługa i śniadanie", tint: "#14233b", ico: "building" },
     { id: "apartament", label: "Apartamenty", one: "Apartament", sub: "Własna kuchnia i pełna swoboda", tint: "#1d2730", ico: "sofa" },
     { id: "pensjonat", label: "Pensjonaty i pokoje", one: "Pensjonat", sub: "Kameralnie i po domowemu", tint: "#2a2216", ico: "lamp" },
-    { id: "hostel", label: "Hostele", one: "Hostel", sub: "Tanio i wygodnie w centrum", tint: "#16262a", ico: "bed" },
+    { id: "hostel", label: "Hostele", one: "Hostel", sub: "Tanio i wygodnie, także dla grup", tint: "#16262a", ico: "bed" },
   ];
   const OCCS = [
     { id: "romantyczny", label: "Romantyczny weekend", sub: "Klimat i wygoda we dwoje", tint: "#4a0f1c", ico: "rose" },

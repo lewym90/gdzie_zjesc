@@ -362,3 +362,6 @@ img.fi.ok{filter:none;transform:none}
 .app.cat-n .big{background:linear-gradient(160deg,#151a24,#0d1016)}
 .app.cat-n .fc.on{background:linear-gradient(160deg,#25406b,#14233b)}
 .app.cat-n .btn.fill{background:linear-gradient(160deg,#2a4677,#14233b);box-shadow:0 6px 20px rgba(20,35,59,.5)}
+.splash-inner{top:calc(var(--st) + 4vh)}
+.bn-txt{max-width:50%}
+.bn::after{background:linear-gradient(90deg,rgba(8,6,6,.72) 0%,rgba(8,6,6,.5) 38%,rgba(8,6,6,0) 62%),linear-gradient(90deg,transparent 60%,color-mix(in srgb,var(--tint) 25%,transparent))}
