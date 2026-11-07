@@ -1,5 +1,5 @@
 "use strict";
-const APP_V = "20261107-172357";
+const APP_V = "20261107-190124";
 /* Gdzie zjeść: przeglądarka lokali. Tylko wyświetla dane z data/places.json. */
 
 const ICO = {
@@ -190,11 +190,9 @@ function viewHome() {
   <div class="cards">${feat.map(card).join("")}</div>`;
 }
 function viewStart() {
-  const nR = DB.places.length, nN = (typeof NOCL !== "undefined" && NOCL.count()) || 0;
-  const kat = [
-    ["kat-restauracje", "Restauracje", `${nR} ${plural(nR, "miejsce", "miejsca", "miejsc")} · kuchnie, klimat, okazje`, "#/restauracje", "#4f0e1b", "cloche"],
-    ["kat-noclegi", "Noclegi", nN ? `${nN} ${plural(nN, "obiekt", "obiekty", "obiektów")} · hotele, apartamenty, pensjonaty` : "Hotele, apartamenty, pensjonaty", "#/n", "#14233b", "bed"],
-  ];
+  const nR = DB.places.length;
+  const kat = [["kat-restauracje", "Restauracje", `${nR} ${plural(nR, "miejsce", "miejsca", "miejsc")} · kuchnie, klimat, okazje`, "#/restauracje", "#4f0e1b", "cloche"]]
+    .concat((typeof KATS !== "undefined" ? KATS : []).map((k) => [k.tile[0], k.tile[1], k.tile[2](k.count()), "#/" + k.p, k.tile[3], k.tile[4]]));
   return `<header class="hdr"><div class="hdr-row"><div class="brand"><img src="img/logo.png" alt=""><h1>Na mieście</h1></div>
     <span class="city"><i>${ico("pin")}</i>${esc(DB.meta.city || "Lublin")}</span></div></header>
   <section class="sec st-lead"><h2>Czego dziś szukasz?</h2><p>Sprawdzone miejsca w jednym przewodniku.</p></section>
@@ -202,16 +200,16 @@ function viewStart() {
 }
 const TABS = {
   r: [["#/restauracje", "home", "cloche", "Odkrywaj"], ["#/kuchnie", "kuchnie", "cutlery", "Kuchnie"], ["#/mapa", "mapa", "map", "Mapa"], ["#/filtry", "filtry", "sliders", "Filtry"], ["#/ulubione", "ulubione", "heart", "Ulubione"]],
-  n: [["#/n", "home", "bed", "Odkrywaj"], ["#/n/rodzaj", "rodzaj", "building", "Rodzaj"], ["#/n/mapa", "mapa", "map", "Mapa"], ["#/n/filtry", "filtry", "sliders", "Filtry"], ["#/n/ulubione", "ulubione", "heart", "Ulubione"]],
 };
 let TABCAT = null;
 function setTabbar(cat) {
   if (cat === "start" || cat === TABCAT) return;
   TABCAT = cat;
-  $("#tabbar").innerHTML = TABS[cat].map(([h, k, ic, l]) => `<a href="${h}" data-tab="${k}"><i>${ico(ic)}</i><span>${l}</span></a>`).join("");
+  const k = typeof KATS !== "undefined" && KATS.find((x) => x.p === cat);
+  $("#tabbar").innerHTML = (k ? k.tabs.map(([h, ...r]) => ["#/" + k.p + h, ...r]) : TABS[cat]).map(([h, k, ic, l]) => `<a href="${h}" data-tab="${k}"><i>${ico(ic)}</i><span>${l}</span></a>`).join("");
 }
 function banner(key, title, sub, href, tint, ic) {
-  const BN = (DB.meta.banners || []).concat(typeof NOCL !== "undefined" ? NOCL.banners() : []);
+  const BN = (DB.meta.banners || []).concat(...(typeof KATS !== "undefined" ? KATS.map((k) => k.banners()) : []));
   const src = BN.includes(key) ? `img/banery/${key}.jpg` : hasTile(key) ? `img/kafle/${key}.jpg` : null;
   return `<a class="bn" href="${href}" style="--tint:${tint}">${src ? `<img src="${src}" alt="" loading="lazy" class="${BN.includes(key) ? "wide" : "sq"}">` : `<i class="bn-ico">${ico(ic)}</i>`}
     <div class="bn-txt"><b>${esc(title)}</b><span>${esc(sub)}</span></div></a>`;
@@ -508,10 +506,11 @@ function route() {
   const view = $("#view");
   if (prevHash) S.scroll[prevHash] = view.scrollTop;
   let html, tab = "home", detail = false, nmap = false;
-  const cat = path === "/" || path === "" ? "start" : path === "/n" || path.startsWith("/n/") ? "n" : "r";
+  const KAT = (typeof KATS !== "undefined" ? KATS : []).find((k) => path === "/" + k.p || path.startsWith("/" + k.p + "/"));
+  const cat = path === "/" || path === "" ? "start" : KAT ? KAT.p : "r";
   setTabbar(cat);
   if (cat === "start") { html = viewStart(); tab = null; }
-  else if (cat === "n") { const r = NOCL.route(path, params); html = r.html; tab = r.tab; detail = r.detail; nmap = r.map; }
+  else if (KAT) { const r = KAT.route(path, params); html = r.html; tab = r.tab; detail = r.detail; nmap = r.map; }
   else if (path.startsWith("/lokal/")) { html = viewDetail(decodeURIComponent(path.slice(7)), params.get("t")); detail = true; tab = null; }
   else if (path === "/wyniki") { html = viewResults(params); tab = null; }
   else if (path === "/kuchnie") { html = viewCuisines(); tab = "kuchnie"; }
@@ -522,19 +521,19 @@ function route() {
   else html = viewHome();
   view.innerHTML = html;
   $("#app").classList.toggle("start", cat === "start");
-  $("#app").classList.toggle("cat-n", cat === "n");
+  (typeof KATS !== "undefined" ? KATS : []).forEach((k) => $("#app").classList.toggle(k.cls, k === KAT));
   view.classList.toggle("detail", detail);
   $("#app").classList.toggle("detail", detail);
   const onMap = path === "/mapa";
   $("#mapwrap").hidden = !onMap;
-  if (typeof NOCL !== "undefined") NOCL.mapVisible(nmap);
+  (typeof KATS !== "undefined" ? KATS : []).forEach((k) => k.mapVisible(k === KAT && nmap));
   view.style.visibility = onMap || nmap ? "hidden" : "";
   if (onMap) showMap();
   document.querySelectorAll(".tabbar a").forEach((a) => a.classList.toggle("on", a.dataset.tab === tab));
   view.scrollTop = S.scroll[h] || 0;
   prevHash = h;
   bindView();
-  if (cat === "n") NOCL.bind();
+  if (KAT) KAT.bind();
 }
 function bindView() {
   const view = $("#view");
@@ -590,7 +589,7 @@ document.addEventListener("click", (e) => {
     e.preventDefault();
     const hs = $("#hstrip");
     if (canVT && hs) { document.querySelectorAll('.vt,[style*="view-transition-name"]').forEach((x) => { x.classList.remove("vt"); x.style.viewTransitionName = ""; }); const k = Math.round(hs.scrollLeft / hs.clientWidth), im = hs.children[k]; VT_I = 0; if (im) { im.classList.add("vt"); im.style.viewTransitionName = "ph"; } }
-    if (history.length > 1 && prevHashStack.length > 1) history.back(); else location.hash = location.hash.startsWith("#/n") ? "#/n" : "#/restauracje"; return; }
+    if (history.length > 1 && prevHashStack.length > 1) history.back(); else { const k = (typeof KATS !== "undefined" ? KATS : []).find((x) => x.mine()); location.hash = k ? "#/" + k.p : "#/restauracje"; } return; }
   const rm = t.closest("[data-rm]");
   if (rm) {
     const k = rm.dataset.rm; const f = { ...S.filters, q: S.q };
@@ -630,7 +629,7 @@ window.addEventListener("hashchange", () => {
 });
 
 /* blokada powiększania: szczypanie i dwuklik poza mapą */
-const onMapEl = (t) => t && t.closest && t.closest("#map,#nmap");
+const onMapEl = (t) => t && t.closest && t.closest("#map,.kmap");
 ["gesturestart", "gesturechange", "gestureend"].forEach((ev) => document.addEventListener(ev, (e) => { if (!onMapEl(e.target)) e.preventDefault(); }, { passive: false }));
 document.addEventListener("touchmove", (e) => { if (e.touches.length > 1 && !onMapEl(e.target)) e.preventDefault(); }, { passive: false });
 

@@ -367,3 +367,9 @@ img.fi.ok{filter:none;transform:none}
 .bn::after{background:linear-gradient(90deg,rgba(8,6,6,.72) 0%,rgba(8,6,6,.5) 38%,rgba(8,6,6,0) 62%),linear-gradient(90deg,transparent 60%,color-mix(in srgb,var(--tint) 25%,transparent))}
 .nsort{display:flex;gap:7px;overflow-x:auto;padding:0 18px 12px;scrollbar-width:none}.nsort::-webkit-scrollbar{display:none}.nsort .fc{flex:0 0 auto}
 .sm-row i{flex:0 0 18px}
+.kmap{position:absolute;inset:0}.kmap,.kmap *{touch-action:none}
+.mk.rzmk{width:18px;height:18px;background:radial-gradient(circle at 35% 35%,#c99bf2,#6b2fa8 62%,#2a1240);border:2px solid #f1d48c}
+.mk-cl.rzcl{background:rgba(42,18,64,.94)}
+.app.cat-rz .big{background:linear-gradient(160deg,#1c1626,#100c16)}
+.app.cat-rz .fc.on{background:linear-gradient(160deg,#5a2a8a,#2a1240)}
+.app.cat-rz .btn.fill{background:linear-gradient(160deg,#5a2a8a,#2a1240);box-shadow:0 6px 20px rgba(42,18,64,.5)}

@@ -2,9 +2,9 @@
    Pliki aplikacji i dane: zawsze najpierw sieć (świeża wersja przy każdym uruchomieniu),
    kopia z telefonu tylko bez internetu. Zdjęcia: z pamięci, bo się nie zmieniają. */
 const V = "gz-app";
-const WERSJA = "20261107-172357";
+const WERSJA = "20261107-190124";
 const IMG = "gz-img-v1";
-const SHELL = ["./", "version.json", "index.html", "app.css", "app.js", "nocl.js", "manifest.webmanifest", "data/places.json", "data/noclegi.json", "img/logo.png", "img/start.jpg"];
+const SHELL = ["./", "version.json", "index.html", "app.css", "app.js", "kat.js", "nocl.js", "rozr.js", "manifest.webmanifest", "data/places.json", "data/noclegi.json", "data/rozrywka.json", "img/logo.png", "img/start.jpg"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(V).then((c) => Promise.all(SHELL.map((u) => fetch(u, { cache: "no-store" }).then((r) => r.ok && c.put(u, r)).catch(() => {})))).then(() => self.skipWaiting()));

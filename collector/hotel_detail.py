@@ -67,6 +67,7 @@ async def detail(ctx, url):
         if await info.count():
             await info.first.click(); await pg.wait_for_timeout(2500)
             d["desc"]=[clean(t) for t in await pg.locator('div[role="main"] div.P1LL5e').all_inner_texts() if clean(t)]
+            d["info"]=[l.strip() for l in (await pg.locator('div[role="main"]').first.inner_text()).split("\n") if l.strip() and not l.strip() in ("Przegląd","Opinie","Informacje","Ceny","Menu") and len(l.strip())<80][:60]
             for lab in await pg.eval_on_selector_all('div[role="main"] div[role="img"][aria-label*="opcja"]',"e=>e.map(x=>x.getAttribute('aria-label'))"):
                 lab=lab.replace("\u00a0"," ")
                 mm=re.match(r"(.+?) – opcja (dostępna|niedostępna)",lab)
