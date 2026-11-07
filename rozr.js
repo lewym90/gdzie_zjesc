@@ -29,7 +29,7 @@ const ROZR = (function () {
   const dayIdx = () => (new Date().getDay() + 6) % 7;
   const todayText = (p) => (p.hoursText || {})[DAYS[dayIdx()]];
   return makeKat({
-    p: "rz", name: "Rozrywka", data: "data/rozrywka.json", fav: "gz-fav-rz", cls: "cat-rz", ico: "mask", mk: "rzmk", cl: "rzcl", bn: "rozrywka-",
+    p: "rz", name: "Rozrywka", data: "data/rozrywka.json", fav: "gz-fav-rz", cls: "cat-rz", ico: "mask", mk: "rzmk", cl: "rzcl", bn: "rozrywka-", bnOcc: "rozrywka-okazja-",
     noun: ["miejsce", "miejsca", "miejsc"], allLabel: "Wszystkie atrakcje", emptyText: "Nie znalazłem miejsc dla tych filtrów.",
     searchPh: "Szukaj kina, kręgielni, escape roomu…", filtersTitle: "Filtry rozrywki", favTitle: "Ulubiona rozrywka", favEmpty: "Nie masz jeszcze ulubionych miejsc.",
     kinds: KINDS, occs: OCCS, kindsTitle: "Rodzaj rozrywki",

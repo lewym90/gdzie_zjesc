@@ -42,7 +42,7 @@ function makeKat(C) {
       else if (v && !F.test(p, v)) return false;
     }
     if (q) {
-      const hay = p._hay || (p._hay = norm([p.name, p.address, kindOf(p.kind).one, p.areaName, p.category].join(" ")));
+      const hay = p._hay || (p._hay = norm([p.name, p.address, kindOf(p.kind).one, p.areaName, p.category, p.tags].join(" ")));
       if (!norm(q).split(/\s+/).every((w) => hay.includes(w))) return false;
     }
     return true;
@@ -92,7 +92,7 @@ function makeKat(C) {
     const cnt = (f) => N(list(f, "").length);
     let t, items;
     if (kind === "rodzaj") { t = C.kindsTitle; items = C.kinds.filter((k) => list({ kind: k.id }, "").length).map((k) => banner(C.bn + k.id, k.label, `${k.sub} · ${cnt({ kind: k.id })}`, hrefR({ kind: k.id }), k.tint, k.ico)); }
-    else if (kind === "okazje") { t = "Okazja"; items = C.occs.map((o) => banner(C.bn + o.id, o.label, `${o.sub} · ${cnt({ occ: o.id })}`, hrefR({ occ: o.id }), o.tint, o.ico)); }
+    else if (kind === "okazje") { t = "Okazja"; items = C.occs.map((o) => banner((C.bnOcc || C.bn) + o.id, o.label, `${o.sub} · ${cnt({ occ: o.id })}`, hrefR({ occ: o.id }), o.tint, o.ico)); }
     else { const r = C.extraBanners(kind, ctx()); t = r.t; items = r.items; }
     return bar(t) + `<div class="bns">${items.join("")}</div>`;
   }

@@ -116,11 +116,23 @@
   "Paintball Interskills Lublin": "Paintball Interskills",
   "Paintball Laserowy Marina": "Paintball Laserowy Marina",
   "Strefa H2O": "Strefa H2O",
-  "SERCE LUBLIN": "Serce Lublin",
+  "SERCE LUBLIN": "Serce",
   "Nowy Komitet - klub nocny": "Nowy Komitet",
   "Shotbar U-Boot Lublin!": "Shotbar U-Boot",
   "PUB pod Ziemią - Lublin": "Pub pod Ziemią",
-  "BAR KUFELEK": "Bar Kufelek"
+  "BAR KUFELEK": "Bar Kufelek",
+  "Klub30 Lublin": "Klub30",
+  "Unicorn Lounge&Club Lublin": "Unicorn Lounge & Club",
+  "Paradox Club Lublin": "Paradox Club",
+  "Plener Lublin": "Plener",
+  "Pigcasso Lublin": "Pigcasso",
+  "LaserCity Lublin": "LaserCity",
+  "Multikino Lublin": "Multikino",
+  "Teatr Stary w Lublinie": "Teatr Stary",
+  "Warsztaty Kultury w Lublinie": "Warsztaty Kultury",
+  "Klub Dom Kultury Lublin": "Klub Dom Kultury",
+  "Przystań #nadachu": "Przystań na dachu",
+  "Cinema City Lublin Plaza": "Cinema City Plaza"
  },
  "kategorie": {
   "Hala Globus im. Tomasza Wójtowicza": "Hala widowiskowa",
@@ -160,7 +172,8 @@
    "indoor": false
   },
   "Dzika plaża": {
-   "indoor": false
+   "indoor": false,
+   "desc": "Dzika plaża nad Zalewem Zemborzyckim, latem miejsce na odpoczynek nad wodą."
   },
   "Legia Paintballowa": {
    "indoor": false
@@ -171,7 +184,8 @@
   },
   "Rezerwat Dzikich Dzieci": {
    "indoor": false,
-   "desc": "Pierwszy w Polsce przygodowy plac zabaw: dzieci same budują bazy i konstrukcje z dostarczonych materiałów."
+   "desc": "Pierwszy w Polsce przygodowy plac zabaw: dzieci same budują bazy i konstrukcje z dostarczonych materiałów.",
+   "cena": "Urodziny 50 zł od dziecka"
   },
   "Plac zabaw w Ogrodzie Saskim": {
    "indoor": false
@@ -186,17 +200,11 @@
   "Aqua Lublin": {
    "desc": "Największy aquapark w Lublinie, prowadzony przez MOSiR: baseny rekreacyjne, zjeżdżalnie i strefa saun."
   },
-  "Cinema City Lublin Plaza": {
-   "desc": "Kino w CH Plaza: 8 klimatyzowanych sal na ponad 1500 widzów. Kasa otwiera się 30 minut przed pierwszym seansem."
-  },
   "Cinema City Felicity": {
    "desc": "Kino w CH Felicity: 9 sal na blisko 1700 widzów, w tym sala 4DX z ruchomymi fotelami i efektami specjalnymi."
   },
   "Strefa Wysokich Lotów": {
    "desc": "Park trampolin z setkami metrów kwadratowych trampolin, strefami sportowymi, atrakcjami dmuchanymi i zjeżdżalniami. Zajęcia z trenerami i urodziny dla dzieci."
-  },
-  "Multikino Lublin": {
-   "desc": "Multipleks z aktualnymi premierami filmowymi."
   },
   "Centrum Kultury w Lublinie": {
    "desc": "Największa instytucja kultury w Lublinie: teatr, taniec, koncerty, kino, warsztaty, a także księgarnia i kawiarnia."
@@ -237,19 +245,11 @@
   "Chatka Żaka": {
    "desc": "Akademickie Centrum Kultury UMCS: koncerty, kino, teatr studencki i wydarzenia."
   },
-  "LaserCity Lublin": {
-   "desc": "Arena laser tag i kilka aktywnych atrakcji w jednym miejscu; urodziny, imprezy firmowe i wyjścia szkolne.",
-   "cena": "Od 29 zł za 20 minut gry",
-   "wiek": "od 6 lat"
-  },
   "CSR Łabędzia": {
    "desc": "Kompleks basenowy MOSiR z basenem sportowym, strefą rekreacji i saunami."
   },
   "Opera Lubelska": {
    "desc": "Teatr Muzyczny: opera, operetka, musical i balet."
-  },
-  "Teatr Stary w Lublinie": {
-   "desc": "Najstarszy teatr w Lublinie, na Starym Mieście: spektakle, koncerty i wydarzenia edukacyjne."
   },
   "Kino Bajka": {
    "desc": "Kino studyjne w centrum: premiery, klasyka i cykle, m.in. Klub Filmowy Seniora i Kobiecy Wieczór."
@@ -270,9 +270,6 @@
   "Strzelnica Schron": {
    "desc": "Strzelnica w dawnym schronie. Nie trzeba doświadczenia ani pozwolenia na broń; dwie osie strzeleckie, 20 i 25 m.",
    "cena": "Pakiety od 160 zł, dla dwojga od 430 zł"
-  },
-  "Pigcasso Lublin": {
-   "desc": "Kreatywne studio malowania: chlapanie farbami, stoły obrotowe i sesje fluo, dla dzieci i dorosłych. Liczy się zabawa, nie umiejętności."
   },
   "Kids' Club": {
    "desc": "Centrum rekreacyjno-edukacyjne dla dzieci z dużą salą zabaw.",
@@ -309,9 +306,6 @@
   },
   "Niepokój": {
    "desc": "Pokoje zagadek z nowymi scenariuszami. Bilety także na prezent."
-  },
-  "Warsztaty Kultury w Lublinie": {
-   "desc": "Kino, koncerty, wystawy i warsztaty przy Grodzkiej; organizator największych lubelskich festiwali."
   },
   "Kamienica Kryminałów": {
    "desc": "Escape roomy dla grup nawet do 30 osób i multimedialna wystawa o kryminalnej historii Lublina, przy Rybnej 13.",
@@ -369,6 +363,57 @@
   },
   "Paintball Laserowy Marina": {
    "indoor": false
+  },
+  "Lubelskie Centrum Strzeleckie": {
+   "desc": "Klimatyzowana strzelnica dostępna dla każdego: szkolenia, kursy do pozwolenia na broń i vouchery na prezent.",
+   "cena": "Strzelanie z instruktorem od 100 zł za osobę"
+  },
+  "Strzelnica Shooter": {
+   "desc": "Jedyna w okolicy kryta strzelnica 360°, na której można strzelać w każdym kierunku; szkolenia i strzelanie rekreacyjne."
+  },
+  "Pan Zagadka": {
+   "desc": "Dwa pokoje zagadek w centrum: piracka Tawerna Pod Złotą Kotwicą i mroczna Chata Wiedźmy.",
+   "cena": "Od 220 zł za 2 osoby"
+  },
+  "Factoria Laser Tag": {
+   "desc": "Centrum rozrywki dla całej rodziny: laser tag, questy, labirynt laserowy i sala na urodziny."
+  },
+  "Klub30": {
+   "desc": "Klub przy Peowiaków 6 dla tych, którzy szczenięce lata mają już za sobą: przeboje i imprezy dla dorosłych."
+  },
+  "Just Crafted": {
+   "desc": "Pub z piwem kraftowym przy Cichej 2: piwo z kranu, drinki, jedzenie, planszówki i wydarzenia, m.in. quizy."
+  },
+  "Klub Strzelecki Snajper": {
+   "desc": "Duży klub strzelecki: nauka strzelania z broni pneumatycznej, kulowej i śrutowej, patent i licencja strzelecka."
+  },
+  "ExitRoom": {
+   "desc": "Escape room przy Krakowskim Przedmieściu: ucieczka z pokoju w 60 minut dla grup od 2 do 5 osób.",
+   "cena": "Od 170 zł za grupę"
+  },
+  "Supergolf": {
+   "desc": "Symulator golfa i nauka gry, zarówno dla początkujących, jak i grających od lat.",
+   "cena": "Symulator od 75 zł za godzinę"
+  },
+  "Pigcasso": {
+   "desc": "Kreatywne studio malowania: chlapanie farbami, stoły obrotowe i sesje fluo, dla dzieci i dorosłych. Liczy się zabawa, nie umiejętności."
+  },
+  "LaserCity": {
+   "desc": "Arena laser tag i kilka aktywnych atrakcji w jednym miejscu; urodziny, imprezy firmowe i wyjścia szkolne.",
+   "cena": "Od 29 zł za 20 minut gry",
+   "wiek": "od 6 lat"
+  },
+  "Multikino": {
+   "desc": "Multipleks z aktualnymi premierami filmowymi."
+  },
+  "Teatr Stary": {
+   "desc": "Najstarszy teatr w Lublinie, na Starym Mieście: spektakle, koncerty i wydarzenia edukacyjne."
+  },
+  "Warsztaty Kultury": {
+   "desc": "Kino, koncerty, wystawy i warsztaty przy Grodzkiej; organizator największych lubelskich festiwali."
+  },
+  "Cinema City Plaza": {
+   "desc": "Kino w CH Plaza: 8 klimatyzowanych sal na ponad 1500 widzów. Kasa otwiera się 30 minut przed pierwszym seansem."
   }
  },
  "dzieci": [
@@ -390,33 +435,34 @@
   "Kidsy",
   "Miglanc",
   "Teatr im. H. Ch. Andersena",
-  "LaserCity Lublin",
+  "LaserCity",
   "Factoria Laser Tag",
   "Icemania",
   "Słoneczny Wrotków",
   "CSR Łabędzia",
   "Glow Minigolf Pub",
-  "Pigcasso Lublin",
+  "Pigcasso",
   "Kamienica Legend",
-  "Cinema City Lublin Plaza",
+  "Cinema City Plaza",
   "Cinema City Felicity",
-  "Multikino Lublin",
+  "Multikino",
   "Plac zabaw w Ogrodzie Saskim",
-  "Park Linowy Nad Zalewem Zemborzyckim"
+  "Park Linowy Nad Zalewem Zemborzyckim",
+  "Dzika plaża"
  ],
  "randka": [
   "Glow Minigolf Pub",
   "Teatr im. Juliusza Osterwy",
   "Filharmonia Lubelska",
   "Opera Lubelska",
-  "Teatr Stary w Lublinie",
+  "Teatr Stary",
   "Centrum Spotkania Kultur",
   "Kino Bajka",
   "Letnie Kino Perła",
   "Icemania",
   "Lodowisko Zimowy Lublin",
   "Strzelnica Schron",
-  "Pigcasso Lublin",
+  "Pigcasso",
   "Let Me Out",
   "Muszla Koncertowa w Ogrodzie Saskim",
   "Masters – Tarasy Zamkowe"
@@ -432,7 +478,7 @@
   "Kamienica Kryminałów",
   "Cartmax",
   "E1 Gokart",
-  "LaserCity Lublin",
+  "LaserCity",
   "Factoria Laser Tag",
   "ArenaFun Laser War",
   "Paintball Interskills",
@@ -449,12 +495,17 @@
   "Wargamer",
   "Fabryka Kultury Zgrzyt",
   "Bafard",
-  "Centrum Wspinaczkowe Kotłownia"
+  "Centrum Wspinaczkowe Kotłownia",
+  "Klub Dom Kultury",
+  "Dzika plaża",
+  "Paintball Laserowy Marina",
+  "Legia Paintballowa",
+  "Akademia Golfa"
  ],
  "firma": [
   "Cartmax",
   "E1 Gokart",
-  "LaserCity Lublin",
+  "LaserCity",
   "Factoria Laser Tag",
   "ArenaFun Laser War",
   "Paintball Interskills",
@@ -469,7 +520,11 @@
   "Masters – Tarasy Zamkowe",
   "Masters – Olimp",
   "Gniazdo Żubra",
-  "Master of Speed"
+  "Master of Speed",
+  "Paintball Laserowy Marina",
+  "Legia Paintballowa",
+  "Akademia Golfa",
+  "Supergolf"
  ],
  "urodziny": [
   "Strefa Wysokich Lotów",
@@ -479,13 +534,13 @@
   "Kids' Club",
   "Leopark",
   "U Superika",
-  "LaserCity Lublin",
+  "LaserCity",
   "Factoria Laser Tag",
   "Glow Minigolf Pub",
   "Gniazdo Żubra",
   "Sensolek",
   "Masters – Olimp",
-  "Pigcasso Lublin",
+  "Pigcasso",
   "Kamienica Kryminałów",
   "Bajkowy Labirynt",
   "CSR Łabędzia",
@@ -549,10 +604,12 @@
    "*"
   ],
   "urodziny": [
-   "Klub30 Lublin",
+   "Klub30",
    "Radość",
    "Rzut Beretem",
    "Klub Graffiti",
+   "Unicorn Lounge & Club",
+   "Klub30 Lublin",
    "Unicorn Lounge&Club Lublin"
   ]
  },
@@ -567,5 +624,33 @@
   "Klub Astoria": "Pub sportowy z bilardem",
   "Święty Spokój Music Cafe": "Kawiarnia z muzyką na żywo",
   "Rock Klub Koyot": "Pub rockowy"
+ },
+ "tagi": {
+  "Kręgielnia": "kręgle bowling",
+  "Escape room": "pokój zagadek zagadki escape",
+  "Laser tag": "paintball laserowy lasertag",
+  "Park trampolin": "trampoliny skakanie",
+  "Ścianka wspinaczkowa": "wspinaczka bouldering",
+  "Kino": "film seans repertuar",
+  "Sala zabaw": "bawialnia dzieci",
+  "Plac zabaw": "dzieci",
+  "Strzelnica": "strzelanie broń",
+  "Gokarty": "karting gokart wyścigi",
+  "Park wodny": "aquapark basen zjeżdżalnie",
+  "Basen": "pływanie",
+  "Klub nocny": "impreza dyskoteka taniec",
+  "Klub": "impreza dyskoteka taniec",
+  "Klub muzyczny": "koncert impreza",
+  "Pub sportowy z bilardem": "bilard mecz",
+  "Bar z rzutkami": "dart rzutki",
+  "Bar z karaoke": "karaoke śpiew",
+  "Teatr": "spektakl",
+  "Filharmonia": "koncert muzyka klasyczna",
+  "Lodowisko": "łyżwy ślizgawka",
+  "Golf": "golf",
+  "Minigolf": "golf",
+  "Salon VR": "wirtualna rzeczywistość gogle",
+  "Symulatory wyścigowe": "wyścigi f1 symulator",
+  "Paintball": "paintball"
  }
 }

@@ -115,6 +115,8 @@ def main():
             if not (r.get("type") in spec.get("typy", []) or r["name"] in spec.get("nazwy", [])): continue
             dr = km((r["lat"], r["lng"]), CITY["rynek"]) * 1000 if r.get("lat") else None
             occ = [o for o, lst in occ_r.items() if "*" in lst or r["name"] in lst]
+            nm = KUR.get("nazwy", {}).get(r["name"], r["name"])
+            occ += [o for o in ["dzieci", "randka", "znajomi", "firma", "urodziny"] if nm in KUR.get(o, []) and o not in occ]
             out.append({
                 "id": "r-" + r["id"], "name": KUR.get("nazwy", {}).get(r["name"], r["name"]), "kind": grupa, "category": KUR.get("kategorie_rest", {}).get(r["name"]) or r.get("category") or "Klub",
                 "rating": r.get("rating"), "reviews": r.get("reviews") or 0, "address": r.get("address") or "",
@@ -125,6 +127,7 @@ def main():
                 "rest": r["id"], "fromRest": True, "reviewsText": (r.get("reviewsText") or [])[:8],
             })
             have.add(r["name"].lower())
+    for p in out: p["tags"] = KUR.get("tagi", {}).get(p["category"] or "", "")
     out.sort(key=lambda p: -(p["rating"] or 0) * math.log10(p["reviews"] + 10))
     bdir = os.path.join(REPO, "img", "banery")
     meta = {"city": CITY["name"], "bounds": CITY["bounds"],
