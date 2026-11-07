@@ -365,3 +365,5 @@ img.fi.ok{filter:none;transform:none}
 .splash-inner{top:calc(var(--st) + 4vh)}
 .bn-txt{max-width:50%}
 .bn::after{background:linear-gradient(90deg,rgba(8,6,6,.72) 0%,rgba(8,6,6,.5) 38%,rgba(8,6,6,0) 62%),linear-gradient(90deg,transparent 60%,color-mix(in srgb,var(--tint) 25%,transparent))}
+.nsort{display:flex;gap:7px;overflow-x:auto;padding:0 18px 12px;scrollbar-width:none}.nsort::-webkit-scrollbar{display:none}.nsort .fc{flex:0 0 auto}
+.sm-row i{flex:0 0 18px}

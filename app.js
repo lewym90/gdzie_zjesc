@@ -1,5 +1,5 @@
 "use strict";
-const APP_V = "20261107-171137";
+const APP_V = "20261107-172357";
 /* Gdzie zjeść: przeglądarka lokali. Tylko wyświetla dane z data/places.json. */
 
 const ICO = {
@@ -589,7 +589,7 @@ document.addEventListener("click", (e) => {
   if (back) {
     e.preventDefault();
     const hs = $("#hstrip");
-    if (canVT && hs) { const k = Math.round(hs.scrollLeft / hs.clientWidth), im = hs.children[k]; VT_I = 0; if (im) { im.classList.add("vt"); im.style.viewTransitionName = "ph"; } }
+    if (canVT && hs) { document.querySelectorAll('.vt,[style*="view-transition-name"]').forEach((x) => { x.classList.remove("vt"); x.style.viewTransitionName = ""; }); const k = Math.round(hs.scrollLeft / hs.clientWidth), im = hs.children[k]; VT_I = 0; if (im) { im.classList.add("vt"); im.style.viewTransitionName = "ph"; } }
     if (history.length > 1 && prevHashStack.length > 1) history.back(); else location.hash = location.hash.startsWith("#/n") ? "#/n" : "#/restauracje"; return; }
   const rm = t.closest("[data-rm]");
   if (rm) {
@@ -616,7 +616,7 @@ const prevHashStack = [];
 const canVT = !!document.startViewTransition && !matchMedia("(prefers-reduced-motion: reduce)").matches;
 let VT_ID = null, VT_I = 0;
 function nameShared() {
-  document.querySelectorAll(".vt").forEach((e) => { e.classList.remove("vt"); e.style.viewTransitionName = ""; });
+  document.querySelectorAll('.vt,[style*="view-transition-name"]').forEach((e) => { e.classList.remove("vt"); e.style.viewTransitionName = ""; });
   const h = location.hash;
   let el = null;
   if (h.startsWith("#/lokal/") || h.startsWith("#/n/obiekt/")) el = document.querySelector(`#hstrip img[data-vi="${VT_I}"]`);

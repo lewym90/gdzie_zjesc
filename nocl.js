@@ -95,7 +95,8 @@ const NOCL = (function () {
     if (q) o.push(["q", `„${q}”`]);
     return o;
   }
-  const subLine = (p) => [kindOf(p.kind).one + (p.stars ? " " + stars(p.stars) : ""), p.price ? `ok. ${zl(p.price)}/noc za 2 os.` : ""].filter(Boolean);
+  const subLine = (p) => [kindOf(p.kind).one + (p.stars ? " " + stars(p.stars) : "")];
+  const popLine = (p) => [...subLine(p), p.price ? `ok. ${zl(p.price)} za 2 os.` : ""].filter(Boolean);
   const where = (p) => (p.dRynek != null ? `${p.areaName ? p.areaName + " · " : ""}${dist(p.dRynek)} od Rynku` : cityAddr(p.address));
 
   function card(p) {
@@ -136,12 +137,16 @@ const NOCL = (function () {
   const PAGE = 20;
   function viewResults(pp) {
     NS.f = fromParams(pp); NS.q = pp.get("q") || "";
-    const l = list().sort((a, b) => (b.rating || 0) * Math.log10(b.reviews + 10) - (a.rating || 0) * Math.log10(a.reviews + 10));
+    const sort = pp.get("sort") || "pol";
+    const score = (p) => (p.rating || 0) * Math.log10(p.reviews + 10);
+    const SORTS = { pol: (a, b) => score(b) - score(a), cena: (a, b) => (a.price || 1e9) - (b.price || 1e9) || score(b) - score(a), ocena: (a, b) => (b.rating || 0) - (a.rating || 0) || b.reviews - a.reviews, rynek: (a, b) => a.dRynek - b.dRynek };
+    const l = list().sort(SORTS[sort] || SORTS.pol);
     const ch = chips(NS.f, NS.q), n = Math.min(l.length, +(pp.get("n") || PAGE));
     const ttl = ch.filter(([k]) => k !== "q").map(([, x]) => x).join(" · ") || (NS.q ? `„${NS.q}”` : "Wszystkie noclegi");
     return `<div class="bar"><a class="ib" href="#/n" data-back><i>${ico("back")}</i></a><h2 class="rt">${esc(ttl)}</h2><a class="ib" href="#/n/filtry"><i>${ico("sliders")}</i></a></div>
     ${ch.length ? `<div class="chips">${ch.map(([k, x]) => `<button class="chip" data-nrm="${k}">${esc(x)}<i>${ico("close")}</i></button>`).join("")}</div>` : ""}
     <div class="count">Znaleziono ${l.length} ${plural(l.length, "obiekt", "obiekty", "obiektów")}</div>
+    ${l.length > 1 ? `<div class="nsort">${[["pol", "Polecane"], ["cena", "Najtańsze"], ["ocena", "Najlepiej oceniane"], ["rynek", "Najbliżej Rynku"]].map(([k, x]) => `<button class="fc ${k === sort ? "on" : ""}" data-nsort="${k}">${x}</button>`).join("")}</div>` : ""}
     ${l.length ? `<div class="cards">${l.slice(0, n).map(card).join("")}</div>${n < l.length ? `<button class="more" data-nmore="${n + PAGE}">Pokaż więcej (${l.length - n})</button>` : ""}`
       : `<div class="empty"><i>${ico("bed")}</i><br>Nie znalazłem noclegów dla tych filtrów.<br>Usuń któryś z nich, żeby zobaczyć więcej obiektów.</div>`}`;
   }
@@ -215,7 +220,7 @@ const NOCL = (function () {
     if (t === "kontakt") {
       return `<div class="ct">
       ${p.phone ? `<a href="tel:${esc(p.phone.replace(/\s/g, ""))}"><i>${ico("phone")}</i><span>${esc(p.phone)}</span></a>` : ""}
-      ${p.www ? `<a href="${esc(p.www)}" target="_blank" rel="noopener"><i>${ico("globe")}</i><span>${esc(p.www.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</span><i>${ico("ext")}</i></a>` : ""}
+      ${p.www ? `<a href="${esc(p.www)}" target="_blank" rel="noopener"><i>${ico("globe")}</i><span>${esc(p.www.replace(/^https?:\/\/(www\.)?/, "").split(/[/?#]/)[0])}</span><i>${ico("ext")}</i></a>` : ""}
       <a href="${esc(navUrl(p))}" target="_blank" rel="noopener"><i>${ico("navi")}</i><span>Prowadź do obiektu</span><i>${ico("ext")}</i></a>
       ${p.gmaps ? `<a href="${esc(p.gmaps)}" target="_blank" rel="noopener"><i>${ico("map")}</i><span>Ceny i zdjęcia w Mapach Google</span><i>${ico("ext")}</i></a>` : ""}
       </div><p class="note" style="margin-top:14px">${esc(p.address)}</p>`;
@@ -275,7 +280,7 @@ const NOCL = (function () {
       <div class="ms-f"><button class="btn fill" data-nmfdone>Pokaż ${n} ${plural(n, "obiekt", "obiekty", "obiektów")}</button></div>`;
   }
   function popHtml(p) {
-    return `<a class="pop" href="#/n/obiekt/${encodeURIComponent(p.id)}"><img src="${img(p.photos[0], 200, 200)}" alt="" referrerpolicy="no-referrer"><div><b>${esc(p.name)}</b><span>${esc(subLine(p).join(" · "))}</span>${p.rating ? `<span><span class="st">★ ${fmtR(p.rating)}</span> (${p.reviews})</span>` : ""}</div><i>${ico("back").replace("M15 5l-7 7 7 7", "M9 5l7 7-7 7")}</i></a>`;
+    return `<a class="pop" href="#/n/obiekt/${encodeURIComponent(p.id)}"><img src="${img(p.photos[0], 200, 200)}" alt="" referrerpolicy="no-referrer"><div><b>${esc(p.name)}</b><span>${esc(popLine(p).join(" · "))}</span>${p.rating ? `<span><span class="st">★ ${fmtR(p.rating)}</span> (${p.reviews})</span>` : ""}</div><i>${ico("back").replace("M15 5l-7 7 7 7", "M9 5l7 7-7 7")}</i></a>`;
   }
   async function showMap() {
     mapWrap();
@@ -370,8 +375,11 @@ const NOCL = (function () {
       stop();
       const k = rm.dataset.nrm, f = { ...NS.f, q: NS.q };
       if (k.startsWith("amen:")) f.amen = f.amen.filter((a) => a !== k.slice(5)); else f[k] = null;
-      location.replace(hrefR(f)); return;
+      const so2 = new URLSearchParams(location.hash.split("?")[1] || "").get("sort");
+      location.replace(hrefR(f) + (so2 ? "&sort=" + so2 : "")); return;
     }
+    const so = t.closest("[data-nsort]");
+    if (so) { stop(); const p = new URLSearchParams(location.hash.split("?")[1] || ""); p.set("sort", so.dataset.nsort); p.delete("n"); location.replace("#/n/wyniki?" + p); return; }
     const more = t.closest("[data-nmore]");
     if (more) { stop(); const p = new URLSearchParams(location.hash.split("?")[1] || ""); p.set("n", more.dataset.nmore); const st = $("#view").scrollTop; history.replaceState(null, "", "#/n/wyniki?" + p); route(); $("#view").scrollTop = st; return; }
     const tb = t.closest("[data-ntab]");
@@ -397,6 +405,7 @@ const NOCL = (function () {
       stop();
       const st = pc.querySelector(".strip");
       VT_I = st ? Math.round(st.scrollLeft / st.clientWidth) : 0; VT_ID = null;
+      document.querySelectorAll('[style*="view-transition-name"]').forEach((x) => (x.style.viewTransitionName = ""));
       if (canVT && st && st.children[VT_I]) { st.children[VT_I].classList.add("vt"); st.children[VT_I].style.viewTransitionName = "ph"; }
       location.hash = "#/n/obiekt/" + encodeURIComponent(pc.dataset.nid); return;
     }

@@ -5,7 +5,8 @@
   "Hotel Etiuda",
   "Apartamenty Sławinkowskie",
   "Noclegi",
-  "YOUR APARTMENT UNIA ART RESIDENCE"
+  "YOUR APARTMENT UNIA ART RESIDENCE",
+  "Zajazd Ułański"
  ],
  "nazwy": {
   "Hotel Wieniawski i Restauracja Trzy Romanse": "Hotel Wieniawski",
@@ -100,9 +101,27 @@
   "Hotel Dworek Vesaria"
  ],
  "rodzina": [
+  "Hotel Luxor",
+  "Hotel Korona Spa & Wellness",
+  "Centrum Konferencyjne Hotel Focus",
+  "Zajazd Pod Gwiazdami",
+  "Hotel Na Rogatce",
+  "Hotel Dworek Vesaria",
   "Hotel pod Kasztanami",
+  "Kmicic Hotel",
+  "Hotel Browar Lwów",
   "Ośrodek Wypoczynkowy Forest",
-  "Zajazd Pod Gwiazdami"
+  "Hotel Grodzka 20",
+  "Apartament Cube",
+  "Apartamenty Browar Perła",
+  "Hampton by Hilton Lublin",
+  "ibis Styles Lublin Stare Miasto",
+  "Arche Hotel Lublin",
+  "Hotel Lublin",
+  "Apartamenty Wieniawa",
+  "Villa i Restauracja Tymotka",
+  "Hotel Irys",
+  "Pokoje Beskidzka"
  ],
  "rodzina_nie": [],
  "spa_nie": [
@@ -292,5 +311,48 @@
    "2026-12-04",
    "4–5 grudnia"
   ]
- ]
+ ],
+ "literowki": {
+  "udgodnienia": "udogodnienia",
+  "cenrum": "centrum",
+  "centurm": "centrum",
+  "przzy": "przy",
+  "idelanie": "idealnie"
+ },
+ "zdjecia": {
+  "Centrum Konferencyjne Hotel Focus": {
+   "pierwsze": 3,
+   "usun": [
+    1
+   ]
+  },
+  "Folk Hostel Lublin": {
+   "pierwsze": 2,
+   "usun": [
+    0
+   ]
+  },
+  "KK Apartments": {
+   "pierwsze": 4,
+   "usun": [
+    0,
+    6
+   ]
+  },
+  "Folk Deluxe": {
+   "pierwsze": 1,
+   "usun": [
+    0
+   ]
+  },
+  "Dr Mandryk House": {
+   "pierwsze": 2
+  },
+  "Waksman Sport Hotel": {
+   "pierwsze": 3,
+   "usun": [
+    0
+   ]
+  }
+ }
 }

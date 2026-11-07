@@ -62,6 +62,13 @@ AMAP = {
 LAB2ID = {l: k for k, ls in AMAP.items() for l in ls}
 SKIP_EXTRA = {"Dla niepalących", "Wi-Fi", "Płatne Wi-Fi", "Śniadanie", "Płatne śniadanie"}
 
+def fotki(name, ph):
+    z = KUR.get("zdjecia", {}).get(name)
+    if not z: return ph
+    first = ph[z["pierwsze"]] if "pierwsze" in z else None
+    out = [u for i, u in enumerate(ph) if i not in z.get("usun", []) and u != first]
+    return ([first] if first else []) + out
+
 def main():
     det = json.load(open(D))
     CF = "/home/claude/gz/data/noclegi_ceny.json" if os.path.exists("/home/claude/gz/data/noclegi_ceny.json") else os.path.join(R, "dane", "noclegi_ceny.json")
@@ -101,7 +108,6 @@ def main():
         for o in ["romantyczny", "biznes", "rodzina", "spa"]:
             lst = KUR.get(o, [])
             if name in lst or ("id:" + pid) in lst: occ.append(o)
-        if "rodzina" not in occ and "Przyjazny dzieciom" in extra and k != "hostel" and (d.get("rating") or 0) >= 4.3 and name not in KUR.get("rodzina_nie", []): occ.append("rodzina")
         if "spa" in amen and "spa" not in occ and name not in KUR.get("spa_nie", []): occ.append("spa")
         # restauracja w obiekcie: lokal z katalogu restauracji w odległości do 60 m z podobną nazwą
         rid = KUR.get("restauracje", {}).get(name)
@@ -109,8 +115,13 @@ def main():
             for r in rest:
                 if r.get("lat") and km(pos, (r["lat"], r["lng"])) < 0.06: print("KANDYDAT", pid, "->", r["id"], r["name"])
         www = d.get("www")
+        if www:
+            www = re.sub(r"[?&](utm_[^&]*|merchantid=[^&]*|sourceid=[^&]*)", "", www)
+            if "?" not in www and "&" in www: www = www.replace("&", "?", 1)
+            www = www.rstrip("?&")
         if www and ("booking.com" in www or "facebook.com" in www and False): www = None
         desc = "\n".join(x for x in (d.get("desc") or []) if x)
+        for zle, dobrze in KUR.get("literowki", {}).items(): desc = desc.replace(zle, dobrze)
         revs = [t for t in (d.get("review_texts") or []) if 40 < len(t) < 700]
         priceSrc = descSrc = None
         # cena: tylko jedna miara = noc z piątku na sobotę, 2 osoby (noclegi_ceny.py); inne terminy z Google odrzucamy
@@ -129,11 +140,11 @@ def main():
             if "spa" in amen and "spa" not in occ and name not in KUR.get("spa_nie", []): occ.append("spa")
             occ += [o for o in uz.get("occ", []) if o not in occ]
         out.append({
-            "id": pid, "name": name, "kind": k, "stars": d.get("stars"),
+            "id": pid, "name": name, "kind": k, "stars": d.get("stars") if k == "hotel" else None,
             "rating": d.get("rating"), "reviews": d.get("reviews") or 0,
             "address": (d.get("address") or "").strip(), "lat": d["lat"], "lng": d["lng"],
             "www": www, "phone": (d.get("phone") or "").strip() or None, "gmaps": d.get("gurl"),
-            "photos": d["photos"][:12], "desc": desc, "checkin": d.get("checkin"), "checkout": d.get("checkout"),
+            "photos": fotki(name, d["photos"])[:12], "desc": desc, "checkin": d.get("checkin"), "checkout": d.get("checkout"),
             "price": d.get("price"), "priceSrc": priceSrc, "descSrc": descSrc, "amen": amen, "amenAll": extra, "occ": occ, "area": area, "areaName": aname,
             "dRynek": round(dr), "rest": rid, "reviewsText": revs[:8],
         })
