@@ -110,3 +110,11 @@ Dane w `data/noclegi.json`, widoki w `nocl.js`, adresy `#/n/...` (`#/n`, `#/n/wy
 - Ceny tylko jako tekst z jednostką (`cena` w `uzupelnienia`), np. „Pokój dla grupy 2–4 osób: od 240 zł”. Filtra ceny nie ma, bo każdy liczy inaczej.
 - „Pod dachem” jest domyślne, a wyjątki ustawia `indoor: false`. Okazja „Na deszczowy dzień” = wszystko pod dachem poza grupą „wieczorem”.
 - ZASADA (właściciel, 7.11.2026): miejsce może być w kilku kategoriach naraz, jeśli dobrze pasuje. Rozrywka bierze z Restauracji wszystkie kluby (do grupy „Wieczorem”) oraz wybrane puby i bary z karaoke, koncertami, planszówkami, bilardem lub rzutkami (`z_restauracji` w kuracji). Karta ma link „Także w Restauracjach”. To samo zrobimy w Relaksie (spa hotelowe z Noclegów).
+
+## 9. Uzupełnianie braków (opisy, godziny, ceny) – Rozrywka
+- `kuracja_rozrywka.json` → `uzupelnienia[nazwa wyświetlana]`: `desc`, `cena`, `godziny` (tekst „pon–pt 10:00–20:00, sob–nd 9:00–21:00”, nadpisuje Mapy), `zrodlo` (`strona` / `siec` / `opinie` – pokazywane pod opisem), `wiek`, `indoor`, `link`, `www`. Działa też dla miejsc wziętych z Restauracji.
+- Kolejność źródeł: strona obiektu → portale miejskie, GoOut, eBilet, Tripadvisor (wyszukiwarka) → opinie w Mapach Google (tylko fakty powtarzane przez wielu gości). Facebook i Instagram wymagają logowania – nie obchodzimy tego.
+- Opisy zawsze własnymi słowami, 1 zdanie, bez „najlepszy”. Godziny tylko z aktualnego, jednoznacznego źródła; miejsca sezonowe opisujemy w `desc`, bez godzin.
+- `tagi` (kategoria → synonimy) trafiają do wyszukiwarki, np. Kręgielnia → „kręgle bowling”.
+- `wykluczone_z_restauracji`: nazwy z places.json, których nie przenosimy do Rozrywki (np. słabe oceny).
+- Telefony: build usuwa ukryty znak ikonki z Map (U+E0B0) – bez tego link „zadzwoń” był błędny.

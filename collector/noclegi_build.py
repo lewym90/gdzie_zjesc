@@ -143,7 +143,7 @@ def main():
             "id": pid, "name": name, "kind": k, "stars": d.get("stars") if k == "hotel" else None,
             "rating": d.get("rating"), "reviews": d.get("reviews") or 0,
             "address": (d.get("address") or "").strip(), "lat": d["lat"], "lng": d["lng"],
-            "www": www, "phone": (d.get("phone") or "").strip() or None, "gmaps": d.get("gurl"),
+            "www": www, "phone": re.sub(r"^[^\d+]+", "", d.get("phone") or "").strip() or None, "gmaps": d.get("gurl"),
             "photos": fotki(name, d["photos"])[:12], "desc": desc, "checkin": d.get("checkin"), "checkout": d.get("checkout"),
             "price": d.get("price"), "priceSrc": priceSrc, "descSrc": descSrc, "amen": amen, "amenAll": extra, "occ": occ, "area": area, "areaName": aname,
             "dRynek": round(dr), "rest": rid, "reviewsText": revs[:8],

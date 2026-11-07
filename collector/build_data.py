@@ -154,7 +154,7 @@ for k, d in det.items():
         "rating": rating or None, "reviews": nrev or None,
         "address": re.sub(r",?\s*Polska$", "", addr),
         "lat": d.get("lat"), "lng": d.get("lng"),
-        "www": d.get("www"), "phone": (d.get("phone") or "").strip() or None,
+        "www": d.get("www"), "phone": re.sub(r"^[^\d+]+", "", d.get("phone") or "").strip() or None,
         "hours": parse_hours(d.get("hours")), "hoursText": d.get("hours") or {},
         "photos": d["photos"][:12], "_allphotos": d["photos"],
         "reviewsText": d.get("review_texts", [])[:6],

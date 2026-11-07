@@ -169,14 +169,19 @@
  },
  "uzupelnienia": {
   "Letnie Kino Perła": {
-   "indoor": false
+   "indoor": false,
+   "desc": "Plenerowe kino na dziedzińcu Browaru Perła z bezpłatnymi seansami po zmroku i barem; działa od 2011 r.",
+   "cena": "Wstęp wolny",
+   "zrodlo": "siec"
   },
   "Dzika plaża": {
    "indoor": false,
    "desc": "Dzika plaża nad Zalewem Zemborzyckim, latem miejsce na odpoczynek nad wodą."
   },
   "Legia Paintballowa": {
-   "indoor": false
+   "indoor": false,
+   "desc": "Paintball z nowymi markerami i urozmaiconym polem, granatami dymnymi i miejscem na ognisko.",
+   "zrodlo": "opinie"
   },
   "Akademia Golfa": {
    "indoor": false,
@@ -185,10 +190,12 @@
   "Rezerwat Dzikich Dzieci": {
    "indoor": false,
    "desc": "Pierwszy w Polsce przygodowy plac zabaw: dzieci same budują bazy i konstrukcje z dostarczonych materiałów.",
-   "cena": "Urodziny 50 zł od dziecka"
+   "cena": "Wejście bezpłatne"
   },
   "Plac zabaw w Ogrodzie Saskim": {
-   "indoor": false
+   "indoor": false,
+   "desc": "Duży ogrodzony plac zabaw w Ogrodzie Saskim ze zjeżdżalniami, huśtawkami i pajęczyną do wspinaczki, raczej dla starszych dzieci.",
+   "zrodlo": "opinie"
   },
   "Słoneczny Wrotków": {
    "indoor": false,
@@ -325,7 +332,7 @@
   },
   "Shooter Ready": {
    "desc": "Szkolenia strzeleckie dla początkujących, także po angielsku; na prezent i imprezy firmowe.",
-   "cena": "Od 190 zł"
+   "cena": "Strzelanie dla początkujących od 190 zł"
   },
   "Master of Speed": {
    "desc": "Symulatory wyścigów F1 i GT, także przystosowane dla osób na wózkach."
@@ -344,25 +351,39 @@
    "desc": "Zespół tańca współczesnego przy Centrum Kultury, działający od 2001 roku."
   },
   "Muszla Koncertowa w Ogrodzie Saskim": {
-   "indoor": false
+   "indoor": false,
+   "desc": "Plenerowa scena w Ogrodzie Saskim nosząca imię Romualda Lipki, gdzie latem odbywają się koncerty i festiwale, np. KODY.",
+   "zrodlo": "siec"
   },
   "Paintball Interskills": {
-   "indoor": false
+   "indoor": false,
+   "desc": "Paintball w plenerze w Krężnicy Jarej: przygotowany teren, scenariusze gier i instruktaż dla początkujących; dobre na imprezę firmową lub kawalerski.",
+   "zrodlo": "opinie"
   },
   "Park Linowy Nad Zalewem Zemborzyckim": {
-   "indoor": false
+   "indoor": false,
+   "desc": "Park linowy nad Zalewem Zemborzyckim z trasami o różnej trudności i tyrolką; przed wejściem krótkie szkolenie z instruktorem, dla osób od 7 lat.",
+   "zrodlo": "siec"
   },
   "Miglanc": {
-   "indoor": true
+   "indoor": true,
+   "desc": "Kameralna sala zabaw urządzona w klimacie dżungli, ze zjeżdżalniami i wieloma atrakcjami dla maluchów.",
+   "zrodlo": "opinie"
   },
   "Lodowisko Zimowy Lublin": {
-   "indoor": false
+   "indoor": false,
+   "desc": "Sezonowe lodowisko w centrum miasta, czynne zimą, z wypożyczalnią łyżew; w południe w tygodniu najmniej ludzi.",
+   "zrodlo": "opinie"
   },
   "Plac zabaw z Rakietą": {
-   "indoor": false
+   "indoor": false,
+   "desc": "Kultowy plac zabaw na LSM z 1961 r. ze zjeżdżalnią w kształcie rakiety, drewnianym samolotem i modelem gazika; dla dzieci od ok. 3 lat.",
+   "zrodlo": "siec"
   },
   "Paintball Laserowy Marina": {
-   "indoor": false
+   "indoor": false,
+   "desc": "Laserowy paintball nad Zalewem Zemborzyckim, bez kulek i siniaków, z turniejami prowadzonymi przez instruktora i ogniskiem; popularny na urodziny dzieci.",
+   "zrodlo": "opinie"
   },
   "Lubelskie Centrum Strzeleckie": {
    "desc": "Klimatyzowana strzelnica dostępna dla każdego: szkolenia, kursy do pozwolenia na broń i vouchery na prezent.",
@@ -379,24 +400,27 @@
    "desc": "Centrum rozrywki dla całej rodziny: laser tag, questy, labirynt laserowy i sala na urodziny."
   },
   "Klub30": {
-   "desc": "Klub przy Peowiaków 6 dla tych, którzy szczenięce lata mają już za sobą: przeboje i imprezy dla dorosłych."
+   "desc": "Klub dla osób po trzydziestce z parkietem, lożami VIP i muzyką z lat 80. i 90. oraz rockiem; organizuje też koncerty i imprezy tematyczne.",
+   "zrodlo": "siec"
   },
   "Just Crafted": {
-   "desc": "Pub z piwem kraftowym przy Cichej 2: piwo z kranu, drinki, jedzenie, planszówki i wydarzenia, m.in. quizy."
+   "desc": "Pub z piwem rzemieślniczym naprzeciw placu Litewskiego, z ponad setką gier planszowych, quizami co drugi czwartek i stand-upem po angielsku.",
+   "zrodlo": "siec"
   },
   "Klub Strzelecki Snajper": {
    "desc": "Duży klub strzelecki: nauka strzelania z broni pneumatycznej, kulowej i śrutowej, patent i licencja strzelecka."
   },
   "ExitRoom": {
-   "desc": "Escape room przy Krakowskim Przedmieściu: ucieczka z pokoju w 60 minut dla grup od 2 do 5 osób.",
-   "cena": "Od 170 zł za grupę"
+   "desc": "Escape room przy Krakowskim Przedmieściu: ucieczka z pokoju w 60 minut dla grup od 2 do 5 osób."
   },
   "Supergolf": {
    "desc": "Symulator golfa i nauka gry, zarówno dla początkujących, jak i grających od lat.",
    "cena": "Symulator od 75 zł za godzinę"
   },
   "Pigcasso": {
-   "desc": "Kreatywne studio malowania: chlapanie farbami, stoły obrotowe i sesje fluo, dla dzieci i dorosłych. Liczy się zabawa, nie umiejętności."
+   "desc": "Kreatywne studio malowania: chlapanie farbami, stoły obrotowe i sesje fluo, dla dzieci i dorosłych. Liczy się zabawa, nie umiejętności.",
+   "cena": "Bilety od 79 zł (ulgowy, 60 min, pon–czw)",
+   "godziny": "pon–pt 14:00–21:00, sob–nd 9:00–21:00"
   },
   "LaserCity": {
    "desc": "Arena laser tag i kilka aktywnych atrakcji w jednym miejscu; urodziny, imprezy firmowe i wyjścia szkolne.",
@@ -414,6 +438,146 @@
   },
   "Cinema City Plaza": {
    "desc": "Kino w CH Plaza: 8 klimatyzowanych sal na ponad 1500 widzów. Kasa otwiera się 30 minut przed pierwszym seansem."
+  },
+  "FunPark 360": {
+   "desc": "Przestronna sala zabaw z wieloma atrakcjami dla młodszych i starszych dzieci, kawiarnią dla rodziców i organizacją urodzin.",
+   "zrodlo": "opinie"
+  },
+  "Święty Spokój Music Cafe": {
+   "desc": "Kawiarnia tuż przy Bramie Krakowskiej, połączona ze sklepem z używanymi płytami winylowymi; gra jazz, a na zewnątrz są stoliki z widokiem na ulicę.",
+   "zrodlo": "siec"
+  },
+  "Padbar": {
+   "desc": "Piwniczny bar przy Grodzkiej, w którym przy piwie lub koktajlu można zagrać na konsolach, także retro, i w planszówki; serwują też pizzę.",
+   "zrodlo": "siec"
+  },
+  "Klub Graffiti": {
+   "desc": "Klub muzyczny działający od 1991 r. ze stałą sceną koncertową; grają tu głównie rock i metal, a w czwartki odbywa się Rockoteka.",
+   "zrodlo": "siec"
+  },
+  "Kultowa Klubokawiarnia": {
+   "desc": "Klubokawiarnia przy Herbowej, w której regularnie grają koncerty zespoły różnych gatunków, od popu po metal i punk.",
+   "zrodlo": "siec"
+  },
+  "Wargamer": {
+   "desc": "Sklep z grami planszowymi, bitewnymi i karcianymi z dużym wyborem tytułów; organizuje turnieje gier karcianych.",
+   "zrodlo": "opinie"
+  },
+  "Studio im. Budki Suflera": {
+   "desc": "Studio koncertowe w siedzibie Radia Lublin, nazwane na cześć Budki Suflera, z kameralnymi koncertami biletowanymi.",
+   "cena": "Bilety na koncerty ok. 75–90 zł",
+   "zrodlo": "siec"
+  },
+  "Salabawi": {
+   "desc": "Kameralna sala zabaw z drewnianymi zabawkami dla dzieci w różnym wieku i kawiarnią dla rodziców; organizuje też urodziny.",
+   "zrodlo": "opinie"
+  },
+  "Kidsy": {
+   "desc": "Sala zabaw ze zjeżdżalniami, małpim gajem i strefą rodzica; specjalizuje się w urodzinach, z salkami na poczęstunek.",
+   "zrodlo": "opinie"
+  },
+  "Helium Club": {
+   "desc": "Klub nocny z imprezami tanecznymi o różnej tematyce, np. oldschoolowymi.",
+   "zrodlo": "siec"
+  },
+  "Rock Klub Koyot": {
+   "desc": "Piwniczny pub rockowy z niskimi cenami, czynny w piątki i soboty do późna.",
+   "zrodlo": "opinie"
+  },
+  "Nowy Komitet": {},
+  "Tifosi Sport Pub": {
+   "desc": "Pub sportowy przy Okopowej, w którym obejrzysz transmisje meczów, zagrasz w bilard i zjesz pizzę; otwarty do późnej nocy.",
+   "zrodlo": "siec"
+  },
+  "Bajkowy Labirynt": {
+   "desc": "Sala zabaw na poziomie +1 w Vivo! (ok. 300 m²) z konstrukcją do wspinania, zjeżdżalnią, trampoliną, strefą maluchów z basenem z kulkami i kawiarnią dla rodziców.",
+   "cena": "Karnet miesięczny 19,99 zł; dzieci 0–2 lat bezpłatnie w dni robocze do 16:00",
+   "godziny": "pon–nd 9:00–20:00",
+   "zrodlo": "siec"
+  },
+  "Klub Astoria": {
+   "desc": "Klub bilardowy z barem przy al. Racławickich: stoły do bilardu, rzutki, piłkarzyki, transmisje sportowe na ekranach, do tego pizza i drinki.",
+   "zrodlo": "siec"
+  },
+  "Klub Dom Kultury": {
+   "desc": "Klub muzyczny przy deptaku, działający od 2012 r., z imprezami tanecznymi z DJ-ami i koncertami polskich artystów, m.in. hip-hopowych.",
+   "zrodlo": "siec"
+  },
+  "Rzut Beretem": {
+   "desc": "Klub taneczny z imprezami przy przebojach z lat 70.–2000 i polskich hitach, m.in. nocami retro w stylu „Powrót do przeszłości”.",
+   "zrodlo": "siec"
+  },
+  "Cafe Baby House": {
+   "desc": "Kawiarnia rodzinna z salą zabaw (basen z kulkami) i placem na zewnątrz z trawą i piaskownicą; w barze kawa, naleśniki, frytki i lody.",
+   "zrodlo": "siec"
+  },
+  "Top Game Cyber Club": {
+   "desc": "Klub gamingowy w Galerii Olimp ze stanowiskami PC dla graczy i strefą konsol; gra na godziny, możliwe dłuższe sesje.",
+   "zrodlo": "siec"
+  },
+  "Bar Kufelek": {
+   "desc": "Niewielki bar blisko dworca z tanim piwem, domowym jedzeniem i dartem; dobry na przerwę między pociągami.",
+   "zrodlo": "opinie"
+  },
+  "Paradox Club": {
+   "desc": "Klub nocny przy Okopowej z imprezami muzyki elektronicznej, m.in. nocami techno z DJ-ami.",
+   "zrodlo": "siec"
+  },
+  "Plener": {
+   "desc": "Letni klub pod chmurką przy al. Piłsudskiego, między rzeką a stadionem, z parkietem z DJ-ami do rana, grill barem, leżakami i boiskiem do siatkówki.",
+   "zrodlo": "siec"
+  },
+  "Teatr Pierwszego Kontaktu": {
+   "desc": "Zespół teatralny działający od 2005 r., który wyrósł z warsztatów Henryka Kowalczyka i wystawia własne spektakle, np. „Witkacy: bez końca”.",
+   "zrodlo": "siec"
+  },
+  "Przystań na dachu": {
+   "desc": "Klub na dachu przy Zesłańców Sybiru z drinkami i imprezami w weekendy do rana; uwaga na wymagającą selekcję przy wejściu.",
+   "zrodlo": "opinie"
+  },
+  "Shotbar U-Boot": {
+   "desc": "Shot bar z wnętrzem stylizowanym na okręt podwodny, szerokim wyborem shotów i codziennym karaoke od 20:00.",
+   "zrodlo": "siec"
+  },
+  "Radość": {
+   "desc": "Sezonowy klub w postindustrialnej przestrzeni dawnego Browaru Perła, z ogródkiem wśród zieleni, koncertami, warsztatami i street foodem.",
+   "zrodlo": "siec"
+  },
+  "Zeon Cyber Club": {
+   "desc": "Klub gier komputerowych z mocnymi stanowiskami PC i wygodnymi fotelami; można przyjść pograć sam albo ze znajomymi.",
+   "zrodlo": "opinie"
+  },
+  "Unicorn Lounge & Club": {
+   "desc": "Klub z muzyką elektroniczną, setami DJ-ów i imprezami tematycznymi, z futurystycznym wnętrzem i lożami VIP.",
+   "zrodlo": "siec"
+  },
+  "Strefa H2O": {
+   "desc": "Całoroczna kryta pływalnia MOSiR z 25-metrowym basenem sportowym na 6 torów, do pływania rekreacyjnego i treningów.",
+   "zrodlo": "siec"
+  },
+  "Coolki": {
+   "desc": "Duża sala zabaw z małpim gajem, zjeżdżalniami, grami multimedialnymi i strefą dla maluchów; na miejscu barek z kawą i pizzą, organizacja urodzin.",
+   "zrodlo": "opinie"
+  },
+  "Serce": {
+   "desc": "Klub z dwoma parkietami z różną muzyką i zamkniętymi salkami VIP na prywatne imprezy; imprezy od środy do soboty.",
+   "zrodlo": "siec"
+  },
+  "Pub pod Ziemią": {
+   "desc": "Piwniczny pub z klimatem dawnej speluny, w którym odbywają się koncerty i wieczory karaoke.",
+   "zrodlo": "opinie"
+  },
+  "Virtually": {
+   "desc": "Salon wirtualnej rzeczywistości z dużymi stanowiskami i wieloma grami, także dla grup w trybie wieloosobowym.",
+   "zrodlo": "opinie"
+  },
+  "Simracing Lublin": {
+   "desc": "Symulatory wyścigowe, na których można pościgać się ze znajomymi albo spróbować driftu na znanych torach.",
+   "zrodlo": "opinie"
+  },
+  "Kino Grażyna": {
+   "desc": "Kino z repertuarem dla całej rodziny, łączące nowości z ciekawszymi produkcjami; seanse odbywają się tylko w weekendy.",
+   "zrodlo": "siec"
   }
  },
  "dzieci": [
@@ -652,5 +816,8 @@
   "Salon VR": "wirtualna rzeczywistość gogle",
   "Symulatory wyścigowe": "wyścigi f1 symulator",
   "Paintball": "paintball"
- }
+ },
+ "wykluczone_z_restauracji": [
+  "Nowy Komitet - klub nocny"
+ ]
 }
