@@ -1,5 +1,5 @@
 {
- "price_date": "listopad 2026",
+ "price_date": "weekend 27–28 listopada 2026",
  "wykluczone": [
   "NIEZNANA. by IBB Grand Hotel Lublin",
   "Hotel Etiuda",
@@ -170,7 +170,8 @@
    "desc": "Apartamenty przy Krakowskim Przedmieściu, ok. 200 m od Bramy Krakowskiej. Każdy ma kuchnię, bezpłatne Wi-Fi i Smart TV, wersja Deluxe ma balkon.",
    "amen": [
     "wifi"
-   ]
+   ],
+   "price": 250
   },
   "Apartamenty Na Doby Lublin": {
    "desc": "Kilkanaście nowoczesnych, klimatyzowanych apartamentów „Wild Cats” w kameralnych budynkach przy ulicy Misjonarskiej, blisko Starego Miasta."
@@ -268,6 +269,28 @@
   },
   "Pokoje Beskidzka": {
    "www": null
+  },
+  "Apartamenty Wieniawa": {
+   "price": 210
+  },
+  "Hotel Trzy Róże": {
+   "price": 295
+  },
+  "Noclegi Jodełka": {
+   "price": 100
+  },
+  "Redwood Hostel": {
+   "price": 210
   }
- }
+ },
+ "ceny_terminy": [
+  [
+   "2026-11-27",
+   ""
+  ],
+  [
+   "2026-12-04",
+   "4–5 grudnia"
+  ]
+ ]
 }

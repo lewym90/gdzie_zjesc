@@ -95,14 +95,14 @@ const NOCL = (function () {
     if (q) o.push(["q", `„${q}”`]);
     return o;
   }
-  const subLine = (p) => [kindOf(p.kind).one + (p.stars ? " " + stars(p.stars) : ""), p.price ? `ok. ${zl(p.price)}/noc` : ""].filter(Boolean);
+  const subLine = (p) => [kindOf(p.kind).one + (p.stars ? " " + stars(p.stars) : ""), p.price ? `ok. ${zl(p.price)}/noc za 2 os.` : ""].filter(Boolean);
   const where = (p) => (p.dRynek != null ? `${p.areaName ? p.areaName + " · " : ""}${dist(p.dRynek)} od Rynku` : cityAddr(p.address));
 
   function card(p) {
     const ph = p.photos.slice(0, 5), n = 0;
     return `<article class="pc npc" data-nid="${p.id}" style="--i:${Math.min(n, 6)}">
     <div class="pc-ph"><div class="strip">${ph.map((u, i) => `<img src="${img(u, 900, 620)}" alt="" loading="lazy" referrerpolicy="no-referrer" decoding="async" class="fi"${i ? "" : ` style="background-image:url('${img(u, 36, 24)}')"`}>`).join("")}</div>
-    ${p.price ? `<span class="open-badge price-badge">ok. ${zl(p.price)}</span>` : ""}
+    ${p.price ? `<span class="open-badge price-badge">ok. ${zl(p.price)} / 2 os.</span>` : ""}
     <button class="fav ${NFAV.has(p.id) ? "on" : ""}" data-nfav="${p.id}" aria-label="Ulubione"><i>${ico("heart")}</i></button>
     ${ph.length > 1 ? `<div class="pc-dots">${ph.map((_, i) => `<b class="${i ? "" : "on"}"></b>`).join("")}</div>` : ""}
     <div class="pc-body">
@@ -122,14 +122,14 @@ const NOCL = (function () {
     <section class="sec"><div class="big4">${big.map(([h, ic, l]) => `<a class="big" href="${h}"><i>${ico(ic)}</i><span>${l}</span></a>`).join("")}</div></section>
     <section class="sec"><div class="sec-h"><h2>Najlepiej oceniane</h2><a href="${hrefR({ rate: "4.5" })}">Zobacz wszystkie ›</a></div></section>
     <div class="cards">${top.map(card).join("")}</div>
-    <p class="note nnote">Ceny są orientacyjne, za jedną noc w pokoju dwuosobowym, ${esc(ND.meta.priceDate || "")}. Aktualną cenę sprawdzisz na stronie obiektu.</p>`;
+    <p class="note nnote">Ceny są orientacyjne: jedna noc dla 2 osób (pokój lub apartament), ${esc(ND.meta.priceDate || "")}. Aktualną cenę sprawdzisz na stronie obiektu.</p>`;
   }
   function viewBanners(kind) {
     let t, items;
     const cnt = (f) => { const n = list(f, "").length; return `${n} ${plural(n, "obiekt", "obiekty", "obiektów")}`; };
     if (kind === "rodzaj") { t = "Rodzaj noclegu"; items = KINDS.filter((k) => list({ kind: k.id }, "").length).map((k) => banner("nocleg-" + k.id, k.label, `${k.sub} · ${cnt({ kind: k.id })}`, hrefR({ kind: k.id }), k.tint, k.ico)); }
     else if (kind === "okazje") { t = "Okazja"; items = OCCS.map((o) => banner("nocleg-" + o.id, o.label, `${o.sub} · ${cnt({ occ: o.id })}`, hrefR({ occ: o.id }), o.tint, o.ico)); }
-    else if (kind === "cena") { t = "Cena za noc"; items = PRICES.map((o) => banner("nocleg-cena", o.label, `${o.sub} · ${cnt({ price: o.id })}`, hrefR({ price: o.id }), o.tint, "coins")); }
+    else if (kind === "cena") { t = "Cena za noc dla 2 osób"; items = PRICES.map((o) => banner("nocleg-cena", o.label, `${o.sub} · ${cnt({ price: o.id })}`, hrefR({ price: o.id }), o.tint, "coins")); }
     else { t = "Udogodnienia"; items = AMEN.map((a) => banner("-", a.label, cnt({ amen: [a.id] }), hrefR({ amen: [a.id] }), "#14233b", a.ico)); }
     return bar(t) + `<div class="bns">${items.join("")}</div>`;
   }
@@ -148,7 +148,7 @@ const NOCL = (function () {
   function fc(key, v, label, on) { return `<button class="fc ${on ? "on" : ""}" data-nfc="${key}" data-v="${v}">${esc(label)}</button>`; }
   function sheetGroups(f) {
     const g = (t, body) => `<div class="ms-g"><span class="t">${t}</span><div class="row">${body}</div></div>`;
-    return g("Cena za noc", PRICES.map((o) => fc("price", o.id, o.label, f.price === o.id)).join(""))
+    return g("Cena za noc dla 2 osób", PRICES.map((o) => fc("price", o.id, o.label, f.price === o.id)).join(""))
       + g("Rodzaj", KINDS.map((k) => fc("kind", k.id, k.one, f.kind === k.id)).join(""))
       + g("Gwiazdki", STARS.map(([v, l]) => fc("stars", v, l, f.stars === v)).join(""))
       + g("Ocena gości", RATES.map(([v, l]) => fc("rate", v, l, f.rate === v)).join(""))
@@ -188,7 +188,7 @@ const NOCL = (function () {
       <a class="act" href="${esc(nav)}" target="_blank" rel="noopener"><i>${ico("navi")}</i><span>Trasa</span></a>
     </div>
     <div class="sm">${p.stars || p.areaName || p.occ.length ? `<p>${esc(lead(p))}</p>` : ""}
-      ${p.price ? `<div class="sm-row"><i>${ico("coins")}</i><span>Orientacyjnie ${zl(p.price)} za noc${p.priceSrc === "strona" ? " (cennik na stronie obiektu)" : ND.meta.priceDate ? ` (${esc(ND.meta.priceDate)})` : ""}</span></div>` : ""}
+      ${p.price ? `<div class="sm-row"><i>${ico("coins")}</i><span>Ok. ${zl(p.price)} za noc dla 2 osób (ok. ${zl(Math.round(p.price / 20) * 10)} za osobę)${p.priceSrc === "strona" ? ", według cennika na stronie obiektu" : p.priceSrc && p.priceSrc.startsWith("termin:") ? `, termin ${esc(p.priceSrc.slice(7))}` : ND.meta.priceDate ? `, ${esc(ND.meta.priceDate)}` : ""}</span></div>` : `<div class="sm-row"><i>${ico("coins")}</i><span>${p.www ? "Cena nieznana, sprawdź na stronie obiektu" : "Cena nieznana, zapytaj w obiekcie"}</span></div>`}
       ${p.checkin || p.checkout ? `<div class="sm-row"><i>${ico("clock")}</i><span>${[p.checkin ? "Zameldowanie od " + p.checkin : "", p.checkout ? "wymeldowanie do " + p.checkout : ""].filter(Boolean).join(", ")}</span></div>` : ""}
     </div>
     <div class="thumbs">${ph.slice(1, 9).map((u, i) => `<button data-nvi="${i + 1}"><img src="${img(u, 360, 290)}" alt="" loading="lazy" referrerpolicy="no-referrer" class="fi"></button>`).join("")}</div>

@@ -64,6 +64,8 @@ SKIP_EXTRA = {"Dla niepalących", "Wi-Fi", "Płatne Wi-Fi", "Śniadanie", "Płat
 
 def main():
     det = json.load(open(D))
+    CF = "/home/claude/gz/data/noclegi_ceny.json" if os.path.exists("/home/claude/gz/data/noclegi_ceny.json") else os.path.join(R, "dane", "noclegi_ceny.json")
+    CENY = json.load(open(CF)) if os.path.exists(CF) else {}
     rest = json.load(open(os.path.join(REPO, "data", "places.json")))["places"]
     wyk = set(KUR.get("wykluczone", []))
     out, seen, unknown = [], set(), {}
@@ -111,11 +113,16 @@ def main():
         desc = "\n".join(x for x in (d.get("desc") or []) if x)
         revs = [t for t in (d.get("review_texts") or []) if 40 < len(t) < 700]
         priceSrc = descSrc = None
+        # cena: tylko jedna miara = noc z piątku na sobotę, 2 osoby (noclegi_ceny.py); inne terminy z Google odrzucamy
+        d = dict(d, price=None)
+        for dt, opis in KUR.get("ceny_terminy", []):
+            c = CENY.get(pid, {}).get(dt, {})
+            if c.get("price"): d["price"] = c["price"]; priceSrc = ("termin:" + opis) if opis else None; break
         uz = KUR.get("uzupelnienia", {}).get(name, {})
         if uz:
             if "www" in uz: www = uz["www"]
             if uz.get("desc") and not desc: desc, descSrc = uz["desc"], "strona"
-            if uz.get("price") and d.get("price") is None: d = dict(d, price=uz["price"]); priceSrc = "strona"
+            if uz.get("price") and d.get("price") is None: d = dict(d, price=uz["price"]); priceSrc = "strona"  # tylko cennik za pokój dla 2 osób
             for k2 in ("checkin", "checkout"):
                 if uz.get(k2) and not d.get(k2): d = dict(d, **{k2: uz[k2]})
             amen = sorted(set(amen) | set(uz.get("amen", [])), key=list(AMAP).index)
