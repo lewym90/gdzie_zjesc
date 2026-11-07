@@ -1,5 +1,5 @@
 "use strict";
-const APP_V = "20261107-195629";
+const APP_V = "20261107-202032";
 /* Gdzie zjeść: przeglądarka lokali. Tylko wyświetla dane z data/places.json. */
 
 const ICO = {
@@ -129,7 +129,7 @@ function filtered() {
     if (f.type && p.type !== f.type) return false;
     if (f.open && openState(p, now) !== true) return false;
     if (words.length) {
-      const hay = p._hay || (p._hay = norm([p.name, p.category, p.address, p.cuisines.map(cuisineLabel).join(" "), typeLabel(p.type)].join(" ")));
+      const hay = p._hay || (p._hay = norm([p.name, p.gname, p.category, p.address, p.cuisines.map(cuisineLabel).join(" "), typeLabel(p.type)].join(" ")));
       if (!words.every((w) => hay.includes(w))) return false;
     }
     return true;
@@ -618,7 +618,7 @@ function nameShared() {
   document.querySelectorAll('.vt,[style*="view-transition-name"]').forEach((e) => { e.classList.remove("vt"); e.style.viewTransitionName = ""; });
   const h = location.hash;
   let el = null;
-  if (h.startsWith("#/lokal/") || h.startsWith("#/n/obiekt/")) el = document.querySelector(`#hstrip img[data-vi="${VT_I}"]`);
+  if (/^#\/(lokal\/|[a-z]+\/obiekt\/)/.test(h)) el = document.querySelector(`#hstrip img[data-vi="${VT_I}"]`);
   else if (VT_ID) { const c = document.querySelector(`.pc[data-id="${CSS.escape(VT_ID)}"] .strip img`); el = c; }
   if (el) { el.classList.add("vt"); el.style.viewTransitionName = "ph"; }
 }

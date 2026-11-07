@@ -6,7 +6,9 @@
   "Apartamenty Sławinkowskie",
   "Noclegi",
   "YOUR APARTMENT UNIA ART RESIDENCE",
-  "Zajazd Ułański"
+  "Zajazd Ułański",
+  "Pokoje w Lublinie",
+  "Old House Sienna 21"
  ],
  "nazwy": {
   "Hotel Wieniawski i Restauracja Trzy Romanse": "Hotel Wieniawski",
@@ -275,19 +277,29 @@
    "checkout": "11:00"
   },
   "Cent Hostel": {
-   "www": null
+   "www": null,
+   "desc": "Tani hostel w kamienicy przy ul. Ewangelickiej, tuż przy centrum; skromne pokoje, wspólne łazienki, parkowanie tylko na ulicy.",
+   "zrodlo": "opinie"
   },
   "Rodmos Hostel": {
-   "www": null
+   "www": null,
+   "desc": "Budżetowy hostel przy ul. 3 Maja w centrum, z pokojami wieloosobowymi i wspólną kuchnią; czysto w pokojach, ale wejście i klatka są zaniedbane.",
+   "zrodlo": "opinie"
   },
   "Apartamenty Lubartowska Street": {
-   "www": null
+   "www": null,
+   "desc": "Pokoje z łazienkami w kamienicy przy ul. Lubartowskiej, blisko centrum, ze wspólną kuchnią i balkonem; część z aneksem kuchennym.",
+   "zrodlo": "opinie"
   },
   "Kujawska Rooms": {
-   "www": null
+   "www": null,
+   "desc": "Budżetowe pokoje w stylu hostelu przy ul. Kujawskiej, ze wspólną kuchnią i parkingiem.",
+   "zrodlo": "opinie"
   },
   "Pokoje Beskidzka": {
-   "www": null
+   "www": null,
+   "desc": "Duże pokoje i apartamenty z kuchnią i łazienką przy ul. Beskidzkiej, w zielonej okolicy ok. 4 km od centrum, z ogrodem i przystankiem obok.",
+   "zrodlo": "strona"
   },
   "Apartamenty Wieniawa": {
    "price": 210
@@ -300,6 +312,94 @@
   },
   "Redwood Hostel": {
    "price": 210
+  },
+  "Hotel Mercure Lublin Centrum": {
+   "desc": "Sieciowy hotel przy al. Racławickich, obok Ogrodu Saskiego, z restauracją, siłownią i parkingiem; goście chwalą śniadania i obsługę.",
+   "zrodlo": "opinie"
+  },
+  "Foto Hostel Lublin": {
+   "desc": "Odnowiony hostel w centrum przy ul. Lipowej z dużą wspólną kuchnią i czystymi, wspólnymi łazienkami; bez śniadań, parking nie jest gwarantowany.",
+   "zrodlo": "opinie"
+  },
+  "Hostel Pod Basztą Lublin": {
+   "desc": "Klimatyczny hostel przy ul. Królewskiej, tuż przy Starym Mieście, z artystycznie urządzonymi wnętrzami, wyposażoną kuchnią i kilkoma łazienkami.",
+   "zrodlo": "opinie"
+  },
+  "RS Suites Centrum": {
+   "desc": "Designerskie apartamenty w kamienicy przy ul. Kowalskiej na Starym Mieście, blisko zamku; wysokie wnętrza z żyrandolami i aneksy kuchenne.",
+   "zrodlo": "opinie"
+  },
+  "Apartamenty Krakowskie 36": {
+   "desc": "Przestronne apartamenty w zabytkowej kamienicy przy deptaku na Krakowskim Przedmieściu, dobrze wyposażone, z kuchnią; bez windy, wieczorem gwar z ulicy.",
+   "zrodlo": "opinie"
+  },
+  "Eleganckie noclegi w Lublinie": {
+   "desc": "Pokoje i apartamenty przy ul. Hirszfelda w cichej okolicy, w zasięgu spaceru od centrum; prywatne łazienki i wyposażona kuchnia wspólna dla piętra.",
+   "zrodlo": "opinie"
+  },
+  "NaNoc": {
+   "desc": "Pokoje przy ul. Hirszfelda, blisko dużych szpitali, z parkingiem i Wi-Fi; część pokoi z aneksem kuchennym.",
+   "zrodlo": "opinie"
+  },
+  "Noclegi PTP": {
+   "desc": "Kwatery z kuchnią przy ul. Krańcowej, blisko sklepów, z parkingiem; nastawione raczej na dłuższe pobyty, np. pracownicze.",
+   "zrodlo": "opinie"
+  },
+  "Carmelito Apartments": {
+   "desc": "Małe pokoje przy Bramie Krakowskiej, z kosmetykami i kapciami; kody do drzwi odbiera się w kawiarni na parterze.",
+   "zrodlo": "opinie"
+  },
+  "Noclegi Północna": {
+   "desc": "Pokoje z aneksem kuchennym przy ul. Zbożowej, na obrzeżach miasta, z parkingiem.",
+   "zrodlo": "opinie"
+  },
+  "Apartments Targowa 3": {
+   "desc": "Nowe, czyste apartamenty przy ul. Targowej, blisko Starego Miasta, zamku i targowiska, z parkingiem za zamykaną bramą.",
+   "zrodlo": "opinie"
+  },
+  "Noclegi na wzgórzu": {
+   "desc": "Niedrogie, czyste pokoje z łazienkami i TV, z wyposażoną kuchnią i dużym parkingiem, w pobliżu IKEA; od centrum dość daleko.",
+   "zrodlo": "opinie"
+  },
+  "77 Kraśnicka Apartments": {
+   "desc": "Niedrogie apartamenty przy ul. Frankowskiego, w spokojnej okolicy w pobliżu al. Kraśnickiej, z parkingiem.",
+   "zrodlo": "opinie"
+  },
+  "M&B Apartments": {
+   "desc": "Niewielkie apartamenty na osiedlu przy ul. Nowy Świat, blisko sklepów i komunikacji miejskiej; parkowanie w wąskich uliczkach.",
+   "zrodlo": "opinie"
+  },
+  "Apartamenty Narutowicza 11": {
+   "desc": "Duże, wyremontowane apartamenty z wysokimi sufitami w kamienicy przy ul. Narutowicza, kilka kroków od Starego Miasta; wieczorem bywa głośno.",
+   "zrodlo": "opinie"
+  },
+  "Villa Merlini": {
+   "desc": "Klimatyczne pokoje w kamienicy przy ul. Grodzkiej na Starym Mieście, z widokiem na zamek i galerią sztuki na parterze; bez śniadań.",
+   "zrodlo": "opinie"
+  },
+  "Apartamenty Prusa 8B": {
+   "desc": "Apartamenty przy ul. Prusa, blisko zamku i centrum, w strefie płatnego parkowania; od ulicy bywa głośno.",
+   "zrodlo": "opinie"
+  },
+  "Easy Rent Aperta Art": {
+   "desc": "Apartamenty w nowym budynku Unia Art Residence przy al. Racławickich, z windą, klimatyzacją i parkingiem w cenie; łóżeczko dla dziecka za dopłatą.",
+   "zrodlo": "opinie"
+  },
+  "Unia Art Residence": {
+   "desc": "Nowoczesne apartamenty w nowym budynku przy al. Racławickich, z recepcją i szybkimi windami; na parterze piekarnia, sklep i restauracje.",
+   "zrodlo": "opinie"
+  },
+  "Apartamenty Od Kuchni": {
+   "desc": "Pokoje przy ul. Grodzkiej na Starym Mieście, przy restauracji, ze śniadaniami i klimatyzacją.",
+   "zrodlo": "opinie"
+  },
+  "Hostel Borelowskiego 2i": {
+   "desc": "Niedrogi hostel przy ul. Borelowskiego z dwiema kuchniami i czterema łazienkami, blisko sklepów.",
+   "zrodlo": "opinie"
+  },
+  "Fontana Boutique": {
+   "desc": "Nowe apartamenty z aneksem kuchennym w odnowionej kamienicy przy ul. Kowalskiej, naprzeciw zamku; z windą, bez recepcji.",
+   "zrodlo": "opinie"
   }
  },
  "ceny_terminy": [
@@ -317,7 +417,12 @@
   "cenrum": "centrum",
   "centurm": "centrum",
   "przzy": "przy",
-  "idelanie": "idealnie"
+  "idelanie": "idealnie",
+  "niepełnosprawnch": "niepełnosprawnych",
+  " sie ": " się ",
+  "gościprzygotowaliśmy": "gości przygotowaliśmy",
+  "Buisness Center": "Business Center",
+  "lublińskiego": "lubelskiego"
  },
  "zdjecia": {
   "Centrum Konferencyjne Hotel Focus": {

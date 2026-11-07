@@ -1,5 +1,5 @@
 """Buduje app/data/places.json z data/details.json (+ menu.json jeśli jest)."""
-import json, re, os, unicodedata
+import json, re, os, sys, unicodedata
 
 D = "/home/claude/gz/data"
 det = json.load(open(f"{D}/details.json"))
@@ -174,12 +174,20 @@ for p in places:
 # ręczne korekty po przeglądzie (kuchnie, zdjęcia)
 for p in places:
     if p["id"] in KOR["kuchnie"]: p["cuisines"] = KOR["kuchnie"][p["id"]]
+    elif not p["cuisines"] and p["type"] in ("restauracja", "fastfood") and re.search(r"garmaż|stołówk|bar mleczny|obiad|jadłodajn|domow|bufet|zestawy obiadowe|kuchnia smakosza|smaki u jadzi|placki|plackarn", low(p["name"] + " " + p["category"])): p["cuisines"] = ["polska"]
     z = KOR["zdjecia"].get(p["id"])
     if z:
         ph = p["_allphotos"]; first = ph[z["pierwsze"]] if z["pierwsze"] < len(ph) else ph[0]
         rest = [u for i, u in enumerate(ph) if i not in z["usun"] and u != first]
         p["photos"] = [first] + rest[:11]
 for p in places: p.pop("_allphotos", None)
+# porządne nazwy (id i dopasowania kuracji zostają na nazwie z Map – pole gname)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from nazwy import czysc
+for p in places:
+    n = KOR.get("nazwy", {}).get(p["name"]) or czysc(p["name"])
+    if n != p["name"]: p["gname"], p["name"] = p["name"], n
+    if not p["category"]: p["category"] = {"pub": "Pub", "bar": "Bar"}.get(p["type"], "Restauracja")
 
 # ranking: bayesian score
 for p in places:

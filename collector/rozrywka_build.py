@@ -111,14 +111,15 @@ def main():
     occ_r = KUR.get("z_restauracji_okazje", {})
     for grupa, spec in KUR.get("z_restauracji", {}).items():
         for r in rest:
-            if r["name"].lower() in have or r["name"] in KUR.get("wykluczone_z_restauracji", []): continue
-            if not (r.get("type") in spec.get("typy", []) or r["name"] in spec.get("nazwy", [])): continue
+            gn = r.get("gname", r["name"])
+            if r["name"].lower() in have or gn.lower() in have or gn in KUR.get("wykluczone_z_restauracji", []): continue
+            if not (r.get("type") in spec.get("typy", []) or gn in spec.get("nazwy", [])): continue
             dr = km((r["lat"], r["lng"]), CITY["rynek"]) * 1000 if r.get("lat") else None
-            occ = [o for o, lst in occ_r.items() if "*" in lst or r["name"] in lst]
-            nm = KUR.get("nazwy", {}).get(r["name"], r["name"])
+            occ = [o for o, lst in occ_r.items() if "*" in lst or gn in lst]
+            nm = KUR.get("nazwy", {}).get(gn, r["name"])
             occ += [o for o in ["dzieci", "randka", "znajomi", "firma", "urodziny"] if nm in KUR.get(o, []) and o not in occ]
             out.append({
-                "id": "r-" + r["id"], "name": KUR.get("nazwy", {}).get(r["name"], r["name"]), "kind": grupa, "category": KUR.get("kategorie_rest", {}).get(r["name"]) or r.get("category") or "Klub",
+                "id": "r-" + r["id"], "name": nm, "kind": grupa, "category": KUR.get("kategorie_rest", {}).get(gn) or r.get("category") or "Klub",
                 "rating": r.get("rating"), "reviews": r.get("reviews") or 0, "address": r.get("address") or "",
                 "lat": r.get("lat"), "lng": r.get("lng"), "www": r.get("www"), "phone": re.sub(r"^[^\d+]+", "", r.get("phone") or "").strip() or None, "gmaps": r.get("gmaps"),
                 "photos": r["photos"][:12], "desc": "", "descSrc": None, "priceText": None, "link": None, "age": None,
@@ -126,7 +127,7 @@ def main():
                 "dRynek": round(dr) if dr is not None else None, "areaName": ("Stare Miasto" if dr <= 650 else "Centrum" if dr <= 1600 else "") if dr is not None else "",
                 "rest": r["id"], "fromRest": True, "reviewsText": (r.get("reviewsText") or [])[:8],
             })
-            have.add(r["name"].lower())
+            have.add(r["name"].lower()); have.add(gn.lower())
     # ręczne uzupełnienia (opis, cena, godziny) także dla miejsc z Restauracji
     SKR = {"pon": 0, "wt": 1, "śr": 2, "czw": 3, "pt": 4, "sob": 5, "nd": 6}
     def godziny(txt):  # "pon–pt 10:00–20:00, sob–nd 9:00–21:00" -> słownik jak z Map

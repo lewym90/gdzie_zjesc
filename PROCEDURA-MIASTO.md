@@ -120,3 +120,8 @@ Dane w `data/noclegi.json`, widoki w `nocl.js`, adresy `#/n/...` (`#/n`, `#/n/wy
 - Telefony: build usuwa ukryty znak ikonki z Map (U+E0B0) – bez tego link „zadzwoń” był błędny.
 - Adresy i godziny: obowiązują te z Map Google (najbardziej aktualne); inne serwisy często mają stare adresy – nie poprawiamy na ich podstawie.
 - Kluby/stowarzyszenia bez stałego miejsca (np. „Legia Paintballowa” – klub fanów) wykluczamy.
+
+## 10. Nazwy, kontrola całości
+- Nazwy restauracji porządkuje `collector/nazwy.py` (bez „Lublin”, bez opisów po myślniku, bez WIELKICH LITER i form prawnych; oddział sieci jako „Nazwa · Felicity”). Ręczne wyjątki: `korekty.json` → `nazwy`. Oryginał z Map zostaje w polu `gname` (wyszukiwarka, kuracja, Rozrywka dopasowują po nim; id się nie zmienia).
+- Ograniczony widok Map Google pokazuje dla części lokali godziny tylko na dziś (gdy mają kilka grafików, np. „Kuchnia”) – pełnego tygodnia nie da się wtedy pobrać; zostają bez godzin, chyba że poda je strona lub OSM.
+- Pełny przegląd: crawl wszystkich kart (`scripts_n/crawl.py`: błędy JS, puste widoki, niewczytane zdjęcia), przegląd tras (`trasy.py`), słownik pl_PL (spylls) na opisach, losowa próbka zdjęć.

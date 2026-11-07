@@ -132,7 +132,7 @@ def main():
         uz = KUR.get("uzupelnienia", {}).get(name, {})
         if uz:
             if "www" in uz: www = uz["www"]
-            if uz.get("desc") and not desc: desc, descSrc = uz["desc"], "strona"
+            if uz.get("desc") and not desc: desc, descSrc = uz["desc"], uz.get("zrodlo", "strona")
             if uz.get("price") and d.get("price") is None: d = dict(d, price=uz["price"]); priceSrc = "strona"  # tylko cennik za pokój dla 2 osób
             for k2 in ("checkin", "checkout"):
                 if uz.get(k2) and not d.get(k2): d = dict(d, **{k2: uz[k2]})
