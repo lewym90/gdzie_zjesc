@@ -1,0 +1,988 @@
+{
+ "_opis": "Relaks: tylko miejsca opisane tutaj trafiają do aplikacji. Klucz = id z Map Google.",
+ "miejsca": {
+  "0x472257448c61912d:0x47944262bb8b296": {
+   "nazwa": "Essence Massage · Pielgrzymia",
+   "rodzaj": "masaz",
+   "kategoria": "Salon masażu tajskiego",
+   "opis": "Salon masaży tajskich i orientalnych z japońskimi rytuałami Kobido i Hadado na twarz. W ofercie m.in. masaż tajski tkanek głębokich, balijski, Lomi Lomi, stemple ziołowe i gorące kamienie, a także kilkugodzinne rytuały z peelingiem i poczęstunkiem, również dla dwojga. Masaże odbywają się przy świecach i spokojnej muzyce.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "prezent"
+   ],
+   "cena": "Masaż tajski tkanek głębokich 60 min – 220 zł",
+   "cennik": "https://www.essencemassage.pl/cennik1/"
+  },
+  "0x4722578540d3c68b:0xec43201c6581eaf1": {
+   "nazwa": "Spa Orkana",
+   "rodzaj": "baseny",
+   "kategoria": "Baseny i strefa saun",
+   "opis": "Kompleks z basenem rekreacyjnym z hydromasażami, dwoma torami pływackimi i jacuzzi oraz strefą saun: fińską, suchą z aromaterapią i parową, uzupełnioną grotą lodową. Saunamistrzowie prowadzą seanse, a zwykle w ostatni piątek miesiąca odbywają się nocne seanse saunowe. Do tego masaże, rytuały Comfort Zone i pakiety dla dwojga z kolacją.",
+   "zrodlo": "strona",
+   "ma": [
+    "sauna",
+    "jacuzzi",
+    "basen",
+    "masaz",
+    "laznia",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "znajomi",
+    "prezent"
+   ],
+   "cena": "Baseny i sauny 75 min – od 38 zł",
+   "cennik": "https://spaorkana.pl/cennik/"
+  },
+  "0x4722571a9cb9766f:0x3baceb752e4f5bee": {
+   "nazwa": "Essence Massage · Racławickie",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Kameralny gabinet na pierwszym piętrze kamienicy przy Alejach Racławickich, nastawiony na masaże orientalne i ajurwedyjskie: abhyangę, balijski, Lomi Lomi, tajski oraz autorski masaż fusion z gorącymi kamieniami. Są tu też masaże klasyczne, zabiegi pielęgnacyjne na ciało i zabiegi modelujące sylwetkę.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "prezent"
+   ],
+   "cena": "Masaż abhyanga 60 min – 220 zł",
+   "cennik": "https://www.essencemassage.pl/cennik2/"
+  },
+  "0x472259b643db827b:0xe7b36af7cd1466c1": {
+   "nazwa": "Agit Hotel Congress & Spa",
+   "rodzaj": "spa",
+   "kategoria": "Hotelowe spa",
+   "opis": "Hotelowe centrum spa z gabinetami masażu oraz zabiegów na twarz i ciało na kosmetykach Thalgo i Skeyndor. Można tu skorzystać z sauny solnej infrared, łaźni parowej, tężni solankowej i kąpieli dla dwojga. Masaże obejmują m.in. Lomi Lomi, gorące kamienie, świecę i czekoladę, a rytuał Thalgo Iles Pacifique można połączyć z jacuzzi.",
+   "zrodlo": "strona",
+   "ma": [
+    "sauna",
+    "laznia",
+    "tezn",
+    "jacuzzi",
+    "masaz",
+    "zabiegi"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "znajomi"
+   ],
+   "cena": "Sauna solna infrared i łaźnia parowa 60 min – 40 zł",
+   "cennik": "https://agit.com.pl/spa/",
+   "godziny_uwaga": "Strefa spa dostępna też dla gości spoza hotelu – zabiegi po wcześniejszej rezerwacji.",
+   "nocleg": "agit-hotel-congress-spa-466c1"
+  },
+  "0x4722574476b16293:0xc393b1bf14ed2799": {
+   "nazwa": "HatiThai · Wigilijna",
+   "rodzaj": "masaz",
+   "kategoria": "Salon masażu balijskiego",
+   "opis": "Salon urządzony w balijskim stylu, specjalizujący się w masażach orientalnych: balijskim (także na ciepłych olejkach), tajskim, hawajskim Lomi Lomi oraz masażu stóp z refleksologią. W ofercie są również masaż twarzy z elementami Kobido, delikatny masaż dla kobiet w ciąży i rytuały spa, w tym dla dwojga. Vouchery można kupić online.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "prezent"
+   ],
+   "cena": "Masaż tajski 60 min – 209 zł",
+   "cennik": "https://hatithai.pl/oferta/"
+  },
+  "0x472257bc1e26895d:0x6323852a382e931c": {
+   "nazwa": "Czary Pary",
+   "rodzaj": "sauna",
+   "kategoria": "Sauna z seansami",
+   "opis": "Kameralna sauna wśród drzew na Tytoniach, mieszcząca około 20 osób, z seansami prowadzonymi przez saunamistrzów. Goście chwalą naturalne olejki i swobodny klimat, a po seansie można posiedzieć przy ognisku pod gołym niebem. Na miejscu są przebieralnie i prysznice.",
+   "zrodlo": "opinie",
+   "ma": [
+    "sauna"
+   ],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ]
+  },
+  "0x472259cd2cb02925:0xfefb9874ee50f476": {
+   "nazwa": "Spa Juda „Morze w Mieście”",
+   "rodzaj": "grota",
+   "kategoria": "Sala solna",
+   "opis": "Sala solna do haloterapii, w której można odpocząć na leżakach pod kocem przy relaksacyjnej muzyce, a dzieci mają do dyspozycji zabawki, gry planszowe i trampolinę. Odbywają się tu też ćwiczenia w małych grupach połączone z inhalacją solanką, a właścicielka wykonuje masaże. Sala jest ozonowana po każdej sesji.",
+   "zrodlo": "opinie",
+   "ma": [
+    "grota",
+    "masaz"
+   ],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ]
+  },
+  "0x47225775e08a59bd:0x695bd92843f19505": {
+   "nazwa": "Well Spa",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Gabinet masażu prowadzony przez masażystkę Adę, oferujący masaże ciała relaksacyjne i lecznicze oraz masaż głowy i masaż twarzy. Goście opisują wnętrze pachnące olejkami, przytłumione światło i nastrojową muzykę, a siłę nacisku dopasowuje się do życzenia, łącznie z bardzo delikatnym masażem.",
+   "zrodlo": "opinie",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ]
+  },
+  "0x47225b934ec04f95:0xc9cecf83a4649082": {
+   "nazwa": "NutriSpa",
+   "rodzaj": "zabiegi",
+   "kategoria": "Gabinet masażu i kosmetologii",
+   "opis": "Gabinet Moniki Wójcickiej łączący kosmetologię z masażami: klasycznymi, leczniczymi, relaksacyjnymi, gorącymi kamieniami i aromaterapeutycznymi, a także z rytuałami na ciało, m.in. czekoladowym, różanym i lawendowym. W ofercie są też zabiegi modelujące sylwetkę i porady dietetyczne, a część usług można wykonać z dojazdem do domu.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "zabiegi"
+   ],
+   "okazje": [
+    "solo"
+   ]
+  },
+  "0x472257c817fdf2ff:0x816e52baa75eccf5": {
+   "nazwa": "Magia Orientu",
+   "rodzaj": "masaz",
+   "kategoria": "Salon masażu orientalnego",
+   "opis": "Salon masaży orientalnych, ajurwedyjskich i relaksacyjnych. W cenniku są m.in. abhyanga na ciepłym oleju, ratnaabhyanga z ciepłymi kamieniami półszlachetnymi, masaż bambusami i miotełkami, czekoladowo-kokosowy oraz aromaterapeutyczny. Według opinii klienci są okrywani ciepłym ręcznikiem i częstowani aromatyczną herbatą.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Masaż abhyanga 60 min – 250 zł",
+   "cennik": "http://magia-orientu.eu/cennik"
+  },
+  "0xafceb0358d328891:0x672afd103450c830": {
+   "nazwa": "Masu",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu i head spa",
+   "opis": "Gabinet masażu prowadzony przez Monikę, znany z japońskiego head spa – wieloetapowego rytuału łączącego masaż i oczyszczanie skóry głowy, aromaterapię oraz masaż twarzy, szyi i karku. W ofercie są też masaże pleców, nóg i bioder, klasyczny masaż głowy, stemple ziołowe, bańki i drenaż limfatyczny.",
+   "zrodlo": "siec",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Japońskie head spa 90 min – od 250 zł",
+   "cennik": "https://booksy.com/pl-pl/329567_masu_masaz_6832_lublin"
+  },
+  "0x4722582935fa14b1:0xa07bc513cfc9fda1": {
+   "nazwa": "Instytut RegeneriS",
+   "rodzaj": "zabiegi",
+   "kategoria": "Instytut zabiegów i masażu",
+   "opis": "Instytut łączący kosmetologię i fizjoterapię, z szeroką ofertą masaży: klasycznych, psychosomatycznych, masażu głowy i masażu miodem, a także odmładzających masaży twarzy, w tym Kobido. W strefie Babor Spa wykonuje się rytuały na ciało z peelingiem solnym, masażem szczotkami i odżywczym otuleniem.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "prezent"
+   ],
+   "cena": "Masaż klasyczny/relaksacyjny 60 min – 219 zł",
+   "cennik": "https://regeneris-lublin.pl/fizjoterapia/"
+  },
+  "0x4722f98e9af08c11:0x5238eb81ad503f50": {
+   "nazwa": "Kobido · Pod Kasztanami",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu Kobido",
+   "opis": "Gabinet specjalizujący się w japońskim masażu twarzy Kobido, mieszczący się w budynku Hotelu Pod Kasztanami nad Zalewem Zemborzyckim. Trwający około godziny rytuał to manualny lifting twarzy, szyi i dekoltu, poprzedzony krótką rozmową o potrzebach skóry. To nieinwazyjna propozycja dla osób szukających relaksu i pielęgnacji bez igieł.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Masaż Kobido ok. 60 min – 200 zł",
+   "cennik": "https://kobido-lublin.pl/masaz-kobido-lublin-cena/"
+  },
+  "0xb9a0781b2b54d5:0x8cb6d76371c2d340": {
+   "nazwa": "Studio Masażu – Marcin Wysokiński",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Jednoosobowe studio prowadzone przez masażystę, który wcześniej pracował jako informatyk, kierowane zwłaszcza do osób zmęczonych pracą i stresem. Oferuje masaż klasyczny, balijski, Lomi Lomi, tajski stóp i twarzy, gorące kamienie, masaż bambusami oraz ajurwedyjskie: abhyangę, udvartanę i rytuał shirodhara.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "prezent"
+   ],
+   "cena": "Masaż balijski 60 min – 190 zł",
+   "cennik": "https://booksy.com/pl-pl/328186_studio-masazu-marcin-wysokinski_masaz_6832_lublin"
+  },
+  "0x472257d9041acf35:0xec822586095f8099": {
+   "nazwa": "Holiterapis",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Salon masażu prowadzony przez Fundację O Zdrowie Dbaj, oferujący masaże klasyczne, relaksacyjne, sportowe i limfatyczne oraz masaże wspierające regenerację po kontuzjach i zabiegach. Każdą wizytę poprzedza krótka rozmowa o potrzebach, a siłę nacisku można zmienić w trakcie. Wizytę można odbyć także po angielsku.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "prezent"
+   ]
+  },
+  "0x4722574993b84935:0x77e26894880401ba": {
+   "nazwa": "Edelweiss",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Gabinet masażu w centrum, przy ul. Niecałej. Masaż całego ciała zaczyna się od obmycia stóp ciepłą wodą z olejkiem eterycznym, a kończy masażem głowy; w ofercie są też masaże ciepłą świecą, pleców, stóp i karku oraz autorski liftingujący masaż twarzy.",
+   "zrodlo": "siec",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Masaż relaksacyjny całego ciała 90 min – 220 zł",
+   "cennik": "https://booksy.com/pl-pl/292833_edelweiss-masaz-lublin_masaz_6832_lublin",
+   "godziny_uwaga": "Wizyty po wcześniejszej rezerwacji."
+  },
+  "0x472259b1bb2a4c07:0xa33026cd2fc1755d": {
+   "nazwa": "Dotyk Relaksu",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Autorski gabinet masażu i fizjoterapii, w którym obok masaży przeciwbólowych i terapii manualnej są masaże relaksacyjne: klasyczny, autorskie Dotyk Relaksu i Dotyk Ukojenia oraz masaż resetujący ciało i układ nerwowy. W ofercie także Kobido, diamentowy lifting twarzy z kawiorem i romantyczny masaż dla dwojga przy świecach.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "prezent"
+   ],
+   "cena": "Masaż relaksacyjny klasyczny 60 min – 250 zł",
+   "cennik": "https://www.dotykrelaksu.pl/cennik/"
+  },
+  "0x472259de0da01cff:0x3d11d8fc53dc3660": {
+   "nazwa": "Marta Masuje",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Kameralny gabinet przy Alei Warszawskiej, w którym odbywają się masaże relaksacyjne, masaż pleców, ciepłą świecą i bańką chińską, a także Kobido, japoński masaż liftingujący i masaż głowy. Masaż dla dwojga wykonywany jest w klimatycznej sali przy kominku. Prowadząca organizuje też zajęcia pilates w małych grupach.",
+   "zrodlo": "siec",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje"
+   ],
+   "cena": "Masaż relaksacyjny 60 min – 170 zł",
+   "cennik": "https://booksy.com/pl-pl/189195_marta-masuje_masaz_6832_lublin",
+   "godziny_uwaga": "Godziny zmienne – wizyty po wcześniejszej rezerwacji."
+  },
+  "0x47225767ef26ac3b:0x664368e182e62f35": {
+   "nazwa": "Szkoła Jogi Tomasza Miszczuka",
+   "rodzaj": "joga",
+   "kategoria": "Szkoła jogi",
+   "opis": "Szkoła jogi działająca od 1995 roku, założona przez lekarza Tomasza Miszczuka. Początkujący mogą przyjść bez zapisów na sesje od poniedziałku do piątku o 16:45, a w grafiku są też sesje relaksacyjne z elementami masażu tajskiego oraz relaks z dźwiękiem mis i dzwonów. Szkoła akceptuje karty Multisport i FitProfit.",
+   "zrodlo": "strona",
+   "ma": [],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ],
+   "cena": "Pierwsza sesja – 60 zł",
+   "cennik": "https://joga.lublin.pl/oferta/jak-zaczac/",
+   "godziny_uwaga": "Szkoła czynna zgodnie z grafikiem zajęć."
+  },
+  "0x5a95ece36673457:0xf3a2361023c27476": {
+   "nazwa": "Hvile",
+   "rodzaj": "joga",
+   "kategoria": "Studio jogi",
+   "opis": "Studio jogi i uważnego ruchu na pierwszym piętrze kamienicy przy Krakowskim Przedmieściu, prowadzone przez Agnieszkę Staniak, certyfikowaną nauczycielkę jogi. Zajęcia grupowe prowadzone są z indywidualnym podejściem, a uczestnicy chwalą m.in. zajęcia slow, jogę klasyczną i warsztaty automasażu twarzy.",
+   "zrodlo": "strona",
+   "ma": [],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ],
+   "godziny_uwaga": "Zajęcia odbywają się według grafiku."
+  },
+  "0x472259398f7da5f1:0x1242d296dde32da": {
+   "nazwa": "The Honey Lounge",
+   "rodzaj": "masaz",
+   "kategoria": "Studio masażu i head spa",
+   "opis": "Studio łączące salon fryzjerski specjalizujący się we włosach afro z częścią masażu i pielęgnacji. W ofercie są masaż klasyczny, głęboki i sportowy, afrykański, masaż stóp i afrykański masaż głowy, a także head spa, akupresura twarzy i zabiegi na twarz z ziołowymi mieszankami. Vouchery można kupić online.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "prezent"
+   ],
+   "cena": "Masaż klasyczny/relaksacyjny całego ciała 60 min – 180 zł",
+   "cennik": "https://www.thehoneylounge.pl/"
+  },
+  "0x47225756687bca97:0x5aa582dd459a3b6c": {
+   "nazwa": "Dotyk Spokoju",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet refleksologii",
+   "opis": "Gabinet refleksologii działający w centrum ProFizjo, prowadzony przez specjalistkę refleksoterapii i masażu. W ofercie jest refleksologia stóp i twarzy, także z akupresurą, Rytuał Spokoju obejmujący twarz, głowę i szyję oraz relaksacyjny masaż pleców, karku, rąk i nóg. Zabiegi można też zamówić z dojazdem do domu.",
+   "zrodlo": "siec",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Refleksologia stóp 55 min – 170 zł",
+   "cennik": "https://booksy.com/pl-pl/299434_profizjo-rehabilitacja-masaz-refleksologia-terapia-zoga-face-kobido-studio-jogi_fizjoterapia_6832_lublin",
+   "adres": "Rotmistrza Witolda Pileckiego 15, 20-093 Lublin"
+  },
+  "0x4722570dcfe3295d:0xb6d2cd62cbdb0f42": {
+   "nazwa": "Ozi Spa & Wellness",
+   "rodzaj": "masaz",
+   "kategoria": "Salon masażu i rytuałów spa",
+   "opis": "Gabinet w Hotelu Arche łączący różne tradycje masażu: japońskie Kobido, koreańskie Korugi, ajurwedyjską abhyangę i shirodharę, masaż kryształami górskimi, świecą czy gorącą czekoladą. W ofercie są też pakiety day spa, w tym dla par. Spokojne miejsce dla osób szukających wyciszenia albo pomysłu na prezent.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "prezent"
+   ],
+   "cena": "Masaż relaksacyjny całego ciała 60 min – 290 zł",
+   "cennik": "https://ozispa.pl/",
+   "adres": "Zamojska 30, 20-105 Lublin (Hotel Arche)",
+   "nocleg": "arche-hotel-lublin-ee090"
+  },
+  "0x472257cd3f642041:0x753c3c6440e6b991": {
+   "nazwa": "Amari Spa",
+   "rodzaj": "masaz",
+   "kategoria": "Salon masażu tajskiego",
+   "opis": "Salon masażu tajskiego, w którym pracują terapeutki szkolone w tajskich szkołach masażu. Goście chwalą zarówno masaż relaksacyjny, jak i intensywny masaż zdrowotny oraz rytuał dla dwojga „Romeo i Julia”. Obsługa pomaga dobrać rodzaj masażu do potrzeb, co ułatwia pierwszą wizytę.",
+   "zrodlo": "opinie",
+   "ma": [
+    "masaz",
+    "voucher"
+   ],
+   "okazje": [
+    "dwoje",
+    "solo",
+    "prezent"
+   ],
+   "cena": "Tajski masaż zdrowotny Thai Health 60 min – 279 zł (pon–czw), 299 zł (pt–nd)",
+   "cennik": "https://amarispa.pl/lublin/"
+  },
+  "0x472257458591c78b:0x807f6b5226508160": {
+   "nazwa": "Forum Spa & Wellness",
+   "rodzaj": "spa",
+   "kategoria": "Strefa spa i saun",
+   "opis": "Klub fitness z rozbudowaną częścią spa: w strefie relaksu są sauna fińska i aromatyczna, dwie pięcioosobowe wanny z hydromasażem i komnata z tężnią solną. Do tego kapsuła floatingowa, masaże (m.in. gorącymi kamieniami, czekoladą, Kobido) oraz pakiety dla dwojga.",
+   "zrodlo": "strona",
+   "ma": [
+    "sauna",
+    "jacuzzi",
+    "tezn",
+    "masaz",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "znajomi",
+    "prezent"
+   ],
+   "cena": "Strefa relaksu i saun 90 min – od 49 zł",
+   "cennik": "https://fitnessclubforum.pl/cennik-spa/",
+   "godziny": "pon–pt 15:00–21:45, sob 09:30–20:45, nd 10:30–19:45",
+   "godziny_uwaga": "Godziny strefy relaksu i saun; wejście po wcześniejszej rezerwacji, także dla gości spoza hotelu.",
+   "nocleg": "hotel-forum-fitness-spa-wellness-71a25"
+  },
+  "0x47225741c6f7fa05:0x924670bc0e96b828": {
+   "nazwa": "Alter Spa & Wellness",
+   "rodzaj": "spa",
+   "kategoria": "Hotelowe spa",
+   "opis": "Spa w piwnicach XVI-wiecznej kamienicy na Starym Mieście, 9 m pod ziemią. Jest basen 10 × 5 m z hydromasażem, gejzerem i kurtyną wodną, jacuzzi, sauna sucha i łaźnia parowa z aromaterapią, a w gabinetach zabiegi orientalne i ajurwedyjskie oraz pielęgnacja kosmetykami Sothys.",
+   "zrodlo": "strona",
+   "ma": [
+    "basen",
+    "jacuzzi",
+    "sauna",
+    "laznia",
+    "masaz",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "znajomi",
+    "prezent"
+   ],
+   "cena": "Wejście do strefy wody i saun 60 min – 80 zł",
+   "cennik": "https://wa-uploads.profitroom.com/hotelalter/17782483472543_AlterSpaZabiegiA4Luty2025.pdf",
+   "godziny": "pon–nd 08:00–22:00",
+   "godziny_uwaga": "Godziny strefy wody i saun (sauny od 11:00), masaże wt–nd 10:00–20:00. Strefa spa dostępna też dla gości spoza hotelu – wejście po rezerwacji.",
+   "dla": "Strefa wody i saun tylko dla dorosłych",
+   "nocleg": "hotel-alter-6b828"
+  },
+  "0x4722f7cefabdc299:0xaf05c25468211b1f": {
+   "nazwa": "Hotel Korona Spa & Wellness",
+   "rodzaj": "spa",
+   "kategoria": "Hotelowe spa",
+   "opis": "Hotelowe spa w Zemborzycach z basenem z hydromasażami i brodzikiem, jacuzzi wewnętrznym i zewnętrznym, sauną suchą, łaźnią parową, tężnią i pokojem wypoczynku z muzykoterapią. W gabinetach są rytuały ajurwedyjskie i balijskie, masaże oraz zabiegi na twarz Skeyndor. Dobre miejsce także dla rodzin.",
+   "zrodlo": "strona",
+   "ma": [
+    "basen",
+    "jacuzzi",
+    "sauna",
+    "laznia",
+    "tezn",
+    "masaz",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "znajomi",
+    "prezent"
+   ],
+   "cena": "Wejście do strefy wodnej 75 min – od 38 zł",
+   "cennik": "https://www.hotel-korona.com/spa-wellness/cennik-spa",
+   "godziny": "pon–nd 10:00–22:00",
+   "godziny_uwaga": "Godziny strefy wodnej (ostatnie wejście 20:30); sauny pon–pt od 16:00, w weekendy od 11:00. Strefa dostępna też dla gości spoza hotelu – wejście po rezerwacji telefonicznej.",
+   "nocleg": "hotel-korona-spa-wellness-11b1f"
+  },
+  "0x472259faabe8a341:0x78935c00f5070c7b": {
+   "nazwa": "Pijat Bali",
+   "rodzaj": "masaz",
+   "kategoria": "Salon masażu balijskiego",
+   "opis": "Studio masażu balijskiego w naturalnych, przytulnych wnętrzach inspirowanych Bali. Oprócz masażu balijskiego są masaże tajski, relaksacyjny i aromaterapeutyczny, rytuały spa z peelingiem, liftingujący masaż twarzy oraz masaż dla dwojga. Vouchery można kupić przez stronę.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "prezent"
+   ],
+   "cena": "Masaż balijski 60 min – 220 zł",
+   "cennik": "https://pijatbali.pl/nasza-oferta/masaz-balijski"
+  },
+  "0x4722576ea00b541b:0x4cdf92870b9a7ada": {
+   "nazwa": "Vita Soma",
+   "rodzaj": "masaz",
+   "kategoria": "Studio masażu",
+   "opis": "Studio masażu w klimatycznym wnętrzu starej kamienicy w centrum, przy świetle lamp solnych i świec. Wykonuje masaże głęboko relaksujące, ciepłym masłem shea, sportowe, terapeutyczne pleców, antycellulitowe, drenaż z kompresoterapią oraz liftingujący masaż twarzy Kobido. Do dyspozycji bezpłatny parking.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Masaż głęboko relaksujący 60 min – 160 zł",
+   "cennik": "https://vitasoma.pl/?page_id=107",
+   "godziny_uwaga": "Wizyty po wcześniejszej rezerwacji."
+  },
+  "0x47225702c3308183:0x361dd4681c95778b": {
+   "nazwa": "LubHotel",
+   "rodzaj": "spa",
+   "kategoria": "Hotelowa strefa saun",
+   "opis": "Hotelowa strefa relaksu z tradycyjną sauną fińską (do pięciu osób, także na wyłączność) i japońską sauną Ganbanyoku, czyli kamiennymi łóżkami nagrzanymi do 40–45°C. Na miejscu można zamówić 60-minutowy masaż klasyczny lub sportowy, a pakiety saun przygotowano również dla dwojga.",
+   "zrodlo": "strona",
+   "ma": [
+    "sauna",
+    "masaz"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "znajomi"
+   ],
+   "cena": "Sauna japońska Ganbanyoku 60 min – 80 zł, dla dwojga 160 zł",
+   "cennik": "https://www.lubhotel.pl/udogodnienia/spa",
+   "godziny_uwaga": "Sauna fińska jest przeznaczona dla gości hotelu (17:00–22:00, godziny do uzgodnienia); seans w saunie japońskiej Ganbanyoku rezerwuje się w recepcji.",
+   "nocleg": "lubhotel-5778b"
+  },
+  "0x4722570d7d3fb123:0x4f59ebbfe7dd091b": {
+   "nazwa": "Aqua Lublin",
+   "rodzaj": "baseny",
+   "kategoria": "Park wodny ze strefą saun",
+   "opis": "Duży kompleks z aquaparkiem (jacuzzi, leżanki bąbelkowe, hydromasaże, sztuczna fala, zjeżdżalnie, podgrzewany basen zewnętrzny) i basenem olimpijskim. Dla dorosłych jest beztekstylne saunarium z seansami prowadzonymi przez saunamistrzów, w czwartki Ladies Night. Na miejscu działa też gabinet masażu.",
+   "zrodlo": "strona",
+   "ma": [
+    "basen",
+    "jacuzzi",
+    "sauna",
+    "masaz"
+   ],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ],
+   "cena": "Saunarium z aquaparkiem 75 min – od 47 zł",
+   "cennik": "https://mosir.lublin.pl/obiekty/aqua-lublin/cennik/",
+   "dla": "Saunarium dla osób od 18 lat"
+  },
+  "0x472257440ebb2daf:0x82e000b5ecac8cde": {
+   "nazwa": "Czas na relaks",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Kameralny gabinet z ofertą skupioną na relaksie i pielęgnacji twarzy: masaż całego ciała, również gorącą świecą, japońskie Kobido, hiszpański chiromasaż i facelifting powięziowy, drenaż limfatyczny oraz masaż stóp i masaż rąk z maską parafinową. Można kupić karnet lub voucher podarunkowy.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "prezent"
+   ],
+   "cena": "Relaksacyjny masaż całego ciała – 220 zł",
+   "cennik": "https://www.czas-na-relaks.com/cennik"
+  },
+  "0x47225767074f371f:0x87c978e74421bca3": {
+   "nazwa": "Medusa Masaż",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Gabinet masażu na Czubach, w którym relaks łączy się z pracą nad napięciami mięśni. W ofercie masaż relaksacyjny, klasyczny, sportowy, antycellulitowy, masaż stóp i autorski dwugodzinny Rytuał Medusa; można zacząć od konsultacji za symboliczną złotówkę. Klienci chwalą efekty przy bólach karku i pleców.",
+   "zrodlo": "siec",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Masaż relaksacyjny 60 min – 159 zł",
+   "cennik": "https://booksy.com/pl-pl/242735_medusa-masaz_masaz_6832_lublin",
+   "adres": "Bursztynowa 35A, 20-576 Lublin"
+  },
+  "0x472257f4b9f1884f:0xf21b1c84a659a5c5": {
+   "nazwa": "Rajska Wyspa",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Salon masażu, w którym przed zabiegiem masażyści dokładnie dopytują o dolegliwości i miejsca wymagające uwagi. Klienci opisują masaże relaksacyjne, masaż ciepłą świecą, pracę przy bólach kręgosłupa oraz masaż dla dwojga w spokojnej, przyjaznej atmosferze.",
+   "zrodlo": "opinie",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje"
+   ]
+  },
+  "0x47225774b8021eeb:0xd1bfebc34594ff0d": {
+   "nazwa": "Gabinet masażu Arek Wójcicki",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Gabinet dyplomowanego masażysty z wieloletnim doświadczeniem, także w pracy ze sportowcami. Oferta obejmuje masaż tajski (również stóp), Lomi Lomi, masaże gorącymi kamieniami, czekoladą, świecą i masłem shea, Kobido, bańkę chińską oraz masaż tkanek głębokich. Dostępne są vouchery upominkowe.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "prezent"
+   ],
+   "cena": "Masaż klasyczny 60 min – 150 zł",
+   "cennik": "https://arekmasuje.pl/cennik/"
+  },
+  "0x472259005079cfc7:0x2d8c9e0d7779d185": {
+   "nazwa": "Tężnia solankowa Sławinek",
+   "rodzaj": "grota",
+   "kategoria": "Tężnia solankowa",
+   "opis": "Ogólnodostępna tężnia solankowa na Sławinku przy ul. Zajączka, otwarta w kwietniu 2025 roku jako miejsce do inhalacji solanką na świeżym powietrzu. Spokojny przystanek na krótki odpoczynek podczas spaceru po okolicy, zwłaszcza w ciepłe dni.",
+   "zrodlo": "siec",
+   "ma": [
+    "tezn"
+   ],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ]
+  },
+  "0x47225835612ee0df:0x9d8b202305008c75": {
+   "nazwa": "Szkoła jogi Joganga",
+   "rodzaj": "joga",
+   "kategoria": "Szkoła jogi",
+   "opis": "Szkoła jogi prowadzona przez certyfikowanych nauczycieli metody Iyengara. Zajęcia odbywają się w Centrum Rekreacyjno-Sportowym Uniwersytetu Przyrodniczego: grupa ogólna dostępna dla początkujących, grupa zaawansowana oraz łagodna joga dla seniorów. Szkoła organizuje też warsztaty i wyjazdy z jogą.",
+   "zrodlo": "strona",
+   "ma": [],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ],
+   "cena": "Jednorazowe zajęcia – 50 zł",
+   "cennik": "https://joganga.eu/platnosci"
+  },
+  "0x4722592a0b5bd7c3:0xba59247384149ac9": {
+   "nazwa": "Studio Jogi Harmonia",
+   "rodzaj": "joga",
+   "kategoria": "Studio jogi",
+   "opis": "Studio jogi z zajęciami hatha i vinyasa, spokojną jogą yin, kundalini, a także jogą dla kobiet w ciąży i dla mam z dziećmi; najmłodsi mogą ćwiczyć aerial silk. Studio organizuje również wyjazdy z jogą. Zapisy i karnety przez aplikację eFitness, bez długoterminowych umów.",
+   "zrodlo": "strona",
+   "ma": [],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ],
+   "godziny_uwaga": "Zajęcia według grafiku – zapisy przez aplikację eFitness."
+  },
+  "0x472257a67ec69fd1:0xac53b3f91b3ec129": {
+   "nazwa": "Harmony Kobido & Bowen",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu twarzy Kobido",
+   "opis": "Gabinet specjalizujący się w masażach twarzy Kobido i Korugi oraz w terapii powięzi metodą Bowena. Klienci opisują odprężoną, promienną skórę i uniesiony owal twarzy po masażu Kobido, a także ulgę w napięciach ciała po zabiegach Bowena. Kameralne miejsce łączące pielęgnację z relaksem.",
+   "zrodlo": "opinie",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "godziny_uwaga": "Godziny otwarcia nie są podane – wizytę najlepiej umówić telefonicznie."
+  },
+  "0x47225945a13e4a5d:0xd29c8c3c140b4d26": {
+   "nazwa": "Refleksologia i Lifting Ewa Wasińska",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet refleksologii i masażu twarzy",
+   "opis": "Gabinet refleksologii i naturalnego liftingu twarzy. W ofercie refleksologia stóp, dłoni i twarzy, około 70-minutowy tajski masaż stóp z podudziami, Kobido i Hadado, masaż powięziowy Face Lift z bańkami, a także masaże ciała, m.in. relaksacyjny i Lomi Lomi Nui. Muzyka i aromaterapia sprzyjają wyciszeniu.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "zabiegi"
+   ],
+   "okazje": [
+    "solo"
+   ]
+  },
+  "0x472257d8eab65051:0x397eba76a20107bb": {
+   "nazwa": "Shivago Spa",
+   "rodzaj": "masaz",
+   "kategoria": "Salon masażu tajskiego",
+   "opis": "Salon masażu orientalnego, w którym pracują masażystki z Tajlandii i Bali, a wnętrze łączy nowoczesny design z tajskimi i indonezyjskimi akcentami. W ofercie m.in. tradycyjny masaż tajski, balijski, Lomi Lomi, gorące kamienie, stemple ziołowe, Kobido i head spa, a także rytuały z jacuzzi i prosecco – również dla dwojga.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "jacuzzi",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "znajomi",
+    "prezent"
+   ],
+   "cena": "Tradycyjny masaż tajski 60 min – 210 zł",
+   "cennik": "https://shivago.pl/oferta-lublin/"
+  },
+  "0x4722574c98485349:0xd96dc53faf331619": {
+   "nazwa": "WellnessPRO Club",
+   "rodzaj": "sauna",
+   "kategoria": "Strefa saun na wyłączność",
+   "opis": "Klub łączący siłownię i kosmetologię z kameralną strefą relaksu wynajmowaną na wyłączność: z sauną fińską lub infrared, kabiną parową z hydromasażem, balią i strefą schładzania z wiadrem fińskim. Do pobytu można dobrać kąpiel piwną lub winną, rytuały Kurland, masaże dla dwojga albo grupowy seans ruskiej bani.",
+   "zrodlo": "strona",
+   "ma": [
+    "sauna",
+    "masaz",
+    "zabiegi"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "znajomi"
+   ],
+   "cena": "Strefa relaksu z sauną infrared na wyłączność 60 min – 100 zł (1 os.), 65 zł/os. (2 os.)",
+   "cennik": "https://wellnessproclub.pl/spa/"
+  },
+  "0x472259aacedca057:0xbf59569d5c031f7b": {
+   "nazwa": "Aura Head Spa",
+   "rodzaj": "masaz",
+   "kategoria": "Head spa",
+   "opis": "Kameralny gabinet head spa. Podstawowy rytuał obejmuje masaż na sucho akcesoriami, oczyszczenie i dwuetapowe mycie skóry głowy, około 40-minutowy masaż relaksacyjny głowy z elementami akupresury oraz terapię parową na naturalnych, wegańskich kosmetykach. Są też wersje z masażem dekoltu i ramion, rytuał dla mężczyzn i terapia twarzy Zoga.",
+   "zrodlo": "siec",
+   "ma": [
+    "masaz",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "prezent"
+   ],
+   "cena": "Head Spa z suszeniem (włosy do ramion) – od 300 zł",
+   "cennik": "https://auraheadspa.booksy.com/",
+   "godziny_uwaga": "Wizyty po wcześniejszej rezerwacji przez Booksy."
+  },
+  "0x472257e3d3397fc5:0xd5623e8432ad3141": {
+   "nazwa": "Vayu Studio Masażu",
+   "rodzaj": "masaz",
+   "kategoria": "Studio masażu ajurwedyjskiego",
+   "opis": "Studio masażu ajurwedyjskiego z autorskimi rytuałami na ciepłych olejach z organicznymi olejkami eterycznymi, które kończy aromaterapeutyczna kąpiel w zabytkowej wannie. W ofercie także Lomi Lomi Nui, masaż głowy shiroabhyanga, masaż twarzy kamiennymi kształtkami Upala oraz rytuał dla dwojga, a nastrój budują stonowane światło, muzyka i ciepło kominka.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "prezent"
+   ],
+   "cena": "Rytuał Abhyanga Vayu z kąpielą 60 min – 295 zł",
+   "cennik": "https://vayu.com.pl/oferta-i-cennik/",
+   "adres": "Gabriela Narutowicza 48, 20-016 Lublin"
+  },
+  "0x47225999ee8027a3:0x5bad8d6958dd95a9": {
+   "nazwa": "Vyspa – Paulina Burek",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu twarzy",
+   "opis": "Gabinet kosmetolożki i certyfikowanej instruktorki jogi twarzy, poświęcony naturalnym terapiom twarzy: masażom Kobido i Korugi, masażowi transbukalnemu, Zoga Face Integration i Facemodeling Program™. Odbywają się tu również kameralne, dwugodzinne warsztaty automasażu i jogi twarzy, także dla grup prywatnych.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "znajomi",
+    "prezent"
+   ],
+   "cena": "Masaż Kobido 75 min – 250 zł",
+   "cennik": "https://paulinaburek.pl/gabinet/",
+   "godziny_uwaga": "Wizyty po wcześniejszej rezerwacji przez Booksy."
+  },
+  "0x4722570003a75e5b:0xff6b20a0b2b40667": {
+   "nazwa": "Pracownia Relaksu",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Gabinet masażystki Marty, która dobiera techniki indywidualnie do napięć i dolegliwości klienta. W ofercie masaż rozluźniający, masaż całego ciała ciepłym olejkiem, refleksoterapia stóp i japońskie Kobido – także jako rytuał z peelingiem enzymatycznym i maseczką – a ponadto terapia blizn i masaż dla kobiet w ciąży.",
+   "zrodlo": "siec",
+   "ma": [
+    "masaz",
+    "zabiegi"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Masaż całego ciała ciepłym olejkiem 60 min – 220 zł",
+   "cennik": "https://www.fresha.com/pl/a/pracownia-relaksu-masaz-i-refleksoterapia-tumidajskiego-lublin-tumidajskiego-2-jgkjixhv",
+   "adres": "Kazimierza Tumidajskiego 2, 20-247 Lublin"
+  },
+  "0x4722590030bb18b3:0x595b8a57c6481a9b": {
+   "nazwa": "Sayumi Beauty & Spa",
+   "rodzaj": "zabiegi",
+   "kategoria": "Gabinet kosmetologiczny i spa",
+   "opis": "Gabinet kosmetologiczny, który obok zabiegów na twarz i ciało prowadzi rozbudowaną ofertę masaży: aromaterapeutycznego, aromatyczną świecą, głowy, karku i ramion oraz japońskiego Kobido. Osobną kategorię stanowią masaże dla dwojga, m.in. gorącymi kamieniami bazaltowymi, odżywczym olejem i świecą.",
+   "zrodlo": "siec",
+   "ma": [
+    "masaz",
+    "zabiegi",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "dwoje",
+    "prezent"
+   ],
+   "cena": "Japoński masaż Kobido (wizyta 90 min) – 280 zł",
+   "cennik": "https://booksy.com/pl-pl/101484_sayumi-beauty-spa_salon-kosmetyczny_6832_lublin"
+  },
+  "0x472257b6575edac1:0x290d51e546a22e7a": {
+   "nazwa": "Harmonijne Piękno – masaż twarzy",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu twarzy",
+   "opis": "Gabinet kosmetolożki i bioterapeutki twarzy, specjalizującej się w manualnych technikach odmładzania. Wykonuje japoński lifting Kobido (również w wersji 3D i z tejpami), facemodeling i nano-lifting, prowadzi jogę twarzy stacjonarnie lub online oraz lekcje automasażu, a w ofercie jest także refleksologia stóp.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "zabiegi"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Japoński lifting (Kobido) – 230 zł",
+   "cennik": "https://harmonijnepiekno.pl/cennik/"
+  },
+  "0x472259256739ae69:0xd98235f92ad9652b": {
+   "nazwa": "Kobido Paulina Paszkiewicz",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu twarzy",
+   "opis": "Gabinet masażu twarzy, w którym bazą jest klasyczne Kobido, uzupełniane w razie potrzeby elementami Zoga Face Integration, terapii powięziowej czy masażu transbukalnego. W ofercie także Korugi oraz dwugodzinny Rytuał Kobido Relaks z masażem pleców, karku i barków, a taping estetyczny jest w cenie każdego zabiegu.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "voucher"
+   ],
+   "okazje": [
+    "solo",
+    "prezent"
+   ],
+   "cena": "Kobido 75 min – 250 zł",
+   "cennik": "https://www.kobidolublin.pl/"
+  },
+  "0x472257c1e8690053:0xa2d57e4089e01584": {
+   "nazwa": "Thairapy Massage",
+   "rodzaj": "masaz",
+   "kategoria": "Salon masażu tajskiego",
+   "opis": "Gabinet tradycyjnego masażu tajskiego z zespołem terapeutów z Tajlandii, urządzony w ciepłych barwach z tajskimi motywami i roślinnością. Oprócz klasycznego masażu tajskiego są tu masaż olejkami aromatycznymi, gorącym olejem, gorącymi kamieniami i stemplami ziołowymi, Kobido oraz masaż dla dwojga.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz",
+    "voucher"
+   ],
+   "okazje": [
+    "dwoje",
+    "solo",
+    "prezent"
+   ],
+   "cena": "Tradycyjny masaż tajski 60 min – 180 zł",
+   "cennik": "https://thairapy.com.pl/cennik/"
+  },
+  "0x472259000241cc0b:0xbe7a758e6cdfb542": {
+   "nazwa": "Magia Dotyku Massage",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Kameralny gabinet masażu pani Oksany, którego wnętrze goście opisują jako nastrojowe: ze świecami, przygaszonym światłem, muzyką i korzennymi zapachami. W ofercie masaż relaksacyjny ciała i pleców, gorące kamienie, drenaż limfatyczny, Kobido, masaż transbukalny i hiszpański lifting twarzy.",
+   "zrodlo": "siec",
+   "ma": [
+    "masaz",
+    "zabiegi"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Masaż relaksacyjny ciała 60 min – 200 zł",
+   "cennik": "https://magiadotykumassage.booksy.com/a/"
+  },
+  "0x887c6bb76346b547:0x374d2965a79486fc": {
+   "nazwa": "Siła Masażu",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Gabinet masażu prowadzony przez pana Damiana, do którego klienci przychodzą zarówno po odprężenie, jak i z bólami pleców czy napięciem mięśni po treningach. Opinie wymieniają masaż relaksacyjny i leczniczy oraz masaż głowy, który pomaga przy napięciowych bólach głowy.",
+   "zrodlo": "opinie",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ]
+  },
+  "0x472259f9dc54af45:0xbfa5c2a3ea6fb612": {
+   "nazwa": "OdNowa Gabinet Masażu",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Gabinet Moniki Durdy, masażystki z dyplomem technika masażysty, łączący masaż ciała z terapią twarzy. W ofercie Kobido (także z elementami Zoga Face Integration), masaż Hadado, masaż relaksacyjny gorącym masłem shea lub świecą oraz masaż klasyczny i przeciwbólowy, a zabiegi można też zamówić z dojazdem do domu.",
+   "zrodlo": "strona",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "cena": "Masaż relaksacyjny masłem shea lub świecą 60 min – 220 zł",
+   "cennik": "https://masaz.monikadurda.pl/oferta"
+  },
+  "0x4722574f743f3e3d:0x3ea419d41849feea": {
+   "nazwa": "Solania – Jaskinia Solna",
+   "rodzaj": "grota",
+   "kategoria": "Grota solna",
+   "opis": "Jaskinia solna z kaskadą solankową, w której odbywają się 50-minutowe seanse inhalacyjne. W grocie prowadzone są też zajęcia jogi, pilatesu, zdrowego kręgosłupa i gimnastyki słowiańskiej, koncerty mis kryształowych oraz relaks w dźwiękach Tybetu, a na miejscu działa gabinet masażu.",
+   "zrodlo": "strona",
+   "ma": [
+    "grota",
+    "masaz"
+   ],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ],
+   "cena": "Seans inhalacyjny 50 min – 30 zł (ulgowy 25 zł)",
+   "cennik": "https://grotasolna-lublin.pl/offer/1/seanse-inhalacyjne"
+  },
+  "0x47225794161a504b:0xcf64ba9aa372b9a": {
+   "nazwa": "Mandragora Yaga Joga",
+   "rodzaj": "joga",
+   "kategoria": "Studio jogi",
+   "opis": "Studio jogi i psychoterapii, w którym zajęcia odbywają się w kameralnych, 8–10-osobowych grupach. Grafik obejmuje m.in. jogę yin, regeneracyjną, neurojogę, hathę, vinyasę i kundalini oraz sesje dźwiękowe, a obok jogi działają grupy terapeutyczne i ćwiczeniowe w metodzie Lowena.",
+   "zrodlo": "strona",
+   "ma": [],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ],
+   "cena": "Jednorazowe wejście – 69 zł",
+   "cennik": "https://www.mandragora-studio.pl/grafik-zajec-studia-jogi-w-lublinie/"
+  },
+  "0x47225743f0ffbd35:0xc01c30aab2aa1f96": {
+   "nazwa": "MantraSfera",
+   "rodzaj": "joga",
+   "kategoria": "Szkoła medytacji i jogi",
+   "opis": "Ośrodek stowarzyszenia Szkoła Medytacji i Samorealizacji, który prowadzi zajęcia hatha jogi dla początkujących i dla seniorów, bezpłatne kursy medytacji od podstaw oraz muzyczne medytacje. Odbywają się tu też wieczory z kirtanem, warsztaty tańca intuicyjnego i wegetariańskiej kuchni.",
+   "zrodlo": "strona",
+   "ma": [],
+   "okazje": [
+    "solo",
+    "znajomi"
+   ],
+   "cena": "Hatha joga dla początkujących – 25 zł, kurs medytacji bezpłatny",
+   "cennik": "https://www.mantra.pl/lublin/joga-dla-poczatkujacych"
+  },
+  "0x472257924b6f08ab:0x6f2ebf927cdf93bf": {
+   "nazwa": "Gabinet Masażu Kalatea",
+   "rodzaj": "masaz",
+   "kategoria": "Gabinet masażu",
+   "opis": "Kameralny gabinet masażu prowadzony przez panią Marię, którą klienci chwalą za uważność i wyczucie. W opiniach pojawiają się masaż całego ciała i głowy, masaż kręgosłupa, nóg i twarzy oraz spokojna atmosfera z nienarzucającą się muzyką; wejście do lokalu znajduje się od ul. Karmelickiej.",
+   "zrodlo": "opinie",
+   "ma": [
+    "masaz"
+   ],
+   "okazje": [
+    "solo"
+   ],
+   "adres": "Stanisława Staszica 5, 20-081 Lublin (wejście od ul. Karmelickiej)"
+  }
+ }
+}

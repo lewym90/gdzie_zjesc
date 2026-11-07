@@ -373,3 +373,8 @@ img.fi.ok{filter:none;transform:none}
 .app.cat-rz .big{background:linear-gradient(160deg,#1c1626,#100c16)}
 .app.cat-rz .fc.on{background:linear-gradient(160deg,#5a2a8a,#2a1240)}
 .app.cat-rz .btn.fill{background:linear-gradient(160deg,#5a2a8a,#2a1240);box-shadow:0 6px 20px rgba(42,18,64,.5)}
+.mk.rlmk{width:18px;height:18px;background:radial-gradient(circle at 35% 35%,#8fe3cf,#1d7a68 62%,#0f2b2a);border:2px solid #f1d48c}
+.mk-cl.rlcl{background:rgba(15,43,42,.94)}
+.app.cat-rl .big{background:linear-gradient(160deg,#122220,#0b1514)}
+.app.cat-rl .fc.on{background:linear-gradient(160deg,#1f6b5c,#0f2b2a)}
+.app.cat-rl .btn.fill{background:linear-gradient(160deg,#1f6b5c,#0f2b2a);box-shadow:0 6px 20px rgba(15,43,42,.5)}

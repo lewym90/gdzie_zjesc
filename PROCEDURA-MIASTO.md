@@ -125,3 +125,10 @@ Dane w `data/noclegi.json`, widoki w `nocl.js`, adresy `#/n/...` (`#/n`, `#/n/wy
 - Nazwy restauracji porządkuje `collector/nazwy.py` (bez „Lublin”, bez opisów po myślniku, bez WIELKICH LITER i form prawnych; oddział sieci jako „Nazwa · Felicity”). Ręczne wyjątki: `korekty.json` → `nazwy`. Oryginał z Map zostaje w polu `gname` (wyszukiwarka, kuracja, Rozrywka dopasowują po nim; id się nie zmienia).
 - Ograniczony widok Map Google pokazuje dla części lokali godziny tylko na dziś (gdy mają kilka grafików, np. „Kuchnia”) – pełnego tygodnia nie da się wtedy pobrać; zostają bez godzin, chyba że poda je strona lub OSM.
 - Pełny przegląd: crawl wszystkich kart (`scripts_n/crawl.py`: błędy JS, puste widoki, niewczytane zdjęcia), przegląd tras (`trasy.py`), słownik pl_PL (spylls) na opisach, losowa próbka zdjęć.
+
+## 11. Kategoria Relaks (Lublin, listopad 2026)
+- Prefiks `rl`, konfiguracja `relaks.js`, dane `data/relaks.json`, grafiki `img/banery/relaks-*.jpg` (7 rodzajów: spa, masaz, zabiegi, sauna, baseny, grota, joga; 4 okazje: dwoje, solo, znajomi, prezent) i `kat-relaks.jpg`.
+- Zbieranie: `collector/relaks_listing.py` (≈75 zapytań w Mapach) → `relaks_details_run.py` (filtr nazw: bez kosmetyki, klinik, fizjoterapii, siłowni, masażu erotycznego, „auto spa”) → strony WWW (`scripts_n/rlwww.py`).
+- Do aplikacji trafia WYŁĄCZNIE to, co jest w `kuracja_relaks.json` → `miejsca` (klucz = id z Map): nazwa, rodzaj, kategoria, opis (2–3 zdania, własnymi słowami), źródło, `ma`, okazje, cena ze strony/cennika, `cennik`, `godziny`/`godziny_uwaga`, `adres` (tylko gdy Mapy podają go nieczytelnie), `nocleg` (id w Noclegach – wtedy w Noclegach pokazuje się link „Spa na miejscu”).
+- Hotele tylko z prawdziwym spa (sauna, basen, jacuzzi lub zabiegi); zaznaczamy, czy wejdą goście spoza hotelu.
+- Dwie niezależne kontrole: kuracja (sprawdzenie stron i cenników), potem osobna weryfikacja każdego faktu; `relaks_kontrola.py` musi dać 0 błędów. Kolejność buildów: relaks_build → noclegi_build (link zwrotny).

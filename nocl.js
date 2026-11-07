@@ -89,7 +89,8 @@ const NOCL = (function () {
       const rest = p.rest && typeof BYID !== "undefined" && BYID[p.rest];
       return `<div class="row"><i>${ico("bed")}</i><div><b>Rodzaj:</b> ${esc(kindOne(p.kind).toLowerCase())}${p.stars ? `, ${p.stars} ${plural(p.stars, "gwiazdka", "gwiazdki", "gwiazdek")}` : ""}</div></div>
       ${p.amen.length ? `<div class="row"><i>${ico("key")}</i><div><b>Udogodnienia:</b> ${esc(AMEN.filter((a) => p.amen.includes(a.id)).map((a) => a.label[0].toLowerCase() + a.label.slice(1)).join(", "))}</div></div>` : ""}
-      ${rest ? `<a class="row lnk" href="#/lokal/${encodeURIComponent(rest.id)}"><i>${ico("cloche")}</i><div><b>Restauracja:</b> ${esc(rest.name)} ›</div></a>` : ""}`;
+      ${rest ? `<a class="row lnk" href="#/lokal/${encodeURIComponent(rest.id)}"><i>${ico("cloche")}</i><div><b>Restauracja:</b> ${esc(rest.name)} ›</div></a>` : ""}
+      ${p.relaks ? `<a class="row lnk" href="#/rl/obiekt/${encodeURIComponent(p.relaks)}"><i>${ico("lotus")}</i><div><b>Spa na miejscu:</b> zobacz w zakładce Relaks ›</div></a>` : ""}`;
     },
   });
 })();

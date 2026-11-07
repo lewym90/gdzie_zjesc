@@ -6,6 +6,8 @@ D = "/home/claude/gz/data/rozrywka_details.json"
 if not os.path.exists(D): D = os.path.join(R, "dane", "rozrywka_details.json")
 KUR = json.load(open(os.path.join(R, "kuracja_rozrywka.json")))
 DAYS = ["poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota", "niedziela"]
+def popraw_h(h):  # sklejone przedziały z Map: "06:00–02:0011:00–…" -> "06:00–02:00, 11:00–…"
+    return {k: re.sub(r"(\d{2}:\d{2})(\d{1,2}:\d{2})", r"\1, \2", v) for k, v in (h or {}).items()}
 def parse_hours(h):  # ta sama logika co w build_data.py
     out = {}
     for i, d in enumerate(DAYS):
@@ -93,7 +95,7 @@ def main():
         if "www" in uz: www = uz["www"]
         attrs = [a for a, v in (d.get("amen") or {}).items() if v]
         info = d.get("info") or []
-        hours = d.get("hours") or {}
+        hours = popraw_h(d.get("hours"))
         out.append({
             "id": pid, "name": name, "kind": kind, "category": KUR.get("kategorie", {}).get(raw) or KUR.get("kategorie", {}).get(cat) or cat or None,
             "rating": d.get("rating"), "reviews": d.get("reviews") or 0,

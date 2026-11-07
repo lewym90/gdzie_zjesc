@@ -69,6 +69,8 @@ def fotki(name, ph):
     out = [u for i, u in enumerate(ph) if i not in z.get("usun", []) and u != first]
     return ([first] if first else []) + out
 
+RJ = os.path.join(REPO, "data", "relaks.json")
+RELAKS = {p["nocl"]: p["id"] for p in json.load(open(RJ))["places"] if p.get("nocl")} if os.path.exists(RJ) else {}  # spa z zakładki Relaks
 def main():
     det = json.load(open(D))
     CF = "/home/claude/gz/data/noclegi_ceny.json" if os.path.exists("/home/claude/gz/data/noclegi_ceny.json") else os.path.join(R, "dane", "noclegi_ceny.json")
@@ -95,6 +97,7 @@ def main():
         seen.add(pid); seen.add(dk)
         am = d.get("amen") or {}
         amen = sorted({LAB2ID[l] for l, v in am.items() if v and l in LAB2ID}, key=list(AMAP).index)
+        amen = [a for a in amen if a not in KUR.get("amen_usun", {}).get(name, [])]  # błędne udogodnienia z Map
         extra = [l for l, v in am.items() if v and l not in LAB2ID and l not in SKIP_EXTRA]
         pos = (d["lat"], d["lng"])
         dr = km(pos, CITY["rynek"]) * 1000
@@ -146,7 +149,7 @@ def main():
             "www": www, "phone": re.sub(r"^[^\d+]+", "", d.get("phone") or "").strip() or None, "gmaps": d.get("gurl"),
             "photos": fotki(name, d["photos"])[:12], "desc": desc, "checkin": d.get("checkin"), "checkout": d.get("checkout"),
             "price": d.get("price"), "priceSrc": priceSrc, "descSrc": descSrc, "amen": amen, "amenAll": extra, "occ": occ, "area": area, "areaName": aname,
-            "dRynek": round(dr), "rest": rid, "reviewsText": revs[:8],
+            "dRynek": round(dr), "rest": rid, "relaks": RELAKS.get(pid), "reviewsText": revs[:8],
         })
     out.sort(key=lambda p: -(p["rating"] or 0) * math.log10(p["reviews"] + 10))
     bdir = os.path.join(REPO, "img", "banery")
