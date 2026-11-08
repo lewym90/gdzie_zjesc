@@ -378,3 +378,8 @@ img.fi.ok{filter:none;transform:none}
 .app.cat-rl .big{background:linear-gradient(160deg,#122220,#0b1514)}
 .app.cat-rl .fc.on{background:linear-gradient(160deg,#1f6b5c,#0f2b2a)}
 .app.cat-rl .btn.fill{background:linear-gradient(160deg,#1f6b5c,#0f2b2a);box-shadow:0 6px 20px rgba(15,43,42,.5)}
+.mk.zwmk{width:18px;height:18px;background:radial-gradient(circle at 35% 35%,#ffe2a3,#b8862f 62%,#3a2a10);border:2px solid #fff3d6}
+.mk-cl.zwcl{background:rgba(42,32,22,.94)}
+.app.cat-zw .big{background:linear-gradient(160deg,#241c12,#14100a)}
+.app.cat-zw .fc.on{background:linear-gradient(160deg,#9a6e22,#3a2a10)}
+.app.cat-zw .btn.fill{background:linear-gradient(160deg,#9a6e22,#3a2a10);box-shadow:0 6px 20px rgba(58,42,16,.5)}

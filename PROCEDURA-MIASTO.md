@@ -133,3 +133,13 @@ Dane w `data/noclegi.json`, widoki w `nocl.js`, adresy `#/n/...` (`#/n`, `#/n/wy
 - Hotele tylko z prawdziwym spa (sauna, basen, jacuzzi lub zabiegi); zaznaczamy, czy wejdą goście spoza hotelu.
 - Dwie niezależne kontrole: kuracja (sprawdzenie stron i cenników), potem osobna weryfikacja każdego faktu; `relaks_kontrola.py` musi dać 0 błędów. Kolejność buildów: relaks_build → noclegi_build (link zwrotny).
 - Okolice: Relaks obejmuje też miejsca do ok. 25 km od Rynku (granice administracyjne nie są wyznacznikiem – decyzja właściciela 7.11.2026). Dodatkowe wyszukiwania po miejscowościach (Świdnik, Jastków, Konopnica, Niemce, Wólka, Głusk, Mełgiew, Strzyżewice, Spiczyn, Bełżyce). Karta pokazuje wtedy miejscowość zamiast dzielnicy. Pole `bez_godzin` w kuracji ukrywa godziny z Map (np. tężnia sezonowa).
+
+## 12. Kategoria Zwiedzanie (Lublin, listopad 2026)
+- Prefiks `zw`, konfiguracja `zwiedzanie.js`, dane `data/zwiedzanie.json`, grafiki `img/banery/zwiedzanie-*.jpg` i `kat-zwiedzanie.jpg`.
+- **Rodzaje i okazje są OGÓLNE – takie same w każdym mieście** (decyzja właściciela: każde miasto ma mieć te same kafelki). Rodzaje: zabytki, zamki, muzea, swiatynie, pamiec, przyroda, nowoczesne, okolice. Okazje: pierwszy (must-see), dzieci, deszcz (pod dachem), darmo, wieczor, widoki. Nie wymyślamy kategorii pod konkretne miasto.
+- Zasięg do 50 km od Rynku. Wszystko dalej niż 15 km od Rynku ma rodzaj `okolice` (pilnuje `zwiedzanie_kontrola.py`).
+- Zbieranie: `collector/zwiedzanie_listing.py` (38 ogólnych zapytań + miejscowości w promieniu 50 km) → szybka ocena (`scripts_n/zw_quick.py`) → wybór kandydatów → `zwiedzanie_details_run.py` → strony WWW (`scripts_n/zwwww.py`).
+- Kuracja `kuracja_zwiedzanie.json` → `miejsca`: nazwa, rodzaj, kategoria, opis (max 420 znaków, własnymi słowami), źródło, okazje (min. 1), `czas` (np. „ok. 1 h” → filtr czasu), cena + `cennik`, `darmowe` (dni bezpłatne), `rezerwacja`, `dla` (dobrze wiedzieć), `godziny_uwaga`, `bez_godzin`, oraz nadpisania `www`/`adres`/`telefon` (null = usuń).
+- Teksty nie mogą zawierać dat konkretnego miesiąca/roku (np. „w listopadzie 2026”) – piszemy ogólnie i sezonowo, bo dane się zestarzeją.
+- Godziny z Map często są błędne dla muzeów i kościołów (godziny kancelarii, jeden termin wejścia, „całą dobę”) – wtedy `bez_godzin` + oficjalne godziny w `godziny_uwaga`.
+- Dwie niezależne kontrole: kuracja (4 agenty, źródła w `dowody`) i osobna weryfikacja faktów (4 agenty, wyniki nanoszone skryptem). Ceny usuwamy tylko, gdy są sprzeczne z oficjalnym cennikiem – nie wtedy, gdy weryfikator nie mógł otworzyć strony. Na koniec sprawdzenie wszystkich linków (martwe/zhakowane strony → `www: null`).

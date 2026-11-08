@@ -1,0 +1,1334 @@
+{
+ "miejsca": {
+  "0x4722576a6e65e645:0x92968f6edd894b11": {
+   "nazwa": "Lubelska Trasa Podziemna",
+   "rodzaj": "zabytki",
+   "kategoria": "Trasa podziemna",
+   "opis": "Licząca ok. 300 m trasa łączy staromiejskie piwnice, których historia sięga XVI wieku, i biegnie na głębokości 9–12 m od Trybunału Koronnego na Rynku w stronę placu Po Farze. Przewodnik opowiada dzieje Lublina przy makietach dawnego miasta, a na koniec czeka multimedialny pokaz Wielkiego Pożaru Lublina z 1719 roku. Pod ziemią jest chłodno – latem przyda się bluza.",
+   "zrodlo": "siec",
+   "okazje": [
+    "pierwszy",
+    "dzieci",
+    "deszcz"
+   ],
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Zwiedzanie wyłącznie z przewodnikiem, o ustalonych godzinach wejść (w weekendy więcej wejść niż w dni powszednie) – aktualny harmonogram i ceny biletów sprawdź na stronie Teatru NN lub w kasie w Trybunale Koronnym.",
+   "www": "https://teatrnn.pl/"
+  },
+  "0x4722576af6196557:0x7d71115727f5194b": {
+   "nazwa": "Wieża Trynitarska",
+   "rodzaj": "zabytki",
+   "kategoria": "Wieża widokowa z muzeum",
+   "opis": "Neogotycka dzwonnica archikatedry, nadbudowana ok. 1819 roku, mieści Muzeum Archidiecezji Lubelskiej z kolekcją rzeźby sakralnej. Wchodząc na taras widokowy 40 m nad ziemią, mija się unikatową drewnianą konstrukcję nośną, makietę nieistniejącej fary i dawne dzwony. Bilet łączony obejmuje też zakrystię akustyczną, skarbiec i krypty archikatedry.",
+   "zrodlo": "strona",
+   "okazje": [
+    "pierwszy",
+    "dzieci",
+    "deszcz",
+    "widoki"
+   ],
+   "cena": "Normalny 20 zł, ulgowy 15 zł (bilet łączony z archikatedrą: 26 zł / 18 zł)",
+   "cennik": "https://trynitarska.diecezja.lublin.pl/zwiedzanie/",
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Godziny zmieniają się sezonowo – od maja do października wieża czynna kilka dni w tygodniu, poza sezonem zwykle tylko w soboty. Aktualne godziny sprawdź na stronie.",
+   "dla": "Na taras prowadzą schody, także kręcone. Dzieci do 3. roku życia wchodzą bezpłatnie. Grupy powyżej 20 osób mogą zwiedzać w dni powszednie po rezerwacji.",
+   "bez_godzin": true
+  },
+  "0x4722576a1673b3b3:0xbe81b7be36b465c0": {
+   "nazwa": "Brama Krakowska – Muzeum Historii Miasta",
+   "rodzaj": "zabytki",
+   "kategoria": "Brama miejska z muzeum",
+   "opis": "Gotycka brama wzniesiona za Kazimierza Wielkiego po najeździe Tatarów w 1341 roku, z barokowym hełmem z 1782 roku, to symbol Lublina i główne wejście na Stare Miasto. W środku działa Muzeum Historii Miasta Lublina z wystawą o dziejach miasta do 1944 roku, a z najwyższej kondygnacji (ok. 36 m) widać panoramę centrum. Wieczorem brama jest podświetlona.",
+   "zrodlo": "strona",
+   "okazje": [
+    "pierwszy",
+    "deszcz",
+    "darmo",
+    "wieczor",
+    "widoki"
+   ],
+   "cena": "Muzeum: normalny 10 zł, ulgowy 8 zł; przejście przez bramę bezpłatne",
+   "cennik": "https://mnwl.pl/muzeum-historii-miasta-lublina/wizyta-w-oddziale-mhl/",
+   "darmowe": "w wybrane dni każdego miesiąca – terminy na stronie muzeum",
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Brama dostępna całą dobę; muzeum czynne wt–sob 10:00–17:00 (11 listopada nieczynne)."
+  },
+  "0x4722576a81690663:0xe8a6c1594512773c": {
+   "nazwa": "Bazylika i klasztor Dominikanów",
+   "rodzaj": "swiatynie",
+   "kategoria": "Bazylika i klasztor",
+   "opis": "Świątynię, której fundację tradycja wiąże z Kazimierzem Wielkim (1342), od XV wieku odwiedzali pielgrzymi przybywający do relikwii Krzyża Świętego. Warto obejrzeć wnętrze z licznymi kaplicami i obrazem „Pożar Lublina”, a w klasztornych krużgankach – historyczną Salę Unii Lubelskiej oraz skarbiec z wystawą zabytkowych szat liturgicznych i wyrobów złotniczych.",
+   "zrodlo": "strona",
+   "okazje": [
+    "pierwszy",
+    "deszcz",
+    "darmo"
+   ],
+   "cena": "Wstęp wolny (mile widziana dobrowolna ofiara)",
+   "cennik": "https://lublin.dominikanie.pl/zwiedzanie/",
+   "czas": "ok. 45 min",
+   "godziny": "pon–nd 9:00–17:00",
+   "godziny_uwaga": "Bazylika dostępna dla zwiedzających poza godzinami nabożeństw; skarbiec czynny codziennie 10:00–17:00."
+  },
+  "0x4722574057d30103:0x9f72fcc50c36e0e3": {
+   "nazwa": "Donżon – wieża zamkowa",
+   "rodzaj": "zamki",
+   "kategoria": "Wieża zamkowa z tarasem",
+   "opis": "Średniowieczna wieża obronno-mieszkalna z XIII lub początku XIV wieku – jedna z najstarszych budowli Lubelszczyzny – stoi na dziedzińcu Zamku Lubelskiego. Na kolejnych kondygnacjach wystawa przybliża historię wieży i zamkowego więzienia, także z czasów okupacji niemieckiej i więzienia komunistycznego (1944–1954), a z tarasu na szczycie roztacza się panorama Starego Miasta.",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci",
+    "widoki"
+   ],
+   "cena": "Normalny 10 zł, ulgowy 8 zł",
+   "cennik": "https://mnwl.pl/wizyta/ceny-biletow/",
+   "czas": "ok. 30 min",
+   "godziny_uwaga": "Według muzeum wieża jest czynna codziennie 9:00–19:00 (październik–marzec) i 9:00–20:00 (kwiecień–wrzesień); przy złej pogodzie może zostać zamknięta.",
+   "dla": "Bilet zbiorczy na Zamek Lubelski (ekspozycje stałe, Kaplica Trójcy Świętej, wieża) kosztuje 40 zł / 30 zł i jest dostępny tylko w kasie muzeum.",
+   "bez_godzin": true
+  },
+  "0x47225763fa1f6cd7:0x2c7440ff16a95023": {
+   "nazwa": "Muzeum Martyrologii „Pod Zegarem”",
+   "rodzaj": "pamiec",
+   "kategoria": "Muzeum martyrologii",
+   "opis": "W piwnicach gmachu, który od 1940 do 1944 roku był siedzibą gestapo, zachował się areszt z celami, ciemnicami i karcerem, a na ścianach – inskrypcje więźniów. Szacuje się, że w latach 1942–1944 zamordowano tu około 200 osób. Ekspozycja ma dwie części z osobnymi wejściami: od ul. Uniwersyteckiej 1 i od ul. Radziszewskiego 4.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "cena": "Normalny 10 zł, ulgowy 8 zł",
+   "cennik": "https://mnwl.pl/muzeum-martyrologii-pod-zegarem/wizyta-w-oddziale-mpz/",
+   "darmowe": "w wybrane dni każdego miesiąca – terminy na stronie muzeum",
+   "czas": "ok. 1 h",
+   "dla": "Płatność za bilety tylko gotówką. 11 listopada muzeum jest nieczynne.",
+   "www": "https://mnwl.pl/muzeum-martyrologii-pod-zegarem/"
+  },
+  "0x47225787489e8241:0x4c00a7142e5ee4f0": {
+   "nazwa": "Dom Koziołka Lubelskiego",
+   "rodzaj": "muzea",
+   "kategoria": "Interaktywny pokaz dla rodzin",
+   "opis": "Koziołek z herbu Lublina oprowadza gości po legendach i anegdotach z dziejów miasta w trwającym ok. 75 minut interaktywnym pokazie. Uczestnicy własnoręcznie wykonują pieczęć Lublina według najstarszego wzoru, zaglądają do kuchni z regionalnymi przysmakami i „odczarowują” Kamień Nieszczęścia. Świetna propozycja dla przedszkolaków i młodszych uczniów.",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci",
+    "deszcz"
+   ],
+   "cena": "Bilet 36 zł (dzieci do 1. roku życia bezpłatnie)",
+   "cennik": "https://domkoziolka.pl/oferty-i-bilety/",
+   "czas": "ok. 1,5 h",
+   "godziny_uwaga": "Wizyta tylko na pokaz o ustalonej godzinie: w dni powszednie kilka pokazów dziennie, w soboty o 12:00; w niedziele pokazy wyłącznie po wcześniejszym umówieniu.",
+   "rezerwacja": "Osoby indywidualne mogą w dni powszednie dołączyć do pokazów dla grup (jeśli są wolne miejsca) po wcześniejszej rezerwacji telefonicznej; w wakacje, ferie i okazjonalnie pokazy dla rodzin pon–sob o 12:00 – zalecana rezerwacja.",
+   "bez_godzin": true
+  },
+  "0x47225785b53f31b1:0x9bee696cf623fce2": {
+   "nazwa": "Podziemia Browaru Perła",
+   "rodzaj": "zabytki",
+   "kategoria": "Podziemia zabytkowego browaru",
+   "opis": "Podziemia mieszczą się w dawnym klasztorze i kościele reformatów, w którym w latach 1846–2001 warzono piwo; od 2014 roku są otwarte dla zwiedzających. Przewodnik opowiada o historii miejsca i kolejnych etapach produkcji piwa, a zwiedzanie kończy degustacja w dawnej leżakowni (dla pełnoletnich).",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "cena": "Normalny (z degustacją) 37 zł, ulgowy 22 zł (niepełnoletni od 6 lat), dzieci do 6 lat bezpłatnie",
+   "cennik": "https://perla.pl/atrakcje/podziemia-browaru/",
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Od września do maja wejścia indywidualne tylko w soboty (12:00, 13:00, 13:30, 14:30); od czerwca do sierpnia także w środy–piątki po południu oraz w soboty i niedziele.",
+   "rezerwacja": "Zwiedzanie tylko z przewodnikiem, o ustalonych godzinach; bilety na konkretny dzień i godzinę kupuje się online, a liczba miejsc jest ograniczona.",
+   "bez_godzin": true
+  },
+  "0x4722576841a00a39:0xce83b0deda479225": {
+   "nazwa": "Fontanna multimedialna na pl. Litewskim",
+   "rodzaj": "nowoczesne",
+   "kategoria": "Fontanna multimedialna",
+   "opis": "Fontanna na odnowionym placu Litewskim działa od 2017 roku i ma 227 dysz; wraz z mniejszymi zdrojami tworzy zespół dziewięciu wodotrysków. W sezonie wieczorne pokazy łączą wodę, światło, muzykę, projekcje na ekranie wodnym i lasery. Warto przyjść wcześniej i oglądać z pewnej odległości, np. ze schodów – z bliska efekt jest słabszy.",
+   "zrodlo": "siec",
+   "okazje": [
+    "pierwszy",
+    "dzieci",
+    "darmo",
+    "wieczor"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 30 min",
+   "godziny_uwaga": "Plac dostępny całą dobę. Pokazy multimedialne odbywają się sezonowo, zwykle od maja do września, głównie w piątki i soboty po zmroku; sprawdź aktualny harmonogram."
+  },
+  "0x472257d9d94d71ed:0x8892d82120f10e76": {
+   "nazwa": "Ogród Saski",
+   "rodzaj": "przyroda",
+   "kategoria": "Zabytkowy park miejski",
+   "opis": "Najstarszy park Lublina, założony w 1837 roku w stylu angielskim według projektu Feliksa Łodzi Bieczyńskiego, zajmuje ok. 12,8 ha i jest wpisany do rejestru zabytków. Po rewitalizacji z lat 2012–2013 ma odnowione alejki, staw, muszlę koncertową i plac zabaw, a w południowej części rośnie topola biała – pomnik przyrody o obwodzie ponad 6 m.",
+   "zrodlo": "siec",
+   "okazje": [
+    "dzieci",
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 1 h"
+  },
+  "0x4722576a763d3617:0x833ec2fb3c944e16": {
+   "nazwa": "Galeria Labirynt",
+   "rodzaj": "muzea",
+   "kategoria": "Galeria sztuki współczesnej",
+   "opis": "Galeria wywodzi się z lubelskiego BWA, założonego w 1956 roku, które w latach 80. zyskało rozgłos w Polsce i za granicą dzięki programowi Andrzeja Mroczka. Dziś pokazuje zmieniające się wystawy klasyki sztuki współczesnej i nowych zjawisk, a ważnym elementem programu jest performance. Wstęp na wystawy jest bezpłatny.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz",
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "cennik": "https://labirynt.com/dla-zwiedzajacych-galeria-labirynt/",
+   "czas": "ok. 1 h",
+   "dla": "W środy w godz. 15:00–19:00 obowiązują „ciche godziny”. Druga przestrzeń wystawowa – Galeria Labirynt 2 – działa przy ul. Grodzkiej 3 (wt–nd 15:00–19:00)."
+  },
+  "0x4722582b16d98e6d:0xa14b600bc657dd9f": {
+   "nazwa": "Wąwóz Rury",
+   "rodzaj": "przyroda",
+   "kategoria": "Park w wąwozie",
+   "opis": "Rozległy, zielony wąwóz na pograniczu osiedla im. Prusa i Czubów, zagospodarowany jako park z alejkami, ławkami i wybiegiem dla psów; zimą stoki służą do zjazdów na sankach. W części parku stoi granitowy pomnik upamiętniający co najmniej 450 Polaków, więźniów Zamku Lubelskiego, zamordowanych tu przez Niemców w 1940 roku.",
+   "zrodlo": "siec",
+   "okazje": [
+    "dzieci",
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "1–2 h"
+  },
+  "0x47224e7c7e990f3d:0x351d06633b6b7a6a": {
+   "nazwa": "Ruiny zamku w Zawieprzycach",
+   "rodzaj": "okolice",
+   "kategoria": "Ruiny zamku i pałacu",
+   "opis": "Na skarpie nad Wieprzem stoją ruiny zamku Zawieprzskich, przebudowanego przez wojewodę Atanazego Miączyńskiego na barokowy pałac. Zachowały się m.in. kaplica, lamus i oficyna, a przed wzgórzem stoi kolumna toskańska – prawdopodobnie wotum Miączyńskiego za powrót z wyprawy wiedeńskiej. Po maturze, w latach 1883–1884, gościła tu u stryja młoda Maria Skłodowska.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "widoki"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 45 min",
+   "dla": "Część odbudowanych zabudowań zajmuje szkoła podstawowa; w obrębie murów jest plac zabaw dla młodszych dzieci."
+  },
+  "0x47228ab54469152f:0xe24bd10779197c55": {
+   "nazwa": "Zoo Wojciechów",
+   "rodzaj": "okolice",
+   "kategoria": "Park zwierząt",
+   "opis": "Rodzinny park zwierząt w centrum Wojciechowa, kilka kilometrów od Nałęczowa. Spotkasz tu m.in. lamy, alpaki, kangury, emu, surykatki i osły, a w mini zoo można z bliska kontaktować się z wybranymi zwierzętami i je karmić. Dla dzieci przygotowano place zabaw z trampolinami i zjeżdżalniami; spokojne obejście całości zajmuje ok. 2 godzin.",
+   "zrodlo": "siec",
+   "okazje": [
+    "dzieci"
+   ],
+   "czas": "ok. 2 h",
+   "godziny_uwaga": "Park działa sezonowo – przed wizytą sprawdź aktualne godziny otwarcia.",
+   "dla": "Bilety kupuje się na miejscu (można płacić kartą); rezerwacja nie jest potrzebna.",
+   "adres": "Wojciechów 52A, 24-204 Wojciechów",
+   "www": null
+  },
+  "0x4722470024f9ad83:0x72f44a52414397e2": {
+   "nazwa": "Pałac Sanguszków w Lubartowie",
+   "rodzaj": "okolice",
+   "kategoria": "Pałac barokowy z parkiem",
+   "opis": "Barokowy pałac wzniesiony w XVII wieku według projektu Tylmana z Gameren dla Lubomirskich, na miejscu obronnego dworu Firlejów, później przebudowywany m.in. przez Pawła Antoniego Fontanę. Do zespołu należą oranżeria, XVIII-wieczna brama i mostek oraz park, od 1935 roku pełniący funkcję parku miejskiego. Pałac najlepiej prezentuje się od strony ogrodu.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo"
+   ],
+   "cena": "Wstęp wolny (park i otoczenie pałacu)",
+   "czas": "ok. 45 min",
+   "godziny_uwaga": "Pałac jest siedzibą Starostwa Powiatowego w Lubartowie – oglądany głównie z zewnątrz; park ma charakter ogólnodostępnego parku miejskiego."
+  },
+  "0x472261afd5edc1ef:0xbec81fd55e49b023": {
+   "nazwa": "Park Zdrojowy w Nałęczowie",
+   "rodzaj": "okolice",
+   "kategoria": "Park uzdrowiskowy",
+   "opis": "Uzdrowiskowy park założony w XVIII wieku przy pałacu Małachowskich (1771–1775) i przebudowany w latach 1878–1880, gdy powstały aleje lipowa i kasztanowa oraz owalny staw z wyspą. Na spacerze miniesz pałac z Muzeum Bolesława Prusa, zabytkowe „Stare Łazienki” z lat 1817–1820, ławeczkę Prusa oraz Dom Zdrojowy z palmiarnią i pijalnią wód mineralnych.",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci",
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "1–2 h"
+  },
+  "0x472230e90a12e5c3:0x1f2f8fa20aaa515a": {
+   "nazwa": "Rezerwat Jezioro Obradowskie",
+   "rodzaj": "okolice",
+   "kategoria": "Rezerwat przyrody",
+   "opis": "Torfowiskowy rezerwat w Lasach Parczewskich, utworzony w 1975 roku, chroni jezioro dystroficzne wraz z otaczającymi je torfowiskami i lasami z rzadkimi, chronionymi roślinami; leży w Międzynarodowym Rezerwacie Biosfery „Polesie Zachodnie”. Leśna ścieżka przechodzi w drewnianą kładkę przez torfowisko, prowadzącą na pomost z widokiem na jezioro.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 1 h",
+   "dla": "Kładka miejscami bywa uszkodzona – warto zachować ostrożność, zwłaszcza z dziećmi."
+  },
+  "0x47227dbde1a8e7db:0x3bccc270e7c0a370": {
+   "nazwa": "Muzeum Przyrodnicze w Kazimierzu Dolnym",
+   "rodzaj": "okolice",
+   "kategoria": "Muzeum przyrodnicze",
+   "opis": "Oddział Muzeum Nadwiślańskiego mieści się w Spichlerzu Ulanowskich z końca XVI wieku – jedynym kazimierskim spichlerzu, który zachował niemal pierwotny wygląd, z okazałą drewnianą więźbą dachową. Wystawy pokazują przyrodę Małopolskiego Przełomu Wisły, wąwozów lessowych i skał wapiennych, a dzieci lubią szklany ul z pszczołami, mrowisko i akwarium z rybami wiślanymi.",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci",
+    "deszcz"
+   ],
+   "cena": "Normalny 18 zł, ulgowy 13 zł, rodzinny 50 zł",
+   "cennik": "https://mnkd.pl/visit/",
+   "darmowe": "jeden dzień w tygodniu, ustalany co miesiąc – sprawdź na mnkd.pl",
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Od października do marca czynne codziennie oprócz wtorków 9:00–16:00, od kwietnia do września codziennie 10:00–17:00; kasa zamyka się 30 min wcześniej. Nieczynne m.in. 11 listopada."
+  },
+  "0x47227d93ed56fa53:0xe48f30a8f5da37e6": {
+   "nazwa": "Rynek w Kazimierzu Dolnym",
+   "rodzaj": "okolice",
+   "kategoria": "Zabytkowy rynek",
+   "opis": "Centralny plac miasteczka, wytyczony prawdopodobnie na przełomie XIV i XV wieku, otaczają kamienice odbudowane po II wojnie światowej m.in. według rysunków Andriollego i akwarel Zygmunta Vogla. Najcenniejsze są renesansowe kamienice Przybyłów – pod św. Mikołajem i pod św. Krzysztofem – przebudowane do 1615 roku. Najspokojniej jest tu rano lub poza sezonem.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 1 h"
+  },
+  "0x47227d94f0187d4f:0x84aa0d168dd2d52d": {
+   "nazwa": "Bulwar nadwiślański w Kazimierzu",
+   "rodzaj": "okolice",
+   "kategoria": "Bulwar spacerowy",
+   "opis": "Szeroki bulwar biegnie wzdłuż Wisły i pozwala spokojnie podziwiać panoramę rzeki oraz widoczny z wielu miejsc kościół farny na skarpie nad miasteczkiem. Trasa nadaje się na spacer, rower i bieganie, a przy niej nie brakuje kawiarni i restauracji, w których można odpocząć po zwiedzaniu Kazimierza.",
+   "zrodlo": "opinie",
+   "okazje": [
+    "darmo",
+    "widoki"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 1 h"
+  },
+  "0x47227db7f700651b:0x5794c9f69c673a57": {
+   "nazwa": "Park Miliona Róż w Kazimierzu Dolnym",
+   "rodzaj": "okolice",
+   "kategoria": "Ogród różany z miniaturami",
+   "opis": "Ogród w pobliżu kazimierskich kamieniołomów łączy kolekcje róż od znanych hodowców z miniaturami zamków, pałaców i świątyń związanych z dawnymi Kresami Rzeczypospolitej. Twórcy chcą w ten sposób przybliżać historię i dziedzictwo Kresów. Najpiękniej jest w porze kwitnienia róż, a w sklepiku na miejscu można kupić różane herbaty i kosmetyki.",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci"
+   ],
+   "czas": "ok. 1 h"
+  },
+  "0x472279fd96ae92f7:0xa7ab71d8e62f518c": {
+   "nazwa": "Muzeum Badań Polarnych w Puławach",
+   "rodzaj": "okolice",
+   "kategoria": "Muzeum polarnictwa",
+   "opis": "Pierwsze w Polsce muzeum polarnictwa, powołane w 2020 roku, opowiada o polskich wyprawach do Arktyki i Antarktyki. Zobaczysz m.in. rzeźby z kości morsa, strój Inuity i model kajaka z przedwojennych wypraw prof. Aleksandra Kosiby na Grenlandię, skuter śnieżny i sanie z polskich stacji polarnych oraz skamieniałości i bursztyny z Syberii.",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci",
+    "deszcz"
+   ],
+   "cena": "Normalny 20 zł, ulgowy 15 zł, rodzinny 50 zł",
+   "cennik": "https://mbppulawy.pl/wizyta-w-muzeum/",
+   "darmowe": "jeden dzień w tygodniu – sprawdź na stronie muzeum",
+   "czas": "1–2 h",
+   "dla": "Wejście główne ma podjazd; osoby na wózkach mogą zwiedzać ekspozycję na parterze."
+  },
+  "0x47228732465bb9cf:0xba80e584058c155b": {
+   "nazwa": "Rezerwat Skarpa Dobrska",
+   "rodzaj": "okolice",
+   "kategoria": "Rezerwat przyrody, punkt widokowy",
+   "opis": "Krajobrazowy rezerwat w Kazimierskim Parku Krajobrazowym, między wsiami Dobre i Podgórz, chroni odsłonięcia skał oraz murawy kserotermiczne z 19 gatunkami chronionych roślin, m.in. miłkiem wiosennym i ostnicą włosowatą. Skarpa wznosi się do 85 m nad okolicą, a z punktu widokowego przy dobrej pogodzie widać dolinę Wisły i Góry Świętokrzyskie.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "widoki"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "1–2 h",
+   "dla": "Do punktu widokowego najlepiej dojść pieszo lub dojechać rowerem od Podgórza; przy ścieżce stoi drewniana wiata z tablicą informacyjną."
+  },
+  "0x4722576a70ac4bcd:0xad2287bc8afb79fc": {
+   "nazwa": "Piwnica pod Fortuną",
+   "rodzaj": "zabytki",
+   "kategoria": "Zabytkowa piwnica z polichromiami",
+   "opis": "W piwnicy kamienicy Lubomelskich przy Rynku 8 zachowały się malowidła z ok. 1580 r., które zdobiły dawną winiarnię – rzadki w Polsce przykład renesansowej polichromii o tematyce świeckiej, nawiązującej do mitologii i literatury antycznej. Ściany, okap kominka i sklepienie omawia przewodnik podczas ok. 30-minutowego zwiedzania. W pozostałych salach trwa przygotowanie nowej wystawy.",
+   "zrodlo": "siec",
+   "okazje": [
+    "deszcz"
+   ],
+   "czas": "ok. 30 min",
+   "godziny_uwaga": "Wejścia z przewodnikiem o wyznaczonych godzinach – terminy i bilety w systemie rezerwacji Teatru NN.",
+   "rezerwacja": "Zwiedzanie wyłącznie z przewodnikiem – bilety na konkretną godzinę warto zarezerwować online (bilety.teatrnn.pl).",
+   "bez_godzin": true
+  },
+  "0x472257424093afdb:0x45905998b57484ab": {
+   "nazwa": "Regionalne Muzeum Cebularza",
+   "rodzaj": "muzea",
+   "kategoria": "Żywe muzeum (warsztaty)",
+   "opis": "W XVI-wiecznej kamienicy przy Rybnej legendarna Esterka i piekarz Franek opowiadają historię cebularza – lubelskiego placka z cebulą i makiem – oraz pokazują, jak się go wypieka. W części warsztatowej każdy uczestnik sam przygotowuje swojego cebularza, który po upieczeniu można zjeść. Pokaz trwa ok. godziny; w dni powszednie obowiązuje rezerwacja.",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci",
+    "deszcz"
+   ],
+   "cena": "Normalny 39 zł, ulgowy 37 zł, dzieci do 3 lat bezpłatnie",
+   "cennik": "http://muzeumcebularza.com.pl/index.php/o-muzeum-4",
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Pokazy dla osób indywidualnych o 12:30, 14:30 i 16:00; w okresie przedświątecznym część terminów zajmują warsztaty pierniczkowe – sprawdź na stronie.",
+   "rezerwacja": "Pon–pt rezerwacja wymagana, w weekendy zalecana (tel. 690 199 160).",
+   "dla": "Pokaz w języku angielskim po wcześniejszym uzgodnieniu (46 zł/os.). Na miejscu można kupić cebularze."
+  },
+  "0x4722576af6701a23:0xa31173c5e638e9d5": {
+   "nazwa": "Archikatedra Lubelska",
+   "rodzaj": "swiatynie",
+   "kategoria": "Archikatedra",
+   "opis": "Dawny kościół jezuicki, wzorowany na rzymskim Il Gesù, po pożarze 1752 r. pokrył w całości iluzjonistycznymi freskami Józef Meyer – malowana architektura optycznie powiększa wnętrze. Warto zobaczyć Krzyż Trybunalski i obraz Matki Bożej Płaczącej, a z przewodnikiem zakrystię akustyczną, w której szept z jednego narożnika słychać w przeciwległym, oraz skarbiec i krypty.",
+   "zrodlo": "strona",
+   "okazje": [
+    "pierwszy",
+    "deszcz",
+    "darmo"
+   ],
+   "cena": "Wstęp wolny (nawa główna)",
+   "czas": "ok. 30 min (z zakrystią, skarbcem i kryptami ok. 1 h)",
+   "godziny_uwaga": "Nawa główna otwarta codziennie poza czasem nabożeństw.",
+   "rezerwacja": "Zakrystię akustyczną, skarbiec i krypty zwiedza się z przewodnikiem (wt–sob) – termin warto umówić: tel. 695 322 780.",
+   "dla": "Płatne jest tylko zwiedzanie zakrystii, skarbca i krypt. Taras widokowy jest w sąsiedniej Wieży Trynitarskiej (ok. 207 stopni, osobne bilety).",
+   "bez_godzin": true
+  },
+  "0x47225796edfd6711:0x97778a0a46f79d60": {
+   "nazwa": "Rzeźba Sztukmistrza z Lublina",
+   "rodzaj": "nowoczesne",
+   "kategoria": "Rzeźba balansująca",
+   "opis": "Nad ulicą Grodzką, między kamienicami, balansuje na linie Jasza Mazur – bohater powieści Isaaca Bashevisa Singera „Sztukmistrz z Lublina” – w towarzystwie małpki. Rzeźba Jerzego Kędziory, pierwotnie pokazywana podczas Carnavalu Sztukmistrzów, wisi tu na stałe od 2018 r.; utrzymuje się w równowadze dzięki odpowiednio umieszczonemu środkowi ciężkości. Najlepiej oglądać ją, idąc od Rynku w stronę Bramy Grodzkiej.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "dzieci"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 5 min",
+   "godziny_uwaga": "Rzeźba widoczna z ulicy całą dobę."
+  },
+  "0x4722576a575b88fb:0x2eac56dfa88bea36": {
+   "nazwa": "Dom Słów – Izba Drukarstwa",
+   "rodzaj": "muzea",
+   "kategoria": "Muzeum drukarstwa",
+   "opis": "Oddział Teatru NN w budynku dawnej drukarni „Popularna”, działającej od 1932 r. – w czasie okupacji drukowano tu nielegalne broszury, a 14 drukarzy rozstrzelano na Majdanku w 1944 r. Zabytkowe maszyny są sprawne, a przewodnik pokazuje zecernię, introligatornię i kolejne etapy powstawania książki. Zwiedzanie z przewodnikiem trwa ok. godziny.",
+   "zrodlo": "siec",
+   "okazje": [
+    "deszcz",
+    "dzieci"
+   ],
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Zwiedzanie z przewodnikiem o wyznaczonych godzinach – terminy w systemie rezerwacji Teatru NN.",
+   "rezerwacja": "Zwiedzanie tylko z przewodnikiem – bilety na konkretną godzinę warto zarezerwować online (bilety.teatrnn.pl)."
+  },
+  "0x47225741b6aec1f1:0x6b4dde30e291dbef": {
+   "nazwa": "Latarnia Pamięci",
+   "rodzaj": "pamiec",
+   "kategoria": "Miejsce pamięci",
+   "opis": "Przedwojenna latarnia uliczna przy Podwalu, przystosowana do zasilania elektrycznego, świeci bez przerwy od 2004 r., gdy zapalił ją Teatr NN podczas misterium pamięci. Upamiętnia dzielnicę żydowską u stóp zamku, zniszczoną przez Niemców w latach 1942–1943. Warto przyjść po zmroku i połączyć wizytę z wystawą „Lublin. Pamięć Miejsca” w Bramie Grodzkiej.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "wieczor"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 10 min",
+   "godziny_uwaga": "Miejsce dostępne całą dobę."
+  },
+  "0x472257f0b1d0282f:0x8015eb121fcb8825": {
+   "nazwa": "Zamek Lubelski – Muzeum Narodowe",
+   "rodzaj": "zamki",
+   "kategoria": "Zamek i muzeum",
+   "opis": "Dawna rezydencja królewska, w XIX w. odbudowana jako więzienie (działało do 1954 r.), od 1957 r. mieści główną siedzibę Muzeum Narodowego. Wystawy stałe obejmują m.in. zbiory archeologiczne, numizmaty, rzemiosło artystyczne oraz malarstwo polskie i europejskie; do tego dochodzą wystawy czasowe. Kaplica Trójcy Świętej i donżon mają osobne wpisy – opłaca się bilet zbiorczy.",
+   "zrodlo": "strona",
+   "okazje": [
+    "pierwszy",
+    "deszcz"
+   ],
+   "cena": "Ekspozycje stałe: normalny 20 zł, ulgowy 15 zł; bilet zbiorczy (ekspozycje stałe, kaplica, wieża): normalny 40 zł, ulgowy 30 zł",
+   "cennik": "https://mnwl.pl/wizyta/ceny-biletow/",
+   "darmowe": "w wybrane dni każdego miesiąca (ekspozycje i kaplica) – terminy na stronie muzeum",
+   "czas": "2–3 h",
+   "godziny_uwaga": "Wystawy stałe: wt–czw i nd 9:00–18:00, pt–sob 9:00–19:00; w poniedziałki nieczynne (kaplica i wieża są wtedy otwarte).",
+   "dla": "Bilet zbiorczy dostępny tylko w kasie muzeum. Dzieci do 7 lat wchodzą bezpłatnie; bilet rodzinny – rodzice z dziećmi do 16 lat płacą jak za ulgowy."
+  },
+  "0x47225769aeac9d55:0x1de84f5adf9b9321": {
+   "nazwa": "Kościół Kapucynów",
+   "rodzaj": "swiatynie",
+   "kategoria": "Kościół barokowy",
+   "opis": "Kościół i klasztor kapucynów wzniesiono w latach 1726–1733 z fundacji księcia Pawła Karola Sanguszki i jego żony Marianny z Lubomirskich. Z ulicy widać tylko wysoką fasadę, bo świątynia jest wtopiona w zabudowania klasztoru; we wnętrzu w stylu baroku toskańskiego zachowało się 7 z 9 pierwotnych ołtarzy. To dobry, krótki przystanek przy spacerze Krakowskim Przedmieściem.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "deszcz"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 15 min",
+   "godziny_uwaga": "Czynna świątynia – zwiedzanie poza czasem Mszy (dni powszednie m.in. 6:00, 7:00, 9:00, 15:30, 18:30)."
+  },
+  "0x472257684e65c503:0x7140432f1fbbebf3": {
+   "nazwa": "Pomnik Unii Lubelskiej",
+   "rodzaj": "pamiec",
+   "kategoria": "Pomnik historyczny",
+   "opis": "Żeliwny obelisk na Placu Litewskim, wzniesiony z inicjatywy Stanisława Staszica i odsłonięty w 1826 r., upamiętnia zawartą w Lublinie unię Korony z Wielkim Księstwem Litewskim z 1569 r. Stoi tam, gdzie podczas sejmu obozowała szlachta. W 2007 r. został jednym z trzech lubelskich obiektów uznanych przez UE za symbol dziedzictwa europejskiego. Tu kończy się Jagielloński Szlak Unii Lubelskiej, prowadzący od zamku.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 10 min",
+   "godziny_uwaga": "Pomnik dostępny całą dobę."
+  },
+  "0x47225738d8dfead1:0x2a3a0ab31d9dcd37": {
+   "nazwa": "Dworek Wincentego Pola",
+   "rodzaj": "muzea",
+   "kategoria": "Muzeum biograficzne (dworek)",
+   "opis": "Klasycystyczny dworek z końca XVIII w. stał pierwotnie na folwarku Firlejowszczyzna, należącym w latach 1804–1810 do ojca Wincentego Pola; w 1969 r. przeniesiono go na Kalinowszczyznę. Na parterze odtworzono wnętrza z epoki – meble, pianino, globus – oraz opowieść o życiu poety, uczestnika powstania listopadowego i twórcy pierwszej w Polsce katedry geografii. Domową atmosferę tworzą gawędy opiekunów.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "cena": "Normalny 10 zł, ulgowy 8 zł",
+   "cennik": "https://mnwl.pl/muzeum-dworek-wincentego-pola/wizyta-w-oddziale/",
+   "darmowe": "w wybrane dni każdego miesiąca – terminy na stronie muzeum",
+   "czas": "ok. 45 min",
+   "godziny_uwaga": "Czynne wt–sob 9:00–16:00; 11 listopada nieczynne.",
+   "dla": "Dworek stoi na wzgórzu przy ul. Kalinowszczyzna 13, w spacerowej odległości od Zamku. Lekcje i oprowadzanie dla grup – po wcześniejszym uzgodnieniu.",
+   "www": "https://mnwl.pl/muzeum-dworek-wincentego-pola/"
+  },
+  "0x47225772e364f4bf:0xcb7e3c5eeffa6522": {
+   "nazwa": "Park Ludowy",
+   "rodzaj": "przyroda",
+   "kategoria": "Park miejski",
+   "opis": "Park nad Bystrzycą, założony w czynie społecznym w latach 1950–1957, po rewitalizacji za ok. 44 mln zł zyskał ponad 8 km asfaltowych alejek, amfiteatr z fontanną, której mozaikowe dno przedstawia ryby z Bystrzycy, oraz ścieżkę akustyczną z wielkimi instrumentami. Rzekę przecina 45-metrowa dwupoziomowa kładka z górnym pomostem widokowym. Dla dzieci są dwa duże drewniane place zabaw i pumptracki.",
+   "zrodlo": "siec",
+   "okazje": [
+    "dzieci",
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "1–2 h",
+   "godziny_uwaga": "Teren otwarty."
+  },
+  "0x4722570a2de55941:0xab854deb66c03674": {
+   "nazwa": "Parowóz Pt47-157 (Lubelski Lipiec)",
+   "rodzaj": "pamiec",
+   "kategoria": "Pomnik historii (parowóz)",
+   "opis": "Parowóz wyprodukowany w 1950 r. w poznańskich zakładach Cegielskiego to jedna z lokomotyw zatrzymanych w lipcu 1980 r. przez strajkujących kolejarzy, którzy na dwa dni zablokowali lubelski węzeł kolejowy. Od 2017 r. jest pomnikiem Lubelskiego Lipca – fali strajków poprzedzającej Sierpień ’80. Stoi na terenie dawnej lokomotywowni przy ul. Gazowej, w pobliżu dworca; dzieci zwykle zachwyca jego wielkość.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "dzieci"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 15 min",
+   "godziny_uwaga": "Pomnik dostępny z zewnątrz całą dobę."
+  },
+  "0x47225994f1f937bf:0x79fa765232209f64": {
+   "nazwa": "Dworek Kościuszków",
+   "rodzaj": "zabytki",
+   "kategoria": "Zabytkowy dworek",
+   "opis": "Drewniany dworek z łamanym polskim dachem i gankiem stoi na terenie dawnego folwarku Sławinek, dziś Ogrodu Botanicznego UMCS. W XVIII w. należał do Jana Nepomucena Kościuszki, stryja Tadeusza, który w latach 1774–1775 prawdopodobnie pomagał mu przy zakładaniu parku. Obecny budynek to rekonstrukcja z lat 1969–1972 na piwnicach pierwowzoru; wizytę warto połączyć ze spacerem po ogrodzie.",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci"
+   ],
+   "cena": "Ogród + dworek: normalny 18 zł, ulgowy 15 zł, rodzinny 50 zł",
+   "cennik": "https://ogrod.umcs.pl/pl/ceny-biletow,4287.htm",
+   "czas": "ok. 30 min (z ogrodem 1,5–2 h)",
+   "godziny_uwaga": "Dworek i ogród czynne sezonowo, od kwietnia do października; zimą przerwa.",
+   "dla": "Wejście do dworku tylko z biletem do Ogrodu Botanicznego (dopłata w kasie ogrodu); dzieci do 5 lat bezpłatnie.",
+   "bez_godzin": true
+  },
+  "0x4722581f38a2e979:0xaba212f7a5c72af4": {
+   "nazwa": "Rezerwat przyrody Stasin",
+   "rodzaj": "przyroda",
+   "kategoria": "Rezerwat przyrody",
+   "opis": "Leśny rezerwat na północno-zachodnim skraju Starego Gaju – jednego z największych kompleksów leśnych w Lublinie – utworzono w 1981 r. dla ochrony fragmentu lasu liściastego z brzozą czarną. Rosną tu też lipy, graby i dęby oraz chronione rośliny, m.in. wawrzynek wilczełyko i lilia złotogłów. To dobre miejsce na spokojny spacer lub rower, najpiękniejsze wiosną, gdy kwitną zawilce.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "1–2 h",
+   "godziny_uwaga": "Teren leśny dostępny całą dobę; poruszaj się wyznaczonymi ścieżkami."
+  },
+  "0x4722618fbf314f1d:0x115bde591681dbab": {
+   "nazwa": "Wąwóz Głowackiego w Nałęczowie",
+   "rodzaj": "okolice",
+   "kategoria": "Wąwóz lessowy",
+   "opis": "Lessowy wąwóz ze ścieżką spacerową i schodkami, który w kilka minut przenosi z uzdrowiskowego centrum Nałęczowa w zielony, cichy krajobraz. Strome lessowe ściany porasta gęsta roślinność, a na dnie widać koryta wyżłobione przez spływającą wodę. To dobre uzupełnienie spaceru po Parku Zdrojowym, najprzyjemniejsze wiosną i w upalne dni.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 45 min",
+   "godziny_uwaga": "Teren otwarty. Po ulewach i wichurach ścieżka bywa błotnista lub zagrodzona (połamane drzewa) – stosuj się do oznaczeń.",
+   "dla": "Na trasie są schody i podejścia – potrzebne wygodne buty; trasa nieprzystosowana do wózków."
+  },
+  "0x47228de75fde9d65:0xf84c42b3a7fb0dfc": {
+   "nazwa": "Pomnik UFO w Emilcinie",
+   "rodzaj": "okolice",
+   "kategoria": "Ciekawostka (pomnik)",
+   "opis": "Geometryczny obelisk z metalowym sześcianem na skale upamiętnia relację rolnika Jana Wolskiego, który twierdził, że 10 maja 1978 r. zabrali go na pokład statku kosmici. Pomnik postawiono w 2005 r. z inicjatywy Fundacji Nautilus; na tablicy widnieje napis „Prawda nas jeszcze zadziwi…”. Historia, nazywana polskim Roswell, do dziś budzi spory – to zabawny przystanek po drodze.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "dzieci"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 15 min",
+   "godziny_uwaga": "Pomnik dostępny całą dobę.",
+   "dla": "Pomnik stoi nieco z boku głównej drogi; obok jest miejsce do zaparkowania i plac zabaw."
+  },
+  "0x47227d8577dc1071:0x31216fb59e95b8d4": {
+   "nazwa": "Cmentarz żydowski w Kazimierzu Dolnym",
+   "rodzaj": "okolice",
+   "kategoria": "Cmentarz żydowski (lapidarium)",
+   "opis": "Cmentarz założony w 1851 r. na zboczu wąwozu na Czerniawach Niemcy niemal doszczętnie zniszczyli w czasie wojny, a macewami utwardzali m.in. ulice i dziedzińce. W 1984 r. z ok. 600 fragmentów nagrobków powstało lapidarium według projektu Tadeusza Augustynka – ściana nawiązująca do Ściany Płaczu, przecięta pęknięciem symbolizującym los Żydów. Na zboczu zachowało się ok. 25 macew.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 30 min",
+   "godziny_uwaga": "Teren dostępny całą dobę.",
+   "dla": "Cmentarz leży na Czerniawach, ok. 15 minut spacerem od centrum; przy wejściu jest tylko mały parking."
+  },
+  "0x47227c609f7759d7:0x9cc02cc7dd296b10": {
+   "nazwa": "Góra Trzech Krzyży w Kazimierzu Dolnym",
+   "rodzaj": "okolice",
+   "kategoria": "Punkt widokowy",
+   "opis": "Trzy krzyże nawiązujące do Golgoty postawiono tu w 1708 r. na pamiątkę ofiar zarazy morowej. Ze szczytu rozciąga się panorama całego Kazimierza i doliny Wisły – to najpopularniejszy punkt widokowy miasteczka. Zbocza porasta chroniona, rzadka roślinność, m.in. wisienka karłowata, omany i ostnice. Podejście od strony miasta jest krótkie, choć wymaga nieco wysiłku.",
+   "zrodlo": "siec",
+   "okazje": [
+    "widoki"
+   ],
+   "czas": "ok. 30–45 min",
+   "godziny_uwaga": "Brak oficjalnych godzin; w sezonie przy wejściu pobierana jest niewielka opłata.",
+   "dla": "W sezonie turystycznym wejście jest płatne (niewielka opłata pobierana przy wejściu). Na górze jest tylko kilka ławek, brak toalet."
+  },
+  "0x47227d93eb237891:0xfcba6822f4e88a29": {
+   "nazwa": "Kamienice Przybyłów w Kazimierzu Dolnym",
+   "rodzaj": "okolice",
+   "kategoria": "Kamienice renesansowe",
+   "opis": "Dwie sąsiednie kamienice – Pod św. Mikołajem i Pod św. Krzysztofem – przebudowali do 1615 r. bracia Mikołaj i Krzysztof Przybyłowie, kupcy zbożowi. Fasady z miejscowego wapienia pokrywa bogata dekoracja w duchu renesansu włoskiego i niderlandzkiego, z dużymi płaskorzeźbami patronów, a parter otwierają trójarkadowe podcienia. Stoją w południowo-wschodniej pierzei rynku – najlepiej oglądać je z bliska.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo"
+   ],
+   "cena": "Wstęp wolny (oglądanie z zewnątrz)",
+   "czas": "ok. 15 min",
+   "godziny_uwaga": "Fasady widoczne z rynku całą dobę."
+  },
+  "0x47227d9376ce343b:0xe6d573b9a8368deb": {
+   "nazwa": "Kamienica Celejowska w Kazimierzu Dolnym",
+   "rodzaj": "okolice",
+   "kategoria": "Muzeum sztuki w kamienicy",
+   "opis": "Kamienicę wzniesiono w 1. połowie XVII w. dla kupca Bartłomieja Celeja; jej największą ozdobą jest attyka zajmująca około jednej trzeciej wysokości fasady, z figurami św. Bartłomieja, św. Jana Chrzciciela, Chrystusa i Matki Boskiej oraz fantastycznymi stworami. Wewnątrz oddział Muzeum Nadwiślańskiego pokazuje malarstwo i rzeźbę artystów związanych z kazimierską kolonią artystyczną, a także wystawy czasowe.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "cena": "Normalny 17 zł, ulgowy 12 zł, rodzinny 46 zł",
+   "cennik": "https://mnkd.pl/visit/",
+   "darmowe": "jeden dzień w tygodniu, ustalany co miesiąc – sprawdź na mnkd.pl",
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Od października do marca czynne codziennie oprócz wtorków 9:00–16:00; od kwietnia do września codziennie 10:00–17:00. Nieczynne m.in. 1 i 11 listopada oraz 24–25 grudnia.",
+   "dla": "Kasa kończy sprzedaż 30 minut przed zamknięciem."
+  },
+  "0x47227942d07d7d8f:0x5f8808a5293161e8": {
+   "nazwa": "Park Czartoryskich w Puławach",
+   "rodzaj": "okolice",
+   "kategoria": "Park pałacowy",
+   "opis": "Rozległy park przy pałacu Czartoryskich kryje romantyczne pawilony, m.in. Świątynię Sybilli z lat 1798–1801 – rotundę na skarpie wiślanej wzorowaną na świątyni Westy w Tivoli, uważaną za pierwsze polskie muzeum – oraz Dom Gotycki i Domek Aleksandryjski. Od czerwca do września pawilony można zwiedzać z biletem; przez cały rok park zaprasza na spacer lipowymi alejami, a po alejkach chodzą pawie.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "dzieci"
+   ],
+   "cena": "Wstęp do parku wolny; obiekty parkowe (czerwiec–wrzesień) 15 zł",
+   "cennik": "https://muzeumczartoryskich.pulawy.pl/cennik/",
+   "czas": "1,5–3 h",
+   "godziny_uwaga": "Park otwarty codziennie 6:00–22:00. Pawilony parkowe (Świątynia Sybilli, Dom Gotycki, Domek Aleksandryjski) udostępniane od czerwca do września, od wtorku do niedzieli; poza tym okresem zwykle nieczynne.",
+   "dla": "Bilety do pawilonów tylko w kasie w pałacu (Sala Tradycji, parter). Od czerwca do września bilet do pałacu (30/22 zł) obejmuje też obiekty parkowe."
+  },
+  "0x472284326d1756a3:0x91d53c0f88ea44c0": {
+   "nazwa": "Grodzisko Żmijowiska",
+   "rodzaj": "okolice",
+   "kategoria": "Skansen archeologiczny",
+   "opis": "Muzeum Dawnych Słowian w Kotlinie Chodelskiej odtwarza fragmenty umocnień grodu o średnicy zaledwie 30 m – belkę z jego wału datowano dendrochronologicznie na 888 r. Zobaczysz drewniano-ziemny wał wokół majdanu, płot plecionkowy i drewniany most w stylu słowiańskim nad Jankówką. Obok stoją chaty typowe dla wczesnego średniowiecza i łódź-dłubanka. Wstęp jest wolny, a tablice dobrze objaśniają historię miejsca.",
+   "zrodlo": "strona",
+   "okazje": [
+    "darmo",
+    "dzieci"
+   ],
+   "cena": "Wstęp wolny",
+   "cennik": "https://mnkd.pl/visit/",
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Czynne codziennie od rana do zmierzchu.",
+   "dla": "Ostatni odcinek dojazdu prowadzi drogą gruntową (groblą nad Jankówką) – po ulewach bywa trudno przejezdny. Lekcje i gry terenowe dla grup po rezerwacji.",
+   "bez_godzin": true
+  },
+  "0x47227fa0a4cff3ed:0xbff5a797d1bfa88": {
+   "nazwa": "Zamek w Janowcu",
+   "rodzaj": "okolice",
+   "kategoria": "Zamek i skansen",
+   "opis": "Warownię na wzgórzu nad Wisłą zaczął wznosić na początku XVI w. hetman Mikołaj Firlej, a jego syn Piotr przekształcił ją w 1526 r. w renesansową rezydencję; później rozbudowywali ją Tarłowie i Lubomirscy. Z wielopoziomowych krużganków roztaczają się widoki na dziedziniec i dolinę Wisły. W parku stoi skansen z XVIII-wiecznym dworem z Moniak i spichlerzem z wystawą o życiu nad Wisłą.",
+   "zrodlo": "strona",
+   "okazje": [
+    "widoki",
+    "dzieci"
+   ],
+   "cena": "Normalny 18 zł, ulgowy 15 zł, rodzinny 50 zł",
+   "cennik": "https://zamekwjanowcu.pl/wizyta-w-muzeum/",
+   "czas": "1,5–2 h",
+   "godziny_uwaga": "Od 1 października do 24 kwietnia codziennie 9:00–16:00; od 25 kwietnia do 30 września 10:00–17:00 (dziedziniec i krużganki do 20:00).",
+   "dla": "Trwają prace na dziedzińcu oraz przygotowanie wystaw – Dom Północny i dwór z Moniak są czasowo niedostępne (stąd obniżone ceny). Bilet sprzedawany do 30 min przed zamknięciem."
+  },
+  "0x4722576a6e187155:0x4303ae2d4691d8cd": {
+   "nazwa": "Rynek i Trybunał Koronny",
+   "rodzaj": "zabytki",
+   "kategoria": "Rynek Starego Miasta",
+   "opis": "Trapezowy rynek wytyczono przy lokacji Lublina w 1317 r., a otaczają go kamienice z malowanymi i zdobionymi fasadami. Pośrodku stoi dawny ratusz, od 1578 r. siedziba Trybunału Koronnego dla Małopolski, z klasycystyczną elewacją Dominika Merliniego. Z gmachem wiąże się legenda o „diabelskim sądzie”, a w jego podziemiach biegnie Lubelska Trasa Podziemna.",
+   "zrodlo": "siec",
+   "okazje": [
+    "pierwszy",
+    "darmo",
+    "wieczor"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 30 min",
+   "godziny_uwaga": "Rynek dostępny całą dobę. W gmachu Trybunału mieści się Pałac Ślubów – wnętrza zwykle nie są udostępniane do zwiedzania."
+  },
+  "0x4722576a4699daf1:0xd77bae8295eea5d4": {
+   "nazwa": "Baszta Gotycka",
+   "rodzaj": "zabytki",
+   "kategoria": "Baszta murów miejskich",
+   "opis": "Półokrągła baszta powstała w 1341 r. razem z murami obronnymi miasta, a w latach 80. XX w. ją zrekonstruowano. Wraz z zachowanym odcinkiem muru pokazuje, jak wyglądały gotyckie obwarowania Starego Miasta – w ścianach widać otwory strzelnicze. Stoi nieco na uboczu, w zaułku przy ul. Królewskiej, obok muralu z panoramą dawnego Lublina.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 15 min",
+   "godziny_uwaga": "Oglądanie z zewnątrz, dostępne całą dobę."
+  },
+  "0x4722576a7c8212a9:0xd981d34e6e914c7c": {
+   "nazwa": "Muzeum Józefa Czechowicza",
+   "rodzaj": "muzea",
+   "kategoria": "Muzeum literackie",
+   "opis": "Oddział Muzeum Narodowego poświęcony urodzonemu w Lublinie poecie awangardy, który zginął w 1939 r. Na wystawie stałej są rękopisy, zdjęcia, tomiki wydane za życia autora i nieliczne pamiątki osobiste, m.in. dzwoneczki przywiezione z Francji. Muzeum działa od 1968 r., a od 2002 r. w kamienicy przy Złotej 3, podarowanej miastu przez rodzinę Riabininów.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "cena": "Normalny 10 zł, ulgowy 8 zł",
+   "cennik": "https://mnwl.pl/muzeum-jozefa-czechowicza/wizyta-w-oddziale-mjc/",
+   "darmowe": "w wybrane dni każdego miesiąca – terminy na stronie muzeum",
+   "czas": "ok. 45 min",
+   "godziny_uwaga": "Czynne od wtorku do soboty 9:00–16:00; przed wizytą sprawdź komunikaty o zamknięciach na stronie muzeum.",
+   "bez_godzin": true
+  },
+  "0x4722579f30cac1b3:0xda27c235638e5910": {
+   "nazwa": "Brama Grodzka",
+   "rodzaj": "zabytki",
+   "kategoria": "Brama miejska",
+   "opis": "Brama powstała w 1342 r. jako część pierwszych murowanych obwarowań, a obecny klasycystyczny wygląd nadał jej w 1785 r. Dominik Merlini. Zwana Żydowską, łączyła Stare Miasto z nieistniejącą dziś dzielnicą żydowską pod zamkiem. Przejdź przez nią w stronę Zamku Lubelskiego – wieczorem jest pięknie podświetlona, a w środku działa Ośrodek „Brama Grodzka – Teatr NN”.",
+   "zrodlo": "siec",
+   "okazje": [
+    "pierwszy",
+    "darmo",
+    "wieczor"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 15 min",
+   "godziny_uwaga": "Przejście przez bramę dostępne całą dobę."
+  },
+  "0x47225741b79792a1:0x8a6287cf69a15eb9": {
+   "nazwa": "Brama Grodzka – Teatr NN",
+   "rodzaj": "muzea",
+   "kategoria": "Wystawa o żydowskim Lublinie",
+   "opis": "We wnętrzach Bramy Grodzkiej działa ośrodek dokumentujący pamięć o żydowskim Lublinie. Wystawa „Lublin. Pamięć Miejsca” przypomina archiwum: regały z tysiącami teczek, setki zdjęć, nagrania wspomnień i makieta dawnego miasta, a jej druga część opowiada o Zagładzie i Sprawiedliwych. Zwiedza się ją z przewodnikiem, który pokazuje, jak wyglądała dzielnica pod zamkiem.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "cena": "Normalny 18 zł, ulgowy 12 zł (zwiedzanie z przewodnikiem po polsku)",
+   "cennik": "https://teatrnn.pl/brama-edukacja/en/lublin-memory-of-the-place-exhibition/",
+   "czas": "ok. 1 h",
+   "rezerwacja": "Zwiedzanie z przewodnikiem w dni powszednie o stałych godzinach (10:00 i 14:00 po polsku, 12:00 po angielsku); grupy muszą rezerwować wcześniej."
+  },
+  "0x4722576bc953cf9d:0x860207a283c27f8b": {
+   "nazwa": "Kościół Bernardynów",
+   "rodzaj": "swiatynie",
+   "kategoria": "Kościół (renesans lubelski)",
+   "opis": "Gotycki kościół z lat 1473–1495 po pożarze w 1602 r. przebudowali Rudolf Negroni i Jakub Balin – ich realizacja stała się wzorem dla renesansu lubelskiego. Warto zadrzeć głowę na sztukaterie sklepień i zajrzeć do ołtarza z relikwiami św. Walentego w przeszklonym relikwiarzu. W 1569 r., po podpisaniu aktu unii lubelskiej, odprawiono tu uroczyste nabożeństwo dziękczynne.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "deszcz"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 20 min",
+   "dla": "Zwiedzanie poza godzinami nabożeństw."
+  },
+  "0x47225740560910e1:0xdf11ffcf265f7b4c": {
+   "nazwa": "Kaplica Trójcy Świętej",
+   "rodzaj": "swiatynie",
+   "kategoria": "Kaplica zamkowa z freskami",
+   "opis": "Gotycka kaplica na dziedzińcu Zamku Lubelskiego z XIV w. kryje polichromie rusko-bizantyńskie, wykonane z inicjatywy Władysława Jagiełły i ukończone w 1418 r. przez zespół mistrza Andrzeja. Sceny religijne pokrywają ściany i sklepienie nawy wsparte na jednym filarze, a wśród postaci są dwa wizerunki Jagiełły. Bilety sprzedawane są na konkretną godzinę, więc kup je wcześniej.",
+   "zrodlo": "strona",
+   "okazje": [
+    "pierwszy",
+    "deszcz"
+   ],
+   "cena": "Normalny 20 zł, ulgowy 15 zł",
+   "cennik": "https://mnwl.pl/wizyta/ceny-biletow/",
+   "darmowe": "w wybrane dni każdego miesiąca – terminy na stronie muzeum",
+   "czas": "ok. 30 min",
+   "rezerwacja": "Limit 60 osób na godzinę – bilety na konkretną pełną godzinę (kasa, biletomat na dziedzińcu, bilety.mnwl.pl); grupy powyżej 10 osób muszą rezerwować.",
+   "dla": "Kaplica wchodzi też w bilet zbiorczy Zamku Lubelskiego (40/30 zł).",
+   "bez_godzin": true,
+   "godziny_uwaga": "Wt–czw i nd 9:00–18:00, pt–sob 9:00–19:00, w poniedziałki krócej (zwykle do 17:00). Wejścia o pełnych godzinach.",
+   "www": "https://mnwl.pl/wizyta/zwiedzanie-kaplicy-trojcy-swietej/"
+  },
+  "0x47225945ec471b7d:0x4c273291d3479393": {
+   "nazwa": "Lumina Park",
+   "rodzaj": "nowoczesne",
+   "kategoria": "Park iluminacji (sezonowy)",
+   "opis": "Zimą Ogród Botaniczny UMCS zamienia się w park świetlnych instalacji. Każdy sezon ma inny motyw przewodni, a na trasie spaceru czeka ponad 200 podświetlanych dekoracji z muzyką i elementami edukacyjnymi. Przejście zajmuje około godziny; najlepiej kupić bilet online i przyjechać tuż po otwarciu, bo w weekendy bywają tłumy.",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci",
+    "wieczor"
+   ],
+   "cena": "Normalny od 36 zł, ulgowy od 32 zł (ceny zależne od dnia; w kasie drożej)",
+   "cennik": "https://luminapark.pl/lublin/",
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Czynne sezonowo zimą (mniej więcej od początku listopada do połowy lutego), od wtorku do niedzieli (od połowy stycznia od środy do niedzieli), wieczorami do 21:00; ostatnie wejście o 20:00 – harmonogram sprawdź na stronie.",
+   "dla": "Bezpłatny parking przy wejściu od ul. Willowej; dojazd autobusami 2, 7, 37 i 47 (przystanek Ogród Botaniczny). Wejście z psem niemożliwe.",
+   "bez_godzin": true
+  },
+  "0x4722515f7f41661d:0x910c0377e857f7f8": {
+   "nazwa": "Wieża widokowa w Łysakowie",
+   "rodzaj": "przyroda",
+   "kategoria": "Wieża widokowa",
+   "opis": "Wieża stoi nad doliną Bystrzycy na północny wschód od Lublina, przy ścieżkach rowerowych prowadzących wzdłuż rzeki. Z góry widać łąki w dolinie, okoliczne wsie i zabudowę Lublina, a do dyspozycji jest bezpłatna luneta. Najlepiej połączyć ją z wycieczką rowerową; obok są parking, plac zabaw i siłownia plenerowa.",
+   "zrodlo": "opinie",
+   "okazje": [
+    "darmo",
+    "widoki",
+    "dzieci"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 30 min",
+   "godziny_uwaga": "Teren dostępny całą dobę."
+  },
+  "0x472257641c14cd37:0x77221723580fdede": {
+   "nazwa": "Centrum Spotkania Kultur",
+   "rodzaj": "nowoczesne",
+   "kategoria": "Centrum kultury z tarasami widokowymi",
+   "opis": "Gmach otwarty w 2015 r. w miejscu niedokończonego „Teatru w budowie”, którego budowę rozpoczęto w 1974 r. Oprócz sal koncertowych i galerii wystaw czasowych warto wjechać na zielone tarasy na dachu (poziomy +4 i +5): są tam łąka kwietna, miejska pasieka i szeroka panorama centrum Lublina. Wstęp na tarasy jest bezpłatny, ale są one czynne tylko w ciepłej części roku.",
+   "zrodlo": "strona",
+   "okazje": [
+    "darmo",
+    "widoki"
+   ],
+   "cena": "Wstęp wolny (tarasy widokowe i przestrzenie ogólnodostępne)",
+   "cennik": "https://csklublin.pl/wp-content/uploads/2026/05/Zarzadzenie-Regulamin.pdf",
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Tarasy widokowe są zamykane na zimę (sezonowa przerwa do wiosny); budynek czynny przez cały rok – godziny tarasów publikuje CSK na stronie.",
+   "dla": "Na tarasach obowiązuje zakaz wejścia w butach na wysokim obcasie; dzieci do 13 lat tylko pod opieką dorosłego; osoby na wózkach mają dostęp do poziomu +4. Limit 150 osób jednocześnie."
+  },
+  "0x47228ab203e9778f:0x7d5c77c65ca0ab57": {
+   "nazwa": "Wieża Ariańska w Wojciechowie",
+   "rodzaj": "okolice",
+   "kategoria": "Wieża mieszkalna i muzeum kowalstwa",
+   "opis": "Murowana wieża mieszkalna z przełomu XV i XVI w., wysoka na 27 m, należy do nielicznych takich budowli w Polsce z zachowanym pierwotnym układem wnętrz. Nazwę zawdzięcza jednemu z właścicieli związanemu z arianami. W środku są sala ze sklepieniem krzyżowym, kamienne piwnice, wystawa regionalna i muzeum kowalstwa z pracami mistrzów; w lipcu odbywa się tu festiwal kowali.",
+   "zrodlo": "siec",
+   "okazje": [
+    "deszcz"
+   ],
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Wnętrza wieży udostępniane głównie w sezonie (maj–wrzesień) – poza sezonem warto wcześniej zadzwonić do GOK Wojciechów."
+  },
+  "0x47224232fd999747:0x76b0ad0e135befcc": {
+   "nazwa": "Pałac Zamoyskich w Kozłówce",
+   "rodzaj": "okolice",
+   "kategoria": "Muzeum-rezydencja magnacka",
+   "opis": "Barokowy pałac z lat 1736–1742, od 1799 r. własność Zamoyskich, którzy na przełomie XIX i XX w. urządzili w nim bogate wnętrza pełne portretów i mebli. Pałac zwiedza się z przewodnikiem lub nagraniem (ok. 50 min), a w dawnej stajni działa Galeria Sztuki Socrealizmu z największą w Polsce kolekcją tej sztuki. Po wizycie warto przejść się po bezpłatnym parku.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "cena": "Pałac: normalny 60 zł, ulgowy 40 zł; karnet na wszystkie ekspozycje 80/60 zł",
+   "cennik": "https://www.muzeumzamoyskich.pl/bilety-cennik",
+   "darmowe": "we wtorki (pałac; limitowane wejściówki tylko w kasie)",
+   "czas": "2–3 h",
+   "godziny_uwaga": "Zimą (mniej więcej od grudnia do końca lutego) muzeum ma przerwę konserwatorską. Poza nią czynne od wtorku do niedzieli; godziny zmieniają się sezonowo, a Galeria Socrealizmu ma osobne godziny – sprawdź na stronie.",
+   "rezerwacja": "Pałac zwiedza się w grupach do 25 osób; dzienne limity biletów – latem po południu może zabraknąć wejść, warto zarezerwować online.",
+   "dla": "Na ekspozycję na I piętrze pałacu prowadzą 33-stopniowe schody (brak windy). Parking płatny 15 zł.",
+   "bez_godzin": true
+  },
+  "0x4722623b36c7d2f9:0xde2570cc78e4cb0a": {
+   "nazwa": "Bazylika w Wąwolnicy",
+   "rodzaj": "okolice",
+   "kategoria": "Bazylika i sanktuarium maryjne",
+   "opis": "Neogotycką bazylikę wzniesiono w latach 1907–1914 obok starego kościoła, z którego zachowało się gotyckie prezbiterium z XIV w. ze sklepieniem w stylu renesansu lubelskiego. Dziś to kaplica z czczoną figurą Matki Bożej Kębelskiej – lipową rzeźbą z I połowy XV w. z kręgu „Pięknych Madonn”, koronowaną w 1978 r. Z figurą wiąże się legenda o cudownym ocaleniu jeńców podczas najazdu tatarskiego.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "deszcz"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 30 min",
+   "godziny_uwaga": "Zwiedzanie poza godzinami nabożeństw.",
+   "www": null
+  },
+  "0x47227d74feb2454f:0x2606674baeaec25a": {
+   "nazwa": "Wąwóz Korzeniowy Dół",
+   "rodzaj": "okolice",
+   "kategoria": "Wąwóz lessowy",
+   "opis": "Najbardziej znany kazimierski wąwóz to głębocznica – dawna droga, która z czasem wcięła się głęboko w miękki less. Spacer kilkusetmetrowym dnem pozwala oglądać plątaninę odsłoniętych korzeni starych drzew, wiszących na ścianach wąwozu. Leży ok. 2,5 km od Rynku w Kazimierzu na trasie ścieżki dydaktycznej; przejście w obie strony zajmuje około pół godziny.",
+   "zrodlo": "siec",
+   "okazje": [
+    "dzieci"
+   ],
+   "czas": "ok. 30–45 min",
+   "godziny_uwaga": "Teren otwarty; po deszczu ścieżka bywa błotnista. Przy wejściu płatne parkingi prywatne.",
+   "telefon": null
+  },
+  "0x47227d9418d1aa59:0x86aa25d950531ddb": {
+   "nazwa": "Zamek i baszta w Kazimierzu Dolnym",
+   "rodzaj": "okolice",
+   "kategoria": "Ruiny zamku z basztą",
+   "opis": "Zamek wzniesiono z miejscowego wapienia w latach 40. XIV w. z inicjatywy Kazimierza Wielkiego, a w XVI w. Firlejowie przebudowali go w stylu renesansowym. Od XVIII w. popadał w ruinę i dziś jest zabezpieczoną trwałą ruiną z zarysem murów i Domu Wielkiego. Wyżej stoi okrągła baszta-stołp z przełomu XIII i XIV w., wysoka na 20 m – z obu miejsc rozciąga się panorama miasta i doliny Wisły.",
+   "zrodlo": "siec",
+   "okazje": [
+    "widoki"
+   ],
+   "czas": "ok. 45 min",
+   "godziny_uwaga": "Jeden bilet obejmuje zamek i basztę; aktualne ceny i godziny sprawdź na miejscu."
+  },
+  "0x47227d93a3232d5b:0x4d70db20cdfbcd86": {
+   "nazwa": "Klasztor Franciszkanów w Kazimierzu",
+   "rodzaj": "okolice",
+   "kategoria": "Klasztor i sanktuarium",
+   "opis": "Kościół Zwiastowania NMP ufundowali Bartłomiej i Mikołaj Przybyłowie – ojciec i syn – a konsekrowano go w 1591 r. Od 1628 r. opiekują się nim franciszkanie (dawniej reformaci), którzy rozbudowali świątynię i wznieśli klasztor. W ołtarzu jest czczony obraz Zwiastowania z 1600 r., koronowany w 1986 r. Wchodzi się po zadaszonych schodach z 1680 r., a sprzed kościoła widać dachy Kazimierza.",
+   "zrodlo": "strona",
+   "okazje": [
+    "darmo",
+    "widoki"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 30 min",
+   "godziny_uwaga": "Kościół i krużganki są ogólnodostępne; chór zakonny, zakrystię i muzeum klasztorne pokazuje przewodnik z klasztoru (małe grupy).",
+   "dla": "Do kościoła prowadzą długie schody lub wyboista kamienna droga – utrudnienie dla wózków."
+  },
+  "0x47227942577e2a5d:0x3d122396f770ba71": {
+   "nazwa": "Muzeum Czartoryskich w Puławach",
+   "rodzaj": "okolice",
+   "kategoria": "Pałac i park z pierwszym muzeum w Polsce",
+   "opis": "Na przełomie XVIII i XIX w. rezydencja Izabeli i Adama Kazimierza Czartoryskich była ośrodkiem kultury oświecenia. W parku na skarpie wiślanej stoi Świątynia Sybilli (1798–1801), w której księżna zgromadziła pamiątki narodowe – razem z Domem Gotyckim tworzyła pierwsze muzeum na ziemiach polskich. W pałacu zachowała się barokowa sień z kolumnadą z XVII w.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "cena": "Normalny 30 zł, ulgowy 22 zł, rodzinny 70 zł",
+   "cennik": "https://muzeumczartoryskich.pulawy.pl/cennik/",
+   "darmowe": "w poniedziałki",
+   "czas": "1,5–2 h",
+   "godziny_uwaga": "Od października do marca czynne 8:00–16:00 (kasa do 15:30). Obiekty parkowe – Świątynia Sybilli, Dom Gotycki i Domek Aleksandryjski – są otwarte tylko od czerwca do września (wt–nd); w pozostałych miesiącach zwiedza się sam pałac. Park dostępny bezpłatnie 6:00–22:00.",
+   "dla": "Bilety tylko w kasie w pałacu. Brak windy – ekspozycje na I i II piętrze. Muzeum nie ma własnego parkingu (bezpłatne miejsca przy Alei Królewskiej i ul. Głębokiej)."
+  },
+  "0x47225745e39ccba1:0x84dfa7e0a5ebd2": {
+   "nazwa": "Jesziwa Mędrców Lublina",
+   "rodzaj": "swiatynie",
+   "kategoria": "Synagoga i muzeum jesziwy",
+   "opis": "Gmach jesziwy założonej przez rabina Majera Szapirę, inicjatora programu codziennej nauki Talmudu (Daf Yomi), ukończono w 1930 r. Na drugim i trzecim piętrze zachowała się synagoga – dawna aula – z galerią dla kobiet wspartą na zielonych korynckich kolumnach i odtworzonym aron ha-kodesz. Obok jest multimedialna wystawa o dziejach uczelni i lubelskich Żydów; bilety kupuje się w recepcji hotelu zajmującego budynek.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "cena": "Synagoga i muzeum: 20 zł od osoby",
+   "cennik": "https://hotelilan.pl/zwiedzanie",
+   "czas": "ok. 45 min",
+   "dla": "W recepcji można też kupić bilety (20 zł) na zwiedzanie starego i nowego cmentarza żydowskiego (8:00–17:00)."
+  },
+  "0x4722576a65cc528b:0xf9716f033b99b9d7": {
+   "nazwa": "Kamienica Konopniców",
+   "rodzaj": "zabytki",
+   "kategoria": "Kamienica manierystyczna",
+   "opis": "Lazurowa kamienica przy Rynku 12 to jedyna w Lublinie fasada pokryta manierystycznymi płaskorzeźbami. Przebudowano ją po pożarze miasta w 1575 r.; w kamiennych zdobieniach dostrzeżesz motywy roślinne, głowy smoków i portrety fundatorów – Sebastiana i Katarzyny Konopniców – nad oknami pierwszego piętra. Pierwotny kolor odkryto podczas remontu w 2004 r.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 10 min",
+   "godziny_uwaga": "Oglądana z zewnątrz – fasada dostępna całą dobę."
+  },
+  "0x47225741da80ec4d:0x424658e607a8b911": {
+   "nazwa": "Plac Po Farze",
+   "rodzaj": "zabytki",
+   "kategoria": "Plac z reliktami kościoła farnego",
+   "opis": "Plac powstał w miejscu gotyckiej fary św. Michała Archanioła – jednej z najstarszych świątyń miasta, rozebranej w połowie XIX w. Wyeksponowane i podświetlone fundamenty pokazują, jak duży był kościół, a makieta przybliża jego dawny wygląd. Z krawędzi placu roztacza się widok na wschodnią część Lublina i Zamek – warto zajrzeć także po zmroku.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "widoki",
+    "wieczor"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 15 min",
+   "godziny_uwaga": "Plac miejski dostępny całą dobę."
+  },
+  "0x4722576a679b9a83:0x54f94b8c6799a9c": {
+   "nazwa": "Kamień Nieszczęścia",
+   "rodzaj": "zabytki",
+   "kategoria": "Kamień z legendą",
+   "opis": "Duży głaz na rogu ulic Jezuickiej i Gruella, tuż przy Wieży Trynitarskiej, to jeden z bohaterów lubelskich legend. Według podania kat ściął na nim niewinnego człowieka, a topór pozostawił w kamieniu głęboką szramę – od tej pory głaz ma przynosić pecha, więc lepiej go nie dotykać. To dobry przystanek na spacer z dziećmi po Starym Mieście.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "dzieci"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 5 min",
+   "godziny_uwaga": "Miejsce w przestrzeni miejskiej, dostępne całą dobę."
+  },
+  "0x4722576a203d768d:0x6f1e681e85744967": {
+   "nazwa": "Kościół Świętego Ducha",
+   "rodzaj": "swiatynie",
+   "kategoria": "Kościół gotycko-barokowy",
+   "opis": "Kościół ufundowano w 1419 r. przy szpitalu dla ubogich, wówczas poza murami miasta; dziś stoi na początku deptaka Krakowskie Przedmieście, przy Nowym Ratuszu. Po kolejnych pożarach zyskał barokowe wnętrze i neogotycką wieżę. Najcenniejszy jest obraz Matki Bożej Dobrej Rady, na którym według przekazu w 1642 r. ujrzano łzy. Spokojne miejsce na chwilę oddechu od gwaru miasta.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "deszcz"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 15 min",
+   "dla": "Czynny kościół – podczas mszy zwiedzanie nie jest wskazane.",
+   "bez_godzin": true,
+   "godziny_uwaga": "Czynna świątynia – zwiedzanie poza czasem nabożeństw."
+  },
+  "0x47225741c80438c1:0x4173bd7c0aa6d27a": {
+   "nazwa": "Galeria Sztuki Wirydarz",
+   "rodzaj": "muzea",
+   "kategoria": "Galeria sztuki współczesnej",
+   "opis": "Kameralna galeria w kamienicy Waksmana przy Grodzkiej 19, prowadzona przez kolekcjonera i kuratora Piotra Zielińskiego. Zorganizowała już ponad 170 wystaw – pokazywano tu m.in. prace Jerzego Dudy-Gracza, Tadeusza Kantora, Edwarda Dwurnika i Józefa Wilkonia. Dobry przystanek dla miłośników malarstwa podczas spaceru po Starym Mieście; aktualną wystawę sprawdzisz na stronie galerii.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "czas": "ok. 20–30 min",
+   "dla": "Galeria jest też salonem sprzedaży dzieł sztuki; tygodnik „Polityka” umieścił ją na 9. miejscu rankingu najlepszych prywatnych galerii w Polsce w 2025 r.",
+   "www": null
+  },
+  "0x4722574208df6593:0xee4e2ad9c63a208a": {
+   "nazwa": "Kościół Karmelitów Bosych św. Józefa",
+   "rodzaj": "swiatynie",
+   "kategoria": "Kościół klasztorny (renesans lubelski)",
+   "opis": "Kościół wzniesiono w latach 1635–1640 (konsekracja w 1644 r.) w stylu renesansu lubelskiego dla karmelitanek bosych; najwięcej łożyła na budowę Katarzyna z Kretkowskich Ligęzina. Na fasadzie są sgraffita z Matką Bożą Szkaplerzną, św. Józefem, św. Janem od Krzyża i św. Teresą, a w środku warto przyjrzeć się kolebkowemu sklepieniu z bogatą sztukaterią. To kameralna, zadbana świątynia blisko Krakowskiego Przedmieścia.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "deszcz"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 15 min",
+   "dla": "Czynny kościół klasztorny – podczas nabożeństw zwiedzanie nie jest wskazane."
+  },
+  "0x4722576832e55555:0xd20b6f820c0c265f": {
+   "nazwa": "Pałac Czartoryskich",
+   "rodzaj": "zamki",
+   "kategoria": "Pałac barokowy",
+   "opis": "Barokowy pałac we wschodnim narożniku placu Litewskiego zaprojektował w drugiej połowie XVII w. Tylman z Gameren dla Lubomirskich; od 1731 r. należał do Czartoryskich, a w XIX w. mieściła się tu m.in. fabryka tabaki. Zniszczony w czasie wojny, odzyskał barokowy wygląd. Dziś to siedziba Lubelskiego Towarzystwa Naukowego i PAN – zwykle podziwia się go z zewnątrz podczas spaceru po placu.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 10 min",
+   "godziny_uwaga": "Budynek oglądany z zewnątrz; wnętrza nie są udostępniane do regularnego zwiedzania.",
+   "www": null,
+   "adres": "plac Litewski 2, 20-080 Lublin"
+  },
+  "0x4722576843947d13:0x22db0574bce651a": {
+   "nazwa": "Plac Litewski",
+   "rodzaj": "zabytki",
+   "kategoria": "Plac z fontanną multimedialną",
+   "opis": "Główny plac Lublina, urządzony w latach 20. XIX w. jako plac musztry, przy którym w 1918 r. obradował rząd Ignacego Daszyńskiego. Stoją tu m.in. pomnik Unii Lubelskiej, pomnik Konstytucji 3 Maja i Grób Nieznanego Żołnierza. Po przebudowie w 2017 r. ma fontannę łączącą wodę, światło, dźwięk, lasery i projekcje – w sezonie warto przyjść wieczorem na pokaz.",
+   "zrodlo": "siec",
+   "okazje": [
+    "pierwszy",
+    "darmo",
+    "wieczor",
+    "dzieci"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 30 min",
+   "godziny_uwaga": "Plac dostępny całą dobę. Wieczorne pokazy fontanny multimedialnej odbywają się w sezonie (mniej więcej od maja do września) – terminy sprawdź na lublin.eu lub lublintravel.pl."
+  },
+  "0x472257472cab57a9:0x36408f572141726f": {
+   "nazwa": "Sobór Przemienienia Pańskiego",
+   "rodzaj": "swiatynie",
+   "kategoria": "Katedra prawosławna (sobór)",
+   "opis": "Późnorenesansowa cerkiew przy ul. Ruskiej wzniesiona w latach 1607–1633 i wyświęcona przez metropolitę kijowskiego Piotra Mohyłę. Najcenniejszy jest czterorzędowy ikonostas z początku XVII w. o długości 9,5 m, uratowany z pożaru dawnej świątyni. Cerkiew jest otwarta głównie w czasie nabożeństw i krótkich dyżurów – godziny sprawdź przed wizytą.",
+   "zrodlo": "siec",
+   "okazje": [
+    "deszcz",
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 20 min",
+   "dla": "Czynna świątynia – poza godzinami otwarcia teren za murem bywa zamknięty."
+  },
+  "0x472257007ae3e4d1:0x3d0318babdec33ea": {
+   "nazwa": "Mural Aleksandry Mirosław",
+   "rodzaj": "nowoczesne",
+   "kategoria": "Mural (street art)",
+   "opis": "Mural przy Krakowskim Przedmieściu 55 to hołd dla Aleksandry Mirosław, rekordzistki świata we wspinaczce na czas. Zaprojektował go Michał Ćwiek z Instytutu Sztuk Pięknych UMCS, a odsłonięto go w lipcu 2024 r. Po zeskanowaniu kodu na ścianie można obejrzeć wspinaczkę zawodniczki jako animację 3D – najlepiej za dnia. Łatwo go przeoczyć, bo jest nieco schowany za rogiem.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "dzieci"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 10 min",
+   "godziny_uwaga": "Mural w przestrzeni miejskiej, dostępny całą dobę."
+  },
+  "0x472256fa0c0c7a47:0x5ead577620fe787e": {
+   "nazwa": "Państwowe Muzeum na Majdanku",
+   "rodzaj": "pamiec",
+   "kategoria": "Muzeum-miejsce pamięci (były obóz KL Lublin)",
+   "opis": "Muzeum działa od 1944 r. na terenie niemieckiego obozu koncentracyjnego, w którym w latach 1941–1944 zginęło blisko 80 tys. osób. Zobaczysz zachowane baraki, łaźnię i komory gazowe, krematorium oraz wystawy w dawnych magazynach. Trasę spina Pomnik Walki i Męczeństwa Wiktora Tołkina: Pomnik-Brama, Droga Hołdu i Pamięci oraz Mauzoleum z ziemią zmieszaną z prochami ofiar. Warto pobrać darmową aplikację muzeum.",
+   "zrodlo": "strona",
+   "okazje": [
+    "pierwszy",
+    "darmo"
+   ],
+   "cena": "Wstęp wolny",
+   "cennik": "https://www.majdanek.eu/zaplanuj-wizyte",
+   "czas": "2–3 h",
+   "godziny_uwaga": "Poniedziałki oraz 1 i 6 stycznia, Wielkanoc, Boże Ciało, 11 listopada i 24–31 grudnia nieczynne. Godziny zależą od pory roku (ostatnie wejście o 15:00 lub 17:00) – sprawdź na stronie. Z powodu remontu fragment trasy przy Pomniku-Bramie bywa zamknięty – sprawdź komunikaty na stronie.",
+   "rezerwacja": "Samodzielne zwiedzanie bez rezerwacji. Oprowadzanie dla osób indywidualnych po polsku w soboty i niedziele o 11:00 bez rezerwacji (25 zł normalny, 20 zł ulgowy).",
+   "dla": "Muzeum nie zaleca zwiedzania osobom poniżej 14 lat. Brak szatni i przechowalni bagażu; parking na terenie muzeum płatny; zakaz wprowadzania zwierząt (poza psami asystującymi)."
+  },
+  "0x472259936b074981:0x73378d35c3a75503": {
+   "nazwa": "Ogród Botaniczny UMCS",
+   "rodzaj": "przyroda",
+   "kategoria": "Ogród botaniczny",
+   "opis": "Założony w 1965 r. ogród zajmuje ponad 21 ha w dolinie Czechówki, na zboczach przeciętych lessowymi wąwozami; rośnie tu ok. 7500 taksonów roślin. Spacer prowadzi przez arboretum, alpinarium, dział flory Polski i kolekcję roślin ozdobnych, a za dopłatą zwiedzisz zabytkowy Dworek Kościuszków. Szklarnie tropikalne są otwierane tylko w wybrane weekendy sezonu.",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci"
+   ],
+   "cena": "Normalny 16 zł, ulgowy 11 zł, rodzinny 45 zł (z Dworkiem Kościuszków: 18 zł / 15 zł / 50 zł)",
+   "cennik": "https://www.umcs.pl/pl/ceny-biletow,4287.htm",
+   "czas": "2–3 h",
+   "godziny_uwaga": "Ogród jest czynny sezonowo, od kwietnia do października; zimą przerwa. W sezonie bilety sprzedawane są do 16:30, a bramka wyjściowa zamykana o 17:30 – aktualne godziny sprawdź na stronie.",
+   "dla": "Wejście i kasa od ul. Willowej; bilety można kupić też online. Na teren nie wolno wprowadzać psów. Zimą na terenie ogrodu działa osobno biletowany park iluminacji Lumina Park.",
+   "bez_godzin": true,
+   "adres": "Willowa (między nr 58 i 60), 20-819 Lublin",
+   "www": "https://www.umcs.pl/pl/ogrod-botaniczny.htm"
+  },
+  "0x472259bd8d2e984d:0xc4e89fe85194393f": {
+   "nazwa": "Muzeum Wsi Lubelskiej (skansen)",
+   "rodzaj": "muzea",
+   "kategoria": "Muzeum etnograficzne (skansen)",
+   "opis": "Jeden z największych skansenów w Polsce, malowniczo położony w dolinie Czechówki. Sektory odtwarzają krajobrazy Lubelszczyzny: zobaczysz wiatrak z Zygmuntowa, cerkiew z Tarnoszyna, XVIII-wieczny dwór z Żyrzyna, a przede wszystkim miasteczko z lat 30. XX w. – z zakładem fryzjerskim, pocztą, piwiarnią i warsztatami. Wygodne buty obowiązkowe, teren jest rozległy.",
+   "zrodlo": "strona",
+   "okazje": [
+    "pierwszy",
+    "dzieci"
+   ],
+   "cena": "Normalny 30 zł, ulgowy 20 zł, rodzinny 60 zł (od listopada do lutego: 15 zł / 10 zł / 30 zł); dzieci do 7 lat bezpłatnie",
+   "cennik": "https://skansen.lublin.pl/pl/zwiedzanie/",
+   "darmowe": "raz w tygodniu – dzień ogłaszany na stronie; wnętrza obiektów są wtedy zamknięte",
+   "czas": "2–3 h",
+   "godziny_uwaga": "Czynne codziennie: listopad–marzec 9:00–15:00, kwiecień i październik 9:00–17:00, maj–wrzesień 9:00–19:00; ostatnie wejście godzinę przed zamknięciem. Nieczynne 1 i 6 stycznia, w Wielkanoc, 1 listopada i 24–31 grudnia.",
+   "dla": "Grupy zorganizowane zwiedzają wyłącznie z przewodnikiem (ok. 1,5 h, rezerwacja). Przed wejściem bezpłatny parking."
+  },
+  "0x4722f86e333cb1d5:0x2447907b984d5661": {
+   "nazwa": "Zalew Zemborzycki",
+   "rodzaj": "przyroda",
+   "kategoria": "Zbiornik wodny (teren rekreacyjny)",
+   "opis": "Zbiornik na Bystrzycy powstał w 1974 r., a przy jego budowie w czynie społecznym pracowało ok. 40 tys. lublinian. Otaczają go lasy Dąbrowa i Stary Gaj, a wokół wody biegną ścieżki, którymi można obejść lub objechać rowerem cały zalew. Latem działają plaże, wypożyczalnie sprzętu wodnego i lokale gastronomiczne – to dobre miejsce na pół dnia ruchu na świeżym powietrzu.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "dzieci",
+    "widoki"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "2–3 h",
+   "godziny_uwaga": "Teren otwarty, dostępny całą dobę. Kąpieliska, wypożyczalnie i lokale działają głównie latem."
+  },
+  "0x472244ee24375925:0xc4116c7793436ef0": {
+   "nazwa": "Kozłowiecki Park Krajobrazowy",
+   "rodzaj": "okolice",
+   "kategoria": "Park krajobrazowy",
+   "opis": "Utworzony w 1990 r. park chroni Lasy Kozłowieckie – największy kompleks leśny w pobliżu Lublina; lasy zajmują ponad 90% jego powierzchni. Dominują tu bory, w tym bagienne, z dużym udziałem starych drzewostanów, a przy odrobinie ciszy spotkasz sarny, jelenie, a nawet daniele. Drogi leśne są zamknięte dla samochodów i wyznakowano na nich pętle rowerowe; nazwa parku pochodzi od Kozłówki, słynącej z pałacu Zamoyskich.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "dzieci"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "2–4 h",
+   "godziny_uwaga": "Teren leśny dostępny całą dobę."
+  },
+  "0x4723aa17a85b2a45:0xd53ed7d01b1dd22c": {
+   "nazwa": "Ruiny zboru kalwińskiego w Piaskach",
+   "rodzaj": "okolice",
+   "kategoria": "Ruiny świątyni",
+   "opis": "W latach 1573–1642 działał w Piaskach zbór ariański, a później właściciele miasta, kalwiniści Suchodolscy, ufundowali świątynię swojego wyznania. Ruiny murowanego zboru z lat 1783–1785 stoją na zadbanym wzgórzu nad stawami; tablice opowiadają historię miejsca, a ze wzgórza widać panoramę miasteczka. Obok są plac zabaw i wiaty – dobry przystanek w drodze na wschód.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "widoki",
+    "dzieci"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 30 min",
+   "godziny_uwaga": "Teren otwarty, dostępny całą dobę."
+  },
+  "0x472246c6d9e0c34f:0x4352e46317d9733d": {
+   "nazwa": "Bazylika św. Anny w Lubartowie",
+   "rodzaj": "okolice",
+   "kategoria": "Bazylika barokowa",
+   "opis": "Barokową świątynię wzniesiono w latach 1733–1738 według projektu Pawła Antoniego Fontany z fundacji Pawła Karola Sanguszki. Zwróć uwagę na portal z czarnego marmuru dębnickiego, ośmioboczną nawę główną i epitafium z sercami fundatora i jego żony. W ołtarzu głównym znajduje się koronowany obraz św. Anny Samotrzeciej, a na chórze organy z 1742 r.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "deszcz"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 30 min",
+   "dla": "Czynny kościół parafialny – zwiedzanie poza godzinami mszy."
+  },
+  "0x472262c3d9a2f805:0xc0d704734efe5e16": {
+   "nazwa": "Park Labiryntów i Miniatur w Rąblowie",
+   "rodzaj": "okolice",
+   "kategoria": "Park labiryntów i miniatur",
+   "opis": "Park w Rąblowie koło Wąwolnicy, w Krainie Lessowych Wąwozów, to propozycja na rodzinne popołudnie. Główną atrakcją są labirynty: grabowy, wiklinowy, palikowy i z ruchomymi przeszkodami, a obok stoją makiety dawnych budowli regionu w skali 1:25. Dzieci rozwiązują po drodze zagadki, a spacer przez las pozwala zobaczyć okoliczne wąwozy z góry.",
+   "zrodlo": "siec",
+   "okazje": [
+    "dzieci"
+   ],
+   "czas": "ok. 2 h",
+   "godziny_uwaga": "Park działa sezonowo – przed przyjazdem sprawdź aktualne godziny i ceny na stronie park-labiryntow.pl.",
+   "dla": "Na miejscu jest parking; brak punktu gastronomicznego – warto zabrać prowiant."
+  },
+  "0x47227d00883b5309:0x259157d36b20aa76": {
+   "nazwa": "Wąwóz Kwaskowa Góra w Kazimierzu Dolnym",
+   "rodzaj": "okolice",
+   "kategoria": "Wąwóz lessowy",
+   "opis": "Lessowy wąwóz łączący ul. Kwaskowa Góra w Kazimierzu Dolnym z Jeziorszczyzną. Według tablicy przy wejściu ma ok. 1200 m długości i 75 m przewyższenia, a jego ściany porastają drzewa o fantazyjnie odsłoniętych korzeniach. To dobra alternatywa dla słynnego Korzeniowego Dołu, a przy dolnym wejściu jest niewielka polana, na której można zostawić samochód.",
+   "zrodlo": "opinie",
+   "okazje": [
+    "darmo",
+    "dzieci"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Teren otwarty, dostępny całą dobę. Po deszczu bywa błotniście."
+  },
+  "0x47227d8fd648435f:0x376a6d130705edd3": {
+   "nazwa": "Dom Kuncewiczów w Kazimierzu Dolnym",
+   "rodzaj": "okolice",
+   "kategoria": "Muzeum biograficzne (willa)",
+   "opis": "Willa „Pod Wiewiórką” z 1936 r., zaprojektowana przez Karola Sicińskiego z opoki i drewna, była domem pisarki Marii Kuncewiczowej i jej męża Jerzego. Wnętrza z oryginalnym wyposażeniem wyglądają, jakby gospodarze wyszli na chwilę: meble, obrazy artystów kolonii kazimierskiej, pamiątki z podróży i rodzinne fotografie. Dom stoi z dala od gwarnego Rynku, w otoczeniu ogrodu.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "cena": "Normalny 15 zł, ulgowy 10 zł, rodzinny 40 zł",
+   "cennik": "https://mnkd.pl/visit/",
+   "darmowe": "jeden dzień w tygodniu, ustalany co miesiąc – sprawdź na mnkd.pl",
+   "czas": "ok. 45 min",
+   "godziny_uwaga": "1 października – 31 marca: 9:00–16:00, we wtorki nieczynne; 1 kwietnia – 30 września: codziennie 10:00–17:00. Kasa kończy sprzedaż 30 min przed zamknięciem.",
+   "dla": "Do domu prowadzi dość strome podejście; zwiedzanie zaczyna się od krótkiego filmu o właścicielach."
+  },
+  "0x4722e8393bf45859:0x7ec02eb55898f62": {
+   "nazwa": "Muzeum 24. Pułku Ułanów w Kraśniku",
+   "rodzaj": "okolice",
+   "kategoria": "Muzeum wojskowe",
+   "opis": "Oddział Muzeum Narodowego w Lublinie opowiada historię 24. Pułku Ułanów, który stacjonował w Kraśniku w latach 1922–1939, walczył w 1939 r., a potem w 1. Dywizji Pancernej gen. Maczka. Druga wystawa przybliża bitwę pod Kraśnikiem z sierpnia 1914 r., są też zdjęcia dawnego miasta i zbiory archeologiczne. Ekspozycje mocno korzystają z multimediów.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "cena": "Normalny 10 zł, ulgowy 8 zł",
+   "cennik": "https://mnwl.pl/muzeum-krasnik/wizyta-w-oddziale-mrk/",
+   "darmowe": "jeden dzień w tygodniu, ustalany co miesiąc – sprawdź na stronie muzeum",
+   "czas": "ok. 1 h",
+   "godziny_uwaga": "Czynne od środy do niedzieli 9:00–16:00; w niektóre święta nieczynne – przed wizytą sprawdź komunikaty na stronie muzeum.",
+   "www": "https://mnwl.pl/muzeum-krasnik/"
+  },
+  "0x47227d93f82e0e8f:0xaac94f03b7d5846e": {
+   "nazwa": "Muzeum Sztuki Złotniczej w Kazimierzu",
+   "rodzaj": "okolice",
+   "kategoria": "Muzeum sztuki złotniczej",
+   "opis": "Otwarty w 1979 r. oddział Muzeum Nadwiślańskiego to jedyna placówka tego typu w Polsce, przedstawiająca ponad tysiąc lat polskiego złotnictwa. W zabytkowych piwnicach gmachu przy Rynku 19 zgromadzono ok. 1900 obiektów – srebra kościelne, cerkiewne i żydowskie, srebra stołowe i biżuterię współczesną; ciekawostką jest zrekonstruowany warsztat złotnika. Początek zbiorom dał dar kolekcjonera Jędrzeja Jaworskiego.",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "cena": "Normalny 18 zł, ulgowy 13 zł, rodzinny 50 zł",
+   "cennik": "https://mnkd.pl/visit/",
+   "darmowe": "jeden dzień w tygodniu, ustalany co miesiąc – sprawdź na mnkd.pl",
+   "czas": "ok. 45 min",
+   "godziny_uwaga": "1 października – 31 marca: 9:00–16:00, we wtorki nieczynne; 1 kwietnia – 30 września: codziennie 10:00–17:00. Kasa kończy sprzedaż 30 min przed zamknięciem.",
+   "dla": "Budynek ma rampę, windę i toaletę dostosowaną dla osób z niepełnosprawnościami.",
+   "bez_godzin": true
+  },
+  "0x47230d5c4f6276c7:0x3604d3c254960528": {
+   "nazwa": "Rezerwat Wodny Dół koło Krasnegostawu",
+   "rodzaj": "okolice",
+   "kategoria": "Rezerwat przyrody",
+   "opis": "Rezerwat krajobrazowy utworzony w 1996 r. chroni prawie 186 ha zalesionych wąwozów Wyniosłości Giełczewskiej. Największą osobliwością jest rzadka w Polsce cieszynianka wiosenna, rosną tu też m.in. zawilec żółty i przylaszczka. Przez wąwozy prowadzi zielony szlak – pętla ok. 4 km z parkingiem przy wejściu w Niemienicach-Kolonii; najpiękniej jest wiosną.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "dzieci"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "1,5–2 h",
+   "godziny_uwaga": "Teren leśny dostępny całą dobę. Po deszczu ścieżki w wąwozach bywają śliskie.",
+   "www": null
+  },
+  "0x47228757af19325f:0xecebbc123ef9b040": {
+   "nazwa": "Punkt widokowy Albrechtówka",
+   "rodzaj": "okolice",
+   "kategoria": "Punkt widokowy",
+   "opis": "Wzgórze nad Męćmierzem, nazwane od nazwiska dawnego właściciela, to punkt widokowy na przełom Wisły. Z góry widać rzekę, flisacką wieś Męćmierz, a po drugiej stronie Wisły zamek w Janowcu. Dojdziesz tu z Kazimierza szlakiem przez las miejski; najlepiej przyjść przed zachodem słońca, gdy dolinę oświetla ciepłe światło.",
+   "zrodlo": "siec",
+   "okazje": [
+    "darmo",
+    "widoki",
+    "wieczor"
+   ],
+   "cena": "Wstęp wolny",
+   "czas": "ok. 1 h (z dojściem)",
+   "godziny_uwaga": "Teren otwarty, dostępny całą dobę."
+  },
+  "0x47227e8d48af304b:0xa9b04c5d769fac66": {
+   "nazwa": "Magiczne Ogrody w Trzciankach",
+   "rodzaj": "okolice",
+   "kategoria": "Rodzinny park tematyczny",
+   "opis": "Bajkowy park tematyczny w Trzciankach koło Janowca, po drugiej stronie Wisły niż Kazimierz Dolny. Wśród kwiatów, strumyków i mostków czekają m.in. zamek wróżek z placem zabaw, tratwy na stawie z fontanną, kładki w koronach drzew z tunelami w korzeniach, zjeżdżalnie i mroczna strefa dla dzieci od 6 lat. Mapka z zadaniami prowadzi przez wszystkie atrakcje – na wizytę zaplanuj cały dzień.",
+   "zrodlo": "siec",
+   "okazje": [
+    "dzieci"
+   ],
+   "czas": "4–6 h",
+   "godziny_uwaga": "Park czynny sezonowo, mniej więcej od maja do początku października; w części miesięcy tylko w weekendy. Daty i ceny sprawdź na magiczneogrody.com.",
+   "dla": "Bilety sprzedawane online; parking bezpłatny. Mroczna strefa (zwiedzana z przewodnikiem o stałych porach) nie jest przeznaczona dla młodszych dzieci.",
+   "bez_godzin": true
+  }
+ }
+}
