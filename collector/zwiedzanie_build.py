@@ -93,7 +93,7 @@ def main():
             "hours": parse_hours(hours), "hoursText": hours, "hoursNote": m.get("godziny_uwaga"),
             "occ": [o for o in OCCS if o in m.get("okazje", [])], "czas": m.get("czas"), "czasMin": czas_min(m.get("czas")),
             "darmowe": m.get("darmowe"), "rezerwacja": m.get("rezerwacja"),
-            "dRynek": round(dr), "areaName": miasto(m.get("adres") or d.get("address") or "") or ("Stare Miasto" if dr <= 440 else "Centrum" if dr <= 900 else ""),
+            "dRynek": round(dr), "areaName": miasto(m.get("adres") or d.get("address") or "") or ("Stare Miasto" if dr <= 440 else "Centrum" if dr <= 1200 else ""),
 
             "reviewsText": [t for t in (d.get("review_texts") or []) if 40 < len(t) < 700][:8],
             "tags": " ".join([m.get("tagi", ""), TAGI_R[m["rodzaj"]]]).strip(),

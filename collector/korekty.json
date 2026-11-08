@@ -437,6 +437,166 @@
   "dobra-paczkarnia-lublin-583f3": "https://dobrapaczkarnia.pl/nasze-punkty/lublin/",
   "bistro-przy-peronie-pyszne-i-duze-jedzenie-z-dowozem-07d8e": "https://bistroprzyperonie.pl/",
   "indian-palace-restaurant-c0444": "https://www.indianpalace.pl/",
-  "capri-72bfe": "https://www.capri-lublin.pl/"
+  "capri-72bfe": "https://www.capri-lublin.pl/",
+  "campanile-992a7": "https://lublin.campanile.com/",
+  "gastro-bros-b7fe5": "https://gastrobros.pl/",
+  "pizza-lublin-lsm-diabelska-pizzeria-af61b": "https://www.facebook.com/DiabelskaPizzeria"
+ },
+ "godziny": {
+  "parownia-dim-sum-bar-czechow-018ad": {
+   "txt": "pon–czw 11:00–21:00, pt–sob 12:00–22:00, nd 12:00–21:00",
+   "src": "strona"
+  },
+  "lava-83c0b": {
+   "txt": "pon–sob 11:00–02:00, nd 10:00–23:00",
+   "src": "strona"
+  },
+  "ankara-kebab-cd0e4": {
+   "txt": "pon–czw 10:00–00:00, pt–sob 10:00–02:00, nd 12:00–00:00",
+   "src": "strona"
+  },
+  "little-hanoi-564d7": {
+   "txt": "pon zamknięte, wt–nd 11:00–20:00",
+   "src": "strona"
+  },
+  "restauracja-bianco-9e465": {
+   "txt": "pon–nd 17:00–21:00",
+   "src": "strona"
+  },
+  "apetito-5ba84": {
+   "txt": "pon–pt 09:00–16:30, sob–nd zamknięte",
+   "src": "strona"
+  },
+  "restauracja-mcdonald-s-dea6c": {
+   "txt": "pon–nd 06:00–00:00",
+   "src": "strona"
+  },
+  "kfc-lublin-plaza-1287c": {
+   "txt": "pon–nd 09:00–21:30",
+   "src": "strona"
+  },
+  "domino-s-pizza-2ed5a": {
+   "txt": "pon–sob 11:00–21:00, nd 11:00–22:00",
+   "src": "strona"
+  },
+  "legend-of-kebab-82496": {
+   "txt": "pon–czw 12:00–20:00, pt 12:00–22:00, sob 16:00–22:00, nd 16:00–20:00",
+   "src": "serwis"
+  },
+  "faraon-kebab-i-burger-16773": {
+   "txt": "pon–nd 11:00–22:00",
+   "src": "serwis"
+  },
+  "fast-kebab-e6dc4": {
+   "txt": "pon–nd 11:00–22:00",
+   "src": "serwis"
+  },
+  "halka-restauracja-polska-ea8ad": {
+   "txt": "pon–czw 12:00–22:00, pt–sob 12:00–00:00, nd 12:00–22:00",
+   "src": "strona"
+  },
+  "hotel-wieniawski-i-restauracja-trzy-romanse-5d994": {
+   "txt": "pon–czw 12:00–21:00, pt–sob 12:00–22:00, nd 14:00–21:00",
+   "src": "strona"
+  },
+  "campanile-992a7": {
+   "txt": "pon–nd 12:30–22:30",
+   "src": "strona"
+  },
+  "gastro-bros-b7fe5": {
+   "txt": "pon–pt 12:00–18:00",
+   "src": "strona"
+  },
+  "mae-indie-rynek-5-c0376": {
+   "txt": "pon–czw 11:00–21:30, pt–sob 11:00–22:30, nd 11:00–21:30",
+   "src": "strona"
+  },
+  "pizzeria-vendetta-lublin-ba180": {
+   "txt": "pon 14:00–23:00, wt–nd 13:00–23:00",
+   "src": "strona"
+  },
+  "cloud-garden-shisha-kitchen-6f8dc": {
+   "txt": "pon–czw 10:00–00:00, pt 10:00–03:00, sob 12:00–03:00, nd 12:00–00:00",
+   "src": "strona"
+  },
+  "gospoda-wiejska-43112": {
+   "txt": "pon zamknięte, wt–nd 11:00–20:00",
+   "src": "strona"
+  },
+  "przystan-restauracja-51088": {
+   "txt": "pon–czw 07:00–21:00, pt–sob 07:00–22:00, nd 07:00–20:00",
+   "src": "strona"
+  },
+  "restauracja-mcdonald-s-daae1": {
+   "txt": "pon–nd 07:00–00:00",
+   "src": "strona"
+  },
+  "megustas-18a64": {
+   "txt": "pon–śr 14:00–21:00, czw zamknięte, pt–nd 14:00–21:00",
+   "src": "strona"
+  },
+  "kaprys-s-c-bar-mleczny-878a9": {
+   "txt": "pon–pt 09:00–17:00, sob–nd zamknięte",
+   "src": "strona"
+  },
+  "kfc-lublin-statoil-tysiaclecia-b0046": {
+   "txt": "pon–czw 07:00–01:00, pt–sob 07:00–02:00, nd 07:00–01:00",
+   "src": "strona"
+  },
+  "robimypizze-pizza-lublin-2a433": {
+   "txt": "pon–wt zamknięte, śr–czw 12:30–20:30, pt–sob 12:30–22:00, nd 13:00–21:00",
+   "src": "strona"
+  },
+  "u-fotografa-craft-beer-smash-burgers-74a3f": {
+   "txt": "pon–czw 13:00–00:00, pt–sob 13:00–02:00, nd 13:00–00:00",
+   "src": "strona"
+  },
+  "sw-micha-pub-regionalny-10944": {
+   "txt": "pon 16:00–21:00, wt–czw 12:00–21:00, pt–sob 12:00–23:00, nd 12:00–21:00",
+   "src": "strona"
+  },
+  "crazy-bubble-e1679": {
+   "txt": "pon–pt 10:00–21:00, sob 09:00–21:00, nd 09:00–20:00",
+   "src": "strona"
+  },
+  "domino-s-pizza-13f6c": {
+   "txt": "pon–czw 10:00–21:00, pt 10:00–22:00, sob 10:00–21:00, nd 11:00–22:00",
+   "src": "strona"
+  },
+  "pizza-lublin-lsm-diabelska-pizzeria-af61b": {
+   "txt": "pon zamknięte, wt–czw 12:00–21:00, pt–sob 12:00–22:00, nd 12:00–21:00",
+   "src": "serwis"
+  },
+  "cloud-shisha-sushi-a7f4f": {
+   "txt": "pon–czw 14:00–00:00, pt–sob 14:00–03:00, nd 14:00–00:00",
+   "src": "strona"
+  },
+  "restauracja-bursztynowa1-d1366": {
+   "txt": "pon–nd 12:00–22:00",
+   "src": "strona"
+  },
+  "molo-bar-1cefd": {
+   "txt": "pon–nd 12:00–21:00",
+   "src": "strona"
+  },
+  "palmira-kebab-90f5a": {
+   "txt": "pon–czw 11:00–21:00, pt–sob 11:00–22:00, nd 12:00–21:00",
+   "src": "strona"
+  },
+  "alinces-restaurant-b77cf": {
+   "txt": "pon 11:00–20:30, wt zamknięte, śr–nd 11:00–20:30",
+   "src": "serwis"
+  }
+ },
+ "telefon": {
+  "crazy-bubble-fd031": "537 065 687",
+  "campanile-992a7": "81 531 84 00"
+ },
+ "menu_url": {
+  "domino-s-pizza-c6579": "https://www.dominospizza.pl/menu/pizza",
+  "domino-s-pizza-13f6c": "https://www.dominospizza.pl/menu/pizza",
+  "domino-s-pizza-2ed5a": "https://www.dominospizza.pl/menu/pizza",
+  "bona-restaurant-24f17": "https://bonalublin.choiceqr.com/section:menu-glowne",
+  "od-kuchni-7b7cb": "https://www.odkuchni-restauracja.pl/index.php?p=menu&g=daniaGlowne"
  }
 }

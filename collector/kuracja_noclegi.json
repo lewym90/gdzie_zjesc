@@ -197,7 +197,8 @@
   },
   "MJ Hostel": {
    "desc": "Hostel na pierwszym piętrze kamienicy przy 1 Maja, 400 m od dworca PKP. Pokoje wieloosobowe i dwuosobowe, część z łazienką i klimatyzacją, aneks kuchenny dla gości.",
-   "price": 150
+   "price": 150,
+   "www": null
   },
   "Noclegi Komfort": {
    "desc": "Pokoje 2–5-osobowe z łazienkami w cichej okolicy przy trasie na Warszawę, niedaleko Muzeum Wsi Lubelskiej. Wspólna, w pełni wyposażona kuchnia i taras."
@@ -361,6 +362,12 @@
   },
   "Hostel Królewska": {
    "www": "https://hostelkrolewska.pl/"
+  },
+  "Apartament Cube": {
+   "www": null
+  },
+  "Art Residence": {
+   "www": null
   }
  },
  "ceny_terminy": [
@@ -489,5 +496,315 @@
   "Foto Hostel": "Foto Hostel Lublin",
   "Hostel Pod Basztą": "Hostel Pod Basztą Lublin",
   "Apartamenty Na Doby": "Apartamenty Na Doby Lublin"
+ },
+ "opisy": {
+  "Hampton by Hilton Lublin": {
+   "desc": "Hotel sieci Hilton przy al. Kompozytorów Polskich (droga nr 82), ok. 2 km od Centrum Spotkania Kultur i zamku. Pokoje z TV, sejfem i zestawem do kawy, rodzinne z rozkładaną sofą. W cenie śniadanie w formie bufetu; jest restauracja z tarasem, siłownia, sale konferencyjne i parking.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Victoria": {
+   "desc": "Hotel w 10-piętrowym budynku przy ul. Narutowicza, w centrum miasta, ok. 2 km od dworca kolejowego. Pokoje proste, w wyższym standardzie z kanapą i lodówką. Na miejscu restauracja, bar w lobby i taras na dachu; śniadanie i parking za dodatkową opłatą.",
+   "zrodlo": "mapy"
+  },
+  "LubHotel": {
+   "desc": "Hotel przy ul. Krańcowej na Tatarach, ok. 2 km od stacji Lublin Północny i Muzeum na Majdanku, ok. 5 km od zamku. Pokoje z biurkiem i zestawem do kawy, często z fototapetami; wyższy standard z lodówką. Śniadanie i parking w cenie, na miejscu restauracja.",
+   "zrodlo": "mapy"
+  },
+  "Arche Hotel Lublin": {
+   "desc": "Hotel sieci Arche przy ul. Zamojskiej, ok. 2 km od zamku i Bramy Krakowskiej. Pokoje urządzone w stylu modernizmu połowy XX wieku, apartamenty z salonem i aneksem kuchennym. Śniadania w restauracji; jest też sezonowy bar na dachu, siłownia, sauna i gabinet masażu. Zwierzęta za dopłatą.",
+   "zrodlo": "mapy"
+  },
+  "Centrum Konferencyjne Hotel Focus": {
+   "desc": "Hotel konferencyjny przy al. Warszawskiej, otoczony lasem – ok. 10 minut pieszo do Muzeum Wsi Lubelskiej i 2 km do Ogrodu Botanicznego UMCS. Pokoje z TV i zestawem do kawy, część z kącikiem wypoczynkowym. Na miejscu restauracja z kuchnią europejską, bar, plac zabaw, sale konferencyjne i bankietowe; parking w cenie.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Na Rogatce": {
+   "desc": "Hotel przy ul. Sielankowej, ok. 2 km od skansenu i 4 km od zamku. Proste pokoje z TV, część z klimatyzacją. Na miejscu restauracja w rustykalnym stylu z drewnianymi belkami, plac zabaw i bezpłatny parking.",
+   "zrodlo": "mapy"
+  },
+  "Hotel pod Kasztanami": {
+   "desc": "Hotel nad samym Zalewem Zemborzyckim, ok. 11 km od zamku. Jasne pokoje, niektóre z balkonem lub patio od strony ogrodu. Śniadanie w formie bufetu, restauracja z ogródkiem z widokiem na zalew, wypożyczalnia rowerów i łodzi oraz zaplecze bankietowe.",
+   "zrodlo": "mapy"
+  },
+  "Noclegi Orla 6": {
+   "desc": "Hostel przy ul. Orlej w centrum, w okolicy kawiarń i restauracji, ok. 2 km od zamku i Bramy Krakowskiej. Do wyboru łóżka w salach wieloosobowych i pokoje prywatne – wszystkie z łazienką. Kawa i herbata w cenie, do dyspozycji wspólny aneks kuchenny, jadalnia i patio w ogrodzie.",
+   "zrodlo": "mapy"
+  },
+  "Kmicic Hotel": {
+   "desc": "Zajazd w stylu dworkowym w Zemborzycach Dolnych, niedaleko Zalewu Zemborzyckiego. Pokoje 2- i 3-osobowe, także studio i z łożem małżeńskim. Na miejscu restauracja z letnim patio, sale na przyjęcia i spotkania, plac zabaw z dmuchaną zjeżdżalnią i bezpłatny parking.",
+   "zrodlo": "strona"
+  },
+  "Hotel Polskiego Związku Motorowego": {
+   "desc": "Prosty hotel PZM przy ul. Prusa (droga nr 82), ok. 11 minut pieszo od zamku. Kameralne pokoje z TV, apartamenty z oddzielnym salonem. Na miejscu restauracja z barem i sala bankietowa. Parking niestrzeżony w cenie, strzeżony i śniadanie za dopłatą.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Browar Lwów": {
+   "desc": "Hotel przy ul. Bronowickiej, naprzeciw parku Bronowice, ok. 2 km od zamku. Pokoje i apartamenty, śniadanie w formie bufetu i parking w cenie. Restauracja z kuchnią polską, ukraińską i europejską, własny przeszklony browar, altana z grillem oraz sale bankietowe i konferencyjne.",
+   "zrodlo": "mapy"
+  },
+  "Royal Botanic Hotel": {
+   "desc": "Hotel przy ul. Północnej, tuż obok Ogrodu Botanicznego UMCS, ok. 2 km od skansenu. Klimatyzowane pokoje, apartamenty z salonem, jadalnią i balkonem od strony ogrodu. Jest restauracja ze śniadaniami, spa z krytym basenem, sauną i łaźnią parową oraz zaplecze konferencyjne.",
+   "zrodlo": "mapy"
+  },
+  "Apartamenty Browar Perła": {
+   "desc": "Siedem apartamentów (22–62 m², dla 1–6 osób) w zabytkowym kompleksie dawnego Browaru Vettera, dziś Browaru Perła, na jednym z jego zielonych dziedzińców. Do Starego Miasta niecałe 10 minut pieszo, do dworców ok. 15 minut. Apartamenty z aneksem kuchennym i klimatyzacją, część z balkonem lub tarasem; bezpłatny parking.",
+   "zrodlo": "strona"
+  },
+  "Ośrodek Wypoczynkowy Forest": {
+   "desc": "Ośrodek z drewnianymi domkami w lesie nad Zalewem Zemborzyckim, ok. 3 km od Słonecznego Wrotkowa i 11 km od zamku. Domki mają kuchnię, jadalnię i łazienkę, wyższy standard – oddzielną sypialnię. Parking w cenie, jest plac zabaw i wypożyczalnia sprzętu wodnego.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Palace Europa Lublin": {
+   "desc": "Hotel w XIX-wiecznej kamienicy przy Krakowskim Przedmieściu, 2 minuty od placu Litewskiego i ok. 4 minuty pieszo od Starego Miasta. Pokoje w tradycyjnym stylu, apartamenty z salonem i wanną z hydromasażem. Śniadanie w cenie; restauracja, bar, bistro i bilard. Parking dostępny, zwierzęta za opłatą.",
+   "zrodlo": "mapy"
+  },
+  "Pokoje Rezydencja Parysa": {
+   "desc": "Pensjonat w zielonej dzielnicy mieszkaniowej przy ul. Parysa, ok. 7 km od dworca Lublin Główny. Przestronne, proste pokoje, część z TV i strefą dzienną. Goście mają wspólną kuchnię z jadalnią, ogród, stół do ping-ponga i siłownię.",
+   "zrodlo": "mapy"
+  },
+  "Młyn": {
+   "desc": "Hotel przy al. Racławickich, ok. 4 km od zamku. Proste pokoje z drewnianymi meblami i łazienką, część z kącikiem wypoczynkowym. Na miejscu restauracja z ceglanymi ścianami, śniadania i parking.",
+   "zrodlo": "mapy"
+  },
+  "Apartamenty Kamienica Muzyków": {
+   "desc": "Pięć apartamentów w kamienicy przy Rynku Starego Miasta, ok. 6 minut pieszo od zamku. Urządzone meblami z epoki, każdy z kuchnią, salonem i jadalnią. W kamienicy działa restauracja z kuchnią polską i dwoma kominkami. Dzieci do 4 lat bezpłatnie.",
+   "zrodlo": "mapy"
+  },
+  "Pokoje Gościnne Wytchnienie": {
+   "desc": "Pensjonat w kamiennej willi ze sztukaterią przy ul. Powstańców Śląskich, w dzielnicy mieszkaniowej ok. 3 km od skansenu i 5 km od zamku. Proste pokoje z TV i wspólnymi łazienkami, na każdym piętrze aneks kuchenny. Jest parking.",
+   "zrodlo": "mapy"
+  },
+  "Willa Urocza 5": {
+   "desc": "Pensjonat na cichym Sławinku, między Ogrodem Botanicznym UMCS a skansenem. Pokoje 1–3-osobowe i apartament dla 4 osób, wszystkie z łazienką i TV. Na każdej kondygnacji w pełni wyposażona kuchnia, przed budynkiem oświetlony parking.",
+   "zrodlo": "strona"
+  },
+  "Hostel Relax": {
+   "desc": "Prosty obiekt przy ul. Przyjaźni, ok. 1 km od stacji Lublin Północny i 4 km od placu Po Farze. Skromne pokoje z łazienką prywatną lub wspólną, część z kącikiem wypoczynkowym. Jest restauracja z polską kuchnią i ogródkiem, kawiarnia, ogród z grillem, sala konferencyjna i parking w cenie.",
+   "zrodlo": "mapy"
+  },
+  "For Rest hostel": {
+   "desc": "Hostel przy ul. Sowińskiego. Pokoje z łóżkiem podwójnym i dostępem do Wi-Fi, przy obiekcie ogród, pralnia i bezpłatny parking.",
+   "zrodlo": "mapy"
+  },
+  "Art Residence": {
+   "desc": "Apartamenty w budynku z czerwonej cegły przy ul. Dubois, ok. 3 km od zamku. Każdy z salonem, aneksem kuchennym, łazienką i tarasem; śniadanie można zamówić do pokoju. Na miejscu ogród japoński, taras na dachu, sala konferencyjna i parking podziemny.",
+   "zrodlo": "mapy"
+  },
+  "Folk Deluxe": {
+   "desc": "Apartamenty przy ul. Zielonej, w centrum, ok. 250 m od Starego Miasta. Mają aneks kuchenny z lodówką i mikrofalówką, łóżko podwójne i sofę, część z balkonem. Są pokoje rodzinne, można przyjechać ze zwierzęciem, jest parking.",
+   "zrodlo": "strona"
+  },
+  "Noclegi Lublin Słodki Sen 2": {
+   "desc": "Pokoje gościnne przy ul. Morsztynów, w spokojnej dzielnicy ok. 3,5 km od centrum, 150 m od przystanku autobusowego. Pokoje od 1- do 5-osobowych, niektóre z balkonem, łazienka wspólna na dwa pokoje. Goście mają w pełni wyposażoną kuchnię, bezpłatny parking na posesji i Wi-Fi.",
+   "zrodlo": "strona"
+  },
+  "A+B Apartments Plac Litewski": {
+   "desc": "Apartamenty przy ul. 3 Maja, tuż przy placu Litewskim. Studia i apartamenty z oddzielną sypialnią (dla 2–6 osób), z w pełni wyposażoną kuchnią, łazienką i tarasem. W budynku jest winda, do dyspozycji parking i garaż.",
+   "zrodlo": "strona"
+  },
+  "Hotel Luxor": {
+   "desc": "Hotel przy al. Warszawskiej, wśród ogrodów na skraju lasu, ok. 2 km od Muzeum Wsi Lubelskiej i 7 km od zamku. Pokoje podwyższonego standardu mają strefę dzienną i balkon z widokiem na las. Na miejscu restauracja, bar, taras z grillem, siłownia, sale konferencyjno-bankietowe i ogród z placem zabaw; śniadanie i parking dostępne, zwierzęta mile widziane.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Korona Spa & Wellness": {
+   "desc": "Czterogwiazdkowy hotel w Zemborzycach Tereszyńskich (Lublin). Strefa spa obejmuje basen, jacuzzi (także zewnętrzne), saunę fińską i parową oraz zabiegi i masaże. Są też restauracja, sala fitness, bilard, sala zabaw i plac zabaw, miejsce na grill w ogrodzie, bezpłatny parking ze stacją ładowania aut. Zwierzęta są mile widziane.",
+   "zrodlo": "strona"
+  },
+  "Hotel Wieniawski": {
+   "desc": "Nowoczesny hotel w przebudowanej kamienicy z 1912 roku przy ul. Sądowej, ok. 1 km od archikatedry. Pokoje mają historyczne akcenty, a te o podwyższonym standardzie – strefę dzienną z rozkładaną sofą. W hotelu działa restauracja z nowoczesną kuchnią regionalną oraz kawiarnia z barem; parking płatny. Dzieci do 6 lat nocują bezpłatnie.",
+   "zrodlo": "mapy"
+  },
+  "IBB Grand Hotel Lublin": {
+   "desc": "Hotel w okazałym XIX-wiecznym gmachu przy Krakowskim Przedmieściu, ok. 1 km od zamku. Pokoje urządzono tradycyjnymi drewnianymi meblami; pokoje i apartamenty o podwyższonym standardzie mają balkon i marmurową łazienkę. Na miejscu restauracja, kawiarnia, bar, siłownia oraz spa z sauną i łaźnią turecką. Zwierzęta przyjmowane za dopłatą.",
+   "zrodlo": "mapy"
+  },
+  "Focus Hotel Premium Lublin": {
+   "desc": "Hotel przy ul. Podzamcze, ok. 10 minut spacerem od zamku. Pokoje z kolorowymi meblami mają minibar i sejf, a część – sofę lub panoramiczny widok na miasto; dzieci do 17 lat nocują z rodzicami bez dopłaty. Jest restauracja, całodobowy bar w lobby, sauna, siłownia i sale konferencyjne o powierzchni 400 m². Śniadanie w formie bufetu i parking za dopłatą.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Trzy Róże": {
+   "desc": "Niski hotel w Zemborzycach Dolnych, ok. 14 km od lubelskiego zamku. Pokoje są proste, z prywatną łazienką; w apartamencie jest wanna z hydromasażem. Śniadanie w formie bufetu i parking są wliczone w cenę. Restauracja ma salę z kominkiem i sezonowe patio, a zaplecze konferencyjne mieści do 400 osób. Zwierzęta przyjmowane za dopłatą.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Lublin": {
+   "desc": "Prosty hotel w centrum, ok. 13 minut spacerem od zamku, w kamienicy z początku XX wieku, w której mieszkał poeta Józef Czechowicz. Pokoje są funkcjonalne, a rodzinne mieszczą 3–4 osoby; dzieci do 8 lat nocują bezpłatnie. Śniadanie w formie bufetu i parking za dopłatą.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Grodzka 20": {
+   "desc": "Hotel przy brukowanej ul. Grodzkiej na Starym Mieście, 3 minuty spacerem od zamku i tuż przy placu Po Farze. Pokoje mają minimalistyczny wystrój, część – ceglane ściany lub widok na miasto; w rodzinnych jest osobny salon, a apartamenty mają aneks kuchenny. Dwupoziomowa restauracja ze ścianami z kamienia i freskami, bar, śniadania na miejscu.",
+   "zrodlo": "mapy"
+  },
+  "B&B Hotel Lublin Centrum": {
+   "desc": "Sieciowy hotel otwarty w 2022 roku przy ul. Dolnej 3 Maja, ze 130 pokojami z łóżkiem podwójnym, prysznicem i zestawem do kawy i herbaty. Są pokoje rodzinne i przystosowane dla osób na wózkach, sala śniadaniowa, sala konferencyjna i winda. Parking płatny, w miarę wolnych miejsc; zwierzęta są przyjmowane.",
+   "zrodlo": "mapy"
+  },
+  "Campanile Prime Lublin": {
+   "desc": "Funkcjonalny hotel sieciowy przy ul. Lubomelskiej, ok. 15 minut spacerem od Bramy Krakowskiej i 2 km od zamku. Pokoje mają prosty wystrój i drewniane meble, dostępna jest obsługa pokoi. W hotelu działa restauracja i bar z tarasem; śniadanie i parking za dopłatą.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Focus": {
+   "desc": "Dwupiętrowy hotel przy al. Kraśnickiej, w dzielnicy mieszkaniowej ok. 8 km od zamku. Oferuje prosto urządzone pokoje i apartamenty z prywatną łazienką. Śniadanie w formie bufetu podawane jest w hotelowej restauracji; jest też bar, ogród z tarasem i strefą zabaw oraz sale konferencyjne.",
+   "zrodlo": "mapy"
+  },
+  "Hostel iRoom": {
+   "desc": "Niedrogi obiekt w nowoczesnym budynku przy ul. Nadbystrzyckiej, 6 minut pieszo od Politechniki Lubelskiej i 12 minut od stadionu Arena Lublin; dworzec Lublin Główny jest ok. 2 km dalej. Pokoje z kolorowymi akcentami mają telewizor i biurko. Goście korzystają ze wspólnych kuchni; parking ma ograniczoną liczbę miejsc.",
+   "zrodlo": "mapy"
+  },
+  "Hostel Królewska": {
+   "desc": "Prosty hostel przy ul. Królewskiej, 2 minuty spacerem od Bramy Krakowskiej i 8 minut od zamku. Są koedukacyjne sale z łóżkami piętrowymi i wspólną łazienką oraz pokoje prywatne do 4 osób. Goście mają wspólny aneks kuchenny, jadalnię i salon; śniadanie i rowery za dopłatą. Brak klimatyzacji.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Willowa": {
+   "desc": "Prosty hotel przy ul. Sławinkowskiej na Sławinie, 13 minut pieszo od Muzeum Wsi Lubelskiej i ok. 5 km od zamku. Pokoje są skromnie urządzone, te o podwyższonym standardzie mają rozkładaną sofę. Na miejscu restauracja z ogródkiem, śniadania w formie szwedzkiego stołu i parking.",
+   "zrodlo": "mapy"
+  },
+  "Folk Hostel": {
+   "desc": "Hostel w centrum, przy Krakowskim Przedmieściu (wejście od ul. Zielonej), wśród sklepów i restauracji. Do wyboru sale z łóżkami piętrowymi i wspólnymi łazienkami, pokoje prywatne z własną łazienką oraz apartamenty z aneksem kuchennym i salonem. Kawa i herbata są dostępne całą dobę w cenie, jest wspólny salon z kuchnią; śniadanie i parking za dopłatą.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Irys": {
+   "desc": "Niewielki hotel przy ul. Rąblowskiej, w spokojnej, wiejskiej okolicy ok. 8 km od zamku. Skromne pokoje mieszczą do 4 osób. Na miejscu restauracja z tarasem, sala bankietowo-konferencyjna, plac zabaw, grill oraz ogród ze stawem i altaną; dostępne śniadania i parking.",
+   "zrodlo": "mapy"
+  },
+  "Pokoje Gościnne Strumykowa": {
+   "desc": "Pokoje gościnne w cichej okolicy na zachodzie Lublina, ok. 4 km od Muzeum Wsi Lubelskiej. Pokoje 1–4-osobowe mają własną łazienkę i telewizor. Goście korzystają ze wspólnej kuchni z jadalnią i bezpłatnego parkingu; w pobliżu przystanek Gnieźnieńska i sklepy.",
+   "zrodlo": "strona"
+  },
+  "Redwood Hostel": {
+   "desc": "Hostel w spokojnej okolicy przy ul. Wyzwolenia, ok. 3,8 km od Starego Miasta i ok. 20 minut pieszo od Muzeum na Majdanku. Pokoje 1–4-osobowe mają standard zbliżony do hotelowego i własną łazienkę. Na miejscu bezpłatny prywatny parking i automat z napojami i przekąskami; obsługa mówi w czterech językach.",
+   "zrodlo": "strona"
+  },
+  "KK Apartments": {
+   "desc": "Apartamenty przy ul. Karmelickiej, w centrum blisko Starego Miasta, każdy dla maks. 4 osób. Mają w pełni wyposażoną kuchnię, część jadalną i wypoczynkową z rozkładaną sofą, pralkę i klimatyzację. Goście mogą korzystać z bezpłatnego parkingu, zwierzęta są przyjmowane.",
+   "zrodlo": "strona"
+  },
+  "Pokoje Sławin": {
+   "desc": "Tanie pokoje gościnne przy ul. Sławinkowskiej, w cichej części północno-zachodniego Lublina, blisko Ogrodu Botanicznego UMCS i Muzeum Wsi Lubelskiej. Jest 12 pokoi 1–4-osobowych z łazienkami i WC wspólnymi na piętrach. Goście mają do dyspozycji wyposażone kuchnie na każdym piętrze, taras i parking na posesji.",
+   "zrodlo": "strona"
+  },
+  "Hotel Havana": {
+   "desc": "Obiekt przy ul. Abramowickiej. Oferuje apartamenty i pokoje dla niepalących z bezpłatnym Wi-Fi. Goście przyjeżdżający samochodem mają bezpłatny parking, w pobliżu jest supermarket.",
+   "zrodlo": "mapy"
+  },
+  "Pokoje Gajowa": {
+   "desc": "Tanie pokoje przy ul. Gajowej, w spokojnej okolicy ok. 600 m od Ogrodu Botanicznego UMCS i 1 km od Muzeum Wsi Lubelskiej; do centrum ok. 4,5 km. Pokoje z łóżkami pojedynczymi lub małżeńskimi mają telewizor, łazienki są wspólne na korytarzu. Do dyspozycji w pełni wyposażona kuchnia, ogród i bezpłatny parking.",
+   "zrodlo": "strona"
+  },
+  "Sztukmistrz": {
+   "desc": "Obiekt przy ul. Jezuickiej na Starym Mieście. Pokoje mają łóżka typu queen lub king size, własną łazienkę z prysznicem, lodówkę i zestaw do kawy i herbaty; są też pokoje rodzinne. Dostępne śniadanie.",
+   "zrodlo": "mapy"
+  },
+  "Noclegi Lublin Słodki Sen": {
+   "desc": "Kameralne pokoje gościnne przy ul. Motylowej, w spokojnej dzielnicy z dobrym dojazdem komunikacją do centrum i uczelni. Pokoje 1–4-osobowe, niektóre z balkonem; łazienki z wanną lub prysznicem są wspólne dla 2–3 pokoi. Goście mają w pełni wyposażoną kuchnię, ogród i bezpłatny parking na posesji.",
+   "zrodlo": "strona"
+  },
+  "Rynek 10 Apartments": {
+   "desc": "Dziesięć apartamentów w zabytkowej kamienicy na Rynku Starego Miasta, której historia sięga XVI wieku. Mają od 27 do 59 m² i mieszczą 2–4 osoby; są wyposażone w kuchnię i klimatyzację, w budynku jest winda. Parking płatny.",
+   "zrodlo": "strona"
+  },
+  "Waksman Sport Hotel": {
+   "desc": "Niedrogi hotel w budynku dawnej cukrowni przy ul. Krochmalnej, ok. 5 km od zamku. Pokoje są proste, z prywatną łazienką, a apartamenty mieszczą do 4 osób. Dostępne są strzeżony parking, śniadania i obiady, a także wycieczki z przewodnikiem.",
+   "zrodlo": "mapy"
+  },
+  "ibis Styles Lublin Stare Miasto": {
+   "desc": "Nowoczesny hotel sieci ibis Styles przy al. Solidarności, niecały kilometr od Zamku Lubelskiego i Starego Miasta. Pokoje z muralami, rodzinne dla maksymalnie 4 osób z kącikiem wypoczynkowym. Śniadanie w formie bufetu, restauracja, bar w lobby i sala zabaw dla dzieci; parking ze stacjami ładowania aut elektrycznych.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Ilan": {
+   "desc": "Hotel w budynku przy ul. Lubartowskiej, około 1 km od Zamku Lubelskiego. Pokoje z minibarem, część z widokiem na miasto, apartamenty z częścią dzienną. Na miejscu restauracja, bar, synagoga oraz sale konferencyjne i przestrzeń na imprezy; śniadanie za dopłatą, parking.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Piano": {
+   "desc": "Kameralny hotel przy ul. Jana Pawła II, około 7 km od Zamku Lubelskiego. Pokoje z biurkiem i sejfem, apartamenty z częścią dzienną. Śniadanie w formie bufetu i parking w cenie; restauracja, taras i siłownia, a za dopłatą sauna i wanna z hydromasażem. Zwierzęta przyjmowane za opłatą.",
+   "zrodlo": "mapy"
+  },
+  "Dom na Podwalu": {
+   "desc": "Hotel w zespole XVII-wiecznych budynków przy ul. Podwale, 3 minuty pieszo od Zamku Lubelskiego. Pokoje z zestawem do kawy i herbaty, w wyższym standardzie z kącikiem wypoczynkowym. Parking w cenie, na miejscu restauracja, sale konferencyjne i sala bankietowa.",
+   "zrodlo": "mapy"
+  },
+  "Zajazd Pod Gwiazdami": {
+   "desc": "Zajazd wśród zieleni przy ul. Lipskiej, na obrzeżach miasta, około 9 km od Zamku Lubelskiego. Proste pokoje, rodzinne dla maksymalnie 4 osób. Śniadanie w formie bufetu i parking w cenie; restauracja, bar, taras, ogród z placem zabaw i zaplecze bankietowe.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Dworek Vesaria": {
+   "desc": "Hotel przy ul. Nowy Świat, około 1 km od dworca kolejowego i 5 km od Zamku Lubelskiego. Pokoje z kącikiem wypoczynkowym, niektóre z oknami od podłogi do sufitu. Śniadanie i parking w cenie; restauracja, plac zabaw oraz zaplecze konferencyjno-bankietowe.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Atelia": {
+   "desc": "Hotel otoczony zielenią przy al. Warszawskiej, około 2 km od Muzeum Wsi Lubelskiej. Pokoje z lodówką i czajnikiem, apartamenty z salonem i tarasem, a te w wyższym standardzie z wanną z hydromasażem i sauną. Restauracja, ogród, siłownia i sale bankietowe; dostępne śniadanie i parking.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Alter": {
+   "desc": "Hotel na Starym Mieście w dwóch połączonych kamienicach, z których jedna pochodzi z 1582 r., 3 minuty spacerem od Zamku Lubelskiego. Część pokoi jest pod skosami, a apartamenty mają balkon lub kominek. Śniadanie w formie bufetu w cenie; restauracja z koktajlbarem i spa w średniowiecznej piwnicy z basenem i jacuzzi.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Forum Fitness Spa & Wellness": {
+   "desc": "Kameralny hotel przy ul. Obywatelskiej, około 1 km od Zamku Lubelskiego. W cenie każdego pokoju wstęp na siłownię, w pokojach wyższego standardu także do spa z jacuzzi i saunami; apartamenty mają salon i aneks kuchenny. Restauracja z menu dla dzieci, masaże, zajęcia fitness, śniadanie w formie bufetu i bezpłatny parking.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Akropol": {
+   "desc": "Hotel w ogrodach przy al. Warszawskiej, około 7 km od Zamku Lubelskiego. Pokoje i apartamenty urządzone tradycyjnie, z drewnianymi meblami. Restauracja, całodobowy bar i taras z fontanną od strony ogrodu; śniadanie za dopłatą, parking w cenie.",
+   "zrodlo": "mapy"
+  },
+  "Vanilla Hotel": {
+   "desc": "Hotel w XVII-wiecznej kamienicy przy Krakowskim Przedmieściu, około 10 minut pieszo od Zamku Lubelskiego. Indywidualnie urządzone pokoje z sejfem, studia z kącikiem wypoczynkowym. Śniadanie w cenie, podawane w jadalni z odsłoniętą cegłą i drewnianymi belkami; na miejscu kawiarnia z barem.",
+   "zrodlo": "mapy"
+  },
+  "Hotels Lublin": {
+   "desc": "Hotel przy ul. Podzamcze, około 15 minut pieszo od Starego Miasta. Proste pokoje dla 1–3 osób. Restauracja z kuchnią polską i międzynarodową, zaplecze konferencyjno-bankietowe, dostępne śniadania i parking.",
+   "zrodlo": "mapy"
+  },
+  "Holiday Inn Express Lublin": {
+   "desc": "Hotel sieci Holiday Inn Express przy ul. Spadochroniarzy, ze 128 pokojami, w tym rodzinnymi i przystosowanymi dla osób na wózkach. Pokoje z klimatyzacją i zestawem do kawy i herbaty, winda. Na miejscu jadalnia i bar, dostępne śniadanie i parking.",
+   "zrodlo": "mapy"
+  },
+  "Apartament Cube": {
+   "desc": "Apartament przy ul. Józefa Mackiewicza z łóżkiem typu queen size i sofą, odpowiedni także dla rodzin. Budynek ma windę i udogodnienia dla osób niepełnosprawnych, a goście mają do dyspozycji bezpłatny parking.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Trybunalska": {
+   "desc": "Hotel przy Rynku na Starym Mieście, z klimatyzowanymi pokojami z biurkiem i łazienką z prysznicem; możliwa dostawka. Budynek ma windę i udogodnienia dla osób niepełnosprawnych. Na miejscu restauracja, bar oraz sale konferencyjne i bankietowa; dostępne śniadanie i parking.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Avatary Miasta": {
+   "desc": "Trzygwiazdkowy hotel przy Rynku na Starym Mieście, część kompleksu Avatary Miasta z multimedialnymi Kamienicą Legend i Kamienicą Kryminałów. Klimatyzowane pokoje z minibarem, sejfem i zestawem do kawy, winda. Na miejscu restauracja, kawiarnia i bar, obsługa pokoju i pralnia; dostępne śniadanie i parking.",
+   "zrodlo": "strona"
+  },
+  "Apartamenty Wieniawa": {
+   "desc": "Apartamenty w ogrodzonej i monitorowanej kamienicy przy ul. Głowackiego na Wieniawie. Do wyboru m.in. dwupokojowy apartament dla 1–4 osób (35 m²) i studio dla 1–2 osób (27 m²), wszystkie z łazienką i w pełni wyposażonym aneksem kuchennym. Jedno miejsce parkingowe na terenie obiektu w cenie.",
+   "zrodlo": "strona"
+  },
+  "Hostel Centrum 51": {
+   "desc": "Hostel przy ul. Narutowicza 51, z pokojami z łazienką z prysznicem, w tym rodzinnymi. Do dyspozycji gości jest ogród i parking.",
+   "zrodlo": "mapy"
+  },
+  "Lublin Old Town Rooms": {
+   "desc": "Pensjonat przy ul. Kowalskiej, w okolicy kawiarni i restauracji, 3 minuty spacerem od Zamku Lubelskiego i około 10 minut od Starego Miasta. Pokoje z telewizorem, niektóre z kącikiem wypoczynkowym, parkietem lub odsłoniętą cegłą. Goście mają wspólny aneks kuchenny z pralko-suszarką.",
+   "zrodlo": "mapy"
+  },
+  "Hotel Logos": {
+   "desc": "Hotel przy ul. Akademickiej, w okolicy miasteczka akademickiego, niedaleko Starego Miasta i Centrum Spotkania Kultur. Ma 28 pokoi o różnym standardzie (61 miejsc), windę i udogodnienia dla osób niepełnosprawnych. Śniadania w restauracji Plackarnia w budynku hotelu, trzy sale konferencyjne dla 15–60 osób, bezpłatny parking.",
+   "zrodlo": "strona"
+  },
+  "Villa i Restauracja Tymotka": {
+   "desc": "Pensjonat z restauracją przy ul. Niezapominajki, z pokojami rodzinnymi i apartamentami. Na miejscu restauracja i bar, ogród z placem zabaw oraz pokój zabaw dla dzieci; bezpłatny parking.",
+   "zrodlo": "mapy"
+  },
+  "Noclegi Jodełka": {
+   "desc": "Pensjonat w dzielnicy mieszkaniowej, 10 minut spacerem od Ogrodu Botanicznego UMCS i około 6 km od Zamku Lubelskiego. Proste, kolorowe pokoje, część z prywatną łazienką. Do dyspozycji gości wspólna kuchnia i parking w cenie.",
+   "zrodlo": "mapy"
+  },
+  "Pokoje Gościnne CDN": {
+   "desc": "Pokoje gościnne przy ul. Poniatowskiego, każdy z aneksem kuchennym z lodówką, mikrofalówką i zestawem do kawy oraz łóżkiem typu queen size. Na miejscu ogród i bezpłatny parking.",
+   "zrodlo": "mapy"
+  },
+  "Noclegi – Pokoje Gościnne": {
+   "desc": "Pokoje gościnne przy al. Warszawskiej 59, w domowej atmosferze, przestronne, część z własną łazienką; w niektórych czajnik i podstawowe naczynia, w części wspólnej lodówka. Blisko przystanki komunikacji miejskiej i sklepy. Ogród z miejscem do siedzenia i bezpłatny parking na posesji.",
+   "zrodlo": "strona"
+  },
+  "Dr Mandryk House": {
+   "desc": "Obiekt przy ul. Berberysowej z pokojami i apartamentami, pralnią samoobsługową i ogrodem. Goście mają do dyspozycji bezpłatny parking.",
+   "zrodlo": "mapy"
+  }
  }
 }

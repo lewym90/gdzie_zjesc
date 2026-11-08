@@ -82,7 +82,7 @@ def main():
             "priceText": re.sub(r" (zł|min)\b", "\u00a0\\1", m["cena"]) if m.get("cena") else None, "link": m.get("cennik"), "dla": m.get("dla"),
             "hours": parse_hours(hours), "hoursText": hours, "hoursNote": m.get("godziny_uwaga"),
             "ma": [x for x in MA if x in m.get("ma", [])], "occ": [o for o in OCCS if o in m.get("okazje", [])],
-            "dRynek": round(dr), "areaName": miasto(m.get("adres") or d.get("address") or "") or ("Stare Miasto" if dr <= 650 else "Centrum" if dr <= 1600 else ""),
+            "dRynek": round(dr), "areaName": miasto(m.get("adres") or d.get("address") or "") or ("Stare Miasto" if dr <= 440 else "Centrum" if dr <= 1200 else ""),
             "nocl": m.get("nocleg"), "rest": m.get("restauracja"),
             "reviewsText": [t for t in (d.get("review_texts") or []) if 40 < len(t) < 700][:8],
             "tags": " ".join([m.get("tagi", ""), TAGI_R[m["rodzaj"]]] + [TAGI_MA[x] for x in m.get("ma", []) if x in TAGI_MA]).strip(),

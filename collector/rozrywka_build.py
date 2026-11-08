@@ -105,7 +105,7 @@ def main():
             "priceText": uz.get("cena"), "link": uz.get("link"), "age": uz.get("wiek"),
             "hours": parse_hours(hours), "hoursText": hours,
             "indoor": indoor, "occ": occ, "attrs": attrs[:6], "dRynek": round(dr),
-            "areaName": "Stare Miasto" if dr <= 650 else "Centrum" if dr <= 1600 else "",
+            "areaName": "Stare Miasto" if dr <= 440 else "Centrum" if dr <= 1200 else "",
             "rest": KUR.get("restauracje", {}).get(name), "reviewsText": [t for t in (d.get("review_texts") or []) if 40 < len(t) < 700][:8],
         })
     # miejsca z Restauracji, które pasują też tutaj (np. kluby w grupie „Wieczorem”)
@@ -126,7 +126,7 @@ def main():
                 "lat": r.get("lat"), "lng": r.get("lng"), "www": r.get("www"), "phone": re.sub(r"^[^\d+]+", "", r.get("phone") or "").strip() or None, "gmaps": r.get("gmaps"),
                 "photos": r["photos"][:12], "desc": "", "descSrc": None, "priceText": None, "link": None, "age": None,
                 "hours": r.get("hours") or {}, "hoursText": r.get("hoursText") or {}, "indoor": True, "occ": occ, "attrs": [],
-                "dRynek": round(dr) if dr is not None else None, "areaName": ("Stare Miasto" if dr <= 650 else "Centrum" if dr <= 1600 else "") if dr is not None else "",
+                "dRynek": round(dr) if dr is not None else None, "areaName": ("Stare Miasto" if dr <= 440 else "Centrum" if dr <= 1200 else "") if dr is not None else "",
                 "rest": r["id"], "fromRest": True, "reviewsText": (r.get("reviewsText") or [])[:8],
             })
             have.add(r["name"].lower()); have.add(gn.lower())
@@ -146,6 +146,8 @@ def main():
         if uz.get("cena") and not p["priceText"]: p["priceText"] = uz["cena"]
         if uz.get("godziny"):
             h = godziny(uz["godziny"]); p["hoursText"], p["hours"] = h, parse_hours(h)
+        if uz.get("godziny_uwaga"): p["hoursNote"] = uz["godziny_uwaga"]
+        if "www" in uz and p.get("fromRest"): p["www"] = uz["www"]
     for p in out: p["tags"] = KUR.get("tagi", {}).get(p["category"] or "", "")
     out.sort(key=lambda p: -(p["rating"] or 0) * math.log10(p["reviews"] + 10))
     bdir = os.path.join(REPO, "img", "banery")

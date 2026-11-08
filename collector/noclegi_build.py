@@ -106,7 +106,7 @@ def main():
         if dr <= 650: area.append("stare")
         if dr <= 1600: area.append("centrum")
         if km(pos, CITY["dworzec"]) * 1000 <= 900: area.append("dworzec")
-        aname = "Stare Miasto" if dr <= 650 else "Centrum" if dr <= 1600 else ""
+        aname = "Stare Miasto" if dr <= 440 else "Centrum" if dr <= 1200 else ""
         occ = []
         for o in ["romantyczny", "biznes", "rodzina", "spa"]:
             lst = KUR.get(o, [])
@@ -132,6 +132,8 @@ def main():
         for dt, opis in KUR.get("ceny_terminy", []):
             c = CENY.get(pid, {}).get(dt, {})
             if c.get("price"): d["price"] = c["price"]; priceSrc = ("termin:" + opis) if opis else None; break
+        op = KUR.get("opisy", {}).get(name)  # opis własnymi słowami zamiast skopiowanego z Map
+        if op: desc, descSrc = op["desc"], op.get("zrodlo", "mapy")
         uz = KUR.get("uzupelnienia", {}).get(name, {})
         if uz:
             if "www" in uz: www = uz["www"]

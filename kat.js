@@ -163,7 +163,7 @@ function makeKat(C) {
     if (t !== "info") return C.pane(p, t, ctx());
     const r = p.reviewsText || [];
     const best = r.find((x) => x.length > 60 && x.length < 260) || r[0];
-    return `${p.desc ? `<div class="ndesc">${p.desc.split("\n").map((x) => `<p>${esc(x)}</p>`).join("")}${p.descSrc ? `<p class="note">${{ strona: "Na podstawie strony obiektu.", siec: "Na podstawie informacji z internetu.", opinie: "Na podstawie opinii gości w Mapach Google." }[p.descSrc] || ""}</p>` : ""}</div>` : ""}
+    return `${p.desc ? `<div class="ndesc">${p.desc.split("\n").map((x) => `<p>${esc(x)}</p>`).join("")}${p.descSrc ? `<p class="note">${{ strona: "Na podstawie strony obiektu.", siec: "Na podstawie informacji z internetu.", opinie: "Na podstawie opinii gości w Mapach Google.", mapy: "Na podstawie opisu obiektu w Mapach Google." }[p.descSrc] || ""}</p>` : ""}</div>` : ""}
     <div class="rows">${C.infoRows(p, ctx())}</div>
     ${p.lat ? `<a class="loc" href="${esc(navUrl(p))}" target="_blank" rel="noopener"><div class="loc-map" id="kminiMap"></div><div class="loc-txt"><i>${ico("pin")}</i><div><b>${esc(cityAddr(p.address))}</b><span id="klocDist">${distText(p) || "Dotknij, aby wyznaczyć trasę"}</span></div><i>${ico("navi")}</i></div></a>` : ""}
     ${best ? `<blockquote class="quote">${esc(sentenceCut(best, 240))}<small>Z opinii w Google</small></blockquote>` : ""}`;

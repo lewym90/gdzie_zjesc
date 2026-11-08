@@ -69,9 +69,10 @@ const ROZR = (function () {
     },
     tabs: [["info", "Informacje"], ["godziny", "Godziny"], ["opinie", "Opinie"], ["kontakt", "Kontakt"]],
     pane: (p) => {
-      const ht = p.hoursText || {}, wd = dayIdx();
+      const ht = p.hoursText || {}, wd = dayIdx(), nt = p.hoursNote ? `<p class="note" style="margin-top:12px">${esc(p.hoursNote)}</p>` : "";
+      if (!Object.keys(ht).length && nt) return nt.replace(' style="margin-top:12px"', "");
       if (!Object.keys(ht).length) return p.kind === "kino" ? `<p class="note">Godziny zależą od seansów, spektakli i koncertów. Sprawdź ${p.www ? `<a href="${esc(p.link || p.www)}" target="_blank" rel="noopener">repertuar na stronie</a>` : "repertuar"}.</p>` : `<p class="note">Google nie podaje godzin otwarcia tego miejsca. Sprawdź je na stronie lub zadzwoń.</p>`;
-      return `<table class="hours">${DAYS.map((d, i) => `<tr class="${i === wd ? "today" : ""}"><td>${d[0].toUpperCase() + d.slice(1)}</td><td>${esc(ht[d] || "brak danych")}</td></tr>`).join("")}</table>${p.kind === "kino" ? `<p class="note" style="margin-top:12px">Godziny kasy lub obiektu. Seanse i spektakle sprawdzisz w repertuarze.</p>` : ""}`;
+      return `<table class="hours">${DAYS.map((d, i) => `<tr class="${i === wd ? "today" : ""}"><td>${d[0].toUpperCase() + d.slice(1)}</td><td>${esc(ht[d] || "brak danych")}</td></tr>`).join("")}</table>${p.kind === "kino" ? `<p class="note" style="margin-top:12px">Godziny kasy lub obiektu. Seanse i spektakle sprawdzisz w repertuarze.</p>` : ""}${nt}`;
     },
     infoRows: (p) => {
       const rest = p.rest && typeof BYID !== "undefined" && BYID[p.rest];
