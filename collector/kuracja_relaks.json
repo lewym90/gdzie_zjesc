@@ -253,7 +253,9 @@
    "okazje": [
     "solo",
     "prezent"
-   ]
+   ],
+   "cena": "Masaż klasyczny lub relaksacyjny 60 min – 120 zł, 90 min – 180 zł",
+   "cennik": "https://rezerwacja.ozdrowiedbaj.pl/#2"
   },
   "0x4722574993b84935:0x77e26894880401ba": {
    "nazwa": "Edelweiss",
@@ -667,7 +669,9 @@
     "solo",
     "znajomi"
    ],
-   "godziny_uwaga": "Zajęcia według grafiku – zapisy przez aplikację eFitness."
+   "godziny_uwaga": "Zajęcia według grafiku – zapisy przez aplikację eFitness.",
+   "cena": "Wejście jednorazowe 45 zł, karnet 4 wejścia 140 zł, 8 wejść 240 zł",
+   "cennik": "https://harmonia-swidnik.cms.efitness.com.pl/kup-karnet"
   },
   "0x472257a67ec69fd1:0xac53b3f91b3ec129": {
    "nazwa": "Harmony Kobido & Bowen",
@@ -695,7 +699,9 @@
    ],
    "okazje": [
     "solo"
-   ]
+   ],
+   "cena": "Refleksologia stóp 60 min – 160 zł, masaż Kobido 75 min – 230 zł",
+   "cennik": "https://wasinska.pl/cennik/"
   },
   "0x472257d8eab65051:0x397eba76a20107bb": {
    "nazwa": "Shivago Spa",

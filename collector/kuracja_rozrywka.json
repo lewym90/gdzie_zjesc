@@ -53,7 +53,8 @@
   "Legia Paintballowa",
   "ExitRoom - Escape Room Lublin",
   "Coolki",
-  "Supergolf"
+  "Supergolf",
+  "Lubelski Teatr Tańca"
  ],
  "grupa": {
   "Hala Globus im. Tomasza Wójtowicza": "kino",
@@ -184,7 +185,9 @@
   },
   "Akademia Golfa": {
    "indoor": false,
-   "desc": "Pole golfowe z 6 dołkami do gry krótkiej i symulatorem golfa (Pierwszy Lubelski Klub Golfowy)."
+   "desc": "Pole golfowe z 6 dołkami do gry krótkiej i symulatorem golfa (Pierwszy Lubelski Klub Golfowy).",
+   "cena": "Symulator TrackMan 1 godz.: 70 zł (8–15), 90 zł (po 15:00 i w weekendy)",
+   "link": "https://plkg.bookero.pl/"
   },
   "Rezerwat Dzikich Dzieci": {
    "indoor": false,
@@ -200,28 +203,43 @@
   "Słoneczny Wrotków": {
    "indoor": false,
    "desc": "Kąpielisko i park wodny MOSiR nad Zalewem Zemborzyckim, czynny latem; wypożyczalnia sprzętu i spływy kajakowe.",
-   "godziny_uwaga": "Kąpielisko czynne w wakacje (lipiec–sierpień), zwykle od 9:00 do 19:00–20:00; w deszczowe dni baseny są zamknięte. Poza sezonem nieczynne."
+   "godziny_uwaga": "Kąpielisko czynne w wakacje (lipiec–sierpień), zwykle od 9:00 do 19:00–20:00; w deszczowe dni baseny są zamknięte. Poza sezonem nieczynne.",
+   "cena": "Normalny 40 zł, ulgowy 25 zł, junior do 7 lat 15 zł (cennik sezonu letniego)",
+   "link": "https://mosir.lublin.pl/obiekty/sloneczny-wrotkow/cennik/"
   },
   "Centrum Spotkania Kultur": {
-   "desc": "Nowoczesne centrum kultury przy Placu Teatralnym: spektakle, koncerty, kino i wystawy, a na dachu ogrody z widokiem na miasto."
+   "desc": "Nowoczesne centrum kultury przy Placu Teatralnym: spektakle, koncerty, kino i wystawy, a na dachu ogrody z widokiem na miasto.",
+   "cena": "Kino CSK – bilet 20 zł; spektakle i koncerty – ceny w repertuarze",
+   "link": "https://bilety.csklublin.pl/"
   },
   "Aqua Lublin": {
-   "desc": "Największy aquapark w Lublinie, prowadzony przez MOSiR: baseny rekreacyjne, zjeżdżalnie i strefa saun."
+   "desc": "Największy aquapark w Lublinie, prowadzony przez MOSiR: baseny rekreacyjne, zjeżdżalnie i strefa saun.",
+   "cena": "Aquapark + basen 75 min: normalny 39 zł, ulgowy 31 zł (weekend 42/34 zł)",
+   "link": "https://mosir.lublin.pl/obiekty/aqua-lublin/cennik/"
   },
   "Cinema City Felicity": {
-   "desc": "Kino w CH Felicity: 9 sal na blisko 1700 widzów, w tym sala 4DX z ruchomymi fotelami i efektami specjalnymi."
+   "desc": "Kino w CH Felicity: 9 sal na blisko 1700 widzów, w tym sala 4DX z ruchomymi fotelami i efektami specjalnymi.",
+   "cena": "Seans 2D: normalny 32,90 zł, ulgowy 28,90 zł; 3D 35,90 zł; Kinowa Środa 20,90 zł",
+   "link": "https://www.cinema-city.pl/magnoliaPublic/dam/jcr:ecbd2db4-355f-4682-ad86-670aba4a2dff"
   },
   "Strefa Wysokich Lotów": {
-   "desc": "Park trampolin z setkami metrów kwadratowych trampolin, strefami sportowymi, atrakcjami dmuchanymi i zjeżdżalniami. Zajęcia z trenerami i urodziny dla dzieci."
+   "desc": "Park trampolin z setkami metrów kwadratowych trampolin, strefami sportowymi, atrakcjami dmuchanymi i zjeżdżalniami. Zajęcia z trenerami i urodziny dla dzieci.",
+   "cena": "Wejście 55 min – 37 zł, 115 min – 67 zł, cały dzień VIP – 90 zł",
+   "link": "https://strefawysokichlotow.pl/lublin/cennik/"
   },
   "Centrum Kultury w Lublinie": {
-   "desc": "Największa instytucja kultury w Lublinie: teatr, taniec, koncerty, kino, warsztaty, a także księgarnia i kawiarnia."
+   "desc": "Największa instytucja kultury w Lublinie: teatr, taniec, koncerty, kino, warsztaty, a także księgarnia i kawiarnia.",
+   "cena": "Bilety zależą od wydarzenia – ceny w repertuarze",
+   "link": "https://ck-lublin.bilety24.pl/"
   },
   "Icemania": {
-   "desc": "Kryte lodowisko MOSiR przy Alejach Zygmuntowskich, z wypożyczalnią i ostrzalnią łyżew."
+   "desc": "Kryte lodowisko MOSiR przy Alejach Zygmuntowskich, z wypożyczalnią i ostrzalnią łyżew.",
+   "cena": "60 min jazdy: normalny 19 zł, ulgowy 15 zł (weekend 25/19 zł)",
+   "link": "https://mosir.lublin.pl/obiekty/lodowisko-icemania/cennik/"
   },
   "Hala Globus": {
-   "desc": "Hala widowiskowo-sportowa MOSiR: duże koncerty, mecze i wydarzenia."
+   "desc": "Hala widowiskowo-sportowa MOSiR: duże koncerty, mecze i wydarzenia.",
+   "cena": "Bilety zależą od wydarzenia – ceny w zapowiedziach wydarzeń"
   },
   "Dom Strachu Ciemno": {
    "desc": "Dom strachu dla grup od 2 do 8 osób: przechodzisz trasę przez kolejne ciemne pokoje, a jedynym światłem jest mały lampion.",
@@ -232,7 +250,9 @@
    "cena": "Pokój dla grupy 2–4 osób: od 240 zł (pon.–czw.), od 280 zł (pt.–niedz.)"
   },
   "Cartmax": {
-   "desc": "Kryty tor kartingowy z profesjonalną flotą gokartów i bezpieczną nawierzchnią."
+   "desc": "Kryty tor kartingowy z profesjonalną flotą gokartów i bezpieczną nawierzchnią.",
+   "cena": "Przejazd gokartem 8 min – 70 zł, kolejny 65 zł; karta kierowcy 15 zł",
+   "link": "https://cartmax.pl/cennik/"
   },
   "E1 Gokart": {
    "desc": "Tor kartingowy z ligą dla dorosłych i szkółką dla dzieci.",
@@ -244,32 +264,47 @@
    "cena": "Bilety od 45 do 150 zł"
   },
   "Filharmonia Lubelska": {
-   "desc": "Koncerty symfoniczne, kameralne i wydarzenia specjalne w Filharmonii im. Henryka Wieniawskiego."
+   "desc": "Koncerty symfoniczne, kameralne i wydarzenia specjalne w Filharmonii im. Henryka Wieniawskiego.",
+   "cena": "Bilety zależą od wydarzenia – ceny w repertuarze",
+   "link": "https://filharmonialubelska.pl/kasa/"
   },
   "Mania Skakania": {
    "desc": "Trampoliny, mini park linowy i sale zabaw. Urodziny dla dzieci z instruktorami.",
    "cena": "Wejście od 25 do 33 zł"
   },
   "Chatka Żaka": {
-   "desc": "Akademickie Centrum Kultury UMCS: koncerty, kino, teatr studencki i wydarzenia."
+   "desc": "Akademickie Centrum Kultury UMCS: koncerty, kino, teatr studencki i wydarzenia.",
+   "cena": "Seanse DKF „Bariera” – bilety 20 i 15 zł, karnet 50 zł; inne wydarzenia – ceny w repertuarze"
   },
   "CSR Łabędzia": {
-   "desc": "Kompleks basenowy MOSiR z basenem sportowym, strefą rekreacji i saunami."
+   "desc": "Kompleks basenowy MOSiR z basenem sportowym, strefą rekreacji i saunami.",
+   "cena": "Basen 60 min: normalny 26 zł, ulgowy 19 zł",
+   "link": "https://mosir.lublin.pl/obiekty/labedzia/cennik/"
   },
   "Opera Lubelska": {
-   "desc": "Teatr Muzyczny: opera, operetka, musical i balet."
+   "desc": "Teatr Muzyczny: opera, operetka, musical i balet.",
+   "cena": "Bilety zależą od wydarzenia – ceny w repertuarze",
+   "link": "https://operalubelska.pl/"
   },
   "Kino Bajka": {
-   "desc": "Kino studyjne w centrum: premiery, klasyka i cykle, m.in. Klub Filmowy Seniora i Kobiecy Wieczór."
+   "desc": "Kino studyjne w centrum: premiery, klasyka i cykle, m.in. Klub Filmowy Seniora i Kobiecy Wieczór.",
+   "cena": "Normalny 26 zł, ulgowy 23 zł; tani poniedziałek 19 zł",
+   "link": "https://kinobajka.pl/cennik/"
   },
   "Koziołek": {
-   "desc": "Największa sala zabaw dla dzieci w Lublinie, w Galerii Olimp: trzypoziomowa konstrukcja, baseny z kulkami i strefa dla maluchów."
+   "desc": "Największa sala zabaw dla dzieci w Lublinie, w Galerii Olimp: trzypoziomowa konstrukcja, baseny z kulkami i strefa dla maluchów.",
+   "cena": "Pn–czw 19 zł/godz. (kolejna 17 zł), pt–nd 22 zł/godz. (kolejna 20 zł)",
+   "link": "https://koziolek.net.pl/cennik/"
   },
   "Masters – Tarasy Zamkowe": {
-   "desc": "Kręgielnia w CH Tarasy Zamkowe: kręgle klasyczne i mniejsze, gry zręcznościowe."
+   "desc": "Kręgielnia w CH Tarasy Zamkowe: kręgle klasyczne i mniejsze, gry zręcznościowe.",
+   "cena": "Bowling: tor/godz. 80–140 zł zależnie od dnia i pory; bilard od 30 zł/godz. za stół",
+   "link": "https://klubmasters.pl/wp-content/uploads/2026/02/masters-vivo-cennik-gier-02.26.pdf"
   },
   "Masters – Olimp": {
-   "desc": "Kręgielnia w Galerii Olimp: kręgle klasyczne i mniejsze, gry zręcznościowe."
+   "desc": "Kręgielnia w Galerii Olimp: kręgle klasyczne i mniejsze, gry zręcznościowe.",
+   "cena": "Bowling 1 tor/godz.: 80 zł do 16:00, 110 zł po 16:00 (pt–nd wieczorem 140 zł)",
+   "link": "https://klubmasters.pl/wp-content/uploads/2026/02/masters-olimp-cennik-gier-02.26.pdf"
   },
   "Glow Minigolf Pub": {
    "desc": "Minigolf w świetle UV z barem. Na wieczór ze znajomymi, randkę, urodziny albo firmowe wyjście.",
@@ -285,10 +320,14 @@
   },
   "Fabryka Kultury Zgrzyt": {
    "desc": "Niezależny klub muzyczny z koncertami rockowymi, hip-hopowymi i nie tylko.",
-   "godziny_uwaga": "Klub otwarty tylko w dni koncertów i innych wydarzeń – terminy sprawdzisz w repertuarze na stronie."
+   "godziny_uwaga": "Klub otwarty tylko w dni koncertów i innych wydarzeń – terminy sprawdzisz w repertuarze na stronie.",
+   "cena": "Bilety zależą od wydarzenia – ceny w repertuarze",
+   "link": "https://zgrzyt.info/"
   },
   "Leopark": {
-   "desc": "Nowoczesna sala zabaw dla dzieci w Skende Shopping; urodziny i atrakcje dla najmłodszych."
+   "desc": "Nowoczesna sala zabaw dla dzieci w Skende Shopping; urodziny i atrakcje dla najmłodszych.",
+   "cena": "Wejście 1 godz. – 31 zł, cały dzień – 59 zł (bilety online); rodzice wchodzą bez opłat",
+   "link": "https://leopark.club/kup-bilet/"
   },
   "ArenaFun Laser War": {
    "desc": "Laser tag dla grup: drużynowa rywalizacja i wspólna strategia.",
@@ -306,17 +345,23 @@
   "Gniazdo Żubra": {
    "desc": "Centrum rozrywki z areną VR, symulatorami, strzelankami NERF i escape roomem VR; urodziny dla dzieci i dorosłych.",
    "godziny": "pon 14:00–22:00, wt–czw 13:00–22:00, pt–sob 13:00–00:00, nd 12:00–22:00",
-   "godziny_uwaga": "Po wcześniejszej rezerwacji online można przyjść wcześniej i zostać dłużej."
+   "godziny_uwaga": "Po wcześniejszej rezerwacji online można przyjść wcześniej i zostać dłużej.",
+   "cena": "VR klasyczny 30 min – 55 zł, 60 min – 80 zł; antykawiarnia 20 zł/godz.",
+   "link": "https://gniazdozubra.pl/vr_salon"
   },
   "Teatr im. H. Ch. Andersena": {
    "desc": "Teatr lalek i żywego planu dla dzieci i rodzin.",
    "cena": "Bilety 45–55 zł"
   },
   "Centrum Wspinaczkowe Kotłownia": {
-   "desc": "Największa boulderowa ściana wspinaczkowa w Lublinie, ponad 100 dróg dla początkujących i zaawansowanych."
+   "desc": "Największa boulderowa ściana wspinaczkowa w Lublinie, ponad 100 dróg dla początkujących i zaawansowanych.",
+   "cena": "Wejście normalne 40 zł (15:00–19:30 – 50 zł), ulgowe od 15 zł; buty 15 zł",
+   "link": "https://cwkotlownia.pl/oferta/cennik/"
   },
   "Niepokój": {
-   "desc": "Pokoje zagadek z nowymi scenariuszami. Bilety także na prezent."
+   "desc": "Pokoje zagadek z nowymi scenariuszami. Bilety także na prezent.",
+   "cena": "Pokój za grupę: 248–348 zł (60 min) lub 260–450 zł (90 min), 2–6 osób",
+   "link": "https://www.niep0koj.pl/ostatni-azyl/"
   },
   "Kamienica Kryminałów": {
    "desc": "Escape roomy dla grup nawet do 30 osób i multimedialna wystawa o kryminalnej historii Lublina, przy Rybnej 13.",
@@ -325,7 +370,9 @@
   "Kamienica Legend": {
    "desc": "Interaktywna wystawa o legendach Lublina w XV-wiecznej kamienicy na Starym Mieście, z pokazami i zagadkami.",
    "godziny": "pon–pt zamknięte, sob–nd 11:00–19:00",
-   "godziny_uwaga": "W dni powszednie przyjmowane są tylko grupy zorganizowane, po uzgodnieniu. Bilety można kupić online."
+   "godziny_uwaga": "W dni powszednie przyjmowane są tylko grupy zorganizowane, po uzgodnieniu. Bilety można kupić online.",
+   "cena": "1 piętro: normalny 50 zł, ulgowy 47 zł; oba piętra: normalny 65 zł, ulgowy 60 zł",
+   "link": "https://kamienicalegend.pl/cennik"
   },
   "Strzelnica KM": {
    "desc": "Kryta strzelnica komercyjna działająca od 2011 roku: szkolenia dla początkujących i doświadczonych, imprezy integracyjne.",
@@ -342,17 +389,22 @@
    "godziny_uwaga": "Tylko po rezerwacji telefonicznej. Adres w Lublinie to biuro – strzela się na strzelnicy poza miastem (m.in. w Wąwolnicy)."
   },
   "Master of Speed": {
-   "desc": "Symulatory wyścigów F1 i GT, także przystosowane dla osób na wózkach."
+   "desc": "Symulatory wyścigów F1 i GT, także przystosowane dla osób na wózkach.",
+   "cena": "Symulator: 15 min – 35 zł, 30 min – 60 zł, 1 godz. – 100 zł",
+   "link": "https://masterofspeed.pl/oferta/cennik"
   },
   "Paintball Ninja": {
    "desc": "Paintball i dodatkowe atrakcje: bumperball, segwaye, łucznictwo, strzelnica laserowa i ognisko.",
-   "indoor": false
+   "indoor": false,
+   "cena": "Pakiet z 200 kulkami – 80 zł, 500 kulek – 110 zł, 1000 kulek – 160 zł",
+   "link": "http://www.paintballninja.pl/pl,0,s228,oferta--cennik.html"
   },
   "Teatr Wschodni": {
    "desc": "Niezależny teatr łączący tradycję ze współczesnością i różne kultury."
   },
   "Teatr Panopticum": {
-   "desc": "Teatr Miejskiego Domu Kultury Pod Akacją, działający od 1984 roku."
+   "desc": "Teatr Miejskiego Domu Kultury Pod Akacją, działający od 1984 roku.",
+   "cena": "Zwykle wstęp wolny (wejściówki lub rezerwacja); pojedyncze spektakle płatne"
   },
   "Lubelski Teatr Tańca": {
    "desc": "Zespół tańca współczesnego przy Centrum Kultury, działający od 2001 roku."
@@ -403,7 +455,9 @@
    "cena": "Strzelanie z instruktorem od 100 zł za osobę"
   },
   "Strzelnica Shooter": {
-   "desc": "Jedyna w okolicy kryta strzelnica 360°, na której można strzelać w każdym kierunku; szkolenia i strzelanie rekreacyjne."
+   "desc": "Jedyna w okolicy kryta strzelnica 360°, na której można strzelać w każdym kierunku; szkolenia i strzelanie rekreacyjne.",
+   "cena": "Stanowisko 60 zł/h + instruktor 50 zł/h + amunicja (np. 9 mm 3,50 zł/szt.)",
+   "link": "https://shooter.com.pl/cennik/"
   },
   "Pan Zagadka": {
    "desc": "Dwa pokoje zagadek w centrum: piracka Tawerna Pod Złotą Kotwicą i mroczna Chata Wiedźmy.",
@@ -421,7 +475,9 @@
    "zrodlo": "siec"
   },
   "Klub Strzelecki Snajper": {
-   "desc": "Duży klub strzelecki: nauka strzelania z broni pneumatycznej, kulowej i śrutowej, patent i licencja strzelecka."
+   "desc": "Duży klub strzelecki: nauka strzelania z broni pneumatycznej, kulowej i śrutowej, patent i licencja strzelecka.",
+   "cena": "Klub dla członków: wpisowe 500 zł, składka 350 zł/rok + 30 zł/mies. za strzelnicę",
+   "link": "https://snajper.lublin.pl/nowi-czlonkowie/"
   },
   "ExitRoom": {
    "desc": "Escape room przy Krakowskim Przedmieściu: ucieczka z pokoju w 60 minut dla grup od 2 do 5 osób."
@@ -445,17 +501,23 @@
    "desc": "Multipleks z aktualnymi premierami filmowymi."
   },
   "Teatr Stary": {
-   "desc": "Najstarszy teatr w Lublinie, na Starym Mieście: spektakle, koncerty i wydarzenia edukacyjne."
+   "desc": "Najstarszy teatr w Lublinie, na Starym Mieście: spektakle, koncerty i wydarzenia edukacyjne.",
+   "cena": "Bilety zależą od wydarzenia – ceny w repertuarze",
+   "link": "https://teatrstary.eu/kup-bilet/"
   },
   "Warsztaty Kultury": {
-   "desc": "Kino, koncerty, wystawy i warsztaty przy Grodzkiej; organizator największych lubelskich festiwali."
+   "desc": "Kino, koncerty, wystawy i warsztaty przy Grodzkiej; organizator największych lubelskich festiwali.",
+   "cena": "Bilety zależą od wydarzenia – ceny w repertuarze",
+   "link": "https://warsztatykultury.pl/pl/"
   },
   "Cinema City Plaza": {
    "desc": "Kino w CH Plaza: 8 klimatyzowanych sal na ponad 1500 widzów. Kasa otwiera się 30 minut przed pierwszym seansem."
   },
   "FunPark 360": {
    "desc": "Przestronna sala zabaw z wieloma atrakcjami dla młodszych i starszych dzieci, kawiarnią dla rodziców i organizacją urodzin.",
-   "zrodlo": "opinie"
+   "zrodlo": "opinie",
+   "cena": "Pn–czw 35 zł za 1 godz., pt–nd 37 zł; każda kolejna godzina 20–22 zł",
+   "link": "https://superiq.pl/fun-park/"
   },
   "Święty Spokój Music Cafe": {
    "desc": "Kawiarnia tuż przy Bramie Krakowskiej, połączona ze sklepem z używanymi płytami winylowymi; gra jazz, a na zewnątrz są stoliki z widokiem na ulicę.",
@@ -569,7 +631,9 @@
   },
   "Strefa H2O": {
    "desc": "Całoroczna kryta pływalnia MOSiR z 25-metrowym basenem sportowym na 6 torów, do pływania rekreacyjnego i treningów.",
-   "zrodlo": "siec"
+   "zrodlo": "siec",
+   "cena": "Bilet 60 min: normalny 23 zł, ulgowy 16 zł; pn–pt do 16:00 od 11 zł",
+   "link": "https://mosir.lublin.pl/obiekty/strefa-h2o/cennik/"
   },
   "Coolki": {
    "desc": "Duża sala zabaw z małpim gajem, zjeżdżalniami, grami multimedialnymi i strefą dla maluchów; na miejscu barek z kawą i pizzą, organizacja urodzin.",

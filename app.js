@@ -1,5 +1,5 @@
 "use strict";
-const APP_V = "20261108-192705";
+const APP_V = "20261108-212554";
 /* Gdzie zjeść: przeglądarka lokali. Tylko wyświetla dane z data/places.json. */
 
 const ICO = {
@@ -297,7 +297,8 @@ function infoPane(p) {
   const oc = p.occasions.map((v) => OCC.find((x) => x.id === v).label.toLowerCase()).join(", ");
   const r = p.reviewsText || [];
   const best = r.find((t) => t.length > 60 && t.length < 260) || r[0];
-  return `<div>${esc(p.category || typeLabel(p.type))}${p.rating ? `. Ocena ${fmtR(p.rating)} na podstawie ${p.reviews} ${plural(p.reviews, "opinii", "opinii", "opinii")} w Google.` : "."}</div>
+  const SRC = { strona: "Na podstawie strony lokalu.", siec: "Na podstawie informacji z internetu.", opinie: "Na podstawie opinii gości w Mapach Google." };
+  return `${p.desc ? `<div class="ndesc"><p>${esc(p.desc)}</p>${SRC[p.descSrc] ? `<p class="note">${SRC[p.descSrc]}</p>` : ""}</div>` : ""}<div>${esc(p.category || typeLabel(p.type))}${p.rating ? `. Ocena ${fmtR(p.rating)} na podstawie ${p.reviews} ${plural(p.reviews, "opinii", "opinii", "opinii")} w Google.` : "."}</div>
     <div class="rows">
       ${cz ? `<div class="row"><i>${ico("fork")}</i><div><b>Kuchnia:</b> ${esc(cz.toLowerCase())}</div></div>` : ""}
       <div class="row"><i>${ico("type")}</i><div><b>Lokal:</b> ${esc(typeLabel(p.type).toLowerCase())}</div></div>

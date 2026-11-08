@@ -1,0 +1,2214 @@
+{
+ "pizza-di-montagna-e0cdc": {
+  "desc": "Pizzeria przy ul. Godebskiego, w której podają pizzę ze świeżymi składnikami. Lokal ma przytulne wnętrze, a do dyspozycji gości jest także ogródek.",
+  "zrodlo": "opinie"
+ },
+ "pelier-bistro-3cffb": {
+  "desc": "Bistro przy deptaku na Krakowskim Przedmieściu, znane przede wszystkim ze śniadań. W karcie są m.in. jajka po benedyktyńsku na bajglu, croque madame i naleśniki suzette, a także bajgle, pizza i desery. Wnętrze zdobią stare zegary i radia.",
+  "zrodlo": "strona"
+ },
+ "smazalnia-ryb-rybka-jak-dawniej-fish-chips-smazona-ryba-na-m-12129": {
+  "desc": "Smażalnia ryb przy al. Tysiąclecia, w prostym, niepozornym lokalu. Smażoną rybę, np. karmazyna, podaje się z frytkami i surówkami.",
+  "zrodlo": "opinie"
+ },
+ "co-sodkie-to-dobre-pracownia-cukiernicza-zamowienia-indywidu-80392": {
+  "desc": "Pracownia cukiernicza przy ul. Popiełuszki, przyjmująca indywidualne zamówienia na torty. Oprócz tortów są tu też inne słodkie wypieki i desery.",
+  "zrodlo": "opinie"
+ },
+ "kiedys-w-kopenhadze-d27db": {
+  "desc": "Kawiarnia przy ul. Fieldorfa, poza ścisłym centrum Lublina. Można tu wypić kawę w klimatycznym wnętrzu.",
+  "zrodlo": "opinie"
+ },
+ "kurczaki-od-eliasza-33c8f": {
+  "desc": "Lokal z daniami z kurczaka w chrupiącej panierce przy ul. Weteranów. W karcie są polędwiczki, skrzydełka, kubełki, wrapy i burgery z kurczakiem; jedzenie można też zamówić online.",
+  "zrodlo": "strona"
+ },
+ "basma-mezze-grill-62b0a": {
+  "desc": "Restauracja z kuchnią bliskowschodnią przy Krakowskim Przedmieściu. W karcie są talerzyki mezze (hummus, labneh, falafel, tabbouleh, kibbeh), dania z grilla i wrapy, a w weekendy śniadania, m.in. szakszuka i jajka po turecku – z pitą wypiekaną na miejscu.",
+  "zrodlo": "strona"
+ },
+ "smazalnia-dobrych-ryb-sola-mickiewicza-36a-7f986": {
+  "desc": "Smażalnia ryb przy ul. Mickiewicza. Podaje smażone ryby z frytkami, które można zjeść na miejscu przy jednym z niewielkich stolików.",
+  "zrodlo": "opinie"
+ },
+ "o-kebab-52fc5": {
+  "desc": "Punkt z kebabem przy ul. Diamentowej. Kebab podawany jest w picie lub w lawaszu, ze świeżymi warzywami.",
+  "zrodlo": "opinie"
+ },
+ "armenia-kuchnia-kaukaska-9c777": {
+  "desc": "Restauracja z kuchnią armeńską i kaukaską przy Rynku Starego Miasta, z wejściem od patio. W karcie są też dania wegetariańskie i bezglutenowe, a przy dobrej pogodzie czynny jest ogródek. Można zamówić jedzenie na wynos i z dostawą.",
+  "zrodlo": "strona"
+ },
+ "w-chlebaku-bistro-9cc00": {
+  "desc": "Piekarnia z bistro przy ul. Kapucyńskiej, nastawiona głównie na śniadania – m.in. dania z jajek i pasty, np. pomidorową. Na miejscu są też świeże pieczywo, croissanty i kawa.",
+  "zrodlo": "siec"
+ },
+ "perliczka-goscinnosc-polska-41775": {
+  "desc": "Restauracja z kuchnią polską przy Rynku Starego Miasta. Specjalnością jest połówka perliczki; w karcie są też m.in. schab z kością, sandacz w sosie cytrynowym, pierogi ruskie oraz kopytka w sosie grzybowym lub z raków.",
+  "zrodlo": "strona"
+ },
+ "la-casa-trattoria-lublin-restauracja-woska-41f84": {
+  "desc": "Trattoria z kuchnią włoską przy ul. Obrońców Pokoju. W karcie są przede wszystkim pizza i makarony.",
+  "zrodlo": "opinie"
+ },
+ "bistro-przy-peronie-pyszne-i-duze-jedzenie-z-dowozem-07d8e": {
+  "desc": "Bistro z kuchnią polską przy ul. Krochmalnej, w pobliżu dworca. Codziennie są zupy i dania dnia, a w stałej karcie m.in. schabowy, bigos, flaczki i kanapki w bułce wypiekanej na miejscu. Jedzenie można też zamówić z dowozem.",
+  "zrodlo": "strona"
+ },
+ "parzona-843a4": {
+  "desc": "Kawiarnia i bistro przy Krakowskim Przedmieściu, znane głównie ze śniadań. W karcie jest ich szeroki wybór, m.in. omlety i jajka po benedyktyńsku, a do tego kawa.",
+  "zrodlo": "opinie"
+ },
+ "el-tiempo-restauracja-5a8b7": {
+  "desc": "Restauracja przy ul. Królowej Bony, łącząca kuchnię polską z daniami z różnych stron świata. Podają m.in. burgery, śniadania i bruschetty, a na deser sernik baskijski.",
+  "zrodlo": "siec"
+ },
+ "mix-fix-restauracja-c3c0d": {
+  "desc": "Restauracja z kuchnią azjatycką przy al. Racławickich. W karcie są m.in. pad thai, udon, chow mein, zupy tom yum i miso, zupa z pierożkami momo oraz tajskie curry; można też zamówić z dostawą.",
+  "zrodlo": "strona"
+ },
+ "cloud-garden-shisha-kitchen-6f8dc": {
+  "desc": "Lokal przy al. Racławickich łączący kuchnię azjatycką z shishą. W karcie są sushi, sushi burgery, poke bowl, ramen i dania z woka, a także pizza.",
+  "zrodlo": "strona"
+ },
+ "kawiarenka-bobolanum-067ef": {
+  "desc": "Kawiarnia przy ul. Zakopiańskiej. Można tu wypić kawę i zjeść gofry.",
+  "zrodlo": "opinie"
+ },
+ "kebab-pro-54adb": {
+  "desc": "Budka z kebabem przy ul. Dożynkowej. W karcie są kebaby w bułce i tortilli, frytobułka, kapsalon, zestawy i opcje wegetariańskie; można też zamówić z dostawą.",
+  "zrodlo": "strona"
+ },
+ "indian-palace-restaurant-c0444": {
+  "desc": "Restauracja z kuchnią indyjską przy ul. Kościuszki. W karcie są zupy, m.in. z soczewicy, indyjskie przekąski, dania z ryżu, sizzlery oraz chlebki naan, także nadziewane; jest też indyjskie piwo.",
+  "zrodlo": "strona"
+ },
+ "centrum-etiuda-hotel-i-restauracja-40b55": {
+  "desc": "Restauracja z kuchnią polską w kompleksie hotelowo-konferencyjnym Etiuda przy ul. Nałęczowskiej. Ma taras widokowy, sale bankietowe i tereny zielone z oczkiem wodnym; organizuje wesela, przyjęcia i konferencje.",
+  "zrodlo": "strona"
+ },
+ "casino-royale-lublin-befa3": {
+  "desc": "Restauracja z parkietem w historycznym gmachu Domu Żołnierza przy ul. Żwirki i Wigury. Wieczorami odbywają się tu dancingi, w karcie jest kuchnia polska, a w ciągu dnia – zmieniające się zestawy lunchowe.",
+  "zrodlo": "strona"
+ },
+ "restauracja-trzy-roze-bea50": {
+  "desc": "Restauracja w Zemborzycach Dolnych, organizująca przyjęcia okolicznościowe, m.in. wesela i chrzciny. Dania podawane są w starannej, restauracyjnej formie.",
+  "zrodlo": "opinie"
+ },
+ "rozmaryn-restauracja-pub-6ecea": {
+  "desc": "Restauracja i pub przy ul. Grodzkiej na Starym Mieście, nieopodal placu po Farze, z dużym patio. W karcie są śniadania, burgery, makarony i pizza, a także dania kuchni polskiej, m.in. wątróbka.",
+  "zrodlo": "strona"
+ },
+ "sushipak-ab76c": {
+  "desc": "Lokal z sushi przy ul. Głębokiej, realizujący zamówienia z dostawą i na wynos. W karcie są zestawy (paki), california, futomaki, nigiri i sashimi, a także sushi burgery, poke bowl i tatar.",
+  "zrodlo": "strona"
+ },
+ "jagienka-domowe-bistro-10528": {
+  "desc": "Rodzinny lunch bar z tradycyjną kuchnią polską przy ul. Juranda, prowadzony od trzech pokoleń. Dania podawane są głównie w formie bufetu, a w sklepiku garmażeryjnym można kupić m.in. pierogi, kopytka, krokiety i placki ziemniaczane.",
+  "zrodlo": "strona"
+ },
+ "garmazerka-lubelska-82035": {
+  "desc": "Garmażerka przy ul. Jutrzenki z gotowymi daniami kuchni polskiej. Jedzenie kupuje się tu głównie na wynos.",
+  "zrodlo": "opinie"
+ },
+ "pizzeria-bazyl-i-ja-8b424": {
+  "desc": "Pizzeria przy ul. Samsonowicza, w której podstawą karty jest pizza. Lokal przeszedł niedawno metamorfozę.",
+  "zrodlo": "opinie"
+ },
+ "grab-fresh-kebab-8c889": {
+  "desc": "Punkt z kebabem przy ul. Godebskiego. W karcie są kebaby rollo w chlebku pita w kilku rozmiarach, shawarma, dania z kebabem, sałatki i opcje wegetariańskie; można też zamówić z dostawą.",
+  "zrodlo": "strona"
+ },
+ "abdul-gemuse-kebab-2d2e8": {
+  "desc": "Kebab w stylu berlińskiego Gemüse Kebab przy ul. Godebskiego – nowa odsłona marki Abdul Cuda na Kiju. Bułki pieką na miejscu, a w karcie są kebaby z kurczakiem i grillowanymi warzywami w bułce lub lawaszu, miski z kaszą, boxy z frytkami z batatów i krewetki w panko.",
+  "zrodlo": "strona"
+ },
+ "le-monde-3961f": {
+  "desc": "Restauracja przy ul. Zana z kuchnią głównie włoską. W karcie są pizza na cienkim cieście, makarony, sałatki z focaccią, burgery i dania główne, np. grillowany łosoś czy polędwiczka wieprzowa.",
+  "zrodlo": "strona"
+ },
+ "eat-go-raclawickie-21-d93c1": {
+  "desc": "Bar z kuchnią azjatycką przy al. Racławickich. W karcie są zupy ramen, pho, tom yum i tom kha, pad thai, curry, udon i smażony ryż, przystawki jak sajgonki i pierożki won ton, a także kebab.",
+  "zrodlo": "strona"
+ },
+ "gruzinski-smak-5524d": {
+  "desc": "Bar z gruzińskimi wypiekami przy al. Tysiąclecia. Specjalnością jest chaczapuri, m.in. z serem oraz z pieczarkami i kurczakiem.",
+  "zrodlo": "opinie"
+ },
+ "dostana-kebab-turystyczna-aa9c7": {
+  "desc": "Jeden z kilku lokali sieci Dostana Kebab w Lublinie, przy ul. Turystycznej. W karcie są kebaby w picie, w bułce i rollo, kebab box i zestawy na talerzu, a także dania fit i wegetariańskie; działa dostawa.",
+  "zrodlo": "strona"
+ },
+ "kuluary-smakow-f1ca6": {
+  "desc": "Restauracja z kuchnią polską przy ul. Akademickiej, serwująca obiady. Przygotowuje też śniadania dla gości pobliskiego hotelu Logos oraz poczęstunki i przyjęcia na zamówienie.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-orientalna-van-le-thi-bbbc7": {
+  "desc": "Bar z kuchnią orientalną przy ul. Zagłoby, podający m.in. dania z makaronem, w dużych porcjach. Płatność tylko gotówką.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-orientalna-le-van-a7334": {
+  "desc": "Bar z kuchnią azjatycką przy al. Spółdzielczości Pracy, z ogródkiem. Podaje proste dania w dużych porcjach, także na wynos i z dostawą.",
+  "zrodlo": "strona"
+ },
+ "erbil-kebab-fc9c3": {
+  "desc": "Bar z kebabem przy ul. Turystycznej, w którym można zjeść na miejscu. Kebab podawany jest z sosami.",
+  "zrodlo": "opinie"
+ },
+ "habiby-kebab-lublin-0a075": {
+  "desc": "Bar z kebabem przy Krakowskim Przedmieściu. Kebab podają ze świeżymi warzywami.",
+  "zrodlo": "opinie"
+ },
+ "lody-domowe-u-ani-bb514": {
+  "desc": "Lodziarnia przy placu Zamkowym, tuż pod Zamkiem Lubelskim, z lodami na gałki w wielu smakach. Właścicielka chętnie opowiada gościom o smakach i składnikach.",
+  "zrodlo": "opinie"
+ },
+ "szaszyki-zdrojowa-324c5": {
+  "desc": "Lokal wyspecjalizowany w jednym daniu – szaszłykach wieprzowych z szynki, słoniny i cebuli, pieczonych na bukowym węglu drzewnym. Działa od ponad trzech dekad; do szaszłyka podaje pieczywo, ogórka kiszonego i sosy, a na wynos sprzedaje też szaszłyki pakowane próżniowo.",
+  "zrodlo": "strona"
+ },
+ "mow-mi-padre-43c59": {
+  "desc": "Włoska restauracja przy Krochmalnej z pizzą w wersji czerwonej (z sosem pomidorowym) i białej, calzone oraz makaronami. W karcie są m.in. margherita, marinara, pizza z ’ndują i z tuńczykiem, a także sałatki, zupa i desery.",
+  "zrodlo": "strona"
+ },
+ "haze-cafe-71d54": {
+  "desc": "Kawiarnia przy ul. Staszica w centrum Lublina, z kawą i ciastami. W ofercie są też napoje na bazie japońskich herbat – matchy i hojichy.",
+  "zrodlo": "opinie"
+ },
+ "magia-d-italia-gelati-caffe-lodziarnia-woska-89157": {
+  "desc": "Lodziarnia z kawiarnią w Galerii Plaza, z kremowymi, gładkimi lodami w różnych smakach. Można tu też zjeść deser lub ciasto i napić się kawy.",
+  "zrodlo": "opinie"
+ },
+ "crazy-bubble-e1679": {
+  "desc": "Lokal sieci Crazy Bubble z bubble tea – napojami na bazie herbaty zielonej lub czarnej z dodatkami, takimi jak kulki tapioki czy kulki z sokiem. Napój komponuje się samodzielnie, łącząc smaki i dodatki; obsługa pomaga w wyborze.",
+  "zrodlo": "strona"
+ },
+ "restauracja-ukryta-11936": {
+  "desc": "Restauracja w kamienicy z połowy XIX w. przy Krakowskim Przedmieściu, w miejscu dawnego kina w oficynie, z patiem. Kuchnia francuska z włoskim akcentem: m.in. francuska zupa cebulowa, rillettes z kaczki, sandacz z beurre blanc, tatar i carbonara.",
+  "zrodlo": "strona"
+ },
+ "bar-mieszczanski-440a9": {
+  "desc": "Bar z obiadami kuchni polskiej przy ul. Zielonej, tuż przy placu Litewskim. W stałej karcie są schabowy, placek po węgiersku, sałatki, naleśniki i pierogi, a w garmażerce na wagę m.in. pierogi lubelskie i krokiety. Cały dochód baru trafia na Kuchnię im. św. Brata Alberta.",
+  "zrodlo": "strona"
+ },
+ "sw-micha-pub-regionalny-10944": {
+  "desc": "Pub wielokranowy przy Grodzkiej na Starym Mieście – 31 kranów z rotacyjnie zmienianymi piwami rzemieślniczymi i szeroki wybór whisky. Kuchnia stawia na regionalne potrawy Lubelszczyzny; w karcie są m.in. szaszłyki.",
+  "zrodlo": "strona"
+ },
+ "restauracja-2pier-393f9": {
+  "desc": "Restauracja na piątym piętrze Lubelskiego Centrum Konferencyjnego, z tarasem i widokiem na miasto, wyróżniona w Przewodniku Michelin znakiem Bib Gourmand. Sezonowa kuchnia oparta na produktach regionalnych; przewodnik poleca m.in. sznycel wiedeński i pavlovą.",
+  "zrodlo": "siec"
+ },
+ "kebab-turecki-55558": {
+  "desc": "Kebab przy Krakowskim Przedmieściu – jeden z dwóch lubelskich lokali Kebab Turecki – z mięsem własnej produkcji. Kebaby podaje w bułce, tortilli lub na talerzu z warzywami i sosami; można zjeść na miejscu, zamówić na wynos lub z dowozem.",
+  "zrodlo": "strona"
+ },
+ "raj-utracony-8585d": {
+  "desc": "Restauracja przy Leszczyńskiego z kuchnią bliskowschodnią, ujęta w Przewodniku Michelin. Dania podawane są na małych talerzach do dzielenia – najlepiej zamówić kilka i próbować ich wspólnie.",
+  "zrodlo": "siec"
+ },
+ "pizzeria-vendetta-lublin-ba180": {
+  "desc": "Pizzeria przy ul. Dolnej 3 Maja. Pizzę można też zamówić z dowozem.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-lublin-prusa-8-restaurant-in-lublin-cfd6a": {
+  "desc": "Restauracja przy Prusa (Lokal Kulinarny) łącząca kuchnię polską z międzynarodowymi inspiracjami – od śniadań, także w formie bufetu, po tajskie curry, kaczą nogę confit czy żeberka BBQ. Ma kącik dla dzieci, ogródek i sale na przyjęcia do 200 osób.",
+  "zrodlo": "strona"
+ },
+ "queen-mama-lublin-f2ada": {
+  "desc": "Włoska restauracja przy Grodzkiej na Starym Mieście z pizzą neapolitańską z pieca Marana, domowymi makaronami, owocami morza i dużymi deserami. Piwo, wino, koktajle i spritz serwowane są z 21 kranów, a kolacje podaje się pod gwiaździstym sufitem.",
+  "zrodlo": "strona"
+ },
+ "hotel-restauracja-na-rogatce-1f2e7": {
+  "desc": "Hotel z restauracją przy Sielankowej, serwującą dania kuchni staropolskiej i międzynarodowej; specjalnością są potrawy regionalne. Lokal organizuje przyjęcia i bankiety, a śniadania dostępne są także dla gości spoza hotelu.",
+  "zrodlo": "strona"
+ },
+ "parmezan-bistro-lublin-restauracja-jedzenie-z-dowozem-imprez-82b3c": {
+  "desc": "Bistro przy Sekutowicza łączące kuchnię włoską z amerykańską – w karcie są pizza, makarony, burgery i dania główne. Wnętrze jest klimatyczne, a lokal przyjmuje też przyjęcia rodzinne, np. chrzciny.",
+  "zrodlo": "strona"
+ },
+ "quick-coffee-732ab": {
+  "desc": "Kawiarnia przy ul. Radziszewskiego z kawą i napojami z matchą. Wnętrze jest przytulne i sprzyja krótkiej przerwie przy kawie.",
+  "zrodlo": "opinie"
+ },
+ "gospoda-wiejska-43112": {
+  "desc": "Zajazd w Szerokiem z tradycyjną kuchnią polską i dużymi porcjami – w karcie są m.in. golonka, wątróbka drobiowa i schab z farszem. Ma zadaszony ogródek z placem zabaw, salę na przyjęcia do 250 osób i pokoje gościnne.",
+  "zrodlo": "strona"
+ },
+ "bar-a-boo-cad49": {
+  "desc": "Lubelski lokal sieci Bar a Boo przy Narutowicza z pizzą na sosie z pomidorów pelati – od margherity po pizzę z burratą czy ’nduja. W karcie są też makarony, sałatki, burgery, zupy i desery.",
+  "zrodlo": "strona"
+ },
+ "radosc-490ce": {
+  "desc": "Klub muzyczny na terenie browaru Perła przy Bernardyńskiej, z postindustrialną przestrzenią pod gołym niebem. Działa głównie latem; są bary z piwem i drinkami, koncerty i imprezy oraz jedzenie w stylu ulicznym.",
+  "zrodlo": "siec"
+ },
+ "kohinoor-kebab-30c47": {
+  "desc": "Bar z kebabem przy ul. Fieldorfa. Porcje są spore, a kebab podawany jest z dużą ilością świeżych warzyw i surówki.",
+  "zrodlo": "opinie"
+ },
+ "maestro-kebab-smak-orientalny-aee74": {
+  "desc": "Bar z kebabem przy ul. Lubartowskiej. Kebab podaje się tu w kilku wersjach.",
+  "zrodlo": "opinie"
+ },
+ "piri-piri-kebab-lublin-96946": {
+  "desc": "Lokal lubelskiej sieci Piri-Piri z autorskim kebabem wołowo-baranim i kurczakiem w mieszance syryjskich przypraw. Kebab podaje w lawaszu z pieca tandoori, w bułce lub boksie; w karcie są też smash burgery i pizza w stylu Detroit.",
+  "zrodlo": "strona"
+ },
+ "pijalnia-wodki-i-piwa-5769b": {
+  "desc": "Bar sieci Pijalnia Wódki i Piwa przy Krakowskim Przedmieściu, z wystrojem nawiązującym do PRL. Podaje wódkę, piwo i shoty.",
+  "zrodlo": "opinie"
+ },
+ "trakt-krolewski-529ef": {
+  "desc": "Pizzeria przy Grodzkiej na Starym Mieście z pizzą przygotowywaną od podstaw i piwami rzemieślniczymi, m.in. Zwierzyniec z beczki. Są też gry planszowe, ogródek i wydzielone miejsce dla palących.",
+  "zrodlo": "strona"
+ },
+ "rykowisko-pizza-amerykanska-lublin-c722b": {
+  "desc": "Pizzeria przy ul. Nadbystrzyckiej z pizzą w stylu amerykańskim. Przyjmuje zamówienia telefoniczne z dowozem.",
+  "zrodlo": "opinie"
+ },
+ "bar-maa-wyspa-22e4c": {
+  "desc": "Bar obiadowy z kuchnią polską przy ul. Bursaki. Podaje dania w domowym stylu.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-gruby-benek-153cc": {
+  "desc": "Lokal sieci Gruby Benek przy Drodze Męczenników Majdanka z pizzą w kilku rozmiarach, także na cienkim cieście włoskim, oraz burgerami, boksami z frytkami i sałatkami. W karcie pojawiają się pizze sezonowe, np. z powidłami śliwkowymi czy z brzoskwinią.",
+  "zrodlo": "strona"
+ },
+ "legend-of-kebab-82496": {
+  "desc": "Bar z kebabem przy Lipowej. Serwuje kebaby w dużych porcjach.",
+  "zrodlo": "opinie"
+ },
+ "jadodajnia-do-syta-f7184": {
+  "desc": "Jadłodajnia z kuchnią polską przy Lotniczej. Podaje klasyczne dania obiadowe na szybki, ciepły posiłek.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-olimp-9ca14": {
+  "desc": "Restauracja z kuchnią polską przy al. Witosa, w której płaci się za wagę wybranych dań. Do wyboru są m.in. mięsa, sałatki i surówki oraz placki ziemniaczane.",
+  "zrodlo": "opinie"
+ },
+ "jesz-burger-pizza-592b5": {
+  "desc": "Lokal przy Radziszewskiego nastawiony na dowóz i odbiór osobisty, z burgerami, skrzydełkami z kurczaka, sałatkami i pizzą. Pod tym samym adresem i w tym samym serwisie zamówień działają też inne marki, m.in. z sushi i kuchnią chińską.",
+  "zrodlo": "strona"
+ },
+ "jimmy-s-restaurant-2cf00": {
+  "desc": "Restauracja na czwartym piętrze budynku przy Chodźki. Serwuje dania kuchni chińskiej.",
+  "zrodlo": "opinie"
+ },
+ "crown-kebab-lublin-0fcc6": {
+  "desc": "Bar z kebabem przy Żelazowej Woli. Kebab można zjeść na miejscu lub zamówić z dowozem.",
+  "zrodlo": "opinie"
+ },
+ "kaprys-s-c-bar-mleczny-878a9": {
+  "desc": "Bar mleczny przy Lwowskiej z tradycyjną kuchnią polską, działający od ponad trzech dekad. W karcie są m.in. schabowy, mielony, golonka, sztuka mięsa w sosie chrzanowym, ozorki, zupy, wyroby mączne i domowe ciasto, a także danie dnia; działa też dowóz.",
+  "zrodlo": "strona"
+ },
+ "faraon-kebab-i-burger-16773": {
+  "desc": "Bar typu fast food przy ul. Choiny. W ofercie są kebaby i burgery.",
+  "zrodlo": "opinie"
+ },
+ "zoty-kurczak-70a2d": {
+  "desc": "Bar przy ul. Leonarda z daniami obiadowymi – m.in. kotletami z surówkami – i szybkimi przekąskami. Prowadzi także garmażerkę i catering na przyjęcia.",
+  "zrodlo": "opinie"
+ },
+ "kraina-smaku-garmazerka-684ca": {
+  "desc": "Garmażerka przy Głębokiej z gotowymi daniami kuchni polskiej. W ofercie są m.in. pierogi i kotlety.",
+  "zrodlo": "opinie"
+ },
+ "zoty-smok-restauracja-chinska-f412b": {
+  "desc": "Restauracja z kuchnią azjatycką, głównie wietnamską i chińską, przy Krakowskim Przedmieściu. W karcie są m.in. sajgonki, zupa pho, pad thai, kurczak w wielu wersjach, kaczka po chińsku oraz makarony sojowy i udon.",
+  "zrodlo": "strona"
+ },
+ "ito-49863": {
+  "desc": "Lokal z burgerami w stylu smash przy Glinianej. W karcie są m.in. cheeseburger, Oklahoma, burger z jalapeño, Spicy Coleslaw i Big Kahuna – także w wersji podwójnej i potrójnej.",
+  "zrodlo": "siec"
+ },
+ "sto-i-wo-3a274": {
+  "desc": "Restauracja lubelskiej marki Stół i Wół, działającej w mieście od ponad dekady. Specjalnością są sezonowane steki i burgery z wołowiny, przygotowywane w piecu opalanym węglem drzewnym; lokal przy Gęsiej ma też w karcie pizzę w stylu nowojorskim, makarony, śniadania i lunche.",
+  "zrodlo": "strona"
+ },
+ "momo-sushi-resto-swidnik-e6073": {
+  "desc": "Restauracja japońska w Świdniku. W karcie sushi – rolki specjalne i zestawy – oraz ramen na kilku bulionach: shoyu, tantan, tonkotsu i warzywnym; w dni powszednie jest oferta lunchowa, są też dania dla dzieci.",
+  "zrodlo": "strona"
+ },
+ "kuchnia-zestawy-obiadowe-28df4": {
+  "desc": "Lokal z obiadami, schowany w głębi osiedla przy ul. Organowej. W ofercie danie dnia i zupy oraz klasyka kuchni polskiej – m.in. kotlet schabowy, pierogi ruskie i surówki.",
+  "zrodlo": "strona"
+ },
+ "good-mood-bistro-cafe-9067d": {
+  "desc": "Kawiarnia i bistro przy Dożynkowej, z dala od centrum. Podają śniadania, kawę – także w sezonowych odsłonach – i przekąski, a od wiosny do jesieni działa ogród z hamakami i leżakami.",
+  "zrodlo": "siec"
+ },
+ "peccato-di-gola-c939f": {
+  "desc": "Mała włoska restauracja przy Koralowej (druga działa przy Rynku). W karcie pizza rossa na sosie z pomidorów San Marzano i bianca na kremie z mascarpone, a także makarony, sałatki, panuozzo i desery, m.in. cannoli. Można przyjść z psem.",
+  "zrodlo": "strona"
+ },
+ "kap-kap-cafe-d1385": {
+  "desc": "Kameralna kawiarnia przy Narutowicza w Śródmieściu. Głównym punktem karty jest kawa z ekspresu przygotowywana przez baristę, do tego desery.",
+  "zrodlo": "opinie"
+ },
+ "kultowa-klubokawiarnia-a5351": {
+  "desc": "Klubokawiarnia przy Herbowej z muzyką na żywo – odbywają się tu koncerty i jam session. Do tego piwo, napoje i jedzenie.",
+  "zrodlo": "opinie"
+ },
+ "mandragora-zydowska-restauracja-658e9": {
+  "desc": "Restauracja kuchni żydowskiej przy Rynku na Starym Mieście. W karcie m.in. śledzie, gefilte fisz, wątróbka na winie i miodzie, czulent lubelski, kaczka z cymesem i pascha migdałowa, a do tego koszerne wina z izraelskiej winnicy Teperberg. Kuchnia gotuje tradycyjnie, więc na dania trzeba chwilę poczekać.",
+  "zrodlo": "strona"
+ },
+ "mrau-cafe-12-816d8": {
+  "desc": "Kocia kawiarnia przy Orlej, działająca od ponad dziesięciu lat. Przy kawie, herbacie i ciastach można spędzić czas z kotami-rezydentami, które szukają domów; obowiązują zasady wizyty, a w weekendy warto zarezerwować stolik.",
+  "zrodlo": "strona"
+ },
+ "sweet-spicy-restauracja-indyjska-784fb": {
+  "desc": "Indyjska restauracja wegetariańska przy Dolińskiego – dania nie zawierają mięsa, ryb ani jaj. W karcie m.in. samosy, pakory, paneer tikka z pieca tandoor, palak paneer, kofty, dal i biryani oraz chlebki naan; prowadzi też lunche i warsztaty.",
+  "zrodlo": "strona"
+ },
+ "stoowka-aga-gastronomia-9bf80": {
+  "desc": "Stołówka przy ul. Anny Walentynowicz, nieco schowana na uboczu. Serwuje proste obiady – zupy, dania mięsne i surówki.",
+  "zrodlo": "opinie"
+ },
+ "pera-sport-pub-9d5a7": {
+  "desc": "Pub sportowy przy stadionie Arena Lublin, prowadzony przez Browary Lubelskie Perła. Transmituje mecze i inne wydarzenia sportowe, a do piwa podaje m.in. pizzę, burgery i frytki.",
+  "zrodlo": "strona"
+ },
+ "oso-sushi-restauracja-japonska-519c7": {
+  "desc": "Restauracja sushi i kuchni azjatyckiej przy Zana. Oprócz sushi – futomaki, uramaki, nigiri, sashimi i zestawów – w karcie są ramen, dania z woka, udon, poke bowle, pierożki gyoza i tatar z łososia; są też opcje wegetariańskie i wegańskie.",
+  "zrodlo": "strona"
+ },
+ "restauracja-moze-8c17a": {
+  "desc": "Restauracja nad Zalewem Zemborzyckim, obok Wakeparku, z przeszklonym tarasem nad wodą i altaną z widokiem na zalew. W karcie m.in. tatar z bawety, żeberka w glazurze BBQ, pierogi, makarony, burgery i pizza.",
+  "zrodlo": "strona"
+ },
+ "cafe-mari-113fb": {
+  "desc": "Kawiarnia, bistro i cukiernia przy ul. Grottgera. Śniadania, m.in. jajka po turecku, podają przez cały dzień, są też lunche, a ciasta i desery powstają we własnej cukierni; w karcie są również koktajle i wina.",
+  "zrodlo": "strona"
+ },
+ "chinkalnia-restauracja-gruzinska-11e24": {
+  "desc": "Restauracja gruzińskiej sieci Chinkalnia przy Rynku na Starym Mieście. Podstawą karty są chinkali z różnymi farszami, a obok nich chaczapuri, szaszłyki, lula kebab i zupa z mini chinkali.",
+  "zrodlo": "siec"
+ },
+ "stara-winiarnia-lublin-ba8c1": {
+  "desc": "Winiarnia przy Rynku na Starym Mieście z szerokim wyborem win, także na kieliszki i na wynos. Do wina podaje deski serów i wędlin, podpłomyki, pinsę, focaccię i sałatki; w karcie jest też grzane wino.",
+  "zrodlo": "strona"
+ },
+ "morafi-3652e": {
+  "desc": "Restauracja przy Wrońskiej z kuchnią polską i pizzą. Lokal jest przyjazny dzieciom – ma kącik zabaw – i organizuje się tu także przyjęcia urodzinowe.",
+  "zrodlo": "opinie"
+ },
+ "chisza-a11c2": {
+  "desc": "Restauracja kuchni kaukaskiej – gruzińskiej i ormiańskiej – przy Świętoduskiej. W karcie m.in. chinkali z jagnięciną, chaczapuri adżarskie i szaszłyk ormiański z karkówki.",
+  "zrodlo": "strona"
+ },
+ "przystan-restauracja-51088": {
+  "desc": "Restauracja przy ul. Kunickiego z długą tradycją, serwująca kuchnię polską we współczesnym wydaniu. Organizuje przyjęcia – urodziny, chrzciny, komunie i wesela – a przy restauracji są też pokoje gościnne.",
+  "zrodlo": "strona"
+ },
+ "grill-bar-anuszik-1d717": {
+  "desc": "Grill-bar z kuchnią ormiańską przy ul. Paderewskiego. W karcie są mięsa i warzywa z grilla, m.in. kebab ormiański.",
+  "zrodlo": "opinie"
+ },
+ "garmazerka-u-iwony-fced2": {
+  "desc": "Garmażerka przy ul. Grażyny. Sprzedaje pierogi i inne wyroby na wynos oraz gotowe dania obiadowe.",
+  "zrodlo": "opinie"
+ },
+ "sto-i-wo-51246": {
+  "desc": "Restauracja marki Stół i Wół przy Bramowej na Starym Mieście, z ogródkiem. Specjalnością są sezonowane steki i burgery z wołowiny z grilla opalanego węglem drzewnym; do tego przystawki, sałaty, desery i autorskie koktajle.",
+  "zrodlo": "strona"
+ },
+ "matsu-sushi-568e4": {
+  "desc": "Restauracja sushi działająca w Lublinie od wielu lat, dziś część strefy gastronomicznej Azja od Kuchni przy Multikinie. W karcie futomaki, uramaki, nigiri i zestawy, a obok, w tej samej strefie, kuchnia indyjska Rani i azjatyckie dania uliczne Oki Woki.",
+  "zrodlo": "strona"
+ },
+ "rani-indian-restaurant-indyjska-restauracja-lublin-e3fa2": {
+  "desc": "Restauracja indyjska w strefie gastronomicznej Azja od Kuchni w Galerii Olimp, przy Multikinie. W karcie zupy, samosy i pakory, dania z pieca tandoor, curry – m.in. tikka masala, korma i vindaloo – oraz różne rodzaje naanu.",
+  "zrodlo": "strona"
+ },
+ "hot-pot-sajgon-cad5c": {
+  "desc": "Restauracja azjatycka przy Zana, w której podaje się hot pot – składniki gotowane samodzielnie w bulionie na stole. Zestawy przygotowane są dla kilku osób, a porcje są duże.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-the-olive-fine-jewish-food-dff32": {
+  "desc": "Restauracja hotelu Ilan przy Lubartowskiej, mieszczącego się w kompleksie dawnej uczelni Jeszywas Chachmej Lublin. Kuchnia łączy tradycje staropolskie i żydowskie; po wcześniejszej rezerwacji dostępne są dania koszerne, a do posiłków – bogata karta win.",
+  "zrodlo": "strona"
+ },
+ "omen-pizza-lublin-40192": {
+  "desc": "Pizzeria przy Zielonej, z zamówieniami na miejscu, na wynos i z dowozem. W karcie pizza w trzech rozmiarach – 24, 33 i 45 cm – a także calzone, zapiekanki i sałatki.",
+  "zrodlo": "strona"
+ },
+ "pasibrzuch-de683": {
+  "desc": "Pierogarnia przy ul. Różanej. Oferuje różne rodzaje pierogów, które można też kupić na wynos.",
+  "zrodlo": "opinie"
+ },
+ "alinces-restaurant-b77cf": {
+  "desc": "Restauracja z kuchnią tajską przy Unickiej. W karcie m.in. pad thai i kurczak po koreańsku; zamówienia realizowane są także z dostawą.",
+  "zrodlo": "opinie"
+ },
+ "kebab-o-kebab-ebfa7": {
+  "desc": "Bar z kebabem przy al. Kraśnickiej. Kebab podaje się w kilku wersjach, m.in. w picie i lawaszu, z wyborem mięsa.",
+  "zrodlo": "opinie"
+ },
+ "pijalnia-czekolady-e-wedel-46e46": {
+  "desc": "Pijalnia czekolady sieci E.Wedel na deptaku przy Krakowskim Przedmieściu. Specjalnością jest pitna czekolada w różnych wersjach, a obok niej desery, kawa i herbata.",
+  "zrodlo": "siec"
+ },
+ "nutka-smaku-3f45d": {
+  "desc": "Lokal z kuchnią polską przy ul. Kryształowej, nastawiony na obiady. Podaje zupy i drugie dania.",
+  "zrodlo": "opinie"
+ },
+ "kebab-59056": {
+  "desc": "Kebab Station – mobilna przyczepa gastronomiczna przy ul. Orkana 4. Przygotowuje kebaby na bieżąco, na miejscu i na wynos, z sosami do wyboru: klasycznym, czosnkowym lub ostrym.",
+  "zrodlo": "strona"
+ },
+ "my-kebab-b77e7": {
+  "desc": "Bar z kebabem przy ul. Kołłątaja w centrum Lublina. Kebab podają w sporych porcjach, z sosami.",
+  "zrodlo": "opinie"
+ },
+ "domino-s-pizza-c6579": {
+  "desc": "Pizzeria sieci Domino’s przy ul. Ametystowej. W karcie wiele rodzajów pizzy, m.in. na cienkim, chrupiącym cieście; zamówienia realizuje też z dowozem.",
+  "zrodlo": "opinie"
+ },
+ "sohel-kebab-381a3": {
+  "desc": "Bar z kebabem przy ul. Lubartowskiej. W ofercie jest m.in. kebab w picie.",
+  "zrodlo": "opinie"
+ },
+ "u-mustafy-kebab-76ef9": {
+  "desc": "Bar z kebabem przy Nadbystrzyckiej, obok Politechniki, nastawiony głównie na jedzenie na wynos i dostawę. Do wyboru są rodzaj dania, mięsa – kurczak, baranina lub mieszane – pieczywa, dodatków i sosów.",
+  "zrodlo": "strona"
+ },
+ "sapaya-kuchnia-tajska-b869d": {
+  "desc": "Bar z kuchnią tajską i orientalną przy alei Witosa. W karcie m.in. pad thai oraz dania z kurczakiem podawane z ryżem lub makaronem.",
+  "zrodlo": "opinie"
+ },
+ "lampadina-la-pizza-50785": {
+  "desc": "Pizzeria przy ul. Lubartowskiej serwująca pizzę przygotowywaną z włoskich składników. Można ją zjeść na miejscu, zabrać na wynos lub zamówić z dostawą; lokal przyjmuje też zamówienia na catering.",
+  "zrodlo": "strona"
+ },
+ "namasthai-b1216": {
+  "desc": "Restauracja z kuchnią tajską przy ul. Agatowej. W karcie jest m.in. pad thai i inne klasyczne dania tajskie.",
+  "zrodlo": "opinie"
+ },
+ "bistro-italia-lublin-woska-pizza-panini-2c9a6": {
+  "desc": "Włoskie bistro przy ul. Lipowej, niedaleko Ogrodu Saskiego. Serwuje pizzę, panini z własnego, świeżo wypiekanego pieczywa oraz sałatki, przygotowywane z włoskich produktów.",
+  "zrodlo": "strona"
+ },
+ "ookii-ramen-shop-lublin-f6239": {
+  "desc": "Japoński bar z ramenem przy ul. Kapucyńskiej, w centrum Lublina. Podstawą karty są miski ramenu – rozgrzewającej zupy z makaronem i dodatkami.",
+  "zrodlo": "opinie"
+ },
+ "hotel-wieniawski-i-restauracja-trzy-romanse-5d994": {
+  "desc": "Restauracja Hotelu Wieniawski przy ul. Sądowej, w budynku z zachowaną secesyjną fasadą dawnej kamienicy. Kuchnia opiera się na polskich daniach regionalnych z produktów od lokalnych dostawców, a uzupełnia ją karta win z różnych stron świata.",
+  "zrodlo": "strona"
+ },
+ "kawiarnia-nie-wylej-fbc41": {
+  "desc": "Kawiarnia przy ul. Żwirki i Wigury, naprzeciwko Ogrodu Saskiego, z szerokim wyborem kaw i metod parzenia. Prowadzi też sklep z kawą.",
+  "zrodlo": "strona"
+ },
+ "yummy-sweets-cafe-9e4d1": {
+  "desc": "Kawiarnia przy ul. Gęsiej, w której podaje się śniadania na słodko i na wytrawnie, a także ciasta i inne słodkie wypieki. W karcie są też opcje wegetariańskie.",
+  "zrodlo": "opinie"
+ },
+ "crazy-bubble-fd031": {
+  "desc": "Punkt sieci Crazy Bubble w centrum handlowym VIVO! przy al. Unii Lubelskiej. Serwuje bubble tea na bazie zielonej lub czarnej herbaty, komponowaną z wybranych smaków i dodatków; w ofercie jest też m.in. matcha.",
+  "zrodlo": "strona"
+ },
+ "bojat-kebab-84258": {
+  "desc": "Kebab przy ul. Nadbystrzyckiej, w którym podaje się własne mięso, a nie gotową mielonkę. Kebab w bułce jest dostępny w kilku rozmiarach, m.in. XL i XXL.",
+  "zrodlo": "opinie"
+ },
+ "szeptem-art-cafe-wine-bar-6b5b3": {
+  "desc": "Kawiarnia i wine bar przy ul. Kościuszki, w centrum Lublina. W karcie są kawa, ciasta i desery, a także sałatki i wino.",
+  "zrodlo": "opinie"
+ },
+ "il-rifugio-pizzeria-91178": {
+  "desc": "Pizzeria przy ul. Oczki, w której podaje się włoską pizzę na cienkim, chrupiącym cieście. Karta obejmuje kilkadziesiąt rodzajów pizzy.",
+  "zrodlo": "opinie"
+ },
+ "za-kulisami-0ecdc": {
+  "desc": "Restauracja w budynku Centrum Spotkania Kultur przy placu Teatralnym, z elegancką, przestronną salą. Kuchnia łączy wpływy wielu kultur, a uzupełnia ją karta win; cyklicznie odbywają się tu muzyczne występy na żywo.",
+  "zrodlo": "strona"
+ },
+ "legendy-miasta-cbcf4": {
+  "desc": "Restauracja hotelowa przy al. Solidarności, której wystrój nawiązuje do lubelskich legend. W karcie są dania kuchni polskiej i międzynarodowej, m.in. sezonowane steki z wołowiny hereford, schabowy z kością z rasy puławskiej i pizza w stylu rzymskim.",
+  "zrodlo": "strona"
+ },
+ "bistro-eter-90537": {
+  "desc": "Bistro z kuchnią polską przy ul. Obrońców Pokoju, nastawione na codzienne obiady. Dania podaje się w dużych porcjach.",
+  "zrodlo": "opinie"
+ },
+ "chisza-nad-zalewem-d5c5e": {
+  "desc": "Restauracja z kuchnią gruzińską i ormiańską nad Zalewem Zemborzyckim, przy ul. Żeglarskiej. W karcie są m.in. chinkali, chaczapuri, pielmieni i szaszłyki, a także pizza; przy lokalu działa ogródek.",
+  "zrodlo": "opinie"
+ },
+ "bona-restaurant-24f17": {
+  "desc": "Restauracja w zabytkowej kamienicy przy ul. Kowalskiej, z widokiem na Zamek Lubelski. Kuchnia czerpie ze smaków śródziemnomorskich – w karcie są m.in. hummus, tatar, makarony, pizza, ryby i owoce morza, a pieczywo pochodzi z własnej piekarni.",
+  "zrodlo": "strona"
+ },
+ "just-crafted-7b563": {
+  "desc": "Pub z piwem kraftowym przy ul. Cichej, w centrum Lublina, z ponad setką polskich i zagranicznych piw z kranów i butelek. Do piwa podaje m.in. pielmieni i rybę z frytkami, ma kolekcję gier planszowych i organizuje quizy.",
+  "zrodlo": "strona"
+ },
+ "bukhara-restauracja-uzbecka-d767c": {
+  "desc": "Restauracja z kuchnią uzbecką przy ul. Nadbystrzyckiej. Wśród dań są m.in. szaszłyki.",
+  "zrodlo": "opinie"
+ },
+ "casa-mia-sc-pizzeria-ff50f": {
+  "desc": "Restauracja i pizzeria przy ul. Hryniewieckiego, działająca w tym miejscu od wielu lat. Oprócz pizzy w karcie są przystawki, zupy, makarony oraz dania mięsne i rybne.",
+  "zrodlo": "strona"
+ },
+ "karczma-pod-strzecha-6ebc5": {
+  "desc": "Karczma z kuchnią polską przy ul. Zana (lokal „Przy stoku”), ze staropolskim wystrojem i dużą salą. Codziennie podaje zestaw dnia – zupę, drugie danie i kompot – a w karcie są też m.in. placki ziemniaczane.",
+  "zrodlo": "strona"
+ },
+ "klub30-lublin-d80e7": {
+  "desc": "Klub muzyczny przy ul. Peowiaków, adresowany do gości po trzydziestce. Imprezy odbywają się na dwóch parkietach, przy przebojach muzyki tanecznej, m.in. z lat 80. i 90.",
+  "zrodlo": "strona"
+ },
+ "hello-india-abc44": {
+  "desc": "Punkt z kuchnią indyjską w centrum handlowym VIVO! przy al. Unii Lubelskiej. W karcie są przede wszystkim dania curry.",
+  "zrodlo": "opinie"
+ },
+ "patio-bernardynska-13-bfbf7": {
+  "desc": "Bar działający w zabytkowym dawnym Pałacu Sobieskich przy ul. Bernardyńskiej 13.",
+  "zrodlo": "opinie"
+ },
+ "ostro-ristoteca-1f2fa": {
+  "desc": "Restauracja z kuchnią włoską przy Krakowskim Przedmieściu, która wieczorami zamienia się w klub z parkietem. Rano podaje śniadania, m.in. szakszukę i tosty koreańskie, później makarony, pizzę i burgery, a do tego koktajle; działa też ogródek przy ulicy.",
+  "zrodlo": "strona"
+ },
+ "dostana-kebab-573d4": {
+  "desc": "Lokal sieci Dostana Kebab przy Krakowskim Przedmieściu. Serwuje kebaby z mięsem pieczonym na ogniu, ze świeżymi warzywami i własnymi sosami, m.in. w wersji rollo; zamówienia realizuje też z dostawą.",
+  "zrodlo": "strona"
+ },
+ "prosto-z-mostu-a3272": {
+  "desc": "Rodzinna restauracja na terenie aquaparku Aqua Lublin przy Alejach Zygmuntowskich. Serwuje włoską pizzę przygotowywaną na oczach gości oraz polskie dania, m.in. żurek i schabowego, a także makarony i burgery.",
+  "zrodlo": "strona"
+ },
+ "grela-universiti-cafe-8875b": {
+  "desc": "Kawiarnia na terenie kampusu UMCS, związana z chełmską piekarnią i cukiernią Grela o wieloletniej tradycji. Podaje kawę i wypieki, m.in. ciasta.",
+  "zrodlo": "strona"
+ },
+ "pizza-kosmos-50296": {
+  "desc": "Pizzeria przy ul. Sądowej serwująca pizzę na cienkim, chrupiącym cieście. Pizzę można zamówić także z dostawą.",
+  "zrodlo": "opinie"
+ },
+ "pizza-hut-lublin-plaza-472f3": {
+  "desc": "Restauracja sieci Pizza Hut w centrum handlowym Lublin Plaza przy ul. Lipowej. Serwuje pizzę i inne dania z karty sieci, z obsługą kelnerską przy stolikach.",
+  "zrodlo": "siec"
+ },
+ "garmazerka-smaq-smaczna-kuchnia-deb3c": {
+  "desc": "Garmażerka z ręcznie robionymi daniami kuchni polskiej przy ul. Wigilijnej. W ofercie jest ponad dziesięć rodzajów pierogów, a także naleśniki, krokiety i kotlety sprzedawane na wagę; można też zjeść zestaw obiadowy z zupą.",
+  "zrodlo": "strona"
+ },
+ "polskie-smaki-garmazerka-84bd4": {
+  "desc": "Garmażerka z kuchnią polską przy ul. Żelazowej Woli. W ofercie są m.in. pierogi i sałatki, a także słodkie wypieki.",
+  "zrodlo": "opinie"
+ },
+ "avocado-bistro-caffe-20924": {
+  "desc": "Bistro z kuchnią polską przy Krakowskim Przedmieściu, działające w stylu stołówki. Codziennie serwuje kilka zestawów obiadowych w dużych porcjach.",
+  "zrodlo": "opinie"
+ },
+ "kebab-salsa-lublin-7e378": {
+  "desc": "Bar z kebabem przy ul. Kawaleryjskiej. Kebaby są dostępne w kilku rozmiarach.",
+  "zrodlo": "opinie"
+ },
+ "my-kebab-lublin-3-e77c0": {
+  "desc": "Punkt z kebabem przy ul. Orkana, w którym zamówienia realizowane są szybko. Kebab podaje się m.in. w picie.",
+  "zrodlo": "opinie"
+ },
+ "imperial-kebab-d1d8d": {
+  "desc": "Bar z kebabem przy al. Spółdzielczości Pracy, w którym kebaby podaje się w dużych porcjach. Można je zjeść na miejscu, przy stoliku.",
+  "zrodlo": "opinie"
+ },
+ "da-grasso-b7156": {
+  "desc": "Lokal sieci pizzerii Da Grasso przy ul. Lwowskiej na Kalinowszczyźnie. W karcie jest ponad 30 rodzajów pizzy na cieście wyrabianym codziennie, podawanej z sosami własnej receptury, m.in. czosnkowym; pizzę można zamówić z dostawą.",
+  "zrodlo": "strona"
+ },
+ "to-i-owo-stoowka-c3a80": {
+  "desc": "Stołówka z kuchnią polską przy ul. Projektowej, serwująca tradycyjne obiady. Podaje się tu m.in. kotlety i inne dania mięsne z ziemniakami i surówkami.",
+  "zrodlo": "opinie"
+ },
+ "fast-kebab-e6dc4": {
+  "desc": "Bar z kebabem przy ul. Armii Krajowej. W ofercie są kebaby w różnych wersjach i rozmiarach, także z frytkami.",
+  "zrodlo": "opinie"
+ },
+ "erbil-kebab-vivo-2abcd": {
+  "desc": "Bar z kebabem w centrum handlowym VIVO! przy al. Unii Lubelskiej. Kebaby podaje ze świeżymi warzywami i surówkami.",
+  "zrodlo": "opinie"
+ },
+ "kuchnia-smakosza-e01c3": {
+  "desc": "Bar z kuchnią polską w pasażu handlowym przy ul. Harnasie na Czechowie, działający w tym miejscu od ponad 20 lat. Codziennie gotuje kilka zestawów obiadowych, w tym wegetariański, z dowozem do domu lub pracy; w sklepie firmowym można kupić pierogi.",
+  "zrodlo": "strona"
+ },
+ "rezerwat-kulinarny-a73d0": {
+  "desc": "Restauracja z kuchnią polską przy ul. Szwajcarskiej, z obiadami na miejscu, na wynos i z dowozem w promieniu 5 km. W karcie są m.in. rosół, krem z białych szparagów, kotlet schabowy, morszczuk panierowany i placki ziemniaczane z gulaszem z sarny; porcje są duże.",
+  "zrodlo": "strona"
+ },
+ "garmazerka-pyza-dobra-kuchnia-f7aba": {
+  "desc": "Garmażerka z kuchnią polską, w której podstawą oferty są pierogi i inne wyroby mączne, a obok nich dania mięsne, zupy, sałatki i surówki. Z ryb są m.in. ryba po grecku, dorsz smażony i pstrąg faszerowany; lokal prowadzi też catering i dowóz.",
+  "zrodlo": "strona"
+ },
+ "czekoladowy-art-cafe-c6963": {
+  "desc": "Kawiarnia przy cukierni Czekoladowy na ul. Liliowej. Na miejscu są ciasta, monodesery, tarty, ptysie, makaroniki, trufle i wyroby z czekolady, a do tego kawa i lody; cukiernia przyjmuje też zamówienia na torty, w tym weselne, oraz słodkie stoły.",
+  "zrodlo": "strona"
+ },
+ "nomu-coffee-e8456": {
+  "desc": "Niewielka kawiarnia przy ul. Peowiaków, w której oprócz kawy ważnym punktem karty jest matcha. Są tu też inne napoje bezkawowe.",
+  "zrodlo": "opinie"
+ },
+ "kawa-ciacha-kawiarnia-cukiernia-42341": {
+  "desc": "Kawiarnia z cukiernią przy ul. Obrońców Pokoju. Podają kawę, gofry oraz ciasta i desery.",
+  "zrodlo": "opinie"
+ },
+ "che-pasta-fa4c3": {
+  "desc": "Włoska restauracja przy ul. Radości, specjalizująca się w makaronach własnego wyrobu, przygotowywanych według tradycyjnych receptur. Na deser podają m.in. tiramisu, a lokal ma też ogródek.",
+  "zrodlo": "strona"
+ },
+ "garmazerka-bim-ade08": {
+  "desc": "Garmażerka z kuchnią polską przy ul. Matki Teresy z Kalkuty, z daniami obiadowymi głównie na wynos. Potrawy są przygotowywane na świeżo.",
+  "zrodlo": "opinie"
+ },
+ "calabrisella-e9037": {
+  "desc": "Lokal z kuchnią włoską przy ul. Langiewicza, serwujący pizzę. Nazwa nawiązuje do Kalabrii na południu Włoch.",
+  "zrodlo": "opinie"
+ },
+ "red-rock-city-62db6": {
+  "desc": "Restauracja z kuchnią amerykańską przy ul. Marii Curie-Skłodowskiej. Główną rolę w karcie grają burgery.",
+  "zrodlo": "opinie"
+ },
+ "koralova-be233": {
+  "desc": "Restauracja przy ul. Koralowej łącząca kuchnię polską i włoską – w karcie są m.in. pierogi, dania z makaronu i desery. Wnętrze jest przytulne.",
+  "zrodlo": "opinie"
+ },
+ "grill-bar-7de89": {
+  "desc": "Bar z daniami z grilla, nastawiony przede wszystkim na mięso grillowane na bieżąco. Przy lokalu jest ogródek.",
+  "zrodlo": "opinie"
+ },
+ "tinto-wine-bar-restauracja-6362d": {
+  "desc": "Restauracja i winiarnia przy placu Łokietka, tuż obok ratusza i Bramy Krakowskiej, prowadzona przez importera win. W karcie są m.in. tatar i carpaccio z polędwicy wołowej, deski wędlin i serów, owoce morza i makarony, a także menu degustacyjne.",
+  "zrodlo": "strona"
+ },
+ "skadanka-restauracja-woska-lublin-dac0f": {
+  "desc": "Włoska restauracja w Alejach Racławickich (wejście od ul. Radziszewskiego), serwująca pinsę rzymską, makarony i antipasti. Ma kartę win z różnych stron świata – butelkę można też kupić na wynos – a w menu są dania bezglutenowe i wegańskie.",
+  "zrodlo": "strona"
+ },
+ "soczysta-strawa-bbc57": {
+  "desc": "Wegetariański bar przy ul. Zesłańców Sybiru z wieloma opcjami wegańskimi – w karcie są m.in. falafel, pierogi i kotlety z boczniaków. Przy lokalu działa sklepik ze zdrową żywnością.",
+  "zrodlo": "siec"
+ },
+ "manekin-lublin-5b9c8": {
+  "desc": "Lubelski lokal sieci naleśnikarni Manekin przy ul. Narutowicza. W karcie są naleśniki wytrawne, zapiekane i słodkie, tagliatelle naleśnikowe i pancakes, a także sałatki i zupy.",
+  "zrodlo": "strona"
+ },
+ "bar-u-jerrego-627bd": {
+  "desc": "Bar z daniami z kurczaka i szaszłykami. Podaje się je ze świeżymi dodatkami.",
+  "zrodlo": "opinie"
+ },
+ "rock-pub-ramzes-8ffb6": {
+  "desc": "Rockowy pub w piwnicy kamienicy przy ul. Kołłątaja, z muzyką rockową i bluesową oraz koncertami na żywo. Przy piwie można zagrać w szachy, rzutki czy gry planszowe.",
+  "zrodlo": "siec"
+ },
+ "kurczak-z-rozna-madagaskar-98e66": {
+  "desc": "Punkt z kurczakami z rożna przy ul. Paderewskiego. Oprócz kurczaka podają kebab i zapiekanki.",
+  "zrodlo": "opinie"
+ },
+ "moja-kuchnia-jacek-jakubczak-garmazerka-0ba60": {
+  "desc": "Garmażerka z kuchnią polską przy ul. Mariańskiej, z gotowymi daniami na wynos. W ofercie są m.in. pierogi.",
+  "zrodlo": "opinie"
+ },
+ "sajgon-nadbystrzycka-5489e": {
+  "desc": "Bar z kuchnią wietnamską przy ul. Nadbystrzyckiej. W karcie są zupy z makaronem, w tym pho, sajgonki oraz dania z kurczaka, m.in. w sosie curry i słodko-kwaśnym; porcje są duże, a płatność tylko gotówką.",
+  "zrodlo": "strona"
+ },
+ "klub-graffiti-820b4": {
+  "desc": "Klub koncertowy przy ul. Bernardyńskiej, w którym gra się przede wszystkim rocka i metal, a okazjonalnie także bluesa, reggae i rap. Ma salę koncertową ze sceną i bar, a klub można wynająć na imprezy prywatne.",
+  "zrodlo": "siec"
+ },
+ "red-rock-city-felin-67597": {
+  "desc": "Lokal Red Rock City z kuchnią amerykańską przy ul. Malwowej w Kalinówce. Serwuje przede wszystkim burgery.",
+  "zrodlo": "opinie"
+ },
+ "skwerek-2114b": {
+  "desc": "Strefa gastronomiczna z barami na terenie dawnych Lubelskich Zakładów Tytoniowych (wjazd od ul. Wrotkowskiej). Odbywają się tu wydarzenia kulturalne i wieczory z muzyką, a obok drinków można zjeść coś z działających tu punktów gastronomicznych.",
+  "zrodlo": "siec"
+ },
+ "pub-u-szewca-372c0": {
+  "desc": "Pub z kuchnią przy ul. Grodzkiej na Starym Mieście, z dużym wyborem piw i innych napojów. Odbywają się tu koncerty i transmisje sportowe na dużym ekranie, a latem działa ogródek.",
+  "zrodlo": "strona"
+ },
+ "encepence-pizzeria-pub-5d3be": {
+  "desc": "Pizzeria z pubem przy ul. Kaprysowej, z dowozem pizzy. W lokalu jest bilard, a sala służy też do organizacji przyjęć okolicznościowych.",
+  "zrodlo": "strona"
+ },
+ "nova-sushi-lublin-rogera-4670c": {
+  "desc": "Lokal sieci Nova Sushi przy ul. Króla Rogera, nastawiony na sushi na wynos i z dowozem. Zamówienia można składać przez internet.",
+  "zrodlo": "strona"
+ },
+ "stoowka-to-i-owo-08fb1": {
+  "desc": "Stołówka przy ul. Harnasie z obiadami – zupami i drugimi daniami. Potrawy są świeże.",
+  "zrodlo": "opinie"
+ },
+ "ciociagotuje-pl-express-w-masami-sushi-dbec9": {
+  "desc": "Pierogarnia przy ul. Narutowicza działająca pod marką CiociaGotuje.pl. Według Map Google mieści się w tym samym miejscu co lokal z sushi.",
+  "zrodlo": "opinie"
+ },
+ "pizzeria-planeta-lublin-pizza-1ec72": {
+  "desc": "Pizzeria przy ul. Nowowiejskiego z dowozem; zamówienia przyjmuje też przez internet. Do wyboru jest ciasto cienkie lub grube, tradycyjne albo ziołowo-czosnkowe.",
+  "zrodlo": "opinie"
+ },
+ "garmazerka-pod-grusza-69e34": {
+  "desc": "Garmażerka z kuchnią polską przy ul. Onyksowej, związana z cukiernią Williams, która działa pod tym samym adresem. W ofercie są gotowe dania, m.in. pierogi i surówki.",
+  "zrodlo": "opinie"
+ },
+ "apetito-5ba84": {
+  "desc": "Restauracja z kuchnią polską przy ul. Zana, z codziennie zmieniającym się menu obiadowym i zestawem dnia złożonym z zupy i drugiego dania. Obiady można zjeść na miejscu, wziąć na wynos lub zamówić z dostawą.",
+  "zrodlo": "strona"
+ },
+ "restauracja-olimp-2ca99": {
+  "desc": "Lokal sieci Olimp w centrum handlowym VIVO przy al. Unii Lubelskiej, działający w systemie wagowym – dania nakłada się samodzielnie i płaci według wagi. W bufecie są potrawy kuchni polskiej i międzynarodowej.",
+  "zrodlo": "strona"
+ },
+ "bar-mleczny-bartek-dcfcf": {
+  "desc": "Bar mleczny przy ul. Herberta z tradycyjnymi polskimi obiadami, m.in. kotletem schabowym, podawanymi w sporych porcjach. Wystrój pamięta przełom lat 80. i 90.",
+  "zrodlo": "opinie"
+ },
+ "bar-aga-dania-obiadowe-95987": {
+  "desc": "Bar z daniami obiadowymi na terenie WORD przy ul. Hutniczej. Potrawy, np. kotlety, przygotowywane są na bieżąco.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-mcdonald-s-4ea1c": {
+  "desc": "Restauracja sieci McDonald’s przy Krakowskim Przedmieściu w śródmieściu Lublina. Karta jest typowa dla sieci – są w niej burgery, frytki czy nuggetsy.",
+  "zrodlo": "strona"
+ },
+ "kebab-ponocna-7c767": {
+  "desc": "Bar z kebabem przy ul. Północnej. Kebab podaje się m.in. w picie, a do wyboru jest też wołowina.",
+  "zrodlo": "opinie"
+ },
+ "smart-pizza-delivery-d8e08": {
+  "desc": "Pizzeria nastawiona głównie na dowóz i odbiór na wynos, z zamówieniami przez telefon i internet. Poza pizzą w karcie są też inne dania, m.in. sałatki, burrito i makarony.",
+  "zrodlo": "strona"
+ },
+ "avocado-bistro-caffe-6de92": {
+  "desc": "Bistro z kuchnią polską przy ul. Chodźki, nastawione na obiady. Karta nie jest obszerna.",
+  "zrodlo": "opinie"
+ },
+ "domino-s-pizza-13f6c": {
+  "desc": "Pizzeria sieci Domino’s w Galerii Orkana, z pizzą w amerykańskim stylu na wynos i z dowozem. Zamówienia można składać też przez internet.",
+  "zrodlo": "strona"
+ },
+ "zeer-kebab-23497": {
+  "desc": "Bar z kebabem przy al. Tysiąclecia, serwujący m.in. kebab w rollo z kurczakiem. Sos można wybrać ostry lub mieszany.",
+  "zrodlo": "opinie"
+ },
+ "baagan-301c9": {
+  "desc": "Pub w podwórzu przy Grodzkiej na Starym Mieście, do którego prowadzi przejście z czerwonymi lampionami. Wnętrze z surowej cegły, w karcie piwa i koktajle, a latem można usiąść na zewnątrz.",
+  "zrodlo": "siec"
+ },
+ "miedzy-sowami-59ef7": {
+  "desc": "Kawiarnia przy ul. Rybnej na Starym Mieście, z półkami pełnymi książek, przy których można spokojnie posiedzieć. Serwuje kawę, herbatę i gęstą gorącą czekoladę.",
+  "zrodlo": "opinie"
+ },
+ "tosaka-sushi-0d7e7": {
+  "desc": "Restauracja sushi w budynku Aqua Lublin przy Alejach Zygmuntowskich, we wnętrzu z zielenią i fontanną. W karcie nigiri, sashimi, uramaki, futomaki i hosomaki; zamówienie można też odebrać osobiście lub zamówić z dostawą.",
+  "zrodlo": "strona"
+ },
+ "kumple-rogera-7d953": {
+  "desc": "Lokal z burgerami i pizzą przy ul. Króla Rogera. W karcie m.in. burgery BBQ, Góral i z mango, pizze Napoli, Diavola czy Toscana oraz frytki tradycyjne i zapiekane; zamówienia realizuje też z dostawą.",
+  "zrodlo": "siec"
+ },
+ "gastro-bros-b7fe5": {
+  "desc": "Restauracja obiadowa na Czubach przy ul. Różanej, z codziennie zmienianym zestawem dnia. W karcie m.in. pierogi ruskie, miruna w cieście serowym, bowle i spaghetti alla carbonara; można zjeść na miejscu, na wynos lub z dostawą, są też przyjęcia do 25 osób.",
+  "zrodlo": "strona"
+ },
+ "rybarbar-smazalnia-ryb-bistro-bar-d6145": {
+  "desc": "Smażalnia ryb i bistro przy al. Spółdzielczości Pracy. Podają ryby w panierce – m.in. miętusa – z frytkami i zestawem surówek; lokal bywa mocno oblegany.",
+  "zrodlo": "opinie"
+ },
+ "sodkie-bistro-c8893": {
+  "desc": "Kawiarnia przy ul. Kapucyńskiej z lodami, deserami i ciastami. W karcie są też kawa i lemoniady.",
+  "zrodlo": "opinie"
+ },
+ "taki-myk-food-truck-ab71b": {
+  "desc": "Food truck z kuchnią amerykańską, stacjonujący przy Akademii WSEI na ul. Projektowej. Przyjmuje też zamówienia na imprezy okolicznościowe.",
+  "zrodlo": "opinie"
+ },
+ "halka-restauracja-polska-ea8ad": {
+  "desc": "Restauracja z kuchnią polską w nowoczesnym wydaniu, przy ul. Staszica. W dni powszednie podaje zestawy lunchowe, w karcie jest m.in. kotlet schabowy, a na przyjęcia ma dwie sale.",
+  "zrodlo": "strona"
+ },
+ "bistro-restauracja-spokojna2-d9588": {
+  "desc": "Kawiarnia, bistro i restauracja przy ul. Spokojnej, korzystająca z produktów od regionalnych dostawców. W karcie są m.in. steki, a w niedziele podaje rodzinne obiady na półmiskach do dzielenia się.",
+  "zrodlo": "strona"
+ },
+ "mae-indie-0ed8e": {
+  "desc": "Wegetariańsko-wegańska restauracja indyjska przy ul. Rybnej na Starym Mieście – bez mięsa, ryb i jaj. Gotują indyjscy kucharze, na deser są ciasta bez jajek, a drugi lokal działa przy Rynku 5.",
+  "zrodlo": "strona"
+ },
+ "garmazerka-pyza-dobra-kuchnia-lublin-8b650": {
+  "desc": "Garmażeria z kuchnią polską przy ul. Radości. W ofercie przede wszystkim pierogi i inne wyroby mączne, a także zupy, dania mięsne, ryby (np. ryba po grecku, pstrąg faszerowany) i sałatki; prowadzi też catering i dostawy.",
+  "zrodlo": "strona"
+ },
+ "cukiernia-ciacho-bez-cukru-piekarnia-bez-glutenu-1972e": {
+  "desc": "Cukiernia z kawiarnią przy ul. Kościuszki, w której słodkości powstają na miejscu bez dodatku cukru i bez glutenu. Są ciasta, torty, tartaletki, eklery, lody i monoporcje, także wegańskie i keto, a przy wyrobach podane są wartości odżywcze.",
+  "zrodlo": "strona"
+ },
+ "restauracja-lola-tacos-bar-18772": {
+  "desc": "Meksykańska taqueria i bar przy ul. Świętoduskiej. W karcie tacos (m.in. birria, carnitas, z boczniakiem), quesadille, burrito i nachosy, do tego wybór salsy i churros na deser.",
+  "zrodlo": "siec"
+ },
+ "restauracja-portofino-e5343": {
+  "desc": "Restauracja nad Zalewem Zemborzyckim przy ul. Krężnickiej, z budką z lodami obok. W karcie makarony, burgery, tatar wołowy, zupy i dania główne, np. schab w panierce czy filet z dorsza; organizuje też wesela i przyjęcia.",
+  "zrodlo": "strona"
+ },
+ "restauracja-staropolska-ef532": {
+  "desc": "Restauracja z kuchnią polską przy Rynku na Starym Mieście, z letnim ogródkiem. Od poniedziałku do piątku ma menu lunchowe, a w karcie są tradycyjne dania i produkty regionalne.",
+  "zrodlo": "strona"
+ },
+ "kebab-o-kebab-63b73": {
+  "desc": "Kebab przy ul. Czapskiego, podawany m.in. w lawaszu, także z mięsem mieszanym. Zamówienia wydawane są szybko.",
+  "zrodlo": "opinie"
+ },
+ "bar-piecyk-bis-674af": {
+  "desc": "Bar obiadowy przy ul. Herberta, w którym podają domowe dania obiadowe, m.in. kotlet schabowy. Porcje są solidne.",
+  "zrodlo": "opinie"
+ },
+ "viet-home-lublin-d14af": {
+  "desc": "Bistro z kuchnią wietnamską, chińską i tajską przy ul. Głębokiej. W karcie m.in. zupa pho z wołowiną, pad thai, sajgonki, red curry i krewetki w pikantnym sosie, są też dania wegetariańskie.",
+  "zrodlo": "strona"
+ },
+ "musisushi-restauracja-japonska-sushi-ramen-4acbc": {
+  "desc": "Japońska restauracja przy ul. Północnej, obok stacji BP. W karcie sushi w wielu odmianach (nigiri, gunkan, hosomaki, futomaki, uramaki), zestawy, ramen, przystawki i desery, jest też menu lunchowe; zamówienia na wynos i z dostawą.",
+  "zrodlo": "strona"
+ },
+ "kebab-i-nie-tylko-8ae01": {
+  "desc": "Bar z kebabem przy ul. Lwowskiej. Kurczaka przygotowują tu na miejscu, a kebab podają m.in. w lawaszu.",
+  "zrodlo": "opinie"
+ },
+ "wyrko-79e72": {
+  "desc": "Klub i bar przy ul. Sądowej, przedstawiany jako jedyne takie miejsce LGBT+ w Lublinie, otwarte także dla innych gości. Wieczorami gra DJ, jest parkiet, a w barze serwują koktajle.",
+  "zrodlo": "siec"
+ },
+ "nieznana-by-ibb-grand-hotel-lublin-b9ccf": {
+  "desc": "Restauracja w IBB Grand Hotelu przy Krakowskim Przedmieściu, urządzona na dwóch piętrach i mieszcząca do 120 osób. Karta łączy kuchnię międzynarodową z regionalnymi specjałami i zmienia się sezonowo; lokal przyjmuje też bankiety i wesela.",
+  "zrodlo": "strona"
+ },
+ "mojo-kuchnia-przyjaciele-8c158": {
+  "desc": "Restauracja przy ul. Radziszewskiego z burgerami, pizzą, żeberkami i skrzydełkami, a także sałatkami i deserami. Są miejsca w środku i na zewnątrz.",
+  "zrodlo": "siec"
+ },
+ "musi-sushi-restobar-07644": {
+  "desc": "Jedna z dwóch lubelskich restauracji Musi Sushi, w budynku Inter Office przy ul. Gęsiej. W karcie sushi (nigiri, hosomaki, futomaki, uramaki), zestawy, ramen, zupy i makarony; można zjeść na miejscu, wziąć na wynos lub zamówić dostawę.",
+  "zrodlo": "strona"
+ },
+ "wyrollowani-kebab-88a76": {
+  "desc": "Lokal typu fast food przy ul. Lotniczej. Specjalizuje się w kebabach.",
+  "zrodlo": "opinie"
+ },
+ "molo-bar-1cefd": {
+  "desc": "Bar z ogródkiem nad Zalewem Zemborzyckim, z widokiem na wodę. Serwuje kuchnię domową, a w sezonie odbywają się tu imprezy z głośną muzyką.",
+  "zrodlo": "opinie"
+ },
+ "bistro-poczekajka-4f679": {
+  "desc": "Jadłodajnia z kuchnią polską, w której podają zupy i dania obiadowe. Zupy i niektóre pozycje potrafią się szybko skończyć.",
+  "zrodlo": "opinie"
+ },
+ "kabaret-pizzeria-e7b5a": {
+  "desc": "Pizzeria przy ul. Weteranów z pizzą na standardowym lub bardzo cienkim cieście oraz makaronami, sałatkami i deserami. Lokal poleca żeberka w sosie BBQ, w barze jest m.in. regionalna Perła Chmielowa, a pizzę można zamówić z dostawą.",
+  "zrodlo": "strona"
+ },
+ "cukiernia-williams-c1a55": {
+  "desc": "Cukiernia połączona z kawiarnią i restauracją przy ul. Onyksowej na Węglinku. Oprócz tortów (m.in. firmowego Tortu Williams), ciast, monoporcji i lodów podaje dania z karty restauracyjnej; lokal jest przyjazny rodzinom z dziećmi.",
+  "zrodlo": "siec"
+ },
+ "express-pizza-lublin-3f390": {
+  "desc": "Lubelski lokal ogólnopolskiej sieci z prostokątną pizzą w rozmiarach L i XL, przy ul. Radzyńskiej. W karcie m.in. margherita, pepperoni, hawajska i Marrakesh z serem lazur i suszonymi pomidorami; można też skomponować własną pizzę, z dostawą lub na wynos.",
+  "zrodlo": "strona"
+ },
+ "rzut-beretem-0408d": {
+  "desc": "Klub nocny przy ul. Zesłańców Sybiru w centrum Lublina, z trzema salami i różną muzyką w każdej z nich. Wejście jest słabo widoczne od ulicy, a przed klubem bywają długie kolejki.",
+  "zrodlo": "siec"
+ },
+ "tendur-kebab-cc7d3": {
+  "desc": "Lokal z kebabem przy Krakowskim Przedmieściu. Kebab podaje m.in. w lawaszu, z kurczakiem lub z mięsem wołowo-baranim.",
+  "zrodlo": "opinie"
+ },
+ "padre-rum-tapas-bar-54182": {
+  "desc": "Bar przy ul. Jezuickiej na Starym Mieście z ogródkiem pełnym zieleni. W karcie są koktajle z rumem, piwo i wino, a z jedzenia m.in. pizza i frytki.",
+  "zrodlo": "siec"
+ },
+ "paradox-club-lublin-1f601": {
+  "desc": "Klub w zaadaptowanych pomieszczeniach dawnej fabryki przy ul. Okopowej, z ceglanymi ścianami i nastrojowym oświetleniem. Grają tu głównie DJ-e techno i house, odbywają się też imprezy tematyczne.",
+  "zrodlo": "siec"
+ },
+ "shamu-shamu-oriental-food-c6ce4": {
+  "desc": "Restauracja z kuchnią orientalną przy al. Spółdzielczości Pracy, z bufetem dań na wagę. W karcie także sety sushi, sushi burgery, ramen i zupy, m.in. tom yum.",
+  "zrodlo": "strona"
+ },
+ "gitpizza-d8767": {
+  "desc": "Pizzeria nastawiona na dostawy i zamówienia na telefon. W karcie ponad 20 pizz o nazwach z więziennej gwary, np. „Kogut na kracie”, „Hardkor dolina” czy „Makowiec z naczelnikiem”.",
+  "zrodlo": "siec"
+ },
+ "noto-sushi-lublin-4fab7": {
+  "desc": "Sushi bar przy ul. Radziszewskiego. W karcie nigiri, hosomaki, futomaki, uramaki i NOTO Rolls, a także pierożki gyoza, tatar z łososia i sushi hot-dog; w dni powszednie są zestawy lunchowe, także wege.",
+  "zrodlo": "strona"
+ },
+ "domino-s-pizza-2ed5a": {
+  "desc": "Pizzeria sieci Domino’s w Centrum Handlowym Atrium Felicity przy al. Witosa. Pizzę można zamówić z dostawą lub odebrać na miejscu.",
+  "zrodlo": "opinie"
+ },
+ "habiby-kebab-154eb": {
+  "desc": "Kebab przy ul. Nałęczowskiej. W karcie kebab w bułce, picie lub tortilli, boksy, kapsalon i dania z falafelem, a na deser baklawa.",
+  "zrodlo": "siec"
+ },
+ "parabuch-hot-pot-7f14f": {
+  "desc": "Restauracja typu hot pot przy ul. Kołłątaja: goście sami gotują przy stole składniki w bulionie, komponując własną zupę. Jest też wariant bez limitu, w którym można dobierać kolejne porcje składników.",
+  "zrodlo": "opinie"
+ },
+ "art-of-poison-cocktail-bar-b98dd": {
+  "desc": "Bar koktajlowy przy ul. Chopina. Podstawą karty są koktajle, a ich wybór jest duży.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-ansaldo-smaki-najwyzszych-lotow-49ae8": {
+  "desc": "Restauracja hotelowa na Bronowicach, której wystrój nawiązuje do lotniczej historii Lublina i pobliskiego dawnego lotniska. Kuchnia opiera się na produktach regionalnych; w karcie m.in. tatar z polędwicy, pierogi z gęsiną i kaczką, policzek wołowy i lubelska bułka z gzikiem. Patio jest otwarte cały rok.",
+  "zrodlo": "strona"
+ },
+ "pyzata-chata-dcd64": {
+  "desc": "Restauracja z kuchnią polską przy ul. Okopowej, w centrum Lublina. Stałe pozycje karty to pierogi, placki ziemniaczane i zupa dnia; są też regionalne zupy, jak forszmak lubelski, oraz nalewki. Ma zadaszony, ogrzewany ogród czynny prawie cały rok.",
+  "zrodlo": "strona"
+ },
+ "the-white-bear-coffee-lublin-a9a09": {
+  "desc": "Kawiarnia specialty z ofertą śniadaniową przy Krakowskim Przedmieściu. Podaje kawę parzoną przez baristów, matchę, ciasta, kanapki i wegańskie przekąski; sprzedaje też paloną kawę do domu. Ma ogródek, wnętrze z eklektycznym wystrojem i wpuszcza gości z psami.",
+  "zrodlo": "strona"
+ },
+ "bistro-u-mili-e887a": {
+  "desc": "Bistro z polską kuchnią obiadową przy ul. Lubartowskiej. Podaje m.in. zupy i schabowe, a porcje są bardzo duże.",
+  "zrodlo": "opinie"
+ },
+ "pizza-raggio-7-14da8": {
+  "desc": "Pizzeria przy ul. Liliowej na Sławinie. Pizzę podaje na chrupiącym cieście.",
+  "zrodlo": "opinie"
+ },
+ "smazalnia-dobrych-ryb-sola-zelazowej-woli-20-9347b": {
+  "desc": "Smażalnia ryb przy ul. Żelazowej Woli, podająca smażone ryby z dodatkami. Można zjeść na miejscu albo wziąć na wynos.",
+  "zrodlo": "opinie"
+ },
+ "casa-dei-fratelli-e9ec4": {
+  "desc": "Lokal z kuchnią włoską przy ul. 1 Maja. W karcie pizze z mozzarellą fior di latte, m.in. diavola, quattro formaggi i z ndują, makarony, np. carbonara z guanciale i pecorino, bolognese i pesto, a także zapiekanki.",
+  "zrodlo": "strona"
+ },
+ "star-kebab-0dd04": {
+  "desc": "Kebab przy ul. Lubartowskiej. Podaje kebaby z mięsem do wyboru, także mieszanym, i sosami.",
+  "zrodlo": "opinie"
+ },
+ "mae-indie-rynek-5-c0376": {
+  "desc": "Wegetariańska restauracja indyjska przy Rynku Starego Miasta; drugi lokal Małe Indie działa przy ul. Rybnej. W karcie dania wegetariańskie i wegańskie: samosy, pakory, paneer z pieca tandoor, curry, dal makhani, dosa i pieczywo naan.",
+  "zrodlo": "strona"
+ },
+ "pyszny-kebab-lublin-37511": {
+  "desc": "Lokal sieci Pyszny Kebab przy ul. Popiełuszki; sieć ma też punkty m.in. w Kraśniku i Białej Podlaskiej. Kebaby są w kilku rozmiarach, a porcje duże.",
+  "zrodlo": "strona"
+ },
+ "como-kuchnia-woska-i-europejska-aea83": {
+  "desc": "Restauracja z kuchnią europejską z włoskimi akcentami przy ul. Nałęczowskiej. Karta zmienia się sezonowo; są w niej m.in. tatar wołowy, tagliatelle z owocami morza, bulion z kaczki i pizze. Co tydzień przygotowuje nowe menu lunchowe.",
+  "zrodlo": "strona"
+ },
+ "akari-sushi-lublin-d7fc7": {
+  "desc": "Lokal sieci Akari Sushi przy ul. Relaksowej; sieć działa też w Warszawie i Wrocławiu. Specjalizuje się w sushi z dostawą i na wynos; w ofercie są rolki i zestawy.",
+  "zrodlo": "strona"
+ },
+ "restauracja-magia-463a6": {
+  "desc": "Restauracja na Starym Mieście, przy ul. Grodzkiej, z przestronnymi wnętrzami. W karcie m.in. tatary, pierś kacza sous vide, schabowy po lubelsku, golonka i stek z jelenia; menu kilka razy w roku wzbogacane jest o nowe dania. Przy restauracji działają apartamenty.",
+  "zrodlo": "strona"
+ },
+ "takushi-ramen-sushi-9ed1a": {
+  "desc": "Japońska restauracja z sushi i ramenem na LSM, przy ul. Pana Balcera. W karcie jest kilka rodzajów ramenu, m.in. shoyu, tonkotsu i z kaczką, a poza tym nigiri, maki, tatar z łososia i przystawki, jak edamame czy karaage.",
+  "zrodlo": "strona"
+ },
+ "tawerna-la-traviata-dae90": {
+  "desc": "Bar z grillem nad Zalewem Zemborzyckim, przy ul. Krężnickiej, z widokiem na wodę. Podaje proste, szybkie dania i napoje; to częsty przystanek podczas wycieczek rowerowych wokół zalewu.",
+  "zrodlo": "opinie"
+ },
+ "druga-zmiana-pub-22ad4": {
+  "desc": "Pub przy ul. Marii Curie-Skłodowskiej z piwem, winem, koktajlami i mocniejszymi alkoholami. Do jedzenia są proste przekąski, np. chleb ze smalcem, a na miejscu można też w coś zagrać.",
+  "zrodlo": "opinie"
+ },
+ "plac-olejny-ee59f": {
+  "desc": "Plenerowa strefa gastronomiczna przy ul. Olejnej, kilka kroków od Rynku Starego Miasta, działająca jako projekt letni. Są tu leżaki i stoliki, a w ofercie napoje i pizza.",
+  "zrodlo": "opinie"
+ },
+ "karczma-pod-strzecha-kunickiego-2d33d": {
+  "desc": "Karczma przy ul. Kunickiego, jeden z trzech lubelskich lokali Karczmy pod Strzechą. Codziennie jest zestaw dnia (zupa, drugie danie, kompot), a w karcie także pizza, makarony, schabowy i zapiekanki na pieczywie własnego wypieku.",
+  "zrodlo": "strona"
+ },
+ "zupiarnia-ambaras-bursztynowa-8fb99": {
+  "desc": "Zupiarnia przy ul. Bursztynowej, jeden z trzech lokali Ambarasu w Lublinie. Codziennie są świeże zupy – wegańskie, wegetariańskie i mięsne, np. pomidorowa – a także kanapki, desery i kawa. Zupy na wynos sprzedaje w słoikach.",
+  "zrodlo": "strona"
+ },
+ "bagatela-pub-702af": {
+  "desc": "Pub w piwnicy przy ul. Grodzkiej na Starym Mieście, do którego prowadzą strome schody. Serwuje piwa, w tym czeskie, a w lokalu wolno palić.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-u-lekarzy-chmielna-4-1a8fc": {
+  "desc": "Restauracja z kuchnią polską przy ul. Chmielnej 4, z codziennym menu dnia. Organizuje też przyjęcia okolicznościowe – w menu na takie okazje są m.in. rosół z kołdunami, żurek, pierogi, kartacze i bigos.",
+  "zrodlo": "strona"
+ },
+ "restauracja-browar-lublin-50c4a": {
+  "desc": "Restauracja z browarem przy Krakowskim Przedmieściu 7, na trzech kondygnacjach. Na miejscu warzy piwo jasne, miodowe i milk stout, a kuchnia sięga po regionalne dania, np. golonkę po lubelsku duszoną w piwie, flaki po lubelsku z cebularzem i pielmieni własnej produkcji.",
+  "zrodlo": "strona"
+ },
+ "zahir-kebab-8bc56": {
+  "desc": "Lokal ogólnopolskiej sieci Zahir Kebab przy ul. Akademickiej, w pobliżu KUL. Podaje kebaby, m.in. rollo i w picie.",
+  "zrodlo": "strona"
+ },
+ "bufet-mpwik-w-lublinie-sp-z-o-o-e9750": {
+  "desc": "Bufet MPWiK w Lublinie, w którym podaje się obiady. Porcje są duże.",
+  "zrodlo": "opinie"
+ },
+ "campanile-992a7": {
+  "desc": "Restauracja hotelu Campanile przy ul. Lubomelskiej, kilka minut spacerem od Krakowskiego Przedmieścia. Serwuje m.in. śniadania.",
+  "zrodlo": "opinie"
+ },
+ "tifosi-sport-pub-1a22f": {
+  "desc": "Pub sportowy z pizzerią przy ul. Okopowej. Podaje przede wszystkim pizzę, do której można dobrać sos, a do picia piwo.",
+  "zrodlo": "opinie"
+ },
+ "plackarnia-31614": {
+  "desc": "Pizzeria i plackarnia na Sławinku, przy ul. Bohaterów Monte Cassino. W karcie pizze na cienkim lub standardowym cieście (w wybrane dni także bezglutenowe), placki ziemniaczane, burgery i makarony. Można zjeść na miejscu albo zamówić z dowozem.",
+  "zrodlo": "strona"
+ },
+ "lanczomania-politechnika-lubelska-9d1d2": {
+  "desc": "Restauracja samoobsługowa na terenie Politechniki Lubelskiej, jeden z dwóch lokali LanczoManii (drugi przy KUL). Codziennie jest nowe menu z daniami mięsnymi i wegetariańskimi; posiłek komponuje się samemu, płacąc za wagę.",
+  "zrodlo": "strona"
+ },
+ "komitet-klubokawiarnia-sts-sport-sp-j-bronisz-s-wodarczyk-j-9b405": {
+  "desc": "Klubokawiarnia przy Krakowskim Przedmieściu, w której odbywają się imprezy z muzyką do tańca. Przy barze są piwo i drinki.",
+  "zrodlo": "opinie"
+ },
+ "la-sera-4ebde": {
+  "desc": "Pizzeria przy ul. Tarasowej, obok Stokrotki, działająca od ponad 10 lat. Pizze są w kilku rozmiarach, klasyczne i nowe kompozycje, np. góralska z oscypkiem i żurawiną. Można zjeść na miejscu lub zamówić z dostawą.",
+  "zrodlo": "strona"
+ },
+ "dostana-kebab-72416": {
+  "desc": "Lokal lubelskiej sieci Dostana Kebab przy ul. Nadbystrzyckiej – jeden z pięciu w mieście. Podaje kebaby w kilku wersjach, m.in. rollo; działa też dowóz.",
+  "zrodlo": "strona"
+ },
+ "pizzeria-metro-lublin-eb7aa": {
+  "desc": "Pizzeria przy ul. Hryniewieckiego, oferująca pizzę, burgery, frytki i sałatki. Można zjeść na miejscu albo zamówić z dowozem. Pizzę podaje na cienkim cieście.",
+  "zrodlo": "strona"
+ },
+ "kebaby-i-food-cfdd1": {
+  "desc": "Bar przy ul. Kunickiego, działający też pod nazwą PRL Bar. Serwuje kebab kraftowy, m.in. z karkówką.",
+  "zrodlo": "opinie"
+ },
+ "kfc-lublin-plaza-1287c": {
+  "desc": "Restauracja sieci KFC w centrum handlowym Plaza przy ul. Lipowej. W ofercie kurczak w panierce – m.in. skrzydełka i stripsy – oraz burgery i tortille.",
+  "zrodlo": "opinie"
+ },
+ "serce-lublin-6013d": {
+  "desc": "Klub muzyczny przy Krakowskim Przedmieściu, w którym odbywają się imprezy taneczne i koncerty. Działa bar z drinkami.",
+  "zrodlo": "opinie"
+ },
+ "sao-mai-ff86a": {
+  "desc": "Restauracja azjatycka przy ul. Chodźki z daniami kuchni chińskiej, tajskiej i wietnamskiej. W karcie m.in. dania z kurczaka, kaczki i wołowiny, krewetki, makarony, ryż smażony i tofu. Można zjeść na miejscu lub wziąć na wynos.",
+  "zrodlo": "strona"
+ },
+ "chinczyk-wok-this-way-57098": {
+  "desc": "Bar z kuchnią chińską i azjatycką przy ul. Marii Curie-Skłodowskiej. W karcie są m.in. pad thai, makaron udon i zupy, a dania podawane są w dużych porcjach.",
+  "zrodlo": "strona"
+ },
+ "helium-club-be02f": {
+  "desc": "Klub nocny przy ul. Zesłańców Sybiru z kilkoma salami do zabawy, w których gra różna muzyka, oraz tarasem.",
+  "zrodlo": "opinie"
+ },
+ "pizza-bunia-1ff74": {
+  "desc": "Pizzeria przy ul. Wolskiej z kartą włoskich pizz – od marinary i margherity po wersje z burratą, pikantną ’ndują, szynką parmeńską czy pistacjami. W ofercie są też włoskie kanapki i ciastka; pizzę można zamówić z dowozem.",
+  "zrodlo": "siec"
+ },
+ "express-sushi-burrito-plaza-lublin-b6c00": {
+  "desc": "Lubelski punkt sieci Express Sushi Burrito w galerii Plaza. Specjalnością jest sushi burrito – duża rolka sushi jedzona jak wrap – a w karcie są też sushi bowle i szybkie zestawy. Jedzenie można wziąć na wynos albo zjeść przy stolikach w galerii.",
+  "zrodlo": "strona"
+ },
+ "ambaras-68e74": {
+  "desc": "Zupiarnia przy ul. Noworybnej, tuż obok Starego Miasta, z dużym wyborem zup – m.in. szczawiowej i barszczu z wędzonych buraków – oraz zapiekanych kanapek, np. z boczniakami. Do tego kompot i kawa; jedzenie można też wziąć na wynos.",
+  "zrodlo": "siec"
+ },
+ "koper-woski-u-braci-mazur-56e2a": {
+  "desc": "Restauracja przy Nadbystrzyckiej z kuchnią inspirowaną Włochami: pizza i makarony, śniadania, dania główne i karta sezonowa, a także steki podawane na gorącym kamieniu. Przy lokalu działa piekarnia i cukiernia – można tu zamówić tort.",
+  "zrodlo": "strona"
+ },
+ "nocny-portier-cocktail-bar-0d2f1": {
+  "desc": "Bar koktajlowy przy Krakowskim Przedmieściu, urządzony w stylu art déco lat 20. – z lustrami, kryształowymi żyrandolami i palmami. W karcie są autorskie i klasyczne koktajle.",
+  "zrodlo": "siec"
+ },
+ "cafe-heca-kawiarnia-specialty-2ade1": {
+  "desc": "Kawiarnia specialty przy ul. Hipotecznej, w której do kawy zamówisz ciasto lub tartę. Obsługa chętnie doradza w wyborze kawy.",
+  "zrodlo": "siec"
+ },
+ "osiedlowy-zakadowy-pizza-i-piwo-ac80e": {
+  "desc": "Pizza i piwo na Czubach – lokal Browaru Zakładowego z Poniatowej. Piwa browaru są z kranu i w butelkach, można też kupić świeże piwo nalewane z kega do litrowych butelek. Do jedzenia podają pizzę pieczoną na blachach.",
+  "zrodlo": "strona"
+ },
+ "pierogarnia-hagas-j-320fb": {
+  "desc": "Pierogarnia i garmażerka przy ul. 1 Maja z dużym wyborem pierogów, a obok nich sałatek i dań mięsnych. Dania można kupić na wynos albo za niewielką opłatą podgrzać i zjeść na miejscu.",
+  "zrodlo": "opinie"
+ },
+ "dirty-joe-lublin-5f41b": {
+  "desc": "Pub z amerykańskim jedzeniem z grilla przy deptaku na Krakowskim Przedmieściu. W karcie są żeberka BBQ, burgery i chrupiący kurczak, a porcje są duże. Do picia 21 kranów z piwem z importu oraz bourbon, whiskey i rum; wystrój nawiązuje do Ameryki.",
+  "zrodlo": "strona"
+ },
+ "restauracja-bursztynowa1-d1366": {
+  "desc": "Restauracja przy ul. Bursztynowej, znana przede wszystkim z burgerów i pizzy. W karcie są smash burgery i klasyczne burgery z frytkami, a także dania mięsne, makarony, sałatki i desery; mięso na burgery mielą na miejscu, a sosy robią sami.",
+  "zrodlo": "strona"
+ },
+ "akwarela-cafe-45372": {
+  "desc": "Kawiarnia na Rynku Starego Miasta z letnim ogródkiem. Podają kawę, herbatę, ciasta, desery i proste dania. Przytulne wnętrze zdobią kwiaty, a na ścianach bywają prace lokalnych artystów.",
+  "zrodlo": "siec"
+ },
+ "yuka-77d2d": {
+  "desc": "Japońska restauracja w stylu izakai przy ul. Peowiaków, w centrum. Oprócz sushi i sashimi w karcie są przystawki: edamame, gyoza, tempura z krewetek i warzyw, crispy rice z łososiem lub tuńczykiem, tataki, a także zupa miso i buta kimchi z ryżem.",
+  "zrodlo": "strona"
+ },
+ "cafe-lulu-f92b5": {
+  "desc": "Pub na Rynku Starego Miasta. Do picia są piwo, wino i koktajle, a do nich przekąski; to miejsce raczej na posiedzenie i rozmowę niż na posiłek.",
+  "zrodlo": "opinie"
+ },
+ "zona-pizza-ristorante-306dc": {
+  "desc": "Włoska restauracja przy Krakowskim Przedmieściu, w której główną rolę gra pizza, m.in. neapolitańska. Oprócz pizzy w karcie są inne dania kuchni włoskiej, np. lasagne. W ciepłe dni można usiąść na patio.",
+  "zrodlo": "opinie"
+ },
+ "garmazerka-pyza-dobra-kuchnia-598dd": {
+  "desc": "Garmażerka z polską kuchnią przy ul. Relaksowej. W ofercie są różne pierogi i wyroby mączne – m.in. racuchy z jabłkami – a także zupy, dania mięsne, ryby, np. ryba po grecku i pstrąg faszerowany, oraz sałatki. Obiad można zjeść na miejscu.",
+  "zrodlo": "strona"
+ },
+ "hakuna-matata-bistro-b9fe2": {
+  "desc": "Bistro z polskimi obiadami przy ul. Staszica, w centrum. Codziennie jest zupa dnia i zestaw dnia, a w stałej karcie m.in. schabowy po lubelsku, placki ziemniaczane i pierogi ruskie lub z mięsem. Obiad można zjeść na miejscu albo wziąć na wynos.",
+  "zrodlo": "strona"
+ },
+ "primitivo-lublin-pizzeria-restauracja-woska-e98d4": {
+  "desc": "Włoska restauracja i pizzeria przy ul. Unickiej, serwująca pizzę neapolitańską na cienkim cieście, pieczoną w piecu. Oprócz pizzy w karcie są inne dania kuchni włoskiej. Lokal organizuje też przyjęcia i uroczystości.",
+  "zrodlo": "strona"
+ },
+ "boru-ramen-shop-98090": {
+  "desc": "Ramen bar przy ul. Kościuszki. W karcie jest kilka rodzajów ramenu – m.in. tonkotsu, shoyu, spicy miso i tantanmen, także w wersjach wegańskich – a do tego curry, yaki udon, dania katsu oraz przystawki: tempura, sajgonki, pierożki i edamame.",
+  "zrodlo": "strona"
+ },
+ "restauracja-16-stoow-558ab": {
+  "desc": "Restauracja z nowocześnie podaną kuchnią polską na Rynku Starego Miasta. Karta zmienia się sezonowo; są w niej m.in. tatar z polskiej wołowiny, wędzony jesiotr, zupa gulaszowa i risotto z kurkami z regionalnym serem Bursztyn. Do dań dobierzesz wino z karty win.",
+  "zrodlo": "strona"
+ },
+ "thai-long-0a2ae": {
+  "desc": "Bar z kuchnią azjatycką w centrum handlowym Plaza przy ul. Lipowej. W ofercie są m.in. dania z kurczakiem i warzywami podawane z ryżem.",
+  "zrodlo": "opinie"
+ },
+ "no-co-b7c0a": {
+  "desc": "Bar koktajlowy przy ul. Wrotkowskiej z tarasem. W karcie są koktajle i szoty, a z kuchni można też zamówić jedzenie.",
+  "zrodlo": "opinie"
+ },
+ "kohinoor-kebab-czuby-afb56": {
+  "desc": "Bar z kebabem na Czubach, przy ul. Kaczeńcowej – jeden z lubelskich punktów Kohinoor Kebab. Kebab można zjeść na miejscu albo zamówić na wynos.",
+  "zrodlo": "opinie"
+ },
+ "mistral-bar-f4c39": {
+  "desc": "Bar przy ul. Targowej w klimacie dawnych lokali z czasów PRL. Wnętrze zdobią drewniane modele – efekt modelarskiej pasji właściciela – a do picia jest piwo z beczki.",
+  "zrodlo": "opinie"
+ },
+ "kuznia-7ce8d": {
+  "desc": "Restauracja przy ul. Północnej, obok stacji BP, łącząca w karcie kuchnie różnych stron świata. Są tu pizza, burgery, steki, makarony, pierogi, zupy i sałatki, a także menu dla dzieci; w dni powszednie podają zestaw lunchowy z zupą i daniem głównym.",
+  "zrodlo": "strona"
+ },
+ "bibosz-bar-restauracja-c8dd6": {
+  "desc": "Nowoczesny bar i restauracja przy ul. 3 Maja, z dużym ogrodem letnim. Kuchnia opiera się na produktach sezonowych; w dni powszednie jest zmienne menu lunchowe, a w weekendy osobna karta „Weekend roast”.",
+  "zrodlo": "strona"
+ },
+ "zeer-kebab-c93d2": {
+  "desc": "Bar z kebabem przy ul. Chodźki. Kebab podają m.in. w picie, z kilkoma sosami do wyboru.",
+  "zrodlo": "opinie"
+ },
+ "winestone-f1873": {
+  "desc": "Restauracja hotelu Mercure Lublin Centrum przy Alejach Racławickich, naprzeciwko Ogrodu Saskiego. Serwuje kuchnię europejską, a do dań można dobrać wino z karty.",
+  "zrodlo": "siec"
+ },
+ "restauracja-polska-sielsko-anielsko-stare-miasto-lublin-3e273": {
+  "desc": "Restauracja z polską kuchnią regionalną na Rynku Starego Miasta, z klimatycznymi salami i ogródkiem. W karcie są pierogi, dania mięsne – np. schabowy – sałatki i desery. W piątki i soboty wieczorem gra muzyka na żywo.",
+  "zrodlo": "strona"
+ },
+ "pizza-lublin-felin-la-pizza-763ac": {
+  "desc": "Pizzeria na Felinie, przy ul. Królowej Bony. Pizzę można zjeść na miejscu albo zamówić z dowozem.",
+  "zrodlo": "opinie"
+ },
+ "10okien-dieci-finestre-25381": {
+  "desc": "Włoska restauracja przy ul. Nowy Świat, działająca pod tą nazwą po metamorfozie w programie „Kuchenne rewolucje”. W karcie są m.in. bruschetta, tapenada z bułeczkami, carpaccio, carbonara, ravioli z łososiem, pizza i tiramisu.",
+  "zrodlo": "siec"
+ },
+ "smart-pizza-delivery-4405f": {
+  "desc": "Punkt pizzerii z dowozem Smart Pizza przy placu Zamkowym – według strony sieci chwilowo nieczynny. W menu Smart Pizza są pizza, sałatki, burrito, makarony i inne dania obiadowe, zamawiane telefonicznie lub online.",
+  "zrodlo": "strona"
+ },
+ "salti-restauracja-pizzeria-379e5": {
+  "desc": "Pizzeria i restauracja przy Drodze Męczenników Majdanka, z pizzą, burgerami, zapiekankami i codziennie zmieniającymi się obiadami, także z dowozem. Przed lokalem jest ogródek z leżakami, a Salti przygotowuje również catering na przyjęcia.",
+  "zrodlo": "strona"
+ },
+ "bazylia-e65bd": {
+  "desc": "Bar obiadowy z kuchnią polską przy placu Marii Curie-Skłodowskiej. Codziennie są zestawy dnia, a do tego można tu wypić kawę.",
+  "zrodlo": "opinie"
+ },
+ "kasyno-wojskowe-nr-52-12862": {
+  "desc": "Restauracja w kasynie wojskowym przy ul. Żwirki i Wigury. Odbywają się tu dancingi z muzyką na żywo.",
+  "zrodlo": "opinie"
+ },
+ "lodziarnia-lody-sopelkowe-gofry-rurki-2d703": {
+  "desc": "Lodziarnia przy placu Zamkowym, w sąsiedztwie Zamku Lubelskiego. Sprzedaje lody oraz gofry, np. z bitą śmietaną i owocami.",
+  "zrodlo": "opinie"
+ },
+ "kfc-lublin-statoil-tysiaclecia-b0046": {
+  "desc": "Restauracja sieci KFC przy al. Tysiąclecia, przy stacji paliw. W karcie są dania z kurczaka w panierce – kubełki, skrzydełka, nóżki i kanapki – oraz frytki; można zjeść na miejscu lub wziąć na wynos.",
+  "zrodlo": "strona"
+ },
+ "kalyna-kuchnia-ukrainska-europejska-73043": {
+  "desc": "Restauracja z kuchnią ukraińską i europejską przy ul. Marii Curie-Skłodowskiej. W karcie są tradycyjne dania ukraińskie, a w ciepłe dni można usiąść na tarasie.",
+  "zrodlo": "opinie"
+ },
+ "zielona-budka-5036b": {
+  "desc": "Lodziarnia przy ul. Grodzkiej na Starym Mieście, w której można zjeść lody i gofry, a do nich zamówić kawę.",
+  "zrodlo": "opinie"
+ },
+ "plener-lublin-d7f63": {
+  "desc": "Letni klub plenerowy przy al. Piłsudskiego, między stadionem a rzeką. Na parkiecie do rana grają DJ-e, są też grill bar, leżaki i boisko do siatkówki; bywają tu również koncerty.",
+  "zrodlo": "siec"
+ },
+ "perowa-2c277": {
+  "desc": "Pijalnia piwa i restauracja – lokal firmowy browaru Perła w zabytkowym zespole dawnego Browaru Vettera. Do piw lubelskich i zwierzynieckich podaje kuchnię regionalną w duchu slow food: tatar wołowy, piwny cebularz, golonkę z jelenia; kiełbaski, musztardy i lody robi na miejscu.",
+  "zrodlo": "strona"
+ },
+ "pera-browary-lubelskie-s-a-9ffa8": {
+  "desc": "Zabytkowy browar Perła przy ul. Bernardyńskiej, w którym mieści się siedziba spółki Perła – Browary Lubelskie. Można tu zwiedzać Podziemia Browaru i spróbować lokalnych piw w pijalni Perłowa, a w wakacje na dziedzińcu działa kino plenerowe.",
+  "zrodlo": "strona"
+ },
+ "chata-swojsko-strawa-6be47": {
+  "desc": "Karczma z kuchnią staropolską w XIX-wiecznym budynku przy Nadbystrzyckiej. W karcie żur staropolski, golonka po lubelsku, gęsina, pierogi, placki ziemniaczane i bigos; grają tu kapele, a w ciągu roku odbywają się festiwale pierogów, golonki czy jagnięciny.",
+  "zrodlo": "strona"
+ },
+ "restauracja-woska-pizzeria-atrium-7fa72": {
+  "desc": "Włoska restauracja i pizzeria przy Rynku Starego Miasta. W karcie pizza, makarony i risotta – m.in. ręcznie robione gnocchi alla sorrentina, paccheri all’amatriciana, tagliatelle z borowikami i burratą – a także dania mięsne, jak polpette po rzymsku czy pierś z kaczki.",
+  "zrodlo": "strona"
+ },
+ "czarna-owca-gastro-pub-b3022": {
+  "desc": "Gastropub z kuchnią amerykańską przy ul. Narutowicza. W karcie burgery (z wołowiną, kurczakiem lub tofu), pizza w stylu Detroit, skrzydełka BBQ i buffalo oraz sałatki.",
+  "zrodlo": "strona"
+ },
+ "trybunalska-lublin-city-pub-60d9d": {
+  "desc": "Restauracja z kawiarnią i cukiernią w zabytkowej kamienicy przy Rynku Starego Miasta, zajmująca trzy kondygnacje. Serwuje śniadania, a w karcie m.in. tatar wołowy, pierogi z kaczką, forszmak lubelski i cepeliny; pieczywo pochodzi z własnej piekarni.",
+  "zrodlo": "strona"
+ },
+ "takami-sushi-thai-1c12d": {
+  "desc": "Restauracja japońsko-tajska przy Okopowej. W karcie zestawy sushi, rolki futomaki i california, a także zupy tom kha, tom yum i pho, pierożki z krewetkami, kluski mo:mo i spring rolls.",
+  "zrodlo": "strona"
+ },
+ "restauracja-na-fali-6d2d8": {
+  "desc": "Restauracja nad Zalewem Zemborzyckim z widokiem na wodę. W menu są dania rybne i owoce morza, a także dania mięsne, makarony i sałatki; przy lokalu działa ogródek.",
+  "zrodlo": "strona"
+ },
+ "arte-bianca-bistro-gastronauci-37ff0": {
+  "desc": "Bistro z dowozem przy Abramowickiej, działające pod marką Gastronauci. W karcie pizze, burgery z wołowiną, włoskie kanapki, sałatki oraz dania obiadowe.",
+  "zrodlo": "strona"
+ },
+ "plackarnia-1378e": {
+  "desc": "Lokal na Czechowie z pizzą, burgerami i plackami ziemniaczanymi – także na dowóz. W karcie są również makarony i sałatki, a od czwartku do niedzieli pizze na cieście bezglutenowym.",
+  "zrodlo": "strona"
+ },
+ "makarun-galeria-vivo-lublin-dcd8c": {
+  "desc": "Punkt sieci spaghetterii Makarun w centrum handlowym VIVO! – podaje makarony z różnymi sosami, m.in. carbonarą, bolognese, curry czy wegetariańskim spinacio.",
+  "zrodlo": "strona"
+ },
+ "pijana-wisnia-3bae9": {
+  "desc": "Bar lwowskiej sieci „Pijana Wiśnia” przy Krakowskim Przedmieściu. Specjalnością jest firmowa wiśniówka, podawana na zimno albo na ciepło.",
+  "zrodlo": "strona"
+ },
+ "canotto-lublin-75b14": {
+  "desc": "Pizzeria na Sławinie z pizzą neapolitańską na lekkim, puszystym cieście. Można zjeść na miejscu albo wziąć na wynos.",
+  "zrodlo": "siec"
+ },
+ "gofry-u-ireny-47654": {
+  "desc": "Punkt z goframi przy ul. Wileńskiej. Gofry są chrupiące, podawane m.in. z bitą śmietaną, owocami i polewą.",
+  "zrodlo": "opinie"
+ },
+ "pizzeria-woska-piwnica-cf886": {
+  "desc": "Kameralna pizzeria na Kalinowszczyźnie, ukryta w bocznej uliczce. Podaje pizzę według włoskich przepisów na cienkim cieście, a do niej włoskie napoje i piwo.",
+  "zrodlo": "opinie"
+ },
+ "swiety-spokoj-music-cafe-8288a": {
+  "desc": "Kawiarnia przy Bramowej, tuż przy Bramie Krakowskiej i Rynku Starego Miasta, połączona ze sklepem z używanymi płytami winylowymi. Podaje kawę, drinki i piwo, a w tle gra muzyka z gramofonu.",
+  "zrodlo": "siec"
+ },
+ "underground-9e8ec": {
+  "desc": "Bar z klubowym charakterem przy Grodzkiej na Starym Mieście. Wieczorami grają tu DJ-e – od przebojów popowych po techno.",
+  "zrodlo": "siec"
+ },
+ "restauracja-arte-del-gusto-6430d": {
+  "desc": "Włoska restauracja przy Zesłańców Sybiru, wcześniej działająca przy Okopowej. Kuchnia czerpie ze smaków Sycylii i Kalabrii – w karcie m.in. owoce morza, w tym krewetki, oraz deska włoskich wędlin, serów i antipasti.",
+  "zrodlo": "siec"
+ },
+ "bombardino-czechow-0fd15": {
+  "desc": "Druga, po Węglinie, restauracja Bombardino – przy ul. Północnej na Czechowie. Kuchnia łączy dania włoskie z regionalnymi lubelskimi.",
+  "zrodlo": "strona"
+ },
+ "bar-pospiech-s-c-fa953": {
+  "desc": "Bar mleczny przy Lubartowskiej, działający od kilkudziesięciu lat, z ceratami w kratkę na stołach i zdjęciami dawnego Lublina na ścianach. Podaje tradycyjne polskie obiady, m.in. kapuśniak, kotlet schabowy i placki ziemniaczane.",
+  "zrodlo": "siec"
+ },
+ "zikalafa-street-food-8b9ad": {
+  "desc": "Lokal street food z kebabem przy ul. Elektrycznej. W karcie kebab w lawaszu, a także żeberka i burgery.",
+  "zrodlo": "opinie"
+ },
+ "hotel-i-restauracja-piano-3d052": {
+  "desc": "Restauracja hotelu Piano przy Jana Pawła II z kartą zmienianą sezonowo, łączącą dania regionalne z wpływami kuchni świata. W karcie m.in. tatar wołowy z wędzonym żółtkiem, kapuśniak na wędzonym żeberku i policzki wołowe à la strogonow; podaje też śniadania.",
+  "zrodlo": "strona"
+ },
+ "tancereczka-bistro-f65b1": {
+  "desc": "Bar przy Krakowskim Przedmieściu. Do smakowych wódek, np. porzeczkówki czy cytrynówki, podaje zakąski.",
+  "zrodlo": "opinie"
+ },
+ "kebab-king-royal-45806": {
+  "desc": "Niewielki punkt z kebabem przy Bernardyńskiej. Można zjeść na miejscu, wziąć na wynos albo zamówić z dostawą.",
+  "zrodlo": "siec"
+ },
+ "masami-sushi-695ab": {
+  "desc": "Restauracja azjatycka przy Narutowicza. W karcie sushi, ramen, udon i pad thai, a także poke bowle, bułeczki bao i pierożki gyoza.",
+  "zrodlo": "strona"
+ },
+ "hambuka-i-spoka-4402d": {
+  "desc": "Lokal z kuchnią w stylu amerykańskim przy ulicy Prusa. Specjalnością są burgery.",
+  "zrodlo": "opinie"
+ },
+ "ankara-kebab-cd0e4": {
+  "desc": "Kebab przy ul. Głuskiej z zamówieniami online i dostawą. Mięso podaje się w picie, bułce, boksie, jako danie lub kapsalon, a w karcie są też sałatki.",
+  "zrodlo": "strona"
+ },
+ "ambaras-chodzki-b4534": {
+  "desc": "Jeden z trzech lubelskich lokali zupiarni Ambaras, przy Chodźki. Podaje kilka zup do wyboru oraz kanapki; zupy można też zabrać na wynos.",
+  "zrodlo": "strona"
+ },
+ "restauracja-alteria-79391": {
+  "desc": "Restauracja hotelu Alter, który mieści się w XVI-wiecznej kamienicy przy Grodzkiej na Starym Mieście. Serwuje dania kuchni polskiej.",
+  "zrodlo": "siec"
+ },
+ "garmazerka-polskie-smaki-smak-serwis-6faf9": {
+  "desc": "Garmażerka Polskie Smaki przy ul. Tumidajskiego z gotowymi daniami kuchni polskiej. Ma duży wybór wyrobów garmażeryjnych, m.in. pierogi, sałatki, pasztety i ciasta.",
+  "zrodlo": "opinie"
+ },
+ "pizza-pod-starym-lasem-4f60a": {
+  "desc": "Pizzeria w Zemborzycach Podleśnych. Podaje pizzę ze świeżych składników.",
+  "zrodlo": "opinie"
+ },
+ "garmazerka-polskie-smaki-d8cbd": {
+  "desc": "Garmażerka Polskie Smaki przy Popiełuszki. Sprzedaje dania obiadowe na wynos, a także pierogi, pasztety i ciasta.",
+  "zrodlo": "opinie"
+ },
+ "gar-smak-7186e": {
+  "desc": "Garmażerka przy ul. Kaprysowej z daniami kuchni polskiej. W ofercie są przede wszystkim pierogi, a także gołąbki, kotlety i zupy.",
+  "zrodlo": "opinie"
+ },
+ "garmazerka-kraina-smaku-22277": {
+  "desc": "Garmażerka przy ulicy Jana Sawy. Sprzedaje gotowe dania obiadowe na wynos.",
+  "zrodlo": "opinie"
+ },
+ "przystan-nadachu-89669": {
+  "desc": "Klub nocny przy Zesłańców Sybiru z barem serwującym drinki. Przy wejściu obowiązuje selekcja gości.",
+  "zrodlo": "opinie"
+ },
+ "pasibrzuch-b8542": {
+  "desc": "Bistro z kuchnią polską przy ul. Koralowej, z gotowymi daniami obiadowymi, m.in. zupami i pierogami.",
+  "zrodlo": "opinie"
+ },
+ "nowy-komitet-klub-nocny-dd3bc": {
+  "desc": "Klub nocny i bar przy Krakowskim Przedmieściu w centrum Lublina. Wieczorami odbywają się tu imprezy przy muzyce.",
+  "zrodlo": "opinie"
+ },
+ "majami-pizzeria-8bd19": {
+  "desc": "Pizzeria na Czubach przy Kawaleryjskiej. Pizzę można zjeść na miejscu, odebrać albo zamówić z dowozem.",
+  "zrodlo": "siec"
+ },
+ "erbil-kebab-w-lublinie-a5090": {
+  "desc": "Lokal z kebabem przy al. Spółdzielczości Pracy. Kebab podaje się m.in. w wersji box z frytkami.",
+  "zrodlo": "opinie"
+ },
+ "domowe-zareko-40f89": {
+  "desc": "Bistro z kuchnią polską przy ul. Pocztowej, serwujące klasyczne, sycące obiady. Porcje są bardzo duże.",
+  "zrodlo": "opinie"
+ },
+ "kuchnia-otwarta-ec97b": {
+  "desc": "Restauracja fine dining łącząca inspiracje kuchnią nordycką z francuskimi technikami, oparta na lokalnych, sezonowych produktach i nowocześnie interpretująca smaki Lubelszczyzny. Do wyboru menu degustacyjne lub karta sezonowa. Przed wejściem jest ogród ziołowy; lokal opisano w Przewodniku Michelin.",
+  "zrodlo": "strona"
+ },
+ "palma-beach-bar-323ba": {
+  "desc": "Bar z koktajlami w plażowym, wakacyjnym klimacie na placu Teatralnym, przy Centrum Spotkania Kultur. Karta opiera się głównie na drinkach.",
+  "zrodlo": "opinie"
+ },
+ "maspindzieli-7a675": {
+  "desc": "Kameralna restauracja z kuchnią gruzińską przy ul. Furmańskiej. Wśród dań są m.in. chinkali.",
+  "zrodlo": "opinie"
+ },
+ "portobello-pizza-47b9d": {
+  "desc": "Pizzeria z pizzą o średnicy 32 cm, na miejscu i z dowozem. W karcie klasyki, jak margherita czy diavola, oraz pizze z pancettą, salsiccią, owocami morza czy gęsią z gruszką i gorgonzolą. Do pizzy podają sos czosnkowy i pomidorowy.",
+  "zrodlo": "strona"
+ },
+ "czerwona-rukola-jakosc-i-perfekcja-d507c": {
+  "desc": "Pizzeria z kuchnią włoską na Czechowie, nastawiona głównie na dowóz i wynos. W karcie pizza ok. 32 cm, także z włoskimi i hiszpańskimi wędlinami, jak pancetta, crudo czy chorizo, oraz propozycje wegetariańskie.",
+  "zrodlo": "strona"
+ },
+ "od-kuchni-7b7cb": {
+  "desc": "Restauracja z otwartą kuchnią – widać pracę kucharzy, a z szefem kuchni można zamienić słowo. Kuchnia w duchu slow food, oparta na produktach od regionalnych dostawców i bez smażenia na głębokim tłuszczu.",
+  "zrodlo": "strona"
+ },
+ "pasta-con-passione-bd3d0": {
+  "desc": "Lokal z włoskimi makaronami przy ul. Wieniawskiej. Specjalnością jest makaron mieszany na oczach gości w wielkim kręgu sera.",
+  "zrodlo": "opinie"
+ },
+ "barek-jedzenie-domowe-672cd": {
+  "desc": "Niepozorny bar z domowymi obiadami kuchni polskiej przy ul. Magnoliowej.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-hai-anh-kuchnia-wietnamska-218f1": {
+  "desc": "Restauracja z kuchnią wietnamską przy ul. Kunickiego, serwująca dania w dużych porcjach. Można zjeść także na zewnątrz, w ogródku od strony ulicy.",
+  "zrodlo": "opinie"
+ },
+ "dobra-paczkarnia-lublin-583f3": {
+  "desc": "Lubelski punkt ogólnopolskiej sieci pączkarni, w ciągu deptaku na Krakowskim Przedmieściu. Pączki wyrabia się i smaży na miejscu – przez szybę widać, jak powstają – a smaki nadzień zmieniają się rotacyjnie.",
+  "zrodlo": "strona"
+ },
+ "restauracja-oranzeria-3aeeb": {
+  "desc": "Restauracja z kuchnią polską przyjazna rodzinom – dużą część sali zajmuje strefa zabaw dla dzieci. Serwuje śniadania i lunche (także na wynos i z dostawą), w karcie są m.in. tatar wołowy i smażony camembert z żurawiną. Organizuje przyjęcia okolicznościowe.",
+  "zrodlo": "strona"
+ },
+ "yummy-sweets-kasztelanska-6971a": {
+  "desc": "Cukiernia sieci Yummy Sweets przy ul. Kasztelańskiej. W ofercie ciasta i drożdżówki, m.in. jagodzianki.",
+  "zrodlo": "opinie"
+ },
+ "garmazerka-pyza-dobra-kuchnia-81f07": {
+  "desc": "Garmażerka z tradycyjną kuchnią polską, gdzie można zjeść przy stolikach albo kupić dania na wynos. W ofercie przede wszystkim pierogi i inne wyroby mączne, a także zupy, ryby (np. ryba po grecku, pstrąg faszerowany), sałatki i wędliny.",
+  "zrodlo": "strona"
+ },
+ "restauracja-zaczarowana-dorozka-6ef6a": {
+  "desc": "Restauracja z kuchnią polską na Starym Mieście, w kamienicy przy Grodzkiej 1, urządzona w stylu dwudziestolecia międzywojennego, z muzyką z epoki. W karcie m.in. śledzie dorożkarskie, kacze wątróbki w brandy, golonka pieczona w piwie, kaczka w pomarańczach i pierogi. Jest też patio.",
+  "zrodlo": "strona"
+ },
+ "black-jack-kebab-162a3": {
+  "desc": "Kebab przy ul. Rudnickiej, znany przede wszystkim z kapsalonu z kurczakiem. Dania można zamówić także w ostrej wersji.",
+  "zrodlo": "opinie"
+ },
+ "cukiernia-williams-d325d": {
+  "desc": "Kawiarnia cukierni Williams, która ma kilka lokali w Lublinie i własną produkcję w Jastkowie. Podają kawę, ciasta, desery i lody, a w ofercie cukierni są też torty, w tym firmowy Tort Williams.",
+  "zrodlo": "strona"
+ },
+ "bistro-wojewodzka-c6527": {
+  "desc": "Bistro z kuchnią polską przy ul. Spokojnej, na terenie Lubelskiego Urzędu Wojewódzkiego. Serwuje obiady z surówkami na miejscu i na wynos, przygotowuje też catering na przyjęcia.",
+  "zrodlo": "strona"
+ },
+ "kanapkeria-lublin-ec256": {
+  "desc": "Lokal z włoskimi kanapkami przy deptaku na Krakowskim Przedmieściu. W karcie jest też pizza, a jedzenie podawane jest szybko.",
+  "zrodlo": "opinie"
+ },
+ "la-strega-59115": {
+  "desc": "Pizzeria na Czubach, jedna z pierwszych na tym osiedlu. Serwuje ręcznie wyrabianą pizzę na cienkim lub grubym cieście, a także makarony i sałatki; działa dowóz, a latem ogródek.",
+  "zrodlo": "strona"
+ },
+ "habanero-kebab-883c0": {
+  "desc": "Bar z kebabem przy ul. Turystycznej. W karcie kebab w picie i lawaszu, a także w formie dania; można go wziąć na wynos.",
+  "zrodlo": "opinie"
+ },
+ "bursaki-bistro-fe578": {
+  "desc": "Bistro z kuchnią polską przy ul. Bursaki, serwujące obiady – zupy i drugie dania. Porcje są duże.",
+  "zrodlo": "opinie"
+ },
+ "blue-bar-92b79": {
+  "desc": "Bar z obiadami kuchni polskiej przy ul. Bazylianówka, w którym można zjeść na miejscu albo zamówić posiłki z dowozem. Porcje są spore.",
+  "zrodlo": "opinie"
+ },
+ "zahir-kebab-5daa6": {
+  "desc": "Lokal sieci Zahir Kebab przy al. Spółdzielczości Pracy. W karcie kebab w rollo, w bułce i na talerzu – z kurczakiem lub mięsem wołowo-baranim – a także sałatki i pozycje wegetariańskie.",
+  "zrodlo": "strona"
+ },
+ "palmira-kebab-90f5a": {
+  "desc": "Kebab przy ul. Krężnickiej, którego specjalnością jest wolno gotowana szarpana wołowina i wieprzowina, podawana w lawaszu lub boxie. Oprócz kebabów w karcie jest też włoska pizza.",
+  "zrodlo": "strona"
+ },
+ "pizzeria-ortigia-dd250": {
+  "desc": "Pizzeria przy ul. Szmaragdowej, która oprócz pizzy serwuje dania obiadowe, makarony i sałatki. Działa dowóz.",
+  "zrodlo": "strona"
+ },
+ "tip-top-58db8": {
+  "desc": "Dawny bar mleczny przy Alejach Racławickich, dziś lokal z tradycyjną kuchnią polską, serwujący śniadania i obiady. W karcie m.in. pierogi i zupy, są też wypieki; porcje są duże.",
+  "zrodlo": "siec"
+ },
+ "studnia-restauracja-klubokawiarnia-6db64": {
+  "desc": "Restauracja i klubokawiarnia przy deptaku na Krakowskim Przedmieściu. Serwuje obiady, w tym zestawy dnia, a także drinki, również bezalkoholowe.",
+  "zrodlo": "opinie"
+ },
+ "kohinoor-kebab-4de09": {
+  "desc": "Bar z kebabem przy Krakowskim Przedmieściu. Kebab podaje m.in. w formie rollo w kilku rozmiarach, a do wyboru jest kilka rodzajów mięsa, w tym kurczak.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-mcdonald-s-daae1": {
+  "desc": "Restauracja sieci McDonald’s przy ul. Puławskiej, z burgerami, frytkami i wrapami ze standardowej karty sieci. Jest tu McDrive i McCafé, działa dostawa McDelivery, a rano serwowana jest oferta śniadaniowa.",
+  "zrodlo": "strona"
+ },
+ "bar-promyk-3ce15": {
+  "desc": "Niewielki bar z tradycyjną kuchnią polską przy ul. Ewangelickiej, jeden z kilku lokali Promyka w Lublinie. Serwuje obiady – zupy, kotlety schabowe, gołąbki czy pierogi.",
+  "zrodlo": "siec"
+ },
+ "cloud-shisha-sushi-a7f4f": {
+  "desc": "Lokal łączący sushi bar z barem z fajkami wodnymi, przy ul. Wileńskiej. W karcie sushi, w tym sushi burgery, oraz dania z woka; jedzenie można też zamówić na wynos.",
+  "zrodlo": "opinie"
+ },
+ "kebab-turecki-9c6f5": {
+  "desc": "Jeden z dwóch lokali Kebab Turecki w Lublinie, przy ul. Nałęczowskiej. Kebab z mięsa własnej produkcji podają w lawaszu, bułce, tortilli lub na talerzu, a sosy stoją na stolikach.",
+  "zrodlo": "strona"
+ },
+ "salsa-pizzeria-cefba": {
+  "desc": "Pizzeria przy ul. Kawaleryjskiej z pizzą na klasycznym, puszystym cieście (32 i 45 cm) oraz włoską na bardzo cienkim. W karcie są też panuozzo – ciepłe kanapki z ciasta na pizzę – a także kebab, burgery i zapiekanki; działa dowóz.",
+  "zrodlo": "strona"
+ },
+ "villa-i-restauracja-tymotka-a5ada": {
+  "desc": "Restauracja z pokojami gościnnymi w pobliżu Zalewu Zemborzyckiego, nastawiona głównie na przyjęcia okolicznościowe i wesela. Ma klimatyzowaną salę bankietową i mniejsze sale na kameralne spotkania oraz bezpłatny parking.",
+  "zrodlo": "siec"
+ },
+ "ae-coffee-house-kawiarnia-na-dworcu-pkp-w-lublin-gowny-f5cd5": {
+  "desc": "Kawiarnia na dworcu PKP Lublin Główny, wygodna na kawę przed podróżą pociągiem. Serwuje kawę, a w przytulnym wnętrzu można chwilę odpocząć.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-bistro-szwejk-galeria-olimp-54f02": {
+  "desc": "Bistro sieci Szwejk w Galerii Olimp, z kuchnią inspirowaną czeską. W karcie m.in. smażony ser, placki rozbójnickie, sznycel Szwejka i zupa gulaszowa, a także pizza i burgery.",
+  "zrodlo": "strona"
+ },
+ "maxipizza-b2288": {
+  "desc": "Pizzeria sieci MaxiPizza przy Alejach Zygmuntowskich, z salą, dowozem i odbiorem osobistym. Pizzę podaje w rozmiarze średnim i dużym.",
+  "zrodlo": "strona"
+ },
+ "erbil-kebab-9cd25": {
+  "desc": "Bar z kuchnią turecką w Galerii E.Leclerc przy ul. Zana. Serwuje kebab w różnych wersjach, m.in. w picie i tortilli.",
+  "zrodlo": "opinie"
+ },
+ "trattoria-ricetta-c2a17": {
+  "desc": "Niewielka włoska trattoria przy ul. Jutrzenki. Pizzę (32 cm) można zamówić na sosie pomidorowym albo na pesto z rukoli i szpinaku; w karcie są też calzone, makarony, m.in. carbonara i spaghetti z pastą truflową, oraz sałatki podawane z bułeczkami własnego wypieku. Lokal ma ogródek.",
+  "zrodlo": "strona"
+ },
+ "pizzeria-joker-zemborzyce-tereszynskie-4c689": {
+  "desc": "Pizzeria i pub w Zemborzycach Tereszyńskich, jeden z dwóch lokali Jolly Joker (drugi działa w Niedrzwicy Dużej). W karcie jest blisko 30 pizz w trzech rozmiarach – od klasycznych po Sołtysową na sosie musztardowym z kiełbasą i ogórkiem – a także burgery i dania obiadowe.",
+  "zrodlo": "strona"
+ },
+ "bami-au-viet-c04f6": {
+  "desc": "Wietnamski bar przy ul. Chopina, którego specjalnością są chrupiące kanapki bánh mì. W karcie są też zupy (phở, tom yum, miso, wonton), sajgonki, pierożki, bułeczki bao w wersji wytrawnej i słodkiej oraz bami chao gang z gorącej patelni; podają też kawę po wietnamsku.",
+  "zrodlo": "strona"
+ },
+ "sto-i-wo-3f337": {
+  "desc": "Restauracja lubelskiej sieci Stół i Wół przy ul. Sławinkowskiej, działająca wcześniej jako Botanico. Specjalnością są sezonowane steki i burgery wołowe z pieca opalanego węglem drzewnym; w karcie są też pizza w stylu nowojorskim, makarony, sałaty, śniadania i lunch w dni robocze.",
+  "zrodlo": "strona"
+ },
+ "restauracja-calvados-bd21c": {
+  "desc": "Restauracja przy ul. Fabrycznej nastawiona głównie na przyjęcia okolicznościowe – wesela, komunie, chrzciny, urodziny i spotkania firmowe. Serwuje dania kuchni polskiej oparte na tradycyjnych przepisach.",
+  "zrodlo": "strona"
+ },
+ "anabilis-a06e2": {
+  "desc": "Kawiarnia i cukiernia przy ul. Lubartowskiej, która sama robi ciasta, drobne wypieki i lody. Wybór ciast jest duży, a w ofercie są m.in. cynamonki; poza salą od strony ulicy jest też taras na tyłach lokalu.",
+  "zrodlo": "siec"
+ },
+ "popularna-lublin-0a18a": {
+  "desc": "Restauracja kuchni polskiej na Rynku Starego Miasta, tuż za Bramą Krakowską, urządzona w stylu PRL – z retro plakatami i starymi zdjęciami na ścianach. W karcie jest klasyka, m.in. schabowy z domowymi dodatkami, a przy barze 21 kranów z nalewkami.",
+  "zrodlo": "strona"
+ },
+ "kmicic-hotel-restauracja-e70fa": {
+  "desc": "Zajazd z hotelem i restauracją w Zemborzycach Dolnych, niedaleko Zalewu Zemborzyckiego, z wnętrzami w stylu dworkowym. Organizuje wesela (także śluby w plenerze), przyjęcia i spotkania firmowe, a latem otwiera patio z zabytkowym klonem.",
+  "zrodlo": "strona"
+ },
+ "kawiarnia-bajglori-lublin-04ec5": {
+  "desc": "Kawiarnia przy ul. Leszka Czarnego z bajglami, sporym wyborem słodkości, m.in. sernikiem, oraz lodami. Podają też kawę, a latem można usiąść w ogródku.",
+  "zrodlo": "opinie"
+ },
+ "abc-pizza-ad9fe": {
+  "desc": "Niewielka, z zewnątrz skromna pizzeria w Szerokiem, nastawiona głównie na dowóz. Podaje pizzę w stylu włoskim.",
+  "zrodlo": "opinie"
+ },
+ "parownia-dim-sum-bar-czechow-018ad": {
+  "desc": "Bar dim sum przy ul. Północnej na Czechowie. Specjalnością są pierożki na parze w różnych smakach – można zamówić zestaw mieszany – oraz bułeczki bao.",
+  "zrodlo": "opinie"
+ },
+ "andare-pizza-lublin-4010f": {
+  "desc": "Pizzeria na wynos i z dowozem przy ul. Filaretów. Pieką pizzę w polskim stylu, z dużą ilością dodatków.",
+  "zrodlo": "opinie"
+ },
+ "jazzve-kuchnia-kaukaska-de55a": {
+  "desc": "Niewielka restauracja kuchni kaukaskiej – ormiańskiej i gruzińskiej – przy ul. Bernardyńskiej. W karcie są m.in. chaczapuri i pielmieni, a także dania wegetariańskie. Z zewnątrz lokal jest niepozorny, w środku przytulny.",
+  "zrodlo": "siec"
+ },
+ "tazz-kebab-bcb1f": {
+  "desc": "Kebab przy ul. Turystycznej. Podają kebaby z mięsem i sosami, a porcje są solidne.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-wietnamska-phuc-lublin-gesia-c6736": {
+  "desc": "Lubelski lokal sieci Phúc (restauracje także w Lubartowie i Radzyniu) z tradycyjną kuchnią wietnamską. W karcie są zupy phở w kilku wersjach, sajgonki, dania smażone z ryżem jaśminowym, m.in. wołowina z bakłażanem, a do zamówienia podają chipsy krewetkowe.",
+  "zrodlo": "strona"
+ },
+ "garmazerka-pyza-dobra-kuchnia-23283": {
+  "desc": "Garmażeria przy ul. Wieniawskiej w centrum, w której można zjeść na miejscu albo kupić dania na wynos. W ofercie są głównie pierogi i inne wyroby mączne, a także zupy, dania mięsne, ryby (m.in. ryba po grecku i pstrąg faszerowany) oraz sałatki.",
+  "zrodlo": "strona"
+ },
+ "sfera-pub-i-restauracja-8b508": {
+  "desc": "Pub z restauracją przy ul. Jana Sawy, z kuchnią domową i daniami typu fast food. Najczęściej zamawiana jest pizza, porcje frytek są duże, a w niektóre wieczory gra muzyka na żywo, m.in. szanty.",
+  "zrodlo": "opinie"
+ },
+ "pizza-pub-acerna-s-placki-ziemniaczane-autorskie-cb791": {
+  "desc": "Pizzeria i pub na Rynku Starego Miasta, przedstawiająca się jako najstarsza włoska pizzeria w Lublinie. Pizzę robią na mące Caputo i pomidorach Mutti; w karcie są też placki ziemniaczane, np. z wątróbką. Ma ogródek przy rynku.",
+  "zrodlo": "strona"
+ },
+ "cloud-centrum-shisha-sushi-24ed8": {
+  "desc": "Lokal z sushi i fajką wodną przy ul. Żołnierzy Niepodległej. Oprócz rolek (m.in. california, futomaki, uramaki) w karcie są sushi burgery, sushi pizza, poke bowl, ramen, dania z woka i zwykła pizza; serwują też drinki.",
+  "zrodlo": "strona"
+ },
+ "takie-tango-5b7b9": {
+  "desc": "Shot bar przy Krakowskim Przedmieściu, w ścisłym centrum. Ma duży wybór szotów i drinków, zarówno klasycznych, jak i mniej typowych; to lokal na wieczorne wyjście ze znajomymi.",
+  "zrodlo": "opinie"
+ },
+ "bar-pereka-bez-jedzenia-2527d": {
+  "desc": "Klasyczny miejski bar piwny przy ul. 1 Maja. Nie serwuje jedzenia – przychodzi się tu na piwo i rozmowę.",
+  "zrodlo": "opinie"
+ },
+ "pronto-truck-bf93c": {
+  "desc": "Food truck w Zemborzycach Wojciechowskich z daniami typu street food. W karcie są m.in. kurczak w kilku wersjach, np. skrzydełka i stripsy, oraz frytki.",
+  "zrodlo": "opinie"
+ },
+ "kebab-pro-tarasowa-8f1ce": {
+  "desc": "Lokal z kebabem przy ul. Tarasowej. Kebab podaje się tu m.in. w bułce.",
+  "zrodlo": "strona"
+ },
+ "lango-40205": {
+  "desc": "Punkt przy al. Tysiąclecia z węgierskimi langoszami, czyli smażonymi plackami z ciasta drożdżowego. Klasyczną wersję podaje się ze śmietaną i serem.",
+  "zrodlo": "opinie"
+ },
+ "hotel-restauracja-browar-lwow-7b3c4": {
+  "desc": "Hotel z restauracją i browarem przy ul. Bronowickiej, ok. 10 minut pieszo od centrum. Kuchnia jest polska, ukraińska i europejska, pierogi lepią na miejscu, a do dań podają niefiltrowane piwa z własnego browaru. Organizuje też wesela i przyjęcia.",
+  "zrodlo": "strona"
+ },
+ "mamusiny-garnek-cba72": {
+  "desc": "Bar z polskimi obiadami przy ul. Curie-Skłodowskiej, działający na miejscu i z dowozem. Codziennie gotuje m.in. pierogi, schabowe, kotlety mielone, zupy, kluski i naleśniki; w karcie jest też menu dnia.",
+  "zrodlo": "strona"
+ },
+ "gusto-lunch-bar-32b56": {
+  "desc": "Bar obiadowy przy ul. Szeligowskiego, w którym dania nakłada się według uznania i płaci za ich wagę. Do obiadu można zamówić kompot.",
+  "zrodlo": "opinie"
+ },
+ "klub-lekarza-lublin-a07ff": {
+  "desc": "Lokal obiadowy przy ul. Chmielnej z kuchnią w stylu domowym. Serwuje zupy i drugie dania, głównie w porze lunchu.",
+  "zrodlo": "opinie"
+ },
+ "garmazerka-smacznego-lublin-741d9": {
+  "desc": "Garmażeria przy al. Racławickich z obiadami na wynos i z dowozem. W karcie są kotlety (schabowy, mielony, de volaille, pierś z kurczaka), pierogi, kopytka, kluski leniwe, zupy i sałatki.",
+  "zrodlo": "strona"
+ },
+ "rock-klub-koyot-ed03d": {
+  "desc": "Pub i klub w rockowym klimacie przy ul. Narutowicza, w centrum miasta.",
+  "zrodlo": "opinie"
+ },
+ "shahada-kebab-lublin-75460": {
+  "desc": "Bar z kebabem przy ul. Samsonowicza, z miejscami do jedzenia na sali. Do kebaba można wybrać sos, m.in. mieszany lub ostry.",
+  "zrodlo": "opinie"
+ },
+ "dostana-kebab-8bf14": {
+  "desc": "Jeden z pięciu lubelskich lokali sieci Dostana Kebab, przy ul. Sympatycznej. Kebaby są w kilku rozmiarach, m.in. jako rollo, a za dopłatą można wybrać mięso „kraftowe”; zamówienia realizowane są też z dowozem.",
+  "zrodlo": "strona"
+ },
+ "restauracja-mcdonald-s-dea6c": {
+  "desc": "Restauracja sieci McDonald’s przy al. Kraśnickiej, z McDrive’em i kawiarnią McCafé. Serwuje standardowe menu sieci – burgery, McNuggets, wrapy i frytki, rano także śniadania; działa również dostawa McDelivery.",
+  "zrodlo": "strona"
+ },
+ "osama-sushi-ea269": {
+  "desc": "Sushi z dowozem i odbiorem osobistym, przygotowywane w lokalu przy ul. Kunickiego. W karcie są m.in. rolki philadelphia i california, futomaki, nigiri, gunkany, rolki pieczone i w tempurze oraz sushi burgery; co tydzień jest inny zestaw tygodnia.",
+  "zrodlo": "strona"
+ },
+ "my-kebab-9d6e1": {
+  "desc": "Bar z kebabem przy ul. 1 Maja, w pobliżu dworca kolejowego Lublin Główny. Serwuje kebaby na szybki posiłek.",
+  "zrodlo": "opinie"
+ },
+ "hot-kebab-30a78": {
+  "desc": "Punkt z kebabem na dworcu kolejowym przy pl. Dworcowym. Kebab podają m.in. w tortilli, a przygotowanie trwa kilka minut.",
+  "zrodlo": "opinie"
+ },
+ "godny-krolik-c098a": {
+  "desc": "Bar z kebabem przy ul. Jutrzenki. Kebab podaje się w kilku wersjach, m.in. w bułce albo jako danie.",
+  "zrodlo": "opinie"
+ },
+ "prawdziwy-kebab-u-prawdziwego-polaka-1b789": {
+  "desc": "Bar z kebabem przy ul. Kunickiego, w którym mięso na rożen przygotowywane jest na miejscu. Kebab podają m.in. w picie, także na cienkim placku, z sosem do wyboru.",
+  "zrodlo": "opinie"
+ },
+ "damaszek-kebab-lublin-85b74": {
+  "desc": "Bar z kebabem przy ul. Nadbystrzyckiej. Do wyboru jest kilka rodzajów mięsa, m.in. kurczak i wołowina, oraz sosy, w tym ostry.",
+  "zrodlo": "opinie"
+ },
+ "creamy-cafe-de642": {
+  "desc": "Kawiarnia przy ul. Rymwida, w której do kawy podaje się ciasta i ciastka. W ofercie jest wybór świeżych wypieków.",
+  "zrodlo": "opinie"
+ },
+ "browar-zakadowy-wielokran-3956f": {
+  "desc": "Wielokran – firmowy pub Browaru Zakładowego z Poniatowej, w budynku Centrum Spotkania Kultur przy pl. Teatralnym. Na 10 kranach są piwa tego browaru, warzone często z amerykańskimi chmielami, owocami, kawą czy herbatą; latem działa patio.",
+  "zrodlo": "strona"
+ },
+ "johnny-smash-burger-7a797": {
+  "desc": "Burgerownia przy ul. Jana Sawy. Specjalnością, jak wskazuje nazwa, są smash burgery.",
+  "zrodlo": "opinie"
+ },
+ "u-fotografa-craft-beer-smash-burgers-74a3f": {
+  "desc": "Pub z piwem rzemieślniczym przy ul. Złotej na Starym Mieście, związany z początkami lubelskiej sceny kraftowej. Z 16 kranów leją się piwa polskich browarów rzemieślniczych, w tym Zakładowego, jest ponad 100 piw w butelkach, a w kuchni burgery i kanapki.",
+  "zrodlo": "strona"
+ },
+ "kago-sushi-6e5b0": {
+  "desc": "Restauracja japońska przy ul. Leszczyńskiego. W karcie sushi (nigiri, futomaki, uramaki, sashimi), a także dania ciepłe: makarony, zupy, bułeczki bao czy ceviche po japońsku; w porze lunchu są zestawy bento.",
+  "zrodlo": "strona"
+ },
+ "labour-cocktail-bar-d0811": {
+  "desc": "Bar koktajlowy przy ul. Żołnierzy Niepodległej, z oszczędnym, lekko industrialnym wnętrzem. Obok klasyków można poprosić barmanów o drink skomponowany pod własny gust, a karta koktajli się zmienia.",
+  "zrodlo": "siec"
+ },
+ "bar-smaki-u-jadzi-5dd89": {
+  "desc": "Bar z polskimi obiadami przy ul. Godebskiego. Podają m.in. kotlet schabowy z ziemniakami i surówką oraz zupy.",
+  "zrodlo": "opinie"
+ },
+ "azja-od-kuchni-a39b9": {
+  "desc": "Azjatycki food hall w C.H. Olimp, obok Multikina, łączący trzy marki: Matsu z sushi, Rani z kuchnią indyjską i Oki Woki z ulicznym jedzeniem Azji Południowo-Wschodniej. Można zjeść na miejscu albo zamówić online z odbiorem.",
+  "zrodlo": "strona"
+ },
+ "thai-story-4f079": {
+  "desc": "Restauracja tajska przy ul. Peowiaków, w której sosy i pasty przygotowuje się na miejscu. W karcie m.in. pad thai, dania z woka, curry na mleku kokosowym, zupy i przystawki, jak satay; są stoliki na zewnątrz, można przyjść z psem.",
+  "zrodlo": "strona"
+ },
+ "parownia-dim-sum-bar-lsm-2e644": {
+  "desc": "Bar z dim sum na LSM, przy ul. Wileńskiej. Specjalnością są pierożki i inne dania gotowane na parze, a w karcie są też opcje wegetariańskie.",
+  "zrodlo": "opinie"
+ },
+ "munchies-50c32": {
+  "desc": "Bar z burgerami przy ul. Kołłątaja. Smash burgery, m.in. Oklahoma Onion czy Cheddar & Bacon, podaje się w brioszkach pieczonych na miejscu, z frytkami, a sosy i pikle robi się w lokalu; w karcie są też skrzydełka po koreańsku, frytki z dodatkami i dania inspirowane Azją.",
+  "zrodlo": "strona"
+ },
+ "stoowka-uniwersytetu-marii-curie-skodowskiej-trojka-bazylia-1b856": {
+  "desc": "Stołówka akademicka UMCS przy ul. Langiewicza z polskimi obiadami, m.in. pierogami. Zamówienia realizuje też z dowozem.",
+  "zrodlo": "opinie"
+ },
+ "bim-14a04": {
+  "desc": "Garmażerka przy ul. Ametystowej z kuchnią polską. W ofercie są m.in. pierogi ruskie i krokiety.",
+  "zrodlo": "opinie"
+ },
+ "bistro-gora-smakow-a2f5f": {
+  "desc": "Bistro z polską kuchnią obiadową przy ul. Zana. Wyróżnia się charakterystycznym, starannie urządzonym wnętrzem.",
+  "zrodlo": "opinie"
+ },
+ "woska-sztuka-bdb5a": {
+  "desc": "Restauracja włoska przy al. Racławickich. W karcie są m.in. makarony, także z krewetkami, oraz focaccia.",
+  "zrodlo": "opinie"
+ },
+ "ranch-burger-pizza-0c6d0": {
+  "desc": "Restauracja z burgerami i pizzą przy ul. Szeligowskiego. Ciasto do pizzy wyrabia się ręcznie, a sos przygotowuje na miejscu; do burgerów są grubo krojone frytki belgijskie lub frytki z batatów, jest też oferta dla dzieci i ogródek.",
+  "zrodlo": "strona"
+ },
+ "samara-oriental-felicity-ca4ef": {
+  "desc": "Restauracja z daniami na wagę w centrum handlowym Felicity przy al. Witosa. Dania można zjeść na miejscu albo zabrać do domu.",
+  "zrodlo": "opinie"
+ },
+ "pracownia-lodow-lublin-0b901": {
+  "desc": "Lodziarnia na deptaku przy Krakowskim Przedmieściu. Ma wiele smaków lodów, a gałki są duże.",
+  "zrodlo": "opinie"
+ },
+ "grzanka-obiady-domowe-10e2d": {
+  "desc": "Bar z obiadami kuchni polskiej przy ul. Bukowej. Dania można zjeść na miejscu albo wziąć na wynos; lokal oferuje też dostawę i catering.",
+  "zrodlo": "strona"
+ },
+ "grill-bar-e475e": {
+  "desc": "Bar z kebabem i daniami z grilla przy ul. Turystycznej. W karcie jest m.in. kapsalon w dwóch rozmiarach.",
+  "zrodlo": "opinie"
+ },
+ "stoowka-to-i-owo-65014": {
+  "desc": "Stołówka z polskimi obiadami przy ul. Turystycznej. Podaje dania mięsne, jak pieczony schab w sosie, z ziemniakami i surówkami, a do obiadu kompot.",
+  "zrodlo": "opinie"
+ },
+ "pub-pod-ziemia-lublin-558df": {
+  "desc": "Pub w podziemiach przy ul. Żołnierzy Niepodległej, z bratnim lokalem w Krakowie. W barze jest piwo i drinki, a w programie bywa karaoke.",
+  "zrodlo": "opinie"
+ },
+ "gobi-kuchnia-stepu-d4bf7": {
+  "desc": "Restauracja z kuchnią mongolską przy ul. Narutowicza. Nazwa nawiązuje do pustyni Gobi i stepu.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-bianco-9e465": {
+  "desc": "Restauracja hotelu Luxor przy al. Warszawskiej z kuchnią europejską i nawiązaniami do smaków lubelskich. Kelnerzy pomagają dobrać wino do dań, a rano hotel serwuje śniadania w formie bufetu.",
+  "zrodlo": "strona"
+ },
+ "cma-bistro-shotbar-cc17e": {
+  "desc": "Bistro i shot bar przy Krakowskim Przedmieściu, czynne do późna. Przy barze serwuje się drinki i inne alkohole, w karcie jest też jedzenie.",
+  "zrodlo": "opinie"
+ },
+ "pizza-take-and-go-43885": {
+  "desc": "Lokal z pizzą i kebabem przy ul. 1 Maja, nastawiony na dania na wynos i z dowozem.",
+  "zrodlo": "opinie"
+ },
+ "zielona-strefa-a6cbc": {
+  "desc": "Bar przy ul. Peowiaków w centrum Lublina. Lokal działa także jako bistro.",
+  "zrodlo": "opinie"
+ },
+ "pizzeria-pub-maska-b6ac0": {
+  "desc": "Pizzeria połączona z pubem przy ul. Kunickiego. Lokal organizuje też imprezy i przyjęcia okolicznościowe.",
+  "zrodlo": "strona"
+ },
+ "moto-kebs-i-smash-ea7c0": {
+  "desc": "Kebab i smash burgery przy ul. Kunickiego. Kebab podaje się w picie, lawaszu, bułce, boksie lub jako kapsalon – z kurczakiem, wołowiną albo mięsem mieszanym; są własne sosy, m.in. czosnkowy, ziołowy i jalapeño, a także falafel.",
+  "zrodlo": "strona"
+ },
+ "studio-dwie-kuchnie-by-yamato-8ff7e": {
+  "desc": "Restauracja przy ul. Raabego, prowadzona przez zespół chełmskiej restauracji Yamato Sushi Art. Łączy dwie kuchnie: polskie domowe obiady i dania azjatyckie.",
+  "zrodlo": "strona"
+ },
+ "bar-promyk-14bb6": {
+  "desc": "Bar obiadowy przy ul. Kowalskiej, serwujący zestawy złożone z zupy i drugiego dania – wśród zup jest m.in. kapuśniak. Porcje są duże.",
+  "zrodlo": "opinie"
+ },
+ "abdul-cuda-na-kiju-kebab-lublin-aab45": {
+  "desc": "Lokal z kebabem w berlińskim stylu Gemüse przy ul. Godebskiego. Bułki piecze się na miejscu, a do mięsa dodaje grillowane warzywa, ser bałkański, miętę i sumak; w karcie są też lawasze, miski z kaszą i krewetki w panko.",
+  "zrodlo": "strona"
+ },
+ "kucharski-delikatesy-kulinarne-3587e": {
+  "desc": "Lokal przy Krakowskim Przedmieściu z gotowymi daniami kuchni polskiej, sprzedawanymi przy ladzie. W ofercie są m.in. kotlety i inne dania mięsne.",
+  "zrodlo": "opinie"
+ },
+ "megustas-18a64": {
+  "desc": "Restauracja meksykańska przy ul. Szwajcarskiej. W karcie tacos, burrito, chimichanga, empanadas, chili con carne i churros, a chorizo przygotowuje się na miejscu; są też dania wegańskie, wegetariańskie i bezglutenowe.",
+  "zrodlo": "strona"
+ },
+ "dworek-staropolski-4d658": {
+  "desc": "Restauracja z kuchnią staropolską przy ul. Północnej, organizująca też wesela, przyjęcia i dancingi. W karcie m.in. żurek na zakwasie, flaki, rosół z kołdunami, tatar, golonka z żeberkiem i kaczka; prowadzi też catering.",
+  "zrodlo": "strona"
+ },
+ "bistro-oaza-f3a62": {
+  "desc": "Bistro z polskimi obiadami przy ul. Zemborzyckiej, podające duże porcje. Dania można zamówić także z dostawą, np. przez Wolt.",
+  "zrodlo": "opinie"
+ },
+ "pizza-napoleonska-pizzeria-70e1f": {
+  "desc": "Pizzeria przy ul. Harnasie, działająca z dowozem. W karcie długa lista pizz na cienkim cieście – od margherity po wiejską czy z owocami morza – a także pizza pół na pół i sałatki.",
+  "zrodlo": "strona"
+ },
+ "alshami-kebab-lublin-3ad6f": {
+  "desc": "Bar z kebabem przy ul. Chodźki. Lokal działa pod nowym szyldem – wcześniej pod tym adresem był inny bar z kebabem.",
+  "zrodlo": "opinie"
+ },
+ "capri-72bfe": {
+  "desc": "Pizzeria przy ul. Dragonów, która jako jedna z pierwszych w Lublinie zaczęła dowozić pizzę, kebab i gyros. W karcie są pizze w czterech rozmiarach, makarony i zestawy obiadowe; zamówienia przyjmuje też przez serwisy z dostawą.",
+  "zrodlo": "strona"
+ },
+ "robimypizze-pizza-lublin-2a433": {
+  "desc": "Pizzeria z pizzą 33 cm o nazwach w rodzaju „U Studenta”, „W Zakopanem” (z oscypkiem i żurawiną) czy „W Kalabrii” (z ndują i salsiccią). Do pizzy można dobrać sosy i oliwy – czosnkową lub ostrą; działa też dowóz.",
+  "zrodlo": "strona"
+ },
+ "smazalnia-ryb-raja-3dc8b": {
+  "desc": "Niewielka smażalnia ryb przy Armii Krajowej, raczej na szybki posiłek niż długi obiad. Ryby smażą na miejscu w chrupiącej panierce, a do nich podają frytki, opiekane kartofelki, mini gofry ziemniaczane i surówki; można zamówić na wynos i z dowozem.",
+  "zrodlo": "strona"
+ },
+ "masala-polska-kuchnia-indyjska-e4e16": {
+  "desc": "Restauracja kuchni indyjskiej prowadzona przez właścicieli pochodzących z Indii; poza Lublinem działa też w Skierniewicach i Łowiczu. W karcie m.in. butter chicken, chicken tikka masala, palak paneer, dania z jagnięciny i z pieca tandoori oraz zestawy thali.",
+  "zrodlo": "strona"
+ },
+ "restauracja-giuseppe-04360": {
+  "desc": "Włoska restauracja w centrum, która zaczynała jako jedna z pierwszych w Lublinie pizzerii z pizzą na cienkim cieście. Makaron i ravioli robią na miejscu; w karcie także focaccia, sałatki i dania mięsne. Jest patio, a restauracja prowadzi warsztaty kulinarne.",
+  "zrodlo": "strona"
+ },
+ "zoty-smok-aa1a7": {
+  "desc": "Restauracja kuchni azjatyckiej, przede wszystkim wietnamskiej, z obszerną kartą: zupy pho, sajgonki, pad thai, smażony makaron sojowy i udon oraz wiele dań z kurczakiem, wołowiną, kaczką, rybą i owocami morza. Porcje są duże.",
+  "zrodlo": "strona"
+ },
+ "unicorn-lounge-club-lublin-211c8": {
+  "desc": "Klub na czterech poziomach z trzema barami. Na parterze jest parkiet, na pierwszym piętrze strefa do rozmów z puszystymi ścianami, a na drugim przygotowują shishę i autorskie koktajle; w karcie są też koktajle bezalkoholowe i autorskie shoty.",
+  "zrodlo": "strona"
+ },
+ "little-hanoi-564d7": {
+  "desc": "Restauracja z kuchnią wietnamską i koreańską na pierwszym piętrze przy Langiewicza (drugi lokal działa przy Świętoduskiej). W karcie m.in. zupa pho, kurczak Hanoi, tteokbokki, skrzydełka w sosie gochujang, ryż smażony z kimchi i koreański hot dog.",
+  "zrodlo": "strona"
+ },
+ "orient-kebab-06330": {
+  "desc": "Kebab przy ul. 1 Maja: mięso w bułce, picie, lawaszu i boxie, a także kapsalon i pita podana jak pizza. Są też dania na talerzu – szaszłyk Adana z mięsa wołowo-baraniego czy talerz mix grill – oraz falafel i dania wegetariańskie.",
+  "zrodlo": "strona"
+ },
+ "angelo-bistro-pizza-restauracja-lublin-31f1d": {
+  "desc": "Pizzeria przy Chodźki (drugi lokal działa przy Wyżynnej) z pizzą w kilku rozmiarach, także pół na pół. W karcie są również makarony, gnocchi, pierogi, zupy, sałatki i zestawy obiadowe; pizzę można zamówić z dowozem.",
+  "zrodlo": "strona"
+ },
+ "pizzeria-brooklyn-syndicate-c937d": {
+  "desc": "Pizzeria przy ul. Jantarowej z pizzą w stylu nowojorskim – na cienkim, chrupiącym cieście, którą można jeść złożoną na pół. W karcie także smash burgery, makarony, sałatki, frytki z dodatkami i desery w słoikach; można zjeść na miejscu albo zamówić z dowozem.",
+  "zrodlo": "strona"
+ },
+ "panda-sushi-lublin-4da78": {
+  "desc": "Lokal z sushi nastawiony głównie na dowóz i odbiór osobisty. W karcie zestawy oraz pojedyncze rolki – hosomaki, futomaki i california – które na życzenie przygotują w tempurze.",
+  "zrodlo": "strona"
+ },
+ "kobi-sushi-aa15f": {
+  "desc": "Restauracja sushi przy ul. Kościuszki, z zestawami i rolkami – m.in. tempura roll, philadelphia i ebi panko – oraz daniami kuchni ciepłej. Zamówienia przyjmuje też online i przez aplikację.",
+  "zrodlo": "strona"
+ },
+ "kozzak-cocktail-bar-b0f2c": {
+  "desc": "Bar koktajlowy w westernowym stylu, z lampami naftowymi na stolikach. W karcie szeroki wybór koktajli, także bezalkoholowych, piwo z kranu, a do jedzenia m.in. pizza.",
+  "zrodlo": "opinie"
+ },
+ "lepione-felicity-08836": {
+  "desc": "Lokal z jedzeniem na wagę w galerii Felicity przy al. Witosa. Podstawą oferty są pierogi.",
+  "zrodlo": "opinie"
+ },
+ "yummy-sweets-wiktoryn-26cce": {
+  "desc": "Kawiarnia z cukiernią przy ul. Dolińskiego, z ciastami, deserami i kawą. W ofercie są m.in. jagodzianki.",
+  "zrodlo": "opinie"
+ },
+ "niebo-matcha-bar-82b09": {
+  "desc": "Matcha bar przy ul. Narutowicza – kawiarnia wyspecjalizowana w napojach z matchą, czyli sproszkowaną japońską zieloną herbatą. To one stanowią podstawę karty.",
+  "zrodlo": "opinie"
+ },
+ "a-pizza-ce9bd": {
+  "desc": "Pizzeria na Sławinie z pizzą w stylu włoskim i makaronami; na deser jest m.in. tiramisu. Stoliki szybko się zapełniają, więc warto zarezerwować.",
+  "zrodlo": "opinie"
+ },
+ "pelier-sweets-48304": {
+  "desc": "Słodki punkt bistro Pelier, poświęcony ulicznym słodyczom z różnych stron świata. Podają churros oraz lody, także w waflach taiyaki w kształcie rybki i jako meksykańskie paletas.",
+  "zrodlo": "strona"
+ },
+ "lava-83c0b": {
+  "desc": "Lokal z szybkim jedzeniem przy ul. Nadbystrzyckiej, serwujący głównie burgery z kurczakiem – m.in. „Turbo grill burger” z kurczakiem grillowanym i smażonym. Zamówienia przyjmuje też z dowozem.",
+  "zrodlo": "opinie"
+ },
+ "strzaa-smaku-restauracja-lunch-bar-a282f": {
+  "desc": "Lunch bar z kuchnią polską przy ul. Chodźki, serwujący obiady w stylu domowym. Dania można też zabrać na wynos.",
+  "zrodlo": "opinie"
+ },
+ "bar-pereka-60cd2": {
+  "desc": "Bar przy ul. Lubartowskiej z lanym piwem i przekąskami. Wnętrze jest klimatyczne.",
+  "zrodlo": "opinie"
+ },
+ "zielony-wiatrak-b261a": {
+  "desc": "Restauracja w obiekcie SPA Orkana przy ul. Szaserów, serwująca śniadania, menu lunchowe i dania z karty, wśród nich dania z kaczką. Prowadzi też catering dietetyczny.",
+  "zrodlo": "strona"
+ },
+ "pizza-lublin-lsm-diabelska-pizzeria-af61b": {
+  "desc": "Pizzeria przy ul. Nowomiejskiej, w której pizzę można zjeść na miejscu.",
+  "zrodlo": "opinie"
+ },
+ "osef-doner-kebab-express-a7d88": {
+  "desc": "Bar z kebabem przy ul. Kunickiego. Kebab można zamówić m.in. w tortilli lub w boxie.",
+  "zrodlo": "opinie"
+ },
+ "my-kebab-zeus-850f4": {
+  "desc": "Bar z kebabem w budynku Zeus Apartments przy al. Spółdzielczości Pracy. Kebab podaje się w kilku rozmiarach.",
+  "zrodlo": "opinie"
+ },
+ "dom-zotnika-28a4a": {
+  "desc": "Dwupoziomowy pub przy ul. Złotej na Starym Mieście, z piwem, jedzeniem i ogródkiem. Na piętrze organizowany jest kiermasz płyt winylowych, które można przesłuchać na miejscu.",
+  "zrodlo": "opinie"
+ },
+ "picco-bello-f070b": {
+  "desc": "Pizzeria przy ul. Zielonej. Serwuje pizzę w stylu włoskim.",
+  "zrodlo": "opinie"
+ },
+ "smash-chickz-olimp-174f6": {
+  "desc": "Bar z burgerami typu smash i kurczakiem w stylu Nashville, z wyborem poziomu ostrości, w CH Olimp. W karcie także nuggetsy, zestawy i lawasz z podwójną wołowiną, a także potrójny smash.",
+  "zrodlo": "strona"
+ },
+ "bistro-caffe-d6a9b": {
+  "desc": "Bistro przy ul. Chodźki z obiadami – zupami i drugimi daniami – oraz kawą. To miejsce na szybki posiłek w przerwie w pracy lub zajęciach.",
+  "zrodlo": "opinie"
+ },
+ "cukiernia-raszczyk-vivo-lublin-dcacf": {
+  "desc": "Kawiarnia cukierni Raszczyk w centrum handlowym Vivo! Lublin. Można tu wypić kawę i zjeść ciastko lub inny deser.",
+  "zrodlo": "opinie"
+ },
+ "1010kawa-bua-2de63": {
+  "desc": "Bistro przy al. Kraśnickiej, nastawione – jak wskazuje nazwa – na kawę i kanapki. To miejsce na szybką przekąskę.",
+  "zrodlo": "opinie"
+ },
+ "sushi-lublin-fishka-sushi-4d173": {
+  "desc": "Lokal z sushi przy ul. Głębokiej, nastawiony głównie na zamówienia z dowozem. W ofercie są zestawy sushi.",
+  "zrodlo": "opinie"
+ },
+ "klub-astoria-2ffed": {
+  "desc": "Pub sportowy przy al. Racławickich ze stołami bilardowymi i barem z piwem. Przy lokalu jest taras.",
+  "zrodlo": "opinie"
+ },
+ "garmazerka-polskie-smaki-349fa": {
+  "desc": "Garmażerka z kuchnią polską przy ul. Okrzei. W ofercie są m.in. pierogi.",
+  "zrodlo": "opinie"
+ },
+ "zajazd-hajduk-restauracja-imprezy-okolicznosciowe-0a9aa": {
+  "desc": "Zajazd w stylu góralskiej chaty, zbudowany przez zakopiańskich cieśli, z kominkiem, dwiema dużymi salami i letnim ogródkiem. Kuchnia podhalańska, regionalna i europejska; zajazd organizuje też wesela, komunie i inne przyjęcia.",
+  "zrodlo": "strona"
+ },
+ "crown-kebab-lublin-c3fe5": {
+  "desc": "Kebab przy ul. Jutrzenki, podawany m.in. w picie i w boxie, z wyborem sosów. Zamówienia przyjmuje też online, z dowozem.",
+  "zrodlo": "opinie"
+ },
+ "loco-taco-lublin-6f32d": {
+  "desc": "Restauracja meksykańska przy ul. Radziszewskiego, w której podają taco i inne dania kuchni meksykańskiej.",
+  "zrodlo": "opinie"
+ },
+ "bar-promyk-aea95": {
+  "desc": "Bar z tradycyjnymi polskimi obiadami przy ul. Królewskiej, blisko Starego Miasta. Podaje zupy oraz drugie dania z surówkami, w dużych porcjach.",
+  "zrodlo": "opinie"
+ },
+ "bon-apetito-plaza-lublin-4b026": {
+  "desc": "Bar z daniami obiadowymi w Galerii Plaza przy ul. Lipowej. W ofercie są m.in. dania makaronowe, np. lasagne.",
+  "zrodlo": "opinie"
+ },
+ "kuchnia-marche-plaza-lublin-17b5c": {
+  "desc": "Restauracja sieci Kuchnia Marché na poziomie +2 w Lublin Plaza, działająca w formule bufetu z płatnością za wagę. W bufecie są zupy, dania obiadowe w rodzaju kotletów i pierogów, a także makarony (m.in. carbonara) i pizza.",
+  "zrodlo": "strona"
+ },
+ "portobello-pizza-radosci-42a78": {
+  "desc": "Pizzeria Portobello przy ul. Radości (druga działa przy Pankiewicza) z ponad dwudziestoma rodzajami pizzy o włoskich nazwach – od margherity i carbonary po frutti di mare czy pizzę z gęsiną, gruszką i gorgonzolą. Do każdej pizzy dodają sos czosnkowy i pomidorowy; prowadzą też dowóz.",
+  "zrodlo": "strona"
+ },
+ "kage-ramen-bar-5b80e": {
+  "desc": "Bar z ramenem przy ul. 1 Maja, w którym karta skupia się na japońskich zupach z makaronem. Porcje są duże i sycące.",
+  "zrodlo": "opinie"
+ },
+ "pate-cukiernictwo-artystyczne-809aa": {
+  "desc": "Cukiernia przy ul. Niepodległości z wypiekami i ciastami, m.in. croissantami. Przygotowuje też słodkie stoły i catering firmowy.",
+  "zrodlo": "opinie"
+ },
+ "masna-pizza-b1924": {
+  "desc": "Niewielka pizzeria przy ul. Langiewicza z ponad dwudziestoma pizzami – od margherity i capricciosy po ostrzejsze, np. z kiełbasą salsiccia i ndują. W karcie są też zapiekanki i makarony; pizzę można zamówić z dostawą lub odebrać na miejscu.",
+  "zrodlo": "strona"
+ },
+ "encanto-turystyczna-b8f3c": {
+  "desc": "Restauracja Encanto przy ul. Turystycznej (drugi lokal jest przy Dożynkowej) z kuchnią mieszaną: pizza, burgery z własnymi sosami i włoskie makarony. Można tu też zamówić zestaw lunchowy.",
+  "zrodlo": "strona"
+ },
+ "express-oriental-felicity-2eb40": {
+  "desc": "Lokal sieci Express Oriental w centrum handlowym Felicity, z bufetem dań kuchni azjatyckiej płatnych za wagę – chińskich, tajskich, wietnamskich i japońskich. Można też zamówić zupę pho czy tom kha gai; dania przygotowuje się w otwartej kuchni z wokami.",
+  "zrodlo": "strona"
+ },
+ "fit-cake-lublin-srodmiescie-ea0fb": {
+  "desc": "Lubelski lokal sieci Fit Cake przy ul. Chopina – kawiarnia z ciastami i tortami bez dodatku cukru, glutenu i laktozy, z wieloma propozycjami wegańskimi. Do wypieków dołączana jest informacja o wartościach odżywczych.",
+  "zrodlo": "strona"
+ },
+ "eat-go-rynek-8-3e938": {
+  "desc": "Restauracja z kuchnią azjatycką przy Rynku na Starym Mieście, ze stolikami na dziedzińcu. Porcje są bardzo duże.",
+  "zrodlo": "opinie"
+ },
+ "bar-kufelek-fc14e": {
+  "desc": "Bar piwny przy ul. Pocztowej, kilka kroków od dworca kolejowego – często zaglądają tu podróżni czekający na przesiadkę. Można zagrać w rzutki, a bar ma stałych bywalców.",
+  "zrodlo": "opinie"
+ },
+ "ganbei-bubble-tea-krolewska-f62ec": {
+  "desc": "Lokal z bubble tea przy ul. Królewskiej w centrum. Herbaty podaje się z mlekiem albo z owocowym syropem, z wybranymi dodatkami.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-otwarta-grill-ffa62": {
+  "desc": "Restauracja przy al. Kraśnickiej, której kuchnia opiera się na potrawach z grilla i ognia, przede wszystkim mięsach. W tej samej przestrzeni działają piekarnia z chlebem na własnym zakwasie, cukiernia i delikatesy z produktami lokalnych dostawców.",
+  "zrodlo": "strona"
+ },
+ "coffee-sons-rodzinna-palarnia-kawy-dfcbd": {
+  "desc": "Palarnia kawy przy ul. Lubomelskiej ze sklepem i barem kawowym. Można tu kupić świeżo paloną kawę ziarnistą – mieszanki, kawy jednorodne i bezkofeinowe, do ekspresu i metod przelewowych – albo wypić kawę na miejscu.",
+  "zrodlo": "strona"
+ },
+ "kameralna-usugi-gastronomiczne-restauracja-majdanek-organiza-094d0": {
+  "desc": "Restauracja z kuchnią polską przy ul. Cmentarnej, w rejonie Majdanka, nastawiona głównie na przyjęcia okolicznościowe, stypy i catering. Podają tradycyjne obiady – zupy, drugie dania – oraz ciasta.",
+  "zrodlo": "strona"
+ },
+ "shotbar-u-boot-lublin-7d536": {
+  "desc": "Shot bar przy ul. Peowiaków w centrum, z kartą shotów z czystej i smakowej wódki oraz innych alkoholi, a także drinków i napojów bezalkoholowych. W lokalu odbywa się karaoke.",
+  "zrodlo": "strona"
+ },
+ "padbar-50f14": {
+  "desc": "Bar w piwnicy kamienicy przy ul. Grodzkiej na Starym Mieście, z dużym wyborem gier planszowych dla gości. Do picia jest piwo i drinki, można też coś zjeść; w sezonie działa ogródek.",
+  "zrodlo": "opinie"
+ },
+ "jontek-garmazerka-7b357": {
+  "desc": "Bar z kuchnią polską i garmażerką przy ul. Kiepury. Na obiad są zupy i drugie dania, m.in. kotlety i pierogi, przygotowywane na bieżąco; jedzenie można zjeść na miejscu lub kupić na wynos.",
+  "zrodlo": "opinie"
+ },
+ "bistro-vinna-73d16": {
+  "desc": "Bistro z kuchnią śródziemnomorską przy placu Teatralnym, w budynku Centrum Spotkania Kultur. Podają m.in. zestawy lunchowe, a w karcie są też dania wegetariańskie.",
+  "zrodlo": "opinie"
+ },
+ "barmex-c3e3f": {
+  "desc": "Bar obiadowy z kuchnią polską przy ul. Młyńskiej, tuż przy dworcu – dobry na posiłek przed podróżą pociągiem. Podaje polskie dania obiadowe w dużych porcjach.",
+  "zrodlo": "opinie"
+ },
+ "smash-chickz-5271c": {
+  "desc": "Lokal z burgerami przy ul. Wojciechowskiej, specjalizujący się w smash burgerach i kurczaku. W karcie są też wrapy, m.in. w lawaszu.",
+  "zrodlo": "opinie"
+ },
+ "restauracja-grano-verde-5fd96": {
+  "desc": "Restauracja w Galerii Diamentowa Park na Wrotkowie, z kuchnią europejską o śródziemnomorskim akcencie – podstawą karty są makarony i pizza, są też burgery, sałatki i desery. Jest ogródek i kącik dla dzieci.",
+  "zrodlo": "strona"
+ },
+ "pyza-dobra-kuchnia-9a66d": {
+  "desc": "Lokal z tradycyjną kuchnią polską przy ul. Bursaki, serwujący obiady. W ofercie są m.in. pierogi, zupy, kotlety i inne dania mięsne, a także sałatki i surówki.",
+  "zrodlo": "strona"
+ },
+ "bafra-kebab-c033c": {
+  "desc": "Punkt sieci Bafra Kebab w Lublin Plaza przy ul. Lipowej. Podają kebab m.in. w tortilli, także w zestawie z frytkami i napojem.",
+  "zrodlo": "strona"
+ },
+ "pasibus-better-burger-5392d": {
+  "desc": "Lokal sieci Pasibus przy al. Unii Lubelskiej. W karcie są burgery z codziennie mielonej wołowiny, smash burgery, kurczak, wrapy, frytki i desery, a także kilka burgerów wegetariańskich.",
+  "zrodlo": "strona"
+ },
+ "restauracja-makani-92dca": {
+  "desc": "Restauracja azjatycka przy ul. Świętoduskiej, z kartą inspirowaną kuchnią koreańską, japońską, tajską i nepalską. Podają m.in. smażonego kurczaka po koreańsku i pierożki mandu (momo), a także zupy i makarony.",
+  "zrodlo": "strona"
+ },
+ "bar-mleczny-to-i-owo-ebb1c": {
+  "desc": "Bar mleczny przy ul. Mełgiewskiej. Podaje domowe obiady kuchni polskiej.",
+  "zrodlo": "opinie"
+ },
+ "bistro-przysmaki-37711": {
+  "desc": "Jadłodajnia z kuchnią polską przy ul. Leszczyńskiego, z zestawami obiadowymi i daniami dnia z zupą. Porcje są duże.",
+  "zrodlo": "opinie"
+ },
+ "cukiernia-chmielewski-8cef1": {
+  "desc": "Cukiernia przy Krakowskim Przedmieściu 8, nawiązująca do tradycji lokalu działającego w tej kamienicy od przełomu XIX i XX wieku. Oferuje torty, ciasta i ciastka, w tym klasyki jak W-Z czy kozie rogi; kawiarnia ma retro wystrój.",
+  "zrodlo": "strona"
+ },
+ "kreuzberg-kraft-kebap-lublin-0a165": {
+  "desc": "Lokal z kebabem przy al. Spółdzielczości Pracy, nawiązujący nazwą do berlińskiego Kreuzbergu. Podają m.in. kebab gemüse w chrupiącej bułce z dużą ilością warzyw i dodatków.",
+  "zrodlo": "opinie"
+ },
+ "sezon-ca0f7": {
+  "desc": "Knajpa na podwórku przy ul. Złotej na Starym Mieście, z leżakami. Do jedzenia są zapiekanki, do picia piwo.",
+  "zrodlo": "opinie"
+ },
+ "kebab-i-kurczak-eee30": {
+  "desc": "Bar przy ul. Chemicznej, w którym podstawą karty są kurczak z rożna i kebab. Do dań można zamówić frytki.",
+  "zrodlo": "opinie"
+ },
+ "plackarnia-011e7": {
+  "desc": "Lokal lubelskiej sieci Plackarnia przy ul. Radziszewskiego, w rejonie Miasteczka Akademickiego. Oprócz pizzy w karcie są placki ziemniaczane, a także burgery, makarony, sałatki i desery; działa dostawa.",
+  "zrodlo": "strona"
+ },
+ "imbir-bistro-cafe-2584d": {
+  "desc": "Bistro i kawiarnia w Centrum Kongresowym Uniwersytetu Przyrodniczego przy ul. Akademickiej, miejsce spotkań studentów i wykładowców. Podają obiady – zupy i drugie dania – a firma prowadzi też catering na przyjęcia i konferencje.",
+  "zrodlo": "strona"
+ },
+ "gastronauci-restauracja-98ce4": {
+  "desc": "Restauracja przy ul. Abramowickiej z szeroką kartą: pizze, burgery z wołowiną, włoskie kanapki, sałatki, desery i dania obiadowe. Organizują przyjęcia okolicznościowe, prowadzą też codzienny dowóz.",
+  "zrodlo": "strona"
+ },
+ "bar-express-cafe-52c3f": {
+  "desc": "Bar z przekąskami przy al. Tysiąclecia, w którym podstawą karty są zapiekanki – m.in. z pieczarkami i serem.",
+  "zrodlo": "opinie"
+ },
+ "cztery-sery-f54c7": {
+  "desc": "Lokal z kuchnią włoską przy ul. Akademickiej, nastawiony głównie na dowóz. W karcie są pizze nazwane od miast świata, makarony penne, focaccia, sałatki oraz duże burgery z wołowiną.",
+  "zrodlo": "strona"
+ },
+ "mimi-pizza-fe9cb": {
+  "desc": "Pizzeria przy ul. Juranda. Realizuje zamówienia z dowozem, a także z odbiorem osobistym.",
+  "zrodlo": "strona"
+ },
+ "bar-godny-krolik-c4463": {
+  "desc": "Bar przy ul. Kunickiego z daniami w stylu fast food, m.in. gyrosem w bułce i picie. Porcje są syte, a jedzenie można zamówić z dowozem.",
+  "zrodlo": "opinie"
+ },
+ "oaza-gyros-b3760": {
+  "desc": "Bar z gyrosem i kebabem przy Drodze Męczenników Majdanka. Kebab podaje się tu z surówką.",
+  "zrodlo": "opinie"
+ }
+}

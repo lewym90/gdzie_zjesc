@@ -6,6 +6,7 @@ det = json.load(open(f"{D}/details.json"))
 KUR = json.load(open("/home/claude/gdzie_zjesc/collector/kuracja.json"))["listy"]
 WYK = [x.lower() for x in json.load(open("/home/claude/gdzie_zjesc/collector/wykluczone.json"))["nazwy"]]
 KOR = json.load(open("/home/claude/gdzie_zjesc/collector/korekty.json"))
+OPISY = json.load(open("/home/claude/gdzie_zjesc/collector/opisy_restauracji.json")) if os.path.exists("/home/claude/gdzie_zjesc/collector/opisy_restauracji.json") else {}
 GS = json.load(open(f"{D}/godziny_strony.json")) if os.path.exists(f"{D}/godziny_strony.json") else {}
 GO = json.load(open(f"{D}/godziny_osm.json")) if os.path.exists(f"{D}/godziny_osm.json") else {}
 menus = json.load(open(f"{D}/menu.json")) if os.path.exists(f"{D}/menu.json") else {}
@@ -180,12 +181,14 @@ for p in places:
     elif not p["hoursText"] and p["id"] in GO:
         p["hoursText"] = GO[p["id"]]["hours"]; p["hours"] = parse_hours(p["hoursText"]); p["hoursSrc"] = "osm"
 # ręczne korekty po przeglądzie (kuchnie, zdjęcia)
+places = [p for p in places if p["id"] not in KOR.get("wyklucz_id", [])]  # lokale nieczynne / pomylone wizytówki
 for p in places:
     if p["id"] in KOR["kuchnie"]: p["cuisines"] = KOR["kuchnie"][p["id"]]
     if p["id"] in KOR.get("typy", {}): p["type"] = KOR["typy"][p["id"]]
     if p["id"] in KOR.get("www_martwe", []): p["www"] = None  # strona nie istnieje (404 lub domena wygasła)
     if p["id"] in KOR.get("www", {}): p["www"] = KOR["www"][p["id"]]  # właściwa strona zamiast katalogu
     if p["id"] in KOR.get("telefon", {}): p["phone"] = KOR["telefon"][p["id"]]
+    if p["id"] in OPISY: p["desc"], p["descSrc"] = re.sub(r"\b(ul|al|pl|ok|nr|św)\. ", "\\1.\u00a0", OPISY[p["id"]]["desc"]), OPISY[p["id"]]["zrodlo"]
     if p["id"] in KOR.get("menu_url", {}): p["menuUrl"] = KOR["menu_url"][p["id"]]
     if p["id"] in KOR.get("godziny", {}) and not p["hoursText"]:  # godziny z innego źródła (strona, serwis z dostawami)
         g = KOR["godziny"][p["id"]]

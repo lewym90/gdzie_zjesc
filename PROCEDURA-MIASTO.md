@@ -151,3 +151,9 @@ Dane w `data/noclegi.json`, widoki w `nocl.js`, adresy `#/n/...` (`#/n`, `#/n/wy
 - Kuracja w agentach (decyzja tak/nie, opis ≤ 380 znaków, „co kupić”, dowody), potem niezależna weryfikacja faktów. Wszystko składa `collector/zakupy_kuracja_skladanie.py` → `kuracja_zakupy.json` (powtarzalnie).
 - Pole `co_kupic` jest obowiązkowe – to najważniejsza informacja w tej zakładce.
 - Nie bierzemy: sieciówek (poza głównymi galeriami), hurtowni, sklepów tylko internetowych, zwykłych spożywczych/monopolowych, kawiarni z obsługą na miejscu. Cukiernie/piekarnie/lodziarnie tylko wyróżniające się.
+
+## 14. Opisy restauracji (listopad 2026)
+- Każdy lokal w Restauracjach ma opis 2–3 zdania (maks. 320 znaków) w `collector/opisy_restauracji.json` → `desc` + `descSrc` (strona / siec / opinie); pokazywany na górze zakładki „Informacje”.
+- Tworzenie: agenci po ok. 40 lokali (dane z Map + menu + opinie + strona lokalu), potem NIEZALEŻNA weryfikacja (agenci po ok. 80 lokali) – usuwa wszystko, czego nie da się potwierdzić. Fakt z opinii tylko, gdy powtarza się w min. 2 opiniach.
+- Zakazane: oceny, ceny, godziny, roczniki, reklamowe przymiotniki, „rodzinny/domowy/autorski/od lat” bez źródła.
+- Lokale nieczynne lub z pomieszaną wizytówką wykluczamy po id: `korekty.json` → `wyklucz_id`.

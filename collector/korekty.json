@@ -598,5 +598,10 @@
   "domino-s-pizza-2ed5a": "https://www.dominospizza.pl/menu/pizza",
   "bona-restaurant-24f17": "https://bonalublin.choiceqr.com/section:menu-glowne",
   "od-kuchni-7b7cb": "https://www.odkuchni-restauracja.pl/index.php?p=menu&g=daniaGlowne"
- }
+ },
+ "wyklucz_id": [
+  "smart-pizza-delivery-4405f",
+  "taki-myk-food-truck-ab71b",
+  "ciociagotuje-pl-express-w-masami-sushi-dbec9"
+ ]
 }
