@@ -52,6 +52,14 @@ OCC = {
 }
 DAYS = ["poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota", "niedziela"]
 
+SKR = {"pon": 0, "wt": 1, "śr": 2, "czw": 3, "pt": 4, "sob": 5, "nd": 6}
+def godziny_txt(txt):  # "pon–pt 10:00–20:00, sob–nd 9:00–21:00" -> słownik dni
+    h = {}
+    for czesc in re.split(r",\s*(?=[a-zś]{2,3}\b)", txt):
+        m = re.match(r"([a-zś]{2,3})(?:\s*[–-]\s*([a-zś]{2,3}))?\s+(.+)", czesc.strip())
+        if not m: continue
+        for i in range(SKR[m[1]], SKR[m[2] or m[1]] + 1): h[DAYS[i]] = "Zamknięte" if "zamk" in m[3].lower() else m[3].strip()
+    return h
 def parse_hours(h):
     out = {}
     for i, d in enumerate(DAYS):
@@ -176,6 +184,10 @@ for p in places:
     if p["id"] in KOR["kuchnie"]: p["cuisines"] = KOR["kuchnie"][p["id"]]
     if p["id"] in KOR.get("typy", {}): p["type"] = KOR["typy"][p["id"]]
     if p["id"] in KOR.get("www_martwe", []): p["www"] = None  # strona nie istnieje (404 lub domena wygasła)
+    if p["id"] in KOR.get("www", {}): p["www"] = KOR["www"][p["id"]]  # właściwa strona zamiast katalogu
+    if p["id"] in KOR.get("godziny", {}) and not p["hoursText"]:  # godziny z innego źródła (strona, serwis z dostawami)
+        g = KOR["godziny"][p["id"]]
+        p["hoursText"] = godziny_txt(g["txt"]); p["hours"] = parse_hours(p["hoursText"]); p["hoursSrc"] = g.get("src", "strona")
     elif not p["cuisines"] and p["type"] in ("restauracja", "fastfood") and re.search(r"garmaż|stołówk|bar mleczny|obiad|jadłodajn|domow|bufet|zestawy obiadowe|kuchnia smakosza|smaki u jadzi|placki|plackarn", low(p["name"] + " " + p["category"])): p["cuisines"] = ["polska"]
     z = KOR["zdjecia"].get(p["id"])
     if z:

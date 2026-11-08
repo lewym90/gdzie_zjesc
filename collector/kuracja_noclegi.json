@@ -352,6 +352,15 @@
   },
   "Pokoje Gościnne CDN": {
    "www": null
+  },
+  "Campanile Prime Lublin": {
+   "www": "https://lublin.campanile.com/pl/"
+  },
+  "Hampton by Hilton Lublin": {
+   "www": "https://www.hilton.com/en/hotels/luzhxhx-hampton-lublin/"
+  },
+  "Hostel Królewska": {
+   "www": "https://hostelkrolewska.pl/"
   }
  },
  "ceny_terminy": [

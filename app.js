@@ -1,5 +1,5 @@
 "use strict";
-const APP_V = "20261107-235241";
+const APP_V = "20261108-083809";
 /* Gdzie zjeść: przeglądarka lokali. Tylko wyświetla dane z data/places.json. */
 
 const ICO = {
@@ -273,7 +273,7 @@ function hoursTable(p) {
   const wd = (new Date().getDay() + 6) % 7;
   const ht = p.hoursText || {};
   if (!Object.keys(ht).length) return `<p class="note">Google nie podaje godzin otwarcia tego lokalu.</p>`;
-  return `<table class="hours">${DAYS.map((d, i) => `<tr class="${i === wd ? "today" : ""}"><td>${d[0].toUpperCase() + d.slice(1)}</td><td>${esc(ht[d] || "brak danych")}</td></tr>`).join("")}</table>` + (p.hoursSrc ? `<p class="note" style="margin-top:12px">Godziny według ${p.hoursSrc === "osm" ? "OpenStreetMap" : "strony lokalu"}.</p>` : "");
+  return `<table class="hours">${DAYS.map((d, i) => `<tr class="${i === wd ? "today" : ""}"><td>${d[0].toUpperCase() + d.slice(1)}</td><td>${esc(ht[d] || "brak danych")}</td></tr>`).join("")}</table>` + (p.hoursSrc ? `<p class="note" style="margin-top:12px">Godziny według ${{ osm: "OpenStreetMap", serwis: "serwisu z zamówieniami online" }[p.hoursSrc] || "strony lokalu"}.</p>` : "");
 }
 function menuPane(p) {
   if (p.menu && p.menu.length) {

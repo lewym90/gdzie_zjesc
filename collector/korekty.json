@@ -416,6 +416,27 @@
   "bim-14a04",
   "hambuka-i-spoka-4402d",
   "kebab-i-nie-tylko-8ae01",
-  "kucharski-delikatesy-kulinarne-3587e"
- ]
+  "kucharski-delikatesy-kulinarne-3587e",
+  "szeptem-art-cafe-wine-bar-6b5b3",
+  "bukhara-restauracja-uzbecka-d767c",
+  "pizzeria-bazyl-i-ja-8b424",
+  "damaszek-kebab-lublin-85b74",
+  "pizza-take-and-go-43885",
+  "taki-myk-food-truck-ab71b",
+  "ciociagotuje-pl-express-w-masami-sushi-dbec9",
+  "garmazerka-kraina-smaku-22277",
+  "pasibrzuch-b8542",
+  "kasyno-wojskowe-nr-52-12862",
+  "nowy-komitet-klub-nocny-dd3bc",
+  "alshami-kebab-lublin-3ad6f"
+ ],
+ "www": {
+  "dirty-joe-lublin-5f41b": "https://dirtyjoe.pl/",
+  "nova-sushi-lublin-rogera-4670c": "https://www.novasushi.pl/lublin/",
+  "hot-pot-sajgon-cad5c": "http://sajgonlublin.pl/",
+  "dobra-paczkarnia-lublin-583f3": "https://dobrapaczkarnia.pl/nasze-punkty/lublin/",
+  "bistro-przy-peronie-pyszne-i-duze-jedzenie-z-dowozem-07d8e": "https://bistroprzyperonie.pl/",
+  "indian-palace-restaurant-c0444": "https://www.indianpalace.pl/",
+  "capri-72bfe": "https://www.capri-lublin.pl/"
+ }
 }
