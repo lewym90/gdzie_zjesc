@@ -13,7 +13,10 @@
    ],
    "czas": "ok. 1 h",
    "godziny_uwaga": "Zwiedzanie wyłącznie z przewodnikiem, o ustalonych godzinach wejść (w weekendy więcej wejść niż w dni powszednie) – aktualny harmonogram i ceny biletów sprawdź na stronie Teatru NN lub w kasie w Trybunale Koronnym.",
-   "www": "https://teatrnn.pl/"
+   "www": "https://teatrnn.pl/zwiedzanie-lublin/zaplanuj-wizyte-w-lubelskiej-trasie-podziemnej/",
+   "cena": "Normalny 37 zł, ulgowy 30 zł; z inscenizacją: 50 zł / 45 zł",
+   "cennik": "https://teatrnn.pl/zwiedzanie-lublin/zaplanuj-wizyte-w-lubelskiej-trasie-podziemnej/",
+   "dla": "Bilet abonamentowy Teatru NN (83 zł / 52 zł, ważny 30 dni) obejmuje też Piwnicę pod Fortuną, Dom Słów i wystawę w Bramie Grodzkiej. Bilet abonamentowy Teatru NN (83 zł / 52 zł, ważny 30 dni) obejmuje też Piwnicę pod Fortuną, Dom Słów i wystawę w Bramie Grodzkiej."
   },
   "0x4722576af6196557:0x7d71115727f5194b": {
    "nazwa": "Wieża Trynitarska",
@@ -51,7 +54,8 @@
    "cennik": "https://mnwl.pl/muzeum-historii-miasta-lublina/wizyta-w-oddziale-mhl/",
    "darmowe": "w wybrane dni każdego miesiąca – terminy na stronie muzeum",
    "czas": "ok. 1 h",
-   "godziny_uwaga": "Brama dostępna całą dobę; muzeum czynne wt–sob 10:00–17:00 (11 listopada nieczynne)."
+   "godziny_uwaga": "Brama dostępna całą dobę; muzeum czynne wt–sob 10:00–17:00 (11 listopada nieczynne).",
+   "www": "https://mnwl.pl/muzeum-historii-miasta-lublina/"
   },
   "0x4722576a81690663:0xe8a6c1594512773c": {
    "nazwa": "Bazylika i klasztor Dominikanów",
@@ -211,7 +215,7 @@
    "nazwa": "Zoo Wojciechów",
    "rodzaj": "okolice",
    "kategoria": "Park zwierząt",
-   "opis": "Rodzinny park zwierząt w centrum Wojciechowa, kilka kilometrów od Nałęczowa. Spotkasz tu m.in. lamy, alpaki, kangury, emu, surykatki i osły, a w mini zoo można z bliska kontaktować się z wybranymi zwierzętami i je karmić. Dla dzieci przygotowano place zabaw z trampolinami i zjeżdżalniami; spokojne obejście całości zajmuje ok. 2 godzin.",
+   "opis": "Rodzinny park zwierząt w Romanówce tuż za Wojciechowem, kilka kilometrów od Nałęczowa. Spotkasz tu m.in. lamy, alpaki, kangury, emu, surykatki i osły, a w mini zoo można z bliska kontaktować się z wybranymi zwierzętami i je karmić. Dla dzieci przygotowano place zabaw z trampolinami i zjeżdżalniami; spokojne obejście całości zajmuje ok. 2 godzin.",
    "zrodlo": "siec",
    "okazje": [
     "dzieci"
@@ -219,8 +223,10 @@
    "czas": "ok. 2 h",
    "godziny_uwaga": "Park działa sezonowo – przed wizytą sprawdź aktualne godziny otwarcia.",
    "dla": "Bilety kupuje się na miejscu (można płacić kartą); rezerwacja nie jest potrzebna.",
-   "adres": "Wojciechów 52A, 24-204 Wojciechów",
-   "www": null
+   "adres": "Romanówka 22, 24-204 Wojciechów",
+   "www": "https://www.zoowojciechow.pl/",
+   "cena": "Normalny 40 zł, ulgowy 30 zł, dzieci do 3 lat bezpłatnie; rodzinny (2+2) 120 zł",
+   "cennik": "https://www.zoowojciechow.pl/cennik.html"
   },
   "0x4722470024f9ad83:0x72f44a52414397e2": {
    "nazwa": "Pałac Sanguszków w Lubartowie",
@@ -311,7 +317,8 @@
    "okazje": [
     "dzieci"
    ],
-   "czas": "ok. 1 h"
+   "czas": "ok. 1 h",
+   "cena": "Normalny 25 zł, ulgowy 20 zł, dzieci do 3 lat bezpłatnie"
   },
   "0x472279fd96ae92f7:0xa7ab71d8e62f518c": {
    "nazwa": "Muzeum Badań Polarnych w Puławach",
@@ -355,7 +362,9 @@
    "czas": "ok. 30 min",
    "godziny_uwaga": "Wejścia z przewodnikiem o wyznaczonych godzinach – terminy i bilety w systemie rezerwacji Teatru NN.",
    "rezerwacja": "Zwiedzanie wyłącznie z przewodnikiem – bilety na konkretną godzinę warto zarezerwować online (bilety.teatrnn.pl).",
-   "bez_godzin": true
+   "bez_godzin": true,
+   "cena": "Normalny 30 zł, ulgowy 20 zł",
+   "cennik": "https://teatrnn.pl/piwnica-fortuna/"
   },
   "0x472257424093afdb:0x45905998b57484ab": {
    "nazwa": "Regionalne Muzeum Cebularza",
@@ -418,7 +427,10 @@
    ],
    "czas": "ok. 1 h",
    "godziny_uwaga": "Zwiedzanie z przewodnikiem o wyznaczonych godzinach – terminy w systemie rezerwacji Teatru NN.",
-   "rezerwacja": "Zwiedzanie tylko z przewodnikiem – bilety na konkretną godzinę warto zarezerwować online (bilety.teatrnn.pl)."
+   "rezerwacja": "Zwiedzanie tylko z przewodnikiem – bilety na konkretną godzinę warto zarezerwować online (bilety.teatrnn.pl).",
+   "cena": "Normalny 30 zł, ulgowy 20 zł; wystawy czasowe – wstęp wolny",
+   "cennik": "https://teatrnn.pl/zwiedzanie-lublin/zaplanuj-wizyte-w-domu-slow/",
+   "www": "https://teatrnn.pl/domslow/"
   },
   "0x47225741b6aec1f1:0x6b4dde30e291dbef": {
    "nazwa": "Latarnia Pamięci",
@@ -537,7 +549,8 @@
    "czas": "ok. 30 min (z ogrodem 1,5–2 h)",
    "godziny_uwaga": "Dworek i ogród czynne sezonowo, od kwietnia do października; zimą przerwa.",
    "dla": "Wejście do dworku tylko z biletem do Ogrodu Botanicznego (dopłata w kasie ogrodu); dzieci do 5 lat bezpłatnie.",
-   "bez_godzin": true
+   "bez_godzin": true,
+   "www": "https://www.umcs.pl/pl/ogrod-botaniczny.htm"
   },
   "0x4722581f38a2e979:0xaba212f7a5c72af4": {
    "nazwa": "Rezerwat przyrody Stasin",
@@ -605,8 +618,9 @@
     "widoki"
    ],
    "czas": "ok. 30–45 min",
-   "godziny_uwaga": "Brak oficjalnych godzin; w sezonie przy wejściu pobierana jest niewielka opłata.",
-   "dla": "W sezonie turystycznym wejście jest płatne (niewielka opłata pobierana przy wejściu). Na górze jest tylko kilka ławek, brak toalet."
+   "godziny_uwaga": "Opłatę pobiera kasa na szczycie, czynna w sezonie mniej więcej od 8:00 do 21:00; wzgórze nie jest ogrodzone.",
+   "dla": "W sezonie turystycznym wejście jest płatne (niewielka opłata pobierana przy wejściu). Na górze jest tylko kilka ławek, brak toalet.",
+   "cena": "6 zł (grupy od 20 osób: 4 zł) – tylko gotówką"
   },
   "0x47227d93eb237891:0xfcba6822f4e88a29": {
    "nazwa": "Kamienice Przybyłów w Kazimierzu Dolnym",
@@ -635,7 +649,8 @@
    "darmowe": "jeden dzień w tygodniu, ustalany co miesiąc – sprawdź na mnkd.pl",
    "czas": "ok. 1 h",
    "godziny_uwaga": "Od października do marca czynne codziennie oprócz wtorków 9:00–16:00; od kwietnia do września codziennie 10:00–17:00. Nieczynne m.in. 1 i 11 listopada oraz 24–25 grudnia.",
-   "dla": "Kasa kończy sprzedaż 30 minut przed zamknięciem."
+   "dla": "Kasa kończy sprzedaż 30 minut przed zamknięciem.",
+   "www": "https://mnkd.pl/"
   },
   "0x47227942d07d7d8f:0x5f8808a5293161e8": {
    "nazwa": "Park Czartoryskich w Puławach",
@@ -651,7 +666,8 @@
    "cennik": "https://muzeumczartoryskich.pulawy.pl/cennik/",
    "czas": "1,5–3 h",
    "godziny_uwaga": "Park otwarty codziennie 6:00–22:00. Pawilony parkowe (Świątynia Sybilli, Dom Gotycki, Domek Aleksandryjski) udostępniane od czerwca do września, od wtorku do niedzieli; poza tym okresem zwykle nieczynne.",
-   "dla": "Bilety do pawilonów tylko w kasie w pałacu (Sala Tradycji, parter). Od czerwca do września bilet do pałacu (30/22 zł) obejmuje też obiekty parkowe."
+   "dla": "Bilety do pawilonów tylko w kasie w pałacu (Sala Tradycji, parter). Od czerwca do września bilet do pałacu (30/22 zł) obejmuje też obiekty parkowe.",
+   "www": "https://muzeumczartoryskich.pulawy.pl/"
   },
   "0x472284326d1756a3:0x91d53c0f88ea44c0": {
    "nazwa": "Grodzisko Żmijowiska",
@@ -668,7 +684,8 @@
    "czas": "ok. 1 h",
    "godziny_uwaga": "Czynne codziennie od rana do zmierzchu.",
    "dla": "Ostatni odcinek dojazdu prowadzi drogą gruntową (groblą nad Jankówką) – po ulewach bywa trudno przejezdny. Lekcje i gry terenowe dla grup po rezerwacji.",
-   "bez_godzin": true
+   "bez_godzin": true,
+   "www": "https://zmijowiska.mnkd.pl/"
   },
   "0x47227fa0a4cff3ed:0xbff5a797d1bfa88": {
    "nazwa": "Zamek w Janowcu",
@@ -845,13 +862,17 @@
    "nazwa": "Wieża Ariańska w Wojciechowie",
    "rodzaj": "okolice",
    "kategoria": "Wieża mieszkalna i muzeum kowalstwa",
-   "opis": "Murowana wieża mieszkalna z przełomu XV i XVI w., wysoka na 27 m, należy do nielicznych takich budowli w Polsce z zachowanym pierwotnym układem wnętrz. Nazwę zawdzięcza jednemu z właścicieli związanemu z arianami. W środku są sala ze sklepieniem krzyżowym, kamienne piwnice, wystawa regionalna i muzeum kowalstwa z pracami mistrzów; w lipcu odbywa się tu festiwal kowali.",
+   "opis": "Murowana wieża mieszkalno-obronna z lat 1520–1530, wzniesiona przez Pileckich, wysoka na 27 m. Nazwa jest myląca: w XVI w. na trzeciej kondygnacji działał zbór kalwiński, a kalwinów mylono z arianami. W środku są sala ze sklepieniem krzyżowym, kamienne piwnice, Muzeum Regionalne i jedyne w Polsce Muzeum Kowalstwa; w lipcu odbywają się tu spotkania kowali.",
    "zrodlo": "siec",
    "okazje": [
     "deszcz"
    ],
    "czas": "ok. 1 h",
-   "godziny_uwaga": "Wnętrza wieży udostępniane głównie w sezonie (maj–wrzesień) – poza sezonem warto wcześniej zadzwonić do GOK Wojciechów."
+   "godziny_uwaga": "Muzea w wieży czynne: pon–pt 9:00–17:00, sob 10:00–17:00; w niedziele tylko od kwietnia do września.",
+   "cena": "Normalny 16 zł, ulgowy 13 zł (Muzeum Kowalstwa i Muzeum Regionalne)",
+   "cennik": "https://gokwojciechow.pl/muzeum-kowalstwa/",
+   "www": "https://gokwojciechow.pl/wieza-arianska/",
+   "bez_godzin": true
   },
   "0x47224232fd999747:0x76b0ad0e135befcc": {
    "nazwa": "Pałac Zamoyskich w Kozłówce",
@@ -893,11 +914,13 @@
    "opis": "Najbardziej znany kazimierski wąwóz to głębocznica – dawna droga, która z czasem wcięła się głęboko w miękki less. Spacer kilkusetmetrowym dnem pozwala oglądać plątaninę odsłoniętych korzeni starych drzew, wiszących na ścianach wąwozu. Leży ok. 2,5 km od Rynku w Kazimierzu na trasie ścieżki dydaktycznej; przejście w obie strony zajmuje około pół godziny.",
    "zrodlo": "siec",
    "okazje": [
+    "darmo",
     "dzieci"
    ],
    "czas": "ok. 30–45 min",
    "godziny_uwaga": "Teren otwarty; po deszczu ścieżka bywa błotnista. Przy wejściu płatne parkingi prywatne.",
-   "telefon": null
+   "telefon": null,
+   "cena": "Wstęp wolny"
   },
   "0x47227d9418d1aa59:0x86aa25d950531ddb": {
    "nazwa": "Zamek i baszta w Kazimierzu Dolnym",
@@ -909,7 +932,10 @@
     "widoki"
    ],
    "czas": "ok. 45 min",
-   "godziny_uwaga": "Jeden bilet obejmuje zamek i basztę; aktualne ceny i godziny sprawdź na miejscu."
+   "godziny_uwaga": "Kasa zamyka się pół godziny przed końcem zwiedzania. Przy niebezpiecznej pogodzie (oblodzenie, burza, ulewa) zespół zamkowy może być zamknięty.",
+   "cena": "Normalny 15 zł, ulgowy 10 zł (jeden bilet na zamek i basztę)",
+   "cennik": "https://kokpit.com.pl/zespol-zamkowy/dla-zwiedzajacych/",
+   "www": "https://kokpit.com.pl/zespol-zamkowy/dla-zwiedzajacych/"
   },
   "0x47227d93a3232d5b:0x4d70db20cdfbcd86": {
    "nazwa": "Klasztor Franciszkanów w Kazimierzu",
@@ -1150,7 +1176,8 @@
    "darmowe": "raz w tygodniu – dzień ogłaszany na stronie; wnętrza obiektów są wtedy zamknięte",
    "czas": "2–3 h",
    "godziny_uwaga": "Czynne codziennie: listopad–marzec 9:00–15:00, kwiecień i październik 9:00–17:00, maj–wrzesień 9:00–19:00; ostatnie wejście godzinę przed zamknięciem. Nieczynne 1 i 6 stycznia, w Wielkanoc, 1 listopada i 24–31 grudnia.",
-   "dla": "Grupy zorganizowane zwiedzają wyłącznie z przewodnikiem (ok. 1,5 h, rezerwacja). Przed wejściem bezpłatny parking."
+   "dla": "Grupy zorganizowane zwiedzają wyłącznie z przewodnikiem (ok. 1,5 h, rezerwacja). Przed wejściem bezpłatny parking.",
+   "www": "https://skansen.lublin.pl/"
   },
   "0x4722f86e333cb1d5:0x2447907b984d5661": {
    "nazwa": "Zalew Zemborzycki",
@@ -1221,7 +1248,9 @@
    ],
    "czas": "ok. 2 h",
    "godziny_uwaga": "Park działa sezonowo – przed przyjazdem sprawdź aktualne godziny i ceny na stronie park-labiryntow.pl.",
-   "dla": "Na miejscu jest parking; brak punktu gastronomicznego – warto zabrać prowiant."
+   "dla": "Na miejscu jest parking; brak punktu gastronomicznego – warto zabrać prowiant.",
+   "cena": "Normalny 35 zł, ulgowy 30 zł, dzieci do 4 lat bezpłatnie",
+   "cennik": "https://park-labiryntow.pl/bilety/"
   },
   "0x47227d00883b5309:0x259157d36b20aa76": {
    "nazwa": "Wąwóz Kwaskowa Góra w Kazimierzu Dolnym",
@@ -1251,7 +1280,8 @@
    "darmowe": "jeden dzień w tygodniu, ustalany co miesiąc – sprawdź na mnkd.pl",
    "czas": "ok. 45 min",
    "godziny_uwaga": "1 października – 31 marca: 9:00–16:00, we wtorki nieczynne; 1 kwietnia – 30 września: codziennie 10:00–17:00. Kasa kończy sprzedaż 30 min przed zamknięciem.",
-   "dla": "Do domu prowadzi dość strome podejście; zwiedzanie zaczyna się od krótkiego filmu o właścicielach."
+   "dla": "Do domu prowadzi dość strome podejście; zwiedzanie zaczyna się od krótkiego filmu o właścicielach.",
+   "www": "https://mnkd.pl/"
   },
   "0x4722e8393bf45859:0x7ec02eb55898f62": {
    "nazwa": "Muzeum 24. Pułku Ułanów w Kraśniku",
@@ -1328,7 +1358,9 @@
    "czas": "4–6 h",
    "godziny_uwaga": "Park czynny sezonowo, mniej więcej od maja do początku października; w części miesięcy tylko w weekendy. Daty i ceny sprawdź na magiczneogrody.com.",
    "dla": "Bilety sprzedawane online; parking bezpłatny. Mroczna strefa (zwiedzana z przewodnikiem o stałych porach) nie jest przeznaczona dla młodszych dzieci.",
-   "bez_godzin": true
+   "bez_godzin": true,
+   "cena": "Normalny 119 zł, ulgowy (do 14 lat i 60+) 109 zł, dzieci do 100 cm wzrostu 15 zł – cennik sezonu 2026",
+   "cennik": "https://magiczneogrody.com/bilety/"
   }
  }
 }
