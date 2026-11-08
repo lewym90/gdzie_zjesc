@@ -51,7 +51,9 @@
   "Bawialnia Bałagan",
   "Plac do mini - golfa",
   "Legia Paintballowa",
-  "ExitRoom - Escape Room Lublin"
+  "ExitRoom - Escape Room Lublin",
+  "Coolki",
+  "Supergolf"
  ],
  "grupa": {
   "Hala Globus im. Tomasza Wójtowicza": "kino",
@@ -374,7 +376,7 @@
    "indoor": true,
    "desc": "Kameralna sala zabaw urządzona w klimacie dżungli, ze zjeżdżalniami i wieloma atrakcjami dla maluchów.",
    "zrodlo": "opinie",
-   "godziny_uwaga": "Nie udało się potwierdzić aktualnych godzin – przed wizytą zadzwoń.",
+   "godziny_uwaga": "W niedziele czynne 10:00–19:00 (według profilu sali); godziny w pozostałe dni sprawdzisz na Instagramie lub telefonicznie.",
    "www": "https://www.instagram.com/miglancsalazabaw/"
   },
   "Lodowisko Zimowy Lublin": {
