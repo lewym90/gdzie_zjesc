@@ -1,5 +1,5 @@
 "use strict";
-const APP_V = "20261108-153022";
+const APP_V = "20261108-192705";
 /* Gdzie zjeść: przeglądarka lokali. Tylko wyświetla dane z data/places.json. */
 
 const ICO = {

@@ -1,0 +1,1186 @@
+{
+ "miejsca": {
+  "0x472257658dd94c5f:0xfbf6156b2b267fc7": {
+   "nazwa": "Centrum Handlowe Lublin Plaza",
+   "rodzaj": "galerie",
+   "kategoria": "Galeria handlowa",
+   "opis": "Trzypoziomowe centrum handlowe przy ul. Lipowej, w samym centrum miasta. Mieści ponad sto sklepów i punktów usługowych, kino Cinema City z ośmioma salami, lokale gastronomiczne oraz całodobowy klub fitness.",
+   "co_kupic": "odzież i obuwie, kosmetyki, książki i multimedia, biżuteria, zabawki",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz",
+    "prezent"
+   ],
+   "dla": "Pod centrum jest dwupoziomowy parking podziemny (ok. 680 miejsc), płatny; kino czynne według repertuaru, klub fitness całą dobę.",
+   "dowody": [
+    "http://www.lublinplaza.pl/o-nas – trzy poziomy, ponad 100 sklepów (m.in. Reserved, Smyk, Empik, W.Kruk, Sephora), Cinema City z 8 salami, gastronomia, CityFit 24/7",
+    "http://www.lublinplaza.pl/ – godziny otwarcia, kino wg repertuaru",
+    "https://www.google.com/maps/place/Centrum+Handlowe+Lublin+Plaza – adres Lipowa 13; opinie o płatnym parkingu i wąskich miejscach"
+   ]
+  },
+  "0x472250a6154e7e45:0x5d5823e9b6f3d766": {
+   "nazwa": "Centrum Handlowe SKENDE Shopping",
+   "rodzaj": "galerie",
+   "kategoria": "Galeria handlowa",
+   "opis": "Centrum handlowe przy al. Spółdzielczości Pracy, połączone ze sklepem IKEA. Ma blisko 70 sklepów i punktów usługowych – m.in. H&M, TK Maxx, salony meblowe i sklepy z wyposażeniem wnętrz. Przy budynku jest pumptrack oraz plac zabaw na świeżym powietrzu.",
+   "co_kupic": "meble i wyposażenie wnętrz, dekoracje i oświetlenie, odzież, artykuły do domu",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz",
+    "dzieci"
+   ],
+   "dla": "Parking na ok. 2000 samochodów; plac zabaw wewnątrz i na zewnątrz, pokój rodzica z dzieckiem; można wejść z psem.",
+   "dowody": [
+    "https://www.skendeshopping.pl/pl/o-nas – połączenie z IKEA, blisko 60 sklepów i punktów usług, salony wyposażenia wnętrz, pumptrack, mini skatepark, Strefa Psa, parking na 2000 aut",
+    "https://www.skendeshopping.pl/pl/udogodnienia – plac zabaw wewnętrzny i zewnętrzny, pokój rodzica z dzieckiem",
+    "https://www.skendeshopping.pl/pl – „Na zakupy z psem”, godziny otwarcia"
+   ]
+  },
+  "0x47225745cfd257df:0x9bb163294005f87": {
+   "nazwa": "Eko Sklep Lubartowska 77",
+   "rodzaj": "regionalne",
+   "kategoria": "Sklep z produktami regionalnymi",
+   "opis": "Sklep z ekologiczną żywnością i wyrobami lokalnych gospodarzy i rzemieślników w dawnej Fabryce Wag Wilhelma Hessa przy ul. Lubartowskiej. Poza jedzeniem są naturalne kosmetyki i rękodzieło, a w każdą sobotę odbywa się tu Jarmark Lubelski z produktami prosto od producentów.",
+   "co_kupic": "produkty od lokalnych gospodarzy, przetwory, ręcznie robione słodycze, naturalne kosmetyki, rękodzieło, zestawy prezentowe",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "W poniedziałki nieczynne; Jarmark Lubelski w soboty 7:30–13:00; na zamówienie zestawy upominkowe „Prezent Lubelski”; warsztaty pieczenia cebularzy (Akademia Cebularza).",
+   "www": "https://lubartowska77.pl/",
+   "dowody": [
+    "https://lubartowska77.pl/sklep-eko/ – produkty od lokalnych gospodarzy, eko pieczywo, przetwory, naturalne kosmetyki, rękodzieło; godziny",
+    "https://lubartowska77.pl/jarmark-lubelski-2/ – sobotni jarmark 7:30–13:00 w zabytkowej hali dawnej fabryki wag; chleby, sery, miody, rękodzieło",
+    "https://lubartowska77.pl/prezent-lubelski/ – zestawy prezentowe z produktami regionalnymi",
+    "https://lubartowska77.pl/akademia-cebularza/ – warsztaty pieczenia cebularza",
+    "https://www.google.com/maps/place/Eko+Sklep+Lubartowska+77 – opinie: krówki lubelskie, upominki, rękodzieło"
+   ]
+  },
+  "0x472259e5c3da5605:0xdf930f16b7ffc266": {
+   "nazwa": "Delikatesy Śródziemnomorskie Corrida",
+   "rodzaj": "regionalne",
+   "kategoria": "Delikatesy",
+   "opis": "Delikatesy z produktami z Hiszpanii przy ul. Tarasowej, działające od 2009 r. przy lubelskim importerze Corrida. Są tu długo dojrzewające szynki serrano i ibérico, hiszpańskie sery, oliwki, oliwy i przyprawy.",
+   "co_kupic": "szynki serrano i ibérico, hiszpańskie sery, oliwki, oliwa, przyprawy",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent"
+   ],
+   "dowody": [
+    "https://www.google.com/maps/place/Delikatesy+%C5%9Ar%C3%B3dziemnomorskie+CORRIDA+-+hiszpa%C5%84skie+w%C4%99dliny,+sery,+oliwki,+przyprawy+i+inne – nazwa i opis wpisu (hiszpańskie wędliny, sery, oliwki, przyprawy); opinie: lada na wagę, pasztety belgijskie, wina południowej Europy; ocena 4,9 (98)"
+   ],
+   "www": "https://www.facebook.com/DelikatesyCorrida/"
+  },
+  "0x472257c9f790cd6f:0xf7bd9f93ee499546": {
+   "nazwa": "Galeria Nasz Świat",
+   "rodzaj": "pamiatki",
+   "kategoria": "Galeria sztuki i pamiątki",
+   "opis": "Mała rodzinna galeria przy ul. Kowalskiej na Starym Mieście, prowadzona przez artystów z rodziny Banaszków. Można kupić ich obrazy, m.in. widoki Lublina, a także biżuterię i kubki z reprodukcjami prac – dobry pomysł na pamiątkę z miasta.",
+   "co_kupic": "obrazy, kubki z reprodukcjami obrazów, biżuteria, pamiątki z Lublina",
+   "zrodlo": "siec",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dowody": [
+    "https://www.inyourpocket.com/poland/lublin/venues/nasz-swiat – rodzinna galeria Tomasza Banaszka, Anny Celińskiej-Banaszek i Kingi Banaszek; obrazy (m.in. Lublin), biżuteria i pamiątki; adres Kowalska 1",
+    "https://www.google.com/maps/place/Galeria+Nasz+%C5%9Awiat – opinie: kubki z obrazami na pamiątkę z Lublina, biżuteria, gadżety związane z Lublinem; Starówka"
+   ]
+  },
+  "0x4722574da40425c7:0x36baf44627d270b8": {
+   "nazwa": "Retro Skład",
+   "rodzaj": "vintage",
+   "kategoria": "Odzież z drugiej ręki",
+   "opis": "Niewielki sklep w podwórku przy ul. Peowiaków, blisko deptaka i placu Litewskiego. Sprzedaje wyselekcjonowane ubrania z drugiego obiegu, z naciskiem na dobre składy i naturalne materiały. Organizuje też warsztaty dla dzieci i dorosłych; część rzeczy można kupić online.",
+   "co_kupic": "odzież z drugiej ręki, ubrania z naturalnych materiałów",
+   "zrodlo": "opinie",
+   "okazje": [
+    "lokalne"
+   ],
+   "dla": "Wejście od podwórka kamienicy przy ul. Peowiaków 10; warsztaty dla dzieci i dorosłych.",
+   "dowody": [
+    "https://www.google.com/maps/place/Retro+Sk%C5%82ad – adres „W podwórku, Peowiaków 10”; opinie: ubrania premium z drugiego obiegu, naturalne składy (wełna, bawełna, jedwab, skóra), uprane i wyprasowane, blisko deptaka i pl. Litewskiego; ocena 5,0 (38)"
+   ],
+   "godziny": "pon–wt zamknięte, śr–pt 12:00–18:00, sob 10:00–14:00, nd zamknięte",
+   "www": "https://www.instagram.com/retro_sklad_lublin/"
+  },
+  "0x47225741c80438c1:0x4173bd7c0aa6d27a": {
+   "nazwa": "Galeria Sztuki Wirydarz",
+   "rodzaj": "pamiatki",
+   "kategoria": "Galeria sztuki",
+   "opis": "Galeria sztuki współczesnej przy ul. Grodzkiej 19 na Starym Mieście, założona w 1999 r. przez Piotra Zielińskiego. Pokazuje i sprzedaje prace polskich artystów – głównie malarstwo, a także pastele, grafiki i rzeźbę; zorganizowała w swojej siedzibie ponad 170 wystaw.",
+   "co_kupic": "obrazy, pastele, grafiki, rzeźby",
+   "zrodlo": "siec",
+   "okazje": [
+    "prezent"
+   ],
+   "dla": "W niedziele i poniedziałki nieczynne; inne terminy można umówić telefonicznie.",
+   "dowody": [
+    "https://inyourpocket.com/lublin/wirydarz-art-gallery_168942v – galeria sztuki współczesnej na Starym Mieście, 148 wystaw, malarstwo, pastele, grafika; Grodzka 19; poniedziałek zamknięte",
+    "https://www.google.com/maps/place/Wirydarz+-+Galeria+Sztuki+Wsp%C3%B3%C5%82czesnej+Piotra+Zieli%C5%84skiego – nazwa z imieniem Piotra Zielińskiego; opinie: polecane „kupującym i oglądającym”"
+   ],
+   "www": "https://wirydarz.com.pl/"
+  },
+  "0x472257b922da9ce3:0x92da6edb3e7ce66f": {
+   "nazwa": "Księgarnia Dosłowna",
+   "rodzaj": "ksiegarnie",
+   "kategoria": "Księgarnia",
+   "opis": "Kameralna autorska księgarnia w budynku Centrum Kultury przy ul. Peowiaków, z wnętrzem zaaranżowanym przez Roberta Kuśmirowskiego, nawiązującym do przeszłości budynku. Ma literaturę piękną, reportaże, książki dla dzieci i z nauk społecznych, a także dział antykwaryczny z przedwojennymi czasopismami; odbywają się tu spotkania autorskie.",
+   "co_kupic": "literatura piękna, reportaże, książki dla dzieci, wydania antykwaryczne",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dowody": [
+    "https://ck.lublin.pl/?p=33513 – księgarnia autorska w Centrum Kultury, wnętrze Roberta Kuśmirowskiego, asortyment (beletrystyka, reportaż, dla dzieci, nauki społeczne, antykwariat), spotkania autorskie",
+    "https://www.google.com/maps/place/Ksi%C4%99garnia+Dos%C5%82owna – adres Peowiaków 12, Centrum Kultury; ocena 5,0 (11)"
+   ],
+   "godziny": "pon 10:00–15:00, wt–pt 10:00–18:00, sob 10:00–15:00, nd zamknięte",
+   "www": "https://ck.lublin.pl/centralna/"
+  },
+  "0x472259c67323ceeb:0x687f2461be5d977d": {
+   "nazwa": "Willa Win",
+   "rodzaj": "trunki",
+   "kategoria": "Sklep z winem",
+   "opis": "Duży skład wina połączony z wine barem przy ul. Wrotkowskiej, poza ścisłym centrum. Ma ok. 400 rodzajów win z całego świata, a w wine barze odbywają się degustacje i kolacje. Prowadzi też szkolenia i kursy o winie oraz sklep internetowy.",
+   "co_kupic": "wina z różnych krajów, wina na prezent",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent"
+   ],
+   "dla": "Organizowane są degustacje i kursy o winie (kalendarz wydarzeń na stronie); w niedziele nieczynne.",
+   "www": "https://www.willawin.pl/",
+   "dowody": [
+    "https://willawin.pl/ – sklep i wine bar, wina z całego świata, degustacje, kolacje z sommelierem, kursy, zestawy prezentowe",
+    "https://willawin.pl/sklepy-willa-win – Willa Win Wine Bar, Wrotkowska 2; pon.–pt. 10–18, sob. 11–16",
+    "https://www.google.com/maps/place/Willa+Win – adres; opinie o winiarni i eventach; ocena 4,5 (95)"
+   ]
+  },
+  "0x4722576a2387e3dd:0x5cb5e76a4b6d234a": {
+   "nazwa": "Lody Bosko",
+   "rodzaj": "slodkie",
+   "kategoria": "Lodziarnia",
+   "opis": "Lodziarnia lubelskiej marki rzemieślniczych lodów, która zaczynała w 2015 roku w centrum Lublina, a dziś ma lokale w wielu miastach. Punkt przy Krakowskim Przedmieściu słynie z dużych porcji i długiej listy smaków, w tym sorbetów, lodów bez cukru i wegańskich; często ustawiają się tu kolejki.",
+   "co_kupic": "lody rzemieślnicze, sorbety, lody bez cukru i wegańskie, gofry",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci"
+   ],
+   "dla": "W lokalu jest tylko kilka stolików; za słodkie wafle pobierana jest dopłata.",
+   "dowody": [
+    "http://www.lodybosko.pl/o-nas – historia od 2015 r. w Lublinie, ponad 370 receptur, porcja 120 g, sorbety, lody bez cukru i wegańskie, gofry",
+    "http://www.lodybosko.pl/lokalizacje – sieć lokali w wielu miastach; siedziba Krakowskie Przedmieście 4",
+    "https://www.google.com/maps/place/BOSKO+-+Lody+Produkcji+W%C5%82asnej – adres Krakowskie Przedmieście 4; opinie: kolejki, duże porcje, gofry, kilka stolików, dopłata do wafli; ocena 4,6 (5641)"
+   ]
+  },
+  "0x4722577aa3774fb3:0x2d335aecabcdfcbd": {
+   "nazwa": "Coffee & Sons",
+   "rodzaj": "regionalne",
+   "kategoria": "Palarnia kawy",
+   "opis": "Rodzinna palarnia kawy z coffee barem i showroomem przy ul. Lubomelskiej. Można kupić świeżo paloną kawę ziarnistą – mieszanki i single origin, do ekspresu, kawiarki i metod przelewowych – a także herbaty i zestawy prezentowe; na miejscu da się też wypić kawę.",
+   "co_kupic": "świeżo palona kawa ziarnista, kawy single origin, herbaty, zestawy prezentowe z kawą",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dowody": [
+    "http://www.coffeeandsons.pl/ – świeżo palona kawa ziarnista, mieszanki i single origin, kawy do ekspresu i przelewu, herbaty, zestawy prezentowe, karty podarunkowe",
+    "https://www.google.com/maps/place/Coffee+%26+Sons+Rodzinna+Palarnia+Kawy – adres Lubomelska 9/U5; opinie: sklep stacjonarny, kawa do wypicia na miejscu, rodzinna palarnia; ocena 4,6 (305)"
+   ],
+   "godziny": "pon–pt 08:00–17:00, sob 09:00–13:00, nd zamknięte"
+  },
+  "0x4722574e5bb50fd9:0x703f89f638e925e9": {
+   "nazwa": "Czekoladowa Solidarność",
+   "rodzaj": "slodkie",
+   "kategoria": "Sklep firmowy z czekoladami",
+   "opis": "Sklep firmowy z kawiarnią lubelskiej marki słodyczy Solidarność (grupa Colian) w Galerii Olimp. Duży wybór czekolad, pralin i innych słodyczy producenta oraz kosze prezentowe; można też usiąść na kawę i ciasto.",
+   "co_kupic": "czekolady, praliny, bombonierki, kosze prezentowe",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "Sklep znajduje się na poziomie 0 Galerii Olimp (Olimp IV, lokal 407).",
+   "dowody": [
+    "https://colian.com/en/history/ – Solidarność jako marka z Lublina, w grupie Colian od 2013 r., znana z pralin",
+    "https://www.google.com/maps/place/Czekoladowa+Solidarno%C5%9B%C4%87+Sklep+i+Kawiarnia – adres Olimp IV, poziom 0, lokal 407, al. Spółdzielczości Pracy 32; opinie: duży wybór słodyczy, kosze prezentowe, kawa i ciasto, słodycze firmy Colian; ocena 4,8 (298)"
+   ]
+  },
+  "0x47225741913cb743:0x2cb0c35b803b6049": {
+   "nazwa": "Piekarnia Kuźmiuk – Furmańska",
+   "rodzaj": "slodkie",
+   "kategoria": "Piekarnia rzemieślnicza",
+   "opis": "Najstarsza rzemieślnicza piekarnia w Lublinie, od 1944 roku prowadzona przez jedną rodzinę przy ul. Furmańskiej, ok. 150 m od placu Zamkowego. Słynie z cebularzy, a poza nimi piecze chleby na własnym zakwasie żytnim, bajgle, chały i drożdżówki – bez polepszaczy i konserwantów.",
+   "co_kupic": "cebularze, chleb na zakwasie żytnim, bajgle, chały, drożdżówki",
+   "zrodlo": "strona",
+   "okazje": [
+    "lokalne"
+   ],
+   "dla": "W niedziele nieczynne; w soboty krócej, do 15:00.",
+   "dowody": [
+    "https://piekarnia-kuzmiuk.pl/ – najstarsza rzemieślnicza piekarnia w Lublinie, od 1944 r., Furmańska 4, 150 m od pl. Zamkowego, zakwas żytni, cebularze, bajgle, chały, bez polepszaczy; godziny pon.–pt. i sob.",
+    "https://www.inyourpocket.com/poland/lublin/venues/kuzmiuk-bakery – rodzinna piekarnia od 1944 r., cebularz z rodzinnego przepisu, niedziela zamknięte",
+    "https://www.greatbritishchefs.com/features/lublin-food-guide – polecana jako miejsce na cebularza",
+    "https://www.google.com/maps/place/Piekarnia+Ku%C5%BAmiuk – opinie: cebularz na ciepło z masłem, można zjeść na miejscu; ocena 4,6 (507)"
+   ]
+  },
+  "0x4722572e63b2a923:0x4f9e471bebae1851": {
+   "nazwa": "Rany Julek! – Olimp",
+   "rodzaj": "pamiatki",
+   "kategoria": "Sklep z zabawkami",
+   "opis": "Sklep z zabawkami edukacyjnymi i wyprawką dla niemowląt w Galerii Olimp. W ofercie m.in. zabawki drewniane, Montessori, STEM, gry, puzzle i książki dla dzieci od marek takich jak Djeco, HABA, Janod czy Melissa & Doug; obsługa pomaga dobrać prezent.",
+   "co_kupic": "zabawki edukacyjne, zabawki drewniane i Montessori, gry i puzzle, książki dla dzieci, wyprawka dla niemowląt",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci",
+    "prezent"
+   ],
+   "dla": "Sklep działa w Galerii Olimp; Rany Julek ma też sklep przy ul. Zana 19 i sprzedaje przez internet.",
+   "dowody": [
+    "http://www.ranyjulek.pl/ – kategorie (drewniane, Montessori, STEM, gry, puzzle, książki, wyprawka) i marki (Djeco, HABA, Janod, Melissa & Doug); sklep w Lublinie i online",
+    "https://www.google.com/maps/place/Rany+Julek!+Od+wyprawki,+po+zabawki – adres C.H. Olimp, al. Spółdzielczości Pracy 34, piętro G; opinie: pomoc w wyborze prezentu, zabawki edukacyjne; ocena 4,9 (109)"
+   ]
+  },
+  "0x472259d1eb5b90fd:0xf8ec5242e86bedb7": {
+   "nazwa": "Targ na Wileńskiej",
+   "rodzaj": "targi",
+   "kategoria": "Targowisko",
+   "opis": "Osiedlowy targ przy ul. Wileńskiej na LSM, działający od lat 60. w modernistycznym obiekcie zaprojektowanym przez Oskara i Zofię Hansenów; dziś przyciąga też miłośników architektury. Kupuje się tu przede wszystkim owoce, warzywa i kwiaty, a w pawilonach jest m.in. sklep Piekarni Kuźmiuk.",
+   "co_kupic": "owoce i warzywa, kwiaty, pieczywo",
+   "zrodlo": "opinie",
+   "okazje": [
+    "lokalne"
+   ],
+   "dla": "Obiekt należy do Lubelskiej Spółdzielni Mieszkaniowej i czeka na remont.",
+   "dowody": [
+    "https://www.google.com/maps/place/Targ+na+Wile%C5%84skiej – adres Wileńska 21; opinie: owoce, warzywa, kwiaty, miody, kasze, jaja wiejskie, sklepy mięsne, piekarnie, cukiernie, lumpeks, antykwariat; tłok w soboty; ocena 4,2 (2222)",
+    "https://www.google.com/maps/place/Ksi%C4%99garnia-Antykwariat – opinia o trudnościach z parkowaniem przy targu (punkt na terenie targu)"
+   ]
+  },
+  "0x47225766516685e5:0xdf46ddd550091bf9": {
+   "nazwa": "Grono",
+   "rodzaj": "trunki",
+   "kategoria": "Sklep z winem",
+   "opis": "Sklep z winem i wine bar przy ul. Ewangelickiej w centrum, działający od kilkunastu lat. W loftowym wnętrzu można kupić wina z Europy i Nowego Świata, w tym biodynamiczne, albo wypić kieliszek na miejscu; organizowane są degustacje.",
+   "co_kupic": "wina europejskie, wina z Nowego Świata, wina biodynamiczne",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "Wino można kupić na wynos lub wypić na miejscu; obsługa doradza przy wyborze.",
+   "www": "https://gronowina.pl/",
+   "dowody": [
+    "https://gronowina.pl/ – sklep stacjonarny i wine bar, ponad 12 lat działalności, loftowe wnętrze, wina z Europy i Nowego Świata, biodynamiczne, degustacje",
+    "https://www.google.com/maps/place/%22Grono%22+-+Sklep+z+winem+%26+Wine+Bar – adres Ewangelicka 6; opinie: na miejscu i na wynos, degustacje, sery, doradztwo; ocena 4,9 (72)"
+   ]
+  },
+  "0x4722575281890a25:0x8fb2b200832855c3": {
+   "nazwa": "Felicity Lublin",
+   "rodzaj": "galerie",
+   "kategoria": "Galeria handlowa",
+   "opis": "Duże centrum handlowe przy al. Witosa, we wschodniej części Lublina – ok. 120 sklepów i punktów usług. Obok sieci odzieżowych (m.in. H&M, Zara, Reserved, Primark, TK Maxx) są tu hipermarket Auchan, Leroy Merlin, MediaMarkt, Empik i Smyk oraz kino Cinema City.",
+   "co_kupic": "odzież i obuwie znanych marek, kosmetyki, książki i zabawki, elektronika, artykuły do domu",
+   "zrodlo": "siec",
+   "okazje": [
+    "deszcz",
+    "dzieci",
+    "prezent"
+   ],
+   "dla": "Parking naziemny i podziemny (ok. 3100 miejsc); w centrum działa kino Cinema City.",
+   "dowody": [
+    "https://www.malls.com/malls/atrium-felicity – ok. 120 sklepów, największe centrum w Lublinie, najemcy (Auchan, Leroy Merlin, Saturn, Empik, Smyk), parking naziemny i podziemny",
+    "https://intravel.net/lublin/shopping/felicity – bezpłatny parking podziemny, kino, restauracje",
+    "https://cinema-city.pl/kina/Felicity – kino Cinema City w Felicity"
+   ]
+  },
+  "0x472258365e8f0829:0xbe46347fd9cd6733": {
+   "nazwa": "Galeria Orkana",
+   "rodzaj": "galerie",
+   "kategoria": "Galeria handlowa",
+   "opis": "Galeria handlowa średniej wielkości przy ul. Orkana, w zachodniej części Lublina. Są tu sklepy odzieżowe i obuwnicze (m.in. Reserved, Cropp, House, CCC), drogerie Rossmann i Hebe, Empik, Jysk i Pepco, a także punkty usług i Cukiernia Sowa.",
+   "co_kupic": "odzież i obuwie, kosmetyki, książki i prasa, artykuły do domu, biżuteria",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "dla": "Bezpłatny parking.",
+   "dowody": [
+    "https://orkana.pl/ – lista najemców (Reserved, Cropp, House, CCC, Rossmann, Hebe, Empik, Jysk, Pepco, Cukiernia Sowa), darmowy parking",
+    "Opinie w Mapach Google – przestronne alejki, brak tłoku, parking"
+   ]
+  },
+  "0x4722576ab4ef57a7:0x58cac95c6c6b900b": {
+   "nazwa": "Targ pod Zamkiem",
+   "rodzaj": "targi",
+   "kategoria": "Targowisko",
+   "opis": "Największy targ w Lublinie, na błoniach zamkowych przy al. Unii Lubelskiej, niedaleko Zamku i Starego Miasta. Są tu warzywa i owoce od lokalnych dostawców, rośliny i sadzonki, odzież dla całej rodziny, obuwie, wyroby garmażeryjne i kwiaty, a także giełda zwierząt. Czynny codziennie, także w niedzielę.",
+   "co_kupic": "warzywa i owoce, rośliny i sadzonki, kwiaty, odzież i obuwie, wyroby garmażeryjne",
+   "zrodlo": "strona",
+   "okazje": [
+    "lokalne"
+   ],
+   "dla": "W soboty od 5:00 do 12:00 giełda owoców i warzyw.",
+   "dowody": [
+    "https://targpodzamkiem.pl/ – największy targ w Lublinie, asortyment (owoce i warzywa od lokalnych dostawców, odzież, obuwie, garmaż, rośliny, zwierzęta), czynny 7 dni w tygodniu, w soboty od 5 do 12 owoce i warzywa",
+    "Opinie w Mapach Google – wyroby z wikliny, drewniane przybory kuchenne, miody; tani parking blisko Starego Miasta"
+   ]
+  },
+  "0x472257248c4cc9e9:0x1c9885972dfbca7b": {
+   "nazwa": "Pamiątki z Lublina – Cebularz",
+   "rodzaj": "pamiatki",
+   "kategoria": "Sklep z pamiątkami",
+   "opis": "Niewielki sklep z pamiątkami i produktami regionalnymi przy Rynku 8 na Starym Mieście. Obok magnesów i upominków z Lublina sprzedaje lubelskie cebularze i inne lokalne przysmaki, a także rękodzieło.",
+   "co_kupic": "cebularze, magnesy, pamiątki z Lublina, produkty regionalne, rękodzieło",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dowody": [
+    "Opinie w Mapach Google – sklep z pamiątkami w bramie przy Rynku, cebularze na ciepło, magnesy, lokalne produkty",
+    "https://hopsa.io/en/attractions/poland,food-stores,pamiatki-z-lublina-cebularz-8ff65da76b – adres Rynek 8, płatność kartą"
+   ],
+   "www": "https://www.facebook.com/PamiatkizLublinaCEBULARZ/"
+  },
+  "0x472257b2ed8a7697:0xd158a63bbc288c4d": {
+   "nazwa": "Delikatesy Best",
+   "rodzaj": "trunki",
+   "kategoria": "Sklep z piwem kraftowym",
+   "opis": "Osiedlowe delikatesy przy ul. Herberta, które obok zwykłych zakupów spożywczych mają rozbudowany dział piw rzemieślniczych w różnych stylach.",
+   "co_kupic": "piwa kraftowe różnych stylów, piwa polskich browarów rzemieślniczych",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent"
+   ],
+   "dla": "Czynne także w niedziele.",
+   "dowody": [
+    "Opinie w Mapach Google – duży wybór piw kraftowych i rzemieślniczych różnych stylów, dobre ceny, piwa m.in. Browaru Zakładowego i Dzikiego Wschodu; część opinii krytykuje znajomość asortymentu"
+   ]
+  },
+  "0x4722572c51ba4b25:0xc331de7b00c9bfff": {
+   "nazwa": "Ceramika Bolesławiec Lublin",
+   "rodzaj": "pamiatki",
+   "kategoria": "Sklep z ceramiką",
+   "opis": "Sklep z ceramiką z Bolesławca przy ul. Lubartowskiej, kilka kroków od Starego Miasta. Ma duży wybór ręcznie zdobionych naczyń w charakterystyczne bolesławieckie wzory – od kubków i talerzy po dzbanki i ozdoby.",
+   "co_kupic": "kubki, talerze i misy, dzbanki, ozdobna ceramika",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent"
+   ],
+   "dowody": [
+    "https://tripaligner.com/countries/poland-28/destinations/lubartow-12710/places/ceramika-boleslawiec-lublin-21410429 – autoryzowany sklep manufaktury z Bolesławca, ręcznie robiona ceramika w ludowe wzory, adres Lubartowska 9",
+    "https://art.boleslawiec.pl/ – sklep oferuje warsztaty ceramiczne i bony",
+    "Opinie w Mapach Google – duży wybór ceramiki, warsztaty zdobienia kubków dla każdego wieku"
+   ],
+   "www": "https://www.facebook.com/CeramikaBoleslawiecLublin/"
+  },
+  "0x47225741c6b84bf7:0x2406abb1b4ab2711": {
+   "nazwa": "Galeria Q-fer",
+   "rodzaj": "pamiatki",
+   "kategoria": "Galeria rękodzieła",
+   "opis": "Galeria rękodzieła i sztuki użytkowej przy ul. Grodzkiej na Starym Mieście, działająca od 2007 r. Sprzedaje wyłącznie autorskie prace – obrazy, rzeźby, ceramikę, ubrania, biżuterię i dodatki do wnętrz – a zakupy często można zrobić bezpośrednio u twórców.",
+   "co_kupic": "ceramika, biżuteria, obrazy, rzeźby, dodatki do wnętrz",
+   "zrodlo": "siec",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "Nieczynna w niedziele.",
+   "dowody": [
+    "https://www.inyourpocket.com/poland/lublin/venues/galeria-q-fer – galeria założona w 2007 r., autorskie prace (malarstwo, rzeźba, ceramika, odzież, biżuteria, wnętrza), Grodzka 22, zamknięte w niedziele",
+    "Opinie w Mapach Google – rękodzieło, przedmioty dobrej jakości"
+   ]
+  },
+  "0x4722576a47a64c1f:0xd7248debc38a96cf": {
+   "nazwa": "Księgarnia Świętego Pawła",
+   "rodzaj": "ksiegarnie",
+   "kategoria": "Księgarnia katolicka",
+   "opis": "Katolicka księgarnia patronacka wydawnictwa Edycja Świętego Pawła przy ul. Królewskiej, między Bramą Krakowską a archikatedrą. Ma duży wybór książek religijnych, Biblii i modlitewników, a także ikony, dewocjonalia, kartki okolicznościowe i płyty. Organizuje spotkania z autorami.",
+   "co_kupic": "książki religijne, Pismo Święte i modlitewniki, ikony, dewocjonalia, kartki okolicznościowe, płyty z muzyką i filmami",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent"
+   ],
+   "dowody": [
+    "Opinie w Mapach Google – duży wybór książek religijnych, modlitewników, Pism Świętych, ikon, magnesów, kubków i koszulek; kawa z ekspresu",
+    "https://edycja.com.pl/ – wydawnictwo Edycja Świętego Pawła prowadzące sieć księgarń"
+   ],
+   "www": "https://www.facebook.com/ksiegarniawlublinie/"
+  },
+  "0x472257665598cb81:0x3ec49f92d591b8ab": {
+   "nazwa": "Antykwariat Krakowskie Przedmieście 41",
+   "rodzaj": "ksiegarnie",
+   "kategoria": "Antykwariat",
+   "opis": "Antykwariat przy Krakowskim Przedmieściu, głównej ulicy śródmieścia, działający w Lublinie od lat 90. (pod tym adresem od 2021 r.). Sprzedaje używane książki – także nieco nowych – oraz płyty i filmy, przyjmuje też rzeczy w komis.",
+   "co_kupic": "używane książki, płyty, filmy DVD",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dowody": [
+    "Opinie w Mapach Google – książki, komiksy, płyty winylowe, CD, DVD, kasety, gry, dział książek obcojęzycznych; spokój mimo ruchliwej ulicy, porządek"
+   ],
+   "godziny": "pon–pt 10:15–18:00, sob 10:00–14:00, nd zamknięte"
+  },
+  "0x47225769e9ebe887:0x3a1297f9656e6702": {
+   "nazwa": "AntykarniA",
+   "rodzaj": "vintage",
+   "kategoria": "Sklep z antykami",
+   "opis": "Sklep z antykami i rzeczami vintage przy ul. Zielonej w centrum. Przedmioty sprowadzane są głównie z Francji, Belgii i Holandii: lampy, porcelana, srebra, meble, obrazy, a także stare ubrania, torebki i płyty. W sklepie kręcono sceny filmu „Volta” Machulskiego, a przedmioty stąd trafiały do innych polskich filmów.",
+   "co_kupic": "porcelana i ceramika, lampy i świeczniki, srebra, biżuteria, ubrania i torebki vintage, płyty winylowe",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dowody": [
+    "https://www.antykarnia.pl/ – asortyment (lampy, porcelana, srebra, meble, obrazy, ubrania, płyty), zakupy we Francji, Belgii i Holandii, współpraca z filmowcami (Volta, Wołyń)",
+    "Opinie w Mapach Google – antyki, porcelana, odzież, książki i płyty"
+   ]
+  },
+  "0x472259caa4d49247:0x4aa0169e6974147": {
+   "nazwa": "Magellan Alkohole",
+   "rodzaj": "trunki",
+   "kategoria": "Sklep z alkoholami",
+   "opis": "Sklep z alkoholami przy ul. Romanowskiego, w zachodniej części miasta. Ma duży wybór piw rzemieślniczych z lokalnych i znanych browarów, a do tego wina i mocne alkohole; obsługa doradza przy wyborze.",
+   "co_kupic": "piwa kraftowe, wina, mocne alkohole",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent"
+   ],
+   "dla": "Czynny codziennie do późnego wieczora.",
+   "dowody": [
+    "Opinie w Mapach Google – duży wybór piw kraftowych (jeden z pierwszych takich sklepów w Lublinie), wina i mocne alkohole z całego świata, fachowe doradztwo; godziny 11–23 codziennie"
+   ]
+  },
+  "0x472259c35a4d7185:0x1ae579358205c80f": {
+   "nazwa": "Behemot – Galeria Win i Alkoholi",
+   "rodzaj": "trunki",
+   "kategoria": "Sklep z winem",
+   "opis": "Sklep z winami i alkoholami przy al. Warszawskiej, działający od 2003 r. Ma szeroki wybór win, piw, whisky i rumów, także trudniej dostępnych; obsługa doradza przy zakupach na prezent czy na rodzinne uroczystości i może sprowadzić alkohol spoza stałej oferty.",
+   "co_kupic": "wina, whisky, rumy, piwa",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent"
+   ],
+   "dla": "Pomoc w doborze alkoholi na przyjęcia; możliwość sprowadzenia produktu na zamówienie.",
+   "dowody": [
+    "Opinie w Mapach Google – duży wybór win, whisky, rumów i rzadkich trunków, fachowe doradztwo, zakupy na wesela, długie godziny także w niedziele i święta"
+   ]
+  },
+  "0x4722579fec074c7f:0x15af22aec6aaa26a": {
+   "nazwa": "Sklep firmowy Pszczółka",
+   "rodzaj": "slodkie",
+   "kategoria": "Sklep firmowy ze słodyczami",
+   "opis": "Sklep firmowy Fabryki Cukierków „Pszczółka”, działającej w Lublinie od 1952 r. i znanej m.in. z cukierków Kukułka. Można tu kupić wyroby zakładu: karmelki, krówki, cukierki czekoladowe, praliny i galaretki, a także zestawy prezentowe.",
+   "co_kupic": "karmelki, krówki, cukierki czekoladowe, praliny, zestawy prezentowe",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "W niedziele nieczynny.",
+   "dowody": [
+    "https://pszczolka.pl/ – fabryka związana z Lublinem od 1952 r., produkty: praliny, karmelki, krówki, galaretki",
+    "https://www.wiadomoscihandlowe.pl/przemysl-i-producenci/rynek-slodyczy-i-przekasek/fc-pszczolka-uruchamia-sklep-firmowy-i-wchodzi-w-e-commerce-2415435 – sklep firmowy z pełną ofertą i zestawami prezentowymi",
+    "Opinie w Mapach Google – karmelki twarde i nadziewane, cukierki czekoladowe, praliny, miody pitne"
+   ],
+   "bez_godzin": true,
+   "godziny_uwaga": "Godziny w Mapach i na stronie producenta się różnią – przed wizytą zadzwoń."
+  },
+  "0x4722579ca1c6558d:0x57ec898aa74c0c23": {
+   "nazwa": "Yummy Sweets",
+   "rodzaj": "slodkie",
+   "kategoria": "Cukiernia",
+   "opis": "Cukiernia przy ul. Świętoduskiej, tuż przy Starym Mieście – jeden z kilku lubelskich lokali Yummy Sweets. Sprzedaje ciastka i monoporcje, muffiny, makaroniki i donuty, przyjmuje zamówienia na torty, a na miejscu można też wypić kawę. Czynna codziennie, także w niedziele.",
+   "co_kupic": "monoporcje i ciastka, muffiny, makaroniki, donuty, torty na zamówienie",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent"
+   ],
+   "dowody": [
+    "Opinie w Mapach Google – monoporcje, muffinki, ptysie, drożdżówki (jagodzianki, poziomianki), kawa; godziny 11–19 codziennie"
+   ]
+  },
+  "0x4722575423ccb11b:0xaf8c03f949373d88": {
+   "nazwa": "Słodkie Marzenie Lili",
+   "rodzaj": "slodkie",
+   "kategoria": "Cukiernia",
+   "opis": "Niewielka cukiernia przy ul. Krańcowej. Sprzedaje ciasta i drobne wypieki, których wybór zmienia się z dnia na dzień, a także przyjmuje zamówienia na torty.",
+   "co_kupic": "ciasta, drobne wypieki, torty na zamówienie",
+   "zrodlo": "opinie",
+   "okazje": [
+    "lokalne"
+   ],
+   "dla": "Nieczynna w niedziele i poniedziałki.",
+   "dowody": [
+    "Opinie w Mapach Google – jagodzianki pełne jagód, napoleonka, WZ-tka, codziennie inne słodkości, torty weselne; ocena 4,9 przy ok. 170 opiniach"
+   ]
+  },
+  "0x472259dbe561d18f:0x9e334b57556e81b9": {
+   "nazwa": "Orlikowski – Zana",
+   "rodzaj": "slodkie",
+   "kategoria": "Piekarnia rzemieślnicza",
+   "opis": "Rzemieślnicza piekarnia z cukiernią przy ul. Zana, jeden z punktów lubelskiej piekarni Marcina Orlikowskiego. Jest tu duży wybór chlebów, bułek i ciast – klienci chwalą zwłaszcza ptysie, tartaletki i kremówki – a na miejscu można wypić kawę.",
+   "co_kupic": "chleb, w tym z żurawiną, ptysie, tartaletki, kremówki, drożdżówki",
+   "zrodlo": "opinie",
+   "okazje": [
+    "lokalne"
+   ],
+   "dla": "Czynna codziennie, także w niedziele.",
+   "dowody": [
+    "Opinie w Mapach Google – wypieki wyrabiane na miejscu, piekarnia w tym samym pomieszczeniu (widać pracę piekarzy), duży wybór chlebów, bułek, ciast, przekąsek, tania kawa; godziny także w niedziele"
+   ]
+  },
+  "0x47225726f69f6065:0x5ba8b4d5d3e8e784": {
+   "nazwa": "Sklep firmowy Colian",
+   "rodzaj": "slodkie",
+   "kategoria": "Sklep firmowy ze słodyczami",
+   "opis": "Mały sklep firmowy przy portierni lubelskiego zakładu Colian, w którym powstają słodycze marki Solidarność, przy ul. Gospodarczej. Sprzedaje słodycze marek grupy – m.in. Solidarność, Goplana, Jutrzenka i Grześki.",
+   "co_kupic": "czekoladki i bombonierki, pralinki, wafelki, ciastka",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent"
+   ],
+   "dla": "Czynny tylko w dni robocze, do 16; wejście od portierni zakładu.",
+   "dowody": [
+    "https://en.wikipedia.org/wiki/Colian_Holding – zakład Colian w Lublinie (dawniej Fabryka Cukiernicza „Solidarność”), marka Solidarność: bombonierki, czekoladki, pralinki",
+    "Opinie w Mapach Google – mały, dobrze zaopatrzony sklep ze słodyczami przy Gospodarczej 25, przystępne ceny",
+    "Mapy Google – nazwa wpisu (Solidarność, Goplana, Jutrzenka, Grześki, Colian), adres przy portierni, godziny pn–pt 9–16"
+   ],
+   "www": "https://colian.com/sklepy-firmowe-colian/"
+  },
+  "0x472257f02a2a1dbd:0x8c4998f0bc0aa35c": {
+   "nazwa": "Pracownia Cukiernicza Kania",
+   "rodzaj": "slodkie",
+   "kategoria": "Cukiernia i piekarnia rzemieślnicza",
+   "opis": "Mała rzemieślnicza cukiernia i piekarnia przy ul. Glinianej. Piecze codziennie ze świeżych składników, bez polepszaczy – chleby na zakwasie fermentujące do 72 godzin, ciasta, bezy i drożdżówki. Robi też torty na zamówienie i świąteczne zestawy ciast; na miejscu można wypić kawę.",
+   "co_kupic": "chleb na zakwasie, drożdżówki i cynamonki, ciasta, torty na zamówienie",
+   "zrodlo": "strona",
+   "okazje": [
+    "lokalne",
+    "prezent"
+   ],
+   "dowody": [
+    "https://kaniacukiernia.pl/ – mała piekarnia i cukiernia rzemieślnicza, chleb na zakwasie z fermentacji do 72 godzin, bez polepszaczy, torty na zamówienie, świąteczny box ciast",
+    "Opinie w Mapach Google – jagodzianki, cynamonka z kremem i wiśniami, torty; ocena 4,9"
+   ],
+   "godziny": "pon–pt 06:00–18:00, sob 07:00–15:00"
+  },
+  "0x472259d19346a32f:0x15bea39667747654": {
+   "nazwa": "Gofry u Ireny",
+   "rodzaj": "slodkie",
+   "kategoria": "Gofry",
+   "opis": "Punkt z goframi przy ul. Wileńskiej, ceniony przez mieszkańców Lublina. Gofry podawane są z bitą śmietaną, owocami i polewami, do wyboru jest też kawa; można je zjeść na miejscu lub wziąć na wynos.",
+   "co_kupic": "gofry z bitą śmietaną i owocami, gofry z polewami, kawa",
+   "zrodlo": "opinie",
+   "okazje": [
+    "dzieci"
+   ],
+   "dla": "Czynne codziennie, także w niedziele.",
+   "dowody": [
+    "Opinie w Mapach Google – punkt w środku targu, smak niezmienny od 40 lat, gofry chrupiące z bitą śmietaną i owocami, rurki z bitą śmietaną, wejście od drugiej strony; ocena 4,8 przy ponad 1000 opinii; dodatki: jabłka z cynamonem, masło orzechowe"
+   ]
+  },
+  "0x472257687957c3a1:0xca3cbbf8454ac6e9": {
+   "nazwa": "dobio",
+   "rodzaj": "regionalne",
+   "kategoria": "Sklep ze zdrową żywnością",
+   "opis": "Sklep ze zdrową i ekologiczną żywnością przy Krakowskim Przedmieściu, jeden z trzech lubelskich sklepów marki. Ma certyfikowane produkty bio, regionalną żywność ekologiczną, artykuły bezglutenowe i propozycje dla osób na diecie roślinnej, a także codzienne zakupy w wersji bio.",
+   "co_kupic": "żywność ekologiczna, produkty bio, produkty bezglutenowe i wegańskie, regionalna żywność ekologiczna",
+   "zrodlo": "strona",
+   "okazje": [
+    "lokalne"
+   ],
+   "dowody": [
+    "https://dobio.pl/ – zdrowa żywność w Lublinie, produkty bio, regionalna żywność ekologiczna, bezglutenowe, roślinne; trzy placówki w Lublinie",
+    "Opinie w Mapach Google – wędliny, chleb, nalewki, miody pitne, produkty vege i bez glutenu"
+   ]
+  },
+  "0x472257f4cf81a64b:0x4c0a6a8eb78f74c1": {
+   "nazwa": "Rany Julek! – Zana",
+   "rodzaj": "pamiatki",
+   "kategoria": "Sklep z zabawkami",
+   "opis": "Lubelski sklep z zabawkami w centrum handlowym E.Leclerc przy ul. Zana, prowadzący też sprzedaż internetową. Stawia na zabawki edukacyjne i markowe, m.in. Djeco, Janod i Little Dutch, a także książki dla dzieci i wyprawki dla niemowląt.",
+   "co_kupic": "zabawki edukacyjne, układanki i puzzle, klocki magnetyczne, zabawki drewniane, książki dla dzieci",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "dzieci"
+   ],
+   "dowody": [
+    "https://ranyjulek.pl/ – sklep z zabawkami Rany Julek w Lublinie, zabawki edukacyjne, wyprawka, książki",
+    "Opinie w Mapach Google – marki Djeco, Janod, Little Dutch, duży wybór pojazdów Bruder, dobre miejsce na prezent",
+    "Mapy Google – adres: CH E.Leclerc, ul. Zana 19"
+   ]
+  },
+  "0x47225766507362f5:0x7356a11f78916968": {
+   "nazwa": "CityWine",
+   "rodzaj": "trunki",
+   "kategoria": "Sklep z winem",
+   "opis": "Winiarnia CityWine przy ul. Krótkiej w centrum Lublina, lubelski punkt firmy Winnica.pl. Ma duży wybór win z różnych regionów świata, akcesoria do wina i zestawy prezentowe; organizuje degustacje, a wino można też wypić na miejscu.",
+   "co_kupic": "wina z różnych regionów świata, akcesoria do wina, zestawy prezentowe",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent"
+   ],
+   "dla": "Nieczynny w niedziele, w soboty do 14.",
+   "dowody": [
+    "Opinie w Mapach Google – duży wybór win z całego świata, akcesoria i dodatki do wina, zestawy prezentowe na święta, fachowa obsługa, kamienica przy ul. Krótkiej"
+   ],
+   "www": "https://winnica.pl/content/7-znajdz-nas"
+  },
+  "0x4722575272e3f3d5:0x8a447756a18cee5a": {
+   "nazwa": "Galeria Olimp",
+   "rodzaj": "galerie",
+   "kategoria": "Galeria handlowa",
+   "opis": "Pierwsze centrum handlowe w Lublinie, przy al. Spółdzielczości Pracy na Czechowie. Mieści ponad 260 sklepów z modą polską i zagraniczną oraz punkty usługowe, a do tego strefę gastronomiczną, kino Multikino, siłownię i salę zabaw dla dzieci.",
+   "co_kupic": "odzież i obuwie, biżuteria i akcesoria, kosmetyki, artykuły dla dzieci, wyposażenie wnętrz, elektronika",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz",
+    "dzieci",
+    "prezent"
+   ],
+   "dla": "Bezpłatny zadaszony parking wielopoziomowy (ponad 1500 miejsc); w galerii można kupić kartę podarunkową.",
+   "dowody": [
+    "https://galeriaolimp.com.pl/pl/ – pierwsze centrum handlowe w Lublinie, ponad 260 sklepów, kategorie sklepów, karta podarunkowa, giełda antyków",
+    "https://lublininfo.com/en/discover-lublin/shopping-centre-olimp/ – pierwsze centrum handlowe Lublina, ponad 260 sklepów",
+    "Mapy Google – opis: sklepy, butiki, restauracje, kino, ściana wspinaczkowa, supermarket; opinie: duży parking"
+   ],
+   "godziny_uwaga": "W niedziele galeria jest czynna tylko w niedziele handlowe (10:00–20:00)."
+  },
+  "0x472257123bb572bf:0x9938486e4a2e44ea": {
+   "nazwa": "Galeria Gala",
+   "rodzaj": "galerie",
+   "kategoria": "Galeria handlowa",
+   "opis": "Centrum handlowe przy ul. Fabrycznej nastawione na dom i wnętrza – są tu salony meblowe, kuchnie, łazienki, drzwi i podłogi, okna, oświetlenie i dekoracje, a także biura projektowe. Dobre miejsce dla urządzających mieszkanie.",
+   "co_kupic": "meble, wyposażenie kuchni i łazienki, oświetlenie, dekoracje, drzwi i podłogi",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz"
+   ],
+   "dowody": [
+    "https://www.gala.com.pl/ – kategorie: meble, kuchnia, łazienka, oświetlenie, dekoracje, drzwi i podłogi; adres i godziny",
+    "Mapy Google – opis: duże centrum z meblami i materiałami budowlanymi; katalog: 33 punkty „dom i kuchnia”, 1 odzieżowy; opinie o parkingu"
+   ]
+  },
+  "0x47225741d5c7822d:0xc71634a724bfb0a6": {
+   "nazwa": "Polska Marka",
+   "rodzaj": "pamiatki",
+   "kategoria": "Sklep z pamiątkami",
+   "opis": "Sklep z pamiątkami i odzieżą o tematyce patriotycznej przy ul. Archidiakońskiej, w pobliżu Starego Miasta. Ma duży wybór upominków z motywami Lublina i Polski – od magnesów i breloków po kubki, także w folkowe wzory, oraz koszulki, m.in. marki własnej.",
+   "co_kupic": "magnesy, kubki i zestawy kubków w folkowe wzory, breloki, koszulki i odzież patriotyczna, gadżety z motywem Lublina",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "Sklep prowadzi też sprzedaż internetową.",
+   "dowody": [
+    "https://sklep.polskamarka.pl/ – sklep z pamiątkami w Lublinie, Archidiakońska 6; kategorie: ubrania, akcesoria Polska, akcesoria Lublin; kubki folk, gadżety Lublin",
+    "https://www.findglocal.com/PL/Lublin/796755147092273/Polska-Marka---sklep-patriotyczny---Lublin – pierwszy sklep o tematyce patriotycznej w Lublinie, odzież marek patriotycznych",
+    "Mapy Google – opinie: duży wybór magnesów, kubków, breloków; w tym miejscu ścianka do zdjęć „Pozdrowienia z Lublina – koziołek”"
+   ],
+   "godziny_uwaga": "Google nie podaje godzin otwarcia – przed wizytą zadzwoń."
+  },
+  "0x472257032c1627f7:0x3e285aac060f6dac": {
+   "nazwa": "Rynek Bronowice",
+   "rodzaj": "targi",
+   "kategoria": "Targowisko",
+   "opis": "Targowisko przy ul. Krańcowej w dzielnicy Bronowice, odwiedzane głównie przez mieszkańców okolicy. Kupisz tu sezonowe warzywa i owoce, wędliny i pieczywo, a także sporo artykułów przemysłowych. Najwięcej stoisk jest czynnych w soboty.",
+   "co_kupic": "warzywa i owoce, wędliny, pieczywo, artykuły przemysłowe",
+   "zrodlo": "opinie",
+   "okazje": [
+    "lokalne"
+   ],
+   "dowody": [
+    "Mapy Google – Krańcowa 106, 1574 opinie; opinie: warzywa, owoce, jajka, produkty od rolników i z giełdy, wyroby mięsne i wędliniarskie, ogrodzony i zadaszony, niewielki parking, blisko przystanek",
+    "https://www.facebook.com/RynekBronowice/ – świeże warzywa i owoce, mięso, wędliny, pieczywo, chemia gospodarcza",
+    "https://24lublin.pl/lokalne-uslugi/targowisko-lublin – jeden z najbardziej rozpoznawalnych rynków Lublina; owoce, warzywa, sery, mięso, pieczywo, kwiaty"
+   ],
+   "www": "https://www.facebook.com/RynekBronowice/"
+  },
+  "0x4722576fcfbba4d1:0xefe05c9d47bafa6c": {
+   "nazwa": "Antykwariat „Archiwum”",
+   "rodzaj": "ksiegarnie",
+   "kategoria": "Antykwariat",
+   "opis": "Antykwariat przy ul. Narutowicza, który łączy cechy księgarni i sklepu muzycznego. Sprzedaje i skupuje używane książki, płyty winylowe i CD, przedmioty antykwaryczne oraz sprzęt muzyczny.",
+   "co_kupic": "używane książki, płyty winylowe, płyty CD, przedmioty antykwaryczne, sprzęt muzyczny",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "Płyty winylowe kupione na miejscu są bezpłatnie myte myjką ultradźwiękową (nie dotyczy płyt za 5 zł); antykwariat prowadzi też skup.",
+   "dowody": [
+    "https://antykwariat-archiwum.pl/ – antykwariat, księgarnia i sklep muzyczny; książki, płyty winylowe i CD, przedmioty antykwaryczne, sprzęt muzyczny; bezpłatne mycie płyt; godziny pon.–pt. i sob.",
+    "Mapy Google – Narutowicza 69/4, 347 opinii; opinie: każdy znajdzie coś dla siebie, przystępne ceny"
+   ]
+  },
+  "0x472257d1d5209e5b:0x4e03dde6918db6a5": {
+   "nazwa": "DoGramofonu.pl",
+   "rodzaj": "ksiegarnie",
+   "kategoria": "Sklep z płytami",
+   "opis": "Sklep przy ul. Lubartowskiej, blisko Starego Miasta, z płytami winylowymi – nowymi i starszymi wydaniami – oraz gramofonami, patefonami i akcesoriami. Wnętrze nawiązuje do dawnych lat, a właściciel doradza przy wyborze sprzętu i płyt; płyt można posłuchać przed zakupem.",
+   "co_kupic": "płyty winylowe, gramofony, patefony, akcesoria do gramofonów",
+   "zrodlo": "siec",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dowody": [
+    "https://fanalog.pl/sklep/dogramofonu-pl-sklad-plyt-patefonow-i-gramofonow-muzeum-fonografii/ – płyty winylowe, gramofony, sprzęt audio, atmosfera dawnych dekad, doradztwo właściciela",
+    "https://www.facebook.com/DoGramofonuPL/ – gramofony, płyty, akcesoria, Lublin",
+    "Mapy Google – Lubartowska 18; opinie: duży wybór płyt, mycie płyt, płatność gotówką/BLIK, rolety w oknach"
+   ]
+  },
+  "0x4722578765c8c509:0xa997bbdebd37cda2": {
+   "nazwa": "LubVintage",
+   "rodzaj": "vintage",
+   "kategoria": "Sklep vintage",
+   "opis": "Sklep i galeria z meblami, lampami i dodatkami vintage oraz designem z drugiej ręki przy ul. Chopina w centrum. Przedmioty są starannie wyselekcjonowane, a kolekcję można też przeglądać w sklepie internetowym.",
+   "co_kupic": "meble vintage, lampy, dodatki do wnętrz",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "Krótkie godziny otwarcia – w poniedziałki i wtorki nieczynne, w pozostałe dni kilka godzin dziennie; jest też sklep internetowy z wysyłką.",
+   "dowody": [
+    "https://lubvintage.com.pl/ – meble, lampy i dodatki vintage, galeria przy ul. Chopina 8, godziny otwarcia, sklep online",
+    "https://www.instagram.com/lubvintage/ – vintage i design w sercu Lublina, sklep online i stacjonarny",
+    "https://www.spottedbylocals.com/lublin/lub-vintage/ (fragment w wynikach wyszukiwania) – ceramika, meble, biżuteria",
+    "Mapy Google – opinie: perełki od uznanych projektantów i niszowe ciekawostki, właściciel z wiedzą o przedmiotach"
+   ]
+  },
+  "0x472259c179fb1533:0x40b3f22938e6783f": {
+   "nazwa": "Sklep z winami Łukasz Kubiak",
+   "rodzaj": "trunki",
+   "kategoria": "Sklep z winem",
+   "opis": "Sklep z winami przy ul. Puławskiej, prowadzony przez Łukasza Kubiaka, który od lat zajmuje się winem – był m.in. sommelierem i prowadził większy sklep winiarski. Oferta to jego autorski wybór win z całej Europy. Właściciel doradza przy zakupie na co dzień, na prezent czy na większe przyjęcie.",
+   "co_kupic": "wina z całej Europy, wina na prezent, wina na przyjęcia",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "Właściciel prowadzi cykl degustacji „Uniwersytet”, podczas których poznaje się wina kraj po kraju.",
+   "dowody": [
+    "Mapy Google – Puławska 25/lok. 8U, ocena 4,9 (133); opinie: ogromny wybór, doradztwo właściciela, informacje o winach i producentach, dobór wina na dużą imprezę",
+    "https://www.lukaszkubiak.pl/uniwersytet – cykl degustacji win „kraj po kraju”"
+   ]
+  },
+  "0x47225741fe05a7ff:0x98e8dc52f8ea3d84": {
+   "nazwa": "Orlikowski – Lubartowska",
+   "rodzaj": "slodkie",
+   "kategoria": "Piekarnia-cukiernia",
+   "opis": "Rzemieślnicza piekarnia-cukiernia przy ul. Lubartowskiej, niedaleko Bramy Krakowskiej – jeden z kilku punktów lubelskiej piekarni Marcina Orlikowskiego. Na miejscu wypiekane są klasyczne lubelskie cebularze, a w ofercie są też chleby na zakwasie, domowe ciasta i lody rzemieślnicze.",
+   "co_kupic": "cebularze, chleb na zakwasie, ciasta, lody rzemieślnicze",
+   "zrodlo": "siec",
+   "okazje": [
+    "lokalne"
+   ],
+   "dowody": [
+    "https://lubelskie.travel/pl/regiony/lublin-i-okolice/jedzenie-i-picie-lublin-i-okolice/piekarnia-cukiernia-marcin-orlikowski – chleby na zakwasie, domowe ciasta, lody rzemieślnicze, cebularze wypiekane na miejscu, punkt przy Lubartowskiej 15, wiele punktów w Lublinie",
+    "https://www.facebook.com/p/Piekarnia-Cukiernia-Marcin-Orlikowski-100063555819103/ – pieczywo, ciasta, kawa, lody własnej produkcji",
+    "Mapy Google – Lubartowska 15, 558 opinii; opinie: cebularz wypiekany na miejscu, borówianki, chleby, duże kolejki, kawa"
+   ]
+  },
+  "0x472257df80c87225:0xbdd099e9165809aa": {
+   "nazwa": "Paté Cukiernictwo Artystyczne",
+   "rodzaj": "slodkie",
+   "kategoria": "Cukiernia",
+   "opis": "Rzemieślnicza cukiernia przy ul. Niepodległości, działająca od 2023 r. Specjalizuje się w wypiekach francuskich wykonywanych ręcznie – najbardziej znane są croissanty – oraz w innych słodkościach. Na miejscu można też wypić kawę.",
+   "co_kupic": "croissanty, wypieki francuskie, ciastka i desery",
+   "zrodlo": "siec",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "Otwarta tylko od piątku do niedzieli.",
+   "dowody": [
+    "https://www.instagram.com/pate.lublin/ (fragment w wynikach wyszukiwania) – rzemieślnicze wypieki, ciasta i torty; otwarte pt.–nd. lub do ostatniego ciastka",
+    "https://www.facebook.com/pate.lublin/ (fragment w wynikach wyszukiwania) – torty artystyczne, monoporcje, słodkie stoły, wypieki francuskie",
+    "Mapy Google – Niepodległości 7B, 214 opinii, 4,8; opinie: jagodzianki, croissanty, drożdżówka pistacjowo-jagodowa, torty i słodkie stoły"
+   ]
+  },
+  "0x47225767fe165013:0xffc540f2c3746c6c": {
+   "nazwa": "Biga Gastronomia Italiana",
+   "rodzaj": "slodkie",
+   "kategoria": "Włoska piekarnia",
+   "opis": "Mała włoska piekarnia przy ul. Staszica, blisko pl. Litewskiego. Sprzedaje focaccię i pizzę na kawałki (trancio) z różnymi dodatkami, kanapki na chrupiącej focaccii, np. z mortadelą i pistacjami, a także cannoli nadziewane na miejscu; oferta zmienia się codziennie.",
+   "co_kupic": "focaccia i pizza na kawałki, kanapki na focaccii, cannoli, włoskie desery",
+   "zrodlo": "strona",
+   "okazje": [
+    "lokalne"
+   ],
+   "dla": "W niedziele zamknięte; można płacić kartą i zbliżeniowo. Wypieki potrafią się wyprzedać, więc lepiej przyjść wcześniej.",
+   "dowody": [
+    "https://biga.eatbu.com/?lang=pl – włoska piekarnia, na wynos, płatność kartą, godziny otwarcia, Staszica 10/1b",
+    "https://www.instagram.com/bigalublin/ (fragment w wynikach wyszukiwania) – piekarnia, focacceria, al taglio, rzemieślnicze pieczywo i wypieki",
+    "Mapy Google – ocena 4,9 (328); opinie: focaccia z dodatkami, kanapki, trancio, panettone wypiekane na miejscu, podgrzewanie kanapek"
+   ]
+  },
+  "0x4722571c3a822ecd:0x59fa9a70ffac4015": {
+   "nazwa": "Bułka i Kromka",
+   "rodzaj": "slodkie",
+   "kategoria": "Piekarnia",
+   "opis": "Piekarnia z kawiarnią na Rynku Starego Miasta, należąca do sieci Bułka i Kromka – rodzinnej Piekarni Adampol ze Świdnika. Wyróżniają ją mini-pączki smażone na miejscu, do których dobiera się słodkie dodatki; są też drożdżówki, ciasta, pieczywo, kanapki i pizza, a latem lody.",
+   "co_kupic": "mini-pączki, drożdżówki, ciasta, pieczywo, pizza",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci",
+    "lokalne"
+   ],
+   "dla": "Ogródek; czynne codziennie, w piątki i soboty do 22:00.",
+   "www": "https://bulkaikromka.pl/punkty/lublin-rynek-5/",
+   "dowody": [
+    "https://bulkaikromka.pl/punkty/lublin-rynek-5/ – godziny otwarcia, odpiek na miejscu, pączki na miejscu, ogródek",
+    "https://bulkaikromka.pl/ – miejsce w Świdniku i Lublinie; pieczywo, drożdżówki, pączki, ciasta, pizza",
+    "Mapy Google – Rynek 5, 341 opinii; opinie: świeżo smażone mini-pączki z wybranym nadzieniem, polewą i posypką, drożdżówka, ogródek"
+   ]
+  },
+  "0x47225782f05013d7:0x9c2fe87ed61466aa": {
+   "nazwa": "Piekarnia Gruzińska Kikodze Twins",
+   "rodzaj": "slodkie",
+   "kategoria": "Piekarnia gruzińska",
+   "opis": "Gruzińska piekarnia przy ul. Lubartowskiej, blisko Starego Miasta. Wypieka chaczapuri w kilku odmianach, m.in. megruli i adżaruli, a także chleb i słodkie bułeczki. Wnętrze jest skromne; wypieki można zjeść na miejscu lub wziąć na wynos, jest też kawa.",
+   "co_kupic": "chaczapuri megruli, chaczapuri adżaruli, chaczapuri lobiani, gruziński chleb, słodkie bułeczki",
+   "zrodlo": "siec",
+   "okazje": [
+    "lokalne"
+   ],
+   "dla": "Czynne codziennie, także w niedziele.",
+   "www": "https://www.facebook.com/p/Piekarnia-Gruzi%C5%84ska-Kikodze-Twins-100064009636426/",
+   "dowody": [
+    "https://www.facebook.com/p/Piekarnia-Gruzi%C5%84ska-Kikodze-Twins-100064009636426/ (fragment w wynikach wyszukiwania) – ul. Lubartowska 3, codziennie 9:00–20:00, chaczapuri (penovani, adżarskie, megruli, imeruli), lobiani, słodkie ciasto gruzińskie",
+    "https://www.facebook.com/gruzinskapiekarniawlublinie/ (fragment w wynikach wyszukiwania) – produkty według tradycyjnych gruzińskich zasad braci Kikodze",
+    "Mapy Google – ocena 4,8 (263); opinie: niepozorne wnętrze, plastikowe sztućce, bardzo dobre jedzenie"
+   ]
+  },
+  "0x4722583b8aa12bd7:0xcc8a3928d51a92da": {
+   "nazwa": "Klocek",
+   "rodzaj": "pamiatki",
+   "kategoria": "Sklep z klockami LEGO",
+   "opis": "Niezależny sklep z klockami LEGO przy ul. Kryształowej, działający na lubelskim rynku od 2015 roku. Ma szeroki wybór zestawów – od serii dla najmłodszych, jak DUPLO, po modele kolekcjonerskie – oraz minifigurki, breloki i pojemniki na klocki.",
+   "co_kupic": "zestawy LEGO, zestawy kolekcjonerskie, minifigurki, breloki LEGO, akcesoria i pojemniki",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci",
+    "prezent"
+   ],
+   "dla": "Honoruje Kartę Dużej Rodziny; w niedziele zamknięte, w soboty krócej (10:00–14:00); prowadzi też sklep internetowy.",
+   "dowody": [
+    "https://www.sklepklocek.pl/ – sklep z klockami LEGO, sklep stacjonarny Kryształowa 8/U5, godziny pon.–pt. 11–18, sob. 10–14, Karta Dużej Rodziny, serie, minifigurki, breloki, pojemniki",
+    "https://www.facebook.com/sklepklocek/ (fragment w wynikach wyszukiwania) – sprzedaż klocków i akcesoriów LEGO",
+    "Mapy Google – ocena 4,8 (178); opinie: duży wybór LEGO, przystępne ceny, miła obsługa"
+   ]
+  },
+  "0x4722576881e34ba5:0xf89ddf74cbb8102f": {
+   "nazwa": "Benedetto",
+   "rodzaj": "regionalne",
+   "kategoria": "Sklep ze zdrową żywnością",
+   "opis": "Niewielki sklep ze zdrową i ekologiczną żywnością przy Krakowskim Przedmieściu, działający razem z lodziarnią Benedetto. Oferuje m.in. miody, herbaty ziołowe, przetwory, czekolady, nabiał i wędliny od regionalnych wytwórców, warzywa bio oraz naturalne kosmetyki.",
+   "co_kupic": "miody, herbaty ziołowe, przetwory, nabiał i wędliny regionalne, czekolady, kosmetyki naturalne",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "Są zestawy prezentowe; sklep prowadzi też sprzedaż internetową z wysyłką.",
+   "dowody": [
+    "https://sklep.benedetto.com.pl/ – kategorie: artykuły spożywcze, kosmetyki, suplementy, zestawy prezentowe, świeże produkty (tylko Lublin); herbaty ziołowe, czekolady Benedetto, propolis, pyłek",
+    "Mapy Google – Krakowskie Przedmieście 42; opinie: dużo produktów ekologicznych, przetwory, mleko i jajka od rolnika, mąka, syropy, sery, herbaty, kosmetyki od polskich producentów, miody"
+   ]
+  },
+  "0x472259b5873074e5:0xb104ae154d0e9e0d": {
+   "nazwa": "Lubelski Antykwariat Naukowo-Kulturowy",
+   "rodzaj": "ksiegarnie",
+   "kategoria": "Antykwariat",
+   "opis": "Antykwariat przy ul. Wileńskiej, działający w Lublinie od kilkunastu lat. Sprzedaje używane książki, podręczniki szkolne i płyty. Prowadzi też skup książek – zarówno pojedynczych tytułów, jak i całych księgozbiorów – oraz podręczników.",
+   "co_kupic": "używane książki, podręczniki szkolne, płyty",
+   "zrodlo": "strona",
+   "okazje": [
+    "lokalne"
+   ],
+   "dla": "Prowadzi skup książek z bezpłatną wyceną, także mailową; płaci gotówką.",
+   "dowody": [
+    "https://antykwariat-lublin.pl/ – skup książek i podręczników, sprzedaż książek, płyt i podręczników w lokalu przy Wileńskiej 21",
+    "Mapy Google – ocena 4,7 (20); opinie: duży wybór książek i podręczników, trochę winyli i CD, przystępne ceny, kolejki w sezonie"
+   ]
+  },
+  "0x4722573f8436e0f3:0x6e863f34074b6b19": {
+   "nazwa": "VIVO! Lublin",
+   "rodzaj": "galerie",
+   "kategoria": "Galeria handlowa",
+   "opis": "Duże centrum handlowe przy al. Unii Lubelskiej, niedaleko Zamku, działające dawniej pod nazwą Tarasy Zamkowe. Mieści ok. 150 sklepów i punktów usługowych, kawiarnie i restauracje, a dla dzieci są m.in. sala zabaw Bajkowy Labirynt i centrum rozrywki Leopark. W sezonie wiosenno-letnim czynny jest taras widokowy z widokiem na Stare Miasto.",
+   "co_kupic": "odzież i obuwie, kosmetyki, biżuteria, sprzęt RTV i AGD, karty podarunkowe",
+   "zrodlo": "strona",
+   "okazje": [
+    "deszcz",
+    "dzieci",
+    "prezent"
+   ],
+   "dla": "Sala zabaw Bajkowy Labirynt dla dzieci; taras widokowy otwarty w sezonie wiosenno-letnim.",
+   "www": "https://www.vivo-shopping.com/pl/lublin",
+   "dowody": [
+    "https://www.vivo-shopping.com/pl/lublin – blisko 150 salonów, kawiarnie i cukiernie, sala zabaw Bajkowy Labirynt, taras widokowy w sezonie, karta podarunkowa",
+    "https://eurobuildcee.com/news/38037-vivo-zastepuje-tarasy-zamkowe – VIVO! zastąpiło Tarasy Zamkowe",
+    "https://www.google.com/maps/place/VIVO!+Lublin/data=!4m7!3m6!1s0x4722573f8436e0f3:0x6e863f34074b6b19!8m2!3d51.2500101!4d22.5763853!16s%2Fg%2F11g8yc7v4p!19sChIJ8-A2hD9XIkcRGWtLBzQ_hm4 – adres al. Unii Lubelskiej 2, katalog sklepów (odzież, buty, uroda, Media Expert, Tous)"
+   ]
+  },
+  "0x47225741b705fd13:0xcf3fbed20f6e5401": {
+   "nazwa": "Sklep Cynamonowy",
+   "rodzaj": "pamiatki",
+   "kategoria": "Sklep z pamiątkami",
+   "opis": "Sklepik z upominkami przy ul. Grodzkiej 21, w budynku Bramy Grodzkiej na skraju Starego Miasta. W pachnącym cynamonem wnętrzu są pamiątki z Lublina i oryginalne drobiazgi na prezent, a także kawy, herbaty i krówki.",
+   "co_kupic": "pamiątki z Lublina, drobne upominki, kawy i herbaty, krówki",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dowody": [
+    "https://www.google.com/maps/place/Sklep+Cynamonowy.+Upominki/data=!4m7!3m6!1s0x47225741b705fd13:0xcf3fbed20f6e5401!8m2!3d51.2496603!4d22.5699927!16s%2Fg%2F1tq8h9p1!19sChIJE_0Ft0FXIkcRAVRuD9K-P88 – adres Grodzka 21, opinie: pamiątki, magnesy, widokówki, krówki, herbaty, ceramika, świece, wyroby lokalnych artystów, klimat sklepu kolonialnego, legenda o kozie",
+    "https://m.facebook.com/sklep.cynamonowy/ – profil sklepu (link z Map)",
+    "https://lublintravel.pl/en/kultura/81-tourist-attractions/921-grodzka-gate-nn-theatre-lublin-memory-of-the-place – Brama Grodzka (ul. Grodzka 21)"
+   ],
+   "www": "https://www.facebook.com/sklep.cynamonowy/"
+  },
+  "0x47225745d1c62c89:0x3b8c08232c3ccd18": {
+   "nazwa": "Jarmark Lubelski",
+   "rodzaj": "targi",
+   "kategoria": "Targ lokalnych producentów",
+   "opis": "Sobotni targ w dawnej Fabryce Wag przy ul. Lubartowskiej 77, organizowany przez Lubartowska 77. Rolnicy i wytwórcy z okolicy sprzedają tu ekologiczną żywność i świeże produkty prosto od producentów, a obok można kupić rękodzieło. Bywają też warsztaty i gry planszowe dla rodzin.",
+   "co_kupic": "świeże produkty od rolników, ekologiczna żywność, rękodzieło",
+   "zrodlo": "siec",
+   "okazje": [
+    "lokalne",
+    "prezent"
+   ],
+   "dla": "Odbywa się w soboty, ok. 7:30–13:00; gdy sobota wypada w święto, termin może się zmienić.",
+   "dowody": [
+    "https://lublintravel.pl/en/culture/events/1002-lublin-fair-lubartowska-77 – jarmark w każdą sobotę 7:30–13:00, żywność ekologiczna od lokalnych producentów, rękodzieło, warsztaty, gry; zmiany terminów przy świętach",
+    "https://www.spottedbylocals.com/lublin/lubartowska-77/ – dawna fabryka, sklep z lokalnymi przysmakami, rękodzieło, sobotni targ z lokalnymi twórcami",
+    "https://www.google.com/maps/place/Jarmark+Lubelski/data=!4m7!3m6!1s0x47225745d1c62c89:0x3b8c08232c3ccd18!8m2!3d51.2565402!4d22.571273!16s%2Fg%2F11gbxg64tz!19sChIJiSzG0UVXIkcRGM08LCMIjDs – adres Lubartowska 77, opinie: warzywa, owoce, kawa z Lubelszczyzny, soki z rokitnika i świdośliwy"
+   ],
+   "www": "https://lubartowska77.pl/"
+  },
+  "0x4722576a4f7f1da7:0x2b45d0defb600ab6": {
+   "nazwa": "Księgarnia Królewska 11",
+   "rodzaj": "ksiegarnie",
+   "kategoria": "Księgarnia",
+   "opis": "Kameralna księgarnia przy ul. Królewskiej, w pobliżu Starego Miasta, kontynuująca dawną tradycję księgarską tego adresu. Poza nowościami ma przewodniki, mapy, albumy, gry planszowe i pamiątki z Lublina. Księgarnia prowadzi też sprzedaż książek na spotkaniach autorskich w mieście.",
+   "co_kupic": "książki i nowości, przewodniki i mapy, albumy, gry planszowe, pamiątki z Lublina (magnesy, kubki, koszulki)",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dowody": [
+    "https://www.ksiegarniakrolewska11.pl/o-nas – powstała w 2015 r., kontynuuje tradycję księgarską pod adresem Królewska 11; książki, albumy, przewodniki, gry planszowe, mapy, pamiątki; sprzedaż na spotkaniach autorskich",
+    "https://www.ksiegarniakrolewska11.pl/pamiatki – magnesy, breloczki, torby, kubki, koszulki z Lublinem",
+    "https://www.ksiegarniakrolewska11.pl/ – kalendarz trójdzielny z lubelskimi motywami",
+    "https://www.google.com/maps/place/Ksi%C4%99garnia+Kr%C3%B3lewska+11+s.c./data=!4m7!3m6!1s0x4722576a4f7f1da7:0x2b45d0defb600ab6!8m2!3d51.2464037!4d22.5668151!16s%2Fg%2F1tk1lrhj!19sChIJpx1_T2pXIkcRtgpg-97QRSs – adres Królewska 11, ocena 4,8 przy 149 opiniach"
+   ]
+  },
+  "0x472257a386ed65d1:0x2f9a5ea308b55c4c": {
+   "nazwa": "Outlet Ceramika Bolesławiec",
+   "rodzaj": "pamiatki",
+   "kategoria": "Sklep z ceramiką",
+   "opis": "Sklep Manufaktury Bolesławiec przy al. Spółdzielczości Pracy, z ręcznie malowaną ceramiką bolesławiecką i działem outlet. Odbywają się tu warsztaty zdobienia naczyń tradycyjną techniką stempelkową – każdy ozdabia własny kubek, miskę lub talerz.",
+   "co_kupic": "kubki i filiżanki, talerze i miski, dzbanki, zestawy prezentowe, bony na warsztaty ceramiczne",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "dzieci"
+   ],
+   "dla": "Na warsztaty trzeba się zapisać telefonicznie (81 307 77 77); cena zależy od wybranego naczynia, od 80 zł.",
+   "dowody": [
+    "https://art.boleslawiec.pl/warsztaty-ceramiczne-w-lublinie/ – warsztaty zdobienia techniką stempelkową w Lublinie, rezerwacja telefoniczna, cena zależna od naczynia, atrakcja dla rodzin",
+    "https://art.boleslawiec.pl/ – ceramika ręcznie malowana z Bolesławca, kubki, talerze, miski, dzbanki, zestawy prezentowe, bony",
+    "https://www.google.com/maps/place/Outlet+Ceramika+Boles%C5%82awiec/data=!4m7!3m6!1s0x472257a386ed65d1:0x2f9a5ea308b55c4c!8m2!3d51.2638091!4d22.5718921!16s%2Fg%2F11j6skvz3d!19sChIJ0WXthqNXIkcRTFy1CKNemi8 – adres al. Spółdzielczości Pracy 28, ocena 4,9 przy 509 opiniach; opinie: warsztaty, duży wybór, niższe ceny w outlecie"
+   ]
+  },
+  "0x4722577100000001:0x71606406098d450d": {
+   "nazwa": "Beer Geek",
+   "rodzaj": "trunki",
+   "kategoria": "Sklep z piwem kraftowym",
+   "opis": "Sklep z piwem rzemieślniczym przy ul. Choiny, poza ścisłym centrum. Ma szeroki wybór piw kraftowych z Polski i z zagranicy oraz inne alkohole; obsługa pomaga w wyborze.",
+   "co_kupic": "piwa rzemieślnicze, inne alkohole",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dowody": [
+    "https://www.google.com/maps/place/Beer+Geek/data=!4m7!3m6!1s0x4722577100000001:0x71606406098d450d!8m2!3d51.2753995!4d22.555741!16s%2Fg%2F11g021ptn_!19sChIJAQAAAHFXIkcRDUWNCQZkYHE – adres Choiny 33C, ocena 4,9 przy 418 opiniach; opinie: duży wybór piw rzemieślniczych i innych alkoholi, fachowa obsługa polecająca piwa, wyższe ceny",
+    "https://www.facebook.com/beergeek.lublin – profil sklepu (link z Map)",
+    "https://untappd.com/v/beer-geek/10382699 – Beer Geek w Lublinie jako sklep z piwem (Beer Store)"
+   ]
+  },
+  "0x472257556e4f4c3f:0x6824f0f389c5e4c6": {
+   "nazwa": "Esencja Smaku",
+   "rodzaj": "regionalne",
+   "kategoria": "Sklep z herbatą i kawą",
+   "opis": "Niewielki sklep z herbatą i kawą przy ul. Choiny. Ma duży wybór herbat i kaw różnych rodzajów, a obsługa doradza przy wyborze. Można tu kupić gotowy zestaw prezentowy albo skomponować własny.",
+   "co_kupic": "herbaty różnych rodzajów i smaków, kawy, gotowe zestawy prezentowe, zestawy komponowane na życzenie",
+   "zrodlo": "opinie",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dowody": [
+    "https://www.google.com/maps/place/ESENCJA+SMAKU/data=!4m7!3m6!1s0x472257556e4f4c3f:0x6824f0f389c5e4c6!8m2!3d51.2703645!4d22.5595193!16s%2Fg%2F11cmh5ccnh!19sChIJP0xPblVXIkcRxuTFifPwJGg – adres Choiny 1, ocena 4,6 przy 51 opiniach; opinie: duży wybór herbat i kaw, doradztwo i porady o parzeniu, zestawy prezentowe gotowe lub komponowane, właściciele"
+   ]
+  },
+  "0x47225652dd551313:0x8c234802a8ed572b": {
+   "nazwa": "Takawa",
+   "rodzaj": "regionalne",
+   "kategoria": "Palarnia kawy",
+   "opis": "Niezależna rzemieślnicza palarnia, która pali kawę w Lublinie od 2013 roku, ze sklepem stacjonarnym przy ul. Przemysłowej. Ziarna wypala się w małych partiach, a na opakowaniu jest data wypalenia. W sklepie są też akcesoria do metod alternatywnych, m.in. chemexy, aeropressy i kawiarki, a obsługa pomaga w wyborze.",
+   "co_kupic": "kawa ziarnista do ekspresu, kawy do metod przelewowych, Lubelska Mieszanka, zestawy kaw, młynki i akcesoria",
+   "zrodlo": "strona",
+   "okazje": [
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "Sklep stacjonarny czynny od poniedziałku do piątku, 9:00–17:00.",
+   "dowody": [
+    "https://kupkawe.pl/o-nas/ – niezależna rzemieślnicza palarnia, pali kawę w Lublinie od 2013 r., małe partie, data wypalenia na opakowaniu",
+    "https://kupkawe.pl/kontakt/ – adres Przemysłowa 7/2, godziny sklepu stacjonarnego pn–pt 9–17",
+    "https://kupkawe.pl/ – kawy do ekspresu i przelewu, Lubelska Mieszanka, zestawy, młynki, akcesoria",
+    "https://www.google.com/maps/place/Takawa+-+Palarnia+Kawy+i+sklep+z+kaw%C4%85/data=!4m7!3m6!1s0x47225652dd551313:0x8c234802a8ed572b!8m2!3d51.2415004!4d22.571486!16s%2Fg%2F11csswdx39!19sChIJExNV3VJWIkcRK1ftqAJII4w – opinie: mielenie na miejscu pod metodę parzenia, porady obsługi"
+   ],
+   "www": "https://kupkawe.pl/"
+  },
+  "0x47225769b96527fb:0x1b53d36cd16378c6": {
+   "nazwa": "Lody z Jajem",
+   "rodzaj": "slodkie",
+   "kategoria": "Lodziarnia",
+   "opis": "Rodzinna lodziarnia przy ul. Staszica, kilka kroków od Krakowskiego Przedmieścia, działająca od 2015 roku. Lody robi się tu tradycyjnie – na jajkach, mleku i śmietance z regionu – a obok klasycznych smaków są nietypowe kompozycje, także z dodatkiem wina, piwa czy przypraw. Lody można dostać m.in. w duńskim wafelku.",
+   "co_kupic": "lody rzemieślnicze, lody w nietypowych kompozycjach smaków, lody w duńskim wafelku, lody na wynos",
+   "zrodlo": "opinie",
+   "okazje": [
+    "dzieci"
+   ],
+   "dowody": [
+    "https://www.google.com/maps/place/Lody+z+Jajem/data=!4m7!3m6!1s0x47225769b96527fb:0x1b53d36cd16378c6!8m2!3d51.2481808!4d22.5624435!16s%2Fg%2F11c50ryl6y!19sChIJ-ydluWlXIkcRxnhj0WzTUxs – adres Staszica 1, ocena 4,6 przy 728 opiniach; opinie: ciekawe kompozycje smaków, duńskie wafelki, pokaźne porcje, wysokie ceny"
+   ],
+   "www": "https://www.lodyzjajem.pl/"
+  },
+  "0x472259eccdb5d48d:0xb00d1654133325c8": {
+   "nazwa": "Piekarnia Artystyczna",
+   "rodzaj": "slodkie",
+   "kategoria": "Piekarnia rzemieślnicza",
+   "opis": "Rzemieślnicza piekarnia przy ul. Wojciechowskiej, poza centrum. Sprzedaje pieczywo i słodkie wypieki; przed tłustym czwartkiem przyjmuje zamówienia na pączki z nietypowymi nadzieniami, np. czarną porzeczką z pistacją.",
+   "co_kupic": "pieczywo, słodkie wypieki, pączki",
+   "zrodlo": "opinie",
+   "okazje": [
+    "lokalne"
+   ],
+   "dowody": [
+    "https://www.google.com/maps/place/Piekarnia+Artystyczna/data=!4m7!3m6!1s0x472259eccdb5d48d:0xb00d1654133325c8!8m2!3d51.2474327!4d22.5144414!16s%2Fg%2F11kr_c340s!19sChIJjdS1zexZIkcRyCUzE1QWDbA – adres Wojciechowska 3 / Morwowa 1, ocena 4,7 przy 177 opiniach; opinie: świeże chrupiące pieczywo, rzemieślnicze wypieki, słodkie wypieki, stali goście spoza Lublina",
+    "https://intravel.net/lublin/restaurants-cafes/piekarnia-artystyczna – piekarnia ceniona za pieczywo, możliwość kupienia śniadania i bochenków na wynos",
+    "https://www.facebook.com/piekarniaartystycznalublin – profil piekarni (link z Map)"
+   ],
+   "adres": "Wojciechowska 3 (róg Morwowej), 20-704 Lublin"
+  },
+  "0x472257691dcc8a93:0x53a88d975680f0aa": {
+   "nazwa": "Piekarnia Kuźmiuk – Peowiaków",
+   "rodzaj": "slodkie",
+   "kategoria": "Piekarnia rzemieślnicza",
+   "opis": "Sklep firmowy najstarszej rzemieślniczej piekarni w Lublinie, prowadzonej przez jedną rodzinę od 1944 roku. Pieczywo powstaje według tradycyjnych receptur, bez polepszaczy i gotowych mieszanek, a chleby żytnie – na własnym zakwasie. Punkt przy ul. Peowiaków jest w centrum; główny sklep działa przy ul. Furmańskiej.",
+   "co_kupic": "cebularze, chleby na zakwasie żytnim, bułki i chały, bajgle, drożdżówki, kruche ciasteczka i pierniczki",
+   "zrodlo": "strona",
+   "okazje": [
+    "lokalne"
+   ],
+   "dla": "Sklep przy ul. Peowiaków czynny od poniedziałku do piątku w godzinach 7:30–14:30, w soboty nieczynny.",
+   "dowody": [
+    "https://piekarnia-kuzmiuk.pl/ – najstarsza rzemieślnicza piekarnia w Lublinie, od 1944 r., jedna rodzina, naturalny zakwas żytni, bez polepszaczy; chleby, bułki, chały, bajgle, cebularze, drożdżówki, ciasteczka, pierniczki",
+    "https://piekarnia-kuzmiuk.pl/nasze-sklepy/ – sklep Peowiaków 6: pn–pt 7:30–14:30, sobota nieczynne; główny sklep Furmańska 4",
+    "https://www.google.com/maps/place/Piekarnia+Ku%C5%BAmiuk+sklep+firmowy/data=!4m7!3m6!1s0x472257691dcc8a93:0x53a88d975680f0aa!8m2!3d51.2465647!4d22.5598504!16s%2Fg%2F11f00t2f4n!19sChIJk4rMHWlXIkcRqvCAVpeNqFM – opinie: tradycyjne cebularze, świeże pieczywo, drożdżówki"
+   ]
+  },
+  "0x4722575bac3570e9:0x48b88a9e34e4bdd5": {
+   "nazwa": "Mocku",
+   "rodzaj": "pamiatki",
+   "kategoria": "Sklep z grami karcianymi",
+   "opis": "Sklep dla graczy i kolekcjonerów przy ul. Leszczyńskiego, nastawiony głównie na karty Pokémon TCG i inne gry karciane. Oprócz kart są tu figurki, zabawki i akcesoria.",
+   "co_kupic": "karty Pokémon TCG, inne gry karciane, figurki, zabawki, akcesoria dla graczy",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci",
+    "prezent"
+   ],
+   "dowody": [
+    "https://mocku.pl/ – Pokémon TCG, inne gry karciane, figurki, zabawki i akcesoria; adres Leszczyńskiego 25/U6",
+    "https://www.google.com/maps/place/Mocku/data=!4m7!3m6!1s0x4722575bac3570e9:0x48b88a9e34e4bdd5!8m2!3d51.2514837!4d22.543842!16s%2Fg%2F11ms63m2kg!19sChIJ6XA1rFtXIkcR1b3kNJ6KuEg – ocena 4,9 przy 44 opiniach; opinie: duży wybór, kompetentna obsługa, karty Yu-Gi-Oh!, zestawy ETB"
+   ]
+  },
+  "0x4722573c9370a923:0x2a8c9b8061299f99": {
+   "nazwa": "KHT Aria Shop",
+   "rodzaj": "pamiatki",
+   "kategoria": "Pracownia hobby horse",
+   "opis": "Lubelska pracownia i sklep z hobby horse, czyli końmi na kiju, przy ul. Anny Walentynowicz. Ma ręcznie robione konie, także realistyczne, zestawy DIY do samodzielnego uszycia, akcesoria, stajnie i przeszkody. Sklep organizuje też zawody hobby horse.",
+   "co_kupic": "hobby horse, realistyczne hobby horse, zestawy DIY do uszycia konia, akcesoria, np. kantary i ogłowia, stajnie i przeszkody",
+   "zrodlo": "strona",
+   "okazje": [
+    "dzieci",
+    "prezent",
+    "lokalne"
+   ],
+   "dla": "W soboty wizytę trzeba wcześniej uzgodnić telefonicznie (665 370 653).",
+   "dowody": [
+    "https://khtaria.shop/pl_PL/page/o-nas – pracownia hobby horse, autorskie projekty, boxy do wyszycia, stajnie, przeszkody, akcesoria",
+    "https://khtaria.shop/pl_PL/contact/ – adres Walentynowicz 9 lok. 225, godziny pn–pt 8–16, sobota po umówieniu, prośba o telefon przed wizytą",
+    "https://www.google.com/maps/place/KHT+Aria+Shop/data=!4m7!3m6!1s0x4722573c9370a923:0x2a8c9b8061299f99!8m2!3d51.2347783!4d22.6120004!16s%2Fg%2F11rfl_s9tq!19sChIJI6lwkzxXIkcRmZ8pYYCbjCo – opinie: duży wybór hobby horse i akcesoriów, organizacja zawodów hobby horse w Lublinie"
+   ],
+   "godziny": "pon–pt 08:00–16:00",
+   "godziny_uwaga": "W soboty po wcześniejszym umówieniu."
+  },
+  "0x4722579e997077d9:0xb91ed3dc8006f1e5": {
+   "nazwa": "Lubelska Giełda Staroci",
+   "rodzaj": "targi",
+   "kategoria": "Giełda staroci",
+   "opis": "Comiesięczny targ staroci pod Zamkiem Lubelskim – wystawcy rozkładają stoiska na placu Zamkowym i przy ul. Kowalskiej. Można tu wyszukać antyki, ordery i militaria, monety, znaczki i meble, a także dawne przedmioty codziennego użytku.",
+   "co_kupic": "antyki, ordery i militaria, monety i znaczki, meble, bibeloty i przedmioty z dawnych lat",
+   "zrodlo": "siec",
+   "okazje": [
+    "lokalne",
+    "prezent"
+   ],
+   "dla": "Odbywa się w ostatnią niedzielę miesiąca, 7:00–14:00; w czasie giełdy na placu Zamkowym obowiązuje zakaz parkowania.",
+   "dowody": [
+    "https://archiwum.radio.lublin.pl/2021/05/lubelska-gielda-staroci-wrocila-po-kilku-miesiacach-przerwy – wystawcy na placu Zamkowym i ul. Kowalskiej; ordery, monety, meble, znaczki",
+    "https://www.google.com/maps/place/Lubelska+Gie%C5%82da+Staroci/data=!4m7!3m6!1s0x4722579e997077d9:0xb91ed3dc8006f1e5!8m2!3d51.2508978!4d22.570015!16s%2Fg%2F11hz_8z2j0!19sChIJ2XdwmZ5XIkcR5fEGgNzTHrk – plac Zamkowy, otwarcie w niedzielę od 7:00; opinie: starocie, perełki historyczne i artystyczne, stara elektronika, parking wyłączony na czas giełdy",
+    "https://m.facebook.com/lubelskagieldastaroci/ – profil giełdy (link z Map)"
+   ],
+   "bez_godzin": true,
+   "godziny_uwaga": "Giełda odbywa się w ostatnią niedzielę miesiąca, 7:00–14:00 – terminy na profilu organizatora.",
+   "www": "https://www.facebook.com/lubelskagieldastaroci/"
+  },
+  "0x4722570071aa7f6d:0x9300ef4dd2da5065": {
+   "nazwa": "Córka Piekarza",
+   "rodzaj": "slodkie",
+   "kategoria": "Piekarnia",
+   "opis": "Kameralna piekarnia z kawiarnią w budynku UNIA Art Residence przy Alejach Racławickich. Wypieki powstają na miejscu od wczesnego rana – francuskie croissanty, bagietki, chleby na zakwasie żytnim, makaroniki i autorskie „cebulage”. Można je zabrać na wynos albo zjeść przy kawie w środku.",
+   "co_kupic": "croissanty maślane, cebulage, bułeczki z kremem pistacjowym lub z orzechów laskowych, chleb na zakwasie żytnim, bagietki, makaroniki",
+   "zrodlo": "opinie",
+   "okazje": [
+    "lokalne"
+   ],
+   "dowody": [
+    "https://www.google.com/maps/place/C%C3%B3rka+Piekarza/data=!4m7!3m6!1s0x4722570071aa7f6d:0x9300ef4dd2da5065!8m2!3d51.2476601!4d22.5465183!16s%2Fg%2F11y4vd8p8c!19sChIJbX-qcQBXIkcRZVDa0k3vAJM – adres al. Racławickie 10 (UNIA Art Residence), ocena 4,7 przy 214 opiniach; opinie: świeże wypieki codziennie rano, wybór na słono i słodko, drożdżówki z owocami, pizze, ciasta, wszystko robione na miejscu, ogródek",
+    "https://www.instagram.com/corka_piekarza_lublin – profil piekarni (link z Map)"
+   ]
+  }
+ }
+}

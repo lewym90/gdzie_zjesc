@@ -143,3 +143,11 @@ Dane w `data/noclegi.json`, widoki w `nocl.js`, adresy `#/n/...` (`#/n`, `#/n/wy
 - Teksty nie mogą zawierać dat konkretnego miesiąca/roku (np. „w listopadzie 2026”) – piszemy ogólnie i sezonowo, bo dane się zestarzeją.
 - Godziny z Map często są błędne dla muzeów i kościołów (godziny kancelarii, jeden termin wejścia, „całą dobę”) – wtedy `bez_godzin` + oficjalne godziny w `godziny_uwaga`.
 - Dwie niezależne kontrole: kuracja (4 agenty, źródła w `dowody`) i osobna weryfikacja faktów (4 agenty, wyniki nanoszone skryptem). Ceny usuwamy tylko, gdy są sprzeczne z oficjalnym cennikiem – nie wtedy, gdy weryfikator nie mógł otworzyć strony. Na koniec sprawdzenie wszystkich linków (martwe/zhakowane strony → `www: null`).
+
+## 13. Kategoria Zakupy (Lublin, listopad 2026)
+- Prefiks `zk`, konfiguracja `zakupy.js`, dane `data/zakupy.json`, grafiki `img/banery/zakupy-*.jpg` i `kat-zakupy.jpg`.
+- Rodzaje (ogólne, te same w każdym mieście): galerie, targi, regionalne (delikatesy i produkty regionalne), pamiatki (pamiątki, upominki, rękodzieło), ksiegarnie, vintage, slodkie (na wynos), trunki. Okazje: prezent, dzieci, deszcz, lokalne – z kuracji; `niedziela` (otwarte w niedzielę wg godzin) i `centrum` (do 1 km od Rynku) liczy build. Galerie nigdy nie dostają „niedzieli” – zakaz handlu; mają stałą notkę o niedzielach handlowych.
+- Zbieranie: `collector/zakupy_listing.py` (ok. 45 ogólnych zapytań) → szybka ocena (`scripts_n/zk_quick.py`) → mapowanie kategorii Google na rodzaje + odsiew sieciówek → szczegóły `zakupy_details_run.py`.
+- Kuracja w agentach (decyzja tak/nie, opis ≤ 380 znaków, „co kupić”, dowody), potem niezależna weryfikacja faktów. Wszystko składa `collector/zakupy_kuracja_skladanie.py` → `kuracja_zakupy.json` (powtarzalnie).
+- Pole `co_kupic` jest obowiązkowe – to najważniejsza informacja w tej zakładce.
+- Nie bierzemy: sieciówek (poza głównymi galeriami), hurtowni, sklepów tylko internetowych, zwykłych spożywczych/monopolowych, kawiarni z obsługą na miejscu. Cukiernie/piekarnie/lodziarnie tylko wyróżniające się.

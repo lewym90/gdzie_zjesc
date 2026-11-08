@@ -383,3 +383,8 @@ img.fi.ok{filter:none;transform:none}
 .app.cat-zw .big{background:linear-gradient(160deg,#241c12,#14100a)}
 .app.cat-zw .fc.on{background:linear-gradient(160deg,#9a6e22,#3a2a10)}
 .app.cat-zw .btn.fill{background:linear-gradient(160deg,#9a6e22,#3a2a10);box-shadow:0 6px 20px rgba(58,42,16,.5)}
+.mk.zkmk{width:18px;height:18px;background:radial-gradient(circle at 35% 35%,#c9f2dc,#2f8a5e 62%,#0f2a1d);border:2px solid #e6fff1}
+.mk-cl.zkcl{background:rgba(16,38,28,.94)}
+.app.cat-zk .big{background:linear-gradient(160deg,#12261c,#0a140f)}
+.app.cat-zk .fc.on{background:linear-gradient(160deg,#2f7a55,#0f2a1d)}
+.app.cat-zk .btn.fill{background:linear-gradient(160deg,#2f7a55,#0f2a1d);box-shadow:0 6px 20px rgba(15,42,29,.5)}
