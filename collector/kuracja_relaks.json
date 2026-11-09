@@ -137,7 +137,7 @@
    "nazwa": "Well Spa",
    "rodzaj": "masaz",
    "kategoria": "Gabinet masażu",
-   "opis": "Gabinet masażu prowadzony przez masażystkę Adę, oferujący masaże ciała relaksacyjne i lecznicze oraz masaż głowy i masaż twarzy. Goście opisują wnętrze pachnące olejkami, przytłumione światło i nastrojową muzykę, a siłę nacisku dopasowuje się do życzenia, łącznie z bardzo delikatnym masażem.",
+   "opis": "Gabinet masażu oferujący masaże ciała relaksacyjne i lecznicze oraz masaż głowy i masaż twarzy. Goście opisują wnętrze pachnące olejkami, przytłumione światło i nastrojową muzykę, a siłę nacisku dopasowuje się do życzenia, łącznie z bardzo delikatnym masażem.",
    "zrodlo": "opinie",
    "ma": [
     "masaz"
@@ -181,7 +181,7 @@
    "nazwa": "Masu",
    "rodzaj": "masaz",
    "kategoria": "Gabinet masażu i head spa",
-   "opis": "Gabinet masażu prowadzony przez Monikę, znany z japońskiego head spa – wieloetapowego rytuału łączącego masaż i oczyszczanie skóry głowy, aromaterapię oraz masaż twarzy, szyi i karku. W ofercie są też masaże pleców, nóg i bioder, klasyczny masaż głowy, stemple ziołowe, bańki i drenaż limfatyczny.",
+   "opis": "Gabinet masażu znany z japońskiego head spa – wieloetapowego rytuału łączącego masaż i oczyszczanie skóry głowy, aromaterapię oraz masaż twarzy, szyi i karku. W ofercie są też masaże pleców, nóg i bioder, klasyczny masaż głowy, stemple ziołowe, bańki i drenaż limfatyczny.",
    "zrodlo": "siec",
    "ma": [
     "masaz"
@@ -814,7 +814,7 @@
    "nazwa": "Pracownia Relaksu",
    "rodzaj": "masaz",
    "kategoria": "Gabinet masażu",
-   "opis": "Gabinet masażystki Marty, która dobiera techniki indywidualnie do napięć i dolegliwości klienta. W ofercie masaż rozluźniający, masaż całego ciała ciepłym olejkiem, refleksoterapia stóp i japońskie Kobido – także jako rytuał z peelingiem enzymatycznym i maseczką – a ponadto terapia blizn i masaż dla kobiet w ciąży.",
+   "opis": "Gabinet masażu, w którym techniki dobiera się indywidualnie do napięć i dolegliwości klienta. W ofercie masaż rozluźniający, masaż całego ciała ciepłym olejkiem, refleksoterapia stóp i japońskie Kobido – także jako rytuał z peelingiem enzymatycznym i maseczką – a ponadto terapia blizn i masaż dla kobiet w ciąży.",
    "zrodlo": "siec",
    "ma": [
     "masaz",
@@ -901,7 +901,7 @@
    "nazwa": "Magia Dotyku Massage",
    "rodzaj": "masaz",
    "kategoria": "Gabinet masażu",
-   "opis": "Kameralny gabinet masażu pani Oksany, którego wnętrze goście opisują jako nastrojowe: ze świecami, przygaszonym światłem, muzyką i korzennymi zapachami. W ofercie masaż relaksacyjny ciała i pleców, gorące kamienie, drenaż limfatyczny, Kobido, masaż transbukalny i hiszpański lifting twarzy.",
+   "opis": "Kameralny gabinet masażu, którego wnętrze goście opisują jako nastrojowe: ze świecami, przygaszonym światłem, muzyką i korzennymi zapachami. W ofercie masaż relaksacyjny ciała i pleców, gorące kamienie, drenaż limfatyczny, Kobido, masaż transbukalny i hiszpański lifting twarzy.",
    "zrodlo": "siec",
    "ma": [
     "masaz",
@@ -917,7 +917,7 @@
    "nazwa": "Siła Masażu",
    "rodzaj": "masaz",
    "kategoria": "Gabinet masażu",
-   "opis": "Gabinet masażu prowadzony przez pana Damiana, do którego klienci przychodzą zarówno po odprężenie, jak i z bólami pleców czy napięciem mięśni po treningach. Opinie wymieniają masaż relaksacyjny i leczniczy oraz masaż głowy, który pomaga przy napięciowych bólach głowy.",
+   "opis": "Gabinet masażu, do którego klienci przychodzą zarówno po odprężenie, jak i z bólami pleców czy napięciem mięśni po treningach. Opinie wymieniają masaż relaksacyjny i leczniczy oraz masaż głowy, który pomaga przy napięciowych bólach głowy.",
    "zrodlo": "opinie",
    "ma": [
     "masaz"
@@ -1103,7 +1103,7 @@
    "nazwa": "Body Vital",
    "rodzaj": "masaz",
    "kategoria": "Gabinet masażu",
-   "opis": "Gabinet masażu przy ul. Lwowskiej, prowadzony przez masażystę Michała Sałbuta. W ofercie są masaże relaksacyjne i lecznicze, w których łączone są różne techniki, a intensywność dopasowuje się do potrzeb klienta. Klienci zwracają uwagę na spokojną atmosferę i ulgę przy bólach pleców.",
+   "opis": "Gabinet masażu przy ul. Lwowskiej. W ofercie są masaże relaksacyjne i lecznicze, w których łączone są różne techniki, a intensywność dopasowuje się do potrzeb klienta. Klienci zwracają uwagę na spokojną atmosferę i ulgę przy bólach pleców.",
    "zrodlo": "opinie",
    "ma": [
     "masaz"
@@ -1116,7 +1116,7 @@
    "nazwa": "Touch Relax",
    "rodzaj": "masaz",
    "kategoria": "Gabinet masażu",
-   "opis": "Kameralny salon masażu przy ul. Górskiej, w którym masuje pani Monika. Klienci chwalą masaże ciała dopasowane do oczekiwanej intensywności, pomoc przy spiętych plecach oraz relaksujący masaż twarzy Kobido.",
+   "opis": "Kameralny salon masażu przy ul. Górskiej. Klienci chwalą masaże ciała dopasowane do oczekiwanej intensywności, pomoc przy spiętych plecach oraz relaksujący masaż twarzy Kobido.",
    "zrodlo": "opinie",
    "ma": [
     "masaz"
@@ -1148,7 +1148,7 @@
    "nazwa": "Ciało Studio Masażu",
    "rodzaj": "masaz",
    "kategoria": "Gabinet masażu",
-   "opis": "Kameralne studio masażu w Świdniku prowadzone przez Annę Kasprzak. W ofercie są masaże relaksacyjne i terapeutyczne, masaż twarzy Kobido, KobidoBody oraz masaż transbukalny. Klienci podkreślają spokojną atmosferę bez pośpiechu i podgrzewaną leżankę.",
+   "opis": "Kameralne studio masażu w Świdniku. W ofercie są masaże relaksacyjne i terapeutyczne, masaż twarzy Kobido, KobidoBody oraz masaż transbukalny. Klienci podkreślają spokojną atmosferę bez pośpiechu i podgrzewaną leżankę.",
    "zrodlo": "opinie",
    "ma": [
     "masaz",
@@ -1188,7 +1188,7 @@
    "nazwa": "Gabinet Masażu Inspiracje",
    "rodzaj": "masaz",
    "kategoria": "Gabinet masażu",
-   "opis": "Gabinet masażu przy ul. Tumidajskiego, prowadzony przez Annę Kamińską. Można tu przyjść na masaż relaksacyjny, masaż twarzy Kobido, a także na delikatny masaż dla kobiet w ciąży. Klienci chwalą uważne podejście i praktyczne wskazówki, w tym ćwiczenia do wykonywania w domu.",
+   "opis": "Gabinet masażu przy ul. Tumidajskiego. Można tu przyjść na masaż relaksacyjny, masaż twarzy Kobido, a także na delikatny masaż dla kobiet w ciąży. Klienci chwalą uważne podejście i praktyczne wskazówki, w tym ćwiczenia do wykonywania w domu.",
    "zrodlo": "opinie",
    "ma": [
     "masaz"

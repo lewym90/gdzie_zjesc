@@ -445,7 +445,20 @@
   "capri-72bfe": "https://www.capri-lublin.pl/",
   "campanile-992a7": "https://lublin.campanile.com/",
   "gastro-bros-b7fe5": "https://gastrobros.pl/",
-  "pizza-lublin-lsm-diabelska-pizzeria-af61b": "https://www.facebook.com/DiabelskaPizzeria"
+  "pizza-lublin-lsm-diabelska-pizzeria-af61b": "https://www.facebook.com/DiabelskaPizzeria",
+  "rock-pub-ramzes-8ffb6": "https://www.facebook.com/CafeRamzes/",
+  "bistro-vinna-73d16": "https://week.pl/vinna",
+  "picco-bello-f070b": "https://www.facebook.com/PiccoBelloLublin/",
+  "restauracja-orientalna-van-le-thi-bbbc7": "http://levan.com.pl/",
+  "kebab-ponocna-7c767": "https://www.facebook.com/kebabpolnocnalublin/",
+  "gitpizza-d8767": "https://wolt.com/pl/pol/lublin/restaurant/gitpizza",
+  "pronto-truck-bf93c": "https://pronto-pizza-burger.eatbu.com/",
+  "szeptem-art-cafe-wine-bar-6b5b3": "https://www.instagram.com/szeptem.cafe/",
+  "andare-pizza-lublin-4010f": "https://www.facebook.com/andare.pizza.lublin/",
+  "skwerek-2114b": "https://www.facebook.com/61574843459383/",
+  "hambuka-i-spoka-4402d": "https://www.hambulkaispolka.pl/",
+  "kebab-i-nie-tylko-8ae01": "https://www.kebabinietylkolublin.pl/",
+  "pizzeria-bazyl-i-ja-8b424": "https://www.bazylija.pl/"
  },
  "godziny": {
   "parownia-dim-sum-bar-czechow-018ad": {
@@ -603,6 +616,10 @@
   "kebab-ponocna-7c767": {
    "txt": "pon–nd 18:00–01:30",
    "src": "serwis"
+  },
+  "nieznana-by-ibb-grand-hotel-lublin-b9ccf": {
+   "txt": "pon–nd 09:00–23:00",
+   "src": "strona"
   }
  },
  "telefon": {

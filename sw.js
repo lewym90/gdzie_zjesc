@@ -2,7 +2,7 @@
    Pliki aplikacji i dane: zawsze najpierw sieć (świeża wersja przy każdym uruchomieniu),
    kopia z telefonu tylko bez internetu. Zdjęcia: z pamięci, bo się nie zmieniają. */
 const V = "gz-app";
-const WERSJA = "20261109-063818";
+const WERSJA = "20261109-074600";
 const IMG = "gz-img-v1";
 const SHELL = ["./", "version.json", "index.html", "app.css", "app.js", "kat.js", "nocl.js", "rozr.js", "relaks.js", "zwiedzanie.js", "zakupy.js", "manifest.webmanifest", "data/places.json", "data/noclegi.json", "data/rozrywka.json", "data/relaks.json", "data/zwiedzanie.json", "data/zakupy.json", "img/logo.png", "img/start.jpg"];
 

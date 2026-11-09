@@ -198,7 +198,8 @@
   "Plac zabaw w Ogrodzie Saskim": {
    "indoor": false,
    "desc": "Duży ogrodzony plac zabaw w Ogrodzie Saskim ze zjeżdżalniami, huśtawkami i pajęczyną do wspinaczki, raczej dla starszych dzieci.",
-   "zrodlo": "opinie"
+   "zrodlo": "opinie",
+   "cena": "Wstęp wolny"
   },
   "Słoneczny Wrotków": {
    "indoor": false,
@@ -438,8 +439,9 @@
    "indoor": false,
    "desc": "Sezonowe lodowisko w centrum miasta, czynne zimą, z wypożyczalnią łyżew; w południe w tygodniu najmniej ludzi.",
    "zrodlo": "opinie",
-   "godziny_uwaga": "Lodowisko sezonowe na placu Litewskim, prowadzone przez MOSiR – działa zimą, mniej więcej od połowy grudnia do końca lutego (w poprzednim sezonie codziennie 12:00–22:00).",
-   "www": "https://mosir.lublin.pl/"
+   "godziny_uwaga": "Lodowisko sezonowe na placu Litewskim, prowadzone przez MOSiR „Bystrzyca” – działa zimą, mniej więcej od początku grudnia do połowy lutego.",
+   "www": "https://mosir.lublin.pl/",
+   "cena": "Wejście 5 zł (45 min jazdy); łyżwy z wypożyczalni dodatkowo płatne"
   },
   "Plac zabaw z Rakietą": {
    "indoor": false,
@@ -671,7 +673,8 @@
   },
   "Kino Grażyna": {
    "desc": "Kino z repertuarem dla całej rodziny, łączące nowości z ciekawszymi produkcjami; seanse odbywają się tylko w weekendy.",
-   "zrodlo": "siec"
+   "zrodlo": "siec",
+   "cena": "Wstęp wolny – seanse w poniedziałki o 17:00"
   },
   "Casino Royale": {
    "desc": "Restauracja z parkietem i dansingami przy muzyce zespołu, z kuchnią na miejscu; wstęp na dansing jest płatny.",
