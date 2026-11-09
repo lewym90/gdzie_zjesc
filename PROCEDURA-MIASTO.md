@@ -157,3 +157,11 @@ Dane w `data/noclegi.json`, widoki w `nocl.js`, adresy `#/n/...` (`#/n`, `#/n/wy
 - Tworzenie: agenci po ok. 40 lokali (dane z Map + menu + opinie + strona lokalu), potem NIEZALEŻNA weryfikacja (agenci po ok. 80 lokali) – usuwa wszystko, czego nie da się potwierdzić. Fakt z opinii tylko, gdy powtarza się w min. 2 opiniach.
 - Zakazane: oceny, ceny, godziny, roczniki, reklamowe przymiotniki, „rodzinny/domowy/autorski/od lat” bez źródła.
 - Lokale nieczynne lub z pomieszaną wizytówką wykluczamy po id: `korekty.json` → `wyklucz_id`.
+
+## 15. Trasy (listopad 2026)
+- Prefiks `tr`, moduł `trasy.js` (własny, nie przez `makeKat`, ale wpina się w `KATS` jak kategoria), dane `data/trasy.json`, grafiki `img/banery/trasy-<rodzaj>.jpg` i `kat-trasy.jpg` (do czasu grafik – ikona na gradiencie).
+- **Rodzaje tras ogólne, te same w każdym mieście:** pierwszy (miasto w jeden dzień), weekend (2 dni), dzieci, deszcz, wieczor, okolice (wycieczka autem), historia, smaki (kulinarny spacer). Każde miasto ma po jednej trasie każdego rodzaju (jeśli się da).
+- Trasy powstają TYLKO z miejsc, które już są w aplikacji: `collector/kuracja_trasy.json` → przystanki `zw:id` / `zk:id` / `r:id` + krótka notka. Notki, wstęp i porady wyłącznie z faktów zapisanych w opisach/godzinach/cenach tych miejsc (bez nowych faktów, bez dat konkretnego miesiąca). Flaga `lunch` przy przystanku = build dobiera do 4 restauracji w promieniu 350 m (ocena ≥ 4,5, min. 300 opinii; dla tras wieczornych także bary, puby, winiarnie).
+- Build: `python3 collector/trasy_build.py` (po buildach kategorii – kopiuje nazwę, zdjęcie, godziny, cenę). Odcinki liczy darmowy OSRM (routing.openstreetmap.de): pieszo, a powyżej 1,5 km w linii prostej autem; wynik w cache `collector/dane/trasy_osrm.json`. Na mapie rysowane są prawdziwe ścieżki.
+- Aplikacja liczy na bieżąco status „dziś” każdego przystanku i pokazuje ostrzeżenie, gdy coś jest dziś zamknięte. Przycisk „Otwórz trasę w Mapach Google” buduje link z przystankami (bez API).
+- Kontrola: niezależny agent porównuje każdą notkę/poradę z danymi miejsc; test `scripts_n/e2e_tr.py` (liczba przystanków i markerów, wszystkie linki do miejsc).

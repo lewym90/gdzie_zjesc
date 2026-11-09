@@ -1,0 +1,177 @@
+{
+  "_opis": "Trasy dla Lublina. Przystanki to odwołania do istniejących obiektów: zw = Zwiedzanie, zk = Zakupy, r = Restauracje. Notatki tylko z faktów z naszych opisów (zweryfikowanych). Rodzaje tras są wspólne dla każdego miasta.",
+  "trasy": [
+    {
+      "id": "pierwszy-dzien", "kind": "pierwszy",
+      "title": "Lublin w jeden dzień",
+      "sub": "Najważniejsze miejsca Starego Miasta i Zamek",
+      "intro": "Klasyczna trasa na pierwszy dzień w mieście: z placu Litewskiego deptakiem do Bramy Krakowskiej, przez Rynek i podziemia Starego Miasta aż do Zamku Lubelskiego. Cała trasa pieszo, odcinki między przystankami są krótkie.",
+      "days": [{ "title": "", "stops": [
+        { "ref": "zw:plac-litewski-e651a", "note": "Start na głównym placu miasta – pomnik Unii Lubelskiej, Grób Nieznanego Żołnierza i fontanna multimedialna." },
+        { "ref": "zw:kosciol-swietego-ducha-44967", "note": "Po drodze deptakiem Krakowskie Przedmieście – kościół z 1419 r. przy Nowym Ratuszu." },
+        { "ref": "zw:brama-krakowska-muzeum-historii-miasta-465c0", "note": "Symbol Lublina i wejście na Stare Miasto. Gdy muzeum jest czynne, wejdź na górę po panoramę centrum." },
+        { "ref": "zw:archikatedra-lubelska-8e9d5", "note": "Iluzjonistyczne freski Józefa Meyera optycznie powiększają wnętrze. Tuż obok stoi Wieża Trynitarska z tarasem widokowym." },
+        { "ref": "zw:rynek-i-trybunal-koronny-1d8cd", "note": "Rynek z 1317 r. i dawny ratusz – od 1578 r. siedziba Trybunału Koronnego. Obejdź Rynek dookoła i przyjrzyj się fasadom kamienic.", "lunch": true },
+        { "ref": "zw:lubelska-trasa-podziemna-94b11", "note": "Wejście od Trybunału Koronnego. Zwiedzanie tylko z przewodnikiem o ustalonych godzinach – sprawdź najbliższe wejście." },
+        { "ref": "zw:plac-po-farze-8b911", "note": "Podświetlone fundamenty dawnej fary i widok na wschodnią część miasta oraz Zamek." },
+        { "ref": "zw:brama-grodzka-e5910", "note": "Brama ze Starego Miasta w stronę Zamku – dawniej łączyła je z dzielnicą żydowską." },
+        { "ref": "zw:zamek-lubelski-muzeum-narodowe-b8825", "note": "Główna siedziba Muzeum Narodowego w dawnej rezydencji królewskiej. Jeśli zwiedzasz wystawy, kaplicę i donżon, opłaca się bilet zbiorczy." },
+        { "ref": "zw:kaplica-trojcy-swietej-f7b4c", "note": "Rusko-bizantyńskie polichromie ukończone w 1418 r. Wejścia o pełnych godzinach." }
+      ]}],
+      "tips": [
+        "Wygodne buty – na Starym Mieście jest bruk i sporo podejść.",
+        "W poniedziałki wystawy stałe na Zamku są nieczynne (kaplica i wieża działają) – status każdego przystanku na dziś widzisz przy nim.",
+        "Wieczorem wróć na plac Litewski: w sezonie, mniej więcej od maja do września, odbywają się pokazy fontanny."
+      ]
+    },
+    {
+      "id": "weekend", "kind": "weekend",
+      "title": "Lublin w dwa dni",
+      "sub": "Stare Miasto, Zamek, skansen i centrum",
+      "intro": "Pierwszy dzień to Stare Miasto z podziemiami, kościołami i Zamkiem. Drugi – rano skansen, po południu najstarszy park miasta, Centrum Spotkania Kultur i plac Litewski.",
+      "days": [
+        { "title": "Dzień 1 · Stare Miasto i Zamek", "stops": [
+          { "ref": "zw:brama-krakowska-muzeum-historii-miasta-465c0", "note": "Wejście na Stare Miasto przez gotycką bramę z XIV w.; w środku Muzeum Historii Miasta Lublina." },
+          { "ref": "zw:archikatedra-lubelska-8e9d5", "note": "Freski Józefa Meyera; z przewodnikiem także zakrystia akustyczna, w której szept słychać w przeciwległym narożniku." },
+          { "ref": "zw:rynek-i-trybunal-koronny-1d8cd", "note": "Rynek z kamienicami o malowanych fasadach i dawny ratusz – siedziba Trybunału Koronnego." },
+          { "ref": "zw:lubelska-trasa-podziemna-94b11", "note": "Ok. 300 m piwnic 9–12 m pod ziemią, na koniec pokaz Wielkiego Pożaru Lublina z 1719 r.", "lunch": true },
+          { "ref": "zw:bazylika-i-klasztor-dominikanow-2773c", "note": "Obraz „Pożar Lublina”, a w krużgankach Sala Unii Lubelskiej i skarbiec." },
+          { "ref": "zw:plac-po-farze-8b911", "note": "Fundamenty fary św. Michała i widok na Zamek." },
+          { "ref": "zw:brama-grodzka-e5910", "note": "Ze Starego Miasta w stronę Zamku." },
+          { "ref": "zw:zamek-lubelski-muzeum-narodowe-b8825", "note": "Muzeum Narodowe, Kaplica Trójcy Świętej i donżon – najlepiej na bilet zbiorczy." }
+        ]},
+        { "title": "Dzień 2 · Skansen i centrum", "stops": [
+          { "ref": "zw:muzeum-wsi-lubelskiej-skansen-4393f", "note": "Jeden z największych skansenów w Polsce – wiatrak, cerkiew, dwór i miasteczko z lat 30. XX w. Teren jest rozległy." },
+          { "ref": "zw:ogrod-saski-10e76", "note": "Najstarszy park Lublina z 1837 r. – staw, muszla koncertowa i plac zabaw.", "lunch": true },
+          { "ref": "zw:centrum-spotkania-kultur-fdede", "note": "Nowoczesny gmach z bezpłatnymi tarasami na dachu – czynnymi tylko w ciepłej części roku." },
+          { "ref": "zw:plac-litewski-e651a", "note": "Na koniec dnia główny plac miasta; w sezonie wieczorne pokazy fontanny." }
+        ]}
+      ],
+      "tips": [
+        "Do skansenu jedź rano: od listopada do marca jest czynny tylko do 15:00, ostatnie wejście godzinę przed zamknięciem.",
+        "Między skansenem a Ogrodem Saskim są ok. 4 km – wygodniej podjechać autem lub komunikacją miejską.",
+        "Trasa Podziemna działa tylko z przewodnikiem o ustalonych godzinach – zaplanuj pierwszy dzień pod wybrane wejście."
+      ]
+    },
+    {
+      "id": "z-dziecmi", "kind": "dzieci",
+      "title": "Stare Miasto z dziećmi",
+      "sub": "Legendy, pokazy, lody i wieża z widokiem",
+      "intro": "Krótkie odcinki, dużo opowieści i dwa pokazy, w których dzieci same coś robią. Wszystkie przystanki leżą do ok. 400 m od Rynku (łącznie ok. 1,3 km spaceru), więc łatwo trasę skrócić.",
+      "days": [{ "title": "", "stops": [
+        { "ref": "zw:dom-koziolka-lubelskiego-ee4f0", "note": "Interaktywny pokaz z Koziołkiem z herbu miasta (ok. 75 min) – dzieci robią pieczęć Lublina. Tylko o ustalonych godzinach." },
+        { "ref": "zw:regionalne-muzeum-cebularza-484ab", "note": "Pokaz historii cebularza, a potem każdy piecze swojego. Wejścia o 12:30, 14:30 i 16:00; w dni powszednie rezerwacja." },
+        { "ref": "zw:rynek-i-trybunal-koronny-1d8cd", "note": "Dobry moment na legendę o „diabelskim sądzie” związaną z Trybunałem.", "lunch": true },
+        { "ref": "zw:kamien-nieszczescia-99a9c", "note": "Głaz z lubelskiej legendy o katowskim toporze – podobno lepiej go nie dotykać." },
+        { "ref": "zw:rzezba-sztukmistrza-z-lublina-79d60", "note": "Wypatrzcie linoskoczka z małpką, który balansuje nad ulicą Grodzką." },
+        { "ref": "r:lody-domowe-u-ani-bb514", "note": "Lody na gałki przy placu Zamkowym, tuż pod Zamkiem." },
+        { "ref": "zw:donzon-wieza-zamkowa-6e0e3", "note": "Średniowieczna wieża na zamkowym dziedzińcu – z tarasu na szczycie panorama Starego Miasta." }
+      ]}],
+      "tips": [
+        "Pokazy w Domu Koziołka i w Muzeum Cebularza są o stałych godzinach – ułóż dzień pod nie i zarezerwuj miejsca wcześniej. W soboty Dom Koziołka ma pokaz tylko o 12:00, a w niedziele wyłącznie po wcześniejszym umówieniu.",
+        "Plac zabaw znajdziesz w Ogrodzie Saskim, ok. 1,3 km od Rynku.",
+        "Donżon może zostać zamknięty przy złej pogodzie."
+      ]
+    },
+    {
+      "id": "na-deszcz", "kind": "deszcz",
+      "title": "Lublin na deszczowy dzień",
+      "sub": "Podziemia, muzea i wnętrza – krótkie przebieżki",
+      "intro": "Większość czasu spędzisz pod dachem, a między przystankami przejdziesz najwyżej kilka minut.",
+      "days": [{ "title": "", "stops": [
+        { "ref": "zw:archikatedra-lubelska-8e9d5", "note": "Freski Józefa Meyera; z przewodnikiem zakrystia akustyczna, skarbiec i krypty." },
+        { "ref": "zw:lubelska-trasa-podziemna-94b11", "note": "Ok. 300 m piwnic pod Starym Miastem z makietami dawnego Lublina i pokazem Wielkiego Pożaru." },
+        { "ref": "zw:piwnica-pod-fortuna-b79fc", "note": "Malowidła z ok. 1580 r. w dawnej winiarni przy Rynku 8 – wejścia z przewodnikiem." },
+        { "ref": "zw:regionalne-muzeum-cebularza-484ab", "note": "Pokaz i własny wypiek cebularza w XVI-wiecznej kamienicy przy Rybnej.", "lunch": true },
+        { "ref": "zw:brama-grodzka-teatr-nn-15eb9", "note": "Wystawa „Lublin. Pamięć Miejsca” o żydowskim Lublinie, zwiedzana z przewodnikiem." },
+        { "ref": "zw:zamek-lubelski-muzeum-narodowe-b8825", "note": "Wystawy Muzeum Narodowego – archeologia, rzemiosło, malarstwo polskie i europejskie." },
+        { "ref": "zw:kaplica-trojcy-swietej-f7b4c", "note": "Kaplica na dziedzińcu Zamku z polichromiami ukończonymi w 1418 r." }
+      ]}],
+      "tips": [
+        "Trasę Podziemną i Piwnicę pod Fortuną zwiedza się z przewodnikiem o wyznaczonych godzinach wejść, a wystawę w Bramie Grodzkiej również z przewodnikiem; terminy sprawdź z wyprzedzeniem.",
+        "Teatr NN w Bramie Grodzkiej jest nieczynny w weekendy, a wystawy na Zamku – w poniedziałki. W poniedziałek Zamek możesz zamienić na Dom Słów – Izbę Drukarstwa przy ul. Królewskiej (zwiedzanie z przewodnikiem o wyznaczonych godzinach).",
+        "Pod ziemią jest chłodno – weź bluzę."
+      ]
+    },
+    {
+      "id": "wieczorem", "kind": "wieczor",
+      "title": "Wieczorny spacer",
+      "sub": "Podświetlone Stare Miasto po zmroku",
+      "intro": "Ok. kilometr spacerem od placu Litewskiego przez Bramę Krakowską i Rynek do Bramy Grodzkiej i Latarni Pamięci. Najlepiej zacząć tuż po zmroku, a skończyć kolacją na Starym Mieście.",
+      "days": [{ "title": "", "stops": [
+        { "ref": "zw:plac-litewski-e651a", "note": "W sezonie, mniej więcej od maja do września, wieczorne pokazy fontanny multimedialnej." },
+        { "ref": "zw:brama-krakowska-muzeum-historii-miasta-465c0", "note": "Wieczorem brama jest podświetlona." },
+        { "ref": "zw:rynek-i-trybunal-koronny-1d8cd", "note": "Rynek z kamienicami wokół dawnego ratusza." },
+        { "ref": "zw:plac-po-farze-8b911", "note": "Podświetlone fundamenty fary i widok na Zamek – warto zajrzeć tu po zmroku." },
+        { "ref": "zw:brama-grodzka-e5910", "note": "Wieczorem pięknie podświetlona." },
+        { "ref": "zw:latarnia-pamieci-1dbef", "note": "Przedwojenna latarnia świecąca bez przerwy od 2004 r. – upamiętnia dzielnicę żydowską u stóp Zamku.", "lunch": true }
+      ]}],
+      "tips": [
+        "Na kolację wróć przez Grodzką na Rynek – propozycje lokali w pobliżu masz pod trasą.",
+        "Fontanna na placu Litewskim gra sezonowo, głównie w piątki i soboty po zmroku – sprawdź aktualny harmonogram."
+      ]
+    },
+    {
+      "id": "nalecow-kazimierz", "kind": "okolice",
+      "title": "Nałęczów i Kazimierz Dolny",
+      "sub": "Jednodniowa wycieczka autem",
+      "intro": "Rano uzdrowiskowy Nałęczów, potem Kazimierz Dolny: rynek, renesansowe kamienice, punkt widokowy, ruiny zamku i najsłynniejszy wąwóz. W Kazimierzu auto zostaw na parkingu – rynek, kamienice, Góra Trzech Krzyży i zamek są blisko siebie; do Korzeniowego Dołu jest ok. 2,5 km.",
+      "start": { "name": "Lublin, Stare Miasto", "lat": 51.2478723, "lng": 22.5679886 },
+      "days": [{ "title": "", "stops": [
+        { "ref": "zw:park-zdrojowy-w-naleczowie-9b023", "note": "Uzdrowiskowy park z XVIII w.: pałac Małachowskich z Muzeum Prusa, Stare Łazienki i Dom Zdrojowy z pijalnią wód." },
+        { "ref": "zw:wawoz-glowackiego-w-naleczowie-1dbab", "note": "Lessowy wąwóz ze schodkami kilka minut od centrum Nałęczowa." },
+        { "ref": "zw:rynek-w-kazimierzu-dolnym-a37e6", "note": "Serce miasteczka – kamienice odbudowane po wojnie, m.in. według rysunków Andriollego." },
+        { "ref": "zw:kamienice-przybylow-w-kazimierzu-dolnym-88a29", "note": "Renesansowe fasady z płaskorzeźbami św. Mikołaja i św. Krzysztofa, przy samym rynku." },
+        { "ref": "zw:gora-trzech-krzyzy-w-kazimierzu-dolnym-96b10", "note": "Najpopularniejszy punkt widokowy: panorama Kazimierza i doliny Wisły. Opłata tylko gotówką." },
+        { "ref": "zw:zamek-i-baszta-w-kazimierzu-dolnym-31ddb", "note": "Ruiny zamku z XIV w. i baszta – jeden bilet na oba obiekty." },
+        { "ref": "zw:wawoz-korzeniowy-dol-ec25a", "note": "Plątanina odsłoniętych korzeni na ścianach wąwozu; przejście w obie strony ok. pół godziny." }
+      ]}],
+      "tips": [
+        "Do Korzeniowego Dołu jest ok. 2,5 km od rynku – można dojść pieszo albo podjechać.",
+        "Zamek i baszta w Kazimierzu mogą być zamknięte przy oblodzeniu, burzy lub ulewie.",
+        "Masz więcej czasu? W okolicy są Zamek w Janowcu i Puławy z parkiem Czartoryskich – znajdziesz je w Zwiedzaniu."
+      ]
+    },
+    {
+      "id": "historia", "kind": "historia",
+      "title": "Śladami historii Lublina",
+      "sub": "Unia Lubelska, mury, Trybunał i Zamek",
+      "intro": "Spacer przez kolejne rozdziały dziejów miasta: od pamiątek unii z Litwą, przez średniowieczne obwarowania i Trybunał Koronny, po pamięć o żydowskim Lublinie i Zamek.",
+      "days": [{ "title": "", "stops": [
+        { "ref": "zw:pomnik-unii-lubelskiej-bebf3", "note": "Obelisk z 1826 r. upamiętnia unię Korony z Wielkim Księstwem Litewskim zawartą w Lublinie w 1569 r." },
+        { "ref": "zw:brama-krakowska-muzeum-historii-miasta-465c0", "note": "Brama wzniesiona za Kazimierza Wielkiego; w środku wystawa o dziejach Lublina do 1944 r." },
+        { "ref": "zw:baszta-gotycka-ea5d4", "note": "Baszta z 1341 r. (zrekonstruowana w latach 80. XX w.) z odcinkiem murów obronnych i otworami strzelniczymi, w zaułku przy ul. Królewskiej." },
+        { "ref": "zw:rynek-i-trybunal-koronny-1d8cd", "note": "Rynek wytyczony przy lokacji miasta w 1317 r.; w dawnym ratuszu od 1578 r. obradował Trybunał Koronny." },
+        { "ref": "zw:bazylika-i-klasztor-dominikanow-2773c", "note": "Sala Unii Lubelskiej w krużgankach i obraz „Pożar Lublina” we wnętrzu.", "lunch": true },
+        { "ref": "zw:plac-po-farze-8b911", "note": "Fundamenty gotyckiej fary św. Michała, rozebranej w połowie XIX w." },
+        { "ref": "zw:brama-grodzka-teatr-nn-15eb9", "note": "Wystawa „Lublin. Pamięć Miejsca” o żydowskim Lublinie i Zagładzie, z przewodnikiem." },
+        { "ref": "zw:latarnia-pamieci-1dbef", "note": "Latarnia upamiętniająca dzielnicę żydowską zniszczoną przez Niemców w latach 1942–1943." },
+        { "ref": "zw:zamek-lubelski-muzeum-narodowe-b8825", "note": "Dawna rezydencja królewska, w XIX w. odbudowana jako więzienie, które działało do 1954 r." },
+        { "ref": "zw:sobor-przemienienia-panskiego-1726f", "note": "Cerkiew z lat 1607–1633 z ikonostasem z początku XVII w.; otwarta głównie w czasie nabożeństw." }
+      ]}],
+      "tips": [
+        "Państwowe Muzeum na Majdanku to osobna, kilkugodzinna wizyta ok. 3,6 km od Rynku; w poniedziałki nieczynne.",
+        "Brama Grodzka – Teatr NN jest otwarta od poniedziałku do piątku, a wystawy na Zamku są nieczynne w poniedziałki – najlepiej wybrać się od wtorku do piątku.",
+        "Sobór przy ul. Ruskiej jest otwarty w dni powszednie tylko 9:00–12:00 – zajrzyj tam rano albo w niedzielę po południu (16:30–18:00)."
+      ]
+    },
+    {
+      "id": "smaki", "kind": "smaki",
+      "title": "Kulinarny spacer",
+      "sub": "Cebularze, kuchnia żydowska, lody i regionalne produkty",
+      "intro": "Od najstarszej rzemieślniczej piekarni w mieście, przez muzeum cebularza i obiad na Rynku, po lody i sklep z produktami od regionalnych wytwórców przy Krakowskim Przedmieściu.",
+      "days": [{ "title": "", "stops": [
+        { "ref": "zk:piekarnia-kuzmiuk-furmanska-b6049", "note": "Najstarsza rzemieślnicza piekarnia w Lublinie, prowadzona przez jedną rodzinę od 1944 r. – słynie z cebularzy." },
+        { "ref": "zw:regionalne-muzeum-cebularza-484ab", "note": "Historia cebularza – placka z cebulą i makiem – i własny wypiek. Pokazy o 12:30, 14:30 i 16:00." },
+        { "ref": "zk:pamiatki-z-lublina-cebularz-bca7b", "note": "Przy Rynku 8: cebularze i lokalne przysmaki na wynos." },
+        { "ref": "r:mandragora-zydowska-restauracja-658e9", "note": "Kuchnia żydowska przy Rynku: śledzie, gefilte fisz, czulent lubelski. Dania gotowane tradycyjnie – trzeba chwilę poczekać." },
+        { "ref": "zk:lody-bosko-d234a", "note": "Lubelska marka lodów rzemieślniczych, która zaczynała w 2015 r. w centrum miasta." },
+        { "ref": "zk:benedetto-8102f", "note": "Miody, herbaty ziołowe, przetwory, nabiał i wędliny od regionalnych wytwórców." }
+      ]}],
+      "tips": [
+        "Wieczorem warto zajrzeć do Perłowej przy Bernardyńskiej – pijalni piwa browaru Perła z kuchnią regionalną (piwny cebularz, golonka z jelenia). Godziny ma ograniczone, sprawdź je w Restauracjach.",
+        "W niedziele piekarnia Kuźmiuk i Benedetto są zamknięte."
+      ]
+    }
+  ]
+}
