@@ -400,7 +400,9 @@
    "link": "http://www.paintballninja.pl/pl,0,s228,oferta--cennik.html"
   },
   "Teatr Wschodni": {
-   "desc": "Niezależny teatr łączący tradycję ze współczesnością i różne kultury."
+   "desc": "Niezależny teatr łączący tradycję ze współczesnością i różne kultury.",
+   "cena": "Bilety zależą od wydarzenia – ceny w repertuarze",
+   "link": "https://teatrwschodni.pl/na-afiszu/"
   },
   "Teatr Panopticum": {
    "desc": "Teatr Miejskiego Domu Kultury Pod Akacją, działający od 1984 roku.",
@@ -412,7 +414,8 @@
   "Muszla Koncertowa w Ogrodzie Saskim": {
    "indoor": false,
    "desc": "Plenerowa scena w Ogrodzie Saskim nosząca imię Romualda Lipki, gdzie latem odbywają się koncerty i festiwale, np. KODY.",
-   "zrodlo": "siec"
+   "zrodlo": "siec",
+   "cena": "Zależy od wydarzenia – część koncertów bezpłatna, część biletowana"
   },
   "Paintball Interskills": {
    "indoor": false,
@@ -464,7 +467,9 @@
    "cena": "Od 220 zł za 2 osoby"
   },
   "Factoria Laser Tag": {
-   "desc": "Centrum rozrywki dla całej rodziny: laser tag, questy, labirynt laserowy i sala na urodziny."
+   "desc": "Centrum rozrywki dla całej rodziny: laser tag, questy, labirynt laserowy i sala na urodziny.",
+   "cena": "Laser tag 30 min – 34 zł, 60 min – 68 zł (weekendy i święta 38/76 zł)",
+   "link": "https://factoria.pl/prices/"
   },
   "Klub30": {
    "desc": "Klub dla osób po trzydziestce z parkietem, lożami VIP i muzyką z lat 80. i 90. oraz rockiem; organizuje też koncerty i imprezy tematyczne.",
@@ -511,7 +516,9 @@
    "link": "https://warsztatykultury.pl/pl/"
   },
   "Cinema City Plaza": {
-   "desc": "Kino w CH Plaza: 8 klimatyzowanych sal na ponad 1500 widzów. Kasa otwiera się 30 minut przed pierwszym seansem."
+   "desc": "Kino w CH Plaza: 8 klimatyzowanych sal na ponad 1500 widzów. Kasa otwiera się 30 minut przed pierwszym seansem.",
+   "cena": "2D: normalny 32,90 zł, ulgowy 28,90 zł; 3D od 35,90 zł; Kinowa Środa 20,90 zł",
+   "link": "https://www.cinema-city.pl/magnoliaPublic/dam/jcr:ecbd2db4-355f-4682-ad86-670aba4a2dff"
   },
   "FunPark 360": {
    "desc": "Przestronna sala zabaw z wieloma atrakcjami dla młodszych i starszych dzieci, kawiarnią dla rodziców i organizacją urodzin.",
@@ -577,7 +584,9 @@
   },
   "Klub Dom Kultury": {
    "desc": "Klub muzyczny przy deptaku, działający od 2012 r., z imprezami tanecznymi z DJ-ami i koncertami polskich artystów, m.in. hip-hopowych.",
-   "zrodlo": "siec"
+   "zrodlo": "siec",
+   "cena": "Bilety zależą od wydarzenia – ceny w repertuarze",
+   "link": "https://www.ebilet.pl/miejsce/klub-dom-kultury"
   },
   "Rzut Beretem": {
    "desc": "Klub taneczny z imprezami przy przebojach z lat 70.–2000 i polskich hitach, m.in. nocami retro w stylu „Powrót do przeszłości”.",

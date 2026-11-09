@@ -204,7 +204,7 @@ for p in places: p.pop("_allphotos", None)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from nazwy import czysc
 for p in places:
-    n = KOR.get("nazwy", {}).get(p["name"]) or czysc(p["name"])
+    n = KOR.get("nazwy_id", {}).get(p["id"]) or KOR.get("nazwy", {}).get(p["name"]) or czysc(p["name"])
     if n != p["name"]: p["gname"], p["name"] = p["name"], n
     if not p["category"]: p["category"] = {"pub": "Pub", "bar": "Bar"}.get(p["type"], "Restauracja")
 

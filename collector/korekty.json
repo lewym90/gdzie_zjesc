@@ -405,30 +405,35 @@
   "kasyno-wojskowe-nr-52-12862": "klub"
  },
  "www_martwe": [
-  "bistro-u-mili-e887a",
+  "alshami-kebab-lublin-3ad6f",
   "andare-pizza-lublin-4010f",
-  "restauracja-arte-del-gusto-6430d",
-  "restauracja-trzy-roze-bea50",
+  "bim-14a04",
+  "bistro-u-mili-e887a",
+  "bukhara-restauracja-uzbecka-d767c",
+  "ciociagotuje-pl-express-w-masami-sushi-dbec9",
+  "damaszek-kebab-lublin-85b74",
+  "erbil-kebab-fc9c3",
+  "garmazerka-bim-ade08",
+  "garmazerka-kraina-smaku-22277",
+  "habiby-kebab-154eb",
+  "habiby-kebab-lublin-0a075",
+  "hambuka-i-spoka-4402d",
   "jimmy-s-restaurant-2cf00",
   "kalyna-kuchnia-ukrainska-europejska-73043",
-  "kiedys-w-kopenhadze-d27db",
-  "garmazerka-bim-ade08",
-  "bim-14a04",
-  "hambuka-i-spoka-4402d",
-  "kebab-i-nie-tylko-8ae01",
-  "kucharski-delikatesy-kulinarne-3587e",
-  "szeptem-art-cafe-wine-bar-6b5b3",
-  "bukhara-restauracja-uzbecka-d767c",
-  "pizzeria-bazyl-i-ja-8b424",
-  "damaszek-kebab-lublin-85b74",
-  "pizza-take-and-go-43885",
-  "taki-myk-food-truck-ab71b",
-  "ciociagotuje-pl-express-w-masami-sushi-dbec9",
-  "garmazerka-kraina-smaku-22277",
-  "pasibrzuch-b8542",
   "kasyno-wojskowe-nr-52-12862",
+  "kebab-i-nie-tylko-8ae01",
+  "kiedys-w-kopenhadze-d27db",
+  "kucharski-delikatesy-kulinarne-3587e",
   "nowy-komitet-klub-nocny-dd3bc",
-  "alshami-kebab-lublin-3ad6f"
+  "pasibrzuch-b8542",
+  "pizza-bunia-1ff74",
+  "pizza-take-and-go-43885",
+  "pizzeria-bazyl-i-ja-8b424",
+  "restauracja-arte-del-gusto-6430d",
+  "restauracja-trzy-roze-bea50",
+  "szeptem-art-cafe-wine-bar-6b5b3",
+  "taki-myk-food-truck-ab71b",
+  "villa-i-restauracja-tymotka-a5ada"
  ],
  "www": {
   "dirty-joe-lublin-5f41b": "https://dirtyjoe.pl/",
@@ -586,11 +591,24 @@
   "alinces-restaurant-b77cf": {
    "txt": "pon 11:00–20:30, wt zamknięte, śr–nd 11:00–20:30",
    "src": "serwis"
+  },
+  "crazy-bubble-fd031": {
+   "txt": "pon–sob 10:00–20:00, nd zamknięte",
+   "src": "serwis"
+  },
+  "habiby-kebab-154eb": {
+   "txt": "pon–czw 10:30–01:45, pt–sob 10:30–03:30, nd 10:30–01:45",
+   "src": "serwis"
+  },
+  "kebab-ponocna-7c767": {
+   "txt": "pon–nd 18:00–01:30",
+   "src": "serwis"
   }
  },
  "telefon": {
   "crazy-bubble-fd031": "537 065 687",
-  "campanile-992a7": "81 531 84 00"
+  "campanile-992a7": "81 531 84 00",
+  "rock-pub-ramzes-8ffb6": "690 888 725"
  },
  "menu_url": {
   "domino-s-pizza-c6579": "https://www.dominospizza.pl/menu/pizza",
@@ -600,8 +618,17 @@
   "od-kuchni-7b7cb": "https://www.odkuchni-restauracja.pl/index.php?p=menu&g=daniaGlowne"
  },
  "wyklucz_id": [
+  "bon-apetito-plaza-lublin-4b026",
+  "ciociagotuje-pl-express-w-masami-sushi-dbec9",
+  "erbil-kebab-fc9c3",
+  "pelier-sweets-48304",
   "smart-pizza-delivery-4405f",
-  "taki-myk-food-truck-ab71b",
-  "ciociagotuje-pl-express-w-masami-sushi-dbec9"
- ]
+  "sohel-kebab-381a3",
+  "taki-myk-food-truck-ab71b"
+ ],
+ "nazwy_id": {
+  "kebab-59056": "Kebab Station",
+  "kebaby-i-food-cfdd1": "PRL Bar – Kebaby Kraftowe",
+  "restauracja-orientalna-van-le-thi-bbbc7": "Restauracja Orientalna Le Van"
+ }
 }

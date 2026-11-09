@@ -158,7 +158,9 @@
    ],
    "okazje": [
     "solo"
-   ]
+   ],
+   "cena": "Masaż leczniczy 60 min – 150 zł, 30 min – 100 zł",
+   "cennik": "https://booksy.com/pl-pl/99380_nutrispa_salon-kosmetyczny_6832_lublin"
   },
   "0x472257c817fdf2ff:0x816e52baa75eccf5": {
    "nazwa": "Magia Orientu",
@@ -334,7 +336,9 @@
     "solo",
     "znajomi"
    ],
-   "godziny_uwaga": "Zajęcia odbywają się według grafiku."
+   "godziny_uwaga": "Zajęcia odbywają się według grafiku.",
+   "cena": "Jednorazowe wejście 74 zł (w pakiecie 60 zł); zajęcia indywidualne 70 min – 200 zł",
+   "cennik": "https://www.yogahvile.pl/grupowe"
   },
   "0x472259398f7da5f1:0x1242d296dde32da": {
    "nazwa": "The Honey Lounge",
@@ -611,7 +615,9 @@
    "okazje": [
     "solo",
     "dwoje"
-   ]
+   ],
+   "cena": "Masaż klasyczny 60 min – 200 zł, 75 min – 220 zł",
+   "cennik": "https://booksy.com/pl-pl/203185_rajska-wyspa-wellness-beauty-massage_masaz_6832_lublin"
   },
   "0x47225774b8021eeb:0xd1bfebc34594ff0d": {
    "nazwa": "Gabinet masażu Arek Wójcicki",
@@ -642,7 +648,9 @@
    "okazje": [
     "solo",
     "znajomi"
-   ]
+   ],
+   "cena": "Wstęp wolny",
+   "cennik": null
   },
   "0x47225835612ee0df:0x9d8b202305008c75": {
    "nazwa": "Szkoła jogi Joganga",
@@ -1132,7 +1140,9 @@
     "znajomi"
    ],
    "godziny_uwaga": "Tężnia działa sezonowo, od maja do października; poza sezonem jest wyłączona. Wstęp bezpłatny.",
-   "bez_godzin": true
+   "bez_godzin": true,
+   "cena": "Wstęp wolny",
+   "cennik": null
   },
   "0x472255e0e342d7d9:0x5353925e1f42260a": {
    "nazwa": "Ciało Studio Masażu",
