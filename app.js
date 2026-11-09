@@ -1,5 +1,5 @@
 "use strict";
-const APP_V = "20261109-081516";
+const APP_V = "20261109-083021";
 /* Gdzie zjeść: przeglądarka lokali. Tylko wyświetla dane z data/places.json. */
 
 const ICO = {
@@ -82,6 +82,8 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ł/g, "l");
 const img = (u, w, h) => u + `=w${w}-h${h}-k-no`;
 const fmtR = (r) => (r ? r.toFixed(1).replace(".", ",") : "");
+/* słowa wyszukiwania: dłuższe niż 5 liter skracamy o końcówkę, żeby „pierogi” znalazło też „pierogami” */
+const qWords = (q) => norm(q).trim().split(/\s+/).filter((t) => t.length > 1).map((t) => (t.length > 5 ? t.slice(0, Math.max(5, t.length - 3)) : t));
 const plural = (n, a, b, c) => (n === 1 ? a : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 10 || n % 100 >= 20) ? b : c);
 
 /* ulubione */
@@ -120,7 +122,7 @@ function cityAddr(a) { return (a || "").replace(/,?\s*\d{2}-\d{3}\s*/, ", ").rep
 /* filtrowanie */
 function filtered() {
   const f = S.filters, q = norm(S.q).trim();
-  const words = q ? q.split(/\s+/) : [];
+  const words = qWords(q);
   const now = new Date();
   return DB.places.filter((p) => {
     if (f.cuisine && !p.cuisines.includes(f.cuisine)) return false;
@@ -129,7 +131,7 @@ function filtered() {
     if (f.type && p.type !== f.type) return false;
     if (f.open && openState(p, now) !== true) return false;
     if (words.length) {
-      const hay = p._hay || (p._hay = norm([p.name, p.gname, p.category, p.address, p.cuisines.map(cuisineLabel).join(" "), typeLabel(p.type)].join(" ")));
+      const hay = p._hay || (p._hay = norm([p.name, p.gname, p.category, p.address, p.cuisines.map(cuisineLabel).join(" "), typeLabel(p.type), p.desc].join(" ")));
       if (!words.every((w) => hay.includes(w))) return false;
     }
     return true;
@@ -192,10 +194,11 @@ function viewHome() {
 function viewStart() {
   const nR = DB.places.length;
   const kat = [["kat-restauracje", "Restauracje", `${nR} ${plural(nR, "miejsce", "miejsca", "miejsc")} · kuchnie, klimat, okazje`, "#/restauracje", "#4f0e1b", "cloche"]]
-    .concat((typeof KATS !== "undefined" ? KATS : []).map((k) => [k.tile[0], k.tile[1], k.tile[2](k.count()), "#/" + k.p, k.tile[3], k.tile[4]]));
+    .concat((typeof KATS !== "undefined" ? KATS : []).filter((k) => k.tile).map((k) => [k.tile[0], k.tile[1], k.tile[2](k.count()), "#/" + k.p, k.tile[3], k.tile[4]]));
   return `<header class="hdr"><div class="hdr-row"><div class="brand"><img src="img/logo.png" alt=""><h1>Na mieście</h1></div>
     <span class="city"><i>${ico("pin")}</i>${esc(DB.meta.city || "Lublin")}</span></div></header>
   <section class="sec st-lead"><h2>Czego dziś szukasz?</h2><p>Sprawdzone miejsca w jednym przewodniku.</p></section>
+  ${typeof WSP !== "undefined" ? WSP.startHtml() : ""}
   <div class="bns">${kat.map(([k, t, sub, h, tint, ic]) => banner(k, t, sub, h, tint, ic)).join("")}</div>`;
 }
 const TABS = {
@@ -366,7 +369,7 @@ function viewDetail(id, tab) {
   const os = openState(p);
   const menuHref = p.menu && p.menu.length ? "#menu" : p.menuUrl || p.menuPdf || p.gmaps;
   return `<div class="dt-hero"><div class="strip" id="hstrip">${ph.map((u, i) => `<img src="${img(u, 1200, 1000)}" alt="" ${i > 1 ? 'loading="lazy"' : ""} referrerpolicy="no-referrer" data-vi="${i}" class="fi" style="background-image:url('${img(u, 36, 30)}')">`).join("")}</div>
-    <div class="dt-top"><a class="ib" href="#/restauracje" data-back><i>${ico("back")}</i></a><div class="r"><button class="ib ${FAV.has(p.id) ? "on" : ""}" data-fav="${p.id}"><i>${ico("heart")}</i></button><button class="ib" data-share><i>${ico("share")}</i></button></div></div>
+    <div class="dt-top"><a class="ib" href="#/restauracje" data-back><i>${ico("back")}</i></a><div class="r">${typeof planBtn === "function" ? planBtn("r:" + p.id) : ""}<button class="ib ${FAV.has(p.id) ? "on" : ""}" data-fav="${p.id}"><i>${ico("heart")}</i></button><button class="ib" data-share><i>${ico("share")}</i></button></div></div>
     <span class="dt-cnt" id="hcnt">1 / ${ph.length}</span></div>
   <div class="dt-main">
     <div class="dt-title"><h1>${esc(p.name)}</h1>${p.price ? `<span class="price">${esc(p.price)}</span>` : ""}</div>

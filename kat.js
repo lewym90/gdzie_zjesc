@@ -42,8 +42,8 @@ function makeKat(C) {
       else if (v && !F.test(p, v)) return false;
     }
     if (q) {
-      const hay = p._hay || (p._hay = norm([p.name, p.address, kindOf(p.kind).one, p.areaName, p.category, p.tags].join(" ")));
-      if (!norm(q).split(/\s+/).every((w) => hay.includes(w))) return false;
+      const hay = p._hay || (p._hay = norm([p.name, p.address, kindOf(p.kind).one, p.areaName, p.category, p.tags, p.coKupic, p.desc].join(" ")));
+      if (!qWords(q).every((w) => hay.includes(w))) return false;
     }
     return true;
   }
@@ -134,7 +134,7 @@ function makeKat(C) {
     const ph = p.photos;
     const acts = C.acts(p);
     return `<div class="dt-hero"><div class="strip" id="hstrip">${ph.map((u, i) => `<img src="${img(u, 1200, 1000)}" alt="" ${i > 1 ? 'loading="lazy"' : ""} referrerpolicy="no-referrer" data-kvi="${i}" data-vi="${i}" class="fi" style="background-image:url('${img(u, 36, 30)}')">`).join("")}</div>
-    <div class="dt-top"><a class="ib" href="${H}" data-back><i>${ico("back")}</i></a><div class="r"><button class="ib ${FAV.has(p.id) ? "on" : ""}" data-kfav="${p.id}"><i>${ico("heart")}</i></button><button class="ib" data-kshare><i>${ico("share")}</i></button></div></div>
+    <div class="dt-top"><a class="ib" href="${H}" data-back><i>${ico("back")}</i></a><div class="r">${typeof planBtn === "function" ? planBtn(P + ":" + p.id) : ""}<button class="ib ${FAV.has(p.id) ? "on" : ""}" data-kfav="${p.id}"><i>${ico("heart")}</i></button><button class="ib" data-kshare><i>${ico("share")}</i></button></div></div>
     <span class="dt-cnt" id="hcnt">1 / ${ph.length}</span></div>
   <div class="dt-main">
     <div class="dt-title"><h1>${esc(p.name)}</h1>${C.titleRight ? C.titleRight(p) : ""}</div>
@@ -353,6 +353,8 @@ function makeKat(C) {
     count: () => (ND ? ND.places.length : 0),
     banners: () => (ND && ND.meta.banners) || [],
     byId: (x) => NBY[x],
+    all: () => (ND ? ND.places : []), ready: load, kindLabel: (p) => kindOf(p.kind).one, name: C.name, ico: C.ico, noun: C.noun,
+    sub: (p) => (C.popLine ? C.popLine(p) : C.subLine(p)).join(" · "),
     mapVisible(on) { const w = $("#" + id("mapwrap")); if (on) { mapWrap().hidden = false; showMap(); } else if (w) w.hidden = true; },
   };
   KATS.push(api);

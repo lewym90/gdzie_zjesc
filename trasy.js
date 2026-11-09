@@ -122,7 +122,7 @@ const TRASY = (function () {
         <p class="trintro">${esc(t.intro)}</p>
         ${t.days.length > 1 ? `<div class="trdays">${t.days.map((d, i) => `<a href="${H}/trasa/${t.id}?d=${i + 1}" data-trday class="${i === di ? "on" : ""}">${esc(d.title.split(" · ")[0])}</a>`).join("")}</div><h3 class="trdh">${esc(day.title.split(" · ")[1] || day.title)}</h3>` : ""}
         <div class="trmap" id="trmap"></div>
-        <a class="btn ol trgm" href="${gmapsUrl(day.stops, t.mode)}" target="_blank" rel="noopener"><i>${ico("gmaps")}</i>Otwórz trasę w Mapach Google</a>
+        <div class="wbtns"><a class="btn ol trgm" href="${gmapsUrl(day.stops, t.mode)}" target="_blank" rel="noopener"><i>${ico("gmaps")}</i>Mapy Google</a><button class="btn ol trgm" data-planall="${esc(day.stops.map((s) => s.cat + ":" + s.id).join("|"))}"><i>${ico("planAdd")}</i>Do mojego planu</button></div>
         ${shut.length ? `<div class="trwarn"><b>Dziś (${DAYS[wd()]}) zamknięte:</b> ${shut.map((s) => esc(s.name)).join(", ")}. Zmień kolejność albo wybierz inny dzień.</div>` : ""}
         ${t.start ? `<div class="trleg car start"><i>${ico("carL")}</i>Start: ${esc(t.start.name)}</div>` : ""}
         <div class="trlist">${st}</div>
@@ -189,6 +189,7 @@ const TRASY = (function () {
     count: () => (ND ? ND.places.length : 0),
     banners: () => (ND && ND.meta.banners) || [],
     byId: (x) => BY[x],
+    all: () => (ND ? ND.places : []), ready: load,
     mapVisible() {},
   };
   KATS.push(api);

@@ -165,3 +165,11 @@ Dane w `data/noclegi.json`, widoki w `nocl.js`, adresy `#/n/...` (`#/n`, `#/n/wy
 - Build: `python3 collector/trasy_build.py` (po buildach kategorii – kopiuje nazwę, zdjęcie, godziny, cenę). Odcinki liczy darmowy OSRM (routing.openstreetmap.de): pieszo, a powyżej 1,5 km w linii prostej autem; wynik w cache `collector/dane/trasy_osrm.json`. Na mapie rysowane są prawdziwe ścieżki.
 - Aplikacja liczy na bieżąco status „dziś” każdego przystanku i pokazuje ostrzeżenie, gdy coś jest dziś zamknięte. Przycisk „Otwórz trasę w Mapach Google” buduje link z przystankami (bez API).
 - Kontrola: niezależny agent porównuje każdą notkę/poradę z danymi miejsc; test `scripts_n/e2e_tr.py` (liczba przystanków i markerów, wszystkie linki do miejsc).
+
+## 16. Funkcje wspólne: Blisko mnie, Szukaj wszędzie, Mój plan, Z dziećmi (listopad 2026)
+- Moduł `wspolne.js` (prefiks `w`, bez kafla na starcie – na starcie jest pole wyszukiwania i 3 przyciski). Nie ma własnych danych: czyta Restauracje (`DB`) i kategorie z `KATS` (`all()`, `ready()`, `sub()`, `kindLabel()` w `kat.js`). Nowa kategoria pojawia się tu automatycznie, trzeba tylko dopisać jej kolor i nazwę pojedynczą w `SRC` w `wspolne.js`.
+- Dane miasta dla tych funkcji: `CITY_C` w `wspolne.js` (środek = Rynek, granice). Przy nowym mieście – zmienić.
+- Szukaj wszędzie i wyszukiwarki w zakładkach mają te same zasady (`qWords` w `app.js`): nazwa, adres, rodzaj, kategoria, tagi, opis; słowa > 5 liter skracane o końcówkę („pierogi” = „pierogami”). Liczby w grupach muszą zgadzać się z „Wszystkie ›” w zakładce (sprawdza `scripts_n/e2e_w.py`).
+- Blisko mnie: GPS; gdy brak zgody lub użytkownik jest poza miastem – miejsca wokół Rynku z wyraźną informacją. Lokale z Rozrywki, które są też w Restauracjach (`rest`), nie dublują się.
+- Mój plan: przycisk kalendarza z plusem na karcie każdego miejsca i „Do mojego planu” na trasie; zapis w `localStorage` (`gz-plan`), kolejność ręczna lub „Ułóż najkrótszą trasę” (do 8 miejsc wszystkie kolejności, więcej – najbliższy sąsiad + 2-opt), link do Map Google. Odległości szacunkowe (linia prosta + 30%).
+- Z dziećmi: Trasa dla dzieci + miejsca oznaczone dla dzieci w Zwiedzaniu, Rozrywce, Zakupach, rodzinne Restauracje i Noclegi dla rodzin – z linkami „Zobacz wszystkie” do filtrów zakładek.
