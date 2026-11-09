@@ -110,7 +110,7 @@ const TRASY = (function () {
     if (!t) return bar("Trasy") + `<div class="empty"><i>${ico("route")}</i><br>Nie znalazłem tej trasy.</div>`;
     const di = Math.min(t.days.length - 1, Math.max(0, (+pp.get("d") || 1) - 1)), day = t.days[di];
     const K = KINDS[t.kind], BN = ND.meta.banners || [];
-    const hero = BN.includes("trasy-" + t.kind) ? `<img src="img/banery/trasy-${t.kind}.jpg" alt="">` : `<i class="bn-ico">${ico(K.ico)}</i>`;
+    const hero = BN.includes("trasy-" + t.kind) ? `<img class="wide" src="img/banery/trasy-${t.kind}.jpg" alt="">` : `<i class="bn-ico">${ico(K.ico)}</i>`;
     const shut = day.stops.filter(closedToday);
     let n = 0;
     const st = day.stops.map((s) => stopHtml(s, ++n, t)).join("");
